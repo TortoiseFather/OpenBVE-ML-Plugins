@@ -1,0 +1,14 @@
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\bin\Debug\net7.0\InputTracker.deps.json
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\bin\Debug\net7.0\InputTracker.dll
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\bin\Debug\net7.0\InputTracker.pdb
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\bin\Debug\net7.0\OpenBveApi.dll
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net7.0\InputTracker.csproj.AssemblyReference.cache
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net7.0\InputTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net7.0\InputTracker.AssemblyInfoInputs.cache
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net7.0\InputTracker.AssemblyInfo.cs
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net7.0\InputTracker.csproj.CoreCompileInputs.cache
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net7.0\InputTracker.csproj.CopyComplete
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net7.0\InputTracker.dll
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net7.0\refint\InputTracker.dll
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net7.0\InputTracker.pdb
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net7.0\ref\InputTracker.dll

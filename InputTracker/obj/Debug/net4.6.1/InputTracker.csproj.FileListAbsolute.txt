@@ -1,0 +1,22 @@
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net4.6.1\InputTracker.csproj.AssemblyReference.cache
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net4.6.1\InputTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net4.6.1\InputTracker.AssemblyInfoInputs.cache
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net4.6.1\InputTracker.AssemblyInfo.cs
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net4.6.1\InputTracker.csproj.CoreCompileInputs.cache
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\bin\Debug\net4.6.1\InputTracker.dll
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\bin\Debug\net4.6.1\InputTracker.pdb
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\bin\Debug\net4.6.1\OpenBveApi.dll
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net4.6.1\InputTracker.csproj.CopyComplete
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net4.6.1\InputTracker.dll
+C:\Users\jh3556\AppData\Roaming\OpenBve\LegacyContent\Train\royal scots 2\class66\InputTracker\InputTracker\obj\Debug\net4.6.1\InputTracker.pdb
+X:\RailStateMachine\img\InputTracker\InputTracker\bin\Debug\net4.6.1\InputTracker.dll
+X:\RailStateMachine\img\InputTracker\InputTracker\bin\Debug\net4.6.1\InputTracker.pdb
+X:\RailStateMachine\img\InputTracker\InputTracker\bin\Debug\net4.6.1\OpenBveApi.dll
+X:\RailStateMachine\img\InputTracker\InputTracker\obj\Debug\net4.6.1\InputTracker.csproj.AssemblyReference.cache
+X:\RailStateMachine\img\InputTracker\InputTracker\obj\Debug\net4.6.1\InputTracker.GeneratedMSBuildEditorConfig.editorconfig
+X:\RailStateMachine\img\InputTracker\InputTracker\obj\Debug\net4.6.1\InputTracker.AssemblyInfoInputs.cache
+X:\RailStateMachine\img\InputTracker\InputTracker\obj\Debug\net4.6.1\InputTracker.AssemblyInfo.cs
+X:\RailStateMachine\img\InputTracker\InputTracker\obj\Debug\net4.6.1\InputTracker.csproj.CoreCompileInputs.cache
+X:\RailStateMachine\img\InputTracker\InputTracker\obj\Debug\net4.6.1\InputTra.FBF47FBB.Up2Date
+X:\RailStateMachine\img\InputTracker\InputTracker\obj\Debug\net4.6.1\InputTracker.dll
+X:\RailStateMachine\img\InputTracker\InputTracker\obj\Debug\net4.6.1\InputTracker.pdb

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "InputTracker/1.0.0": {
+        "dependencies": {
+          "OpenBveApi": "1.5.5.0"
+        },
+        "runtime": {
+          "InputTracker.dll": {}
+        }
+      },
+      "OpenBveApi/1.5.5.0": {
+        "runtime": {
+          "OpenBveApi.dll": {
+            "assemblyVersion": "1.5.5.0",
+            "fileVersion": "1.5.5.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InputTracker/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenBveApi/1.5.5.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
