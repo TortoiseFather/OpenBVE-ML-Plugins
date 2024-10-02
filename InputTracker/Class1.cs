@@ -1,24 +1,22 @@
-﻿using System.IO;
-using OpenBveApi.Runtime;
-using System;
+﻿using System;
  using System.Collections.Generic;
  using System.IO;
  using System.Linq;
  using System.Threading;
  using System.Threading.Tasks;
-using OpenBveApi.Interface;  // Add this for InterfaceQuickReference
+using OpenBveApi.Runtime;
+using TrainManager; // Import TrainManager namespace for TrainManagerBase
+using TrainManager.Trains;  // If needed for accessing TrainBase type
 
 namespace OpenBVETrainPlugin
 {
-    public class TrainPlugin : IRuntime
+    public class TrainPlugin : IScoreRuntime
     {
-        // Path to log the data
         private string logFilePath;
         public bool IsPressedS;
         public bool IsPressedA1;
-        private string currentScore;  // String to store the score from InterfaceQuickReference
+        private int currentScore = 0;
 
-        // This method initializes the plugin and is called once when the train is loaded
         public bool Load(LoadProperties properties)
         {
             // Set the log file path to the user's Documents folder or a local folder
@@ -31,28 +29,30 @@ namespace OpenBVETrainPlugin
             // Create the log file if it doesn't exist, and write the header
             if (!File.Exists(logFilePath))
             {
-                File.WriteAllText(logFilePath, "TotalTime,Speed(km/h),PowerNotch,BrakeNotch,AWS,A1Alert,SignalAspect,Score\n");
+                File.WriteAllText(logFilePath, "TotalTime,Speed(km/h),PowerNotch,BrakeNotch,AWS,A1Alert,SignalAspect,CurrentRouteLimit,CurrentSectionLimit,Score\n");
             }
 
-            // Access the InterfaceQuickReference via Translations.QuickReferences
-            if (properties.AddScore != null)
-            {
-                properties.AddScore += AddScoreCallback;
-            }
-
-            // Optionally, log train properties here
             properties.AISupport = AISupport.None; // Disable AI support
-
             return true; // Return true to indicate the plugin has loaded successfully
         }
 
-        // Called when the simulation starts (IRuntime requirement)
+        // Required method from IRuntime
         public void Initialize(InitializationModes mode)
         {
-            // Initialize any resources or variables if needed
+            // Perform any initialization required by the plugin
+            Console.WriteLine($"TrainPlugin initialized in mode: {mode}");
         }
 
-        // Called each frame to retrieve data
+        // Handle score events here
+        public void ScoreEvent(int Value, ScoreEventToken TextToken, double Duration)
+        {
+            // Update the current score based on the value
+            currentScore += Value; // Assuming this adds to the score
+
+            // Optionally, log or process the score event
+            Console.WriteLine($"Score updated: {currentScore}, Event Token: {TextToken}, Duration: {Duration}");
+        }
+
         public void Elapse(ElapseData data)
         {
             // Capture data
@@ -60,20 +60,27 @@ namespace OpenBVETrainPlugin
             int powerNotch = data.Handles.PowerNotch;
             int brakeNotch = data.Handles.BrakeNotch;
             double totalTime = data.TotalTime.Seconds;
-            bool IsPressedS2 = IsPressedS;
 
-            // Update the score if available
-            if (Translations.QuickReferences != null)
+            // Access CurrentRouteLimit and CurrentSectionLimit from PlayerTrain
+            var playerTrain = TrainManagerBase.PlayerTrain;  // Accessing the PlayerTrain field in TrainManagerBase
+
+            if (playerTrain != null)
             {
-                currentScore = Translations.QuickReferences.Score;  // Read score into the variable
-            }
+                double currentRouteLimit = playerTrain.CurrentRouteLimit;
+                double currentSectionLimit = playerTrain.CurrentSectionLimit;
 
-            // Log data to CSV including the current score
-            string logLine = $"{totalTime},{speed},{powerNotch},{brakeNotch},{IsPressedS2},{IsPressedA1}, ,{currentScore}";
-            File.AppendAllText(logFilePath, logLine + Environment.NewLine);
+                // Log data to CSV including the current score, CurrentRouteLimit, and CurrentSectionLimit
+                string logLine = $"{totalTime},{speed},{powerNotch},{brakeNotch},{IsPressedS},{IsPressedA1}, ,{currentRouteLimit},{currentSectionLimit},{currentScore}";
+                File.AppendAllText(logFilePath, logLine + Environment.NewLine);
+            }
+            else
+            {
+                // If PlayerTrain is null, log default values
+                string logLine = $"{totalTime},{speed},{powerNotch},{brakeNotch},{IsPressedS},{IsPressedA1}, ,0,0,{currentScore}";
+                File.AppendAllText(logFilePath, logLine + Environment.NewLine);
+            }
         }
 
-        // Handle signal changes and log signal aspects
         public void SetSignal(SignalData[] signals)
         {
             if (signals.Length > 0)
@@ -91,9 +98,6 @@ namespace OpenBVETrainPlugin
             }
         }
 
-        public void SetPower(int notch) { }
-        public void SetBrake(int notch) { }
-        public void SetReverser(int position) { }
         public void KeyDown(VirtualKeys key)
         {
             if (key == VirtualKeys.S)
@@ -105,6 +109,7 @@ namespace OpenBVETrainPlugin
                 IsPressedA1 = true;
             }
         }
+
         public void KeyUp(VirtualKeys key)
         {
             if (key == VirtualKeys.S)
@@ -117,6 +122,9 @@ namespace OpenBVETrainPlugin
             }
         }
 
+        public void SetPower(int notch) { }
+        public void SetBrake(int notch) { }
+        public void SetReverser(int position) { }
         public void DoorChange(DoorStates oldState, DoorStates newState) { }
         public void HornBlow(HornTypes type) { }
         public void SetBeacon(BeaconData beacon) { }

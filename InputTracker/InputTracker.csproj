@@ -9,6 +9,9 @@
     <Reference Include="OpenBveApi">
       <HintPath>libs/OpenBveApi.dll</HintPath>
     </Reference>
+    <Reference Include="TrainManager">
+      <HintPath>libs/TrainManager.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
