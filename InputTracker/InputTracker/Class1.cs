@@ -5,10 +5,11 @@
  using System.Threading;
  using System.Threading.Tasks;
 using OpenBveApi.Runtime;
+using TrainManager; // Import TrainManager namespace for TrainManagerBase
+using TrainManager.Trains;  // If needed for accessing TrainBase type
 
 namespace OpenBVETrainPlugin
 {
-    // Implementing IScoreRuntime, which likely extends IRuntime
     public class TrainPlugin : IScoreRuntime
     {
         private string logFilePath;
@@ -28,7 +29,7 @@ namespace OpenBVETrainPlugin
             // Create the log file if it doesn't exist, and write the header
             if (!File.Exists(logFilePath))
             {
-                File.WriteAllText(logFilePath, "TotalTime,Speed(km/h),PowerNotch,BrakeNotch,AWS,A1Alert,SignalAspect,Score\n");
+                File.WriteAllText(logFilePath, "TotalTime,Speed(km/h),PowerNotch,BrakeNotch,AWS,A1Alert,SignalAspect,CurrentRouteLimit,CurrentSectionLimit,Score\n");
             }
 
             properties.AISupport = AISupport.None; // Disable AI support
@@ -60,9 +61,24 @@ namespace OpenBVETrainPlugin
             int brakeNotch = data.Handles.BrakeNotch;
             double totalTime = data.TotalTime.Seconds;
 
-            // Log data to CSV including the current score
-            string logLine = $"{totalTime},{speed},{powerNotch},{brakeNotch},{IsPressedS},{IsPressedA1}, ,{currentScore}";
-            File.AppendAllText(logFilePath, logLine + Environment.NewLine);
+            // Access CurrentRouteLimit and CurrentSectionLimit from PlayerTrain
+            var playerTrain = TrainManagerBase.PlayerTrain;  // Accessing the PlayerTrain field in TrainManagerBase
+
+            if (playerTrain != null)
+            {
+                double currentRouteLimit = playerTrain.CurrentRouteLimit;
+                double currentSectionLimit = playerTrain.CurrentSectionLimit;
+
+                // Log data to CSV including the current score, CurrentRouteLimit, and CurrentSectionLimit
+                string logLine = $"{totalTime},{speed},{powerNotch},{brakeNotch},{IsPressedS},{IsPressedA1}, ,{currentRouteLimit},{currentSectionLimit},{currentScore}";
+                File.AppendAllText(logFilePath, logLine + Environment.NewLine);
+            }
+            else
+            {
+                // If PlayerTrain is null, log default values
+                string logLine = $"{totalTime},{speed},{powerNotch},{brakeNotch},{IsPressedS},{IsPressedA1}, ,0,0,{currentScore}";
+                File.AppendAllText(logFilePath, logLine + Environment.NewLine);
+            }
         }
 
         public void SetSignal(SignalData[] signals)

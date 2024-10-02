@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InputTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94a0cfb24e3bf9616430edff3b258fbf4d92dd20")]
 [assembly: System.Reflection.AssemblyProductAttribute("InputTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InputTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

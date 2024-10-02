@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\RailStateMachine\\img\\InputTracker\\InputTracker\\InputTracker.csproj",
+      "projectUniqueName": "X:\\OpenBVE-ML-Plugins\\InputTracker\\InputTracker\\InputTracker.csproj",
       "projectName": "InputTracker",
-      "projectPath": "X:\\RailStateMachine\\img\\InputTracker\\InputTracker\\InputTracker.csproj",
+      "projectPath": "X:\\OpenBVE-ML-Plugins\\InputTracker\\InputTracker\\InputTracker.csproj",
       "packagesPath": "C:\\Users\\kohai\\.nuget\\packages\\",
-      "outputPath": "X:\\RailStateMachine\\img\\InputTracker\\InputTracker\\obj\\",
+      "outputPath": "X:\\OpenBVE-ML-Plugins\\InputTracker\\InputTracker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "X:\\Visual Studio\\Shared\\NuGetPackages"
