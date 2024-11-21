@@ -1,5 +1,3 @@
 is_global = true
 build_property.RootNamespace = InputTracker
-build_property.ProjectDir = X:\RailStateMachine\img\InputTracker\InputTracker\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = D:\Work\OpenBVE-ML-Plugins-main\InputTracker\InputTracker\

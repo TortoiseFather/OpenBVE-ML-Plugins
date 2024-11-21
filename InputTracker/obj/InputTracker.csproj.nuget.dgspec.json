@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "X:\\RailStateMachine\\img\\InputTracker\\InputTracker\\InputTracker.csproj": {}
+    "D:\\Work\\OpenBVE-ML-Plugins-main\\InputTracker\\InputTracker\\InputTracker.csproj": {}
   },
   "projects": {
-    "X:\\RailStateMachine\\img\\InputTracker\\InputTracker\\InputTracker.csproj": {
+    "D:\\Work\\OpenBVE-ML-Plugins-main\\InputTracker\\InputTracker\\InputTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\RailStateMachine\\img\\InputTracker\\InputTracker\\InputTracker.csproj",
+        "projectUniqueName": "D:\\Work\\OpenBVE-ML-Plugins-main\\InputTracker\\InputTracker\\InputTracker.csproj",
         "projectName": "InputTracker",
-        "projectPath": "X:\\RailStateMachine\\img\\InputTracker\\InputTracker\\InputTracker.csproj",
-        "packagesPath": "C:\\Users\\kohai\\.nuget\\packages\\",
-        "outputPath": "X:\\RailStateMachine\\img\\InputTracker\\InputTracker\\obj\\",
+        "projectPath": "D:\\Work\\OpenBVE-ML-Plugins-main\\InputTracker\\InputTracker\\InputTracker.csproj",
+        "packagesPath": "C:\\Users\\jh3556\\.nuget\\packages\\",
+        "outputPath": "D:\\Work\\OpenBVE-ML-Plugins-main\\InputTracker\\InputTracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "X:\\Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kohai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jh3556\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,25 +38,26 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net461": {
           "targetAlias": "net4.6.1",
           "dependencies": {
-            "Microsoft.NETFramework.ReferenceAssemblies": {
-              "suppressParent": "All",
+            "Microsoft.CSharp": {
               "target": "Package",
-              "version": "[1.0.3, )",
-              "autoReferenced": true
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.Toolkit.Uwp.Notifications": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
