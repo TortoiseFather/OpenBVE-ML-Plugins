@@ -10,7 +10,7 @@ using TrainManager.Trains;
 using Newtonsoft.Json;
 using TrainManager;
 
-namespace OpenBVETrainPlugin
+namespace OpenBVETrainPluginBackup
 {
     // Implementing IScoreRuntime, which likely extends IRuntime
     public class TrainPlugin : IScoreRuntime 
@@ -23,58 +23,29 @@ namespace OpenBVETrainPlugin
         private string ActionFilePath = "action.json";
         private string ErrorLogFilePath = "plugin_log.txt";
         public bool Load(LoadProperties properties)
-{
-    try
-    {
-        // Set up directories and file paths
-        string documentsFolder = @"D:\OpenBVE_Data";
-        Directory.CreateDirectory(documentsFolder); // Ensure the directory exists
-        logFilePath = Path.Combine(documentsFolder, "OpenBVE_Train_Data", "train_data_log.csv");
-        StateFilePath = Path.Combine(documentsFolder, "OpenBVETrainData", "state.json");
-        ActionFilePath = Path.Combine(documentsFolder, "OpenBVETrainData", "action.json");
-        ErrorLogFilePath = Path.Combine(documentsFolder, "OpenBVETrainData", "plugin_log.txt");
-
-        // Create subdirectories if necessary
-        Directory.CreateDirectory(Path.GetDirectoryName(logFilePath));
-        Directory.CreateDirectory(Path.GetDirectoryName(StateFilePath));
-
-        // Create and initialize log file
-        if (!File.Exists(logFilePath))
         {
-            File.WriteAllText(logFilePath, "TotalTime,Speed(km/h),PowerNotch,BrakeNotch,AWS,A1Alert,SignalAspect,SpeedLimit,CurrentSectionLimit,Score\n");
-        }
+            string documentsFolder = @"F:\OpenBVE_Data";
+            Directory.CreateDirectory(documentsFolder); // Ensure the directory exists
+            logFilePath = Path.Combine(documentsFolder, "OpenBVE_Train_Data", "train_data_log.csv");
+            StateFilePath = Path.Combine(documentsFolder, "OpenBVETrainData", "state.json");
+            ActionFilePath = Path.Combine(documentsFolder, "OpenBVETrainData", "action.json");
+            ErrorLogFilePath = Path.Combine(documentsFolder, "OpenBVETrainData", "plugin_log.txt");
+            // Create the directory if it doesn't exist
+            Directory.CreateDirectory(Path.GetDirectoryName(logFilePath));
 
-        // Create and initialize state file
-        if (!File.Exists(StateFilePath))
-        {
-            var initialState = new
+            // Create the log file if it doesn't exist, and write the header
+            if (!File.Exists(logFilePath))
             {
-                TotalTime = 0,
-                Speed = 0,
-                PowerNotch = 0,
-                BrakeNotch = 0,
-                AWS = false,
-                A1Alert = false,
-                SignalAspect = 0,
-                SpeedLimit = 0,
-                CurrentSectionLimit = 0,
-                Score = 0
-            };
-            File.WriteAllText(StateFilePath, JsonConvert.SerializeObject(initialState, Formatting.Indented));
+                File.WriteAllText(logFilePath, "TotalTime,Speed(km/h),PowerNotch,BrakeNotch,AWS,A1Alert,SignalAspect,SpeedLimit,CurrentSectionLimit,Score\n");
+            }
+            if(!File.Exists(StateFilePath))
+            {
+                File.WriteAllText(StateFilePath, JsonConvert.SerializeObject( "TotalTime,Speed(km/h),PowerNotch,BrakeNotch,AWS,A1Alert,SignalAspect,Score\n", Formatting.Indented));
+            }
+
+            properties.AISupport = AISupport.None; // Disable AI support
+            return true; // Return true to indicate the plugin has loaded successfully
         }
-
-        // Disable AI support
-        properties.AISupport = AISupport.None;
-        return true; // Plugin successfully loaded
-    }
-    catch (Exception ex)
-    {
-        // Log the exception to a local file
-        File.AppendAllText("plugin_load_errors.txt", $"Error in Load: {ex.Message}\n{ex.StackTrace}\n");
-        return false; // Indicate the plugin failed to load
-    }
-}
-
          private void Log(string message)
         {
             try

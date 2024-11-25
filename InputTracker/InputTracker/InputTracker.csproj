@@ -7,11 +7,14 @@
   <ItemGroup>
     <!-- Add the reference to the OpenBveApi.dll -->
     <Reference Include="OpenBveApi">
-      <HintPath>libs/OpenBveApi.dll</HintPath>
+      <HintPath>OpenBveApi.dll</HintPath>
     </Reference>
     <Reference Include="TrainManager">
-      <HintPath>libs/TrainManager.dll</HintPath>
+      <HintPath>TrainManager.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>

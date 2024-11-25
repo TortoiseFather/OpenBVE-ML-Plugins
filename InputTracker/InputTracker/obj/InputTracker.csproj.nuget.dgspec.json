@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "X:\\OpenBVE-ML-Plugins\\InputTracker\\InputTracker\\InputTracker.csproj": {}
+    "D:\\Work\\BVE Train Stuff\\OpenBVE-ML-Plugins-main\\InputTracker\\InputTracker\\InputTracker.csproj": {}
   },
   "projects": {
-    "X:\\OpenBVE-ML-Plugins\\InputTracker\\InputTracker\\InputTracker.csproj": {
+    "D:\\Work\\BVE Train Stuff\\OpenBVE-ML-Plugins-main\\InputTracker\\InputTracker\\InputTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\OpenBVE-ML-Plugins\\InputTracker\\InputTracker\\InputTracker.csproj",
+        "projectUniqueName": "D:\\Work\\BVE Train Stuff\\OpenBVE-ML-Plugins-main\\InputTracker\\InputTracker\\InputTracker.csproj",
         "projectName": "InputTracker",
-        "projectPath": "X:\\OpenBVE-ML-Plugins\\InputTracker\\InputTracker\\InputTracker.csproj",
-        "packagesPath": "C:\\Users\\kohai\\.nuget\\packages\\",
-        "outputPath": "X:\\OpenBVE-ML-Plugins\\InputTracker\\InputTracker\\obj\\",
+        "projectPath": "D:\\Work\\BVE Train Stuff\\OpenBVE-ML-Plugins-main\\InputTracker\\InputTracker\\InputTracker.csproj",
+        "packagesPath": "C:\\Users\\jh3556\\.nuget\\packages\\",
+        "outputPath": "D:\\Work\\BVE Train Stuff\\OpenBVE-ML-Plugins-main\\InputTracker\\InputTracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "X:\\Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kohai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jh3556\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,17 +38,18 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net461": {
           "targetAlias": "net4.6.1",
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
