@@ -1,0 +1,209 @@
+
+[object]
+states = Class 180_2.b3d
+
+[object]
+states = interior\Class 180_3.b3d
+
+[INCLUDE]
+interior\180-3-seats.animated
+Position=+0,+0,+0
+
+
+
+[INCLUDE]
+LNS\L5.csv
+Position=+0,+0,+0
+
+
+; ends and wires
+[INCLUDE]
+COUPLER\gangwayends.csv
+Position=+0,+0,+22.889
+
+
+[INCLUDE]
+COUPLER\buffers.csv
+Position=+0,+0,+22.889
+
+
+
+[INCLUDE]
+v2.csv
+Position=+0,+0,+0
+
+
+
+
+
+
+[object]
+Position = 0,0, 0
+states = door 1-2.b3d
+TranslateXFunction = min[rightDoors,0.1]
+TranslateZFunction = rightdoors[1]
+RefreshRate = 0.01
+
+
+[object]
+Position = 0,0, 0
+states = door 2-2.b3d
+TranslateXFunction = min[rightDoors,0.1]
+TranslateZFunction = -rightdoors[1]
+RefreshRate = 0.01
+
+[object]
+Position = 0,0, 0
+states = door 3-2.b3d
+TranslateXFunction = -min[leftDoors,0.1]
+TranslateZFunction = leftdoors[1]
+RefreshRate = 0.01
+
+[object]
+Position = 0,0, 0
+states = door 4-2.b3d
+TranslateXFunction = -min[leftDoors,0.1]
+TranslateZFunction = -leftdoors[1]
+RefreshRate = 0.01
+
+
+
+
+
+
+
+;bogie one
+
+
+[object]
+states = bogiefrnt1.csv
+Position = -0, -0.18, 8
+[object]
+Position = -0.72, 0.42, 9.12
+states = bogieleft.csv
+RotateXFunction = value + delta * speedometer / 0.625
+
+[object]
+Position = 0.72, 0.42, 9.12
+states = bogieright.csv
+RotateXFunction = value + delta * speedometer / 0.625
+
+[object]
+Position = 0.72, 0.42, 7.02
+states = bogieright.csv
+RotateXFunction = value + delta * speedometer / 0.625
+
+[object]
+Position = -0.72, 0.42, 7.02
+states = bogieleft.csv
+RotateXFunction = value + delta * speedometer / 0.625
+
+
+
+[object]
+Position = 0,0,8
+states = CYL1.b3d
+
+[object]
+Position = 0,0,8
+states = CYL2.b3d
+
+[object]
+Position = 0,0,8
+states = CYL3.b3d
+
+[object]
+Position = 0,0,8
+states = CYL4.b3d
+
+
+
+
+
+
+
+
+
+
+;bogie two
+
+
+[object]
+states = bogiefrnt1.csv
+Position = -0, -0.18, -8
+[object]
+Position = -0.72, 0.42, -9.12
+states = bogieleft.csv
+RotateXFunction = value + delta * speedometer / 0.625
+
+[object]
+Position = 0.72, 0.42, -9.12
+states = bogieright.csv
+RotateXFunction = value + delta * speedometer / 0.625
+
+[object]
+Position = 0.72, 0.42, -7.02
+states = bogieright.csv
+RotateXFunction = value + delta * speedometer / 0.625
+
+[object]
+Position = -0.72, 0.42, -7.02
+states = bogieleft.csv
+RotateXFunction = value + delta * speedometer / 0.625
+
+
+
+[object]
+Position = 0,0,-8
+states = CYL1.b3d
+
+[object]
+Position = 0,0,-8
+states = CYL2.b3d
+
+[object]
+Position = 0,0,-8
+states = CYL3.b3d
+
+[object]
+Position = 0,0,-8
+states = CYL4.b3d
+
+
+
+
+
+
+;steps
+
+[object]
+Position = 0,0,9.9
+states = step.b3d
+
+
+[object]
+Position = 0,0,-9.9
+states = step.b3d
+
+
+
+[object]
+Position = 2.55,0,9.9
+states = step.b3d
+
+
+[object]
+Position = 2.55,0,-9.9
+states = step.b3d
+
+
+
+
+[Object]
+Position = 0, 0, 0
+States = interior\Class 180_1-lights2.b3d,interior\Class 180_1-lights.b3d,interior\Class 180_1-lights.b3d,interior\Class 180_1-lights.b3d
+statefunction = pluginstate[20]
+
+
+
+
