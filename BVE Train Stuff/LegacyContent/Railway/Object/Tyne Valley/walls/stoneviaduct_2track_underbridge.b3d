@@ -1,0 +1,116 @@
+;author=eezypeazy
+;description=stone viaduct no handrail 2 track wide underbridge
+;copyright=eezypeazy 2009, all rights reserved  www.eezypeazy.co.uk
+
+[meshbuilder]
+vertex -3.6,-5.2,-0.3
+vertex -3.35,-2.7,-0.3
+vertex 7.35,-2.7,-0.3
+vertex 7.6,-5.2,-0.3
+vertex -3.15,-0.3,-0.3
+vertex 7.15,-0.3,-0.3
+
+vertex -3.6,-5.2,1.5
+vertex -3.35,-2.7,1.5
+vertex -3.35,-2.7,-0.3
+vertex -3.6,-5.2,-0.3
+vertex -3.15,-0.3,1.5
+vertex -3.15,-0.3,-0.3
+
+vertex -3.6,-5.2,1.5
+vertex -3.35,-2.7,1.5
+vertex 7.35,-2.7,1.5
+vertex 7.6,-5.2,1.5
+vertex -3.15,-0.3,1.5
+vertex 7.15,-0.3,1.5
+
+face 0,1,2,3
+face 1,4,5,2
+
+face 6,7,8,9
+face 7,10,11,8
+
+face 15,14,13,12
+face 14,17,16,13
+
+[texture]
+load stoneviaduct.bmp
+coordinates 0,0,0.41
+coordinates 1,0.026,1
+coordinates 2,1.974,1
+coordinates 3,2,0.41
+coordinates 4,0.02343,0.405
+coordinates 5,1.97656,0.405
+
+coordinates 6,0,0.41
+coordinates 7,0,1
+coordinates 8,0.1,1
+coordinates 9,0.1,0.41
+coordinates 10,0,0.41
+coordinates 11,0.1,0.41
+
+coordinates 12,0,0.41
+coordinates 13,0.026,1
+coordinates 14,1.974,1
+coordinates 15,2,0.41
+coordinates 16,0.02343,0.405
+coordinates 17,1.97656,0.405
+
+
+
+
+
+[meshbuilder]
+vertex -3.6,-5.2,-0.3
+vertex -3.35,-2.7,-0.3
+vertex 7.35,-2.7,-0.3
+vertex 7.6,-5.2,-0.3
+vertex -3.15,-0.3,-0.3
+vertex 7.15,-0.3,-0.3
+
+vertex -3.6,-5.2,1.5
+vertex -3.35,-2.7,1.5
+vertex -3.35,-2.7,-0.3
+vertex -3.6,-5.2,-0.3
+vertex -3.15,-0.3,1.5
+vertex -3.15,-0.3,-0.3
+
+vertex -3.6,-5.2,1.5
+vertex -3.35,-2.7,1.5
+vertex 7.35,-2.7,1.5
+vertex 7.6,-5.2,1.5
+vertex -3.15,-0.3,1.5
+vertex 7.15,-0.3,1.5
+
+face 0,1,2,3
+face 1,4,5,2
+
+face 6,7,8,9
+face 7,10,11,8
+
+face 15,14,13,12
+face 14,17,16,13
+translate 0,0,24
+
+[texture]
+load stoneviaduct.bmp
+coordinates 0,0,0.41
+coordinates 1,0.026,1
+coordinates 2,1.974,1
+coordinates 3,2,0.41
+coordinates 4,0.02343,0.405
+coordinates 5,1.97656,0.405
+
+coordinates 6,0,0.41
+coordinates 7,0,1
+coordinates 8,0.1,1
+coordinates 9,0.1,0.41
+coordinates 10,0,0.41
+coordinates 11,0.1,0.41
+
+coordinates 12,0,0.41
+coordinates 13,0.026,1
+coordinates 14,1.974,1
+coordinates 15,2,0.41
+coordinates 16,0.02343,0.405
+coordinates 17,1.97656,0.405

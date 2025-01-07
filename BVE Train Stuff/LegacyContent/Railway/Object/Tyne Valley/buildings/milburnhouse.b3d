@@ -1,0 +1,38 @@
+;author=eezypeazy
+;description=milburn house
+;copyright=eezypeazy, all rights reserved. For use in my BVE routes only
+;www.eezypeazy.co.uk
+
+[meshbuilder]
+vertex -10,-5,-25
+vertex -10,13,-25
+vertex 0,13,-25
+vertex 0,-5,-25
+vertex 0,13,25
+vertex 0,-5,25
+;face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load milburnhouse.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 4,1,0
+coordinates 5,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 25,-5,-35
+vertex 0,-4.9,-35
+vertex -10,-4.9,45
+vertex 55,-5,0
+face 0,1,2,3
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,2

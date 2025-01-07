@@ -1,0 +1,51 @@
+;author=eezypeazy
+;description=simple old factory building
+;copyright=eezypeazy 2009, all rights reserved, go to www.eezypeazy.co.uk
+
+[meshbuilder]
+vertex 5,-2,25
+vertex 5,3,25
+vertex 5,3,0
+vertex 5,-2,0
+vertex 15,3,0
+vertex 15,-2,0
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,4
+coordinates 1,0,0
+coordinates 2,11,0
+coordinates 3,11,4
+coordinates 4,17,0
+coordinates 5,17,4
+
+;roof
+[meshbuilder]
+vertex 5,3,25
+vertex 10,6,22
+vertex 10,6,3
+vertex 5,3,0
+face 0,1,2,3
+color 144,144,144
+
+[texture]
+load ..\textures\rooftilesold.bmp
+coordinates 0,0,3
+coordinates 1,0.6,0
+coordinates 2,4.4,0
+coordinates 3,5,3
+
+[meshbuilder]
+vertex 5,3,0
+vertex 10,6,3
+vertex 15,3,0
+face 0,1,2
+color 144,144,144
+
+[texture]
+load ..\textures\rooftilesold.bmp
+coordinates 0,0,3
+coordinates 1,1,0
+coordinates 2,2,3

@@ -1,0 +1,45 @@
+;author=eezypeazy, based on Uwe Post's work
+;description=fences 75m long for Metro station
+;copyright=free for use in BVE and RouteBuilder
+
+[MeshBuilder]
+Vertex -6.2, 0.9, -46
+Vertex -6.2, 0.9, 20
+Vertex -6.2, 2.3, 20
+Vertex -6.2, 2.3, -46
+Vertex -6.5, 2.3, -46
+Vertex -6.5, 0.9, -46
+vertex -6.5,2.3,26
+
+Vertex 10.2, 0.9, -46
+Vertex 10.2, 0.9, 20
+Vertex 10.2, 2.3, 20
+Vertex 10.2, 2.3, -46
+Vertex 10.5, 2.3, -46
+Vertex 10.5, 0.9, -46
+vertex 10.5,2.3,26
+
+Face 3,2,1,0
+face 4,3,0,5
+face 3,4,6,2
+face 7,8,9,10
+face 7,10,11,12
+face 9,13,11,10
+
+[Texture]
+Load ..\buildings\bluemetalfence.bmp
+Coordinates 0, 0.05,1
+Coordinates 1, 18,1
+Coordinates 2, 18, 0.025
+Coordinates 3, 0, 0.025
+Coordinates 4, 0, 0
+Coordinates 5, 0,1
+coordinates 6,18,0
+Coordinates 7, 0.05,1
+Coordinates 8, 18,1
+Coordinates 9, 18, 0.05
+Coordinates 10, 0, 0.05
+Coordinates 11, 0.05, 0
+Coordinates 12, 0,1
+coordinates 13,18,0
+transparent 0,0,255

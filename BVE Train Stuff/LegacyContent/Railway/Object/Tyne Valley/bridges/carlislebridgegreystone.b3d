@@ -1,0 +1,282 @@
+;author=eezypeazy
+;description= a metal bridge
+;copyright=eezypeazy, all rights reserved
+;uses a bitmap from a photograph by Craig Allan, who retains copyright
+
+[meshbuilder]
+vertex -2.7,7,0
+vertex -2.7,8.8,0
+vertex 2,8.9,0
+vertex 2,7,0
+vertex 6.7,8.9,0
+vertex 6.7,7,0
+
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load carlisle1.BMP
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,0
+coordinates 5,0,1
+transparent 0,0,255
+
+;walls
+[meshbuilder]
+vertex -3.1,-0.4,0
+vertex -3.1,7.1,0
+vertex -2.5,7.1,0
+vertex -2.5,-0.4,0
+vertex -2.5,7.1,10
+vertex -2.5,-0.4,10
+vertex 6.5,-0.4,10
+vertex 6.5,7.1,10
+vertex 6.5,7.1,0
+vertex 6.5,-0.4,0
+vertex 7.1,7.1,0
+vertex 7.1,-0.4,0
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+face 9,8,10,11
+color 255,200,200
+
+[texture]
+load ..\textures\stonegrey.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,0.5,0
+coordinates 3,0.5,2
+coordinates 4,4,0
+coordinates 5,4,2
+coordinates 6,0,2
+coordinates 7,0,0
+coordinates 8,4,0
+coordinates 9,4,2
+coordinates 10,4.5,0
+coordinates 11,4.5,2
+
+;butresses
+[meshbuilder]
+vertex -5.3,-0.4,-8
+vertex -5.3,1,-8
+vertex -5,1,-8
+vertex -5,-0.4,-8
+vertex -4.5,7.6,0
+vertex -3.7,-0.4,0
+vertex 10.3,-0.4,-8
+vertex 10.3,1,-8
+vertex 10,1,-8
+vertex 10,-0.4,-8
+vertex 8.5,7.6,0
+vertex 7.7,-0.4,0
+face 0,1,2,3
+face 3,2,4,5
+face 9,8,7,6
+face 11,10,8,9
+color 255,200,200
+
+[texture]
+load ..\textures\stonegrey.bmp
+coordinates 0,0,4
+coordinates 1,0,3.3
+coordinates 2,0.5,3.3
+coordinates 3,0.5,4
+coordinates 4,4,0
+coordinates 5,4,4
+
+coordinates 6,0,4
+coordinates 7,0,3.3
+coordinates 8,0.5,3.3
+coordinates 9,0.5,4
+coordinates 10,4,0
+coordinates 11,4,4
+
+
+
+;banks
+[meshbuilder]
+vertex -12,-0.4,-15
+vertex -12,7.1,0
+vertex -4.5,7.1,0
+vertex -5,-0.4,-8 
+vertex 10.3,-0.4,-8
+vertex 8.5,7.1,0
+vertex 16.5,7.1,0
+vertex 16.5,-0.4,-3 
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,3
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,3
+coordinates 4,0,3
+coordinates 5,0,0
+coordinates 6,3,0
+coordinates 7,3,3
+
+[meshbuilder]
+vertex -12,7.1,0
+vertex -12,8.66,0
+vertex -3.5,10,0
+vertex -3.5,7.1,0
+vertex 7.5,7.1,0
+vertex 7.5,10,0
+vertex 16.5,8.66,0
+vertex 16.5,7.1,0
+face 0,1,2,3
+face 4,5,6,7
+color 145,145,145
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0.7,0.9
+coordinates 1,0.9,0
+coordinates 2,0,0.1
+coordinates 3,0,0.9
+coordinates 4,0,0.9
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,0.7,0.9
+transparent 0,0,255
+
+[meshbuilder]
+vertex -8.5,-0.5,-12
+vertex -8.5,5.5,-12
+vertex -5,5.5,-9
+vertex -5,-0.5,-9
+vertex -13,-0.5,-12
+vertex -13,9,-12
+vertex -8,9,-8
+vertex -8,-0.5,-8
+
+vertex -16,-0.5,-12
+vertex -16,8,-12
+vertex -12,8,-8
+vertex -12,-0.5,-8
+
+vertex -22,-0.5,-12
+vertex -22,6,-12
+vertex -15,6,-8
+vertex -15,-0.5,-8
+
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+face 12,13,14,15
+color 255,255,131
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0.7,0.9
+coordinates 1,0.9,0
+coordinates 2,0,0.1
+coordinates 3,0,0.9
+coordinates 4,0.7,0.9
+coordinates 5,1,0
+coordinates 6,0,0.1
+coordinates 7,0,0.9
+
+coordinates 8,0.7,0.9
+coordinates 9,1,0
+coordinates 10,0,0.1
+coordinates 11,0,0.9
+
+coordinates 12,0.7,0.9
+coordinates 13,1,0
+coordinates 14,0,0.1
+coordinates 15,0,0.9
+
+transparent 0,0,255
+
+
+;underside
+[meshbuilder]
+vertex -2.6,7.1,9
+vertex -2.6,7.1,-0.2
+vertex 6.6,7.1,-0.2
+vertex 6.6,7.1,9
+face 0,1,2,3
+color 88,88,88
+
+;pillars
+[meshbuilder]
+vertex -4.6,-0.4,-0.3
+vertex -4.6,7.1,-0.3
+vertex -2.7,7.1,-0.3
+vertex -2.7,-0.4,-0.3
+vertex -4.6,-0.4,-0.3
+vertex -4.6,8.8,-0.3
+vertex -2.7,8.8,-0.3
+vertex -2.7,-0.4,-0.3
+vertex -2.7,8.8,0.3
+vertex -2.7,-0.4,0.3
+vertex 6.7,-0.4,-0.3
+vertex 6.7,7.1,-0.3
+vertex 8.6,7.1,-0.3
+vertex 8.6,-0.4,-0.3
+vertex 6.7,-0.4,-0.3
+vertex 6.7,8.8,-0.3
+vertex 8.6,8.8,-0.3
+vertex 8.6,-0.4,-0.3
+vertex 6.7,8.8,0.3
+vertex 6.7,-0.4,0.3
+
+;face 0,1,2,3
+face 4,5,6,7
+face 7,6,8,9
+;face 10,11,12,13
+face 14,15,16,17
+face 19,18,15,14
+color 255,200,200
+
+[texture]
+load ..\textures\stonegrey.BMP
+coordinates 0,0,4
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,4
+coordinates 4,0,4
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,4
+coordinates 8,1,4
+coordinates 9,1,4
+coordinates 10,0,4
+coordinates 11,0,0
+coordinates 12,1,0
+coordinates 13,1,4
+coordinates 14,0,4
+coordinates 15,0,0
+coordinates 16,1,0
+coordinates 17,1,4
+coordinates 18,1,0
+coordinates 19,1,4
+
+
+
+[meshbuilder]
+cube 1.1,0.15,0.3
+translate -3.6,8.8,-0.1
+color 150,100,75
+
+[meshbuilder]
+cube 1.1,0.15,0.3
+translate -3.6,7.2,-0.1
+color 150,100,75
+
+[meshbuilder]
+cube 1.1,0.15,0.3
+translate 7.6,7.2,-0.1
+color 150,100,75
+
+[meshbuilder]
+cube 1.1,0.15,0.3
+translate 7.6,8.8,-0.1
+color 150,100,75

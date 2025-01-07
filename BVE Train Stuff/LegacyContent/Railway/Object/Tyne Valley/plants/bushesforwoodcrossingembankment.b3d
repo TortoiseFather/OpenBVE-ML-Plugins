@@ -1,0 +1,65 @@
+;author=eezypeazy
+;description=bushes for wooden crossing on an embankment
+;copyright=eezypeazy, all rights reserved, go to http://members.lycos.co.uk/eezypeazy
+
+[meshbuilder]
+vertex -11,-5,0
+vertex -11,-1,0
+vertex -6,1,0
+vertex -6,-3,0
+vertex -2,3,-0.3
+vertex -2,0,-0.3
+vertex -11,-5,8.2
+vertex -11,-1,8.2
+vertex -6,1,8.2
+vertex -6,-3,8.2
+vertex -2,3,8.2
+vertex -2,0,8.2
+vertex 15,-5,0
+vertex 15,-1,0
+vertex 10,1,0
+vertex 10,-3,0
+vertex 6,3,-0.3
+vertex 6,0,-0.3
+vertex 15,-5,8.2
+vertex 15,-1,8.2
+vertex 10,1,8.2
+vertex 10,-3,8.2
+vertex 6,3,8.2
+vertex 6,0,8.2
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+face 9,8,10,11
+face 15,14,13,12
+face 17,16,14,15
+face 21,20,19,18
+face 23,22,20,21
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.7,0
+coordinates 3,0.7,1
+coordinates 4,0,0
+coordinates 5,0,1
+coordinates 6,0,1
+coordinates 7,0,0
+coordinates 8,0.7,0
+coordinates 9,0.7,1
+coordinates 10,0,0
+coordinates 11,0,1
+coordinates 12,0,1
+coordinates 13,0,0
+coordinates 14,0.7,0
+coordinates 15,0.7,1
+coordinates 16,0,0
+coordinates 17,0,1
+coordinates 18,0,1
+coordinates 19,0,0
+coordinates 20,0.7,0
+coordinates 21,0.7,1
+coordinates 22,0,0
+coordinates 23,0,1
+transparent 0,0,255

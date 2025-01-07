@@ -1,0 +1,16 @@
+;author=eezypeazy
+;description=a special wall for Carlisle ramp
+;copyright=eezypeazy 2006, all rights reserved, contact eezypeazy@blueyonder.co.uk
+
+[meshbuilder]
+vertex 2.8,-0.4,0.2
+vertex 2.8,4.4,0.2
+vertex 2.8,-0.4,-100
+face 0,1,2
+
+[texture]
+load ..\grounds\cutting.bmp
+coordinates 0,0,0.7
+coordinates 1,0,0.2
+coordinates 2,5,0.7
+

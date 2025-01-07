@@ -1,0 +1,72 @@
+;author=eezypeazy
+;description=a simple factory unit
+;copyright=eezypeazy 2009, all rights reserved. Uses a RouteBuilder bitmap
+[meshbuilder]
+vertex 7,0,5
+vertex 7,4,5
+vertex 7,4,-25
+vertex 7,0,-25
+vertex 22,4,-25
+vertex 22,0,-25
+vertex 22,4,5
+vertex 22,0,5
+face 0,1,2,3
+face 3,2,4,5
+face 7,6,1,0
+
+[texture]
+load brickwall2.bmp
+coordinates 0,2,1
+coordinates 1,2,0
+coordinates 2,7,0
+coordinates 3,7,1
+coordinates 4,9,0
+coordinates 5,9,1
+coordinates 6,0,0
+coordinates 7,0,1
+
+[meshbuilder]
+vertex 7,4,5
+vertex 7,4.4,5
+vertex 7,4.4,-25
+vertex 7,4,-25
+vertex 22,4.4,-25
+vertex 22,4,-25
+vertex 22,4.4,5
+vertex 22,4,5
+face 0,1,2,3
+face 3,2,4,5
+face 7,6,1,0
+color 222,222,222
+
+[meshbuilder]
+vertex 6.85,0,0
+vertex 6.85,2.2,0
+vertex 6.85,2.2,-1
+vertex 6.85,0,-1
+face 0,1,2,3
+color 55,55,255
+
+[meshbuilder]
+vertex 6.85,0,-6
+vertex 6.85,2.2,-6
+vertex 6.85,2.2,-7
+vertex 6.85,0,-7
+face 0,1,2,3
+color 222,222,222
+
+[meshbuilder]
+vertex 6.85,0,-15
+vertex 6.85,2.2,-15
+vertex 6.85,2.2,-16
+vertex 6.85,0,-16
+face 0,1,2,3
+color 222,222,222
+
+[meshbuilder]
+vertex 6,0.1,7
+vertex 8,0.1,7
+vertex 8,0.1,-25
+vertex 6,0.1,-25
+face 0,1,2,3
+color 90,90,90

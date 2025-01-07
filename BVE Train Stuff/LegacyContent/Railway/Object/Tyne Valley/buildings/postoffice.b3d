@@ -1,0 +1,32 @@
+;author=eezypeazy
+;description=Newcastle Sorting Office
+;copyright=eezypeazy, all rights reserved. For use in my BVE routes only
+
+[meshbuilder]
+vertex -19,-8,0
+vertex -19,15,0
+vertex 0,15,0
+vertex 0,-8,0
+face 0,1,2,3
+
+[texture]
+load postoffice.bmp
+coordinates 0,0,0.96
+coordinates 1,-0.96,0.96
+coordinates 2,-0.96,0
+coordinates 3,0,0
+
+[meshbuilder]
+vertex 0,-8,0
+vertex 0,15,0
+vertex 0,15,19
+vertex 0,-8,19
+face 0,1,2,3
+
+
+[texture]
+load postoffice.bmp
+coordinates 0,0,0.96
+coordinates 1,-0.96,0.96
+coordinates 2,-0.96,0
+coordinates 3,0,0

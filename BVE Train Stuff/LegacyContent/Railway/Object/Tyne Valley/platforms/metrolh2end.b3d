@@ -1,0 +1,76 @@
+;author=eezypeazy
+;description=metro platform end, LH side
+;copyright=eezypeazy, all rights reserved
+
+;lh side
+[MeshBuilder]
+Vertex -6,0.96,-0.2
+Vertex -1.8,0.96,-0.2
+Vertex -1.8,-0.2,-0.2
+vertex -6,0.96,23.5
+vertex -1.8,-0.2,23.5
+vertex -1.8,0.96,23.5
+vertex -2.5,0.96,-0.2
+vertex -2.5,0.96,23.5
+vertex -6,-0.2,25.2
+vertex -2.5,-0.2,25.2
+vertex -1.8,-0.2,25.2
+
+face 6,0,3,7
+face 1,6,7,5
+face 2,1,5,4
+face 7,3,8,9
+face 5,6,9,10
+face 4,5,10
+
+[Texture]
+Load metro1.bmp
+Coordinates 0, 5, 0.72
+Coordinates 1, 5, 0.77
+Coordinates 2, 5, 1
+Coordinates 3,0.2, 0.72
+Coordinates 4,0.2, 1
+Coordinates 5,0.2, 0.77
+coordinates 6,5,0.75
+coordinates 7,0.2,0.75
+coordinates 8,0,0.72
+coordinates 9,0,0.75
+coordinates 10,0,0.77
+
+; lamp
+[meshbuilder]
+cylinder 8,0.11,0.15,9
+translate -5.9,5.5,12.5
+color 155,155,155
+
+[meshbuilder]
+vertex -5.95,9.8,12.7
+vertex -5.95,10,12.7
+vertex -5.1,10.1,12.7
+vertex -5.1,9.9,12.7
+vertex -5.95,9.8,12
+vertex -5.95,10,12
+vertex -5.1,10.1,12
+vertex -5.1,9.9,12
+face 3,2,1,0
+face 7,6,2,3
+face 4,5,6,7
+face 2,6,5,1
+face 4,7,3,0
+color 50,50,50
+
+[meshbuilder]
+vertex -6.05,9.8,12.7
+vertex -6.05,10,12.7
+vertex -6.9,10.1,12.7
+vertex -6.9,9.9,12.7
+vertex -6.05,9.8,12
+vertex -6.05,10,12
+vertex -6.9,10.1,12
+vertex -6.9,9.9,12
+;face 0,1,2,3
+;face 3,2,6,7
+;face 7,6,5,4
+;face 1,5,6,2
+;face 0,3,7,4
+;color 50,50,50

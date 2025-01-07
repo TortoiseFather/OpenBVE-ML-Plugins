@@ -1,0 +1,46 @@
+;author=eezypeazy
+;description=water and riverbank 5m below
+;copyright=eezypeazy, all rights reserved, visit http://members.lycos.co.uk/eezypeazy
+
+
+[meshbuilder]
+vertex -250,-7,-150
+vertex -250,-5,100
+vertex 100,-5,-100
+vertex 100,-7,-200
+face 0,1,2,3
+
+[texture]
+load ..\textures\riverwater.bmp
+coordinates 0,2,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,2,0
+
+[meshbuilder]
+vertex -250,-5,100
+vertex -250,-2,105
+vertex 100,-2,-95
+vertex 100,-5,-100
+face 0,1,2,3
+
+[texture]
+load ..\textures\riverbank.bmp
+coordinates 0,0,3
+coordinates 1,0,0
+coordinates 2,100,0
+coordinates 3,100,3
+
+[meshbuilder]
+vertex -250,-2,105
+vertex -77,-2,25
+vertex 77,-2,25
+vertex 100,-2,-95
+face 0,1,2,3
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,3
+coordinates 1,0,0
+coordinates 2,100,0
+coordinates 3,100,3

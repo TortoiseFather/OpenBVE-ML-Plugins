@@ -1,0 +1,647 @@
+;author=eezypeazy
+;description=carlisle platform run
+;copyright=eezypeazy 2008, all rights reserved
+
+;platform roof
+[meshbuilder]
+cube 0.06,1.3,0.06
+color 0,66,0
+translate -5.5,2.3,2.5
+
+[meshbuilder]
+cube 0.06,1.3,0.06
+color 0,66,0
+translate -5.5,2.3,7.5
+
+[meshbuilder]
+cube 0.06,1.3,0.06
+color 0,66,0
+translate -5.5,2.3,12.5
+
+[meshbuilder]
+cube 0.06,1.3,0.06
+color 0,66,0
+translate -5.5,2.3,17.5
+
+[meshbuilder]
+cube 0.06,1.3,0.06
+color 0,66,0
+translate -5.5,2.3,22.5
+
+[meshbuilder]
+cube 1.3,0.06,0.06
+color 0,66,0
+translate -3.38,4.62,2.5
+rotate 0,0,1,12
+
+[meshbuilder]
+cube 1.3,0.06,0.06
+color 0,66,0
+translate -3.38,4.62,7.5
+rotate 0,0,1,12
+
+[meshbuilder]
+cube 1.3,0.06,0.06
+color 0,66,0
+translate -3.38,4.62,12.5
+rotate 0,0,1,12
+
+[meshbuilder]
+cube 1.3,0.06,0.06
+color 0,66,0
+translate -3.38,4.62,17.5
+rotate 0,0,1,12
+
+[meshbuilder]
+cube 1.3,0.06,0.06
+color 0,66,0
+translate -3.38,4.62,22.5
+rotate 0,0,1,12
+
+[meshbuilder]
+cube 0.04,0.04,12.7
+color 204,255,204
+translate -3.2,4.15,12.7
+
+[meshbuilder]
+cube 0.04,0.04,12.7
+color 204,255,204
+translate -5,3.77,12.7
+
+[meshbuilder]
+cube 0.02,0.02,12.7
+color 200,200,200
+translate -2.78,4.25,12.7
+
+[meshbuilder]
+vertex -5.6,3.78,-0.2
+vertex -2.8,4.25,-0.2
+vertex -2.8,4.25,25.2
+vertex -5.6,3.78,25.2
+face 0,1,2,3
+color 177,177,250,155
+
+
+
+
+
+[meshbuilder]
+cube 0.04,0.04,12.7
+color 204,255,204
+translate 11.9,4.15,12.7
+
+[meshbuilder]
+cube 0.04,0.04,12.7
+color 204,255,204
+translate 10.05,3.77,12.7
+
+
+[meshbuilder]
+cube 0.04,0.04,12.7
+color 204,255,204
+translate 7.7,4.15,12.7
+
+[meshbuilder]
+cube 0.04,0.04,12.7
+color 204,255,204
+translate 9.55,3.77,12.7
+
+[meshbuilder]
+cube 0.02,0.02,12.7
+color 200,200,200
+translate 7,4.33,12.7
+
+[meshbuilder]
+cube 0.02,0.02,12.7
+color 200,200,250
+translate 12.8,4.35,12.7
+
+[meshbuilder]
+vertex 9.8,3.78,-0.2
+vertex 12.8,4.37,-0.2
+vertex 12.8,4.37,25.2
+vertex 9.8,3.78,25.2
+face 0,1,2,3
+color 177,177,250,155
+
+[meshbuilder]
+vertex 9.8,3.78,-0.2
+vertex 7,4.33,-0.2
+vertex 7,4.33,25.2
+vertex 9.8,3.78,25.2
+face 3,2,1,0
+color 177,177,250,155
+
+
+[meshbuilder]
+cube 0.06,1.3,0.06
+color 0,66,0
+translate 9.8,2.3,2.5
+
+[meshbuilder]
+cube 0.06,1.3,0.06
+color 0,66,0
+translate 9.8,2.3,7.5
+
+[meshbuilder]
+cube 0.06,1.3,0.06
+color 0,66,0
+translate 9.8,2.3,12.5
+
+[meshbuilder]
+cube 0.06,1.3,0.06
+color 0,66,0
+translate 9.8,2.3,17.5
+
+[meshbuilder]
+cube 0.06,1.3,0.06
+color 0,66,0
+translate 9.8,2.3,22.5
+
+
+
+
+[meshbuilder]
+cube 1.3,0.06,0.06
+color 0,66,0
+translate 11.65,1.5,2.5
+rotate 0,0,1,12
+
+[meshbuilder]
+cube 1.3,0.06,0.06
+color 0,66,0
+translate 11.65,1.5,7.5
+rotate 0,0,1,12
+
+[meshbuilder]
+cube 1.3,0.06,0.06
+color 0,66,0
+translate 11.65,1.5,12.5
+rotate 0,0,1,12
+
+[meshbuilder]
+cube 1.3,0.06,0.06
+color 0,66,0
+translate 11.65,1.5,17.5
+rotate 0,0,1,12
+
+[meshbuilder]
+cube 1.3,0.06,0.06
+color 0,66,0
+translate 11.65,1.5,22.5
+rotate 0,0,1,12
+
+
+
+[meshbuilder]
+cube 1.3,0.06,0.06
+color 0,66,0
+translate 7.56,5.58,2.5
+rotate 0,0,1,-12
+
+[meshbuilder]
+cube 1.3,0.06,0.06
+color 0,66,0
+translate 7.56,5.58,7.5
+rotate 0,0,1,-12
+
+[meshbuilder]
+cube 1.3,0.06,0.06
+color 0,66,0
+translate 7.56,5.58,12.5
+rotate 0,0,1,-12
+
+[meshbuilder]
+cube 1.3,0.06,0.06
+color 0,66,0
+translate 7.56,5.58,17.5
+rotate 0,0,1,-12
+
+[meshbuilder]
+cube 1.3,0.06,0.06
+color 0,66,0
+translate 7.56,5.58,22.5
+rotate 0,0,1,-12
+
+
+
+
+
+
+
+[meshbuilder]
+vertex 9.8,3.7,1
+vertex 7,4.3,1
+vertex 7,4.3,1.1
+vertex 9.8,3.7,1.1
+vertex 12.8,4.37,1
+vertex 12.8,4.37,1.1
+face 3,2,1,0
+faCe 4,5,3,0
+color 99,99,99
+
+[meshbuilder]
+vertex 9.8,3.7,1
+vertex 7,4.3,1
+vertex 7,4.3,1.1
+vertex 9.8,3.7,1.1
+vertex 12.8,4.37,1
+vertex 12.8,4.37,1.1
+face 3,2,1,0
+faCe 4,5,3,0
+color 99,99,99
+translate 0,0,2
+
+[meshbuilder]
+vertex 9.8,3.7,1
+vertex 7,4.3,1
+vertex 7,4.3,1.1
+vertex 9.8,3.7,1.1
+vertex 12.8,4.37,1
+vertex 12.8,4.37,1.1
+face 3,2,1,0
+faCe 4,5,3,0
+color 99,99,99
+translate 0,0,4
+
+[meshbuilder]
+vertex 9.8,3.7,1
+vertex 7,4.3,1
+vertex 7,4.3,1.1
+vertex 9.8,3.7,1.1
+vertex 12.8,4.37,1
+vertex 12.8,4.37,1.1
+face 3,2,1,0
+faCe 4,5,3,0
+color 99,99,99
+translate 0,0,6
+
+[meshbuilder]
+vertex 9.8,3.7,1
+vertex 7,4.3,1
+vertex 7,4.3,1.1
+vertex 9.8,3.7,1.1
+vertex 12.8,4.37,1
+vertex 12.8,4.37,1.1
+face 3,2,1,0
+faCe 4,5,3,0
+color 99,99,99
+translate 0,0,8
+
+[meshbuilder]
+vertex 9.8,3.7,1
+vertex 7,4.3,1
+vertex 7,4.3,1.1
+vertex 9.8,3.7,1.1
+vertex 12.8,4.37,1
+vertex 12.8,4.37,1.1
+face 3,2,1,0
+faCe 4,5,3,0
+color 99,99,99
+translate 0,0,10
+
+[meshbuilder]
+vertex 9.8,3.7,1
+vertex 7,4.3,1
+vertex 7,4.3,1.1
+vertex 9.8,3.7,1.1
+vertex 12.8,4.37,1
+vertex 12.8,4.37,1.1
+face 3,2,1,0
+faCe 4,5,3,0
+color 99,99,99
+translate 0,0,12
+
+[meshbuilder]
+vertex 9.8,3.7,1
+vertex 7,4.3,1
+vertex 7,4.3,1.1
+vertex 9.8,3.7,1.1
+vertex 12.8,4.37,1
+vertex 12.8,4.37,1.1
+face 3,2,1,0
+faCe 4,5,3,0
+color 99,99,99
+translate 0,0,14
+
+[meshbuilder]
+vertex 9.8,3.7,1
+vertex 7,4.3,1
+vertex 7,4.3,1.1
+vertex 9.8,3.7,1.1
+vertex 12.8,4.37,1
+vertex 12.8,4.37,1.1
+face 3,2,1,0
+faCe 4,5,3,0
+color 99,99,99
+translate 0,0,14
+
+[meshbuilder]
+vertex 9.8,3.7,1
+vertex 7,4.3,1
+vertex 7,4.3,1.1
+vertex 9.8,3.7,1.1
+vertex 12.8,4.37,1
+vertex 12.8,4.37,1.1
+face 3,2,1,0
+faCe 4,5,3,0
+color 99,99,99
+translate 0,0,16
+
+[meshbuilder]
+vertex 9.8,3.7,1
+vertex 7,4.3,1
+vertex 7,4.3,1.1
+vertex 9.8,3.7,1.1
+vertex 12.8,4.37,1
+vertex 12.8,4.37,1.1
+face 3,2,1,0
+faCe 4,5,3,0
+color 99,99,99
+translate 0,0,18
+
+[meshbuilder]
+vertex 9.8,3.7,1
+vertex 7,4.3,1
+vertex 7,4.3,1.1
+vertex 9.8,3.7,1.1
+vertex 12.8,4.37,1
+vertex 12.8,4.37,1.1
+face 3,2,1,0
+faCe 4,5,3,0
+color 99,99,99
+translate 0,0,20
+
+[meshbuilder]
+vertex 9.8,3.7,1
+vertex 7,4.3,1
+vertex 7,4.3,1.1
+vertex 9.8,3.7,1.1
+vertex 12.8,4.37,1
+vertex 12.8,4.37,1.1
+face 3,2,1,0
+faCe 4,5,3,0
+color 99,99,99
+translate 0,0,22
+
+[meshbuilder]
+vertex 9.8,3.7,1
+vertex 7,4.3,1
+vertex 7,4.3,1.1
+vertex 9.8,3.7,1.1
+vertex 12.8,4.37,1
+vertex 12.8,4.37,1.1
+face 3,2,1,0
+faCe 4,5,3,0
+color 99,99,99
+translate 0,0,23.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[meshbuilder]
+vertex -5.6,3.7,1
+vertex -2.8,4.2,1
+vertex -2.8,4.2,1.1
+vertex -5.6,3.7,1.1
+face 0,1,2,3
+color 99,99,99
+
+[meshbuilder]
+vertex -5.6,3.7,1
+vertex -2.8,4.2,1
+vertex -2.8,4.2,1.1
+vertex -5.6,3.7,1.1
+face 0,1,2,3
+color 99,99,99
+translate 0,0,2
+
+[meshbuilder]
+vertex -5.6,3.7,1
+vertex -2.8,4.2,1
+vertex -2.8,4.2,1.1
+vertex -5.6,3.7,1.1
+face 0,1,2,3
+color 99,99,99
+translate 0,0,4
+
+[meshbuilder]
+vertex -5.6,3.7,1
+vertex -2.8,4.2,1
+vertex -2.8,4.2,1.1
+vertex -5.6,3.7,1.1
+face 0,1,2,3
+color 99,99,99
+translate 0,0,6
+
+[meshbuilder]
+vertex -5.6,3.7,1
+vertex -2.8,4.2,1
+vertex -2.8,4.2,1.1
+vertex -5.6,3.7,1.1
+face 0,1,2,3
+color 99,99,99
+translate 0,0,8
+
+[meshbuilder]
+vertex -5.6,3.7,1
+vertex -2.8,4.2,1
+vertex -2.8,4.2,1.1
+vertex -5.6,3.7,1.1
+face 0,1,2,3
+color 99,99,99
+translate 0,0,10
+[meshbuilder]
+vertex -5.6,3.7,1
+vertex -2.8,4.2,1
+vertex -2.8,4.2,1.1
+vertex -5.6,3.7,1.1
+face 0,1,2,3
+color 99,99,99
+translate 0,0,12
+
+[meshbuilder]
+vertex -5.6,3.7,1
+vertex -2.8,4.2,1
+vertex -2.8,4.2,1.1
+vertex -5.6,3.7,1.1
+face 0,1,2,3
+color 99,99,99
+translate 0,0,14
+
+[meshbuilder]
+vertex -5.6,3.7,1
+vertex -2.8,4.2,1
+vertex -2.8,4.2,1.1
+vertex -5.6,3.7,1.1
+face 0,1,2,3
+color 99,99,99
+translate 0,0,16
+
+[meshbuilder]
+vertex -5.6,3.7,1
+vertex -2.8,4.2,1
+vertex -2.8,4.2,1.1
+vertex -5.6,3.7,1.1
+face 0,1,2,3
+color 99,99,99
+translate 0,0,18
+
+[meshbuilder]
+vertex -5.6,3.7,1
+vertex -2.8,4.2,1
+vertex -2.8,4.2,1.1
+vertex -5.6,3.7,1.1
+face 0,1,2,3
+color 99,99,99
+translate 0,0,20
+
+[meshbuilder]
+vertex -5.6,3.7,1
+vertex -2.8,4.2,1
+vertex -2.8,4.2,1.1
+vertex -5.6,3.7,1.1
+face 0,1,2,3
+color 99,99,99
+translate 0,0,22
+
+[meshbuilder]
+vertex -5.6,3.7,1
+vertex -2.8,4.2,1
+vertex -2.8,4.2,1.1
+vertex -5.6,3.7,1.1
+face 0,1,2,3
+color 99,99,99
+translate 0,0,23.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[meshbuilder]
+vertex -5.7,1.1,-0.4
+vertex -5.7,7,-0.4
+vertex -5.7,7,25.4
+vertex -5.7,1.1,25.4
+face 0,1,2,3
+
+[texture]
+load ..\textures\carlislewall1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+
+[MeshBuilder]
+vertex -1.8,-0.2,-0.2
+vertex -1.8,1.1,-0.2
+vertex -5.8,1.1,-0.2
+vertex -5.8,2.4,-0.2
+vertex -6,2.5,-0.2
+vertex -6,2.5,25.2
+vertex -5.8,2.4,25.2
+vertex -5.8,1.1,25.2
+vertex -1.8,1.1,25.2
+vertex -1.8,-0.2,25.2
+
+vertex -2.8,1.1,-0.2
+vertex -2.8,1.1,25.2
+
+face 0,1,8,9
+face 1,10,11,8
+face 10,2,7,11
+;face 2,3,6,7
+;face 3,4,5,6
+
+[Texture]
+Load carlisle.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.535
+Coordinates 2, 0, 0.3
+Coordinates 3, 0, 0.03
+Coordinates 4, 0, 0
+Coordinates 5, 4, 0
+Coordinates 6, 4, 0.03
+Coordinates 7, 4, 0.3
+Coordinates 8, 4, 0.535
+Coordinates 9, 4, 1
+coordinates 10,0,0.45
+coordinates 11,4,0.45
+
+;rh side
+[MeshBuilder]
+Vertex 9.8,1.1,-0.2
+Vertex 5.8,1.1,-0.2
+Vertex 5.8,-0.2,-0.2
+vertex 9.8,1.1,25.7
+vertex 5.8,-0.2,25.2
+vertex 5.8,1.1,25.2
+vertex 6.8,1.1,-0.2
+vertex 6.8,1.1,25.2
+
+vertex 13.8,1.1,19.2
+vertex 13.8,1.1,-6
+
+vertex 13.8,-0.2,19.2
+vertex 13.8,-0.2,-6
+
+
+face 7,3,0,6
+face 5,7,6,1
+face 4,5,1,2
+face 3,8,9,0
+
+face 11,9,8,10
+
+[Texture]
+Load carlisle.bmp
+Coordinates 0, 4, 0.3
+Coordinates 1, 4, 0.535
+Coordinates 2, 4, 1
+Coordinates 3,0, 0.3
+Coordinates 4,0, 1
+Coordinates 5,0, 0.535
+coordinates 6,4,0.45
+coordinates 7,0,0.45
+coordinates 8,0,0.535
+coordinates 9,4,0.535
+coordinates 10,0,1
+coordinates 11,4,1

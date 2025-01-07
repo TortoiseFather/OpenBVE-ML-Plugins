@@ -1,0 +1,17 @@
+;description= a dark diagonal platform fence 25m long
+;author=eezypeazy
+
+[Meshbuilder]
+vertex -7,1.1,-0.1
+vertex -7,3.5,-0.1
+vertex -7,3.5,25.1
+vertex -7,1.1,25.1
+face 0,1,2,3
+
+[texture]
+Load diagonal.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,16,0
+coordinates 3,16,1
+transparent 0,0,255

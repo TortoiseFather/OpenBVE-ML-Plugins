@@ -1,0 +1,268 @@
+;author=eezypeazy
+;description=Platform shelter for Prudhoe
+;copyright=eezypeazy 2009, all rights reserved. Includes items from the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+
+;timetable case
+;(c) Shane Roberts 2004
+;Derby to Stoke on Trent route object
+;This object may be reused without permission from the author as long
+;credit is give in your routes readme
+;modified by eezypeazy into b3d format and for graphic
+
+
+[meshbuilder]
+vertex -5.3, 3.6, 0.4,
+vertex -5.3, 3.6,  2.8,
+vertex -5.3, 2, 2.8,
+vertex -5.3, 2, 0.4,
+face 0,1,2,3
+
+[texture]
+Load ..\platforms\ttable1.bmp
+coordinates 0, 0, 0,
+coordinates 1, 1, 0,
+coordinates 2, 1, 1,
+coordinates 3, 0, 1,
+
+[meshbuilder]
+cube 0.05,1.5,0.05,
+translate -5.3,2.1,2.84
+color 0,0,108
+
+[meshbuilder]
+cube 0.05,1.5,0.05,
+translate -5.3,2.1,0.36
+color 0,0,108
+
+
+
+;shelter
+[meshbuilder]
+vertex -7.3,4,3 
+vertex -7.1,4.4,3
+vertex -6.9,4.7,3
+vertex -6.6,4.9,3
+vertex -6.3,5,3
+vertex -6,4.9,3
+vertex -5.7,4.7,3
+vertex -5.5,4.4,3
+vertex -5.3,4,3
+vertex -7.3,4,9 
+vertex -7.1,4.4,9
+vertex -6.9,4.7,9
+vertex -6.6,4.9,9
+vertex -6.3,5,9
+vertex -6,4.9,9
+vertex -5.7,4.7,9
+vertex -5.5,4.4,9
+vertex -5.3,4,9
+face2 0,1,10,9
+face2 1,2,11,10
+face2 2,3,12,11
+face2 3,4,13,12
+face2 4,5,14,13
+face2 5,6,15,14
+face2 6,7,16,15
+face2 7,8,17,16
+face 0,1,2,3,4,5,6,7,8
+face 9,10,11,12,13,14,15,16,17
+color 0,0,0,111
+
+[meshbuilder]
+cube 0.025,1.5,0.025
+translate -7.3,2.5,3
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1.5,0.025
+translate -7.3,2.5,4
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1.5,0.025
+translate -7.3,2.5,5
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1.5,0.025
+translate -7.3,2.5,6
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1.5,0.025
+translate -7.3,2.5,7
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1.5,0.025
+translate -7.3,2.5,8
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1.5,0.025
+translate -7.3,2.5,9
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1.5,0.025
+translate -6.3,2.5,3
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1.5,0.025
+translate -6.3,2.5,9
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1.5,0.025
+translate -5.3,2.5,3
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1.5,0.025
+translate -5.3,2.5,4
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1.5,0.025
+translate -5.3,2.5,5
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1.5,0.025
+translate -5.3,2.5,6
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1.5,0.025
+translate -5.3,2.5,7
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1.5,0.025
+translate -5.3,2.5,8
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1.5,0.025
+translate -5.3,2.5,9
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,3,0.025
+rotate 1,0,0,90
+translate -7.3,4,6
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,3,0.025
+rotate 1,0,0,90
+translate -7.3,1.5,6
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,3,0.025
+rotate 1,0,0,90
+translate -5.3,4,6
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,2,0.8
+rotate 1,0,0,90
+translate -5.3,1.8,6
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1,0.025
+rotate 0,0,1,90
+translate -6.3,1.5,3
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1,0.025
+rotate 0,0,1,90
+translate -6.3,4,3
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1,0.025
+rotate 0,0,1,90
+translate -6.3,1.5,9
+color 0,0,255
+
+[meshbuilder]
+cube 0.025,1,0.025
+rotate 0,0,1,90
+translate -6.3,4,9
+color 0,0,255
+
+[meshbuilder]
+vertex -7.3,1.5,3
+vertex -7.3,4,3
+vertex -7.3,4,9
+vertex -7.3,1.5,9
+vertex -5.3,4,3
+vertex -5.3,1.5,3
+vertex -5.3,1.5,9
+vertex -5.3,4,9
+vertex -5.3,1.5,4
+vertex -5.3,4,4
+vertex -5.3,4,8
+vertex -5.3,1.5,8
+face 0,1,2,3
+face 0,1,4,5
+face 3,2,7,6
+face 8,9,10,11
+color 0,0,0,55
+
+;tree
+[meshbuilder]
+vertex -8.2,0,3
+vertex -8.2,9,3
+vertex -8,9,7
+vertex -8,0,7
+face 0,1,2,3
+
+[texture]
+load ..\plants\tree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+;fence
+[meshbuilder]
+vertex -5.5,1,-1
+vertex -5.5,3.5,-1
+vertex -5.5,3.5,2.8
+vertex -5.5,1,2.8
+vertex -7.5,3.5,2.8
+vertex -7.5,1,2.8
+vertex -7.5,3.5,9.2
+vertex -7.5,1,9.2
+vertex -5.5,3.5,9.2
+vertex -5.5,1,9.2
+vertex -5.5,3.5,25.1
+vertex -5.5,1,25.1
+face 0,1,2,3
+face2 5,4,2,3
+face 5,4,6,7
+face 7,6,8,9
+face 9,8,10,11
+
+[texture]
+load ..\fences\diagonal.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,1
+coordinates 4,1,0
+coordinates 5,1,1
+coordinates 6,3.5,0
+coordinates 7,3.5,1
+coordinates 8,2,0
+coordinates 9,2,1
+coordinates 10,10,0
+coordinates 11,10,1
+transparent 0,0,255

@@ -1,0 +1,46 @@
+;author=eezypeazy
+;description=Wylam lampost with sign
+;copyright=eezypeazy, all rights reserved
+
+; lamp 2 lh side
+[meshbuilder]
+cylinder 8,0.15,0.15,2
+translate -3.5,1.5,-9.5
+color 50,150,255
+
+[meshbuilder]
+cylinder 8,0.11,0.11,9
+translate -3.5,5.5,-9.5
+color 255,255,177
+
+[meshbuilder]
+vertex -3.45,9.8,-9.7
+vertex -3.45,10,-9.7
+vertex -2.6,10.1,-9.7
+vertex -2.6,9.9,-9.7
+vertex -3.45,9.8,-9
+vertex -3.45,10,-9
+vertex -2.6,10.1,-9
+vertex -2.6,9.9,-9
+face 0,1,2,3
+face 3,2,6,7
+face 7,6,5,4
+face 1,5,6,2
+face 0,3,7,4
+color 50,50,50
+
+;signs
+
+[meshbuilder]
+vertex -3.35,3.5,-10
+vertex -3.35,3.9,-10
+vertex -3.35,3.9,-9
+vertex -3.35,3.5,-9
+face 0,1,2,3
+
+[texture]
+load ..\walls\wylamsign.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1

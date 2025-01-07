@@ -1,0 +1,28 @@
+;author=eezypeazy
+;description=Hexham goods platform 
+;copyright=eezypeazy, all rights reserved
+
+;rh side
+[MeshBuilder]
+Vertex 5.8,1.1,-0.2
+Vertex 1.8,1.1,-0.2
+Vertex 1.8,-0.2,-0.2
+vertex 5.8,1.1,25.2
+vertex 1.8,-0.2,25.2
+vertex 1.8,1.1,25.2
+vertex 2.8,1.1,-0.2
+vertex 2.8,1.1,25.2
+face 7,3,0,6
+face 5,7,6,1
+face 4,5,1,2
+
+[Texture]
+Load corbridgen.bmp
+Coordinates 0, 4, 0.28
+Coordinates 1, 4, 0.55
+Coordinates 2, 4, 1
+Coordinates 3,0, 0.28
+Coordinates 4,0, 1
+Coordinates 5,0, 0.55
+coordinates 6,4,0.45
+coordinates 7,0,0.45

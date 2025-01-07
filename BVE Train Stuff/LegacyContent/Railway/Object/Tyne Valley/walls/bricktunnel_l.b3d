@@ -1,0 +1,71 @@
+;author=eezypeazy
+;description=brick tunnel
+;copyright=eezypeazy 2009, all rights reserved, contact eezypeazy@eezypeazy.co.uk
+
+[meshbuilder]
+vertex -2,-0.4,0
+vertex -2,4,0
+vertex -2,4,25.2
+vertex -2,-0.4,25.2
+vertex 6,-0.4,25.2
+vertex 6,4,25.2
+vertex 6,4,0
+vertex 6,-0.4,0
+
+vertex -0.66,4.5,0
+vertex 0.66,4.77,0
+vertex 2,4.82,0
+vertex 3.33,4.77,0
+vertex 4.66,4.5,0
+
+vertex -0.66,4.5,25.2
+vertex 0.66,4.77,25.2
+vertex 2,4.82,25.2
+vertex 3.33,4.77,25.2
+vertex 4.66,4.5,25.2
+face 0,1,2,3
+face 4,5,6,7
+face 1,8,13,2
+face 8,9,14,13
+face 9,10,15,14
+face 10,11,16,15
+face 11,12,17,16
+face 12,6,5,17
+color 88,88,88
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,5
+coordinates 1,0,3
+coordinates 2,4,3
+coordinates 3,4,5
+coordinates 4,4,2
+coordinates 5,4,0
+coordinates 6,0,0
+coordinates 7,0,2
+coordinates 8,0,2.5
+coordinates 9,0,2
+coordinates 10,0,1.5
+coordinates 11,0,1
+coordinates 12,0,0.5
+coordinates 13,4,2.5
+coordinates 14,4,2
+coordinates 15,4,1.5
+coordinates 16,4,1
+coordinates 17,4,0.5
+
+
+;floor
+[meshbuilder]
+vertex -3,-0.4,-0.7
+vertex -3,-0.4,24.3
+vertex -1,0.05,24.3
+vertex -1,0.05,-0.7
+vertex 5,0.05,-0.7
+vertex 5,0.05,24.3
+vertex 7,-0.4,24.3
+vertex 7,-0.4,-0.7
+face 0,1,2,3
+face 3,2,5,4
+face 4,5,6,7
+color 4,4,4,224

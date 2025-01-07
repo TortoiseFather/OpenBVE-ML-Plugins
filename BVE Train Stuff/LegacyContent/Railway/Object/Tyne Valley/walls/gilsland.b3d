@@ -1,0 +1,770 @@
+;author=eezypeazy
+;description=Gilsland
+;copyright=eezypeazy 2006, all rights reserved, email eezypeazy@blueyonder.co.uk
+
+
+;building
+[meshbuilder]
+vertex -7,-0.5,4
+vertex -7,8,4
+vertex -7,8,17
+vertex -7,-0.5,17
+face 0,1,2,3
+
+[texture]
+load ..\buildings\gilsland.bmp
+coordinates 0,0,1
+coordinates 1,0.01,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -9,3.4,5
+vertex -9,5.16,5
+vertex -7,5.16,5
+vertex -7,3.4,5
+vertex -9,3.4,12.4
+vertex -9,5.16,12.4
+vertex -7,5.16,12.4
+vertex -7,3.4,12.4
+face 0,1,2,3
+face 4,5,6,7
+color 167,177,167
+
+[meshbuilder]
+vertex -15,-0.5,4
+vertex -15,3.4,4
+vertex -11,7.9,4
+vertex -7,3.4,4
+vertex -7,-0.5,4
+vertex -9,3.4,8.9
+vertex -9,5,8.9
+vertex -7,5,8.9
+vertex -7,3.4,8.9
+vertex -15,-0.5,-9
+vertex -15,3.4,-9
+vertex -11,7.9,-9
+vertex -7,3.4,-9
+vertex -7,-0.5,-9
+face 0,1,3,4
+face 1,2,3
+face 5,6,7,8
+face 9,10,12,13
+face 10,11,12
+
+[texture]
+load ..\textures\stonegrey.bmp
+coordinates 0,0,4
+coordinates 1,0,2
+coordinates 2,1,0
+coordinates 3,2,2
+coordinates 4,2,4
+coordinates 5,0,0.4
+coordinates 6,0,0
+coordinates 7,0.4,0
+coordinates 8,0.4,0.4
+coordinates 9,0,4
+coordinates 10,0,2
+coordinates 11,1,0
+coordinates 12,2,2
+coordinates 13,2,4
+
+;chimneys
+[meshbuilder]
+vertex -11.6,7,-3.9
+vertex -11.6,9,-3.9
+vertex -10.4,9,-3.9
+vertex -10.4,7,-3.9
+vertex -10.4,9,-3.5
+vertex -10.4,7,-3.5
+vertex -11.6,7,4.1
+vertex -11.6,9,4.1
+vertex -10.4,9,4.1
+vertex -10.4,7,4.1
+vertex -10.4,9,4.5
+vertex -10.4,7,4.5
+vertex -11.6,7,16.6
+vertex -11.6,9,16.6
+vertex -10.4,9,16.6
+vertex -10.4,7,16.6
+vertex -10.4,9,17
+vertex -10.4,7,17
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+face 9,8,10,11
+face 12,13,14,15
+face 15,14,16,17
+
+[texture]
+load ..\buildings\haltwall.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.3,0
+coordinates 3,0.3,1
+coordinates 4,0.6,0
+coordinates 5,0.6,1
+coordinates 6,0,1
+coordinates 7,0,0
+coordinates 8,0.3,0
+coordinates 9,0.3,1
+coordinates 10,0.6,0
+coordinates 11,0.6,1
+coordinates 12,0,1
+coordinates 13,0,0
+coordinates 14,0.3,0
+coordinates 15,0.3,1
+coordinates 16,0.6,0
+coordinates 17,0.6,1
+
+[meshbuilder]
+cylinder 5,0.16,0.2,0.8
+translate -11.2,9.2,4.3
+color 205,150,100
+
+[meshbuilder]
+cylinder 5,0.16,0.2,0.8
+translate -10.8,9.2,4.3
+color 205,150,100
+
+[meshbuilder]
+cylinder 5,0.16,0.2,0.8
+translate -11.2,6,-3.7
+color 205,150,100
+
+[meshbuilder]
+cylinder 5,0.16,0.2,0.8
+translate -10.8,6,-3.7
+color 205,150,100
+
+[meshbuilder]
+vertex -7,3.4,4
+vertex -11,7.9,4
+vertex -11,7.9,17
+vertex -7,3.4,17
+vertex -7,3.4,-9
+vertex -11,7.9,-9
+vertex -11,7.9,2
+vertex -7,3.4,2
+vertex -11,5,8.9
+vertex -11,7.9,10.5
+vertex -7,7.9,10.5
+vertex -7,5,8.9
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+
+[texture]
+load ..\textures\rooftiles.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,5,0
+coordinates 3,5,2
+coordinates 4,0,2
+coordinates 5,0,0
+coordinates 6,2,0
+coordinates 7,2,2
+coordinates 8,0,1.28
+coordinates 9,0,0
+coordinates 10,1,0
+coordinates 11,1,1.28
+
+;second building
+[meshbuilder]
+vertex -7,-0.5,-9
+vertex -7,3.4,-9
+vertex -7,3.4,-6.25
+vertex -7,-0.5,-6.25
+vertex -7,3.4,-3.5
+vertex -7,-0.5,-3.5
+vertex -7,3.4,-0.75
+vertex -7,-0.5,-0.75
+vertex -7,3.4,2
+vertex -7,-0.5,2
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+
+[texture]
+load ..\buildings\gilsland.bmp
+coordinates 0,0.64,1
+coordinates 1,0.64,0.54
+coordinates 2,0.9,0.54
+coordinates 3,0.9,1
+coordinates 4,0.64,0.54
+coordinates 5,0.64,1
+coordinates 6,0.9,0.54
+coordinates 7,0.9,1
+coordinates 8,0.64,0.54
+coordinates 9,0.64,1
+transparent 0,0,255
+
+;rh side buildings
+;pub
+[meshbuilder]
+vertex 16,-0.5,25
+vertex 16,5,25
+vertex 16,5,15
+vertex 16,-0.5,15
+vertex 20,7,15
+vertex 24,5,15
+vertex 24,-0.5,15
+face 0,1,2,3
+face 3,2,5,6
+face 2,4,5
+
+[texture]
+load ..\textures\stonegrey.bmp
+coordinates 0,0,3
+coordinates 1,0,1
+coordinates 2,3,1
+coordinates 3,3,3
+coordinates 4,4,0
+coordinates 5,5,1
+coordinates 6,5,3
+
+;terrace
+[meshbuilder]
+vertex 22,-0.5,15
+vertex 22,4.5,15
+vertex 22,4.5,-25
+vertex 22,-0.5,-25
+vertex 26,6,-25
+vertex 30,4.5,-25
+vertex 30,-0.5,-25
+face 0,1,2,3
+face 3,2,5,6
+face 2,4,5
+
+[texture]
+load ..\textures\roughstone.bmp
+coordinates 0,0,3
+coordinates 1,0,1
+coordinates 2,9,1
+coordinates 3,9,3
+coordinates 4,11.5,0
+coordinates 5,15,1
+coordinates 6,15,3
+
+;roofing
+[meshbuilder]
+vertex 16,5,25
+vertex 20,7,25
+vertex 20,7,15
+vertex 16,5,15
+vertex 22,4.5,15
+vertex 26,6,15
+vertex 26,6,-25
+vertex 22,4.5,-25
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\textures\rooftiles.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,5,0
+coordinates 3,5,2
+coordinates 4,0,2
+coordinates 5,0,0
+coordinates 6,4,0
+coordinates 7,4,2
+
+;terrace windows
+[meshbuilder]
+vertex 21.9,3.2,13
+vertex 21.9,4.5,13
+vertex 21.9,4.5,11.8
+vertex 21.9,3.2,11.8
+vertex 21.9,1,13
+vertex 21.9,2.3,13
+vertex 21.9,2.3,11.8
+vertex 21.9,1,11.8
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\platforms\corbwindowup.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+
+[meshbuilder]
+vertex 21.9,3.2,13
+vertex 21.9,4.5,13
+vertex 21.9,4.5,11.8
+vertex 21.9,3.2,11.8
+vertex 21.9,1,13
+vertex 21.9,2.3,13
+vertex 21.9,2.3,11.8
+vertex 21.9,1,11.8
+face 0,1,2,3
+face 4,5,6,7
+translate 0,0,-5
+
+[texture]
+load ..\platforms\corbwindowup.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+
+[meshbuilder]
+vertex 21.9,3.2,13
+vertex 21.9,4.5,13
+vertex 21.9,4.5,11.8
+vertex 21.9,3.2,11.8
+vertex 21.9,1,13
+vertex 21.9,2.3,13
+vertex 21.9,2.3,11.8
+vertex 21.9,1,11.8
+face 0,1,2,3
+face 4,5,6,7
+translate 0,0,-10
+
+[texture]
+load ..\platforms\corbwindowup.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+
+[meshbuilder]
+vertex 21.9,3.2,13
+vertex 21.9,4.5,13
+vertex 21.9,4.5,11.8
+vertex 21.9,3.2,11.8
+vertex 21.9,1,13
+vertex 21.9,2.3,13
+vertex 21.9,2.3,11.8
+vertex 21.9,1,11.8
+face 0,1,2,3
+face 4,5,6,7
+translate 0,0,-15
+
+[texture]
+load ..\platforms\corbwindowup.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+
+[meshbuilder]
+vertex 21.9,3.2,13
+vertex 21.9,4.5,13
+vertex 21.9,4.5,11.8
+vertex 21.9,3.2,11.8
+vertex 21.9,1,13
+vertex 21.9,2.3,13
+vertex 21.9,2.3,11.8
+vertex 21.9,1,11.8
+face 0,1,2,3
+face 4,5,6,7
+translate 0,0,-20
+
+[texture]
+load ..\platforms\corbwindowup.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+
+[meshbuilder]
+vertex 21.9,3.2,13
+vertex 21.9,4.5,13
+vertex 21.9,4.5,11.8
+vertex 21.9,3.2,11.8
+vertex 21.9,1,13
+vertex 21.9,2.3,13
+vertex 21.9,2.3,11.8
+vertex 21.9,1,11.8
+face 0,1,2,3
+face 4,5,6,7
+translate 0,0,-25
+
+[texture]
+load ..\platforms\corbwindowup.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+
+[meshbuilder]
+vertex 21.9,3.2,13
+vertex 21.9,4.5,13
+vertex 21.9,4.5,11.8
+vertex 21.9,3.2,11.8
+vertex 21.9,1,13
+vertex 21.9,2.3,13
+vertex 21.9,2.3,11.8
+vertex 21.9,1,11.8
+face 0,1,2,3
+face 4,5,6,7
+translate 0,0,-30
+
+[texture]
+load ..\platforms\corbwindowup.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+
+[meshbuilder]
+vertex 21.9,3.2,13
+vertex 21.9,4.5,13
+vertex 21.9,4.5,11.8
+vertex 21.9,3.2,11.8
+vertex 21.9,1,13
+vertex 21.9,2.3,13
+vertex 21.9,2.3,11.8
+vertex 21.9,1,11.8
+face 0,1,2,3
+face 4,5,6,7
+translate 0,0,-35
+
+[texture]
+load ..\platforms\corbwindowup.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+
+;pub windows and door
+[meshbuilder]
+vertex 15.9,3.2,20.65
+vertex 15.9,5,20.65
+vertex 15.9,5,19.35
+vertex 15.9,3.2,19.35
+vertex 15.9,3.2,23.5
+vertex 15.9,5,23.5
+vertex 15.9,5,22.2
+vertex 15.9,3.2,22.2
+vertex 15.9,3.2,17.8
+vertex 15.9,5,17.8
+vertex 15.9,5,16.5
+vertex 15.9,3.2,16.5
+vertex 15.9,0.5,23.5
+vertex 15.9,2.3,23.5
+vertex 15.9,2.3,22.2
+vertex 15.9,0.5,22.2
+vertex 15.9,0.5,17.8
+vertex 15.9,2.3,17.8
+vertex 15.9,2.3,16.5
+vertex 15.9,0.5,16.5
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+face 12,13,14,15
+face 16,17,18,19
+
+[texture]
+load ..\platforms\corbwindowup.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,1,0
+coordinates 11,1,1
+coordinates 12,0,1
+coordinates 13,0,0
+coordinates 14,1,0
+coordinates 15,1,1
+coordinates 16,0,1
+coordinates 17,0,0
+coordinates 18,1,0
+coordinates 19,1,1
+
+[meshbuilder]
+vertex 15.9,-0.4,20.65
+vertex 15.9,2.3,20.65
+vertex 15.9,2.3,19.35
+vertex 15.9,-0.4,19.35
+face 0,1,2,3
+
+load ..\platforms\corbdoor.bmp
+coordinates 0,0.14,1
+coordinates 1,0.14,0.1
+coordinates 2,0.9,0.1
+coordinates 3,0.9,1
+
+;hedge
+[meshbuilder]
+vertex 20,-1,15
+vertex 20,1.7,15
+vertex 20,1.7,-26
+vertex 20,-1,-26
+vertex 53,1.7,-26
+vertex 53,-1,-26
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\textures\hedge.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,5,0
+coordinates 3,5,1
+coordinates 4,11,0
+coordinates 5,11,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -2.4,-0.4,-25
+vertex -19,-0.3,-25
+vertex -19,-0.3,25
+vertex -2.4,-0.4,25
+vertex -33,-7,-50
+vertex -33,-0.4,-23
+vertex 45,-0.4,-23
+vertex 45,-7,-50
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,2
+coordinates 4,0,2
+coordinates 5,0,0
+coordinates 6,3,0
+coordinates 7,3,2
+
+[meshbuilder]
+vertex -18,-0.4,-25
+vertex -18,1.5,-25
+vertex -18,1.5,5
+vertex -18,-0.4,5
+face 0,1,2,3
+
+[texture]
+load ..\walls\oldstonewall.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,5,0
+coordinates 3,5,1
+
+;author=eezypeazy
+;description=shrubs cycle route 2 track
+;copyright=eezypeazy 2005, all rights reserved, contact eezypeazy@blueyonder.co.uk
+
+[meshbuilder]
+vertex 20,-0.4,-25
+vertex -7,-0.4,-25
+vertex -7,-0.4,25
+vertex 20,-0.4,25
+face 0,1,2,3
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,2
+
+[meshbuilder]
+vertex -9,-0.9,18
+vertex -11,8,18
+vertex -2,8,25
+vertex 0,-0.9,25
+vertex -7.7,-1.5,-21
+vertex -7.7,5,-21
+vertex -7.4,5,-15
+vertex -7.4,-1.5,-15
+vertex 8.6,-1.5,22
+vertex 8.6,6,22
+vertex 8.4,6,-20
+vertex 8.4,-1.5,-25
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+color 255,199,111
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,7,0
+coordinates 11,7,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -3,-0.4,-25
+vertex -3,1.4,-25
+vertex -3,1.4,25
+vertex -3,-0.4,25
+vertex -7.6,0,-25.3 
+vertex -7.6,1.4,-25.3
+vertex -7.6,1.4,-15
+vertex -7.6,0,-15
+vertex 7.5,-0.4,-25.3 
+vertex 7.5,1.4,-25.3
+vertex 7,1.4,25
+vertex 7,-0.4,25
+face 0,1,2,3
+;face 4,5,6,7
+face 11,10,9,8
+
+[texture]
+load ..\fences\whitepicket.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,25,0
+coordinates 3,25,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,8,0
+coordinates 7,8,1
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,25,0
+coordinates 11,25,1
+color 144,100,100
+transparent 0,0,255
+
+[meshbuilder]
+vertex -3.5,-1,-20
+vertex -3.5,1,-20
+vertex -3.1,1,10
+vertex -3.1,-1,10
+face 0,1,2,3
+color 255,166,166
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,0.7
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,0.7
+transparent 0,0,255
+
+[meshbuilder]
+vertex -2.6,-0.3,-25.3
+vertex -5.6,0.4,-25.3
+vertex -5.6,0.4,-15
+vertex -2.6,-0.3,-15
+vertex 6.4,-0.3,-25.7
+vertex 9,0,-25.7
+vertex 9,0,25
+vertex 6.4,-0.3,25
+;face 0,1,2,3
+face 5,4,7,6
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,2
+coordinates 5,0,1
+coordinates 4,0,0
+coordinates 7,5,0
+coordinates 6,5,1
+
+[meshbuilder]
+vertex 6,-0.4,-26
+vertex 6,3,-26
+vertex 13,3,-27
+vertex 15,0,-27
+vertex -20,-1,-27
+vertex -20,7,-27
+vertex -17,7,25
+vertex -17,0,25
+vertex 25,0,-25.5
+vertex 25,8,-25.5
+vertex 33,8,-25.5
+vertex 33,0,-25.5
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,6,0
+coordinates 7,6,1
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,1,0
+coordinates 11,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -35,-2,-33
+vertex -35,8,-33
+vertex -19,8,-28
+vertex -19,-2,-28
+vertex -35,-2,-3
+vertex -35,8,-3
+vertex -19,8,0
+vertex -19,-2,0
+face 0,1,2,3
+face 4,5,6,7
+color 255,200,0
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,0.5,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,0.5,1
+transparent 0,0,255

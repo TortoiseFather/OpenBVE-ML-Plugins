@@ -1,0 +1,280 @@
+;author=eezypeazy
+;description= Brampton right shelter blue fence bushes
+;copyright=eezypeazy 2009, all rights reserved
+
+;shelter
+[meshbuilder]
+vertex 9.8,3.3,9.5
+vertex 10,3.7,9.5
+vertex 10.2,4,9.5
+vertex 10.2,4.2,9.5
+vertex 10.8,4.25,9.5
+vertex 11.1,4.2,9.5
+vertex 11.4,4,9.5
+vertex 11.6,3.7,9.5
+vertex 11.8,3.3,9.5
+vertex 9.8,3.3,15.5
+vertex 10,3.7,15.5
+vertex 10.2,4,15.5
+vertex 10.5,4.2,15.5
+vertex 10.8,4.25,15.5
+vertex 11.1,4.2,15.5
+vertex 11.4,4,15.5
+vertex 11.6,3.7,15.5
+vertex 11.8,3.3,15.5
+face2 0,1,10,9
+face2 1,2,11,10
+face2 2,3,12,11
+face2 3,4,13,12
+face2 4,5,14,13
+face2 5,6,15,14
+face2 6,7,16,15
+face2 7,8,17,16
+face 0,1,2,3,4,5,6,7,8
+face 9,10,11,12,13,14,15,16,17
+color 0,0,0,111
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 9.8,2.2,9.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 9.8,2.2,10.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 9.8,2.2,11.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 9.8,2.2,12.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 9.8,2.2,13.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 9.8,2.2,14.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 9.8,2.2,15.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 10.8,2.2,9.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 10.8,2.2,15.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 11.8,2.2,9.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 11.8,2.2,10.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 11.8,2.2,11.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 11.8,2.2,12.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 11.8,2.2,13.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 11.8,2.2,14.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 11.8,2.2,15.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,3,0.025
+rotate 1,0,0,90
+translate 11.8,3.3,12.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,3,0.025
+rotate 1,0,0,90
+translate 9.8,3.3,12.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,2,0.025
+rotate 1,0,0,90
+translate 9.8,1.3,12.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,3,0.025
+rotate 1,0,0,90
+translate 11.8,1.3,12.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1,0.025
+rotate 0,0,1,90
+translate 10.8,1.3,9.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1,0.025
+rotate 0,0,1,90
+translate 10.8,3.3,9.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1,0.025
+rotate 0,0,1,90
+translate 10.8,1.3,15.5
+color 77,155,225
+
+[meshbuilder]
+cube 0.025,1,0.025
+rotate 0,0,1,90
+translate 10.8,3.3,15.5
+color 77,155,225
+
+[meshbuilder]
+vertex 11.8,1.3,9.5
+vertex 11.8,3.3,9.5
+vertex 11.8,3.3,15.5
+vertex 11.8,1.3,15.5
+vertex 9.8,3.3,9.5
+vertex 9.8,1.3,9.5
+vertex 9.8,1.3,15.5
+vertex 9.8,3.3,15.5
+vertex 9.8,1.3,10.5
+vertex 9.8,3.3,10.5
+vertex 9.8,3.3,14.5
+vertex 9.8,1.3,14.5
+face 3,2,1,0
+face 5,4,1,0
+face 6,7,2,3
+face 11,10,9,8
+color 0,0,0,55
+
+
+;rh side
+[meshbuilder]
+vertex 6,1.1,25.2
+vertex 9.8,1.1,25.2
+vertex 9.8,1.1,-0.2
+vertex 6,1.1,-0.2
+vertex 9.8,1.1,15.5
+vertex 11.8,1.1,15.5
+vertex 11.8,1.1,9.5
+vertex 9.8,1.1,9.5
+vertex 11.8,0,9.5
+vertex 9.8,0,9.5
+;face 0,1,2,3
+face 4,5,6,7
+face 7,6,8,9
+color 100,100,130
+
+
+;rh platform fence
+
+;author=eezypeazy
+;description=diagonal platform fence with bush, rh
+;copyright=eezypeazy, all rights reserved
+
+[meshbuilder]
+vertex 9.8,1.1,9.5
+vertex 9.8,2.7,9.5
+vertex 9.8,2.7,-0.1
+vertex 9.8,1.1,-0.1
+vertex 9.8,1.1,25.1
+vertex 9.8,2.7,25.1
+vertex 9.8,2.7,15.5
+vertex 9.8,1.1,15.5
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\fences\diagonal.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,6,0
+coordinates 3,6,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,6,0
+coordinates 7,6,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 9.9,1.1,25.1
+vertex 9.9,4,25.1
+vertex 12.5,6,12.5
+vertex 12.5,0.5,12.5
+vertex 9.9,4,-0.1
+vertex 9.9,1.1,-0.1
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0.1,0.7
+coordinates 1,0.1,0.1
+coordinates 2,0.8,0
+coordinates 3,0.8,0.7
+coordinates 4,0.1,0.1
+coordinates 5,0.1,0.7
+transparent 0,0,255
+
+
+[meshbuilder]
+vertex 9.7,2.2,24.7
+vertex 9.7,2.6,24.7
+vertex 9.7,2.6,25
+vertex 9.7,2.2,25
+face 3,2,1,0
+
+[texture]
+load ..\signs\plat2.bmp
+coordinates 0,1,1
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+
+[meshbuilder]
+vertex 9.7,1.2,18.2
+vertex 9.7,2.61,18.2
+vertex 9.7,2.61,16.5
+vertex 9.7,1.2,16.5
+face 0,1,2,3
+
+[texture]
+load ..\platforms\ttable1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1 

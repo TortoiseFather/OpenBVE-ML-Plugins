@@ -1,0 +1,281 @@
+;author=eezypeazy
+;description=semaphore signal
+;copyright=eezypeazy 2006, all rights reserved, visit http://members.lycos.co.uk/eezypeazy
+
+
+[meshbuilder]
+vertex -1,6.4,0.07
+vertex -1,7.3,0.07
+vertex 0.2,7.3,0.07
+vertex 0.2,6.4,0.07
+face 0,1,2,3
+
+[texture]
+load sem_red.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -1,6.4,0.07
+vertex -1,7.3,0.07
+vertex 0.2,7.3,0.07
+vertex 0.2,6.4,0.07
+face 3,2,1,0
+
+[texture]
+load sem_red_reverse.bmp
+coordinates 0,1,1
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+transparent 0,0,255
+
+
+
+
+[MeshBuilder]
+cube 0.05,2.5,0.05
+translate -2.03,2.5,0
+color 111,111,111
+
+[MeshBuilder]
+cube 0.05,2.5,0.05
+translate -1.7,2.5,0
+color 111,111,111
+
+[MeshBuilder]
+cube 0.05,2.5,0.05
+translate -2.03,2.5,0.33
+color 111,111,111
+
+[MeshBuilder]
+cube 0.05,2.5,0.05
+translate -1.7,2.5,0.33
+color 111,111,111
+
+[MeshBuilder]
+cube 0.165,0.36,0.05
+translate -1.865,0.36,0
+color 111,111,111
+
+[MeshBuilder]
+cube 0.165,0.16,0.05
+translate -1.865,1.66,0
+color 111,111,111
+
+[MeshBuilder]
+cube 0.165,0.16,0.05
+translate -1.865,2.66,0
+color 111,111,111
+
+[MeshBuilder]
+cube 0.165,0.16,0.05
+translate -1.865,3.66,0
+color 111,111,111
+
+[MeshBuilder]
+cube 0.165,0.16,0.05
+translate -1.865,4.66,0
+color 111,111,111
+
+[MeshBuilder]
+cube 0.05,0.36,0.165
+translate -1.7,0.36,0.165
+color 111,111,111
+
+[MeshBuilder]
+cube 0.05,0.16,0.165
+translate -1.7,1.66,0.165
+color 111,111,111
+
+[MeshBuilder]
+cube 0.05,0.16,0.165
+translate -1.7,2.66,0.165
+color 111,111,111
+
+[MeshBuilder]
+cube 0.05,0.16,0.165
+translate -1.7,3.66,0.165
+color 111,111,111
+
+[MeshBuilder]
+cube 0.05,0.16,0.165
+translate -1.7,4.66,0.165
+color 111,111,111
+
+[MeshBuilder]
+cube 0.165,0.36,0.05
+translate -1.865,0.36,0.33
+color 111,111,111
+
+[MeshBuilder]
+cube 0.165,0.16,0.05
+translate -1.865,1.66,0.33
+color 111,111,111
+
+[MeshBuilder]
+cube 0.165,0.16,0.05
+translate -1.865,2.66,0.33
+color 111,111,111
+
+[MeshBuilder]
+cube 0.165,0.16,0.05
+translate -1.865,3.66,0.33
+color 111,111,111
+
+[MeshBuilder]
+cube 0.165,0.16,0.05
+translate -1.865,4.66,0.33
+color 111,111,111
+
+[MeshBuilder]
+cube 0.05,0.36,0.165
+translate -2.03,0.36,0.165
+color 111,111,111
+
+[MeshBuilder]
+cube 0.05,0.16,0.165
+translate -2.03,1.66,0.165
+color 111,111,111
+
+[MeshBuilder]
+cube 0.05,0.16,0.165
+translate -2.03,2.66,0.165
+color 111,111,111
+
+[MeshBuilder]
+cube 0.05,0.16,0.165
+translate -2.03,3.66,0.165
+color 111,111,111
+
+[MeshBuilder]
+cube 0.05,0.16,0.165
+translate -2.03,4.66,0.165
+color 111,111,111
+
+[meshbuilder]
+cube 1.4,0.07,0.3
+translate -1,4.7,0.17
+color 111,111,111
+
+[meshbuilder]
+cube 1.7,0.03,0.5
+translate -1,4.8,0.17
+color 111,111,111
+
+[meshbuilder]
+cube 1.2,0.05,0.05
+rotate 0,0,1,36
+translate -0.7,4,0
+color 111,111,111
+
+[meshbuilder]
+cube 0.55,0.05,0.05
+rotate 0,0,1,136
+translate -1.2,4.33,0
+color 111,111,111
+
+[meshbuilder]
+cube 1.2,0.05,0.05
+rotate 0,0,1,36
+translate -0.7,4,0.33
+color 111,111,111
+
+[meshbuilder]
+cube 0.55,0.05,0.05
+rotate 0,0,1,136
+translate -1.2,4.33,0.33
+color 111,111,111
+
+[meshbuilder]
+cube 1.585,0.02,0.02
+translate -1.015,5.8,-0.33
+color 111,111,111
+
+[meshbuilder]
+cube 1.585,0.02,0.02
+translate -1.05,5.8,0.66
+color 111,111,111
+
+[meshbuilder]
+cube 0.02,0.02,0.5
+translate 0.55,5.8,0.18
+color 111,111,111
+
+[meshbuilder]
+cube 0.02,0.02,0.5
+translate -2.6,5.8,0.18
+color 111,111,111
+
+[meshbuilder]
+cube 0.02,0.5,0.02
+translate -2.6,5.3,0.22
+color 111,111,111
+
+[meshbuilder]
+cube 0.02,0.5,0.02
+translate 0.55,5.3,0.22
+color 111,111,111
+
+
+
+[meshbuilder]
+cube 0.02,0.5,0.02
+translate -2.2,5.3,0.66
+color 111,111,111
+
+[meshbuilder]
+cube 0.02,0.5,0.02
+translate -1.6,5.3,0.66
+color 111,111,111
+
+[meshbuilder]
+cube 0.02,0.5,0.02
+translate -1,5.3,0.66
+color 111,111,111
+
+[meshbuilder]
+cube 0.02,0.5,0.02
+translate -0.4,5.3,0.66
+color 111,111,111
+
+[meshbuilder]
+cube 0.02,0.5,0.02
+translate 0.2,5.3,0.66
+color 111,111,111
+
+
+
+
+[meshbuilder]
+cube 0.02,0.5,0.02
+translate -2.2,5.3,-0.33
+color 111,111,111
+
+[meshbuilder]
+cube 0.02,0.5,0.02
+translate -1.6,5.3,-0.33
+color 111,111,111
+
+[meshbuilder]
+cube 0.02,0.5,0.02
+translate -1,5.3,-0.33
+color 111,111,111
+
+[meshbuilder]
+cube 0.02,0.5,0.02
+translate -0.4,5.3,-0.33
+color 111,111,111
+
+[meshbuilder]
+cube 0.02,0.5,0.02
+translate 0.2,5.3,-0.33
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.08,0.08,2.2
+color 111,111,111
+translate 0,5.9,0.16

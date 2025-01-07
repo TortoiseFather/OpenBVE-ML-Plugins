@@ -1,0 +1,117 @@
+;author=eezypeazy
+;description=haltwhistle signal box 
+;copyright=eezypeazy, all rights reserved
+
+;infill panels
+[meshbuilder]
+vertex 6.75,2.9,0
+vertex 6.66,3.15,0
+vertex 6.5,3.3,0
+vertex 6.3,3.4,0
+vertex 6.05,3.65,0
+vertex 6,3.78,0
+vertex 6.75,3.78,0
+
+vertex 8.25,2.9,0
+vertex 8.34,3.15,0
+vertex 8.5,3.3,0
+vertex 8.7,3.4,0
+vertex 8.95,3.65,0
+vertex 9,3.78,0
+vertex 8.25,3.78,0
+
+face 0,1,2,3,4,5,6,0
+face 13,12,11,10,9,8,7,13
+color 200,200,176
+
+[meshbuilder]
+vertex 6.75,2.9,6
+vertex 6.66,3.15,6
+vertex 6.5,3.3,6
+vertex 6.3,3.4,6
+vertex 6.05,3.65,6
+vertex 6,3.78,6
+vertex 6,6.6,6
+vertex 6.75,2.9,0
+vertex 6.66,3.15,0
+vertex 6.5,3.3,0
+vertex 6.3,3.4,0
+vertex 6.05,3.65,0
+vertex 6,3.78,0
+vertex 6,6.6,0
+face 0,1,8,7
+face 1,2,9,8
+face 2,3,10,9
+face 3,4,11,10
+face 4,5,12,11
+face 5,6,13,12
+
+[texture]
+load ..\buildings\haltboxpanel.bmp
+coordinates 0,0,1
+coordinates 1,0,0.95
+coordinates 2,0,0.9
+coordinates 3,0,0.85
+coordinates 4,0,.8
+coordinates 5,0,0.78
+coordinates 6,0,0
+coordinates 7,4,1
+coordinates 8,4,0.95
+coordinates 9,4,0.9
+coordinates 10,4,0.85
+coordinates 11,4,0.8
+coordinates 12,4,0.78
+coordinates 13,4,0
+
+[meshbuilder]
+vertex 6,3.78,0
+vertex 6,6.6,0
+vertex 9,6.6,0
+vertex 9,3.78,0
+face 0,1,2,3
+
+[texture]
+load ..\buildings\haltboxpanel.bmp
+coordinates 0,0,0.78
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,0.78
+
+[meshbuilder]
+vertex 6.75,0,6
+vertex 6.75,3.78,6
+vertex 6.75,3.78,0
+vertex 6.75,0,0
+vertex 8.25,3.78,0
+vertex 8.25,0,0
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,4,2
+coordinates 4,6,0
+coordinates 5,6,2
+color 111,99,111
+
+;roof
+[meshbuilder]
+vertex 6,6.6,6
+vertex 7.5,7.8,5
+vertex 7.7,7.8,1
+vertex 6,6.6,0
+vertex 9,6.6,0
+face 0,1,2,3
+face 3,2,4
+color 140,140,140
+
+[texture]
+load brandlingroof.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,2
+coordinates 4,1,2

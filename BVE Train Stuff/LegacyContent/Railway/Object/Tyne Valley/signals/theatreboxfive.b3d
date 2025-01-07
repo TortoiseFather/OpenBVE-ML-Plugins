@@ -1,0 +1,38 @@
+;author=eezypeazy
+;description=theatre box not illuminated
+;copyright=eezypeazy 2008 all rights reserved. Uses soem bitmaps from the BRSigs pack from trainsimcentral, with permission
+
+[MeshBuilder]
+Vertex -0.3,1.95,-0.45
+Vertex 0.3,1.95,-0.45
+Vertex 0.3,0,-0.45
+Vertex -0.3,0,-0.45
+Face 0,1,2,3
+
+[Texture]
+Load theatreboxfive0.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,0
+
+;box
+
+[meshbuilder]
+vertex -0.3,0,-0.3
+vertex -0.3,0.4,-0.3
+vertex -0.3,0.4,-0.8
+vertex -0.3,0,-0.6
+vertex 0.3,0.4,-0.3
+vertex 0.3,0.4,-0.8
+vertex 0.3,0,-0.3
+vertex 0.3,0,-0.6
+face2 0,1,2,3
+face 5,4,1,2
+face2 6,4,5,7
+face 6,0,3,7
+color 77,77,77
+
+
+

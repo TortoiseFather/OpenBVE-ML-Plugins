@@ -1,0 +1,233 @@
+;author=eezypeazy
+;description=wooden crossing
+;copyright=eezypeazy 2009, all rights reserved.
+;uses some RouteBuilder object library textures
+
+;wooden bits
+[meshbuilder]
+cube 0.65,0.08,4
+translate 0,-0.1,4
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,3,0  
+coordinates 7,3,5 
+coordinates 4,0,5 
+
+[meshbuilder]
+cube 1.2,0.08,4
+translate 2,-0.1,4
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,5,0  
+coordinates 7,5,5 
+coordinates 4,0,5 
+
+[meshbuilder]
+cube 0.65,0.08,4
+translate 4,-0.1,4
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,3,0  
+coordinates 7,3,5 
+coordinates 4,0,5 
+
+[meshbuilder]
+cube 0.6,0.08,4
+translate 5.4,-0.1,4
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,3,0  
+coordinates 7,3,5 
+coordinates 4,0,5 
+
+[meshbuilder]
+cube 0.6,0.08,4
+translate -1.4,-0.1,4
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,3,0  
+coordinates 7,3,5 
+coordinates 4,0,5
+
+;gates
+[meshbuilder]
+vertex -2.85,-0.1,0
+vertex -2.85,1.9,0
+vertex -2.85,1.9,8
+vertex -2.85,-0.1,8
+vertex 6.85,-0.1,0
+vertex 6.85,1.9,0
+vertex 6.85,1.9,8
+vertex 6.85,-0.1,8
+face 0,1,2,3
+face 7,6,5,4
+
+[texture]
+load woodengate.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+
+;posts
+
+[meshbuilder]
+cube 0.2,1.2,0.2
+translate -2.85,0.8,0
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,2
+coordinates 1,2,2
+coordinates 2,2,1
+coordinates 3,0,1 
+coordinates 4,0,1
+coordinates 5,2,1
+coordinates 6,2,0
+coordinates 7,0,0 
+
+[meshbuilder]
+cube 0.2,1.2,0.2
+translate -2.85,0.8,8
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,2
+coordinates 1,2,2
+coordinates 2,2,1
+coordinates 3,0,1 
+coordinates 4,0,1
+coordinates 5,2,1
+coordinates 6,2,0
+coordinates 7,0,0 
+
+[meshbuilder]
+cube 0.2,1.2,0.2
+translate 6.85,0.8,0
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,2
+coordinates 1,2,2
+coordinates 2,2,1
+coordinates 3,0,1 
+coordinates 4,0,1
+coordinates 5,2,1
+coordinates 6,2,0
+coordinates 7,0,0 
+
+[meshbuilder]
+cube 0.2,1.2,0.2
+translate 6.85,0.8,8
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,2
+coordinates 1,2,2
+coordinates 2,2,1
+coordinates 3,0,1 
+coordinates 4,0,1
+coordinates 5,2,1
+coordinates 6,2,0
+coordinates 7,0,0 
+
+;fences
+[meshbuilder]
+vertex -2.7,-0.3,8
+vertex -2.7,1,8
+vertex -2.7,1,25.1
+vertex -2.7,-0.3,25.1
+vertex 6.7,-0.3,8
+vertex 6.7,1,8
+vertex 6.7,1,25.1
+vertex 6.7,-0.3,25.1
+face 0,1,2,3
+face 7,6,5,4
+
+[texture]
+load ..\fences\woodfence1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,8,0
+coordinates 3,8,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,8,0
+coordinates 7,8,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -2.36,-0.35,8
+vertex -2.36,-0.25,8
+vertex -2.36,-0.25,25.1
+vertex -2.36,-0.35,25.1
+vertex -2.63,-0.25,8
+vertex -2.63,-0.25,25.1
+vertex 6.36,-0.35,25.1
+vertex 6.36,-0.25,25.1
+vertex 6.36,-0.25,8
+vertex 6.36,-0.35,8
+vertex 6.63,-0.25,25.1
+vertex 6.63,-0.25,8
+face 0,1,2,3
+face 1,4,5,2
+face 6,7,8,9
+face 7,10,11,8
+
+[texture]
+load ..\grounds\grass6_cable.bmp
+coordinates 0,0,0.16
+coordinates 1,0,0.82
+coordinates 2,4.6,0.82
+coordinates 3,4.6,0.16
+coordinates 4,0,0.2
+coordinates 5,4.6,0.2
+coordinates 6,0,0.16
+coordinates 7,0,0.82
+coordinates 8,4.6,0.82
+coordinates 9,4.6,0.16
+coordinates 10,0,0.2
+coordinates 11,4.6,0.2
+
+
+;grounds
+[meshbuilder]
+vertex -2,-0.02,0
+vertex -4.4,-0.2,0
+vertex -4.4,-0.2,8
+vertex -2,-0.02,8
+vertex 5.9,-0.02,0
+vertex 8.4,-0.2,0
+vertex 8.4,-0.2,8
+vertex 5.9,-0.02,8
+vertex -2,-0.4,-1
+face 0,1,2,3
+face 7,6,5,4
+face 0,8,1
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,3,2
+coordinates 1,3,0
+coordinates 2,0,0
+coordinates 3,0,2
+coordinates 4,0,2
+coordinates 5,0,0
+coordinates 6,3,0
+coordinates 7,3,2
+coordinates 8,3.3,2

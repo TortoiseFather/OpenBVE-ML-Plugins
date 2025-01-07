@@ -1,0 +1,212 @@
+;author=eezypeazy
+;description=the green metal footbridge at Brockley Whins, Tyne and Wear
+;copyright=eezypeazy, all rights reserved
+
+[meshbuilder]
+vertex -5.5,7.1,0
+vertex -5.5,9.8,0
+vertex 9.5,9.2,0
+vertex 9.5,7.1,0
+vertex -24.5,7.1,0
+vertex -24.5,9.8,0
+vertex -9.5,9.2,0
+vertex -9.5,7.1,0
+face 0,1,2,3
+face 4,5,6,7
+color 90,255,133
+
+[texture]
+load greenfootbridge.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+
+;metro ramp lh side
+[meshbuilder]
+vertex -7.5,0.9,-40
+vertex -7.5,2.4,-40
+vertex -7.5,8.5,0
+vertex -7.5,7.1,0
+vertex -9.5,0.9,-40
+vertex -9.5,2.4,-40
+vertex -9.5,8.5,0
+vertex -9.5,7.1,0
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\buildings\bluemetalfence.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,15,0
+coordinates 3,15,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,15,0
+coordinates 7,15,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -7.5,0.9,-40
+vertex -9.5,0.9,-40
+vertex -9.5,7.1,0
+vertex -7.5,7.1,0
+face 0,1,2,3
+color 55,55,55
+
+;fences
+[meshbuilder]
+vertex -7.5,7.1,0
+vertex -7.5,9,0
+vertex -5.5,9,0
+vertex -5.5,7.1,0
+vertex 9.5,7.1,0
+vertex 9.5,9,0
+vertex 15,9,0
+vertex 15,7.1,0
+vertex 15,2.9,-25
+vertex 15,0.9,-25
+vertex -29,7.1,0
+vertex -29,9,0
+vertex -24.5,9,0
+vertex -24.5,7.1,0
+face 0,1,2,3
+face 4,5,6,7
+face 7,6,8,9
+face 10,11,12,13
+
+[texture]
+load ..\fences\woodfencewhite1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1.3,0
+coordinates 3,1.3,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,4,0
+coordinates 7,4,1
+coordinates 8,16,0
+coordinates 9,16,1 
+coordinates 10,0,1
+coordinates 11,0,0
+coordinates 12,2,0
+coordinates 13,2,1
+color 99,99,199
+transparent 0,0,255
+
+;walls
+[meshbuilder]
+vertex -10,-0.4,-0.5
+vertex -10,6.8,-0.5
+vertex -5,6.8,-0.5
+vertex -5,-0.4,-0.5
+vertex -5,6.8,2.5
+vertex -5,-0.4,9.5
+vertex 9,-0.4,9.5
+vertex 9,6.8,2.5
+vertex 9,6.8,-0.5
+vertex 9,-0.4,-0.5
+vertex 15,6.8,-0.5
+vertex 15,-0.4,-0.5
+vertex -29,-0.4,-0.5
+vertex -29,6.8,-0.5
+vertex -24,6.8,-0.5
+vertex -24,-0.4,-0.5
+vertex -24,6.8,2.5
+vertex -24,-0.4,9.5
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+face 9,8,10,11
+face 12,13,14,15
+face 15,14,16,17
+
+[texture]
+load ..\walls\stone.bmp
+coordinates 0,0,4
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,4
+coordinates 4,3,0
+coordinates 5,4,4
+coordinates 6,0,4
+coordinates 7,0,0
+coordinates 8,2,0
+coordinates 9,2,4
+coordinates 10,1,0
+coordinates 11,1,4
+coordinates 12,0,4
+coordinates 13,0,0
+coordinates 14,2,0
+coordinates 15,2,4
+coordinates 16,3,0
+coordinates 17,4,4
+
+;concrete plinths
+[meshbuilder]
+vertex -10,6.8,-0.5
+vertex -10,7.1,-0.5
+vertex -5,7.1,-0.5
+vertex -5,6.8,-0.5
+vertex -5,7.1,2.5
+vertex -5,6.8,2.5
+vertex 9,6.8,2.5
+vertex 9,7.1,2.5
+vertex 9,7.1,-0.5
+vertex 9,6.8,-0.5
+vertex 15,7.1,-0.5
+vertex 15,6.8,-0.5
+vertex -29,6.8,-0.5
+vertex -29,7.1,-0.5
+vertex -24,7.1,-0.5
+vertex -24,6.8,-0.5
+vertex -24,7.1,2.5
+vertex -24,6.8,2.5
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+face 9,8,10,11
+face 12,13,14,15
+face 15,14,16,17
+color 88,88,88
+
+;underside
+[meshbuilder]
+vertex -6,7.3,2
+vertex -6,7.3,0
+vertex 2,7.5,0
+vertex 2,7.5,2
+vertex 9.5,7.3,0
+vertex 9.5,7.3,2
+vertex -24,7.3,2
+vertex -24,7.3,0
+vertex -18,7.5,0
+vertex -18,7.5,2
+vertex -9.5,7.3,0
+vertex -9.5,7.3,2
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+face 9,8,10,11
+color 66,66,66
+
+;rh bank
+[meshbuilder]
+vertex 12,0,0
+vertex 15,7.1,0
+vertex 15,0.9,-25
+vertex 12,0.8,-25
+face 0,1,2,3
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,2

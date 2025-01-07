@@ -1,0 +1,17 @@
+;author=eezypeazy
+;description=brown ballast crack
+;copyright=eezypeazy, all rights reserved. For use in my routes only. Uses RouteBuilder library bitmap.
+
+[meshbuilder]
+vertex 0,-0.35,-4
+vertex -14,-0.35,-4
+vertex -14,-0.3,26
+vertex 0,-0.3,26
+face2 0,1,2,3
+
+[texture]
+load ..\tracks\schotter1.bmp
+coordinates 0,0,5
+coordinates 1,0,0
+coordinates 2,10,0
+coordinates 3,10,5

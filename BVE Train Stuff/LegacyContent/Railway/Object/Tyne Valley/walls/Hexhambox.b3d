@@ -1,0 +1,171 @@
+;author=eezypeazy
+;description=Hexham Signalbox 
+;copyright=eezypeazy 2009, all rights reserved
+
+;box face
+[meshbuilder]
+vertex -2.88,1.8,0
+vertex -2.88,9.5,0
+vertex 10.3,9.5,0
+vertex 10.3,1.8,0
+face 0,1,2,3
+
+[texture]
+load wylamboxf1.bmp
+coordinates 0,1,1
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+transparent 0,0,255
+
+;box far face
+[meshbuilder]
+vertex -3.35,2.8,3.9
+vertex -3.35,6.2,3.9
+vertex 10.1,6.2,3.9
+vertex 10.1,2.8,3.9
+face 0,1,2,3
+
+[texture]
+load wylamboxf2.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+;walls
+;left wall
+[meshbuilder]
+vertex -3.1,-0.4,-0.2 
+vertex -3.1,5.7,-0.2
+vertex -2.5,5.7,-0.2
+vertex -2.5,-0.4,-0.2
+vertex -2.5,5.7,4
+vertex -2.5,-0.4,4
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\buildings\Redbrick.bmp
+coordinates 0,0,3
+coordinates 1,0,0
+coordinates 2,0.3,0
+coordinates 3,0.3,3
+coordinates 4,2.3,0
+coordinates 5,2.3,3
+
+;right wall
+[meshbuilder]
+vertex 9.8,0,-0.2 
+vertex 9.8,5.4,-0.2
+vertex 9.4,5.4,-0.2
+vertex 9.4,0,-0.2
+vertex 9.4,5.4,4
+vertex 9.4,0,4
+face 3,2,1,0
+face 5,4,2,3
+
+[texture]
+load ..\buildings\Redbrick.bmp
+coordinates 0,0,3
+coordinates 1,0,0
+coordinates 2,0.3,0
+coordinates 3,0.3,3
+coordinates 4,2.3,0
+coordinates 5,2.3,3
+
+;underside
+[meshbuilder]
+vertex -2.6,5.33,0
+vertex -2.6, 5.33,4
+vertex 9.4,5.33,4
+vertex 9.4,5.33,0
+face 3,2,1,0
+color 22,22,22
+
+;steps
+[meshbuilder]
+vertex 9.4,1.6,-3.5
+vertex 9.4,5.4,-2
+vertex 9.4,5.4,-1.5
+vertex 9.4,7.5,-0.3
+vertex 9.4,7.5,0.1
+vertex 9.4,6.4,0.1
+vertex 9.4,6.4,-0.3
+vertex 9.4,4.3,-1.5
+vertex 9.4,4.3,-2
+vertex 9.4,0.2,-3.5
+
+vertex 10,1.6,-3.5
+vertex 10,5.4,-2
+vertex 10,5.4,-1.5
+vertex 10,7.5,-0.3
+vertex 10,7.5,0.1
+vertex 10,6.4,0.1
+vertex 10,6.4,-0.3
+vertex 10,4.3,-1.5
+vertex 10,4.3,-2
+vertex 10,0.2,-3.5
+face 8,1,0,9
+face 7,2,1,8
+face 6,3,2,7
+face 5,4,3,6
+face 18,11,10,19
+face 17,12,11,18
+face 16,13,12,17
+face 15,14,13,16
+
+[texture]
+load ..\buildings\redmetalfence.bmp
+coordinates 0,8,0
+coordinates 1,5,0
+coordinates 2,4,0
+coordinates 3,1,0
+coordinates 4,1,0
+coordinates 5,4,1
+coordinates 6,5,1
+coordinates 7,4,1
+coordinates 8,5,1
+coordinates 9,8,1
+coordinates 10,8,0
+coordinates 11,5,0
+coordinates 12,4,0
+coordinates 13,1,0
+coordinates 14,1,0
+coordinates 15,4,1
+coordinates 16,5,1
+coordinates 17,4,1
+coordinates 18,5,1
+coordinates 19,8,1
+transparent 0,0,255
+
+;steps treads
+
+[meshbuilder]
+vertex 9.4,6.4,0.1
+vertex 9.4,6.4,-0.3
+vertex 9.4,4.3,-1.5
+vertex 9.4,4.3,-2
+vertex 9.4,0.1,-3.5
+vertex 10,6.4,0.1
+vertex 10,6.4,-0.3
+vertex 10,4.3,-1.5
+vertex 10,4.3,-2
+vertex 10,0.1,-3.5
+face2 9,4,3,8
+face2 8,3,2,7
+face2 7,2,1,6
+face2 6,1,0,5
+color 65,65,65
+
+;fill panel
+
+[meshbuilder]
+vertex 9,5.4,0
+vertex 9,7,0
+vertex 10,7,0
+vertex 10,5.4,0
+face 0,1,2,3
+color 55,22,0
+

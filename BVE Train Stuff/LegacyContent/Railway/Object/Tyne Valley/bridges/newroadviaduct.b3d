@@ -1,0 +1,50 @@
+;author=eezypeazy
+;description=a new 25m wide road viaduct section to be used with pillars
+;copyright=eezypeazy 2009, all rights reserved
+;visit www.eezypeazy.co.uk
+
+[meshbuilder]
+vertex -99,6.7,0
+vertex -99,8.5,0
+vertex -4,8.5,0
+vertex -4,6.7,0
+vertex 8,6.7,0
+vertex 8,8.5,0
+vertex 99,8.5,0
+vertex 99,6.7,0
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load mcbusbridge2.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,33,0
+coordinates 3,33,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,33,0
+coordinates 7,33,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -99,6.7,25
+vertex -99,6.7,0
+vertex 99,6.7,0
+vertex 99,6.7,25
+face 0,1,2,3
+color 99,99,99
+
+[meshbuilder]
+vertex -4,6.7,0
+vertex -4,8.75,0
+vertex 8,8.75,0
+vertex 8,6.7,0
+face 0,1,2,3
+
+load metrocentrebusbridge.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255

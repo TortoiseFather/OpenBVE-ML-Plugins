@@ -1,0 +1,106 @@
+;author=Lemontea(original),smace(modifier)
+;description=25 meter cylinder supporting wire net(as wall)
+;copyright=Open Source
+
+[MESHBUILDER]
+vertex 2.8,-.4,-.1
+Vertex 2.8,2,-.1
+Vertex 2.8,2,25.1
+Vertex 2.8,-.4,25.1
+Face 3,2,1,0
+
+[TEXTURE]
+Load wirenet2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,10,0
+Coordinates 3,10,1
+Transparent 255,255,255
+
+[MESHBUILDER]
+vertex 2.7,1.9,-.5
+Vertex 2.7,2,-.5
+Vertex 2.7,2,25.5
+Vertex 2.7,1.9,25.5
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 2.7,-0.4,0
+Vertex 2.7,2,0
+Vertex 2.7,2,0.1
+Vertex 2.7,-0.4,0.1
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 2.7,-0.4,2.4
+Vertex 2.7,2,2.4
+Vertex 2.7,2,2.5
+Vertex 2.7,-0.4,2.5
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 2.7,-0.4,5
+Vertex 2.7,2,5
+Vertex 2.7,2,5.1
+Vertex 2.7,-0.4,5.1
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 2.7,-0.4,7.5
+Vertex 2.7,2,7.5
+Vertex 2.7,2,7.6
+Vertex 2.7,-0.4,7.6
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 2.7,-0.4,10
+Vertex 2.7,2,10
+Vertex 2.7,2,10.1
+Vertex 2.7,-0.4,10.1
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 2.7,-0.4,12.5
+Vertex 2.7,2,12.5
+Vertex 2.7,2,12.6
+Vertex 2.7,-0.4,12.6
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 2.7,-0.4,15
+Vertex 2.7,2,15
+Vertex 2.7,2,15.1
+Vertex 2.7,-0.4,15.1
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 2.7,-0.4,17.5
+Vertex 2.7,2,17.5
+Vertex 2.7,2,17.6
+Vertex 2.7,-0.4,17.6
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 2.7,-0.4,20
+Vertex 2.7,2,20
+Vertex 2.7,2,20.1
+Vertex 2.7,-0.4,20.1
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 2.7,-0.4,22.5
+Vertex 2.7,2,22.5
+Vertex 2.7,2,22.6
+Vertex 2.7,-0.4,22.6
+Face 3,2,1,0
+color 125,125,125

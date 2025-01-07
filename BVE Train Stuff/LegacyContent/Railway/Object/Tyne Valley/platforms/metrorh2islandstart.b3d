@@ -1,0 +1,110 @@
+;author=eezypeazy
+;description=metro island platform start, RH side
+;copyright=eezypeazy, all rights reserved
+
+;rh side
+[MeshBuilder]
+Vertex 6,0.96,1.7
+Vertex 1.8,0.96,1.7
+Vertex 1.8,-0.2,1.7
+vertex 6,0.96,25.2
+vertex 1.8,-0.2,25.2
+vertex 1.8,0.96,25.2
+vertex 2.5,0.96,1.7
+vertex 2.5,0.96,25.2
+vertex 6,-0.2,-0.2
+vertex 2.5,-0.2,-0.2
+vertex 1.8,-0.2,-0.2
+
+face 7,3,0,6
+face 5,7,6,1
+face 4,5,1,2
+face 6,0,8,9
+face 1,6,9,10
+face 2,1,10
+
+[Texture]
+Load metro1.bmp
+Coordinates 0, 4.8, 0.72
+Coordinates 1, 4.8, 0.77
+Coordinates 2, 4.8, 1
+Coordinates 3,0, 0.72
+Coordinates 4,0, 1
+Coordinates 5,0, 0.77
+coordinates 6,4.8,0.75
+coordinates 7,0,0.75
+coordinates 8,5,0.72
+coordinates 9,5,0.75
+coordinates 10,5,0.77
+
+
+;far part
+[MeshBuilder]
+Vertex 6,0.96,1.7
+Vertex 10.2,0.96,1.7
+Vertex 1.8,-0.2,1.7
+vertex 6,0.96,25.2
+vertex 1.8,-0.2,25.2
+vertex 10.2,0.96,25.2
+vertex 9.5,0.96,1.7
+vertex 9.5,0.96,25.2
+vertex 6,-0.2,-0.2
+vertex 9.5,-0.2,-0.2
+vertex 10.2,-0.2,-0.2
+
+face 6,0,3,7
+face 1,6,7,5
+face 0,6,9,8
+face 6,1,10,9
+
+[Texture]
+Load metro1.bmp
+Coordinates 0, 4.8, 0.72
+Coordinates 1, 4.8, 0.77
+Coordinates 2, 4.8, 1
+Coordinates 3,0, 0.72
+Coordinates 4,0, 1
+Coordinates 5,0, 0.77
+coordinates 6,4.8,0.75
+coordinates 7,0,0.75
+coordinates 8,5,0.72
+coordinates 9,5,0.75
+coordinates 10,5,0.77
+
+; lamp
+[meshbuilder]
+cylinder 8,0.11,0.15,9
+translate 6,5.5,12.5
+color 155,155,155
+
+[meshbuilder]
+vertex 5.95,9.8,12.7
+vertex 5.95,10,12.7
+vertex 5.1,10.1,12.7
+vertex 5.1,9.9,12.7
+vertex 5.95,9.8,12
+vertex 5.95,10,12
+vertex 5.1,10.1,12
+vertex 5.1,9.9,12
+face 0,1,2,3
+face 3,2,6,7
+face 7,6,5,4
+face 1,5,6,2
+face 0,3,7,4
+color 50,50,50
+
+[meshbuilder]
+vertex 6.05,9.8,12.7
+vertex 6.05,10,12.7
+vertex 6.9,10.1,12.7
+vertex 6.9,9.9,12.7
+vertex 6.05,9.8,12
+vertex 6.05,10,12
+vertex 6.9,10.1,12
+vertex 6.9,9.9,12
+face 0,1,2,3
+face 3,2,6,7
+face 7,6,5,4
+face 1,5,6,2
+face 0,3,7,4
+color 50,50,50

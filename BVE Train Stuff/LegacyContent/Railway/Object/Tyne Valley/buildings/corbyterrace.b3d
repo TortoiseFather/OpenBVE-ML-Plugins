@@ -1,0 +1,182 @@
+;author=eezypeazy
+;description=corby terrace
+;copyright=eezypeazy 2007, all rights reserved, contact eezypeazy@eezypeazy.co.uk
+
+;lh side
+
+;grass
+[meshbuilder]
+vertex -4.5,0,0
+vertex -10,0,0
+vertex -10,0,25
+vertex -4.5,0,25
+face 0,1,2,3
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,1
+
+;terrace
+[meshbuilder]
+vertex -10,0,0
+vertex -10,6,0
+vertex -10,6,25
+vertex -10,0,25
+face 0,1,2,3
+
+[texture]
+load ..\buildings\terrace.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,1
+
+[meshbuilder]
+vertex -18,0,0
+vertex -18,6,0
+vertex -10,6,0
+vertex -10,0,0
+vertex -14,8.5,0
+face 0,1,2,3
+face 1,4,2
+color 255,255,255
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,3
+coordinates 1,0,1
+coordinates 2,3,1
+coordinates 3,3,3
+coordinates 4,1.5,0
+
+[meshbuilder]
+vertex -18,0,0
+vertex -18,6,0
+vertex -10,6,0
+vertex -10,0,0
+vertex -14,8.5,0
+face 3,2,1,0
+face 2,4,1
+color 255,255,255
+translate 0,0,25
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,3
+coordinates 1,0,1
+coordinates 2,3,1
+coordinates 3,3,3
+coordinates 4,1.5,0
+
+[meshbuilder]
+vertex -14.8,8,0.3
+vertex -14.8,9.3,0.3
+vertex -13.2,9.3,0.3
+vertex -13.2,8,0.3
+vertex -13.2,9.3,0.9
+vertex -13.2,8,0.9
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,0.7
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,0.7
+coordinates 4,1.2,0
+coordinates 5,1.2,0.7
+
+[meshbuilder]
+vertex -14.8,8,12.3
+vertex -14.8,9.3,12.3
+vertex -13.2,9.3,12.3
+vertex -13.2,8,12.3
+vertex -13.2,9.3,12.9
+vertex -13.2,8,12.9
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,0.7
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,0.7
+coordinates 4,1.2,0
+coordinates 5,1.2,0.7
+
+[meshbuilder]
+vertex -14.8,8,24.3
+vertex -14.8,9.3,24.3
+vertex -13.2,9.3,24.3
+vertex -13.2,8,24.3
+vertex -13.2,9.3,24.9
+vertex -13.2,8,24.9
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,0.7
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,0.7
+coordinates 4,1.2,0
+coordinates 5,1.2,0.7
+
+[meshbuilder]
+vertex -10,6,0
+vertex -14,8.5,0
+vertex -14,8.5,25
+vertex -10,6,25
+face 0,1,2,3
+
+[texture]
+load ..\textures\rooftiles.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,8,0
+coordinates 3,8,2
+
+[MeshBuilder]
+Vertex -4.5, -0.2,-0.1
+Vertex -4.5, 1.8,-0.1
+Vertex -4.5, 1.8, 12.5
+Vertex -4.5, -0.2,12.5
+vertex -4.5,1.5,25
+vertex -4.5,-0.2,25
+Vertex 7.2, -1,-0.1
+Vertex 7.2, 1,-0.1
+Vertex 7.2, 1.5, 19
+Vertex 7.2, -1,19
+
+
+vertex -10,0,25
+vertex -10,2,25
+
+Face 0,1,2,3
+face 3,2,4,5
+;Face 9,8,7,6
+face2 10,11,4,5
+
+[Texture]
+Load ..\plants\eptree1.bmp
+Coordinates 0,0,1
+Coordinates 1,0.3,0
+Coordinates 2,0.7,0
+Coordinates 3,0.5,1
+Coordinates 4,0.3,0
+Coordinates 5,0,1
+Coordinates 6,0,1
+Coordinates 7,0.3,0
+Coordinates 8,0.7,0
+Coordinates 9,0.5,1
+coordinates 10,0.3,1
+coordinates 11,0,0
+Transparent 0, 0, 255
+
+

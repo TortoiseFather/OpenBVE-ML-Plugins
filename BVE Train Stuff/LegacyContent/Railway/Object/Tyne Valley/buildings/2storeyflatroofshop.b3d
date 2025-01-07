@@ -1,0 +1,47 @@
+;author=eezypeazy
+;description=2 storey flat roof shop built negatively walk-round
+;copyright=eezypeazy 2009, all rights reserved.
+
+[meshbuilder]
+vertex -8,0,0
+vertex -8,6,0
+vertex -8,6,-21
+vertex -8,0,-21
+face 0,1,2,3
+
+[texture]
+load terracedshops1.bmp
+coordinates 0,0,1
+coordinates 1,0,0.28
+coordinates 2,2,0.28
+coordinates 3,2,1
+
+[meshbuilder]
+vertex -8,0,-21
+vertex -8,6,-21
+vertex 0,6,-21
+vertex 0,0,-21
+vertex 0,6,0
+vertex 0,0,0
+vertex -8,6,0
+vertex -8,0,0
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+color 155,88,55
+
+[texture]
+load cliburnbrick.bmp
+coordinates 0,0,6
+coordinates 1,0,0
+coordinates 2,6,0
+coordinates 3,6,6
+coordinates 4,21.75,0
+coordinates 5,21.75,6
+coordinates 6,27.75,0
+coordinates 7,27.75,6
+
+[meshbuilder]
+cube 4.3,0.3,10.8
+color 123,123,123
+translate -4,6.3,-10.5

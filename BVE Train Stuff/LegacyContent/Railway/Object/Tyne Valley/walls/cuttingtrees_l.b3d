@@ -1,0 +1,143 @@
+;author=eezypeazy
+;description=cutting to 7m LH side only
+;copyright=eezypeazy 2009, all rights reserved, contact eezypeazy@eezypeazy.co.uk. Uses a RouteBuilder bitmap
+
+;lh side
+
+[MeshBuilder]
+Vertex -2.2,-0.2,-0.2
+vertex -4,1,-0.2
+vertex -6,3,-0.2
+Vertex -8.8,7,-0.2
+Vertex -8.8,7,25.2
+vertex -6,3,25.2
+Vertex -4,1,25.2
+vertex -2.2,-0.2,25.2
+vertex -30,-0.2,-2
+vertex -30,1,-2
+vertex -25,3,-2
+Face 0, 1,6,7
+face 1,2,5,6
+face 2,3,4,5
+face 8,9,1,0
+face 9,10,2,1
+face 10,3,2
+
+[Texture]
+Load ..\textures\grass.bmp
+Coordinates 0, 0, 3
+Coordinates 1, 0, 2
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Coordinates 4, 1, 0
+Coordinates 5, 1, 1
+Coordinates 6, 1, 2
+Coordinates 7, 1, 3
+Coordinates 8, 1, 1
+Coordinates 9, 1, 2
+Coordinates 10, 1,3
+
+;trees
+
+[meshbuilder]
+vertex -8,2,3
+vertex -8,8.5,3
+vertex -4,8.5,4
+vertex -4,2,4
+vertex -7,0.5,10
+vertex -7,6.5,10
+vertex -2.5,6.5,12
+vertex -2.5,0.1,12
+face 0,1,2,3
+face 4,5,6,7
+color 90,90,90
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+
+[MeshBuilder]
+Vertex -11, 12, 5
+Vertex -11, -0.1, 5
+Vertex -3, -0.1, 7
+Vertex -3, 12, 7
+Face 3,2,1,0
+
+[Texture]
+Load ..\plants\eptree1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 255
+
+
+[MeshBuilder]
+Vertex -9, 11, 21
+Vertex -9, 2, 21
+Vertex -4, 2, 21
+Vertex -4, 11, 21
+Face 3,2,1,0
+
+[Texture]
+Load ..\plants\eptree1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 255
+
+;description=forest floor
+;author=Uwe Post
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+
+[MeshBuilder]
+Vertex -104, -0.40, 26
+Vertex 104, -0.40, 26
+Vertex 104, -0.401, -1
+Vertex -104, -0.401, -1
+Face 0, 1, 2, 3
+
+[Texture]
+Load ..\grounds\forestfloor1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 4, 0
+Coordinates 2, 4, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+vertex -104, -0.4,-1
+vertex -104, -5,-9
+vertex  104, -5,-9
+vertex  104, -0.4,-1
+Face 3,2,1,0
+
+[Texture]
+Load ..\grounds\forestfloor1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0.4, 0
+Coordinates 2, 0.4, 4
+Coordinates 3, 0, 4
+
+
+[MeshBuilder]
+vertex -104, -0.4,26
+vertex -104, -5,34
+vertex  104, -5,34
+vertex  104, -0.4,26
+Face 0,1,2,3
+
+[Texture]
+Load ..\grounds\forestfloor1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0.4, 0
+Coordinates 2, 0.4, 4
+Coordinates 3, 0, 4

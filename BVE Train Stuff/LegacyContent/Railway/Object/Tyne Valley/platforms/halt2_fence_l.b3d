@@ -1,0 +1,51 @@
+;author=eezypeazy
+;description=haltwhistle platform run fence and trees left
+;copyright=eezypeazy, all rights reserved
+
+[MeshBuilder]
+vertex -5.9,1,-0.2
+vertex -5.9,2.5,-0.2
+vertex -5.9,2.5,25.2
+vertex -5.9,1,25.2
+face 0,1,2,3
+
+[Texture]
+Load ..\fences\whitepicket.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 16, 0
+Coordinates 3, 16,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -6.3,1,-2.2
+vertex -6.3,12,-0.2
+vertex -5.6,12,8
+vertex -5.6,1,12
+vertex -6.3,1,3
+vertex -6.3,12,7
+vertex -5.6,12,16
+vertex -5.6,1,20
+vertex -6.3,1,10
+vertex -6.3,12,15
+vertex -5.6,12,26
+vertex -5.6,1,28
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,1,0
+coordinates 11,1,1
+transparent 0,0,255

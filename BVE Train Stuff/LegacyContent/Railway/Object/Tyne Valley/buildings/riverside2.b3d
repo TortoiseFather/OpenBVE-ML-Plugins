@@ -1,0 +1,18 @@
+;author=eezypeazy
+;description=riverside buildings 2
+;copyright=eezypeazy 2009 all rights reserved
+
+[meshbuilder]
+vertex -3,-25,0
+vertex -3,15,0
+vertex -78,15,0
+vertex -78,-25,0
+face 3,2,1,0
+
+[texture]
+load riverside1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255

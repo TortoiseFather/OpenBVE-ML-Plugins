@@ -1,0 +1,28 @@
+;author=eezypeazy
+;description=big trees close to track
+;copyright=eezypeazy, all rights reserved, go to http://members.lycos.co.uk/eezypeazy
+
+[meshbuilder]
+vertex 8,-4,0
+vertex 1,14,0
+vertex 19,14,0
+vertex 21,-3,0
+vertex -15,-3,0
+vertex -15,9,0
+vertex -0.5,12,0
+vertex -1,-3,0
+face 0,1,2,3
+face 4,5,6,7
+color 222,222,0
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,1,1
+coordinates 5,1,0
+coordinates 6,0,0
+coordinates 7,0,1
+transparent 0,0,255

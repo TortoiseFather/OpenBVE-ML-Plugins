@@ -1,0 +1,491 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>British Upper Quadrant Semaphore Signals</title>
+</head>
+<body>
+<table style="width: 100%; text-align: left;" border="0" cellpadding="2"
+ cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>BrSema4Sigs: British Upper Quadrant Semaphores for BVE4<br>
+      </h1>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<big>Release 08.06<br>
+<br>
+By Simon Gathercole<br>
+Date of issue 08/06/05</big><br>
+<br>
+<h2>Introduction</h2>
+Thank you for downloading British Upper Quadrant Semaphores for
+BVE4.&nbsp; The files have been installed to <font color="#000000"
+ face="Arial, Helvetica, sans-serif" size="2"><font
+ face="Verdana, Arial, Helvetica, sans-serif"><font color="#0000ff">Program
+Files\BVE\Railway\Object\BrSema4Sigs</font></font></font> and this
+guide can be found there should you want to read it again.&nbsp; The
+package contains working BVE4 signal objects representing the
+standard
+British upper quadrant signal arms installed from the mid 1920s onwards
+and still in use on some lines today.&nbsp; <br>
+<br>
+<h3>Driving with semaphore signals</h3>
+For a good description of British semaphore signaling, see <a
+ href="http://www.signalbox.org/index.shtml">The Signal Box</a>.&nbsp; <br>
+<br>
+BrSema4Sigs provides developers with arms to suit different light
+levels.&nbsp; Note that arms for daylight use do not show the signal
+lamp illuminated: as a result, you may find that seeing the signal
+aspect is harder than with colour light signals - this is prototypical!<br>
+<br>
+<span style="font-weight: bold;">If you are a BVE4 user and have
+installed routes that require this signal pack, you may now run
+them.&nbsp; You need take no further action:&nbsp; the rest of this
+guide is aimed at route developers.<br>
+<br>
+</span><span style="font-weight: bold;"></span>
+<h2>Copyright and use</h2>
+This package is intended to be used freely in BVE4 routes.<br>
+<h3 style="margin-left: 40px;">You may:</h3>
+<ul style="margin-left: 40px;">
+  <li>use the signal arm and post objects in this package in your routes<br>
+  </li>
+</ul>
+<h3 style="margin-left: 40px;">You must not:</h3>
+<ul style="margin-left: 40px;">
+  <li>distribute objects from this package with your own routes - you
+must ask your users to download the latest version of BrSema4Sigs</li>
+</ul>
+<h2>Package contents</h2>
+<h3>Note</h3>
+The package is in continuous development and further
+varieties will be added in future releases.<br>
+<h3>Signal Arms</h3>
+Arms are provided for two light levels:<br>
+<ul>
+  <li>bright daylight, with the signal lamp unilluminated</li>
+  <li>low light (e.g. early morning, fog or rain), with signal lamp
+illuminated</li>
+</ul>
+The 'low light' signals use the emissive brightness feature of DirectX
+format objects to produce a realistic bright signal lamp and are
+suitable for ambient light levels between about 140 and 200.
+Appropriate BVE 'glow' objects are provided to assist sighting
+(daylight signals should be used with the null glow object which
+provides no assistance at all :-).<br>
+<h4>Full size signals:</h4>
+<table style="text-align: left; width: 407px; height: 60px;" border="0"
+ cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><big><code>stop_arm_d.x<br>
+      </code></big></td>
+      <td style="vertical-align: top;">stop ('home') arm (daytime)<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><big><code>stop_arm_l.x</code></big></td>
+      <td style="vertical-align: top;">stop ('home') arm (low light)<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><big><code>dist_arm_d.x<br>
+      </code></big></td>
+      <td style="vertical-align: top;">distant arm (daytime)<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><big><code>dist_arm_l.x</code></big></td>
+      <td style="vertical-align: top;">distant arm (low light)</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Miniature arms:</h4>
+<table style="text-align: left; width: 422px; height: 32px;" border="0"
+ cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><big><code>mini_arm_d.x<br>
+      </code></big></td>
+      <td style="vertical-align: top;">miniature stop arm (daytime)<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><big><code>mini_arm_l.x</code></big></td>
+      <td style="vertical-align: top;">miniature stop arm (low light)</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+These are miniature versions of the stop arm and are sometimes used to
+signal routes along goods lines or into sidings.<br>
+<br>
+<h4>Shunt arms</h4>
+<table style="text-align: left; width: 333px; height: 60px;" border="0"
+ cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><big><code>shunt_arm_d.x<br>
+      </code></big></td>
+      <td style="vertical-align: top;">shunt arm (daytime)<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><big><code>shunt_arm_l.x</code></big></td>
+      <td style="vertical-align: top;">shunt arm (low light)</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+Shunt arms are striped horizontally and are used for 'calling on'
+'shunt ahead' and 'warning' signals.<br>
+<h4>Glow objects:<br>
+</h4>
+<table style="text-align: left; width: 669px; height: 104px;" border="0"
+ cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><big><code>glownull.x<br>
+      </code></big></td>
+      <td style="vertical-align: top;">null glow object for daylight
+signals<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><big><code>glow_stop.x</code></big></td>
+      <td style="vertical-align: top;">glow object for low light, stop
+miniature and shunt signals<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><big><code>glow_dist.x</code></big></td>
+      <td style="vertical-align: top;">glow object for low light
+distant signals<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h3>Posts</h3>
+(in the subfolder <big><code>posts\tub</code></big>)<br>
+<br>
+<table style="text-align: left; width: 839px; height: 144px;" border="0"
+ cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><big><code>post_21.x<br>
+      </code></big></td>
+      <td style="vertical-align: top;">LM style 21' tubular steel post<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><big><code>post_21_tc.x</code></big></td>
+      <td style="vertical-align: top;">LM style 21' tubular steel post
+with track circuit diamond plate<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><big><code>post_24.x</code></big></td>
+      <td style="vertical-align: top;">LM style 24' tubular steel post
+for single arm<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><big><code>post_24_tc.x</code></big></td>
+      <td style="vertical-align: top;">LM style 24' tubular steel post
+with track circuit diamond plate for single arm </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><big><code>post_24_tc_sl.x</code></big></td>
+      <td style="vertical-align: top;">LM style 24' tubular steel post
+with track circuit diamond plate for 'slotted' stop and distant arms<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+All posts have ladders and a representation of the appropriate type of
+balance weight.<br>
+<br>
+<h3>Miscellaneous</h3>
+<table style="text-align: left; width: 489px; height: 32px;" border="0"
+ cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><big><code>lamp.x<br>
+      </code></big></td>
+      <td style="vertical-align: top;">lamp with bracket and signal arm
+pivot<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h2>Using the signals in a route</h2>
+<h3>Declaring the signal arms</h3>
+Add the following code to your route files, at the end of the With
+Structure section:<br>
+<br>
+<div style="margin-left: 40px;"><big><code>Signal(0).Load
+BrSema4Sigs\stop_arm_d; BrSema4Sigs\glownull;&nbsp;&nbsp;&nbsp; ;; use
+the appropriate glow<br>
+Signal(1).Load BrSema4Sigs\dist_arm_d;
+BrSema4Sigs\glownull;&nbsp;&nbsp;&nbsp; ;;&nbsp; (see above)<br>
+Signal(2).Load BrSema4Sigs\mini_arm_d; BrSema4Sigs\glownull;</code></big><br>
+</div>
+<br>
+<span style="font-weight: bold;">Note </span>- if you are also using
+the BrSigs colour light signal package in your route, you will need to
+adjust the index numbers in the above list to avoid conflicts.&nbsp;
+BrSigs currently contains 19 different signal types, so the indices
+would become:<br>
+<br>
+<div style="margin-left: 40px;"><big><code>Signal(20).Load
+BrSema4Sigs\stop_arm_d; BrSema4Sigs\glownull; <br>
+Signal(21).Load BrSema4Sigs\dist_arm_d; BrSema4Sigs\glownull;<br>
+Signal(22).Load BrSema4Sigs\mini_arm_d; BrSema4Sigs\glownull;</code></big><br>
+</div>
+<br>
+<h3>Inserting signals in the route</h3>
+<h4>Stop signal</h4>
+For a solitary stop signal, marking the entry to a section, at say
+6000m in your route, add the following code to the With Track section:<br>
+<br>
+<div style="margin-left: 40px;"><big><code>6000,&nbsp; .SigF <span
+ style="font-weight: bold;">0</span>;<span style="font-weight: bold;">1</span>;x;y,
+.Section 0; 4, </code></big><br>
+</div>
+<br>
+where x and y are the coordinates of the signal arm pivot.&nbsp; x is
+normally <code><big><span style="font-weight: bold;">-2.3</span></big></code>,
+but the value of y depends upon the post used.&nbsp; See later in this
+guide for the correct values to use with the posts supplied with
+BrSema4Sigs.&nbsp; The index of the signal arm is <span
+ style="font-weight: bold;">0</span> here but would be <span
+ style="font-weight: bold;">20</span> if BrSigs were also being used.<br>
+<br>
+The <big><code>.Section</code></big> command tells BVE which signal
+aspects to use when then next section is occupied, the one after that
+and so on.&nbsp; To avoid confusion, BrSema4Sigs uses the same aspect
+numbers as BrSigs, here:<br>
+<br>
+<table
+ style="text-align: left; width: 637px; height: 60px; margin-left: 40px;"
+ border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><big><code>0<br>
+      </code></big></td>
+      <td style="vertical-align: top;">danger (=red in BrSigs)<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">4<br>
+      </td>
+      <td style="vertical-align: top;">clear (=green in BrSigs)<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Distant signal</h4>
+The distant signal for the above stop signal should be placed a
+suitable distance before it, to allow drivers time to brake:<br>
+<br>
+<div style="margin-left: 40px;"><big><code>5000,<big>&nbsp; </big>.SigF
+<span style="font-weight: bold;">1</span>;<span
+ style="font-weight: bold;">1</span>;x;y,</code></big><br>
+</div>
+<br>
+where x and y are again the coordinates of the signal arm pivot. Notice
+that there is no<big><code> .Section</code></big> command: the distant
+is controlled by the same section as the stop signal. The index of the
+signal arm is <span style="font-weight: bold;">1</span> here but would
+be <span style="font-weight: bold;">21</span> if BrSigs were also
+being used.<br>
+<br>
+<h4>'Slotted' distant signal</h4>
+A 'slotted' distant signal is used when a section is so short that the
+distant must be placed on the same post as the preceding section
+signal.&nbsp; The two arms are&nbsp; controlled from different signal
+boxes, but interlocking located on the signal post ensures that the
+distant may not be cleared unless the stop arm is also clear.&nbsp; The
+situation in BVE is thus a little more complicated:<br>
+<br>
+<div style="margin-left: 40px;"><big><code>8500,&nbsp;&nbsp;&nbsp;&nbsp;
+.SigF 1;1;x;yd, .SigF 0;1;x;ys, .Section 0; 2; 4,</code></big><br>
+</div>
+<br>
+The first .<big><code>Sigf</code></big> is the distant and the second
+the stop signal: notice that they have different&nbsp; values of the y
+coordinate.&nbsp;&nbsp; Three aspects are needed:<br>
+<br>
+<table
+ style="text-align: left; margin-left: 40px; width: 664px; height: 116px;"
+ border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">Distant<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">Stop<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">BrSigs
+equivalent<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">0<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">caution<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">danger<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">red<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">2<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">caution<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">clear<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">yellow<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">4<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">clear<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">clear<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">green<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Miniature arms</h4>
+The code for a miniature arm is:<br>
+<br>
+<div style="margin-left: 40px;"><big><code>10500,&nbsp; .SigF <span
+ style="font-family: mon;"><span style="font-weight: bold;">2</span></span><span
+ style="font-weight: bold;"></span>;<span style="font-weight: bold;">1</span>;x;y,
+.Section 0; 4, </code></big><br>
+</div>
+<br>
+The index of the signal arm is <span style="font-weight: bold;">2</span>
+here but would be <span style="font-weight: bold;">22</span> if BrSigs
+were also being used.<br>
+<br>
+Miniature arms are used to protect entry to sidings and goods lines and
+are normally cleared only as the train has been slowed nearly to a
+stand.&nbsp;&nbsp; This can be simulated in BVE using either a dummy
+station, or the <big><code>.Pretrain</code></big> command.<br>
+<br>
+<h2>Using AWS with semaphores<br>
+</h2>
+AWS magnets should be fitted about 200m before <span
+ style="font-weight: bold;">distant</span> signals only, except where a
+stop signal marks the end of an 'AWS gap' (a stretch of line to which
+AWS is not fitted).&nbsp; This package does not include an AWS magnet
+object, but the one included in <span style="font-weight: bold;">BrSigs
+</span>is suitable and can be used in conjunction with the <big><code>.beacon</code></big>
+commands that interact with plugin-fitted BVE4 trains.<br>
+<h4>Declaring the beacon</h4>
+<span style="font-weight: bold;"></span>To use the AWS magnet object
+from BrSigs, enter the following code following the <big><code>With
+Structure</code></big> section of your route file:<br>
+<br>
+<div style="margin-left: 40px;"><big><code>.Beacon(0)
+BrSigs\awsmagnet_1.x</code></big><font color="#0000ff"
+ face="Arial, Helvetica, sans-serif" size="5"><font size="2"><font
+ color="#0000ff" face="Arial, Helvetica, sans-serif" size="5"><font
+ size="2"><font color="#0000ff" face="Arial, Helvetica, sans-serif"
+ size="5"><font size="2"><font color="#000000"><font
+ face="Arial, Helvetica, sans-serif"><font
+ face="Courier New, Courier, mono" size="2"><strong></strong></font></font></font></font></font></font></font></font></font><br>
+</div>
+<h4>Inserting beacons in your route<br>
+</h4>
+Insert the AWS beacon about 200m before a distant signal, e.g.<br>
+<br>
+<div style="margin-left: 40px;"><big><code>4800,&nbsp; .Beacon
+44000;1;1;0,</code></big><br>
+</div>
+<br>
+where <span style="font-weight: bold;">44000 </span>is the code that
+identifies an AWS beacon to plugin-fitted BVE4 trains.<br>
+<br>
+<h2>Using the other components</h2>
+To build a complete signal from the components included in this
+package, you will need:<br>
+<ul>
+  <li>a signal arm or arms (see above)</li>
+  <li>a lamp object for each arm</li>
+  <li>a suitable post</li>
+</ul>
+The lamp and the posts you wish to use should be declared and used as
+freeobjects.&nbsp; The necessary coordinates are:<span
+ style="font-weight: bold;"><br>
+</span>
+<h4>x coordinates</h4>
+Enter the same x coordinate in the <big><code>.Sigf </code></big>command
+and in the <big><code>.freeobj </code></big>commands for the post and
+lamp: <big><code><span style="font-weight: bold;">-2.3</span></code></big>
+is suitable for a lineside signal.<br>
+<h4>y coordinates</h4>
+Place the signal post with a y coordinate of 0.&nbsp; The arm and lamp
+should have the same y coordinate, which depends on the height of the
+post being used:<br>
+<br>
+<table style="width: 50%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">Post<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">Upper arm<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">Lower arm<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">21m<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">6.39<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">-<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">24m<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">7.15<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">5.32<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<span style="font-weight: bold;"></span>
+<hr style="width: 100%; height: 2px;"><br>
+This document &copy; Simon Gathercole 2005<br>
+<br>
+BrSigs is &copy; Steve Green<br>
+<br>
+Certain textures used by the post objects are &copy; Anthony Bowden and
+used with permission.
+</body>
+</html>

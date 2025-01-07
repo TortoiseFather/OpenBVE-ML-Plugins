@@ -1,0 +1,37 @@
+;(c) Shane Roberts 2004
+;Derby to Stoke on Trent route object
+;This object may be reused without permission from the author as long
+;credit is give in your routes readme
+;modified by eezypeazy
+
+
+CreateMeshBuilder,,,,
+Addvertex,-6.7, 3.2,-12,
+Addvertex,-6.7, 3.2,-10,
+Addvertex,-6.7, 1.8,-10,
+Addvertex,-6.7, 1.8,-12,
+
+Addface,0,1,2,3
+
+
+GenerateNormals,,,,
+
+LoadTexture,..\platforms\ttable1.bmp,,,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+
+
+CreateMeshBuilder,,,,
+cube,0.05,1.5,0.05,
+translate, -6.7,1.75,-9.95
+setcolor,,,108,
+
+CreateMeshBuilder,,,,
+cube,0.05,1.5,0.05,
+translate, -6.7,1.75,-12.05
+setcolor,,,108,
+
+

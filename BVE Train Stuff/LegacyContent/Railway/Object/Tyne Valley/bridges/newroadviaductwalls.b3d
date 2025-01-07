@@ -1,0 +1,37 @@
+;author=eezypeazy
+;description= solid walls for a new 25m wide road viaduct section
+;copyright=eezypeazy 2009, all rights reserved
+;visit www.eezypeazy.co.uk
+
+[meshbuilder]
+vertex -99,-0.4,1
+vertex -99,6.7,1
+vertex -4.5,6.7,1
+vertex -4.5,-0.4,1
+vertex -4.5,6.7,24
+vertex -4.5,-0.4,24
+vertex 8.5,-0.4,24
+vertex 8.5,6.7,24
+vertex 8.5,6.7,1
+vertex 8.5,-0.4,1
+vertex 99,6.7,1
+vertex 99,-0.4,1
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+face 9,8,10,11
+
+[texture]
+load ..\textures\concrete.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,9,0
+coordinates 3,9,1
+coordinates 4,12,0
+coordinates 5,12,1
+coordinates 6,0,1
+coordinates 7,0,0
+coordinates 8,3,0
+coordinates 9,3,1
+coordinates 10,12,0
+coordinates 11,12,1

@@ -1,0 +1,181 @@
+;author=eezypeazy
+;description= a metal bridge
+;copyright=eezypeazy, all rights reserved
+;uses a bitmap from a photograph by Craig Allan, who retains copyright
+
+[meshbuilder]
+vertex -2.7,7.1,0
+vertex -2.7,8.8,0
+vertex 6.7,8.9,0
+vertex 6.7,7.1,0
+face 0,1,2,3
+
+[texture]
+load metalbr.BMP
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1.69,0
+coordinates 3,1.69,1
+
+;walls
+[meshbuilder]
+vertex -3.1,-0.4,-3
+vertex -3.1,7.1,-1
+vertex -2.5,7.1,-1
+vertex -2.5,-0.4,-3
+vertex -2.5,7.1,11
+vertex -2.5,-0.4,13
+vertex 6.5,-0.4,13
+vertex 6.5,7.1,11
+vertex 6.5,7.1,-1
+vertex 6.5,-0.4,-3
+vertex 7.1,7.1,-1
+vertex 7.1,-0.4,-3
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+face 9,8,10,11
+
+[texture]
+load ..\textures\stonegrey.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,0.5,0
+coordinates 3,0.5,2
+coordinates 4,4,0
+coordinates 5,4,2
+coordinates 6,0,2
+coordinates 7,0,0
+coordinates 8,4,0
+coordinates 9,4,2
+coordinates 10,4.5,0
+coordinates 11,4.5,2
+
+;banks
+[meshbuilder]
+vertex -12,-0.4,-3
+vertex -12,7.1,0
+vertex -3,7.1,0
+vertex -3,-0.4,-3 
+vertex 7,-0.4,-3
+vertex 7,7.1,0
+vertex 16.5,7.1,0
+vertex 16.5,-0.4,-3 
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,3
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,3
+coordinates 4,0,3
+coordinates 5,0,0
+coordinates 6,3,0
+coordinates 7,3,3
+
+[meshbuilder]
+vertex -12,7.1,0
+vertex -12,8.66,0
+vertex -3.5,8.66,0
+vertex -3.5,7.1,0
+vertex 7.5,7.1,0
+vertex 7.5,8.66,0
+vertex 16.5,8.66,0
+vertex 16.5,7.1,0
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\textures\stonegrey.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,7,0
+coordinates 3,7,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,7,0
+coordinates 7,7,1
+
+;underside
+[meshbuilder]
+vertex -2.6,7.1,9
+vertex -2.6,7.1,-0.2
+vertex 6.6,7.1,-0.2
+vertex 6.6,7.1,9
+face 0,1,2,3
+color 88,88,88
+
+;pillars
+[meshbuilder]
+vertex -3.6,0,-0.3
+vertex -3.6,7.1,-0.3
+vertex -2.6,7.1,-0.3
+vertex -2.6,0,-0.3
+vertex -3.6,7.25,-0.3
+vertex -3.6,8.8,-0.3
+vertex -2.6,8.8,-0.3
+vertex -2.6,7.25,-0.3
+vertex -2.6,8.8,0.3
+vertex -2.6,7.25,0.3
+vertex 6.6,0,-0.3
+vertex 6.6,7.1,-0.3
+vertex 7.6,7.1,-0.3
+vertex 7.6,0,-0.3
+vertex 6.6,7.25,-0.3
+vertex 6.6,8.8,-0.3
+vertex 7.6,8.8,-0.3
+vertex 7.6,7.25,-0.3
+vertex 6.6,8.8,0.3
+vertex 6.6,7.25,0.3
+
+face 0,1,2,3
+face 4,5,6,7
+face 7,6,8,9
+face 10,11,12,13
+face 14,15,16,17
+face 19,18,15,14
+
+[texture]
+load ..\textures\stonegrey.BMP
+coordinates 0,0,3
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,3
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+coordinates 8,1.3,0
+coordinates 9,1.3,1
+coordinates 10,0,3
+coordinates 11,0,0
+coordinates 12,1,0
+coordinates 13,1,3
+coordinates 14,0,1
+coordinates 15,0,0
+coordinates 16,1,0
+coordinates 17,1,1
+coordinates 18,1.3,0
+coordinates 19,1.3,1
+
+[meshbuilder]
+cube 0.53,0.1,0.3
+translate -3.065,7.2,-0.1
+color 111,111,111
+
+[meshbuilder]
+cube 0.53,0.1,0.3
+translate -3.065,8.8,-0.1
+color 111,111,111
+
+[meshbuilder]
+cube 0.53,0.1,0.3
+translate 7.065,7.2,-0.1
+color 111,111,111
+
+[meshbuilder]
+cube 0.53,0.1,0.3
+translate 7.065,8.8,-0.1
+color 111,111,111

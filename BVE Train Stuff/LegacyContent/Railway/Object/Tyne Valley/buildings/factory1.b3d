@@ -1,0 +1,393 @@
+;description=factory unit
+;author=BVE RouteBuilder Team modified by eezypeazy
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+
+;new front l
+[Meshbuilder]
+Vertex 0,5,2
+Vertex 0,0,2
+Vertex -2,0,1
+Vertex -2,5,1
+Face 0,1,2,3
+
+[Texture]
+Load brick.bmp
+Coordinates 0,1,0
+Coordinates 1,1,10
+Coordinates 2,10,10
+Coordinates 3,10,10
+
+[Meshbuilder]
+Vertex 0,5,2
+Vertex 0,0,2
+Vertex 2,0,1
+Vertex 2,5,1
+Face 3,2,1,0
+face 0,1,2,3
+
+[Texture]
+Load brick.bmp
+Coordinates 0,1,0
+Coordinates 1,1,10
+Coordinates 2,10,10
+Coordinates 3,10,10
+
+;new front r
+[Meshbuilder]
+Vertex 14.5,5,1
+Vertex 14.5,2,1
+Vertex 13.5,2,1
+Vertex 13.5,0,1
+Vertex 6.7,0,1
+Vertex 6.7,6,1
+Face 2,3,4,5,0,1
+
+[Texture]
+Load concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,0,0
+Coordinates 2,0,0
+Coordinates 3,0,0
+Coordinates 4,0,0
+Coordinates 5,0,0
+
+;new back wall
+
+[Meshbuilder]
+Vertex 15,5,29
+Vertex 15,0,29
+Vertex -2,0,29
+Vertex -2,5,29
+Vertex 6.7,6,29
+Face2 0,4,3,2,1
+Color 136,136,136
+
+
+[Meshbuilder]
+Vertex -2,0,30
+Vertex -2,5,30
+Vertex -2,5,0
+Vertex -2,0,0
+Vertex -1.5,0,0
+Vertex -1.5,5,0
+Face2 0,1,2,3
+Face 3,2,5,4
+
+[Texture]
+Load concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,0,10
+Coordinates 2,10,10
+Coordinates 3,10,0
+Coordinates 5,10,10
+Coordinates 4,10,0
+
+[meshbuilder]
+Vertex 15,0,0
+Vertex 15,5,0
+Vertex 15,5,30
+Vertex 15,0,30
+Vertex 14.5,0,0
+Vertex 14.5,5,0
+Face 0,1,2,3
+Face 4,5,1,0
+
+[Texture]
+Load concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,0,10
+Coordinates 2,10,10
+Coordinates 3,10,0
+Coordinates 4,10,10
+Coordinates 5,10,0
+
+[meshbuilder]
+Vertex 14.5,0,0
+Vertex 14.5,5,0
+Vertex 14.5,5,30
+Vertex 14.5,0,30
+Face 3,2,1,0
+Color 70,70,70
+
+[Meshbuilder]
+Vertex -2,5,30
+vertex 6.5,6,30
+vertex 6.5,6,0
+vertex -2,5,0
+Vertex 15,5,30
+Vertex 15,5,0
+Face 0,1,2,3
+Face 1,4,5,2
+Color 100,100,100
+
+[Meshbuilder]
+Vertex -1.5,5,0
+Vertex -1.5,5,30
+Vertex 6.5,6,30
+Vertex 6.5,6,0
+Vertex 14.5,5,0
+Vertex 14.5,5,30
+Face 0,3,2,1
+Face 5,2,3,4
+Color 70,70,70
+
+;ground
+[Meshbuilder]
+Vertex -10,0,-10
+Vertex -10,0,35
+Vertex 25,0,35
+Vertex 25,0,-10
+Face 0,1,2,3
+Face 3,2,1,0
+Color 30,30,30
+
+;fence
+[Meshbuilder]
+Vertex -10,0,-10
+Vertex -10,2,-10
+Vertex -10,2,35
+Vertex -10,0,35
+Vertex 25,2,35
+Vertex 25,0,35
+Vertex 25,0,-10
+Vertex 25,2,-10
+Vertex 0,2,-10
+Vertex 0,0,-10
+Vertex 7,0,-10
+Vertex 7,2,-10
+Face 0,1,2,3
+Face 3,2,1,0
+Face 4,5,6,7
+Face 7,6,5,4
+Face 5,4,2,3
+Face 3,2,4,5
+Face 0,1,8,9
+Face 9,8,1,0
+Face 10,6,7,11
+face 11,7,6,10
+
+
+[Texture]
+Load woodfenceWhite1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,30,0
+Coordinates 3,30,1
+Coordinates 4,50,0
+Coordinates 5,50,1
+Coordinates 6,0,1
+Coordinates 7,0,0
+Coordinates 8,12,0
+Coordinates 9,12,1
+Coordinates 10,15,1
+Coordinates 11,15,0
+Transparent 0,0,255
+
+; tree
+[Meshbuilder]
+Vertex 11,0,0
+Vertex 11,5,0
+Vertex 13,5,0
+Vertex 13,0,0
+Face 0,1,2,3
+
+[Texture]
+load fir1.bmp
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 0,0,255
+
+;author=Jan de Jong,Fons de Jong
+;description=van
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+
+;van side 1 part 1a
+[MeshBuilder]
+Vertex -4.2333,0,-3
+Vertex -4.2333,1,-3
+Vertex 0.2333,1,-3
+Vertex 0.2333,0,-3
+Face 0,1,2,3
+[Texture]
+Load vanside2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 66,0,255
+
+;van side 1 part 2a
+[MeshBuilder]
+Vertex -4.2333,0.9666,-3
+Vertex -4.2333,2.1666,-2.72
+Vertex 0.2333,2.1666,-2.72
+Vertex 0.2333,0.9666,-3
+Face 0,1,2,3
+[Texture]
+Load vanside1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 66,0,255
+
+;van side 1 part 1b
+[MeshBuilder]
+Vertex -4.2333,0,-3
+Vertex -4.2333,1,-3
+Vertex 0.2333,1,-3
+Vertex 0.2333,0,-3
+Face 3,2,1,0
+[Texture]
+Load vanside2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 66,0,255
+
+;van side 1 part 2b
+[MeshBuilder]
+Vertex -4.2333,0.9666,-3
+Vertex -4.2333,2.1666,-2.72
+Vertex 0.2333,2.1666,-2.72
+Vertex 0.2333,0.9666,-3
+Face 3,2,1,0
+[Texture]
+Load vanside1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 66,0,255
+
+;van side 2 part 1a
+[MeshBuilder]
+Vertex -4.2333,0,-1
+Vertex -4.2333,1,-1
+Vertex 0.2333,1,-1
+Vertex 0.2333,0,-1
+Face 3,2,1,0
+[Texture]
+Load vanside2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 66,0,255
+
+;van side 2 part 2a  
+[MeshBuilder]
+Vertex 0.2333,0.9666,-1
+Vertex 0.2333,2.1666,-1.28
+Vertex -4.2333,2.1666,-1.28
+Vertex -4.2333,0.9666,-1
+Face 0,1,2,3
+[Texture]
+Load vanside1m.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 66,0,255
+
+;van side 2 part 1b
+[MeshBuilder]
+Vertex -4.2333,0,-1
+Vertex -4.2333,1,-1
+Vertex 0.2333,1,-1
+Vertex 0.2333,0,-1
+Face 0,1,2,3
+[Texture]
+Load vanside2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 66,0,255
+
+;van side 2 part 2b
+[MeshBuilder]
+Vertex -4.2333,0.9666,-1
+Vertex -4.2333,2.1666,-1.28
+Vertex 0.2333,2.1666,-1.28
+Vertex 0.2333,0.9666,-1
+Face 0,1,2,3
+[Texture]
+Load vanside1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 66,0,255
+
+;van front part 1
+[MeshBuilder]
+Vertex -4.2333,0.3,-1
+Vertex -4.2333,1.03333,-1
+Vertex -4.2333,1.03333,-3
+Vertex -4.2333,0.3,-3
+Face 0,1,2,3
+[Texture]
+Load vanfront2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 66,0,255
+
+;van front part 2
+[MeshBuilder]
+Vertex -4.2333,1,-1
+Vertex -2.9,2.1666,-1
+Vertex -2.9,2.1666,-3
+Vertex -4.2333,1,-3
+Face 0,1,2,3
+[Texture]
+Load vanfront1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 66,0,255
+
+;van back
+[MeshBuilder]
+Vertex 0.2333,0.4333,-3
+Vertex 0.2333,2.1666,-3
+Vertex 0.2333,2.1666,-1
+Vertex 0.2333,0.4333,-1
+Face 0,1,2,3
+[Texture]
+Load vanback.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 66,0,255
+
+;van roof
+[MeshBuilder]
+Vertex  0.2333,2.1666,-1.28
+Vertex -2.9,2.1666,-1.28
+Vertex -2.9,2.1666,-2.72
+Vertex  0.2333,2.1666,-2.72
+Face 3,2,1,0
+[Texture]
+Load vanroof.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 66,0,255
+
+;van floor
+[MeshBuilder]
+Vertex -4.2333,0.5,-3
+Vertex -4.2333,0.5,-1
+Vertex 0.2333,0.5,-1
+Vertex 0.2333,0.5,-3
+Face 3,2,1,0
+Color 58, 13,22

@@ -1,0 +1,16 @@
+;description=overhead spanwire pole left
+;supports standard RouteBuilder overhead
+;author=eezypeazy
+;copyright=eezypeazy 2006, all rights reserved, please ask for permission! Drop me an email at eezypeazy@blueyonder.co.uk
+
+[meshbuilder]
+vertex -2.2,-1,-0.1
+vertex -2.2,7.3,-0.1
+vertex -2,7.3,-0.1
+vertex -2,-1,-0.1
+vertex -2,7.3,0.1
+vertex -2,-1,0.1
+face 0,1,2,3
+face 3,2,4,5
+color 123,123,123
+

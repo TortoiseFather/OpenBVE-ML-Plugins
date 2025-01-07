@@ -1,0 +1,953 @@
+;author=eezypeazy
+;description=4 track signal gantry
+;copyright=OpenSource
+
+;left side
+
+;pillars
+
+[meshbuilder]
+vertex -10,0,0 
+vertex -10.3,0,0
+vertex -10.3,9,0
+vertex -10,9,0
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -10,0,0.3 
+vertex -10,0,0
+vertex -10,9,0
+vertex -10,9,0.3
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -10,0,1 
+vertex -10.3,0,1
+vertex -10.3,9,1
+vertex -10,9,1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -10,0,1.3 
+vertex -10,0,1
+vertex -10,9,1
+vertex -10,9,1.3
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,0,0 
+vertex -11.3,0,0
+vertex -11.3,10.5,0
+vertex -11,10.5,0
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,0,0.3
+vertex -11,0,0
+vertex -11,10.5,0
+vertex -11,10.5,0.3
+face 0,1,2,3
+color 136,136,136
+
+
+[meshbuilder]
+vertex -11,0,1
+vertex -11.3,0,1
+vertex -11.3,10.5,1
+vertex -11,10.5,1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,0,1.3
+vertex -11,0,1
+vertex -11,10.5,1
+vertex -11,10.5,1.3
+face 0,1,2,3
+color 136,136,136
+
+;cross bracing
+
+[meshbuilder]
+vertex -11,0.43,0.1
+vertex -11,0.5,0.1
+vertex -10.3,0.5,0.1
+vertex -10.3,0.43,0.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,0.93,0.1
+vertex -11,1,0.1
+vertex -10.3,1,0.1
+vertex -10.3,0.93,0.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,1.43,0.1
+vertex -11,1.5,0.1
+vertex -10.3,1.5,0.1
+vertex -10.3,1.43,0.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,1.93,0.1
+vertex -11,2,0.1
+vertex -10.3,2,0.1
+vertex -10.3,1.93,0.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,2.43,0.1
+vertex -11,2.5,0.1
+vertex -10.3,2.5,0.1
+vertex -10.3,2.43,0.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,2.93,0.1
+vertex -11,3,0.1
+vertex -10.3,3,0.1
+vertex -10.3,2.93,0.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,3.43,0.1
+vertex -11,3.5,0.1
+vertex -10.3,3.5,0.1
+vertex -10.3,3.43,0.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,3.93,0.1
+vertex -11,4,0.1
+vertex -10.3,4,0.1
+vertex -10.3,3.93,0.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,4.43,0.1
+vertex -11,4.5,0.1
+vertex -10.3,4.5,0.1
+vertex -10.3,4.43,0.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,4.93,0.1
+vertex -11,5,0.1
+vertex -10.3,5,0.1
+vertex -10.3,4.93,0.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,5.43,0.1
+vertex -11,5.5,0.1
+vertex -10.3,5.5,0.1
+vertex -10.3,5.43,0.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,5.93,0.1
+vertex -11,6,0.1
+vertex -10.3,6,0.1
+vertex -10.3,5.93,0.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,6.43,0.1
+vertex -11,6.5,0.1
+vertex -10.3,6.5,0.1
+vertex -10.3,6.43,0.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,6.93,0.1
+vertex -11,7,0.1
+vertex -10.3,7,0.1
+vertex -10.3,6.93,0.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,7.43,0.1
+vertex -11,7.5,0.1
+vertex -10.3,7.5,0.1
+vertex -10.3,7.43,0.1
+face 0,1,2,3
+color 136,136,136
+
+
+;here
+
+[meshbuilder]
+vertex -11,0.43,1.1
+vertex -11,0.5,1.1
+vertex -10.3,0.5,1.1
+vertex -10.3,0.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,0.93,1.1
+vertex -11,1,1.1
+vertex -10.3,1,1.1
+vertex -10.3,0.93,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,1.43,1.1
+vertex -11,1.5,1.1
+vertex -10.3,1.5,1.1
+vertex -10.3,1.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,1.93,1.1
+vertex -11,2,1.1
+vertex -10.3,2,1.1
+vertex -10.3,1.93,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,2.43,1.1
+vertex -11,2.5,1.1
+vertex -10.3,2.5,1.1
+vertex -10.3,2.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,2.93,1.1
+vertex -11,3,1.1
+vertex -10.3,3,1.1
+vertex -10.3,2.93,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,3.43,1.1
+vertex -11,3.5,1.1
+vertex -10.3,3.5,1.1
+vertex -10.3,3.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,3.93,1.1
+vertex -11,4,1.1
+vertex -10.3,4,1.1
+vertex -10.3,3.93,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,4.43,1.1
+vertex -11,4.5,1.1
+vertex -10.3,4.5,1.1
+vertex -10.3,4.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,4.93,1.1
+vertex -11,5,1.1
+vertex -10.3,5,1.1
+vertex -10.3,4.93,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,5.43,1.1
+vertex -11,5.5,1.1
+vertex -10.3,5.5,1.1
+vertex -10.3,5.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+;here again
+
+[meshbuilder]
+vertex -10.1,0.43,0.1
+vertex -10.1,0.5,0.1
+vertex -10.1,0.5,1.1
+vertex -10.1,0.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -10.1,0.93,0.1
+vertex -10.1,1,0.1
+vertex -10.1,1,1.1
+vertex -10.1,0.93,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -10.1,1.43,0.1
+vertex -10.1,1.5,0.1
+vertex -10.1,1.5,1.1
+vertex -10.1,1.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -10.1,1.93,0.1
+vertex -10.1,2,0.1
+vertex -10.1,2,1.1
+vertex -10.1,1.93,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -10.1,2.43,0.1
+vertex -10.1,2.5,0.1
+vertex -10.1,2.5,1.1
+vertex -10.1,2.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -10.1,2.93,0.1
+vertex -10.1,3,0.1
+vertex -10.1,3,1.1
+vertex -10.1,2.93,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -10.1,3.43,0.1
+vertex -10.1,3.5,0.1
+vertex -10.1,3.5,1.1
+vertex -10.1,3.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -10.1,3.93,0.1
+vertex -10.1,4,0.1
+vertex -10.1,4,1.1
+vertex -10.1,3.93,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -10.1,4.43,0.1
+vertex -10.1,4.5,0.1
+vertex -10.1,4.5,1.1
+vertex -10.1,4.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -10.1,4.93,0.1
+vertex -10.1,5,0.1
+vertex -10.1,5,1.1
+vertex -10.1,4.93,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -10.1,5.43,0.1
+vertex -10.1,5.5,0.1
+vertex -10.1,5.5,1.1
+vertex -10.1,5.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+
+;fourth set of braces
+
+[meshbuilder]
+vertex -11.1,0.43,0.1
+vertex -11.1,0.5,0.1
+vertex -11.1,0.5,1.1
+vertex -11.1,0.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11.1,0.93,0.1
+vertex -11.1,1,0.1
+vertex -11.1,1,1.1
+vertex -11.1,0.93,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11.1,1.43,0.1
+vertex -11.1,1.5,0.1
+vertex -11.1,1.5,1.1
+vertex -11.1,1.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11.1,1.93,0.1
+vertex -11.1,2,0.1
+vertex -11.1,2,1.1
+vertex -11.1,1.93,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11.1,2.43,0.1
+vertex -11.1,2.5,0.1
+vertex -11.1,2.5,1.1
+vertex -11.1,2.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11.1,2.93,0.1
+vertex -11.1,3,0.1
+vertex -11.1,3,1.1
+vertex -11.1,2.93,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11.1,3.43,0.1
+vertex -11.1,3.5,0.1
+vertex -11.1,3.5,1.1
+vertex -11.1,3.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11.1,3.93,0.1
+vertex -11.1,4,0.1
+vertex -11.1,4,1.1
+vertex -11.1,3.93,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11.1,4.43,0.1
+vertex -11.1,4.5,0.1
+vertex -11.1,4.5,1.1
+vertex -11.1,4.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11.1,4.93,0.1
+vertex -11.1,5,0.1
+vertex -11.1,5,1.1
+vertex -11.1,4.93,1.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11.1,5.43,0.1
+vertex -11.1,5.5,0.1
+vertex -11.1,5.5,1.1
+vertex -11.1,5.43,1.1
+face 0,1,2,3
+color 136,136,136
+
+;cross beams
+[meshbuilder]
+vertex -11,9,0.1
+vertex -11,9.3,0.1
+vertex 7,9.3,0.1
+vertex 7,9,0.1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,9,0
+vertex -11,9,0.3
+vertex 7,9,0.3
+vertex 7,9,0
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex -11,9,1
+vertex -11,9.3,1
+vertex 7,9.3,1
+vertex 7,9,1
+face 0,1,2,3
+color 136,136,136
+
+[meshbuilder]
+vertex -11,9,1
+vertex -11,9,1.3
+vertex 7,9,1.3
+vertex 7,9,1
+face 3,2,1,0
+color 136,136,136
+
+; right side
+
+;pillars
+
+[meshbuilder]
+vertex 6,0,0 
+vertex 6.3,0,0
+vertex 6.3,9,0
+vertex 6,9,0
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 6,0,0.3 
+vertex 6,0,0
+vertex 6,9,0
+vertex 6,9,0.3
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 6,0,1 
+vertex 6.3,0,1
+vertex 6.3,9,1
+vertex 6,9,1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 6,0,1.3 
+vertex 6,0,1
+vertex 6,9,1
+vertex 6,9,1.3
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,0,0 
+vertex 7.3,0,0
+vertex 7.3,10.5,0
+vertex 7,10.5,0
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,0,0.3
+vertex 7,0,0
+vertex 7,10.5,0
+vertex 7,10.5,0.3
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,0,1
+vertex 7.3,0,1
+vertex 7.3,10.5,1
+vertex 7,10.5,1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,0,1.3
+vertex 7,0,1
+vertex 7,10.5,1
+vertex 7,10.5,1.3
+face 3,2,1,0
+color 136,136,136
+
+;cross bracing
+
+[meshbuilder]
+vertex 7,0.43,0.1
+vertex 7,0.5,0.1
+vertex 6.3,0.5,0.1
+vertex 6.3,0.43,0.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,0.93,0.1
+vertex 7,1,0.1
+vertex 6.3,1,0.1
+vertex 6.3,0.93,0.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,1.43,0.1
+vertex 7,1.5,0.1
+vertex 6.3,1.5,0.1
+vertex 6.3,1.43,0.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,1.93,0.1
+vertex 7,2,0.1
+vertex 6.3,2,0.1
+vertex 6.3,1.93,0.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,2.43,0.1
+vertex 7,2.5,0.1
+vertex 6.3,2.5,0.1
+vertex 6.3,2.43,0.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,2.93,0.1
+vertex 7,3,0.1
+vertex 6.3,3,0.1
+vertex 6.3,2.93,0.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,3.43,0.1
+vertex 7,3.5,0.1
+vertex 6.3,3.5,0.1
+vertex 6.3,3.43,0.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,3.93,0.1
+vertex 7,4,0.1
+vertex 6.3,4,0.1
+vertex 6.3,3.93,0.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,4.43,0.1
+vertex 7,4.5,0.1
+vertex 6.3,4.5,0.1
+vertex 6.3,4.43,0.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,4.93,0.1
+vertex 7,5,0.1
+vertex 6.3,5,0.1
+vertex 6.3,4.93,0.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,5.43,0.1
+vertex 7,5.5,0.1
+vertex 6.3,5.5,0.1
+vertex 6.3,5.43,0.1
+face 3,2,1,0
+color 136,136,136
+
+;here
+
+[meshbuilder]
+vertex 7,0.43,1.1
+vertex 7,0.5,1.1
+vertex 6.3,0.5,1.1
+vertex 6.3,0.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,0.93,1.1
+vertex 7,1,1.1
+vertex 6.3,1,1.1
+vertex 6.3,0.93,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,1.43,1.1
+vertex 7,1.5,1.1
+vertex 6.3,1.5,1.1
+vertex 6.3,1.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,1.93,1.1
+vertex 7,2,1.1
+vertex 6.3,2,1.1
+vertex 6.3,1.93,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,2.43,1.1
+vertex 7,2.5,1.1
+vertex 6.3,2.5,1.1
+vertex 6.3,2.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,2.93,1.1
+vertex 7,3,1.1
+vertex 6.3,3,1.1
+vertex 6.3,2.93,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,3.43,1.1
+vertex 7,3.5,1.1
+vertex 6.3,3.5,1.1
+vertex 6.3,3.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,3.93,1.1
+vertex 7,4,1.1
+vertex 6.3,4,1.1
+vertex 6.3,3.93,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,4.43,1.1
+vertex 7,4.5,1.1
+vertex 6.3,4.5,1.1
+vertex 6.3,4.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,4.93,1.1
+vertex 7,5,1.1
+vertex 6.3,5,1.1
+vertex 6.3,4.93,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7,5.43,1.1
+vertex 7,5.5,1.1
+vertex 6.3,5.5,1.1
+vertex 6.3,5.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+;here again
+
+[meshbuilder]
+vertex 6.1,0.43,0.1
+vertex 6.1,0.5,0.1
+vertex 6.1,0.5,1.1
+vertex 6.1,0.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 6.1,0.93,0.1
+vertex 6.1,1,0.1
+vertex 6.1,1,1.1
+vertex 6.1,0.93,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 6.1,1.43,0.1
+vertex 6.1,1.5,0.1
+vertex 6.1,1.5,1.1
+vertex 6.1,1.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 6.1,1.93,0.1
+vertex 6.1,2,0.1
+vertex 6.1,2,1.1
+vertex 6.1,1.93,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 6.1,2.43,0.1
+vertex 6.1,2.5,0.1
+vertex 6.1,2.5,1.1
+vertex 6.1,2.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 6.1,2.93,0.1
+vertex 6.1,3,0.1
+vertex 6.1,3,1.1
+vertex 6.1,2.93,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 6.1,3.43,0.1
+vertex 6.1,3.5,0.1
+vertex 6.1,3.5,1.1
+vertex 6.1,3.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 6.1,3.93,0.1
+vertex 6.1,4,0.1
+vertex 6.1,4,1.1
+vertex 6.1,3.93,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 6.1,4.43,0.1
+vertex 6.1,4.5,0.1
+vertex 6.1,4.5,1.1
+vertex 6.1,4.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 6.1,4.93,0.1
+vertex 6.1,5,0.1
+vertex 6.1,5,1.1
+vertex 6.1,4.93,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 6.1,5.43,0.1
+vertex 6.1,5.5,0.1
+vertex 6.1,5.5,1.1
+vertex 6.1,5.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+
+;fourth set of braces
+
+[meshbuilder]
+vertex 7.1,0.43,0.1
+vertex 7.1,0.5,0.1
+vertex 7.1,0.5,1.1
+vertex 7.1,0.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7.1,0.93,0.1
+vertex 7.1,1,0.1
+vertex 7.1,1,1.1
+vertex 7.1,0.93,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7.1,1.43,0.1
+vertex 7.1,1.5,0.1
+vertex 7.1,1.5,1.1
+vertex 7.1,1.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7.1,1.93,0.1
+vertex 7.1,2,0.1
+vertex 7.1,2,1.1
+vertex 7.1,1.93,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7.1,2.43,0.1
+vertex 7.1,2.5,0.1
+vertex 7.1,2.5,1.1
+vertex 7.1,2.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7.1,2.93,0.1
+vertex 7.1,3,0.1
+vertex 7.1,3,1.1
+vertex 7.1,2.93,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7.1,3.43,0.1
+vertex 7.1,3.5,0.1
+vertex 7.1,3.5,1.1
+vertex 7.1,3.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7.1,3.93,0.1
+vertex 7.1,4,0.1
+vertex 7.1,4,1.1
+vertex 7.1,3.93,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7.1,4.43,0.1
+vertex 7.1,4.5,0.1
+vertex 7.1,4.5,1.1
+vertex 7.1,4.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7.1,4.93,0.1
+vertex 7.1,5,0.1
+vertex 7.1,5,1.1
+vertex 7.1,4.93,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7.1,5.43,0.1
+vertex 7.1,5.5,0.1
+vertex 7.1,5.5,1.1
+vertex 7.1,5.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7.1,6.43,0.1
+vertex 7.1,6.5,0.1
+vertex 7.1,6.5,1.1
+vertex 7.1,6.43,1.1
+face 3,2,1,0
+color 136,136,136
+
+[meshbuilder]
+vertex 7.1,6.93,0.1
+vertex 7.1,7,0.1
+vertex 7.1,7,1.1
+vertex 7.1,6.93,1.1
+face 3,2,1,0
+color 136,136,136
+
+;signal backing
+[meshbuilder]
+vertex -2,9.5,0.1
+vertex -2,9.8,0.1
+vertex 2,9.8,0.1
+vertex 2,9.5,0.1
+face 0,1,2,3
+color 136,136,136

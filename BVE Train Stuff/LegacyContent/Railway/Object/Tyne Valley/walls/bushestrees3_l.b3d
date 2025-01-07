@@ -1,0 +1,78 @@
+;author=eezypeazy
+;description=bushes left
+;copyright=eezypeazy 2009, all rights reserved, contact eezypeazy@eezypeazy.co.uk
+
+;ground
+[meshbuilder]
+vertex -2.4,-0.4,-0.1
+vertex -7,-0.3,-0.1
+vertex -7,-0.3,25.1
+vertex -2.4,-0.4,25.1
+face 0,1,2,3
+
+[texture]
+load ..\walls\cutting.bmp
+coordinates 0,0,0.78
+coordinates 1,0,0.1
+coordinates 2,1,0.1
+coordinates 3,1,0.78
+
+;lh side
+;trees
+
+[meshbuilder]
+vertex -5,-0.2,1
+vertex -5,2,1
+vertex -3,2,3
+vertex -2,-0.2,3
+vertex -5,-0.2,11
+vertex -5,2,11
+vertex -2.5,2,14
+vertex -2,-0.2,14
+face2 0,1,2,3
+face2 4,5,6,7
+color 90,90,90
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+
+
+[MeshBuilder]
+Vertex -7, 2.7, 6
+Vertex -6, -0.2,6
+Vertex -2.5, -0.2,8
+Vertex -3,2.7,8
+Face2 3,2,1,0
+
+[Texture]
+Load ..\plants\eptree1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 255
+
+
+[MeshBuilder]
+Vertex -6, 2, 20
+Vertex -6, -0.2, 20
+Vertex -2.5, -0.2, 22
+Vertex -2.5, 2, 22
+Face2 3,2,1,0
+
+[Texture]
+Load ..\plants\eptree1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 255

@@ -1,0 +1,55 @@
+;author=eezypeazy
+;description=sunderland buildings
+;copyright=eezypeazy, all rights reserved
+
+[MeshBuilder]
+cube 0.2,2.5,0.2
+color 211,222,163
+translate 4,3,4
+
+[meshbuilder]
+cube 2,0.16,0.16
+color 211,222,163
+translate 4,5,4
+
+[meshbuilder]
+cube 2,0.16,0.16
+color 211,222,163
+translate 4,5,12
+
+[meshbuilder]
+cube 2,0.16,0.16
+color 211,222,163
+translate 4,5,20
+
+[MeshBuilder]
+cube 0.2,2.5,0.2
+color 211,222,163
+translate 4,3,12
+
+[MeshBuilder]
+cube 0.2,2.5,0.2
+color 211,222,163
+translate 4,3,20
+
+[meshbuilder]
+cube 2,2.5,12
+color 222,222,222
+translate 6,3,12
+
+[meshbuilder]
+cube 2.025,0.3,12.6
+color 111,111,111
+translate 6,4,12
+
+[meshbuilder]
+cube 0.25,0.2,12.7
+color 211,222,163
+translate 2.2,5,12
+
+[meshbuilder]
+cube 0.2,0.01,12.7
+color 255,255,255
+translate 2.2,4.8,12
+
+

@@ -1,0 +1,42 @@
+;author=eezypeazy
+;description=south bank of River Wear
+;copyright=eezypeazy 2009, all rights reserved.
+
+[meshbuilder]
+vertex -123,-35,0
+vertex -123,1,0
+vertex -37,1,0
+vertex -37,-35,0
+
+vertex -25,-35,0
+vertex -25,1,0
+vertex -3,1,0
+vertex -3,-35,0
+
+vertex 12,-35,0
+vertex 12,1,0
+vertex 143,1,0
+vertex 143,-35,0
+
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+
+[texture]
+load ..\textures\hedge.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,13,0
+coordinates 3,13,1
+
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,2,0
+coordinates 7,2,1
+
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,14,0
+coordinates 11,14,1
+
+transparent 0,0,255

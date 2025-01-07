@@ -1,0 +1,23 @@
+;author=eezypeazy
+;description=cylindrical bridge pillar for Blaydon
+;copyright=eezypeazy 2009, all rights reserved
+;visit www.eezypeazy.co.uk
+
+[meshbuilder]
+cylinder 6,0.5,0.5,7.4
+translate 0,3.3,0
+
+[texture]
+load ..\textures\concrete.bmp
+coordinates 0,1,0
+coordinates 1,1,1
+coordinates 2,0.6,0
+coordinates 3,0.6,1
+coordinates 4,0.3,0
+coordinates 5,0.3,1
+coordinates 6,0,0
+coordinates 7,0,1
+coordinates 8,0.3,0
+coordinates 9,0.3,1
+coordinates 10,0.6,0
+coordinates 11,0.6,1

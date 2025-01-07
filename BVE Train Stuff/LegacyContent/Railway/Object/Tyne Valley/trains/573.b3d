@@ -1,0 +1,68 @@
+;author=eezypeazy
+;description=class 57/3 Thunderbird "Scott Tracy"
+;copyright=eezypeazy, all rights reserved. You may publish this object in BVE routes. Please credit eezypeazy
+
+[MeshBuilder]
+Vertex -1.365,0,0.1
+vertex -1.365,2.5,0.1
+vertex -1.365,3.84,0.7
+vertex 1.365,3.84,0.7
+vertex 1.365,2.5,0.1
+vertex 1.365,0,0.1
+face 0,1,4,5
+face 1,2,3,4
+
+[Texture]
+Load 573end.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.4
+Coordinates 2, 0, 0
+Coordinates 3, 1,0
+coordinates 4,1,0.4
+coordinates 5,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -0.8,0,19.4
+vertex -1.1,0.76,19.4
+vertex -1.33,1.2,19.4
+vertex -1.355,1.3,19.4
+vertex -1.27,3.4,19.4
+vertex -1.2,3.5,19.4
+vertex -1,3.6,19.4
+vertex -0.2,3.81,19.4
+vertex -0.2,3.77,-0.4
+vertex -1,3.55,-0.1
+vertex -1.16,3.45,-0.3
+vertex -1.24,3.38,0
+vertex -1.355,1.3,0
+vertex -1.33,1.2,0
+vertex -1.1,0.79,0
+vertex -0.8,0,0
+face 0,1,14,15
+face 1,2,13,14
+face 2,3,12,13
+face 3,4,11,12
+face 4,5,10,11
+face 5,6,9,10
+face 6,7,8,9
+
+[texture]
+load 573side.bmp
+coordinates 0,0,1
+coordinates 1,0,0.9
+coordinates 2,0,0.7
+coordinates 3,0,0.66
+coordinates 4,0,0.1
+coordinates 5,0,0.05
+coordinates 6,0,0.03
+coordinates 7,0,0
+coordinates 8,1,0.009
+coordinates 9,0.997,0.035
+coordinates 10,1,0.056
+coordinates 11,1,0.1
+coordinates 12,1,0.66
+coordinates 13,1,0.7
+coordinates 14,1,0.9
+coordinates 15,1,1
+transparent 0,0,255

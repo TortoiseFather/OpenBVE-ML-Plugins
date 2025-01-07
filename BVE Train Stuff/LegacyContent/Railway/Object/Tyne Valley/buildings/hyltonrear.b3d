@@ -1,0 +1,120 @@
+;author=eezypeazy
+;description=rear of Hylton Hotel
+;copyright=eezypeazy 2009, all rights reserved.
+
+;main run of wall
+[meshbuilder]
+vertex -5,-5,-36
+vertex -5,0,-36
+vertex -5,0,0
+vertex -5,-5,0
+face 0,1,2,3
+
+[texture]
+load ..\textures\greypaintedbrick.bmp
+coordinates 0,0,4
+coordinates 1,0,0
+coordinates 2,36,0
+coordinates 3,36,4
+
+;apexes
+[meshbuilder]
+vertex -5,0,-36
+vertex -5,2,-31.5
+vertex -5,0,-27
+face 0,1,2
+
+[texture]
+load ..\textures\greypaintedbrick.bmp
+coordinates 0,0,1.6
+coordinates 1,4.5,0
+coordinates 2,9,1.6
+
+[meshbuilder]
+vertex -5,0,-36
+vertex -5,2,-31.5
+vertex -5,0,-27
+face 0,1,2
+translate 0,0,9
+
+[texture]
+load ..\textures\greypaintedbrick.bmp
+coordinates 0,0,1.6
+coordinates 1,4.5,0
+coordinates 2,9,1.6
+
+[meshbuilder]
+vertex -5,0,-36
+vertex -5,2,-31.5
+vertex -5,0,-27
+face 0,1,2
+translate 0,0,18
+
+[texture]
+load ..\textures\greypaintedbrick.bmp
+coordinates 0,0,1.6
+coordinates 1,4.5,0
+coordinates 2,9,1.6
+
+[meshbuilder]
+vertex -5,0,-36
+vertex -5,2,-31.5
+vertex -5,0,-27
+face 0,1,2
+translate 0,0,27
+
+[texture]
+load ..\textures\greypaintedbrick.bmp
+coordinates 0,0,1.6
+coordinates 1,4.5,0
+coordinates 2,9,1.6
+
+;roof sections
+[meshbuilder]
+vertex -33.5,0,-36
+vertex -33.5,2,-31.5
+vertex -3.7,2,-31.5
+vertex -3.7,0,-36
+vertex -33.5,0,-27
+vertex -3.7,0,-27
+vertex -33.5,2,-22.5
+vertex -3.7,2,-22.5
+vertex -33.5,0,-18
+vertex -3.7,0,-18
+vertex -33.5,2,-13.5
+vertex -3.7,2,-13.5
+vertex -33.5,0,-9
+vertex -3.7,0,-9
+vertex -33.5,2,-4.5
+vertex -3.7,2,-4.5
+vertex -33.5,0,0
+vertex -3.7,0,0
+face2 0,1,2,3
+face2 1,4,5,2
+face2 4,6,7,5
+face2 6,8,9,7
+face2 8,10,11,9
+face2 10,12,13,11
+face2 12,14,15,13
+face2 14,16,17,15
+
+[texture]
+load corrugatedgrey.bmp
+coordinates 0,0,1
+coordinates 1,1,1
+coordinates 2,1,0
+coordinates 3,0,0
+coordinates 4,2,1
+coordinates 5,2,0
+coordinates 6,3,1
+coordinates 7,3,0
+coordinates 8,4,1
+coordinates 9,4,0
+coordinates 10,5,1
+coordinates 11,5,0
+coordinates 12,6,1
+coordinates 13,6,0
+coordinates 14,7,1
+coordinates 15,7,0
+coordinates 16,8,1
+coordinates 17,8,0

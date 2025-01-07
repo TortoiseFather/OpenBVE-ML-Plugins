@@ -1,0 +1,203 @@
+;author=eezypeazy
+;description=Haydon Bridge house
+;copyright=eezypeazy, all rights reserved
+
+[meshbuilder]
+vertex 9.7,0,0
+vertex 9.7,7,0
+vertex 13.3,9.5,0
+vertex 14.7,9.5,0
+vertex 18.3,7,0
+vertex 18.3,0,0
+face 0,1,2,3,4,5
+color 211,211,211
+
+[meshbuilder]
+vertex 9.7,1,9
+vertex 9.7,7,9
+vertex 9.7,7,0
+vertex 9.7,1,0
+vertex 9.9,7,0
+vertex 9.9,1,0
+face 0,1,2,3
+
+[texture]
+load ..\buildings\hbhouse.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+[meshbuilder]
+vertex 9.7,6.9,9
+vertex 14,10,9
+vertex 14,10,4.5
+vertex 9.5,6.9,4.5
+vertex 14,10,0
+vertex 9.5,6.9,0
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\buildings\halthouseroof.bmp
+coordinates 0,0.9,1
+coordinates 1,0.9,0.01
+coordinates 2,0.01,0.01
+coordinates 3,0.01,1
+coordinates 4,0.9,0.01
+coordinates 5,0.9,1
+
+;chimneys
+[meshbuilder]
+vertex  13.3,9.5,0.4
+vertex 13.3,10.8,0.4
+vertex 13.3,10.8,-0.1
+vertex 13.3, 9.5,-0.1
+vertex 14.7,10.8,-0.1
+vertex 14.7,9.5,-0.1
+face 0,1,2,3
+face 3,2,4,5
+color 188,188,188
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.2,0
+coordinates 3,0.2,1
+coordinates 4,1,0
+coordinates 5,1,1
+
+[meshbuilder]
+cylinder 5,0.12,0.12,0.9
+translate 13.5,11,0.1
+color 177,177,10
+
+[meshbuilder]
+cylinder 5,0.12,0.12,0.9
+translate 13.85,11,0.1
+color 177,177,10
+
+[meshbuilder]
+cylinder 5,0.12,0.12,0.9
+translate 14.15,11,0.1
+color 177,177,10
+
+[meshbuilder]
+cylinder 5,0.12,0.12,0.9
+translate 14.5,11,0.1
+color 177,177,10
+
+[meshbuilder]
+vertex  13.3,9.3,9.1
+vertex 13.3,10.8,9.1
+vertex 13.3,10.8,8.6
+vertex 13.3, 9.3,8.6
+vertex 14.7,10.8,8.6
+vertex 14.7,9.3,8.6
+face 0,1,2,3
+face 3,2,4,5
+color 188,188,188
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.2,0
+coordinates 3,0.2,1
+coordinates 4,1,0
+coordinates 5,1,1
+
+[meshbuilder]
+cylinder 5,0.12,0.12,0.9
+translate 13.5,11,8.9
+color 177,177,10
+
+[meshbuilder]
+cylinder 5,0.12,0.12,0.9
+translate 13.85,11,8.9
+color 177,177,10
+
+[meshbuilder]
+cylinder 5,0.12,0.12,0.9
+translate 14.15,11,8.9
+color 177,177,10
+
+[meshbuilder]
+cylinder 5,0.12,0.12,0.9
+translate 14.5,11,8.9
+color 177,177,10
+
+;lean to
+[meshbuilder]
+vertex 10,3,-3
+vertex 10,4.6,0
+vertex 18,4.6,0
+vertex 18,3,-3
+face 0,1,2,3
+color 55,55,55
+
+[meshbuilder]
+vertex 10,0,0
+vertex 10,3,0
+vertex 10,3,-3
+vertex 10,0,-3
+vertex 10,4.6,0
+vertex 10,1.7,-3
+vertex 11,1.7,-3
+vertex 11,0,-3
+vertex 11,3,-3
+vertex 18,3,-3
+vertex 18,0,-3
+face 0,1,2,3
+face 1,4,2
+face 3,5,6,7
+face 7,8,9,10
+color 211,211,211
+
+[meshbuilder]
+vertex 10,1.7,-3 
+vertex 10,3,-3
+vertex 11,3,-3
+vertex 11,1.7,-3
+face 0,1,2,3
+
+[texture]
+load ..\textures\archedwindow.bmp
+coordinates 0,0,1
+coordinates 1,0,0.4
+coordinates 2,1,0.4
+coordinates 3,1,1
+
+;fences
+[meshbuilder]
+vertex 9.8,1.1,25.1
+vertex 9.8,2.7,25.1
+vertex 9.8,2.7,9
+vertex 9.8,1.1,9
+face 0,1,2,3
+
+[texture]
+load ..\fences\diagonal.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,12,0
+coordinates 3,12,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 9.9,1.1,25.1
+vertex 9.9,4,25.1
+vertex 9.9,4,9
+vertex 9.9,1.1,9
+face 0,1,2,3
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0.1,0.7
+coordinates 1,0.1,0.1
+coordinates 2,0.8,0.1
+coordinates 3,0.8,0.7
+transparent 0,0,255
+
+

@@ -1,0 +1,137 @@
+;author=eezypeazy
+;description=road left
+;copyright=eezypeazy, all rights reserved.
+;uses a RouteBuilder bitmap
+
+;grass
+[meshbuilder]
+vertex -2,-0.4,-0.1
+vertex -5,-0.4,-0.1
+vertex -5,-0.4,25.1
+vertex -2,-0.4,25.1
+vertex -11,0,-0.1
+vertex -13,0,-0.1
+vertex -13,0,25.1
+vertex -11,0,25.1
+face 0,1,2,3
+face 4,5,6,7
+color 255,255,123
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,3,0
+coordinates 7,3,1
+
+;road surface
+[meshbuilder]
+vertex -5,-0.4,-0.1
+vertex -11,0,-0.1
+vertex -11,0,25.1
+vertex -5,-0.4,25.1
+face 0,1,2,3
+color 144,144,144
+
+[meshbuilder]
+cube 0.05,0.01,1
+translate -8,-0.15,1
+
+[meshbuilder]
+cube 0.05,0.01,1
+translate -8,-0.15,4
+
+[meshbuilder]
+cube 0.05,0.01,1
+translate -8,-0.15,7
+
+[meshbuilder]
+cube 0.05,0.01,1
+translate -8,-0.15,10
+
+[meshbuilder]
+cube 0.05,0.01,1
+translate -8,-0.15,13
+
+[meshbuilder]
+cube 0.05,0.01,1
+translate -8,-0.15,16
+
+[meshbuilder]
+cube 0.05,0.01,1
+translate -8,-0.15,19
+
+[meshbuilder]
+cube 0.05,0.01,1
+translate -8,-0.15,22
+
+;fence and bushes
+[meshbuilder]
+vertex -4,-0.4,-0.1
+vertex -4,1.4,-0.1
+vertex -4,1.4,25.1
+vertex -4,-0.4,25.1
+vertex -4.1,1.4,-0.1
+vertex -4.1,1.4,25.1
+face 0,1,2,3
+face 1,4,5,2
+color 152,111,0
+
+[texture]
+load ..\fences\woodfence1.bmp
+coordinates 0,0,1
+coordinates 1,0,0.05
+coordinates 2,15,0.05
+coordinates 3,15,1
+coordinates 4,0,0
+coordinates 5,15,0
+transparent 0,0,255
+
+[meshbuilder]
+vertex -3.7,-0.4,-0.1
+vertex -3.7,0.8,-0.1
+vertex -3.7,1.2,12.5
+vertex -3.7,-0.4,12.5
+vertex -3.7,0.8,25.1
+vertex -3.7,-0.4,25.1
+vertex -12.7,-0.4,-0.1
+vertex -12.7,0.8,-0.1
+vertex -12.7,1.6,12.5
+vertex -12.7,-0.4,12.5
+vertex -12.7,0.8,25.1
+vertex -12.7,-0.4,25.1
+vertex -16,0,23
+vertex -16,5,23
+vertex -13,5,25
+vertex -10,0,25
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+face 9,8,10,11
+face 12,13,14,15
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,0.7
+coordinates 1,0,0.1
+coordinates 2,0.8,0.1
+coordinates 3,0.8,0.7
+coordinates 4,0,0.1
+coordinates 5,0,0.7
+coordinates 6,0,0.7
+coordinates 7,0,0.1
+coordinates 8,0.7,0.1
+coordinates 9,0.8,0.7
+coordinates 10,0,0.1
+coordinates 11,0,0.7
+coordinates 12,0,1
+coordinates 13,0,0
+coordinates 14,1,0
+coordinates 15,1,1
+transparent 0,0,255
+
+

@@ -1,0 +1,146 @@
+;author=eezypeazy
+;description=wide cutting with a stone wall to7m e of stocksfield with building rears above
+;copyright=eezypeazy 2005, all rights reserved, contact eezypeazy@aol.com.
+
+
+
+[MeshBuilder]
+Vertex -2.7,1.2,-0.2
+vertex -2.7,1.2,-0.2
+vertex -2.7,1.2,-0.2
+Vertex -8,1.6,-0.4
+Vertex -9,6,-0.4
+vertex -9,7,-0.4
+Vertex -9,7,25.5
+vertex -9,6,25.5
+vertex -8,-0.5,25.5
+vertex -2.7,-0.5,25.5
+vertex -2.7,1.2,25.5
+vertex -2.7,1.2,25.5
+Vertex 6.7,1.2,-0.2
+vertex 6.7,1.2,-0.2
+vertex 6.7,1.2,-0.2
+Vertex 11,4,-0.2
+Vertex 13,6,-0.2
+vertex 13,7,-0.2
+Vertex 13,7,25.2
+vertex 13,6,25.2
+vertex 11,4,25.2
+vertex 6.7,1.2,25.5
+vertex 6.7,1.2,25.5
+vertex 6.7,1.2,25.5
+;Face 0,1,10,11
+;face 1,2,9,10
+;face 2,3,8,9
+;face 3,4,7,8
+;face 4,5,6,7
+Face 23,22,13,12
+face 22,21,14,13
+face 21,20,15,14
+face 20,19,16,15
+face 19,18,17,16
+
+
+[Texture]
+Load cutting.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.72
+Coordinates 2, 0, 0.6
+Coordinates 3, 0, 0.25
+Coordinates 4, 0, 0.12
+Coordinates 5, 0, 0
+Coordinates 6, 1, 0
+Coordinates 7, 1, 0.12
+Coordinates 8, 1, 0.25
+Coordinates 9, 1, 0.6
+Coordinates 10,1, 0.72
+Coordinates 11,1, 1
+Coordinates 12, 0, 1
+Coordinates 13, 0, 0.72
+Coordinates 14, 0, 0.6
+Coordinates 15, 0, 0.25
+Coordinates 16, 0, 0.12
+Coordinates 17, 0, 0
+Coordinates 18, 1, 0
+Coordinates 19, 1, 0.12
+Coordinates 20, 1, 0.25
+Coordinates 21, 1, 0.6
+Coordinates 22, 1,0.72
+coordinates 23,1,1
+transparent 0,0,255
+
+[meshbuilder]
+Vertex 13.4,5,-0.2
+vertex 13.4,9,-0.2
+Vertex 13.4,7.5,25.2
+vertex 13.4,5,25.2
+Vertex -9,1,-0.2
+vertex -9,3,-0.2
+Vertex -9,3,25.2
+vertex -9,1,25.2
+
+Vertex -8.5,-0.5,-0.2
+vertex -8.5,2,-0.2
+Vertex -8.5,2,25.2
+vertex -8.5,-0.5,25.2
+
+face 3,2,1,0
+;face 4,5,6,7
+;face 8,9,10,11
+color 220,220,220
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,0.8,0
+coordinates 7,0.7,0.8
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,0.8,0
+coordinates 11,0.7,0.8
+transparent 0,0,255
+
+
+;author=eezypeazy
+;description=old stone wall left, double faced
+;copyright=eezypeazy, all rights reserved.
+
+
+[meshbuilder]
+vertex 6.6,-0.5,-0.1
+vertex 6.6,1.2,-0.1
+vertex 6.6,1.2,25.1
+vertex 6.6,-0.5,25.1
+vertex 6.7,1.4,-0.1
+vertex 6.7,1.4,25.1
+vertex 6.95,1.5,-0.1
+vertex 6.95,1.5,25.1
+vertex 7.3,-0.5,-0.1
+vertex 7.3,1.2,-0.1
+vertex 7.2,1.4,-0.1
+face 3,2,1,0
+face 2,5,4,1
+face 5,7,6,4
+face 0,1,9,8
+face 1,4,10,9
+face 4,6,10
+color 140,140,140
+
+[texture]
+load ..\walls\oldstonewall.bmp
+coordinates 0,0.05,1
+coordinates 1,0.05,0.15
+coordinates 2,4.05,0.15
+coordinates 3,4.05,1
+coordinates 4,0.05,0.05
+coordinates 5,4.05,0.05
+coordinates 6,0.05,0
+coordinates 7,4.05,0
+coordinates 8,0,1
+coordinates 9,0,0.15
+coordinates 10,0,0.05

@@ -1,0 +1,153 @@
+;author=eezypeazy
+;description=bushes and trees for wooden crossing
+;copyright=eezypeazy 2009, all rights reserved.
+
+[meshbuilder]
+vertex -2.6,-0.5,8
+vertex -9,1.4,8
+vertex -9,1.4,25.1
+vertex -2.6,-0.5,25.1
+face 0,1,2,3
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0.5,0.9
+coordinates 1,0.4,0.2
+coordinates 2,0.1,0.2
+coordinates 3,0.1,0.8
+transparent 0,0,255
+
+[meshbuilder]
+vertex -9,1,0
+vertex -9,8,0
+vertex -9,8,24
+vertex -9,1,26
+face 0,1,2,3
+color 155,155,155
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -8,0,8
+vertex -8,4,8
+vertex -5,4,22
+vertex -5,0,24
+vertex -12,-0.4,8
+vertex -12,3,8
+vertex -2.8,1.4,8
+vertex -2.8,-0.4,8
+vertex -2.8,1.8,12.5
+vertex -2.8,-0.4,12.5
+vertex -2.8,1.4,25.1
+vertex -2.8,-0.4,25.1
+face 0,1,2,3
+face 4,5,6,7
+face2 7,6,8,9
+face2 9,8,10,11
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,0.2,0
+coordinates 7,0.2,1
+coordinates 8,0.8,0
+coordinates 9,0.45,1
+coordinates 10,0.2,0
+coordinates 11,0.2,1
+transparent 0,0,255
+
+
+;right hand side
+
+[meshbuilder]
+vertex 7,-0.3,8
+vertex 10,1.4,8
+vertex 10,1.4,25.1
+vertex 7,-0.3,25.1
+vertex 10,-0.3,-0.1
+face 3,2,1,0
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0.5,0.9
+coordinates 1,0.4,0.2
+coordinates 2,0.1,0.2
+coordinates 3,0.1,0.8
+transparent 0,0,255
+
+[meshbuilder]
+vertex 11,1,0
+vertex 11,8,0
+vertex 11,8,24
+vertex 11,1,26
+face2 3,2,1,0
+color 155,155,155
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 10,0,8
+vertex 10,4,8
+vertex 8,4,22
+vertex 8,0,24
+
+vertex 12,-0.4,8
+vertex 12,3,8
+vertex 6.7,1.4,8
+vertex 6.7,-0.5,8
+vertex 6.7,1.8,12.5
+vertex 6.7,-0.5,12.5
+vertex 6.7,1.4,25.1
+vertex 6.7,-0.5,25.1
+
+vertex 18,4.4,8
+vertex 18,-0.4,8
+vertex 12,5,8
+vertex 12,-0.4,8
+vertex 12,4.4,25.1
+vertex 12,-0.4,25.1
+face 3,2,1,0
+face 7,6,5,4
+face 9,8,6,7
+face 11,10,8,9
+face 15,14,12,13
+face 17,16,14,15
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,0.2,0
+coordinates 7,0.2,1
+coordinates 8,0.8,0
+coordinates 9,0.45,1
+coordinates 10,0,0
+coordinates 11,0,1
+coordinates 12,0.2,0
+coordinates 13,0.2,1
+coordinates 14,0.8,0
+coordinates 15,0.45,1
+coordinates 16,0.2,0
+coordinates 17,0.2,1
+transparent 0,0,255

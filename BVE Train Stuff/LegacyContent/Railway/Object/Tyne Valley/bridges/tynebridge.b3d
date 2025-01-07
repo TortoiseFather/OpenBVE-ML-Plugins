@@ -1,0 +1,19 @@
+;author=eezypeazy
+;description=tyne bridge
+;copyright=eezypeazy 2009. All rights reserved. For use only in my BVE routes.
+
+
+[meshbuilder]
+vertex 0,-25,-150
+vertex 0,30,-150
+vertex 0,30,25
+vertex 0,-25,25
+face 0,1,2,3
+
+[texture]
+load TyneBridges122.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255

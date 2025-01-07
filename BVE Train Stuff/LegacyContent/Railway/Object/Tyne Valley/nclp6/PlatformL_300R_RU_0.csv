@@ -1,0 +1,156 @@
+;This Object was created using Guillymans Platform Generator.
+;The Utility is available for Download at www.eezypeazy.co.uk
+;Left side Up Ramp curving to Left at radius of 300 metres
+
+CreateMeshBuilder
+Addvertex, -7.55, -0.2, -0.573
+Addvertex, -7.644, 0.125, 2.5
+Addvertex, -7.717, 0.450, 5
+Addvertex, -7.769, 0.775, 7.5
+Addvertex, -7.8, 1.1, 10
+Addvertex, -7.811, 1.1, 12.5
+Addvertex, -7.8, 1.1, 15
+Addvertex, -7.769, 1.1, 17.5
+Addvertex, -7.717, 1.1, 20
+Addvertex, -7.644, 1.1, 22.5
+Addvertex, -7.55, 1.1, 25.573
+Addvertex, -1.550, -0.2, -0.365
+Addvertex, -1.644, 0.125, 2.5
+Addvertex, -1.717, 0.450, 5
+Addvertex, -1.769, 0.775, 7.5
+Addvertex, -1.800, 1.1, 10
+Addvertex, -1.811, 1.1, 12.5
+Addvertex, -1.800, 1.1, 15
+Addvertex, -1.769, 1.1, 17.5
+Addvertex, -1.717, 1.1, 20
+Addvertex, -1.644, 1.1, 22.5
+Addvertex, -1.550, 1.1, 25.365
+Addvertex, -1.550, -0.304, -0.365
+Addvertex, -1.644, 0.021, 2.5
+Addvertex, -1.717, 0.346, 5
+Addvertex, -1.769, 0.671, 7.5
+Addvertex, -1.800, 0.996, 10
+Addvertex, -1.811, 0.996, 12.5
+Addvertex, -1.800, 0.996, 15
+Addvertex, -1.769, 0.996, 17.5
+Addvertex, -1.717, 0.996, 20
+Addvertex, -1.644, 0.996, 22.5
+Addvertex, -1.550, 0.996, 25.365
+Addvertex, -1.8, -0.3, -0.365
+Addvertex, -1.894, 0.025, 2.5
+Addvertex, -1.967, 0.350, 5
+Addvertex, -2.019, 0.675, 7.5
+Addvertex, -2.05, 1, 10
+Addvertex, -2.061, 1, 12.5
+Addvertex, -2.05, 1, 15
+Addvertex, -2.019, 1, 17.5
+Addvertex, -1.967, 1, 20
+Addvertex, -1.894, 1, 22.5
+Addvertex, -1.8, 1, 25.365
+Addvertex, -1.894, -0.2, 2.5
+Addvertex, -1.967, -0.2, 5
+Addvertex, -2.019, -0.2, 7.5
+Addvertex, -2.05, -0.2, 10
+Addvertex, -2.061, -0.2, 12.5
+Addvertex, -2.05, -0.2, 15
+Addvertex, -2.019, -0.2, 17.5
+Addvertex, -1.967, -0.2, 20
+Addvertex, -1.894, -0.2, 22.5
+Addvertex, -1.8, -0.2, 25.365
+Addface, 0,1,12,11
+Addface, 1,2,13,12
+Addface, 2,3,14,13
+Addface, 3,4,15,14
+Addface, 4,5,16,15
+Addface, 5,6,17,16
+Addface, 6,7,18,17
+Addface, 7,8,19,18
+Addface, 8,9,20,19
+Addface, 9,10,21,20
+Addface, 11,12,23,22
+Addface, 12,13,24,23
+Addface, 13,14,25,24
+Addface, 14,15,26,25
+Addface, 15,16,27,26
+Addface, 16,17,28,27
+Addface, 17,18,29,28
+Addface, 18,19,30,29
+Addface, 19,20,31,30
+Addface, 20,21,32,31
+Addface, 22,23,34,33
+Addface, 23,24,35,34
+Addface, 24,25,36,35
+Addface, 25,26,37,36
+Addface, 26,27,38,37
+Addface, 27,28,39,38
+Addface, 28,29,40,39
+Addface, 29,30,41,40
+Addface, 30,31,42,41
+Addface, 31,32,43,42
+Addface, 33,34,44
+Addface, 34,35,45,44
+Addface, 35,36,46,45
+Addface, 36,37,47,46
+Addface, 37,38,48,47
+Addface, 38,39,49,48
+Addface, 39,40,50,49
+Addface, 40,41,51,50
+Addface, 41,42,52,51
+Addface, 42,43,53,52
+generatenormals
+LoadTexture, CustomSurface_0.bmp
+SetTextureCoordinates, 0,0,0.000
+SetTextureCoordinates, 1,1,0.000
+SetTextureCoordinates, 2,2,0.000
+SetTextureCoordinates, 3,3,0.000
+SetTextureCoordinates, 4,4,0.000
+SetTextureCoordinates, 5,5,0.000
+SetTextureCoordinates, 6,6,0.000
+SetTextureCoordinates, 7,7,0.000
+SetTextureCoordinates, 8,8,0.000
+SetTextureCoordinates, 9,9,0.000
+SetTextureCoordinates, 10,10,0.000
+SetTextureCoordinates, 11,0,0.8
+SetTextureCoordinates, 12,1,0.8
+SetTextureCoordinates, 13,2,0.8
+SetTextureCoordinates, 14,3,0.8
+SetTextureCoordinates, 15,4,0.8
+SetTextureCoordinates, 16,5,0.8
+SetTextureCoordinates, 17,6,0.8
+SetTextureCoordinates, 18,7,0.8
+SetTextureCoordinates, 19,8,0.8
+SetTextureCoordinates, 20,9,0.8
+SetTextureCoordinates, 21,10,0.8
+SetTextureCoordinates, 22,0,0.812
+SetTextureCoordinates, 23,1,0.812
+SetTextureCoordinates, 24,2,0.812
+SetTextureCoordinates, 25,3,0.812
+SetTextureCoordinates, 26,4,0.812
+SetTextureCoordinates, 27,5,0.812
+SetTextureCoordinates, 28,6,0.812
+SetTextureCoordinates, 29,7,0.812
+SetTextureCoordinates, 30,8,0.812
+SetTextureCoordinates, 31,9,0.812
+SetTextureCoordinates, 32,10,0.812
+SetTextureCoordinates, 33,0,0.812
+SetTextureCoordinates, 34,1,0.812
+SetTextureCoordinates, 35,2,0.812
+SetTextureCoordinates, 36,3,0.812
+SetTextureCoordinates, 37,4,0.812
+SetTextureCoordinates, 38,5,0.812
+SetTextureCoordinates, 39,6,0.812
+SetTextureCoordinates, 40,7,0.812
+SetTextureCoordinates, 41,8,0.812
+SetTextureCoordinates, 42,9,0.812
+SetTextureCoordinates, 43,10,0.812
+SetTextureCoordinates, 44,1,0.859
+SetTextureCoordinates, 45,2,0.906
+SetTextureCoordinates, 46,3,0.953
+SetTextureCoordinates, 47,4,1
+SetTextureCoordinates, 48,5,1
+SetTextureCoordinates, 49,6,1
+SetTextureCoordinates, 50,7,1
+SetTextureCoordinates, 51,8,1
+SetTextureCoordinates, 52,9,1
+SetTextureCoordinates, 53,10,1
+

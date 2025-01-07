@@ -1,0 +1,1442 @@
+;author=eezypeazy
+;description=Hexham pt 3 - w end roof
+;copyright=eezypeazy 2009, all rights reserved
+
+
+;windows in rh walls
+[meshbuilder]
+vertex 12.8,2,6.75
+vertex 12.8,3.6,6.75
+vertex 12.8,3.6,5.75
+vertex 12.8,2,5.75
+vertex 12.8,2,13
+vertex 12.8,3.6,13
+vertex 12.8,3.6,12
+vertex 12.8,2,12
+vertex 12.8,2,19.25
+vertex 12.8,3.6,19.25
+vertex 12.8,3.6,18.25
+vertex 12.8,2,18.25
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+
+[texture]
+load ..\textures\archedwindow.bmp
+coordinates 0,0,0.95
+coordinates 1,0,0.37
+coordinates 2,1,0.37
+coordinates 3,1,0.95
+coordinates 4,0,0.95
+coordinates 5,0,0.37
+coordinates 6,1,0.37
+coordinates 7,1,0.95
+coordinates 8,0,0.95
+coordinates 9,0,0.37
+coordinates 10,1,0.37
+coordinates 11,1,0.95
+
+[meshbuilder]
+vertex 12.85,1.1,10.4
+vertex 12.85,3.8,10.4
+vertex 12.85,3.8,8.6
+vertex 12.85,1.1,8.6
+vertex 12.85,1.1,17
+vertex 12.85,3.8,17
+vertex 12.85,3.8,15.2
+vertex 12.85,1.1,15.2
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load corbdoor.BMP
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent ,,255
+
+
+
+
+;west end walls
+[meshbuilder]
+vertex 5.8,4.05,-0.3
+vertex 5.8,4.15,-0.3
+vertex 8.45,5.8,-0.3
+vertex 13,4.15,-0.3
+vertex 13,4.05,-0.3
+face 0,1,2,3,4
+color 222,222,222
+
+[meshbuilder]
+vertex -6.245,4.05,-0.3
+vertex -6.245,4.15,-0.3
+vertex -3.8,5.2,-0.3
+vertex -1.35,4.15,-0.3
+vertex -1.35,4.05,-0.3
+face 0,1,2,3,4
+color 222,222,222
+
+[meshbuilder]
+cube 0.03,1.4,0.03
+color 50,150,255
+translate -4.55,2.58,-0.1
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate -4.5,2.955,-0.05
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate -4.6,2.955,-0.05
+
+[meshbuilder]
+cube 0.03,1.4,0.03
+color 50,150,255
+translate -3,2.58,-0.1
+
+[meshbuilder]
+cube 0.03,1.4,0.03
+color 50,150,255
+translate -6.075,2.58,-0.1
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate -6.025,2.955,-0.05
+
+
+[meshbuilder]
+cube 1.55,0.03,0.03
+color 50,150,255
+translate -4.55,1.85,-0.1
+
+[meshbuilder]
+cube 1.55,0.03,0.03
+color 50,150,255
+translate -4.55,1.175,-0.1
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate -5.05,2.955,-0.05
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate -5.55,2.955,-0.05
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate -4.05,2.955,-0.05
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate -3.55,2.955,-0.05
+
+[meshbuilder]
+vertex -6.15,1.15,0
+vertex -6.15,1.84,0
+vertex -3,1.84,0
+vertex -3,1.15,0
+face 0,1,2,3
+color 222,222,222
+
+[meshbuilder]
+vertex -6.15,1.9,0
+vertex -6.15,4,0
+vertex -3,4,0
+vertex -3,1.9,0
+face 0,1,2,3
+color 177,177,255,85
+
+[meshbuilder]
+cube 1.55,0.02,0.02
+color 222,222,222
+translate -4.55,2.975,-0.1
+
+[meshbuilder]
+cube 0.03,1.4,0.03
+color 50,150,255
+translate 9,2.58,-0.1
+
+[meshbuilder]
+cube 0.03,1.4,0.03
+color 50,150,255
+translate 10.5,2.58,-0.1
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate 9.15,2.975,-0.05
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate 9.5,2.975,-0.05
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate 10,2.975,-0.05
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate 10.45,2.975,-0.05
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate 10.55,2.975,-0.05
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate 11,2.975,-0.05
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate 11.5,2.975,-0.05
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate 11.95,2.975,-0.05
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate 12.05,2.975,-0.05
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate 12.5,2.975,-0.05
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate 12.85,2.975,-0.05
+
+[meshbuilder]
+cube 0.02,1.1,0.02
+color 222,222,222
+translate 9.5,2.975,-0.1
+
+[meshbuilder]
+cube 2,0.02,0.02
+color 222,222,222
+translate 11,2.975,-0.1
+
+[meshbuilder]
+cube 0.03,1.4,0.03
+color 50,150,255
+translate 12,2.58,-0.1
+
+
+[meshbuilder]
+cube 0.03,1.4,0.03
+color 50,150,255
+translate 12.9,2.58,-0.1
+
+[meshbuilder]
+cube 2,0.03,0.03
+color 50,150,255
+translate 11,1.15,-0.1
+
+[meshbuilder]
+cube 2,0.03,0.03
+color 50,150,255
+translate 11,1.85,-0.1
+
+[meshbuilder]
+vertex 9.05,1.15,0
+vertex 9.05,1.84,0
+vertex 12.95,1.84,0
+vertex 12.95,1.15,0
+face 0,1,2,3
+color 222,222,222
+
+[meshbuilder]
+vertex 9,1.9,0
+vertex 9,4,0
+vertex 13,4,0
+vertex 13,1.9,0
+face 0,1,2,3
+color 177,177,255,85
+
+
+;platforms
+[MeshBuilder]
+vertex -1.8,-0.2,-0.2
+vertex -1.8,1.1,-0.2
+vertex -6.2,1.1,-0.2
+vertex -6.2,2.4,-0.2
+vertex -6,2.5,-0.2
+vertex -6,2.5,25.2
+vertex -6.2,2.4,25.2
+vertex -6.2,1.1,25.2
+vertex -1.8,1.1,25.2
+vertex -1.8,-0.2,25.2
+vertex -2.8,1.1,-0.2
+vertex -2.8,1.1,25.2
+
+face 0,1,8,9
+face 1,10,11,8
+face 10,2,7,11
+;face 2,3,6,7
+;face 3,4,5,6
+
+[Texture]
+Load corbridgen.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.55
+Coordinates 2, 0, 0.28
+Coordinates 3, 0, 0.03
+Coordinates 4, 0, 0
+Coordinates 5, 4, 0
+Coordinates 6, 4, 0.03
+Coordinates 7, 4, 0.28
+Coordinates 8, 4, 0.55
+Coordinates 9, 4, 1
+coordinates 10,0,0.45
+coordinates 11,4,0.45
+
+;rh side
+[MeshBuilder]
+Vertex 13,1.1,-0.2
+Vertex 5.8,1.1,-0.2
+Vertex 5.8,-0.2,-0.2
+vertex 13,1.1,25.2
+vertex 5.8,-0.2,25.2
+vertex 5.8,1.1,25.2
+vertex 6.8,1.1,-0.2
+vertex 6.8,1.1,25.2
+face 7,3,0,6
+face 5,7,6,1
+face 4,5,1,2
+
+[Texture]
+Load corbridgen.bmp
+Coordinates 0, 4, 0.28
+Coordinates 1, 4, 0.55
+Coordinates 2, 4, 1
+Coordinates 3,0, 0.28
+Coordinates 4,0, 1
+Coordinates 5,0, 0.55
+coordinates 6,4,0.45
+coordinates 7,0,0.45
+
+[meshbuilder]
+vertex 12.9,1,25.2
+vertex 12.9,4,25.2
+vertex 12.9,4,-0.2
+vertex 12.9,1,-0.2
+vertex 17.2,3,-0.2
+vertex 17.2,1,-0.2
+
+vertex -6.1,1,25.2
+vertex -6.1,4,25.2
+vertex -6.1,4,-0.2
+vertex -6.1,1,-0.2
+vertex -6.3,4,-0.2
+vertex -6.3,1,-0.2
+face 0,1,2,3
+face 3,2,4,5
+face 9,8,7,6
+face 11,10,8,9
+color 255,222,222
+
+[texture]
+load ..\textures\greystone.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,8.2,0
+coordinates 3,8.2,3
+coordinates 4,10,0.58
+coordinates 5,10,2
+coordinates 6,0,2
+coordinates 7,0,0
+coordinates 8,8.2,0
+coordinates 9,8.2,2
+coordinates 10,10,0
+coordinates 11,10,2
+
+[meshbuilder]
+vertex 13.5,1,-0.225
+vertex 13.5,3.17,-0.225
+vertex 14.5,3.17,-0.255
+vertex 14.5,1,-0.225
+face 0,1,2,3
+color 50,150,255
+
+;pillars and supports
+
+[meshbuilder]
+vertex -3.75,3.24,-0.2
+vertex -3.75,4,-0.2
+vertex -2.27,4,-0.2
+vertex -2.27,3.24,-0.2
+face 0,1,2,3
+
+[texture]
+load hexroof1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.7,0.025,0.025
+color 177,177,177
+rotate 0,0,1,-24
+translate -2,4.34,-0.2
+
+[meshbuilder]
+cube 0.7,0.025,0.025
+color 177,177,177
+rotate 0,0,1,24
+translate -5.7,4.35,-0.2
+
+[meshbuilder]
+cube 0.05,0.2,0.05
+color 177,177,177
+translate -2.62,4.2,-0.2
+
+[meshbuilder]
+cube 0.05,0.2,0.05
+color 177,177,177
+translate -5.12,4.2,-0.2
+
+[meshbuilder]
+cube 2.45,0.05,0.05
+color 177,177,177
+translate -3.8,4.025,-0.2
+
+[meshbuilder]
+cylinder 5,0.09,0.09,0.3
+color 50,150,255
+translate -3,1.25,-0.2
+
+[meshbuilder]
+cylinder 5,0.07,0.08,2.05
+color 255,255,177
+translate -3,2.18,-0.2
+
+[meshbuilder]
+cylinder 5,0.08,0.08,0.1
+color 50,150,255
+translate -3,3.16,-0.2
+
+[meshbuilder]
+cylinder 5,0.1,0.07,0.05
+color 50,150,255
+translate -3,3.22,-0.2
+
+[meshbuilder]
+vertex -3.75,3.24,6.15
+vertex -3.75,4,6.15
+vertex -2.27,4,6.15
+vertex -2.27,3.24,6.15
+face 0,1,2,3
+
+[texture]
+load hexroof1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.7,0.025,0.025
+color 177,177,177
+rotate 0,0,1,-24
+translate -2,4.34,6.15
+
+[meshbuilder]
+cube 0.05,0.2,0.05
+color 177,177,177
+translate -2.62,4.2,6.15
+
+[meshbuilder]
+cube 0.05,0.2,0.05
+color 177,177,177
+translate -5.12,4.2,6.15
+
+[meshbuilder]
+cube 2.45,0.05,0.05
+color 177,177,177
+translate -3.8,4.025,6.15
+
+[meshbuilder]
+cylinder 5,0.09,0.09,0.3
+color 50,150,255
+translate -3,1.25,6.15
+
+[meshbuilder]
+cylinder 5,0.07,0.08,2.05
+color 255,255,177
+translate -3,2.18,6.15
+
+[meshbuilder]
+cylinder 5,0.08,0.08,0.1
+color 50,150,255
+translate -3,3.16,6.15
+
+[meshbuilder]
+cylinder 5,0.1,0.07,0.05
+color 50,150,255
+translate -3,3.22,6.15
+
+[meshbuilder]
+vertex -3.75,3.24,12.5
+vertex -3.75,4,12.5
+vertex -2.27,4,12.5
+vertex -2.27,3.24,12.5
+face 0,1,2,3
+
+[texture]
+load hexroof1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.7,0.025,0.025
+color 177,177,177
+rotate 0,0,1,-24
+translate -2,4.34,12.5
+
+[meshbuilder]
+cube 0.05,0.2,0.05
+color 177,177,177
+translate -2.62,4.2,12.5
+
+[meshbuilder]
+cube 0.05,0.2,0.05
+color 177,177,177
+translate -5.12,4.2,12.5
+
+[meshbuilder]
+cube 2.45,0.05,0.05
+color 177,177,177
+translate -3.8,4.025,12.5
+
+[meshbuilder]
+cylinder 5,0.09,0.09,0.3
+color 50,150,255
+translate -3,1.25,12.5
+
+[meshbuilder]
+cylinder 5,0.07,0.08,2.05
+color 255,255,177
+translate -3,2.18,12.5
+
+[meshbuilder]
+cylinder 5,0.08,0.08,0.1
+color 50,150,255
+translate -3,3.16,12.5
+
+[meshbuilder]
+cylinder 5,0.1,0.07,0.05
+color 50,150,255
+translate -3,3.22,12.5
+
+[meshbuilder]
+vertex -3.75,3.24,18.85
+vertex -3.75,4,18.85
+vertex -2.27,4,18.85
+vertex -2.27,3.24,18.85
+face 0,1,2,3
+
+[texture]
+load hexroof1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.7,0.025,0.025
+color 177,177,177
+rotate 0,0,1,-24
+translate -2,4.34,18.85
+
+[meshbuilder]
+cube 0.05,0.2,0.05
+color 177,177,177
+translate -2.62,4.2,18.85
+
+[meshbuilder]
+cube 0.05,0.2,0.05
+color 177,177,177
+translate -5.12,4.2,18.85
+
+[meshbuilder]
+cube 2.45,0.05,0.05
+color 177,177,177
+translate -3.8,4.025,18.85
+
+[meshbuilder]
+cylinder 5,0.09,0.09,0.3
+color 50,150,255
+translate -3,1.25,18.85
+
+[meshbuilder]
+cylinder 5,0.07,0.08,2.05
+color 255,255,177
+translate -3,2.18,18.85
+
+[meshbuilder]
+cylinder 5,0.08,0.08,0.1
+color 50,150,255
+translate -3,3.16,18.85
+
+[meshbuilder]
+cylinder 5,0.1,0.07,0.05
+color 50,150,255
+translate -3,3.22,18.85
+
+
+
+[meshbuilder]
+vertex 6.24,3.24,-0.2
+vertex 6.24,4,-0.2
+vertex 7.72,4,-0.2
+vertex 7.72,3.24,-0.2
+face 0,1,2,3
+
+[texture]
+load hexroof1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.7,0.025,0.025
+color 177,177,177
+rotate 0,0,1,33
+translate 6.4,4.45,-0.2
+
+[meshbuilder]
+cube 3.6,0.05,0.05
+color 177,177,177
+translate 9.4,4.025,-0.2
+
+[meshbuilder]
+cube 0.05,0.38,0.05
+color 177,177,177
+translate 7,4.38,-0.2
+
+[meshbuilder]
+cylinder 5,0.09,0.09,0.3
+color 50,150,255
+translate 7,1.25,-0.2
+
+[meshbuilder]
+cylinder 5,0.07,0.08,2.05
+color 255,255,177
+translate 7,2.18,-0.2
+
+[meshbuilder]
+cylinder 5,0.08,0.08,0.1
+color 50,150,255
+translate 7,3.16,-0.2
+
+[meshbuilder]
+cylinder 5,0.1,0.07,0.05
+color 50,150,255
+translate 7,3.22,-0.2
+
+[meshbuilder]
+vertex 6.24,3.24,6.15
+vertex 6.24,4,6.15
+vertex 7.72,4,6.15
+vertex 7.72,3.24,6.15
+face 0,1,2,3
+
+[texture]
+load hexroof1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.7,0.025,0.025
+color 177,177,177
+rotate 0,0,1,33
+translate 6.4,4.45,6.15
+
+[meshbuilder]
+cube 0.05,0.38,0.05
+color 177,177,177
+translate 7,4.38,6.15
+
+[meshbuilder]
+cube 3.6,0.05,0.05
+color 177,177,177
+translate 9.4,4.025,6.15
+
+[meshbuilder]
+cylinder 5,0.09,0.09,0.3
+color 50,150,255
+translate 7,1.25,6.15
+
+[meshbuilder]
+cylinder 5,0.07,0.08,2.05
+color 255,255,177
+translate 7,2.18,6.15
+
+[meshbuilder]
+cylinder 5,0.08,0.08,0.1
+color 50,150,255
+translate 7,3.16,6.15
+
+[meshbuilder]
+cylinder 5,0.1,0.07,0.05
+color 50,150,255
+translate 7,3.22,6.15
+
+[meshbuilder]
+vertex 6.24,3.24,12.5
+vertex 6.24,4,12.5
+vertex 7.72,4,12.5
+vertex 7.72,3.24,12.5
+face 0,1,2,3
+
+[texture]
+load hexroof1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.7,0.025,0.025
+color 177,177,177
+rotate 0,0,1,33
+translate 6.4,4.45,12.5
+
+[meshbuilder]
+cube 0.05,0.38,0.05
+color 177,177,177
+translate 7,4.38,12.5
+
+[meshbuilder]
+cube 3.6,0.05,0.05
+color 177,177,177
+translate 9.4,4.025,12.5
+
+[meshbuilder]
+cylinder 5,0.09,0.09,0.3
+color 50,150,255
+translate 7,1.25,12.5
+
+[meshbuilder]
+cylinder 5,0.07,0.08,2.05
+color 255,255,177
+translate 7,2.18,12.5
+
+[meshbuilder]
+cylinder 5,0.08,0.08,0.1
+color 50,150,255
+translate 7,3.16,12.5
+
+[meshbuilder]
+cylinder 5,0.1,0.07,0.05
+color 50,150,255
+translate 7,3.22,12.5
+
+[meshbuilder]
+vertex 6.24,3.24,18.85
+vertex 6.24,4,18.85
+vertex 7.72,4,18.85
+vertex 7.72,3.24,18.85
+face 0,1,2,3
+
+[texture]
+load hexroof1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.7,0.025,0.025
+color 177,177,177
+rotate 0,0,1,33
+translate 6.4,4.45,18.85
+
+[meshbuilder]
+cube 0.05,0.38,0.05
+color 177,177,177
+translate 7,4.38,18.85
+
+[meshbuilder]
+cube 3.6,0.05,0.05
+color 177,177,177
+translate 9.4,4.025,18.85
+
+[meshbuilder]
+cylinder 5,0.09,0.09,0.3
+color 50,150,255
+translate 7,1.35,18.85
+
+[meshbuilder]
+cylinder 5,0.07,0.08,2.05
+color 255,255,177
+translate 7,2.18,18.85
+
+[meshbuilder]
+cylinder 5,0.08,0.08,0.1
+color 50,150,255
+translate 7,3.16,18.85
+
+[meshbuilder]
+cylinder 5,0.1,0.07,0.05
+color 50,150,255
+translate 7,3.22,18.85
+
+
+[meshbuilder]
+vertex 9.24,3.24,-0.2
+vertex 9.24,4,-0.2
+vertex 10.72,4,-0.2
+vertex 10.72,3.24,-0.2
+face 0,1,2,3
+
+[texture]
+load hexroof1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 1.6,0.025,0.025
+color 177,177,177
+rotate 0,0,1,-20.5
+translate 11.5,4.6,-0.2
+
+[meshbuilder]
+cube 0.05,0.45,0.05
+color 177,177,177
+translate 10,4.5,-0.2
+
+[meshbuilder]
+cylinder 5,0.1,0.07,0.05
+color 50,150,255
+translate 10,3.22,-0.2
+
+[meshbuilder]
+cylinder 5,0.09,0.09,0.3
+color 50,150,255
+translate 10,1.25,-0.2
+
+[meshbuilder]
+cylinder 5,0.07,0.08,2.05
+color 255,255,177
+translate 10,2.18,-0.2
+
+[meshbuilder]
+cylinder 5,0.08,0.08,0.1
+color 50,150,255
+translate 10,3.16,-0.2
+
+[meshbuilder]
+vertex 9.24,3.24,6.15
+vertex 9.24,4,6.15
+vertex 10.72,4,6.15
+vertex 10.72,3.24,6.15
+face 0,1,2,3
+
+[texture]
+load hexroof1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.05,0.45,0.05
+color 177,177,177
+translate 10,4.5,6.15
+
+[meshbuilder]
+cylinder 5,0.09,0.09,0.3
+color 50,150,255
+translate 10,1.25,6.15
+
+[meshbuilder]
+cylinder 5,0.07,0.08,2.05
+color 255,255,177
+translate 10,2.18,6.15
+
+[meshbuilder]
+cylinder 5,0.08,0.08,0.1
+color 50,150,255
+translate 10,3.16,6.15
+
+[meshbuilder]
+cylinder 5,0.1,0.07,0.05
+color 50,150,255
+translate 10,3.22,6.15
+
+[meshbuilder]
+vertex 9.24,3.24,12.5
+vertex 9.24,4,12.5
+vertex 10.72,4,12.5
+vertex 10.72,3.24,12.5
+face 0,1,2,3
+
+[texture]
+load hexroof1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.05,0.45,0.05
+color 177,177,177
+translate 10,4.5,12.5
+
+[meshbuilder]
+cylinder 5,0.09,0.09,0.3
+color 50,150,255
+translate 10,1.25,12.5
+
+[meshbuilder]
+cylinder 5,0.07,0.08,2.05
+color 255,255,177
+translate 10,2.18,12.5
+
+[meshbuilder]
+cylinder 5,0.08,0.08,0.1
+color 50,150,255
+translate 10,3.16,12.5
+
+[meshbuilder]
+cylinder 5,0.1,0.07,0.05
+color 50,150,255
+translate 10,3.22,12.5
+
+[meshbuilder]
+vertex 9.24,3.24,18.85
+vertex 9.24,4,18.85
+vertex 10.72,4,18.85
+vertex 10.72,3.24,18.85
+face 0,1,2,3
+
+[texture]
+load hexroof1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.05,0.45,0.05
+color 177,177,177
+translate 10,4.5,18.85
+
+[meshbuilder]
+cylinder 5,0.09,0.09,0.3
+color 50,150,255
+translate 10,1.25,18.85
+
+[meshbuilder]
+cylinder 5,0.07,0.08,2.05
+color 255,255,177
+translate 10,2.18,18.85
+
+[meshbuilder]
+cylinder 5,0.08,0.08,0.1
+color 50,150,255
+translate 10,3.16,18.85
+
+[meshbuilder]
+cylinder 5,0.1,0.07,0.05
+color 50,150,255
+translate 10,3.22,18.85
+
+
+;beams
+
+[meshbuilder]
+cube 0.05,0.11,12.9
+color 177,177,177
+translate 7,4.785,12.7
+
+[meshbuilder]
+cube 0.05,0.11,12.9
+color 177,177,177
+translate 10,5.05,12.7
+
+[meshbuilder]
+cube 0.05,0.11,12.9
+color 177,177,177
+translate -2.62,4.51,12.7
+
+[meshbuilder]
+cube 0.05,0.11,12.9
+color 177,177,177
+translate -5.12,4.51,12.7
+
+[meshbuilder]
+cube 0.75,0.025,12.7
+color 222,222,222
+rotate 0,0,1,33
+translate 6.4,4.5,12.5
+
+[meshbuilder]
+cube 1.6,0.025,12.7
+color 222,222,222
+rotate 0,0,1,-20.5
+translate 11.5,4.58,12.7
+
+
+[meshbuilder]
+cube 0.7,0.025,12.7
+color 222,222,222
+rotate 0,0,1,-24
+translate -2,4.34,12.5
+
+[meshbuilder]
+cube 0.7,0.025,12.7
+color 222,222,222
+rotate 0,0,1,24
+translate -5.77,4.34,12.5
+
+
+;glazing rh side
+[meshbuilder]
+vertex 7,4.84,-0.15
+vertex 7,4.84,25.15
+vertex 8.45,5.75,25.15
+vertex 8.45,5.75,-0.15
+vertex 10,5.16,25.15
+vertex 10,5.16,-0.15
+face2 3,2,1,0
+face 5,4,2,3
+color 177,177,255,133
+
+;glazing lh side
+[meshbuilder]
+vertex -2.62,4.6,-0.15
+vertex -3.87,5.15,-0.15
+vertex -3.87,5.15,25.15
+vertex -2.62,4.6,25.15.15
+vertex -5.12,4.6,25.15
+vertex -5.12,4.6,-0.15
+face2 3,2,1,0
+face 5,1,2,4
+color 177,177,255,133
+
+
+
+;glazing bars r
+[meshbuilder]
+vertex 7,4.83,-0.19
+vertex 7,4.83,-0.14
+vertex 8.45,5.75,-0.14
+vertex 8.45,5.75,-0.19
+vertex 10,5.14,-0.14
+vertex 10,5.14,-0.19
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+[meshbuilder]
+vertex 7,4.83,1.5
+vertex 7,4.83,1.55
+vertex 8.45,5.75,1.55
+vertex 8.45,5.75,1.5
+vertex 10,5.14,1.55
+vertex 10,5.14,1.5
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+[meshbuilder]
+vertex 7,4.83,3
+vertex 7,4.83,3.05
+vertex 8.45,5.75,3.05
+vertex 8.45,5.75,3
+vertex 10,5.14,3.05
+vertex 10,5.14,3
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+[meshbuilder]
+vertex 7,4.83,4.5
+vertex 7,4.83,4.55
+vertex 8.45,5.75,4.55
+vertex 8.45,5.75,4.5
+vertex 10,5.14,4.55
+vertex 10,5.14,4.5
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+[meshbuilder]
+vertex 7,4.83,6
+vertex 7,4.83,6.05
+vertex 8.45,5.75,6.05
+vertex 8.45,5.75,6
+vertex 10,5.14,6.05
+vertex 10,5.14,6
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+[meshbuilder]
+vertex 7,4.83,7.5
+vertex 7,4.83,7.55
+vertex 8.45,5.75,7.55
+vertex 8.45,5.75,7.5
+vertex 10,5.14,7.55
+vertex 10,5.14,7.5
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+[meshbuilder]
+vertex 7,4.83,9
+vertex 7,4.83,9.05
+vertex 8.45,5.75,9.05
+vertex 8.45,5.75,9
+vertex 10,5.14,9.05
+vertex 10,5.14,9
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+[meshbuilder]
+vertex 7,4.83,10.5
+vertex 7,4.83,10.55
+vertex 8.45,5.75,10.55
+vertex 8.45,5.75,10.5
+vertex 10,5.14,10.55
+vertex 10,5.14,10.5
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+[meshbuilder]
+vertex 7,4.83,12
+vertex 7,4.83,12.05
+vertex 8.45,5.75,12.05
+vertex 8.45,5.75,12
+vertex 10,5.14,12.05
+vertex 10,5.14,12
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+[meshbuilder]
+vertex 7,4.83,13.5
+vertex 7,4.83,13.55
+vertex 8.45,5.75,13.55
+vertex 8.45,5.75,13.5
+vertex 10,5.14,13.55
+vertex 10,5.14,13.5
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+[meshbuilder]
+vertex 7,4.83,15
+vertex 7,4.83,15.05
+vertex 8.45,5.75,15.05
+vertex 8.45,5.75,15
+vertex 10,5.14,15.05
+vertex 10,5.14,15
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+[meshbuilder]
+vertex 7,4.83,16.5
+vertex 7,4.83,16.55
+vertex 8.45,5.75,16.55
+vertex 8.45,5.75,16.5
+vertex 10,5.14,16.55
+vertex 10,5.14,16.5
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+[meshbuilder]
+vertex 7,4.83,18
+vertex 7,4.83,18.05
+vertex 8.45,5.75,18.05
+vertex 8.45,5.75,18
+vertex 10,5.14,18.05
+vertex 10,5.14,18
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+[meshbuilder]
+vertex 7,4.83,19.5
+vertex 7,4.83,19.55
+vertex 8.45,5.75,19.55
+vertex 8.45,5.75,19.5
+vertex 10,5.14,19.55
+vertex 10,5.14,19.5
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+[meshbuilder]
+vertex 7,4.83,21
+vertex 7,4.83,21.05
+vertex 8.45,5.75,21.05
+vertex 8.45,5.75,21
+vertex 10,5.14,21.05
+vertex 10,5.14,21
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+[meshbuilder]
+vertex 7,4.83,22.5
+vertex 7,4.83,22.55
+vertex 8.45,5.75,22.55
+vertex 8.45,5.75,22.5
+vertex 10,5.14,22.55
+vertex 10,5.14,22.5
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+[meshbuilder]
+vertex 7,4.83,24
+vertex 7,4.83,24.05
+vertex 8.45,5.75,24.05
+vertex 8.45,5.75,24
+vertex 10,5.14,24.05
+vertex 10,5.14,24
+face 3,2,1,0
+face 5,4,2,3
+color ,,,
+
+
+
+
+
+;glazing bars l
+[meshbuilder]
+vertex -2.65,4.6,-0.19
+vertex -2.65,4.6,-0.14
+vertex -3.87,5.15,-0.14
+vertex -3.87,5.15,-0.19
+vertex -5.1,4.6,-0.14
+vertex -5.1,4.6,-0.19
+face 0,1,2,3
+face 3,2,4,5
+color ,,,
+
+[meshbuilder]
+vertex -2.65,4.6,1.5
+vertex -2.65,4.6,1.55
+vertex -3.87,5.15,1.55
+vertex -3.87,5.15,1.5
+vertex -5.1,4.6,1.55
+vertex -5.1,4.6,1.5
+face 0,1,2,3
+face 3,2,4,5
+color ,,,
+
+[meshbuilder]
+vertex -2.65,4.6,3
+vertex -2.65,4.6,3.05
+vertex -3.87,5.15,3.05
+vertex -3.87,5.15,3
+vertex -5.1,4.6,3.05
+vertex -5.1,4.6,3
+face 0,1,2,3
+face 3,2,4,5
+color ,,,
+
+[meshbuilder]
+vertex -2.65,4.6,4.5
+vertex -2.65,4.6,4.55
+vertex -3.87,5.15,4.55
+vertex -3.87,5.15,4.5
+vertex -5.1,4.6,4.55
+vertex -5.1,4.6,4.5
+face 0,1,2,3
+face 3,2,4,5
+color ,,,
+
+[meshbuilder]
+vertex -2.65,4.6,6
+vertex -2.65,4.6,6.05
+vertex -3.87,5.15,6.05
+vertex -3.87,5.15,6
+vertex -5.1,4.6,6.05
+vertex -5.1,4.6,6
+face 0,1,2,3
+face 3,2,4,5
+color ,,,
+
+[meshbuilder]
+vertex -2.65,4.6,7.5
+vertex -2.65,4.6,7.55
+vertex -3.87,5.15,7.55
+vertex -3.87,5.15,7.5
+vertex -5.1,4.6,7.55
+vertex -5.1,4.6,7.5
+face 0,1,2,3
+face 3,2,4,5
+color ,,,
+
+[meshbuilder]
+vertex -2.65,4.6,9
+vertex -2.65,4.6,9.05
+vertex -3.87,5.15,9.05
+vertex -3.87,5.15,9
+vertex -5.1,4.6,9.05
+vertex -5.1,4.6,9
+face 0,1,2,3
+face 3,2,4,5
+color ,,,
+
+[meshbuilder]
+vertex -2.65,4.6,10.5
+vertex -2.65,4.6,10.55
+vertex -3.87,5.15,10.55
+vertex -3.87,5.15,10.5
+vertex -5.1,4.6,10.55
+vertex -5.1,4.6,10.5
+face 0,1,2,3
+face 3,2,4,5
+color ,,,
+
+[meshbuilder]
+vertex -2.65,4.6,12
+vertex -2.65,4.6,12.05
+vertex -3.87,5.15,12.05
+vertex -3.87,5.15,12
+vertex -5.1,4.6,12.05
+vertex -5.1,4.6,12
+face 0,1,2,3
+face 3,2,4,5
+color ,,,
+
+[meshbuilder]
+vertex -2.65,4.6,13.5
+vertex -2.65,4.6,13.55
+vertex -3.87,5.15,13.55
+vertex -3.87,5.15,13.5
+vertex -5.1,4.6,13.55
+vertex -5.1,4.6,13.5
+face 0,1,2,3
+face 3,2,4,5
+color ,,,
+
+[meshbuilder]
+vertex -2.65,4.6,15
+vertex -2.65,4.6,15.05
+vertex -3.87,5.15,15.05
+vertex -3.87,5.15,15
+vertex -5.1,4.6,15.05
+vertex -5.1,4.6,15
+face 0,1,2,3
+face 3,2,4,5
+color ,,,
+
+[meshbuilder]
+vertex -2.65,4.6,16.5
+vertex -2.65,4.6,16.55
+vertex -3.87,5.15,16.55
+vertex -3.87,5.155,16.5
+vertex -5.1,4.6,16.55
+vertex -5.1,4.6,16.5
+face 0,1,2,3
+face 3,2,4,5
+color ,,,
+
+[meshbuilder]
+vertex -2.65,4.6,18
+vertex -2.65,4.6,18.05
+vertex -3.87,5.15,18.05
+vertex -3.87,5.15,18
+vertex -5.1,4.6,18.05
+vertex -5.1,4.6,18
+face 0,1,2,3
+face 3,2,4,5
+color ,,,
+
+[meshbuilder]
+vertex -2.65,4.6,19.5
+vertex -2.65,4.6,19.55
+vertex -3.87,5.15,19.55
+vertex -3.87,5.155,19.5
+vertex -5.1,4.6,19.55
+vertex -5.1,4.6,19.5
+face 0,1,2,3
+face 3,2,4,5
+color ,,,
+
+[meshbuilder]
+vertex -2.65,4.6,21
+vertex -2.65,4.6,21.05
+vertex -3.87,5.15,21.05
+vertex -3.87,5.15,21
+vertex -5.1,4.6,21.05
+vertex -5.1,4.6,21
+face 0,1,2,3
+face 3,2,4,5
+color ,,,
+
+[meshbuilder]
+vertex -2.65,4.6,22.5
+vertex -2.65,4.6,22.55
+vertex -3.87,5.15,22.55
+vertex -3.87,5.155,22.5
+vertex -5.1,4.6,22.55
+vertex -5.1,4.6,22.5
+face 0,1,2,3
+face 3,2,4,5
+color ,,,
+
+[meshbuilder]
+vertex -2.65,4.6,24
+vertex -2.65,4.6,24.05
+vertex -3.87,5.15,24.05
+vertex -3.87,5.15,24
+vertex -5.1,4.6,24.05
+vertex -5.1,4.6,24
+face 0,1,2,3
+face 3,2,4,5
+color ,,,

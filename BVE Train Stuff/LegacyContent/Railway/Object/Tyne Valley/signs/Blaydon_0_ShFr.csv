@@ -1,0 +1,20 @@
+;This Object was created using Guillymans Station Nameboard Generator.
+;The Utility is available for Download at www.eezypeazy.co.uk
+
+;Short Nameboard mounted freely
+
+;________Station Nameboard_______________________,
+
+CreateMeshBuilder,
+Addvertex, -5.8,3.3,-0.5,
+Addvertex, -5.8,3.3,0.5,
+Addvertex, -5.8,2.9,-0.5,
+Addvertex, -5.8,2.9,0.5,
+Addface, 0,1,3,2,
+generatenormals,
+LoadTexture, Blaydon_0_ShFr.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,0,1,
+SetTextureCoordinates, 3,1,1,
+

@@ -1,0 +1,38 @@
+;author=eezypeazy
+;description=hedge left
+;copyright=eezypeazy 2009, all rights reserved.
+
+
+[meshbuilder]
+vertex -2.6,-0.5,-0.1
+vertex -2.6,1.2,-0.1
+vertex -2.6,1.2,25.1
+vertex -2.6,-0.5,25.1
+vertex -2.7,1.4,-0.1
+vertex -2.7,1.4,25.1
+vertex -2.95,1.5,-0.1
+vertex -2.95,1.5,25.1
+vertex -3.3,-0.5,-0.1
+vertex -3.3,1.2,-0.1
+vertex -3.2,1.4,-0.1
+face 0,1,2,3
+face 1,4,5,2
+face 4,6,7,5
+face 8,9,1,0
+face 9,10,4,1
+face 10,6,4
+
+[texture]
+load ..\textures\hedge.bmp
+coordinates 0,0.05,1
+coordinates 1,0.05,0.15
+coordinates 2,4.05,0.15
+coordinates 3,4.05,1
+coordinates 4,0.05,0.05
+coordinates 5,4.05,0.05
+coordinates 6,0.05,0
+coordinates 7,4.05,0
+coordinates 8,0,1
+coordinates 9,0,0.15
+coordinates 10,0,0.05
+transparent 0,0,255

@@ -1,0 +1,121 @@
+;author=eezypeazy
+;description=metro island platform run, RH side, no shelter
+;copyright=eezypeazy, all rights reserved
+
+;rh side
+[MeshBuilder]
+Vertex 6,0.96,-0.2
+Vertex 1.8,0.96,-0.2
+Vertex 1.8,-0.2,-0.2
+vertex 6,0.96,25.2
+vertex 1.8,-0.2,25.2
+vertex 1.8,0.96,25.2
+vertex 2.5,0.96,-0.2
+vertex 2.5,0.96,25.2
+vertex 6,3.5,-0.2
+vertex 6,3.5,25.2
+
+vertex 5.8,3.9,-0.2
+vertex 5.5,4.4,-0.2
+vertex 4.4,4.9,-0.2
+vertex 2.7,5,-0.2
+vertex 2.7,5.15,-0.2
+
+vertex 5.8,3.9,25.2
+vertex 5.5,4.4,25.2
+vertex 4.4,4.9,25.2
+vertex 2.7,5,25.2
+vertex 2.7,5.15,25.2
+
+face 7,3,0,6
+face 5,7,6,1
+face 4,5,1,2
+;face 3,9,8,0
+;face 9,15,10,8
+;face 15,16,11,10
+;face 16,17,12,11
+;face 17,18,13,12
+;face 18,19,14,13
+
+[Texture]
+Load metro1.bmp
+Coordinates 0, 5, 0.72
+Coordinates 1, 5, 0.77
+Coordinates 2, 5, 1
+Coordinates 3,0, 0.72
+Coordinates 4,0, 1
+Coordinates 5,0, 0.77
+coordinates 6,5,0.75
+coordinates 7,0,0.75
+coordinates 8,5,0.28
+coordinates 9,0,0.28
+coordinates 10,5,0.19
+coordinates 11,5,0.18
+coordinates 12,5,0.1
+coordinates 13,5,0.03
+coordinates 14,5,0
+coordinates 15,0,0.19
+coordinates 16,0,0.18
+coordinates 17,0,0.1
+coordinates 18,0,0.03
+coordinates 19,0,0
+
+
+;far part
+[MeshBuilder]
+Vertex 6,0.96,-0.2
+Vertex 10.2,0.96,-0.2
+Vertex 1.8,-0.2,-0.2
+vertex 6,0.96,25.2
+vertex 1.8,-0.2,25.2
+vertex 10.2,0.96,25.2
+vertex 9.5,0.96,-0.2
+vertex 9.5,0.96,25.2
+
+vertex 6,3.5,-0.2
+vertex 6,3.5,25.2
+
+vertex 6.2,3.9,-0.2
+vertex 6.5,4.4,-0.2
+vertex 7.6,4.9,-0.2
+vertex 9.3,5,-0.2
+vertex 9.3,5.15,-0.2
+
+vertex 6.2,3.9,25.2
+vertex 6.5,4.4,25.2
+vertex 7.6,4.9,25.2
+vertex 9.3,5,25.2
+vertex 9.3,5.15,25.2
+
+face 6,0,3,7
+face 1,6,7,5
+
+;face 9,15,10,8
+;face 15,16,11,10
+;face2 16,17,12,11
+;face2 17,18,13,12
+;face 18,19,14,13
+
+[Texture]
+Load metro1.bmp
+Coordinates 0, 5, 0.72
+Coordinates 1, 5, 0.77
+Coordinates 2, 5, 1
+Coordinates 3,0, 0.72
+Coordinates 4,0, 1
+Coordinates 5,0, 0.77
+coordinates 6,5,0.75
+coordinates 7,0,0.75
+coordinates 7,0,0.75
+coordinates 8,5,0.28
+coordinates 9,0,0.28
+coordinates 10,5,0.19
+coordinates 11,5,0.18
+coordinates 12,5,0.1
+coordinates 13,5,0.03
+coordinates 14,5,0
+coordinates 15,0,0.19
+coordinates 16,0,0.18
+coordinates 17,0,0.1
+coordinates 18,0,0.03
+coordinates 19,0,0

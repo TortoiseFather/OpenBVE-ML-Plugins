@@ -1,0 +1,30 @@
+;author=eezypeazy
+;description=sign passengers must not cross the line
+;copyright=eezypeazy, all rights reserved
+
+[MeshBuilder]
+Vertex -0.25, 3, -0.05
+Vertex  0.25, 3, -0.05
+Vertex  0.25, 2.5, -0.05
+Vertex -0.25, 2.5, -0.05
+Face 0, 1, 2, 3
+
+[Texture]
+Load notcrossing.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex -0.25, 3, -0.05
+Vertex  0.25, 3, -0.05
+Vertex  0.25, 2.5, -0.05
+Vertex -0.25, 2.5, -0.05
+Face 3,2,1,0
+color 222,222,222
+
+[MeshBuilder]      
+cylinder 6,0.05,0.05,3
+translate 0,1.5,0
+Color 128,128,128

@@ -1,0 +1,296 @@
+;author=eezypeazy
+;description=corbridge platform e end
+;copyright=eezypeazy, all rights reserved
+
+[MeshBuilder]
+vertex -1.8,-0.2,-0.2
+vertex -1.8,1.1,-0.2
+vertex -5.8,1.1,-0.2
+vertex -5.8,2.4,-0.2
+vertex -6,2.5,-0.2
+vertex -6,2.5,19
+vertex -5.8,2.4,14
+vertex -5.8,1.1,14
+vertex -1.8,1.1,14
+vertex -1.8,-0.2,14
+vertex -2.8,1.1,-0.2
+vertex -2.8,1.1,14
+vertex -6,1.4,25.2
+vertex -5.8,1.3,25.2
+vertex -5.8,1.1,25.2
+vertex -2.8,1.1,25.2
+vertex -1.8,1.1,25.2
+vertex -1.8,-0.2,25.2
+face 0,1,8,9
+face 1,10,11,8
+face 10,2,7,11
+face 9,8,16,17
+face 8,11,15,16
+face 11,7,14,15
+
+[Texture]
+Load corbridgen.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.55
+Coordinates 2, 0, 0.28
+Coordinates 3, 0, 0.03
+Coordinates 4, 0, 0
+Coordinates 5, 3, 0
+Coordinates 6, 3, 0.03
+Coordinates 7, 3, 0.28
+Coordinates 8, 3, 0.55
+Coordinates 9, 3, 1
+coordinates 10,0,0.45
+coordinates 11,3,0.45
+Coordinates 12, 4, 0
+Coordinates 13, 4, 0
+Coordinates 14, 4, 0.28
+Coordinates 15, 4, 0.45
+coordinates 16,4,0.55
+coordinates 17,4,1
+
+;rh side
+[MeshBuilder]
+Vertex 9.8,1.1,-0.2
+Vertex 5.8,1.1,-0.2
+Vertex 5.8,-0.2,-0.2
+vertex 9.8,1.1,14
+vertex 5.8,-0.2,14
+vertex 5.8,1.1,14
+vertex 6.8,1.1,-0.2
+vertex 6.8,1.1,14
+vertex 9.8,1.1,25.2
+vertex 5.8,1.1,25.2
+vertex 5.8,-0.2,25.2
+vertex 6.8,1.1,25.2
+
+face 7,3,0,6
+face 5,7,6,1
+face 4,5,1,2
+face 4,10,9,5
+face 9,11,7,5
+face 11,8,3,7
+
+[Texture]
+Load corbridgen.bmp
+Coordinates 0, 4, 0.28
+Coordinates 1, 4, 0.55
+Coordinates 2, 4, 1
+Coordinates 3,1, 0.28
+Coordinates 4,1, 1
+Coordinates 5,1, 0.55
+coordinates 6,4,0.45
+coordinates 7,1,0.45
+coordinates 8,0,0.28
+coordinates 9,0,0.55
+coordinates 10,0,1
+coordinates 11,0,0.45
+
+[meshbuilder]
+vertex 10.5,0.5,-0.2
+vertex 10.5,5.6,-0.2
+vertex 9.7,0.5,25.5
+vertex 9.7,5.6,25.5
+vertex 9.7,5.6,-0.2
+vertex 9.7,0.5,-0.2
+vertex -5.9,0.5,-0.2
+vertex -5.9,5.6,-0.2
+vertex -5.9,5.6,25.2
+vertex -5.9,0.5,25.2
+face 5,4,1,0
+face 2,3,4,5
+face 6,7,8,9
+
+[texture]
+load ..\textures\stonemw.bmp
+coordinates 0,0.5,3
+coordinates 1,0.5,0
+coordinates 2,0,3
+coordinates 3,0,0
+coordinates 4,6,0
+coordinates 5,6,3
+coordinates 6,0,3
+coordinates 7,0,0
+coordinates 8,6,0
+coordinates 9,6,3
+
+;footbridge
+;bridge face
+
+[Meshbuilder]
+vertex -3.6,0.9,9
+vertex -3.6,8.3,9
+vertex 7.7,8.3,9
+vertex 7.7,0.9,9
+vertex -3.6,0.9,10.3
+vertex -3.6,8.3,10.3
+vertex 7.7,8.3,10.3
+vertex 7.7,0.9,10.3
+face 0,1,2,3
+face 4,5,6,7
+
+[Texture]
+load ..\buildings\wylamfootbridge.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+
+;lh steps
+;fences
+[meshbuilder]
+vertex -3,5,9 
+vertex -3,6.3,9
+vertex -4.4,6.3,9
+vertex -4.4,6.3,10.3
+vertex -4.4,2,13.3
+vertex -4.4,1,13.3
+vertex -4.4,5,10.3
+vertex -4.4,5,9
+
+vertex -3,0,6 
+vertex -3,1,6
+vertex -3,4.5,9
+vertex -3,4.5,10.3
+vertex -3,2,13.3
+vertex -3,1,13.3
+vertex -3,3.5,10.3
+vertex -3,3.5,9
+
+face 7,2,1,0
+face 7,2,3,6
+face 6,3,4,5
+face 14,11,12,13
+
+[texture]
+load ..\buildings\redmetalfence.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,4,0
+coordinates 4,0,0
+coordinates 5,0,1
+coordinates 6,4,1
+coordinates 7,3,1
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,3,0
+coordinates 11,4,0
+coordinates 12,0,0
+coordinates 13,0,1
+coordinates 14,4,1
+coordinates 15,3,1
+color 155,155,155
+transparent 0,0,255
+
+;lh step undersides
+[meshbuilder]
+vertex -4.4,5,9
+vertex -4.4,5,10.3
+vertex -3,5,10.3
+vertex -0.2,6.8,10.3
+vertex 4.4,6.8,10.3
+vertex 7,5,10.3
+vertex 7,5,9
+vertex 4.4,6.8,9
+vertex -0.2,6.8,9
+vertex -3,5,9
+vertex -4.4,1,13.3
+vertex -3,1,13.3
+face2 0,1,2,9
+face2 2,3,8,9
+face2 3,4,7,8
+face2 4,5,6,7
+face2 10,11,2,1
+
+color 111,111,111
+
+;remaining 2 legs
+[meshbuilder]
+cube 0.04,3,0.04
+translate -4.2,2,9
+color 119,0,0
+
+[meshbuilder]
+cube 0.04,3,0.04
+translate -4.2,2,10.3
+color 119,0,0
+
+
+;steps right
+
+;fences
+[meshbuilder]
+vertex 8.4,1,6 
+vertex 8.4,2,6
+vertex 8.4,6.3,9
+vertex 8.4,6.3,10.3
+vertex 7,6.3,10.3
+vertex 7,5,10.3
+vertex 8.4,5,10.3
+vertex 8.4,5,9
+
+vertex 7,1,6 
+vertex 7,2,6
+vertex 7,6.3,9
+vertex 7,6.3,10.3
+vertex 7,2,13.3
+vertex 7,1,13.3
+vertex 7,5,10.3
+vertex 7,5,9
+face2 7,2,1,0
+face2 6,3,2,7
+face2 5,4,3,6
+face2 15,10,9,8
+
+
+[texture]
+load ..\buildings\redmetalfence.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,0,0
+coordinates 4,3,0
+coordinates 5,3,1
+coordinates 6,0,1
+coordinates 7,3,1
+
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,3,0
+coordinates 11,0,0
+coordinates 12,3,0
+coordinates 13,3,1
+coordinates 14,0,1
+coordinates 15,3,1
+transparent 0,0,255
+
+;rh step undersides
+
+[meshbuilder]
+vertex 7,1,6
+vertex 7,5,9
+vertex 8.4,5,9
+vertex 8.4,1,6
+vertex 7,5,10.3
+vertex 8.4,5,10.3
+face2 3,2,1,0
+face2 1,2,5,4
+color 111,111,111
+
+
+;remaining 2 legs
+[meshbuilder]
+cube 0.04,1.5,0.04
+translate 8.3,2,9
+color 119,0,0
+
+[meshbuilder]
+cube 0.04,1.5,0.04
+translate 8.3,2,10.3
+color 119,0,0

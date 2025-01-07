@@ -1,0 +1,74 @@
+;author=eezypeazy
+;description=grass fields
+;copyright=eezypeazy, all rights reserved
+;includes some RouteBuilder library bitmaps
+
+[meshbuilder]
+vertex -2.2,-0.4,-1
+vertex -25,4.5,-1
+vertex -60,5.1,-1
+vertex -60,5.1,25.1
+vertex -25,4.5,25.1
+vertex -2.2,-0.4,25.1
+vertex -10,0,-1
+vertex -10,0.5,25.1
+vertex -60,-2,-2
+vertex -25,-3,-2
+vertex -10,-5,-1
+vertex -2,-5,-1
+face 0,6,7,5
+face 6,1,4,7
+face 1,2,3,4
+face 8,2,1,9
+face 9,1,6,10
+face 10,6,0,11
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,3,0
+coordinates 4,3,1
+coordinates 5,3,1
+coordinates 6,0,3
+coordinates 7,3,3
+coordinates 8,3,3
+coordinates 9,6,3
+coordinates 10,3,4
+coordinates 11,3,5
+
+[meshbuilder]
+vertex -55,5,-1.1
+vertex -55,14,-1.1
+vertex -55,9,25.1
+vertex -55,1,25.1
+face 0,1,2,3
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -4,-0.1,-0.1
+vertex -4,2,-0.1
+vertex -5,2,18
+vertex -5,-0.1,18
+vertex -3.7,2,25.1
+vertex -3.7,-0.1,25.1
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\plants\hedge.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1.8,0
+coordinates 3,1.8,1
+coordinates 4,3,0
+coordinates 5,3,1
+transparent 0,0,255

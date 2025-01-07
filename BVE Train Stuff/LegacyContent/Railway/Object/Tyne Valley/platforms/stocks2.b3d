@@ -1,0 +1,158 @@
+;author=eezypeazy
+;description=stocksfield platform pt 2 the start
+;copyright=eezypeazy 2009, all rights reserved
+
+[MeshBuilder]
+Vertex -1.8,-0.3,-0.2
+Vertex -1.8,-0.3,-0.2
+Vertex -4,-0.3,-0.2
+Vertex -4,1.1,-0.2
+vertex -4.3,1.8,-0.2
+vertex -5,2.5,-0.2
+vertex -8,5,-0.1
+vertex -9,7.4,-0.1
+vertex -9,7.4,25.1
+vertex -8,5,25.1
+vertex -5,2.5,25.1
+vertex -4.3,2,25.1
+vertex -4,2,25.1
+vertex -4,1.1,25.1
+vertex -1.8,1.1,25.1
+vertex -1.8,-0.2,25.1
+vertex -1.8,-0.2,7.5
+vertex -1.8,1.1,7.5
+vertex -4,1.1,7.5
+vertex -4,2,7.5
+vertex -4.3,2,7.5
+vertex -5,2.5,7.5
+vertex -8,5,7.5
+vertex -9,7.4,7.5
+vertex -2.8,1.1,7.5
+vertex -2.8,1.1,25.1
+vertex -2.8,-0.3,-0.2
+face 0,1,17,16
+face 1,26,24,17
+face 26,2,18,24
+face 2,3,19,18
+face 3,4,20,19
+face 4,5,21,20
+face 5,6,22,21
+face 6,7,23,22
+face 16,17,14,15
+face 18,19,12,13
+face 19,20,11,12
+face 20,21,10,11
+face 21,22,9,10
+face 22,23,8,9
+face 17,24,25,14
+face 24,18,13,25
+
+[Texture]
+load stocks2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.9
+Coordinates 2, 0, 0.835
+Coordinates 3, 0, 0.78
+Coordinates 4, 0, 0.76
+Coordinates 5, 0, 0.7
+Coordinates 6, 0, 0.3
+Coordinates 7, 0, 0
+Coordinates 8, 2, 0
+Coordinates 9, 2, 0.3
+Coordinates 10,2, 0.7
+Coordinates 11,2, 0.76
+Coordinates 12,2, 0.78
+Coordinates 13,2, 0.835
+Coordinates 14,2, 0.9
+Coordinates 15,2, 1
+Coordinates 23,0.6, 0
+Coordinates 22,0.6, 0.3
+Coordinates 21,0.6, 0.7
+Coordinates 20,0.6, 0.76
+Coordinates 19,0.6, 0.78
+Coordinates 18,0.6, 0.835
+Coordinates 17,0.6, 0.9
+Coordinates 16,0.6, 1
+coordinates 24,0.6,0.865
+coordinates 25,2,0.865
+coordinates 26,0,0.865
+transparent 0,0,255
+
+[meshbuilder]
+vertex -3.9,1.1,7.5
+vertex -3.9,2.5,7.5
+vertex -2,2.5,7.5
+vertex -2,1.1,7.5
+face 0,1,2,3
+
+[texture]
+load ..\fences\diagonal.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1.5,0
+coordinates 3,1.5,1
+transparent 0,0,255
+
+;rh side
+[MeshBuilder]
+Vertex 5.8,-0.2,-0.2
+Vertex 5.8,-0.2,-0.2
+Vertex 10,-0.2, -0.2
+Vertex 10,1.1,4
+Vertex 5.8,1.1,4
+Vertex 5.8,-0.2,4
+vertex 10,1.1,25.2
+vertex 5.8,-0.2,25.2
+vertex 5.8,1.1,25.2
+;face 5,4,1,0
+;face 4,3,2,1
+;face 8,6,3,4
+;face 7,8,4,5
+
+[Texture]
+;Load stocks1.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.85
+Coordinates 2, 0, 0.77
+Coordinates 3,4, 0.77
+Coordinates 4,4, 0.85
+Coordinates 5,4, 1
+Coordinates 6,0.3, 0.77
+Coordinates 7,0.3,1
+Coordinates 8,0.3,0.85
+;transparent 0,0,255
+
+[meshbuilder]
+vertex 9.9,1.1,25.2
+vertex 9.9,2.7,25.2
+vertex 9.9,2.7,4
+vertex 9.9,1.1,4
+vertex 9.9,1.5,-0.2
+vertex 9.9,-0.2,-0.2
+;face 0,1,2,3
+;face 3,2,4,5
+
+[texture]
+;load ..\fences\diagonal.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,8.2,0
+coordinates 3,8.2,1
+coordinates 4,10,0
+coordinates 5,10,1
+;transparent 0,0,255
+
+[meshbuilder]
+vertex -9,0,-1.5
+vertex -11,8,-1.5
+vertex -5,8,0
+vertex -2.2,0,0
+face 0,1,2,3
+
+[texture]
+load ..\plants\bush1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255

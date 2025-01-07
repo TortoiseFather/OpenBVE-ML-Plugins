@@ -1,0 +1,70 @@
+;author=eezypeazy
+;description=golf course
+;copyright=eezypeazy 2009, all rights reserved
+;uses some RouteBuilder library bmps
+
+;south bank
+
+[meshbuilder]
+vertex -2.4,-0.4,-1.1
+vertex -30,0.1,-1.1
+vertex -30,0.1,25.1
+vertex -2.4,-0.4,25.1
+face 0,1,2,3
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,3
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,3
+
+[meshbuilder]
+vertex -30,-0.1,-1.1
+vertex -30,9,-1.1
+vertex -30,6,25.1
+vertex -30,-0.1,25.1
+face 0,1,2,3
+
+[texture]
+load ..\plants\trees2.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -4,-0.4,-0.1
+vertex -4,2,-0.1
+vertex -5,2,18
+vertex -5,-0.4,18
+vertex -3.7,2,25.1
+vertex -3.7,-0.4,25.1
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\plants\hedge.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1.8,0
+coordinates 3,1.8,1
+coordinates 4,3,0
+coordinates 5,3,1
+transparent 0,0,255
+
+;path
+[meshbuilder]
+vertex -3.9,-0.3,-1.1
+vertex -3.9,-0.3,9
+vertex -4.5,-0.3,18
+vertex -3.9,-0.3,25.1
+vertex -2.9,-0.3,25.1
+vertex -3.5,-0.3,18
+vertex -2.9,-0.3,9
+vertex -2.9,-0.3,-1.1
+face 0,1,6,7
+face 6,1,2,5
+face 5,2,3,4
+color 200,111,66

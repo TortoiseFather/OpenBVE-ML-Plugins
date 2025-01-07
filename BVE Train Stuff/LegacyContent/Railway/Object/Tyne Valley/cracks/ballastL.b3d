@@ -1,0 +1,18 @@
+;author=eezypeazy
+;description=brown ballast
+;copyright=eezypeazy, all rights reserved. For use in my routes only. Uses RouteBuilder library bitmap.
+
+[meshbuilder]
+vertex -2,-0.29,-0.3
+vertex -2,-0.3,25.3
+vertex 0,-0.3,25.3
+vertex 0,-0.29,-0.3
+face 0,1,2,3
+color 255,0,0
+
+[texture]
+load ..\signs\wylamlarge.bmp
+coordinates 0,0,5
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,5

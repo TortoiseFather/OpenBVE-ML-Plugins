@@ -1,0 +1,17 @@
+;author=eezypeazy
+;description=hanger for use with off signal at Carlisle
+;copyright=OpenSource
+
+[meshbuilder]
+vertex -0.3,6.85,0
+vertex -0.3,7.8,0
+vertex -0.2,7.8,0
+vertex -0.2,6.85,0
+vertex 0.3,6.85,0
+vertex 0.3,7.7,0
+vertex 0.2,7.7,0
+vertex 0.2,6.85,0
+face 0,1,2,3
+face 7,6,5,4
+color 0,66,0
+translate 0,0,-0.49

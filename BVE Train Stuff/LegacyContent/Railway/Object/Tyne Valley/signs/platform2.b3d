@@ -1,0 +1,17 @@
+;author=eezypeazy
+;description=Platform 1 sign for Arriva lamp post
+;copyright=eezypeazy 2009, all rights reserved
+
+[meshbuilder]
+vertex -5.9,4,0
+vertex -5.9,4.5,0
+vertex -5.4,4.5,0
+vertex -5.4,4,0
+face 3,2,1,0
+
+[texture]
+load ..\signs\plat2.bmp
+coordinates 0,1,1
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1

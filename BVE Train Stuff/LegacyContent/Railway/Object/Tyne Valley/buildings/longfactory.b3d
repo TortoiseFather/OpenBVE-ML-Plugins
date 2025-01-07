@@ -1,0 +1,109 @@
+;author=eezypeazy
+;description=100m long factory building
+;copyright=eezypeazy, all rights reserved, go to http://members.lycos.co.uk/eezypeazy
+
+[meshbuilder]
+vertex 18,4,-85
+vertex 24,10,-85
+vertex 30,4,-85
+face 0,1,2
+
+[texture]
+load ..\textures\woodlaptile.bmp
+coordinates 0,0,20
+coordinates 1,5,0
+coordinates 2,5,20
+
+[meshbuilder]
+vertex 18,4,15
+vertex 24,10,15
+vertex 24,10,-85
+vertex 18,4,-85
+face 0,1,2,3
+
+[texture]
+load ..\textures\rooftilesold.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,12,0
+coordinates 3,12,2
+
+[meshbuilder]
+vertex 18,-3,15
+vertex 18,4,15
+vertex 18,4,-85
+vertex 18,-3,-85
+vertex 30,4,-85
+vertex 30,-3,-85
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,3
+coordinates 1,0,0
+coordinates 2,22,0
+coordinates 3,22,3
+coordinates 4,29,0
+coordinates 5,29,3
+
+[meshbuilder]
+vertex 10,-3,25
+vertex 40,-3,25
+vertex 40,-3,-95
+vertex 10,-3,-95
+face 0,1,2,3
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,3
+coordinates 1,0,0
+coordinates 2,6,0
+coordinates 3,6,3
+
+[meshbuilder]
+vertex 10,-3,25
+vertex 10,0,25
+vertex 10,0,-95
+vertex 10,-3,-95
+vertex 40,0,-95
+vertex 40,-3,-95
+vertex 
+vertex 
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\fences\woodfencewhite1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,33,0
+coordinates 3,33,1
+coordinates 4,43,0
+coordinates 5,43,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 8,-3,0
+vertex 2,9,0
+vertex 19,9,0
+vertex 21,-3,0
+vertex -15,-3,0
+vertex -15,8,0
+vertex -2,8,0
+vertex 0,-3,0
+face 0,1,2,3
+face 4,5,6,7
+color 222,222,0
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255

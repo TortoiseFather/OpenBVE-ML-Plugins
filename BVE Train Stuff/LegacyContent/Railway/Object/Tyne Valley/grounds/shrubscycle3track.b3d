@@ -1,0 +1,166 @@
+;author=eezypeazy
+;description=shrubs cycle route 2 track, uses objects as detailed below
+;copyright=eezypeazy 2005, all rights reserved, contact eezypeazy@aol.com.
+
+[meshbuilder]
+vertex -6.6,-0.3,-0.3
+vertex -9.6,0.4,-0.3
+vertex -9.6,0.4,25.3
+vertex -6.6,-0.3,25.3
+vertex 6.4,-0.3,-0.7
+vertex 12.6,0.6,-0.7
+vertex 12.6,0.6,25.3
+vertex 6.4,-0.3,25.3
+face 0,1,2,3
+face 5,4,7,6
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,2
+coordinates 5,0,2
+coordinates 4,0,0
+coordinates 7,2,0
+coordinates 6,2,2
+
+[meshbuilder]
+vertex -9.6,0.4,-0.3
+vertex -11.6,0.5,-0.3
+vertex -11.6,0.5,25.3
+vertex -9.6,0.4,25.3
+face 0,1,2,3
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,2
+
+[meshbuilder]
+Vertex -9,0,18.75
+Vertex -9,2.5,18.75
+Vertex -6.7,2.5,24.25
+Vertex -6.7,0,24.25
+Vertex 9.25,0,12.75
+Vertex 9.25,4,12.75
+Vertex 11.25,4,9.25
+Vertex 11.25,0,9.25
+Face 0,1,2,3
+face 4,5,6,7
+color 155,155,155
+
+[texture]
+load ..\plants\bush1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,1,0
+Coordinates 7,1,1
+Transparent 0,0,255
+
+[meshbuilder]
+Vertex -9,0,2.5
+Vertex -9,2.5,2.5
+Vertex -7,2.5,5.5
+Vertex -7,0,5.5
+Face 0,1,2,3
+
+[texture]
+load ..\plants\bush1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+[meshbuilder]
+vertex -7.7,-0.9,1
+vertex -7.7,1.7,1
+vertex -6.9,1.7,19
+vertex -6.9,-0.9,19
+vertex -11.7,-1.5,-1
+vertex -11.7,5,-1
+vertex -11.4,5,15
+vertex -11.4,-1.5,15
+vertex -11.7,-1.5,12
+vertex -11.7,5,12
+vertex -11.4,5,26
+vertex -11.4,-1.5,26
+vertex 12.6,-0.9,1
+vertex 12.6,2.7,1
+vertex 12.4,2.7,19
+vertex 12.4,-0.9,19
+vertex 12.6,-1.5,12
+vertex 12.6,5,12
+vertex 12.4,5,26
+vertex 12.4,-1.5,26
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+face 15,14,13,12
+face 19,18,17,16
+color 255,199,111
+
+[texture]
+load ..\misc\tree5.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,1,0
+coordinates 11,1,1
+coordinates 12,0,1
+coordinates 13,0,0
+coordinates 14,1,0
+coordinates 15,1,1
+coordinates 16,0,1
+coordinates 17,0,0
+coordinates 18,1,0
+coordinates 19,1,1
+transparent 0,0,0
+
+[meshbuilder]
+vertex -7.5,0,-0.3 
+vertex -7.5,1.6,-0.3
+vertex -7.5,1.6,25.3
+vertex -7.5,0,25.3
+vertex -11.6,0.4,-0.3 
+vertex -11.6,2,-0.3
+vertex -11.6,2,25.3
+vertex -11.6,0.4,25.3
+vertex 7.5,0,-0.3 
+vertex 7.5,1.6,-0.3
+vertex 7.5,1.6,25.3
+vertex 7.5,0,25.3
+face 0,1,2,3
+face 4,5,6,7
+face 11,10,9,8
+
+[texture]
+load ..\fences\woodfencewhite1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,20,0
+coordinates 3,20,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,20,0
+coordinates 7,20,1
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,20,0
+coordinates 11,20,1
+color 133,22,0
+transparent 0,0,255

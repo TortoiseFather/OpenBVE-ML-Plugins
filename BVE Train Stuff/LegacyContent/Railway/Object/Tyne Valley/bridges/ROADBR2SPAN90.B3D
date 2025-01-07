@@ -1,0 +1,168 @@
+;author=Uwe Post, Sanford Mace, modded by eezypeazy
+;description=bridge crossing 2 tracks
+
+; straﬂe
+
+[MeshBuilder]
+Vertex -58, 7, 8
+Vertex 52, 7, 8
+Vertex 52, 7.01, -0.8
+Vertex -58, 7.01, -0.8
+Face 0, 1, 2, 3
+
+[Texture]
+Load ..\roads\road2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex -58, 7, 16
+Vertex 52, 7, 16
+Vertex 52, 7.01, 7
+Vertex -58, 7.01, 7
+Face 0, 1, 2, 3
+
+[Texture]
+Load ..\roads\road2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 1
+Coordinates 3, 0, 1
+
+; vordere Wand
+
+[MeshBuilder]
+Vertex 4, -0.5,-0.8
+Vertex 4, 7.5,-0.8
+Vertex 50, 7.5,-0.8
+Vertex 50, -0.5,-0.8
+Face 0, 1, 2, 3
+
+[Texture]
+Load ..\grounds\concrete1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 25
+Coordinates 3, 0, 25
+
+[MeshBuilder]
+Vertex -56, -0.5,-0.8
+Vertex -56, 7.5,-0.8
+Vertex -6, 7.5,-0.8
+Vertex -6, -0.5,-0.8
+Face 0, 1, 2, 3
+
+[Texture]
+Load ..\grounds\concrete1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 25
+Coordinates 3, 0, 25
+
+[MeshBuilder]
+Vertex -16, 6.5,-0.8
+Vertex -16, 7.5,-0.8
+Vertex 4, 7.5,-0.8
+Vertex 4, 6.5,-0.8
+Face 0, 1, 2, 3
+
+[Texture]
+Load ..\grounds\concrete1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 5
+Coordinates 3, 0, 5
+
+; innenwand
+[MeshBuilder]
+Vertex -6, -0.5,-0.8
+Vertex -6, 6.5,-0.8
+Vertex -6, 6.5, 16
+Vertex -6, -0.5, 16
+Face 0, 1, 2, 3
+
+[Texture]
+Load ..\grounds\concrete2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+
+[MeshBuilder]
+Vertex 4, -0.5,-0.8
+Vertex 4, 6.5,-0.8
+Vertex 4, 6.5, 16
+Vertex 4, -0.5, 16
+Face 0, 1, 2, 3
+Face 3,2,1,0
+
+[Texture]
+Load ..\grounds\concrete2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+
+; innendecke
+[MeshBuilder]
+Vertex -6.1, 6.5,-0.8
+Vertex -6.1, 6.5, 16
+Vertex 4.1, 6.5, 16
+Vertex 4.1, 6.5,-0.8
+Face 0, 1, 2, 3
+Face 3,2,1,0
+
+[Texture]
+Load ..\grounds\concrete2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+
+
+; hintere Wand
+
+[MeshBuilder]
+Vertex 4, -0.5, 16
+Vertex 4, 7.5, 16
+Vertex 50, 7.5, 16
+Vertex 50, -0.5, 16
+Face 3,2,1,0
+
+[Texture]
+Load ..\grounds\concrete1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 25
+Coordinates 3, 0, 25
+
+[MeshBuilder]
+Vertex -56, -0.5, 16
+Vertex -56, 7.5, 16
+Vertex -6, 7.5, 16
+Vertex -6, -0.5, 16
+Face 3,2,1,0
+
+[Texture]
+Load ..\grounds\concrete1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 25
+Coordinates 3, 0, 25
+
+[MeshBuilder]
+Vertex -6, 6.5, 16
+Vertex -6, 7.5, 16
+Vertex 10.5, 7.5, 16
+Vertex 10.5, 6.5, 16
+Face 0, 1, 2, 3
+Face 3,2,1,0
+
+[Texture]
+Load ..\grounds\concrete1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 5
+Coordinates 3, 0, 5

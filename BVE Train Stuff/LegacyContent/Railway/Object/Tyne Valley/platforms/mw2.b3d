@@ -1,0 +1,102 @@
+;author=eezypeazy
+;description=monkwearmouth platform run
+;copyright=eezypeazy, all rights reserved
+
+[MeshBuilder]
+vertex -1.8,-0.2,-0.2
+vertex -1.8,1.1,-0.2
+vertex -5.8,1.1,-0.2
+vertex -5.8,2.4,-0.2
+vertex -6,2.5,-0.2
+vertex -6,2.5,25.2
+vertex -5.8,2.4,25.2
+vertex -5.8,1.1,25.2
+vertex -1.8,1.1,25.2
+vertex -1.8,-0.2,25.2
+
+vertex -2.8,1.1,-0.2
+vertex -2.8,1.1,25.2
+
+face 0,1,8,9
+face 1,10,11,8
+face 10,2,7,11
+;face 2,3,6,7
+;face 3,4,5,6
+
+[Texture]
+Load corbridgen.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.55
+Coordinates 2, 0, 0.28
+Coordinates 3, 0, 0.03
+Coordinates 4, 0, 0
+Coordinates 5, 4, 0
+Coordinates 6, 4, 0.03
+Coordinates 7, 4, 0.28
+Coordinates 8, 4, 0.55
+Coordinates 9, 4, 1
+coordinates 10,0,0.45
+coordinates 11,4,0.45
+
+[meshbuilder]
+vertex -6.2,1.1,-0.2
+vertex -6.2,5.6,-0.2
+vertex -5.8,5.6,-0.2
+vertex -5.8,1.1,-0.2
+vertex -5.8,5.6,25.2
+vertex -5.8,1.1,25.2
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\buildings\mwarch.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.1,0
+coordinates 3,0.1,1
+coordinates 4,5.1,0
+coordinates 5,5.1,1
+transparent 0,0,255
+
+
+
+
+;rh side
+[MeshBuilder]
+Vertex 9.8,1.1,-0.2
+Vertex 5.8,1.1,-0.2
+Vertex 5.8,-0.2,-0.2
+vertex 9.8,1.1,25.2
+vertex 5.8,-0.2,25.2
+vertex 5.8,1.1,25.2
+vertex 6.8,1.1,-0.2
+vertex 6.8,1.1,25.2
+face 7,3,0,6
+face 5,7,6,1
+face 4,5,1,2
+
+[Texture]
+Load corbridgen.bmp
+Coordinates 0, 4, 0.28
+Coordinates 1, 4, 0.55
+Coordinates 2, 4, 1
+Coordinates 3,0, 0.28
+Coordinates 4,0, 1
+Coordinates 5,0, 0.55
+coordinates 6,4,0.45
+coordinates 7,0,0.45
+
+[meshbuilder]
+vertex 9.7,1.1,25.2
+vertex 9.7,2.7,25.2
+vertex 9.7,2.7,-0.2
+vertex 9.7,1.1,-0.2
+face 0,1,2,3
+
+[texture]
+load ..\fences\diagonal.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,9,0
+coordinates 3,9,1
+transparent 0,0,255

@@ -1,0 +1,224 @@
+;author=eezypeazy
+;description=platform fence left platform ends
+;copyright=eezypeazy, all rights reserved.uses an Opensource bitmap
+
+[meshbuilder]
+vertex -6,1,-0.1
+vertex -9,1.4,-0.1
+vertex -9,1.4,8
+vertex -6,1,8
+vertex -9,1.4,21
+vertex -6,1,21
+vertex -9,1.4,25.1
+vertex -6,-0.3,25.1
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0.5,0.9
+coordinates 1,0.4,0.2
+coordinates 2,0.1,0.2
+coordinates 3,0.1,0.8
+coordinates 4,0.5,0.2
+coordinates 5,0.4,0.8
+coordinates 6,0.1,0.2
+coordinates 7,0.1,0.8
+transparent 0,0,255
+
+[meshbuilder]
+vertex -10,1,0
+vertex -10,7,0
+vertex -9,7,24
+vertex -9,1,26
+face 0,1,2,3
+color 255,155,155
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,5,0
+coordinates 3,5,1
+transparent 0,0,255
+
+
+;author=Lemontea
+;description=25 meter L supporting wirenet(as wall)
+;copyright=Open Source
+
+[MESHBUILDER]
+vertex -9,1,0
+vertex -9,3,0
+vertex -9,3,25.5
+vertex -9,1,25.5
+Face 0,1,2,3
+
+[TEXTURE]
+Load ..\walls\wirenet2a.bmp
+Coordinates 0,0,0
+Coordinates 1,0,2
+Coordinates 2,15,0
+Coordinates 3,15,2
+Transparent 0,0,0
+
+[MESHBUILDER]
+vertex -9,3,1.25
+vertex -9,3,1.3
+vertex -9,1,1.3
+vertex -9,1,1.25
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,2.5
+vertex -9,3,2.55
+vertex -9,1,2.55
+vertex -9,1,2.5
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,3.75
+vertex -9,3,3.8
+vertex -9,1,3.8
+vertex -9,1,3.75
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,5
+vertex -9,3,5.05
+vertex -9,1,5.05
+vertex -9,1,5
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,6.25
+vertex -9,3,6.3
+vertex -9,1,6.3
+vertex -9,1,6.25
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,7.5
+vertex -9,3,7.55
+vertex -9,1,7.55
+vertex -9,1,7.5
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,8.75
+vertex -9,3,8.8
+vertex -9,1,8.8
+vertex -9,1,8.75
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,10
+vertex -9,3,10.05
+vertex -9,1,10.05
+vertex -9,1,10
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,11.25
+vertex -9,3,11.3
+vertex -9,1,11.3
+vertex -9,1,11.25
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,12.5
+vertex -9,3,12.55
+vertex -9,1,12.55
+vertex -9,1,12.5
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,13.75
+vertex -9,3,13.8
+vertex -9,1,13.8
+vertex -9,1,13.75
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,15
+vertex -9,3,15.05
+vertex -9,1,15.05
+vertex -9,1,15
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,16.25
+vertex -9,3,16.3
+vertex -9,1,16.3
+vertex -9,1,16.25
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,17.5
+vertex -9,3,17.55
+vertex -9,1,17.55
+vertex -9,1,17.5
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,18.75
+vertex -9,3,18.8
+vertex -9,1,18.8
+vertex -9,1,18.75
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,20
+vertex -9,3,20.05
+vertex -9,1,20.05
+vertex -9,1,20
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,21.25
+vertex -9,3,21.3
+vertex -9,1,21.3
+vertex -9,1,21.25
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,22.5
+vertex -9,3,22.55
+vertex -9,1,22.55
+vertex -9,1,22.5
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,23.75
+vertex -9,3,23.8
+vertex -9,1,23.8
+vertex -9,1,23.75
+Face 0,1,2,3
+Color 125,125,125
+
+[MESHBUILDER]
+vertex -9,3,25
+vertex -9,3,25.05
+vertex -9,1,25.05
+vertex -9,1,25
+Face 0,1,2,3
+Color 125,125,125

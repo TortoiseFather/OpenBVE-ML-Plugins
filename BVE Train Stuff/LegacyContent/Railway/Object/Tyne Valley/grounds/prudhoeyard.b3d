@@ -1,0 +1,19 @@
+;author=eezypeazy
+;description=dirt track car park to left
+;copyright=eezypeazy 2009, all rights reserved
+;www.eezypeazy.co.uk
+
+;grounds
+[meshbuilder]
+vertex -2.5,-0.5,25.5
+vertex -17,-0.5,25.5
+vertex -17,-0.5,-0.5
+vertex -2.5,-0.5,-0.5
+face 3,2,1,0
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,8
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,8

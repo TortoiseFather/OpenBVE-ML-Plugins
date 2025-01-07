@@ -1,0 +1,29 @@
+;author=eezypeazy
+;description=tree array left to 8m high
+;copyright=eezypeazy, all rights reserved, contact eezypeazy@blueyonder.co.uk
+
+
+[meshbuilder]
+vertex -60,0,-5
+vertex -60,8,-5
+vertex -3,8,0
+vertex -3,-6,0
+vertex -50,0,-10
+vertex -50,8,-10
+vertex -5,8,-2
+vertex -5,-6,-2
+face 0,1,2,3
+face 4,5,6,7
+color 255,144,144
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,9,0
+coordinates 3,9,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,7,0
+coordinates 7,7,1
+transparent 0,0,255

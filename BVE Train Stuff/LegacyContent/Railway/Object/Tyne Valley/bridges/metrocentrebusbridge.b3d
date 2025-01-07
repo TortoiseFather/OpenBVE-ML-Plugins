@@ -1,0 +1,210 @@
+;author=eezypeazy
+;description=MetroCentre Bus Only bridge
+;copyright=eezypeazy 2008, all rights reserved
+
+;dark floor
+[meshbuilder]
+vertex -12,-0.15,-4.3
+vertex -12,-0.15,14.5
+vertex 13,-0.15,14.5
+vertex 13,-0.15,-4.3
+;face 0,1,2,3
+color 6,6,6,188
+
+;underside
+[meshbuilder]
+vertex -16,7.1,10
+vertex -16,7.1,-0.2
+vertex 94,7.1,-0.2
+vertex 94,7.1,10
+face 0,1,2,3
+color 88,88,88
+
+[meshbuilder]
+vertex -8,7.1,0
+vertex -8,9,0
+vertex 8,9,0
+vertex 8,7.1,0
+face 0,1,2,3
+
+[texture]
+load metrocentrebusbridge.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+[meshbuilder]
+vertex -15,7.1,0
+vertex -15,8.7,0
+vertex -8,8.7,0
+vertex -8,7.1,0
+
+vertex -26,7.7,-11
+vertex -26,6.1,-11
+
+vertex -33,6.7,-24
+vertex -33,5.1,-24
+
+vertex -36,4.7,-36
+vertex -36,3.1,-36
+
+vertex -33,3.7,-48
+vertex -33,2.1,-48
+
+vertex -26,2.7,-60
+vertex -26,1.1,-60
+
+vertex -15,1.6,-72
+vertex -15,0,-72
+
+face 0,1,2,3
+face 5,4,1,0
+face 7,6,4,5
+face 9,8,6,7
+face 11,10,8,9
+face 13,12,10,11
+face 15,14,12,13
+
+[texture]
+load mcbusbridge2.bmp
+coordinates 0,2.75,1
+coordinates 1,2.75,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 4,7,0
+coordinates 5,7,1
+coordinates 6,11.25,0
+coordinates 7,11.25,1
+coordinates 8,15.5,0
+coordinates 9,15.5,1
+coordinates 10,19.75,0
+coordinates 11,19.75,1
+coordinates 12,24,0
+coordinates 13,24,1
+coordinates 14,28.25,0
+coordinates 15,28.25,1
+transparent 0,0,255
+
+;concrete wall left
+[meshbuilder]
+vertex -25,-0.2,-60
+vertex -26,1.1,-60
+vertex -33,2.1,-48
+vertex -31,-0.2,-48
+
+vertex -36,3.1,-36
+vertex -32,-0.2,-36
+
+vertex -33,5.1,-24
+vertex -29,-0.2,-24
+
+vertex -26,6.1,-11
+vertex -23,-0.2,-11
+
+vertex -15,7.1,0
+vertex -13,-0.2,-1
+
+vertex -12,7.1,0
+vertex -12,-0.2,-0.5
+
+vertex -12,7.1,10
+vertex -12,-0.2,10.5
+
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 9,8,10,11
+face 11,10,12,13
+face 13,12,14,15
+
+[texture]
+load ..\textures\concrete.bmp
+coordinates 0,1,22
+coordinates 1,0,22
+coordinates 2,0,19
+coordinates 3,1,19
+coordinates 4,0,16
+coordinates 5,1,16
+coordinates 6,0,13
+coordinates 7,1,13
+coordinates 8,0,10
+coordinates 9,1,10
+coordinates 10,0,7
+coordinates 11,1,7
+coordinates 12,0,4
+coordinates 13,1,4
+coordinates 14,0,0
+coordinates 15,1,0
+
+;tree
+[meshbuilder]
+vertex 88,0,0
+vertex 88,10,0
+vertex 97,10,-2
+vertex 97.7,0,-2
+face 0,1,2,3
+
+[texture]
+load ..\plants\largetree.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,0
+
+;right
+[meshbuilder]
+vertex 8,7.1,0
+vertex 8,8.7,0
+vertex 93,8.7,0
+vertex 93,7.1,0
+face 0,1,2,3
+
+[texture]
+load mcbusbridge2.bmp
+coordinates 0,44,1
+coordinates 1,44,0
+coordinates 2,0,0
+coordinates 3,0,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 13,-0.2,10.5
+vertex 13,7.1,10
+vertex 13,7.1,0
+vertex 13,-0.2,-0.5
+vertex 14,7.1,0
+vertex 14,-0.2,0
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\textures\concrete.bmp
+coordinates 0,1,3
+coordinates 1,0,3
+coordinates 2,0,1
+coordinates 3,1,1
+coordinates 4,0,0
+coordinates 5,1,0
+
+[meshbuilder]
+vertex 13,-0.2,10.5
+vertex 13,7.1,10
+vertex 13,7.1,0
+vertex 13,-0.2,-0.5
+vertex 14,7.1,0
+vertex 14,-0.2,0
+face 0,1,2,3
+face 3,2,4,5
+translate 23,0,0
+
+[texture]
+load ..\textures\concrete.bmp
+coordinates 0,1,3
+coordinates 1,0,3
+coordinates 2,0,1
+coordinates 3,1,1
+coordinates 4,0,0
+coordinates 5,1,0

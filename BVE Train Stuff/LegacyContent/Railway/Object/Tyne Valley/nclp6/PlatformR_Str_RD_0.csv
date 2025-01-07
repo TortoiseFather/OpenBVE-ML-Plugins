@@ -1,0 +1,44 @@
+;This Object was created using Guillymans Platform Generator.
+;The Utility is available for Download at www.eezypeazy.co.uk
+;Straight Right side Ramp Down
+
+CreateMeshBuilder
+Addvertex, 7.55, -0.2, 25.3
+Addvertex, 7.55, 1.1, 15
+Addvertex, 7.55, 1.1, -0.3
+Addvertex, 1.55, -0.2, 25.3
+Addvertex, 1.55, 1.1, 15
+Addvertex, 1.55, 1.1, -0.3
+Addvertex, 1.55, -0.304, 25.3
+Addvertex, 1.55, 0.996, 15
+Addvertex, 1.55, 0.996, -0.3
+Addvertex, 1.8, -0.3, 25.3
+Addvertex, 1.8, 1, 15
+Addvertex, 1.8, 1, -0.3
+Addvertex, 1.8, -0.2, 15
+Addvertex, 1.8, -0.2, -0.3
+Addface, 0,1,4,3
+Addface, 1,2,5,4
+Addface, 3,4,7,6
+Addface, 4,5,8,7
+Addface, 6,7,10,9
+Addface, 7,8,11,10
+Addface, 9,10,12
+Addface, 10,11,13,12
+generatenormals
+LoadTexture, CustomSurface_0.bmp
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,4,0
+SetTextureCoordinates, 2,10,0
+SetTextureCoordinates, 3,0,0.8
+SetTextureCoordinates, 4,4,0.8
+SetTextureCoordinates, 5,10,0.8
+SetTextureCoordinates, 6,0,0.812
+SetTextureCoordinates, 7,4,0.812
+SetTextureCoordinates, 8,10,0.812
+SetTextureCoordinates, 9,0,0.812
+SetTextureCoordinates, 10,4,0.812
+SetTextureCoordinates, 11,10,0.812
+SetTextureCoordinates, 12,4,1
+SetTextureCoordinates, 13,10,1
+

@@ -1,0 +1,18 @@
+;author=eezypeazy
+;description=a single tree
+;copyright=eezypeazy 2007, all rights reserved, go to www.eezypeazy.co.uk
+
+[meshbuilder]
+vertex -3,-0.3,0
+vertex -5,6,0
+vertex 3,6,0
+vertex 3,-0.3,0
+face 0,1,2,3
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255

@@ -1,0 +1,228 @@
+;author=eezypeazy
+;description=a  very long factory, built negatively for Blaydon Depot
+;copyright=eezypeazy 2009, all rights reserved. For use in my BVE routes only
+;visit www.eezypeazy.co.uk
+
+;w end sheds
+
+;facing track
+
+[meshbuilder]
+vertex 0,5,-107
+vertex 0,6.5,-107
+vertex 0,6.5,-89
+vertex 0,5,-89
+vertex 0,10,-98
+face 0,1,2,3
+face 1,4,2
+
+[texture]
+load corrugatedgrey.bmp
+coordinates 0,0,0
+coordinates 1,0,0.95
+coordinates 2,9,0.95
+coordinates 3,9,0
+coordinates 4,4.5,0
+
+[meshbuilder]
+vertex 0,5,-107
+vertex 0,6.5,-107
+vertex 0,6.5,-89
+vertex 0,5,-89
+vertex 0,10,-98
+face 0,1,2,3
+face 1,4,2
+translate 0,0,18
+
+[texture]
+load corrugatedgrey.bmp
+coordinates 0,0,0
+coordinates 1,0,0.95
+coordinates 2,9,0.95
+coordinates 3,9,0
+coordinates 4,4.5,0
+
+;sheds end wall and roof
+[meshbuilder]
+vertex -36,1.5,-107
+vertex -36,6,-107
+vertex 0,6,-107
+vertex 0,1.5,-107
+vertex -36,10,-98
+vertex 0,10,-98
+face 0,1,2,3
+face 1,4,5,2
+
+[texture]
+load corrugatedgrey.bmp
+coordinates 0,0,0
+coordinates 1,0,0.95
+coordinates 2,18,0.95
+coordinates 3,18,0
+coordinates 4,0,0
+coordinates 5,18,0
+
+[meshbuilder]
+vertex -36,1.5,-107
+vertex -36,6,-107
+vertex 0,6,-107
+vertex 0,1.5,-107
+vertex -36,10,-98
+vertex 0,10,-98
+;face 0,1,2,3
+face 1,4,5,2
+
+[texture]
+load corrugatedgrey.bmp
+coordinates 0,0,0
+coordinates 1,0,0.95
+coordinates 2,18,0.95
+coordinates 3,18,0
+coordinates 4,0,0
+coordinates 5,18,0
+translate 0,0,18
+
+;main building
+
+;inside end wall
+[meshbuilder]
+vertex -22,5,-71
+vertex -22,6.5,-71
+vertex 0,6.5,-71
+vertex 0,5,-71
+vertex -11,12,-71
+face 0,1,2,3
+face 1,4,2
+
+[texture]
+load corrugatedgrey.bmp
+coordinates 0,0,0
+coordinates 1,0,0.95
+coordinates 2,11,0.95
+coordinates 3,11,0
+coordinates 4,5.5,0
+
+;wall and roof
+[meshbuilder]
+vertex 0,5,-71
+vertex 0,6.5,-71
+vertex 0,6.5,25
+vertex 0,5,25
+vertex 0,1.5,-35
+vertex 0,5.01,-35
+vertex 0,5.01,25
+vertex 0,1.5,25
+vertex -11,12,-71
+vertex -11,12,25
+face 0,1,2,3
+face 4,5,6,7
+face 1,8,9,2
+
+[texture]
+load corrugatedgrey.bmp
+coordinates 0,0,1.95
+coordinates 1,0,1
+coordinates 2,48,1
+coordinates 3,48,1.95
+coordinates 4,0,0
+coordinates 5,0,0.95
+coordinates 6,30,0.95
+coordinates 7,30,0
+coordinates 8,0,0
+coordinates 9,48,0
+
+;brick course main bldg and shed
+[meshbuilder]
+vertex 0,-0.5,-35
+vertex 0,1.5,-35
+vertex 0,1.5,25
+vertex 0,-0.5,25
+vertex -36,-0.5,-107
+vertex -36,1.5,-107
+vertex 0,1.5,-107
+vertex 0,-0.5,-107
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load modernbrick.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,50,0
+coordinates 3,50,2
+coordinates 4,0,2
+coordinates 5,0,0
+coordinates 6,33,0
+coordinates 7,33,2
+
+;new doors
+[meshbuilder]
+vertex -0.5,-0.4,-106.8
+vertex -0.5,5.2,-106.8
+vertex -0.5,5.2,-33
+vertex -0.5,-0.4,-33
+face 0,1,2,3
+color 0,166,142
+
+[texture]
+load corrugatedgrey.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,17,0
+coordinates 3,17,1
+
+;new door pillars
+[meshbuilder]
+cube 0.2,2.7,0.2
+color 125,75,0
+translate -0.1,2.3,-107
+
+[meshbuilder]
+cube 0.2,2.7,0.2
+color 125,75,0
+translate -0.1,2.3,-98
+
+[meshbuilder]
+cube 0.2,2.7,0.2
+color 125,75,0
+translate -0.1,2.3,-89
+
+[meshbuilder]
+cube 0.2,2.7,0.2
+color 125,75,0
+translate -0.1,2.3,-80
+
+[meshbuilder]
+cube 0.2,2.7,0.2
+color 125,75,0
+translate -0.1,2.3,-71
+
+[meshbuilder]
+cube 0.2,2.7,0.2
+color 125,75,0
+translate -0.1,2.3,-58.3
+
+[meshbuilder]
+cube 0.2,2.7,0.2
+color 125,75,0
+translate -0.1,2.3,-46.6
+
+[meshbuilder]
+cube 0.2,2.7,0.2
+color 125,75,0
+translate -0.1,2.3,-35.15
+
+;ground
+[meshbuilder]
+vertex -55,-0.4,-140
+vertex -55,-0.4,44
+vertex 39,-0.4,26
+vertex 20,-0.4,-140
+face 0,1,2,3
+
+[texture]
+load concrete.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1

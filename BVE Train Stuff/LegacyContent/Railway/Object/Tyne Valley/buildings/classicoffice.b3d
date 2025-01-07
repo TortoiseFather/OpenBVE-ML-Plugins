@@ -1,0 +1,49 @@
+;author=eezypeazy
+;description=classic office
+;copyright=eezypeazy 2009, all rights reserved. For use in my BVE routes only
+;www.eezypeazy.co.uk
+
+[meshbuilder]
+vertex -10,-5,0
+vertex -10,9,0
+vertex 0,9,0
+vertex 0,-5,0
+vertex 0,9,25
+vertex 0,-5,25
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load classicoffice.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,1
+coordinates 4,7,0
+coordinates 5,7,1
+
+[meshbuilder]
+vertex -10,8.7,0.3
+vertex -5,11.5,3
+vertex -0.3,8.7,0.3
+face 0,1,2
+
+[texture]
+load ..\textures\rooftiles.bmp
+coordinates 0,14,3
+coordinates 1,12,0
+coordinates 2,10,3
+
+[meshbuilder]
+vertex -0.3,8.7,0.3
+vertex -5,11.5,3
+vertex -5,11.5,22
+vertex -0.3,8.7,24.7
+face 0,1,2,3
+
+[texture]
+load ..\textures\rooftiles.bmp
+coordinates 0,0,3
+coordinates 1,1.11,0
+coordinates 2,8.89,0
+coordinates 3,10,3

@@ -1,0 +1,46 @@
+;author=eezypeazy
+;description=water and riverbank 5m below 75m wide at 90 degrees
+;copyright=eezypeazy, all rights reserved, visit http://members.lycos.co.uk/eezypeazy
+
+
+[meshbuilder]
+vertex -100,-5,-75
+vertex -100,-5,0
+vertex 100,-5,0
+vertex 100,-5,-75
+face 0,1,2,3
+
+[texture]
+load ..\textures\riverwater.bmp
+coordinates 0,2,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,2,0
+
+[meshbuilder]
+vertex -100,-5,0
+vertex -100,-2,0
+vertex 100,-2,0
+vertex 100,-5,0
+face 0,1,2,3
+
+[texture]
+load ..\textures\riverbank.bmp
+coordinates 0,0,3
+coordinates 1,0,0
+coordinates 2,100,0
+coordinates 3,100,3
+
+[meshbuilder]
+vertex -100,-2,0
+vertex -77,-2,25
+vertex 77,-2,25
+vertex 100,-2,0
+face 0,1,2,3
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,3
+coordinates 1,0,0
+coordinates 2,100,0
+coordinates 3,100,3

@@ -1,0 +1,59 @@
+;author=eezypeazy, based on Uwe Post's work
+;description=stone wall
+;copyright=free for use in BVE and RouteBuilder
+
+[MeshBuilder]
+Vertex 3.3, -0.3, 0
+Vertex 3.3, -0.3, 26
+Vertex 3.3, 7.5, 26
+Vertex 3.3, 7.5, 0
+Face 3,2,1,0
+Face 0,1,2,3
+
+[Texture]
+Load stone.bmp
+Coordinates 0, 0, 2
+Coordinates 1, 4, 2
+Coordinates 2, 4, 0
+Coordinates 3, 0, 0
+
+[MeshBuilder]
+Vertex 3.5, -0.3, 0
+Vertex 3.5, -0.3, 26
+Vertex 3.5, 7.5, 26
+Vertex 3.5, 7.5, 0
+Face 3,2,1,0
+Face 0,1,2,3
+
+[Texture]
+Load stone.bmp
+Coordinates 0, 0, 2
+Coordinates 1, 4, 2
+Coordinates 2, 4, 0
+Coordinates 3, 0, 0
+
+
+
+[MeshBuilder]
+Vertex 3.5, 7.5, 0
+Vertex 3.5, -0.3, 0
+Vertex 3.3, -0.3, 0
+Vertex 3.3, 7.5, 0
+Face2 0,1,2,3
+color 88,55,20
+
+[MeshBuilder]
+Vertex 3.5, 7.5, 26
+Vertex 3.5, -0.3, 26
+Vertex 3.3, -0.3, 26
+Vertex 3.3, 7.5, 26
+Face2 0,1,2,3
+color 88,55,20
+
+[MeshBuilder]
+Vertex 3.5, 7.5, 0
+Vertex 3.5, 7.5, 26
+Vertex 3.3, 7.5, 26
+Vertex 3.3, 7.5, 0
+Face2 0,1,2,3
+color 88,55,20

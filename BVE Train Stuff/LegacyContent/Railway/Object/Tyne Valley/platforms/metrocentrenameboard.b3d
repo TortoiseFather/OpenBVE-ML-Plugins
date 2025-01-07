@@ -1,0 +1,29 @@
+;author=eezypeazy
+;description=MetroCentre nameboard
+;copyright=eezypeazy 2008, all rights reserved
+;www.eezypeazy.co.uk
+
+[meshbuilder]
+vertex -5.5,3.4,-1
+vertex -5.5,3.7,-1
+vertex -5.5,3.7,1
+vertex -5.5,3.4,1
+face 0,1,2,3
+
+[texture]
+load metrocentrenameboard.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+[meshbuilder]
+cube 0.035,1.3,0.035
+color 32,96,255
+translate -5.5,2.4,-1.035
+
+[meshbuilder]
+cube 0.035,1.3,0.035
+color 32,96,255
+translate -5.5,2.4,1.035
+

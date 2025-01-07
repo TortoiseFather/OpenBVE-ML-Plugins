@@ -1,0 +1,33 @@
+;author=eezypeazy
+;description=diagonal platform fence with bush, rh
+;copyright=eezypeazy, all rights reserved
+
+[meshbuilder]
+vertex 9.8,1.1,25.1
+vertex 9.8,2.7,25.1
+vertex 9.8,2.7,-0.1
+vertex 9.8,1.1,-0.1
+face 0,1,2,3
+
+[texture]
+load ..\fences\diagonal.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,16,0
+coordinates 3,16,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 9.9,1.1,25.1
+vertex 9.9,4,25.1
+vertex 9.9,4,-0.1
+vertex 9.9,1.1,-0.1
+face 0,1,2,3
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0.1,0.7
+coordinates 1,0.1,0.1
+coordinates 2,0.8,0.1
+coordinates 3,0.8,0.7
+transparent 0,0,255

@@ -1,0 +1,19 @@
+;description=low grass ground 3, 5 m low
+;author=Uwe Post
+;modified by eezypeazy to place grass right hand side only
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+
+[MeshBuilder]
+Vertex 0, -5.02, 29
+Vertex 120, -5.02, 29
+Vertex 120, -5.01, -3
+Vertex 0, -5.01, -3
+Face 0, 1, 2, 3
+
+[Texture]
+Load grass3.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 1, 8
+Coordinates 2, 0, 8
+Coordinates 3, 0, 0
+

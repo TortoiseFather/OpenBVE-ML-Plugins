@@ -1,0 +1,96 @@
+;author=eezypeazy
+;description=bushes trees wall left
+;copyright=eezypeazy, all rights reserved.
+
+[meshbuilder]
+vertex -25,-2,-0.2
+vertex -25,3.3,-0.2
+vertex -9.2,3.3,-0.2
+vertex -9.2,-2,-0.2
+vertex -9.2,3.3,25.2
+vertex -9.2,-2,25.2
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\textures\greypaintedbrick.bmp
+coordinates 0,0,3
+coordinates 1,0,0
+coordinates 2,9,0
+coordinates 3,9,3
+coordinates 4,18,0
+coordinates 5,18,3
+
+[meshbuilder]
+vertex -2.6,-0.5,-0.1
+vertex -9,1.4,-0.1
+vertex -9,1.4,12.5
+vertex -2.6,-0.5,12.5
+vertex -9,1.4,25.1
+vertex -2.6,-0.5,25.1
+vertex -9.2,-2,-0.2
+
+face 0,1,2,3
+face 3,2,4,5
+face 6,1,0
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0.5,0.9
+coordinates 1,0.4,0.2
+coordinates 2,0.1,0.2
+coordinates 3,0.1,0.8
+coordinates 4,0.5,0.2
+coordinates 5,0.4,0.8
+coordinates 6,0,0.6
+transparent 0,0,255
+
+[meshbuilder]
+vertex -9,1,0
+vertex -9,8,0
+vertex -9,8,24
+vertex -9,1,26
+face 0,1,2,3
+color 155,155,155
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -8,0,-3
+vertex -8,4,-3
+vertex -5,4,22
+vertex -5,0,24
+vertex -3.1,-0.4,-2.5
+vertex -3.1,2,-2.5
+vertex -3.4,1,-0.2
+vertex -3.4,-0.4,-0.2
+vertex -3.4,1,12.5
+vertex -3.4,-0.4,12.5
+vertex -3.4,1,25.1
+vertex -3.4,-0.4,25.1
+face 0,1,2,3
+face 4,5,6,7
+face 7,6,8,9
+face 9,8,10,11
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,4,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,0.2,0
+coordinates 7,0.2,1
+coordinates 8,0.8,0
+coordinates 9,0.45,1
+coordinates 10,0.2,0
+coordinates 11,0.2,1
+transparent 0,0,255

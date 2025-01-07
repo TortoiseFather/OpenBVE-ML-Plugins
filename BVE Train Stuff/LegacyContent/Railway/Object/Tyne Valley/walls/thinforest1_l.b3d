@@ -1,0 +1,71 @@
+;description=forest wall
+;author=Uwe Post
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+;modified by eezypeazy 2009 to reduce tree height to something more realistic!
+
+
+; forest left
+[MeshBuilder]
+Vertex -16, 13, 4
+Vertex -16, -0.5, 4
+Vertex -8, -0.5, 4
+Vertex -8, 13, 4
+Face2 0,1,2,3
+
+[Texture]
+Load ..\plants\tree2.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 255
+
+
+[MeshBuilder]
+Vertex -15, 13, 20
+Vertex -15, -0.5, 20
+Vertex -7, -0.5, 21
+Vertex -7, 13, 21
+Face2 0,1,2,3
+
+[Texture]
+Load ..\plants\tree2.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 255
+
+
+[MeshBuilder]
+Vertex -15, 6, 12
+Vertex -15, -0.5, 12
+Vertex -10, -0.5, 15
+Vertex -10, 6, 15
+Face2 0,1,2,3
+
+[Texture]
+Load ..\plants\bush1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 255
+
+
+
+
+[MeshBuilder]
+Vertex -120,  -0.4, -1
+Vertex -120,  -0.4, 26
+Vertex -2.5  , -0.4, 26
+Vertex -2.5  , -0.4, -1
+Face2 3,2,1,0
+
+[Texture]
+Load ..\grounds\forestfloor1.bmp
+Coordinates 0, 4, 0
+Coordinates 1, 4, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+

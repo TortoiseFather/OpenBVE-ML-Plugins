@@ -1,0 +1,100 @@
+;author=eezypeazy
+;description=corbridge platform pt 1 the start
+;copyright=eezypeazy, all rights reserved
+
+;rh side
+[MeshBuilder]
+Vertex 5.8,-0.2,-0.2
+Vertex 5.8,-0.2,-0.2
+Vertex 9.8,-0.2, -0.2
+Vertex 9.8,1.1,4
+Vertex 5.8,1.1,4
+Vertex 5.8,-0.2,4
+vertex 9.8,1.1,25.2
+vertex 5.8,-0.2,25.2
+vertex 5.8,1.1,25.2
+vertex 6.8,-0.2,-0.2
+vertex 6.8,1.1,4
+vertex 6.8,1.1,25.2
+
+face 5,4,1,0 
+face 4,10,9,1
+face 10,3,2,9
+face 8,11,10,4
+face 11,6,3,10
+face 7,8,4,5
+
+[Texture]
+Load corbridgen.bmp
+Coordinates 0, 4, 1
+Coordinates 1, 4, 0.55
+Coordinates 2, 4, 0.28
+Coordinates 3,3, 0.28
+Coordinates 4,3, 0.55
+Coordinates 5,3, 1
+Coordinates 6,0, 0.28
+Coordinates 7,0,1
+Coordinates 8,0,0.55
+coordinates 9,4,0.45
+coordinates 10,3,0.45
+coordinates 11,0,0.45
+
+[meshbuilder]
+vertex 9.7,1.1,25.2
+vertex 9.7,2.7,25.2
+vertex 9.7,2.7,4
+vertex 9.7,1.1,4
+vertex 6.7,2.7,4
+vertex 6.7,1.1,4
+face 0,1,2,3
+face 5,4,2,3
+
+[texture]
+load ..\fences\diagonal.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,8.2,0
+coordinates 3,8.2,1
+coordinates 4,10,0
+coordinates 5,10,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -5.8,1.1,25.2
+vertex -5.8,2.7,25.2
+vertex -5.8,2.7,4
+vertex -5.8,1.1,4
+vertex -2.8,2.7,4
+vertex -2.8,1.1,4
+face 3,2,1,0
+face 3,2,4,5
+
+[texture]
+load ..\fences\diagonal.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,8.2,0
+coordinates 3,8.2,1
+coordinates 4,10,0
+coordinates 5,10,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -6,0.7,-2
+vertex -6,7,-2
+vertex -6,7,12.5
+vertex -6,0.7,12.5
+vertex -6,5,25.3
+vertex -6,0.7,25.3
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.7,0
+coordinates 3,0.5,1
+coordinates 4,0,0
+coordinates 5,0,1
+transparent 0,0,255

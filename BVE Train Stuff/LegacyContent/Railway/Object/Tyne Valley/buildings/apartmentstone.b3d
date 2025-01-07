@@ -1,0 +1,65 @@
+;author=eezypeazy
+;description=stone walled apartment with glazed end
+;copyright=eezypeazy 2009, all rights reserved.
+
+[meshbuilder]
+vertex -3,-5,-31
+vertex -3,7,-31
+vertex -3,7,0
+vertex -3,-5,0
+face 0,1,2,3
+
+[texture]
+load apartmentstone.bmp
+coordinates 0,0,4
+coordinates 1,0,0
+coordinates 2,7,0
+coordinates 3,7,4
+
+[meshbuilder]
+vertex -18,-5,-31
+vertex -18,7,-31
+vertex -10.5,7,-31
+vertex -10.5,-5,-31
+vertex -3,7,-31
+vertex -3,-5,-31
+vertex -14.25,10,-31
+vertex -6.75,10,-31
+face 0,1,2,3
+face 3,2,4,5
+face 1,6,2
+face 2,7,4
+
+[texture]
+load metroland4panel.bmp
+coordinates 0,0,7.5
+coordinates 1,0,1.5
+coordinates 2,2,1.5
+coordinates 3,2,7.5
+coordinates 4,4,1.5
+coordinates 5,4,7.5
+coordinates 6,1,0
+coordinates 7,3,0
+
+[meshbuilder]
+vertex -10.5,7,-31
+vertex -14.25,10,-31
+vertex -14.25,10,0
+vertex -10.5,7,0
+vertex -3,7,-31
+vertex -6.75,10,-31
+vertex -6.75,10,0
+vertex -3,7,0
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\textures\rooftiles.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,6,0
+coordinates 3,6,2
+coordinates 4,0,2
+coordinates 5,0,0
+coordinates 6,6,0
+coordinates 7,6,2

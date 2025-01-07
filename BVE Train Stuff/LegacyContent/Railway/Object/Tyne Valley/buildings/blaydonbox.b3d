@@ -1,0 +1,121 @@
+;author=eezypeazy
+;description=Blaydon Signalbox
+;copyright=eezypeazy, all rights reserved.For use only in my routes. eezypeazy@blueyonder.co.uk
+
+
+[meshbuilder]
+vertex -6.7,-0.4,-0.5
+vertex -6.7,3.7,-0.5
+vertex -2.7,3.7,0
+vertex -2.7,-0.4,0
+face 0,1,2,3
+
+
+[texture]
+load ..\buildings\blaydonbox3.bmp
+coordinates 0,0,0.91
+coordinates 1,0,0.34
+coordinates 2,1,0.3
+coordinates 3,1,0.92
+
+[meshbuilder]
+vertex -6.7,3.7,-0.5
+vertex -6.7,5.5,-0.5
+vertex -2.7,5.5,0
+vertex -2.7,3.7,0
+face 0,1,2,3
+
+[texture]
+load ..\buildings\blaydonbox3.bmp
+coordinates 0,0,0.34
+coordinates 1,0,0.07
+coordinates 2,1,0
+coordinates 3,1,0.3
+
+
+[meshbuilder]
+vertex -2.7,-0.4,0
+vertex -2.7,5.5,0
+vertex -3,5.5,3
+vertex -3,-0.4,3
+vertex -3.3,5.5,6
+vertex -3.3,-0.4,6
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\buildings\blaydonbox1.bmp
+coordinates 0,0,0.9
+coordinates 1,0,0.004
+coordinates 2,1,0
+coordinates 3,1,0.9
+coordinates 4,0,0.004
+coordinates 5,0,0.9
+
+[meshbuilder]
+vertex -3.3,2.5,6
+vertex -3.3,5.5,5.98
+vertex -3.9,5.5,12
+vertex -3.9,2.5,12
+face 0,1,2,3
+
+[texture]
+load ..\buildings\blaydonbox2.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -3.3,-0.4,6
+vertex -3.3,2.52,6
+vertex -3.8,2.52,10.95
+vertex -3.8,-0.4,10.95
+face 0,1,2,3
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,2
+
+
+
+[meshbuilder]
+cube 2.1,0.07,3.1
+color 66,66,66
+translate -4.6,5.5,3.2
+rotate 0,1,0,-6.3
+
+[meshbuilder]
+vertex -2.49,5.56,-0.2
+vertex -4.59,7.3,1.9
+vertex -4.9,7.3,3.9
+vertex -3.1,5.56,6
+face 0,1,2,3
+
+[texture]
+load ..\textures\rooftiles.bmp
+coordinates 0,0,2
+coordinates 1,1,0
+coordinates 2,2,0
+coordinates 3,3,2
+
+
+[meshbuilder]
+vertex -6.69,5.56,-0.6
+vertex -4.59,7.3,1.9
+vertex -2.49,5.56,-0.2
+face 0,1,2
+
+[texture]
+load ..\textures\rooftiles.bmp
+coordinates 0,0,2
+coordinates 1,1,0
+coordinates 2,2,2
+
+
+
+

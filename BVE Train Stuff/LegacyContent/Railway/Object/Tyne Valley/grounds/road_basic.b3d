@@ -1,0 +1,96 @@
+;author=eezypeazy
+;description=road no pavement, kerbs or yellows 0m below
+;copyright=eezypeazy 2009, all rights reserved. For use in my BVE routes only
+;www.eezypeazy.co.uk
+
+
+[meshbuilder]
+vertex -4,0,-1
+vertex -4,0,26
+vertex 4,0,26
+vertex 4,0,-1
+face 0,1,2,3
+color 55,55,55
+
+;road markings
+
+[meshbuilder]
+vertex -6.95,0.12,1
+vertex -7.05,0.12,1
+vertex -7.05,0.12,2
+vertex -6.95,0.12,2
+face 0,1,2,3
+color 200,200,200
+translate 7,0,0
+
+[meshbuilder]
+vertex -6.95,0.12,1
+vertex -7.05,0.12,1
+vertex -7.05,0.12,2
+vertex -6.95,0.12,2
+face 0,1,2,3
+color 200,200,200
+translate 7,0,3
+
+[meshbuilder]
+vertex -6.95,0.12,1
+vertex -7.05,0.12,1
+vertex -7.05,0.12,2
+vertex -6.95,0.12,2
+face 0,1,2,3
+color 200,200,200
+translate 7,0,6
+
+[meshbuilder]
+vertex -6.95,0.12,1
+vertex -7.05,0.12,1
+vertex -7.05,0.12,2
+vertex -6.95,0.12,2
+face 0,1,2,3
+color 200,200,200
+translate 7,0,9
+
+[meshbuilder]
+vertex -6.95,0.12,1
+vertex -7.05,0.12,1
+vertex -7.05,0.12,2
+vertex -6.95,0.12,2
+face 0,1,2,3
+color 200,200,200
+translate 7,0,12
+
+[meshbuilder]
+vertex -6.95,0.12,1
+vertex -7.05,0.12,1
+vertex -7.05,0.12,2
+vertex -6.95,0.12,2
+face 0,1,2,3
+color 200,200,200
+translate 7,0,15
+
+[meshbuilder]
+vertex -6.95,0.12,1
+vertex -7.05,0.12,1
+vertex -7.05,0.12,2
+vertex -6.95,0.12,2
+face 0,1,2,3
+color 200,200,200
+translate 7,0,18
+
+[meshbuilder]
+vertex -6.95,0.12,1
+vertex -7.05,0.12,1
+vertex -7.05,0.12,2
+vertex -6.95,0.12,2
+face 0,1,2,3
+color 200,200,200
+translate 7,0,21
+
+[meshbuilder]
+vertex -6.95,0.12,1
+vertex -7.05,0.12,1
+vertex -7.05,0.12,2
+vertex -6.95,0.12,2
+face 0,1,2,3
+color 200,200,200
+translate 7,0,24

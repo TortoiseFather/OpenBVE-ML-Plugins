@@ -1,0 +1,119 @@
+;author=Uwe Post, modified by eezypeazy
+;description=Catenary Pole DB (Germany) Turmmast
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+
+
+; Quertragwerk
+; horizontal, mitte
+[meshbuilder]
+Vertex 2, 7, 0
+Vertex -7, 7, 0
+Vertex -7, 7.05,0
+vertex 2,7.05, 0
+Face 0,1,2,3
+Face 3,2,1,0
+Color 0,0,0
+
+; unten
+[meshbuilder]
+Vertex 2, 6.29, 0
+Vertex -7, 6.29, 0
+Vertex -7, 6.33,0
+Vertex 2, 6.33,0
+Face2 0,1,2,3
+Color 0,0,0
+
+[meshbuilder]
+Vertex 2, 9.9, 0
+Vertex 1,  8.5, 0
+Vertex 1,  8.55,  0
+Vertex 2, 9.85,  0
+Face 0,1,2,3
+Face 3,2,1,0
+Color 0,0,0
+
+[meshbuilder]
+Vertex 1, 8.5, 0
+Vertex -3,  7.5, 0
+Vertex -3,  7.55,  0
+Vertex 1, 8.55,  0
+Face 0,1,2,3
+Face 3,2,1,0
+Color 0,0,0
+
+[meshbuilder]
+Vertex -3, 7.5, 0
+Vertex -7, 7, 0
+Vertex -7, 7.05,  0
+Vertex -3, 7.55,  0
+Face 0,1,2,3
+Face 3,2,1,0
+Color 0,0,0
+
+[meshbuilder]
+Vertex 1, 8.5, 0
+Vertex 1, 6.3, 0
+Vertex 1.05, 6.3,  0
+Vertex 1.05, 8.5,  0
+Face 0,1,2,3
+Face 3,2,1,0
+Color 0,0,0
+
+[meshbuilder]
+Vertex -3, 7.5, 0
+Vertex -3, 6.3, 0
+Vertex -3.05, 6.3,  0
+Vertex -3.05, 7.5,  0
+Face 0,1,2,3
+Face 3,2,1,0
+Color 0,0,0
+
+[meshbuilder]
+Vertex -7, 7, 0
+Vertex -7, 6.3, 0
+Vertex -7.05, 6.3,  0
+Vertex -7.05, 7,  0
+Face 0,1,2,3
+Face 3,2,1,0
+Color 0,0,0
+
+
+
+;author=Uwe Post
+;description=Catenary Pole DB (Germany) concrete
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+
+
+;pole
+
+[MeshBuilder]
+Vertex 1.8,10,0
+Vertex 2.2,10,0
+Vertex 2.2,-0.4,0
+Vertex 1.8,-0.4,0
+Face 0,1,2,3
+Face 3,2,1,0
+
+[Texture]
+Load poleconcrete1.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 2,10,-0.15
+Vertex 2,10,0.15
+Vertex 2,-0.4,0.15
+Vertex 2,-0.4,-0.15
+Face 0,1,2,3
+Face 3,2,1,0
+
+[Texture]
+Load poleconcrete1.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255

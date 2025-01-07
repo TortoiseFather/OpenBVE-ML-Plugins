@@ -1,0 +1,69 @@
+;author=EezyPeazy
+;description=A simplified Travelodge based on my photographs of Derwenthaugh, Tyne and Wear. 2009 rebuild.
+;copyright=eezypeazy 2009, all rights reserved
+
+[MeshBuilder]
+Vertex 0,0,0
+Vertex 0,7,0
+Vertex 50,7,0
+Vertex 50,0,0
+vertex 50,7,15
+vertex 50,0,15
+Face 0,1,2,3
+face 3,2,4,5
+
+[Texture]
+Load wallandwindows.bmp
+Coordinates 0,0,1.5
+Coordinates 1,0,0
+Coordinates 2,2,0
+Coordinates 3,2,1.5
+coordinates 4,2.591,0
+coordinates 5,2.591,1.5
+
+;roof
+[MeshBuilder]
+Vertex 0,7,0
+Vertex 5,10.5,7.5
+Vertex 45,10.5,7.5
+Vertex 50,7,0
+Face 0,1,2,3
+
+[Texture]
+Load ..\textures\rooftiles.bmp
+Coordinates 0,0,3
+Coordinates 1,1.6,0
+Coordinates 2,14.4,0
+Coordinates 3,16,3
+
+[meshbuilder]
+vertex 50,7,0
+vertex 45,10.5,7.5
+vertex 50,7,15
+face 0,1,2
+
+[Texture]
+Load ..\textures\rooftiles.bmp
+Coordinates 0,0,3
+Coordinates 1,2.4,0
+Coordinates 2,4.8,3
+
+;sign
+[meshbuilder]
+vertex 41,4.65,-0.2
+vertex 41,5.5,-0.2
+vertex 50.2,5.5,-0.2
+vertex 50.2,4.65,-0.2
+vertex 50.2,5.5,9
+vertex 50.2,4.65,9
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load travelodgesign.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,2,0
+coordinates 5,2,1

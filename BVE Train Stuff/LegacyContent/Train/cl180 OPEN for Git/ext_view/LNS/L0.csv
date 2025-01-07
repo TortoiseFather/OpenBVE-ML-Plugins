@@ -1,0 +1,184 @@
+;
+;       _                 __  ___  _____        ___    ___        
+;      | |               /_ |/ _ \| ____|      |__ \  / _ \       
+;   ___| | __ _ ___ ___   | | (_) | |__   __   __ ) || | | |      
+;  / __| |/ _` / __/ __|  | |> _ <|___ \  \ \ / // / | | | |      
+; | (__| | (_| \__ \__ \  | | (_) |___) |  \ V // /_ | |_| |      
+;  \___|_|\__,_|___/___/  |_|\___/|____/_   \_/|____(_)___/       
+;       (_)                            | |           (_)          
+;  _ __  _  ___  _ __   ___  ___ _ __  | |_ _ __ __ _ _ _ __  ___ 
+; | '_ \| |/ _ \| '_ \ / _ \/ _ \ '__| | __| '__/ _` | | '_ \/ __|
+; | |_) | | (_) | | | |  __/  __/ |    | |_| | | (_| | | | | \__ \
+; | .__/|_|\___/|_| |_|\___|\___|_|     \__|_|  \__,_|_|_| |_|___/
+; | |                                                             
+; |_|                                                             
+;
+
+CreateMeshBuilder
+Addvertex, 0.24,3.77,9.0,0.05,0.5,0.05
+Addvertex, -0.24,3.77,9.0,-0.05,0.5,0.05
+Addvertex, 0.88,3.6,9.16,0.1,0.4,0.1
+Addvertex, 0.525,3.6,9.29,0.05,0.4,0.1
+Addvertex, -0.525,3.6,9.29,-0.05,0.4,0.1
+Addvertex, -0.88,3.6,9.16,-0.1,0.4,0.1
+Addvertex, 1.145,3.48,9.25,0.1,0.25,0.25
+Addvertex, 0.525,3.48,9.4,0.05,0.25,0.25
+Addvertex, -0.525,3.48,9.4,-0.05,0.25,0.25
+Addvertex, -1.145,3.48,9.25,-0.1,0.25,0.25
+Addvertex, 1.33,3.28,9.36,0.1,0.15,0.25
+Addvertex, 0.525,3.28,9.55,0.05,0.15,0.4
+Addvertex, -0.525,3.28,9.55,-0.05,0.15,0.4
+Addvertex, -1.33,3.28,9.36,-0.1,0.15,0.25
+Addvertex, 1.38,3.13,9.37,0.1,0.05,0.25
+Addvertex, 0.525,3.13,9.564,0.05,0.05,0.4
+Addvertex, -0.525,3.13,9.564,-0.05,0.05,0.4
+Addvertex, -1.38,3.13,9.37,-0.1,0.05,0.25
+Addvertex, 1.38,1.78,9.61,0.1,0.01,0.25
+Addvertex, 0.525,1.78,9.69,0.05,0.01,0.4
+Addvertex, -0.525,1.78,9.69,-0.05,0.01,0.4
+Addvertex, -1.38,1.78,9.61,-0.1,0.01,0.25
+Addvertex, 1.38,1.34,9.61,0.1,0,0.25
+Addvertex, 0.525,1.34,9.69,0.05,0,0.4
+Addvertex, -0.525,1.34,9.69,-0.05,0,0.4
+Addvertex, -1.38,1.34,9.61,-0.1,0,0.25
+Addvertex, 1.26,1.18,9.61,0.1,-0.01,0.25
+Addvertex, 0.525,1.18,9.69,0.05,-0.01,0.4
+Addvertex, -0.525,1.18,9.69,-0.05,-0.01,0.4
+Addvertex, -1.26,1.18,9.61,-0.1,-0.01,0.25
+Addvertex, 0.65,3.66,9.1,0.1,0.4,0.1
+Addvertex, -0.65,3.66,9.1,-0.1,0.4,0.1
+Addface, 0,3,30
+Addface, 0,1,4,3
+Addface, 1,31,4
+Addface, 2,3,7,6
+Addface, 3,4,8,7
+Addface, 4,5,9,8
+Addface, 6,7,11,10
+Addface, 7,8,12,11
+Addface, 8,9,13,12
+Addface, 10,11,15,14
+Addface, 11,12,16,15
+Addface, 12,13,17,16
+Addface, 14,15,19,18
+Addface, 15,16,20,19
+Addface, 16,17,21,20
+Addface, 18,19,23,22
+Addface, 19,20,24,23
+Addface, 20,21,25,24
+Addface, 22,23,27,26
+Addface, 23,24,28,27
+Addface, 24,25,29,28
+Addface, 30,3,2
+Addface, 31,5,4
+LoadTexture, l0.png
+SetTextureCoordinates, 0,0.413,0
+SetTextureCoordinates, 1,0.587,0
+SetTextureCoordinates, 2,0.181,0.066
+SetTextureCoordinates, 3,0.31,0.066
+SetTextureCoordinates, 4,0.69,0.066
+SetTextureCoordinates, 5,0.819,0.066
+SetTextureCoordinates, 6,0.085,0.112
+SetTextureCoordinates, 7,0.31,0.112
+SetTextureCoordinates, 8,0.69,0.112
+SetTextureCoordinates, 9,0.915,0.112
+SetTextureCoordinates, 10,0.018,0.189
+SetTextureCoordinates, 11,0.31,0.189
+SetTextureCoordinates, 12,0.69,0.189
+SetTextureCoordinates, 13,0.982,0.189
+SetTextureCoordinates, 14,0,0.247
+SetTextureCoordinates, 15,0.31,0.247
+SetTextureCoordinates, 16,0.69,0.247
+SetTextureCoordinates, 17,1,0.247
+SetTextureCoordinates, 18,0,0.768
+SetTextureCoordinates, 19,0.31,0.768
+SetTextureCoordinates, 20,0.69,0.768
+SetTextureCoordinates, 21,1,0.768
+SetTextureCoordinates, 22,0,0.938
+SetTextureCoordinates, 23,0.31,0.938
+SetTextureCoordinates, 24,0.69,0.938
+SetTextureCoordinates, 25,1,0.938
+SetTextureCoordinates, 26,0.043,1
+SetTextureCoordinates, 27,0.31,1
+SetTextureCoordinates, 28,0.69,1
+SetTextureCoordinates, 29,0.957,1
+SetTextureCoordinates, 30,0.264,0.042
+SetTextureCoordinates, 31,0.736,0.042
+SetDecalTransparentColor,0, 0, 0
+setEmissiveColor,20,20,20
+
+rotate,0,1,0,180
+translate,0,0,-0.02
+
+
+
+
+
+
+
+;****************************
+;**lights reflections********
+;****************************
+
+
+
+
+
+;big
+CreateMeshBuilder,
+AddVertex,-3, 0.2, -10,
+AddVertex,-3, 0.2, -30,
+AddVertex, 3, 0.2, -30,
+AddVertex, 3, 0.2, -10,
+AddFace2,3,2,1,0
+
+LoadTexture, headlamp.png
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0, 0, 0,
+SetEmissiveColor,155,155,155,
+SetBlendMode,Additive,1,
+
+translate,-1.8,0,0
+
+
+;small
+CreateMeshBuilder,
+AddVertex,-1, 0.2, -10,
+AddVertex,-1, 0.2, -17,
+AddVertex, 1, 0.2, -17,
+AddVertex, 3, 0.2, -10,
+AddFace2,3,2,1,0
+
+LoadTexture, headlamp.png
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0, 0, 0,
+SetEmissiveColor,155,155,155,
+SetBlendMode,Additive,1,
+
+translate,0.5,0,0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+scaleall,0.9,0.999,0.999,
+setEmissiveColor,250,250,250
+

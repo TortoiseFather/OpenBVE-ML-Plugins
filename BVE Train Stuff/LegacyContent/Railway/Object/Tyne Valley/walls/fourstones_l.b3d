@@ -1,0 +1,434 @@
+;author=eezypeazy
+;description=fourstones
+;copyright=eezypeazy, all rights reserved
+
+[meshbuilder]
+vertex -6.2,-2,0 
+vertex -6.2,0,0
+vertex -6,0,24
+vertex -6,-2,25
+vertex -6.3,-2,-1
+vertex -6.3,3,-1
+vertex -5.4,3,0.5
+vertex -5.4,-2,0.5
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0.1,0.9
+coordinates 1,0.1,0.1
+coordinates 2,0.9,0.1
+coordinates 3,0.9,0.9
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+
+
+;author=eezypeazy
+;description=west boat 1
+;copyright=eezypeazy, all rights reserved, contact eezypeazy@blueyonder.co.uk
+;uses some RouteBuilder bitmaps
+
+;lh side
+;bushes
+
+[meshbuilder]
+vertex -5,-2.2,3
+vertex -5,0.6,3
+vertex -2,0.6,4
+vertex -2,-2.2,4
+vertex -5,-2.2,10
+vertex -5,1.6,10
+vertex -2,1.6,12
+vertex -2,-2.2,12
+;face 0,1,2,3
+face 4,5,6,7
+color 90,90,90
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+
+
+[MeshBuilder]
+Vertex -5,0.6, 5
+Vertex -5, -2.2, 5
+Vertex -2.5, -2.2, 7
+Vertex -2.5,0.6, 7
+Face 3,2,1,0
+
+[Texture]
+Load ..\plants\eptree1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 255
+
+
+[MeshBuilder]
+Vertex -5, 0.6, 21
+Vertex -5, -2.2, 21
+Vertex -2.5, -2.2, 21
+Vertex -2.5,0.6, 21
+vertex -58,6,0
+vertex -58,16,3
+vertex -55,16,26
+vertex -55,6,23
+Face 3,2,1,0
+face 4,5,6,7
+
+[Texture]
+Load ..\plants\eptree1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Coordinates 4,0,0
+Coordinates 5,0,1
+Coordinates 6,2,1
+Coordinates 7,2,0
+Transparent 0, 0, 255
+
+
+;author=Uwe Post, modified by eezypeazy
+;description=cable troughs
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+;id=154
+
+
+[meshbuilder]
+vertex -2.36,-0.35,-0.1
+vertex -2.36,-0.25,-0.1
+vertex -2.36,-0.25,25.1
+vertex -2.36,-0.35,25.1
+vertex -2.63,-0.25,-0.1
+vertex -2.63,-0.25,25.1
+
+vertex 6.36,-0.35,-0.1
+vertex 6.36,-0.25,-0.1
+vertex 6.36,-0.25,25.1
+vertex 6.36,-0.35,25.1
+vertex 6.63,-0.25,-0.1
+vertex 6.63,-0.25,25.1
+face 0,1,2,3
+face 1,4,5,2
+;face 9,8,7,6
+;face 8,11,10,7
+
+[texture]
+load ..\grounds\grass6_cable.bmp
+coordinates 0,0,0.16
+coordinates 1,0,0.82
+coordinates 2,7,0.82
+coordinates 3,7,0.16
+coordinates 4,0,0.2
+coordinates 5,7,0.2
+coordinates 6,0,0.16
+coordinates 7,0,0.82
+coordinates 8,7,0.82
+coordinates 9,7,0.16
+coordinates 10,0,0.2
+coordinates 11,7,0.2
+
+[meshbuilder]
+vertex -2.65,-0.3,12.1
+vertex -2.65,0.5,12.1
+vertex -2.65,0.5,12.8
+vertex -2.65,-0.3,12.8
+vertex -2.65,-0.3,18.3
+vertex -2.65,0.6,18.3
+vertex -2.65,0.6,19
+vertex -2.65,-0.3,19
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\plants\grassh1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+
+
+;lane wall and trees
+[meshbuilder]
+vertex -13,-2,-0.3
+vertex -13,-2,25.3
+vertex -7,-2,25.3
+vertex -7,-2,-0.3
+face 0,1,2,3
+color 111,101,99
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,26
+coordinates 1,0,-1
+coordinates 2,2,-1
+coordinates 3,2,25
+
+[meshbuilder]
+vertex -2.63,-0.3,-0.3
+vertex -2.63,-0.3,25.3
+vertex -7,-2,25.3
+vertex -7,-2,-0.3
+face 3,2,1,0
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,12
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,12
+
+[meshbuilder]
+vertex -13,-2,25.3
+vertex -13,0,25.3
+vertex -13,0,-0.3
+vertex -13,-2,-0.3
+face 3,2,1,0
+color 199,199,199
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,0.7
+coordinates 1,0,0
+coordinates 2,0.9,0
+coordinates 3,0.9,0.7
+transparent 0,0,255
+
+[meshbuilder]
+vertex -13,-2,-0.5
+vertex -55,6,-1.2
+vertex -55,6,26.2
+vertex -13,-2,25.5
+face 0,1,2,3
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,2
+coordinates 1,0,1
+coordinates 2,2,1
+coordinates 3,2,2
+
+[meshbuilder]
+vertex -55,6,-1.2
+vertex -55,8,-1.2
+vertex -13,0,-0.5
+vertex -13,-2,-0.5
+vertex -55,6,14
+vertex -55,8,14
+vertex -13,0,14
+vertex -13,-2,14
+vertex -54.5,5,-1.2 
+vertex -54.5,8,-1.2
+vertex -54.5,8,25.1
+vertex -54.5,5,25.1
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+color 155,155,155
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0.1,0.8
+coordinates 1,0.1,0.1
+coordinates 2,0.7,0.1
+coordinates 3,0.7,0.8
+coordinates 4,0.1,0.8
+coordinates 5,0.1,0.1
+coordinates 6,0.7,0.1
+coordinates 7,0.7,0.8
+coordinates 8,0.1,0.8
+coordinates 9,0.1,0.1
+coordinates 10,0.7,0.1
+coordinates 11,0.7,0.8
+transparent 0,0,255
+
+;cottage
+[meshbuilder]
+vertex -30,-2,3
+vertex -30,3,3
+vertex -22,3,3
+vertex -22,-2,3
+vertex -26,6,3
+vertex -26.7,5,7.8
+vertex -26.7,7,7.8
+vertex -25.3,7,7.8
+vertex -25.3,5,7.8
+vertex -25.3,7,8.2
+vertex -25.3,5,8.2
+face 0,1,2,3
+face 1,4,2
+face 5,6,7,8
+face 8,7,9,10
+
+[texture]
+load ..\textures\greystone.bmp
+coordinates 0,0,3
+coordinates 1,0,1
+coordinates 2,3,1
+coordinates 3,3,3
+coordinates 4,1.5,0
+coordinates 5,0,1
+coordinates 6,0,0
+coordinates 7,1,0
+coordinates 8,1,1
+coordinates 9,1.3,0
+coordinates 10,1.3,1
+
+[meshbuilder]
+cylinder 6,0.2,0.2,0.6
+translate -26.3,7.2,8
+color 155,55,0
+
+[meshbuilder]
+cylinder 6,0.2,0.2,0.6
+translate -25.7,7.2,8
+color 155,55,0
+
+[meshbuilder]
+vertex -22,3,3
+vertex -26,6,3
+vertex -26,6,13
+vertex -22,3,13
+face 0,1,2,3
+
+[texture]
+load ..\textures\rooftilesold.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,2
+
+[meshbuilder]
+vertex -22,-1,3
+vertex -22,3,3
+vertex -22,3,13
+vertex -22,-1,13
+face 0,1,2,3
+
+[texture]
+load ..\walls\cottagefront.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+[meshbuilder]
+vertex -30.2,2.75,2.9
+vertex -30.2,3.1,2.9
+vertex -26,6.2,2.9
+vertex -26,5.85,2.9
+vertex -21.8,3.1,2.9
+vertex -21.8,2.75,2.9
+vertex -21.8,3.1,13.1
+vertex -21.8,2.75,13.1
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+color 222,222,222
+
+;house
+[meshbuilder]
+vertex -40,1,15
+vertex -40,7,15
+vertex -30,7,15
+vertex -30,1,15
+vertex -35,11,15
+vertex -36,10,15
+vertex -36,12,15
+vertex -34,12,15
+vertex -34,10,15
+vertex -34,12,15.6
+vertex -34,10,15.6
+vertex -36,10,24.4
+vertex -36,12,24.4
+vertex -34,12,24.4
+vertex -34,10,24.4
+vertex -34,12,25
+vertex -34,10,25
+face 0,1,2,3
+face 1,4,2
+face 5,6,7,8
+face 8,7,9,10
+face 11,12,13,14
+face 14,13,15,16
+
+[texture]
+load ..\textures\roughstone.bmp
+coordinates 0,0,3
+coordinates 1,0,1
+coordinates 2,3,1
+coordinates 3,3,3
+coordinates 4,1.5,0
+coordinates 5,0,0.5
+coordinates 6,0,0
+coordinates 7,0.5,0
+coordinates 8,0.5,0.5
+coordinates 9,0.7,0
+coordinates 10,0.7,0.5
+coordinates 11,0,0.5
+coordinates 12,0,0
+coordinates 13,0.5,0
+coordinates 14,0.5,0.5
+coordinates 15,0.7,0
+coordinates 1,0.7,0.5
+
+[meshbuilder]
+vertex -30,7,15
+vertex -35,11,15
+vertex -35,11,25
+vertex -30,7,25
+face 0,1,2,3
+
+[texture]
+load ..\textures\rooftiles.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,2
+
+[meshbuilder]
+vertex -40.1,6.7,14.9
+vertex -40.1,7.1,14.9
+vertex -35,11.1,14.9
+vertex -35,10.7,14.9
+vertex -29.9,7.1,14.9
+vertex -29.9,6.7,14.9
+vertex -29.9,7.1,25.1
+vertex -29.9,6.7,25.1
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+color 33,33,33
+
+[meshbuilder]
+vertex -30,1,15
+vertex -30,7,15
+vertex -30,7,25
+vertex -30,1,25
+face 0,1,2,3
+
+[texture]
+load ..\walls\housefront.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1

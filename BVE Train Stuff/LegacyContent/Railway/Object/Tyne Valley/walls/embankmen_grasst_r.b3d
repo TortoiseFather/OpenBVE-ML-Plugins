@@ -1,0 +1,33 @@
+;author=eezypeazy
+;description=left hand embankment
+;copyright=eezypeazy 2006, all rights reserved, contact eezypeazy@blueyonder.co.uk
+
+
+[meshbuilder]
+vertex 6.6,-0.2,-0.2
+vertex 14,-4.9,-0.2
+vertex 14,-4.9,25.2
+vertex 6.6,-0.2,25.2
+face 3,2,1,0
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+[meshbuilder]
+vertex 14,-5,-0.2
+vertex 14,-3.6,-0.2
+vertex 14,-3.6,25.2
+vertex 14,-5,25.2
+face 3,2,1,0
+
+[texture]
+load ..\fences\woodfencebrown1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+transparent 0,0,255

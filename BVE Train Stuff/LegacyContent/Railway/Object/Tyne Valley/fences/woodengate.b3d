@@ -1,0 +1,44 @@
+;author=eezypeazy
+;description=wooden gate
+;copyright=eezypeazy 2009, all rights reserved
+;contact eezypeazy@eezypeazy.co.uk
+
+[meshbuilder]
+vertex 6.4,-0.3,0
+vertex 6.4,1.7,0
+vertex 6.4,1.7,8
+vertex 6.4,-0.3,8
+face 3,2,1,0
+
+[texture]
+load ..\buildings\woodengate.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+;posts
+
+
+[meshbuilder]
+cube 0.2,1,0.2
+translate 6.2,0.75,0
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,1,0  
+coordinates 7,1,5 
+coordinates 4,0,5
+
+[meshbuilder]
+cube 0.2,1,0.2
+translate 6.2,0.75,8
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,1,0  
+coordinates 7,1,5 
+coordinates 4,0,5

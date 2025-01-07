@@ -1,0 +1,48 @@
+;author=eezypeazy
+;description=left hand ground works with embankment left
+;copyright=eezypeazy 2009, all rights reserved, contact eezypeazy@eezypeazy.co.uk
+
+
+[meshbuilder]
+vertex -4,-6.5,-0.5
+vertex -32.6,1,-1.5
+vertex -32.6,1.1,25.2
+vertex -4,-6.5,25.2
+face 0,1,2,3
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,3
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,3
+
+[meshbuilder]
+Vertex -31,1,0
+Vertex -31,5,0
+Vertex -30,4,24
+Vertex -30,1,26
+Face 0,1,2,3
+
+[texture]
+load ..\plants\eptree1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,3,0
+Coordinates 3,3,1
+Transparent 0,0,255
+
+[meshbuilder]
+Vertex -30,0,3.5
+Vertex -30,3,3.5
+Vertex -27,3,18.5
+Vertex -27,0,18.5
+Face 0,1,2,3
+
+[texture]
+load ..\plants\eptree1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,3,0
+Coordinates 3,3,1
+Transparent 0,0,255

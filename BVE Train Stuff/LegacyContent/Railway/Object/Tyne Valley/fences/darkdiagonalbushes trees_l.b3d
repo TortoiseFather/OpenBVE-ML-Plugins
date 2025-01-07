@@ -1,0 +1,37 @@
+;description= a dark diagonal platform fence 25m long with bushes and trees
+;author=eezypeazy
+
+[Meshbuilder]
+vertex -5.8,1.1,-0.1
+vertex -5.8,2.7,-0.1
+vertex -5.8,2.7,25.1
+vertex -5.8,1.1,25.1
+face 0,1,2,3
+
+[texture]
+Load diagonal.bmp
+coordinates 0,10,1
+coordinates 1,10,0
+coordinates 2,0,0
+coordinates 3,0,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -6,0.7,-2
+vertex -6,7,-2
+vertex -6,7,12.5
+vertex -6,0.7,12.5
+vertex -6,5,25.3
+vertex -6,0.7,25.3
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.7,0
+coordinates 3,0.5,1
+coordinates 4,0,0
+coordinates 5,0,1
+transparent 0,0,255

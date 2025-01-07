@@ -1,0 +1,77 @@
+;author=eezypeazy
+;description=terraced shops
+;copyright=eezypeazy 2009, all rights reserved. For use in my BVE routes only
+;visit www.eezypeazy.co.uk
+
+[meshbuilder]
+vertex -12,-5,-25
+vertex -12,5.5,-25
+vertex 0,5.5,-25
+vertex 0,-5,-25
+vertex 0,5.5,0
+vertex 0,-5,0
+vertex -12,5.5,0
+vertex -12,-5,0
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+
+[texture]
+load manors office2.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,4,1
+coordinates 4,12,0
+coordinates 5,12,1
+coordinates 6,16,0
+coordinates 7,16,1
+
+[meshbuilder]
+vertex 0.5,5.4,-25.5
+vertex -6,8.5,-22.5
+vertex -6,8.5,-2.5
+vertex 0.5,5.4,0.5
+face 0,1,2,3
+color 177,177,255
+
+[texture]
+load ..\textures\rooftiles.bmp
+coordinates 0,0,3
+coordinates 1,1,0
+coordinates 2,8,0
+coordinates 3,9,3
+
+[meshbuilder]
+vertex -12.5,5.4,-25.5
+vertex -6,8.5,-22.5
+vertex 0.5,5.4,-25.5
+face 0,1,2
+color 177,177,255
+
+[texture]
+load ..\textures\rooftiles.bmp
+coordinates 0,0,3
+coordinates 1,2.25,0
+coordinates 2,4.5,3
+
+[meshbuilder]
+vertex -12.5,5.4,0.5
+vertex -6,8.5,-2.5
+vertex 0.5,5.4,0.5
+face 2,1,0
+color 177,177,255
+
+[texture]
+load ..\textures\rooftiles.bmp
+coordinates 0,0,3
+coordinates 1,2.25,0
+coordinates 2,4.5,3
+
+[meshbuilder]
+vertex -12.5,5.4,0.5
+vertex -12.5,5.4,-25.5
+vertex 0.5,5.4,-25.5
+vertex 0.5,5.4,0.5
+face 0,1,2,3
+color 0,0,0

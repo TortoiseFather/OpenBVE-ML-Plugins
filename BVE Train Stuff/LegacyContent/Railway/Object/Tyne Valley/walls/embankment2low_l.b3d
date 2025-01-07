@@ -1,0 +1,174 @@
+;author=eezypeazy
+;description=left hand embankment
+;copyright=eezypeazy 2006, all rights reserved, contact eezypeazy@blueyonder.co.uk
+;includes a RouteBuilder library object and bitmap
+
+
+[meshbuilder]
+vertex -25,-2,-0.2
+vertex -25,1,-0.2
+vertex -25,1,25.2
+vertex -25,-2,25.2
+face 0,1,2,3
+
+[texture]
+load ..\textures\lightbrick.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,5,0
+coordinates 3,5,2
+
+[meshbuilder]
+vertex -5,-2,-0.2
+vertex -25,-2,-0.2
+vertex -25,-2,25.2
+vertex -5,-2,25.2
+face 0,1,2,3
+
+[texture]
+load ..\textures\concrete.bmp
+coordinates 0,0,5
+coordinates 1,0,0
+coordinates 2,5,0
+coordinates 3,5,5
+
+[meshbuilder]
+vertex -2.6,-0.2,-0.2
+vertex -5,-2,-0.2
+vertex -5,-2,25.2
+vertex -2.6,-0.2,25.2
+face 0,1,2,3
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+[meshbuilder]
+Vertex -4.5,-2,0
+Vertex -4.5,0.2,0
+Vertex -4,0.2,25
+Vertex -4,-2,25
+Face 0,1,2,3
+
+[texture]
+load ..\plants\eptree1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,3,0
+Coordinates 3,3,1
+Transparent 0,0,255
+
+
+
+;author=Lemontea(original),smace(modifier)
+;description=25 meter cylinder supporting wire net(as wall)
+;copyright=Open Source
+
+
+[MESHBUILDER]
+vertex -5,-2,-.5
+Vertex -5,0,-.5
+Vertex -5,0,25.5
+Vertex -5,-2,25.5
+Face2 0,1,2,3
+
+[TEXTURE]
+Load wirenet2.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,10,0
+Coordinates 3,10,1
+Transparent 255,255,255
+
+
+
+[MESHBUILDER]
+vertex -4.9,-0.1,-.5
+Vertex -4.9,0,-.5
+Vertex -4.9,0,25.5
+Vertex -4.9,-0.1,25.5
+Face 0,1,2,3
+color 125,125,125
+
+[MESHBUILDER]
+vertex -4.9,-2,0
+Vertex -4.9,0,0
+Vertex -4.9,0,0.1
+Vertex -4.9,-2,0.1
+Face 0,1,2,3
+color 125,125,125
+
+[MESHBUILDER]
+vertex -4.9,-2,2.4
+Vertex -4.9,0,2.4
+Vertex -4.9,0,2.5
+Vertex -4.9,-2,2.5
+Face 0,1,2,3
+color 125,125,125
+
+[MESHBUILDER]
+vertex -4.9,-2,5
+Vertex -4.9,0,5
+Vertex -4.9,0,5.1
+Vertex -4.9,-2,5.1
+Face 0,1,2,3
+color 125,125,125
+
+[MESHBUILDER]
+vertex -4.9,-2,7.5
+Vertex -4.9,0,7.5
+Vertex -4.9,0,7.6
+Vertex -4.9,-2,7.6
+Face 0,1,2,3
+color 125,125,125
+
+[MESHBUILDER]
+vertex -4.9,-2,10
+Vertex -4.9,0,10
+Vertex -4.9,0,10.1
+Vertex -4.9,-2,10.1
+Face 0,1,2,3
+color 125,125,125
+
+[MESHBUILDER]
+vertex -4.9,-2,12.5
+Vertex -4.9,0,12.5
+Vertex -4.9,0,12.6
+Vertex -4.9,-2,12.6
+Face 0,1,2,3
+color 125,125,125
+
+[MESHBUILDER]
+vertex -4.9,-2,15
+Vertex -4.9,0,15
+Vertex -4.9,0,15.1
+Vertex -4.9,-2,15.1
+Face 0,1,2,3
+color 125,125,125
+
+[MESHBUILDER]
+vertex -4.9,-2,17.5
+Vertex -4.9,0,17.5
+Vertex -4.9,0,17.6
+Vertex -4.9,-2,17.6
+Face 0,1,2,3
+color 125,125,125
+
+[MESHBUILDER]
+vertex -4.9,-2,20
+Vertex -4.9,0,20
+Vertex -4.9,0,20.1
+Vertex -4.9,-2,20.1
+Face 0,1,2,3
+color 125,125,125
+
+[MESHBUILDER]
+vertex -4.9,-2,22.5
+Vertex -4.9,0,22.5
+Vertex -4.9,0,22.6
+Vertex -4.9,-2,22.6
+Face 0,1,2,3
+color 125,125,125

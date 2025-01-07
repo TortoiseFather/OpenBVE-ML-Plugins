@@ -1,0 +1,367 @@
+;author=eezypeazy
+;description=Low Row house
+;copyright=eezypeazy, all rights reserved.For use only in my routes.
+
+;house
+[meshbuilder]
+vertex 8,-0.4,14
+vertex 8,6.3,14
+vertex 8,6.3,10
+vertex 8,-0.4,10
+vertex 7.7,6.3,10
+vertex 7.7,-0.4,10
+vertex 7.7,6.3,8
+vertex 7.7,-0.4,8
+vertex 8,6.3,8
+vertex 8,-0.4,8
+vertex 8,6.3,4
+vertex 8,-0.4,4
+
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 9,8,10,11
+
+[texture]
+load lowrowhousefront.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.4,0
+coordinates 3,0.4,1
+coordinates 4,0.4,0
+coordinates 5,0.4,1
+coordinates 6,0.6,0
+coordinates 7,0.6,1
+coordinates 8,0.6,0
+coordinates 9,0.6,1
+coordinates 10,0.981,0
+coordinates 11,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 8,4.55,14
+vertex 11,6.3,14
+vertex 11,6.3,4
+vertex 8,4.55,4
+vertex 7.7,4.55,8
+vertex 7.7,6,9.05
+vertex 11,6,9.05
+vertex 11,4.55,8
+vertex 8.6,3,4
+vertex 11,4.3,4
+vertex 11,4.3,0
+vertex 8.6,3,0
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+
+[texture]
+load ..\textures\rooftilesold.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,2
+coordinates 4,0,2
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,2
+coordinates 8,0,2
+coordinates 9,0,0
+coordinates 10,1,0
+coordinates 11,1,2
+
+;end wall
+[meshbuilder]
+vertex 8,-0.4,4
+vertex 8,4.55,4
+vertex 11,6.3,4
+vertex 14,4.55,4
+vertex 14,-0.4,4
+face 0,1,3,4
+face 1,2,3
+
+[texture]
+load ..\textures\stonegrey.bmp
+coordinates 0,0,4
+coordinates 1,0,1
+coordinates 2,1,0
+coordinates 3,2,1
+coordinates 4,2,4
+
+;extension - east
+[meshbuilder]
+vertex 8.6,-0.4,17
+vertex 8.6,1.8,17
+vertex 8.6,2.2,14
+vertex 8.6,-0.4,14
+face 0,1,2,3
+
+[texture]
+load ..\textures\stonegrey.bmp
+coordinates 0,0,2
+coordinates 1,0,0.3
+coordinates 2,2,0
+coordinates 3,2,2
+
+;extension west
+[meshbuilder]
+vertex 8.6,-0.4,4
+vertex 8.6,3,4
+vertex 8.6,3,0
+vertex 8.6,-0.4,0
+vertex 11,4.3,0
+vertex 13.4,3,0
+vertex 13.4,-0.4,0
+face 0,1,2,3
+face 3,2,5,6
+face 2,4,5
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,3
+coordinates 1,0,1
+coordinates 2,2,1
+coordinates 3,2,3
+coordinates 4,3,0
+coordinates 5,4,1
+coordinates 6,4,3
+
+[meshbuilder]
+vertex 8.55,2.7,4
+vertex 8.55,3,4
+vertex 8.55,3,0
+vertex 8.55,2.7,0
+face 0,1,2,3
+color 88,195,235
+
+;windows
+[meshbuilder]
+vertex 8.55,1.4,3.4
+vertex 8.55,2.7,3.4
+vertex 8.55,2.7,2.6
+vertex 8.55,1.4,2.6
+vertex 8.55,1.4,1.4
+vertex 8.55,2.7,1.4
+vertex 8.55,2.7,0.6
+vertex 8.55,1.4,0.6
+vertex 9.3,1.4,-0.06
+vertex 9.3,2.7,-0.06
+vertex 10.1,2.7,-0.06
+vertex 10.1,1.4,-0.06
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+
+[texture]
+load ..\platforms\corbwindowup.bmp
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,1,1
+coordinates 3,1,0
+coordinates 4,0,0
+coordinates 5,0,1
+coordinates 6,1,1
+coordinates 7,1,0
+coordinates 8,0,0
+coordinates 9,0,1
+coordinates 10,1,1
+coordinates 11,1,0
+
+[meshbuilder]
+vertex 13,-0.4,-0.5
+vertex 13,2,-0.5
+vertex 26,1.4,-0.5
+vertex 26,-0.4,-0.5
+face 0,1,2,3
+
+[texture]
+load ..\walls\oldstonewall.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,1
+
+[meshbuilder]
+vertex 13,1,0
+vertex 13,4,0
+vertex 19,4,0
+vertex 19,1,0
+face 0,1,2,3
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,0.7
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,0.5
+transparent 0,0,255
+
+;chimney stacks - brick
+[meshbuilder]
+vertex 10.3,5.3,4.6
+vertex 10.3,7.5,4.6
+vertex 10.3,7.5,4.05
+vertex 10.3,5.3,4.05
+vertex 11.7,7.5,4.05
+vertex 11.7,5.3,4.05
+vertex 10.6,3.3,0.4
+vertex 10.6,5.3,0.4
+vertex 10.6,5.3,0.05
+vertex 10.6,3.3,0.05
+vertex 11.4,5.3,0.05
+vertex 11.4,3.3,0.05
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+face 9,8,10,11
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,1.3
+coordinates 1,0,0
+coordinates 2,0.3,0
+coordinates 3,0.3,1.3
+coordinates 4,1,0
+coordinates 5,1,1.3
+coordinates 6,0,1.3
+coordinates 7,0,0
+coordinates 8,0.3,0
+coordinates 9,0.3,1.3
+coordinates 10,1,0
+coordinates 11,1,1.3
+
+;chimney stacks - stone
+[meshbuilder]
+vertex 10.3,5.3,14
+vertex 10.3,7.5,14
+vertex 10.3,7.5,13.45
+vertex 10.3,5.3,13.45
+vertex 11.7,7.5,13.45
+vertex 11.7,5.3,13.45
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\textures\stonegrey.bmp
+coordinates 0,0,1.3
+coordinates 1,0,0
+coordinates 2,0.3,0
+coordinates 3,0.3,1.3
+coordinates 4,1,0
+coordinates 5,1,1.3
+
+;chimney pots
+[meshbuilder]
+cylinder 5,0.17,0.2,0.8
+color 199,169,0
+translate 10.6,7.8,4.25
+
+[meshbuilder]
+cylinder 5,0.17,0.2,0.8
+color 199,169,0
+translate 11.4,7.8,4.25
+
+[meshbuilder]
+cylinder 5,0.17,0.2,0.8
+color 199,169,0
+translate 11,5.5,0.25
+
+;fences and walls
+[meshbuilder]
+vertex 17,-0.4,25
+vertex 17,1.4,25
+vertex 7,1.4,25
+vertex 7,-0.4,25
+vertex 7,1.4,6
+vertex 7,-0.4,6
+vertex 6,1.4,6
+vertex 6,-0.4,6
+vertex 6,1.4,-0.5
+vertex 6,-0.4,-0.5
+vertex 13,1.4,-0.5
+vertex 13,-0.4,-0.5
+face 3,2,1,0
+face 3,2,4,5
+face 7,6,4,5
+face 7,6,8,9
+face 9,8,10,11
+color 200,222,200
+
+[texture]
+load ..\fences\whitepicket.bmp
+coordinates 0,0.15,1
+coordinates 1,0.15,0
+coordinates 2,7,0
+coordinates 3,7,1
+coordinates 4,28,0
+coordinates 5,28,1
+coordinates 6,30,0
+coordinates 7,30,1
+coordinates 8,36,0
+coordinates 9,36,1
+coordinates 10,43,0
+coordinates 11,43,1
+transparent 0,0,255
+
+;grounds
+[meshbuilder]
+vertex 6,-0.4,25
+vertex 9,-0.4,25
+vertex 9,-0.4,-0.5
+vertex 6,-0.4,-0.5
+face 0,1,2,3
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+
+[meshbuilder]
+vertex 9,-0.4,25
+vertex 17,0,25
+vertex 17,0,17
+vertex 9,-0.4,17
+vertex 9,-0.4,0
+vertex 14,0,0
+vertex 14,-0.4,-0.5
+vertex 9,-0.4,-0.5
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+
+[meshbuilder]
+vertex 6.8,-0.4,14
+vertex 6.8,1.4,14
+vertex 6.9,1.4,6
+vertex 6.9,-0.4,5
+vertex 7,-1,25
+vertex 7,4,25
+vertex 17,4,25
+vertex 17,-1,25
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,0.7,1
+transparent 0,0,255

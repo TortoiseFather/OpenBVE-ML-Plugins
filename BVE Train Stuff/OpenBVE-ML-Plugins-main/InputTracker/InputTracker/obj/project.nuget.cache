@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "scd8Pz/RD7XBVQ1Cohm46N5avKpujEIFBi1IVHYG0M8XiuoCf+tbNLb1b+2sqEXU6LJk3RLhwoJjt5y85LbegQ==",
+  "success": true,
+  "projectFilePath": "D:\\Work\\BVE Train Stuff\\OpenBVE-ML-Plugins-main\\InputTracker\\InputTracker\\InputTracker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jh3556\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

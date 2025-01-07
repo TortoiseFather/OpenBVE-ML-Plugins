@@ -1,0 +1,138 @@
+;description=Vauxhall/Opel Zafira
+;author=eezypeazy
+;copyright=eezypeazy 2005; you may use freely in BVE routes
+
+;lh side
+[meshBuilder]
+vertex 0,0,0
+vertex -0.1,0.7,0
+vertex -0.1,0.9,0
+vertex -0.42,1.72,0
+vertex -0.42,1.72,4.317
+vertex -0.1,0.9,4.317
+vertex -0.1,0.7,4.317
+vertex 0,0,4.317
+face 0,1,6,7
+face 1,2,5,6
+face 2,3,4,5
+
+[Texture]
+load zafiraside.bmp
+coordinates 0,0,1
+coordinates 1,0,0.66
+coordinates 2,0,0.55
+coordinates 3,0,0
+coordinates 4,1,0
+coordinates 5,1,0.55
+coordinates 6,1,0.66
+coordinates 7,1,1
+transparent 0,0,255
+
+;rh side
+[meshBuilder]
+vertex -1.742,0,0
+vertex -1.66,0.7,0
+vertex -1.66,0.9,0
+vertex -1.342,1.7,0
+vertex -1.342,1.7,4.317
+vertex -1.66,0.9,4.317
+vertex -1.66,0.7,4.317
+vertex -1.742,0,4.317
+face2 7,6,1,0
+face2 6,5,2,1
+face2 5,4,3,2
+
+[Texture]
+load zafiraside.bmp
+coordinates 0,0,1
+coordinates 1,0,0.66
+coordinates 2,0,0.55
+coordinates 3,0,0
+coordinates 4,1,0
+coordinates 5,1,0.55
+coordinates 6,1,0.66
+coordinates 7,1,1
+transparent 0,0,255
+
+
+;front
+[meshbuilder]
+vertex -1.742,0,0.8
+vertex -1.742,0.6,0
+vertex -1.742,0.94,0.02
+vertex -1.742,1.1,0.3
+vertex -1.742,1.23,0.7
+vertex -1.742,1.7,2
+vertex 0,1.7,2
+vertex 0,1.23,0.7
+vertex 0,1.1,0.3
+vertex 0,0.94,0.02
+vertex 0,0.6,0
+vertex 0,0,0.8
+face 0,1,10,11
+face 1,2,9,10
+face 2,3,8,9
+face 3,4,7,8
+face 4,5,6,7
+
+[texture]
+load zafirafront.bmp
+coordinates 0,0,1
+coordinates 1,0,0.75
+coordinates 2,0,0.59
+coordinates 3,0,0.43
+coordinates 4,0,0.28
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,0.28
+coordinates 8,1,0.43
+coordinates 9,1,0.59
+coordinates 10,1,0.75
+coordinates 11,1,1
+transparent 0,0,255
+
+;rear
+[meshbuilder]
+vertex 0,0,3.6
+vertex 0,0.4,4
+vertex 0,0.4,4.3
+vertex 0,1.02,4.3
+vertex 0,1.7,3.9
+vertex -1.742,1.7,3.9
+vertex -1.742,1.02,4.3
+vertex -1.742,0.4,4.3
+vertex -1.742,0.4,4
+vertex -1.742,0,3.6
+face 0,1,8,9
+face 1,2,7,8
+face 2,3,6,7
+face 3,4,5,6
+
+[texture]
+load zafiraback.bmp
+coordinates 0,0,1
+coordinates 1,0,0.8
+coordinates 2,0,0.88
+coordinates 3,0,0.44
+coordinates 4,0,0
+coordinates 5,1,0
+coordinates 6,1,0.44
+coordinates 7,1,0.88
+coordinates 8,1,0.8
+coordinates 9,1,1
+transparent 0,0,255
+
+;top
+[meshbuilder]
+vertex -0.4,1.69,2
+vertex -1.33,1.69,2
+vertex -1.36,1.63,4
+vertex -0.39,1.63,4
+face 0,1,2,3
+
+[texture]
+load zafiratop.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,1

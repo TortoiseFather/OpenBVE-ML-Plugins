@@ -1,0 +1,18 @@
+;author=eezypeazy
+;description=Female cyclist
+;copyright=eezypeazy 2009, all rights reserved. You may use this object in your BVE and openBVE routes. Visit www.eezypeazy.co.uk
+
+[meshbuilder]
+vertex -1,0,0
+vertex -1,2,0
+vertex 0,2,1.5
+vertex 0,0,1.5
+face2 0,1,2,3
+
+[texture]
+load cyclistF.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255

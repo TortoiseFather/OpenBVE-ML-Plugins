@@ -1,0 +1,95 @@
+;author=eezypeazy
+;description=wide cutting with a stone wall omitted to 7m e of stocksfield right hand side only
+;copyright=eezypeazy 2007, all rights reserved, contact eezypeazy@eezypeazy.co.uk.
+
+;additional grass
+[meshbuilder]
+vertex -29,6,-0.4
+vertex -29,6,25.4
+vertex -9,6,25.4
+vertex -9,6,-0.4
+vertex 12,6,-0.4
+vertex 12,6,25.5
+vertex 32,6,25.5
+vertex 32,6,-0.4
+;face 0,1,2,3
+face 4,5,6,7
+translate -4,0,0
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,3
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,3
+coordinates 4,0,3
+coordinates 5,0,0
+coordinates 6,3,0
+coordinates 7,3,3
+
+
+[MeshBuilder]
+Vertex 2.1,-0.55,-0.2
+vertex -2.45,-0.55,-0.2
+vertex -3.6,-0.2,-0.2
+Vertex -8.05,4,-0.4
+Vertex -9.05,6,-0.4
+vertex -9.05,7.4,-0.4
+Vertex -9,7.4,25.4
+vertex -9,6,25.4
+vertex -8,4,25.4
+vertex -3.55,-0.2,25.4
+vertex -2.4,-0.55,25.4
+vertex 2.1,-0.55,25.4
+Vertex 2,-0.5,-0.2
+vertex 6.2,-0.4,-0.2
+vertex 7.45,-0.4,-0.2
+Vertex 11,4,-0.4
+Vertex 12,6,-0.5
+vertex 12,7.4,-0.5
+Vertex 12,7.4,25.2
+vertex 12,6,25.2
+vertex 11,4,25.2
+vertex 7.4,-0.5,25.5
+vertex 6.2,-0.5,25.5
+vertex 2,-0.5,25.5
+;Face 0,1,10,11
+;face 1,2,9,10
+;face 2,3,8,9
+;face 3,4,7,8
+;face2 4,5,6,7
+face 23,22,13,12
+face 22,21,14,13
+face 21,20,15,14
+face 20,19,16,15
+face2 19,18,17,16
+translate -4,0,0
+
+[Texture]
+Load cutting.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.72
+Coordinates 2, 0, 0.7
+Coordinates 3, 0, 0.5
+Coordinates 4, 0, 0.12
+Coordinates 5, 0, 0
+Coordinates 6, 1, 0
+Coordinates 7, 1, 0.12
+Coordinates 8, 1, 0.5
+Coordinates 9, 1, 0.7
+Coordinates 10,1, 0.72
+Coordinates 11,1, 1
+Coordinates 12, 0, 1
+Coordinates 13, 0, 0.72
+Coordinates 14, 0, 0.7
+Coordinates 15, 0, 0.5
+Coordinates 16, 0, 0.12
+Coordinates 17, 0, 0
+Coordinates 18, 1, 0
+Coordinates 19, 1, 0.12
+Coordinates 20, 1, 0.5
+Coordinates 21, 1, 0.7
+Coordinates 22, 1,0.72
+coordinates 23,1,1
+transparent 0,0,255
+

@@ -1,0 +1,23 @@
+;author=eezypeazy
+;description=Stop sign
+;copyright=eezypeazy, all rights reserved, contact eezypeazy@aol.com
+
+[MeshBuilder]
+Vertex -3.96, 3.75,0
+Vertex -3.96, 4,0
+Vertex -3.71, 4,0
+Vertex -3.71, 3.75,0
+Face 0, 1, 2, 3
+
+[Texture]
+Load stop.BMP
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0, 0, 255
+
+[MeshBuilder]      
+cylinder 6,0.04,0.04,4
+translate -4,2,0
+color 144,144,144

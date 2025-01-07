@@ -1,0 +1,136 @@
+;author=eezypeazy
+;description= platform pt 1 the start
+;copyright=eezypeazy, all rights reserved
+
+;rh side
+[MeshBuilder]
+Vertex 5.8,-0.2,-0.2
+Vertex 5.8,-0.2,-0.2
+Vertex 9.8,-0.2, -0.2
+Vertex 9.8,1.1,4
+Vertex 5.8,1.1,4
+Vertex 5.8,-0.2,4
+vertex 9.8,1.1,25.2
+vertex 5.8,-0.2,25.2
+vertex 5.8,1.1,25.2
+;to change to unused, change 6.8 to 5.8
+vertex 6.8,-0.2,-0.2
+vertex 6.8,1.1,4
+vertex 6.8,1.1,25.2
+
+face 5,4,1,0 
+face 4,10,9,1
+face 10,3,2,9
+face 8,11,10,4
+face 11,6,3,10
+face 7,8,4,5
+
+[Texture]
+Load corbridgen.bmp
+Coordinates 0, 4, 1
+Coordinates 1, 4, 0.55
+Coordinates 2, 4, 0.28
+Coordinates 3,3, 0.28
+Coordinates 4,3, 0.55
+Coordinates 5,3, 1
+Coordinates 6,0, 0.28
+Coordinates 7,0,1
+Coordinates 8,0,0.55
+coordinates 9,4,0.45
+coordinates 10,3,0.45
+coordinates 11,0,0.45
+
+;rh platform fence
+
+[meshbuilder]
+vertex 9.8,1.1,25
+vertex 9.8,2.7,25
+vertex 9.8,2.7,4
+vertex 9.8,1.1,4
+vertex 9.8,1.7,-0.3
+vertex 9.8,-0.25,-0.3
+vertex 9.8,1.7,-3.3
+vertex 9.8,-0.25,-3.3
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+
+[texture]
+load ..\fences\diagonal.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,12,0
+coordinates 3,12,1
+coordinates 4,14,0
+coordinates 5,14,1
+coordinates 6,16,0
+coordinates 7,16,1
+transparent 0,0,255
+
+;bushes
+[meshbuilder]
+vertex 10,1,19
+vertex 10,3.5,19
+vertex 10.3,3.5,-3
+vertex 10.3,0,-3
+vertex 20,3.5,-3.1
+vertex 20,-0.3,-3.1
+vertex -16,0,-2
+vertex -16,7,-2
+vertex -11,7,6
+vertex -12,0,2
+vertex -16,0,8
+vertex -16,7,8
+vertex -11,7,18
+vertex -12,0,25
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+face 10,11,12,13
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,1,0.2
+coordinates 1,0,0.2
+coordinates 2,0,0.8
+coordinates 3,0.6,0.8
+coordinates 4,0,1
+coordinates 5,0.6,1
+coordinates 6,1,0
+coordinates 7,0,0
+coordinates 8,0,1
+coordinates 9,0.7,1
+coordinates 10,1,0
+coordinates 11,0,0
+coordinates 12,0,1
+coordinates 13,0.7,1
+transparent 0,0,255
+
+;wall
+[meshbuilder]
+vertex 9.8,-0.2,-3.3
+vertex 9.8,1.3,-3.3
+vertex 19,1.3,-3.3
+vertex 19,-0.2,-3.3
+vertex -19,-0.2,-3.3
+vertex -19,1.3,-3.3
+vertex -12,1.3,-3.3
+vertex -12,-0.2,-3.3
+vertex -12,1.3,24
+vertex -12,-0.2,24
+face 0,1,2,3
+face 4,5,6,7
+face 7,6,8,9
+
+[texture]
+load ..\walls\stone.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,3,0
+coordinates 7,3,1
+coordinates 8,12,0
+coordinates 9,12,1

@@ -1,0 +1,62 @@
+;author=eezypeazy
+;description=A building in Gateshead, Tyne and Wear
+;copyright=eezypeazy 2009. For use only in my routes
+
+[meshbuilder]
+vertex -10,0,0
+vertex -10,9,0
+vertex -9.1,9,-2.5
+vertex -9.1,0,-2.5
+vertex -7.6,9,-4.7
+vertex -7.6,0,-4.7
+vertex -5.4,9,-6.5
+vertex -5.4,0,-6.5
+vertex -3,9,-7.5
+vertex -3,0,-7.6
+vertex 0,9,-8
+vertex 0,0,-8
+vertex 3,9,-7.5
+vertex 3,0,-7.5
+vertex 5.4,9,-6.5
+vertex 5.4,0,-6.5
+vertex 7.6,9,-4.7
+vertex 7.6,0,-4.7
+vertex 9.1,9,-2.5
+vertex 9.1,0,-2.5
+vertex 10,9,0
+vertex 10,0,0
+face 0,1,2,3 
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 9,8,10,11
+face 11,10,12,13
+face 13,12,14,15
+face 15,14,16,17
+face 17,16,18,19
+face 19,18,20,21
+
+[texture]
+load ghdbldgslice2.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.5,0
+coordinates 3,0.5,1
+coordinates 4,1,0
+coordinates 5,1,1
+coordinates 6,1.5,0
+coordinates 7,1.5,1
+coordinates 8,2,0
+coordinates 9,2,1
+coordinates 10,2.5,0
+coordinates 11,2.5,1
+coordinates 12,3,0
+coordinates 13,3,1
+coordinates 14,3.5,0
+coordinates 15,3.5,1
+coordinates 16,4,0
+coordinates 17,4,1
+coordinates 18,4.5,0
+coordinates 19,4.5,1
+coordinates 20,5,0
+coordinates 21,5,1

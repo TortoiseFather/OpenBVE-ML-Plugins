@@ -1,0 +1,100 @@
+;author=eezypeazy
+;description=cutting with a stone wall to 7m e of stocksfield, ends
+;copyright=eezypeazy 2005, all rights reserved, contact eezypeazy@blueyonder.co.uk
+
+
+[meshbuilder]
+vertex -5,0,20
+vertex -5,6,20
+vertex -2,6,27
+vertex -1.6,0,27
+vertex 10,0,18
+vertex 10,6,18
+vertex 6,6,26
+vertex 6,0,26
+
+face 0,1,2,3
+face 7,6,5,4
+color 156,156,156
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,0.7,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,0.7,1
+transparent 0,0,255
+
+[MeshBuilder]
+Vertex -2.2,-0.2,-0.2
+vertex -2.4,2,-0.2
+vertex -2.7,1.8,-0.2
+Vertex -4,4,-0.2
+Vertex -5,6,-0.2
+vertex -5,7,-0.2
+
+Vertex -7,4,25.2
+vertex -7,3,25.2
+vertex -5,2,25.2
+vertex -2.7,0,25.5
+vertex -2.4,0,25.5
+vertex -2.2,-0.2,25.5
+
+Vertex 6,-0.3,-0.2
+vertex 6.2,2,-0.2
+vertex 6.7,1.8,-0.2
+Vertex 8,4,-0.2
+Vertex 9,6,-0.2
+vertex 9,7,-0.2
+
+Vertex 11,4,25.2
+vertex 11,3,25.2
+vertex 10,2,25.2
+vertex 6.7,0,25.5
+vertex 6.2,0,25.5
+vertex 6,-0.3,25.5
+
+Face 0,1,10,11
+face 1,2,9,10
+face 2,3,8,9
+face 3,4,7,8
+face 4,5,6,7
+
+Face 23,22,13,12
+face 22,21,14,13
+face 21,20,15,14
+face 20,19,16,15
+face 19,18,17,16
+
+
+[Texture]
+Load cutting.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.72
+Coordinates 2, 0, 0.7
+Coordinates 3, 0, 0.5
+Coordinates 4, 0, 0.12
+Coordinates 5, 0, 0
+Coordinates 6, 1, 0
+Coordinates 7, 1, 0.12
+Coordinates 8, 1, 0.5
+Coordinates 9, 1, 0.7
+Coordinates 10,1, 0.72
+Coordinates 11,1, 1
+Coordinates 12, 0, 1
+Coordinates 13, 0, 0.72
+Coordinates 14, 0, 0.7
+Coordinates 15, 0, 0.5
+Coordinates 16, 0, 0.12
+Coordinates 17, 0, 0
+Coordinates 18, 1, 0
+Coordinates 19, 1, 0.12
+Coordinates 20, 1, 0.5
+Coordinates 21, 1, 0.7
+Coordinates 22, 1,0.72
+coordinates 23,1,1
+transparent 0,0,255

@@ -1,0 +1,39 @@
+;author=eezypeazy
+;description=TSR ends sign
+;copyright=OpenSource, you may freely use in BVE routes, but please credit eezypeazy@eezypeazy.co.uk
+
+[meshbuilder]
+vertex -1.95,1.55,0
+vertex -1.25,1.55,0
+vertex -1.25,0.9,0
+vertex -1.95,0.9,0
+;face2 0,1,2,3
+color 255,255,0
+
+[meshbuilder]
+vertex -1.95, 0.9,-0.05
+vertex -1.95,1.55,-0.05
+vertex -1.25,1.55,-0.05
+vertex -1.25,0.9,-0.05
+face 0,1,2,3
+
+[texture]
+load t.bmp
+coordinates 0,0,1 
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+
+[meshbuilder]
+vertex -1.95, 0.9,-0.05
+vertex -1.95,1.55,-0.05
+vertex -1.25,1.55,-0.05
+vertex -1.25,0.9,-0.05
+face 3,2,1,0
+color 255,255,0
+
+[meshbuilder]
+cylinder 6,0.02,0.02,1.1
+translate -1.6,0.38,0
+color 255,255,0

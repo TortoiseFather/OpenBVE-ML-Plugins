@@ -1,0 +1,23 @@
+;author=eezypeazy
+;description=Newcastle Keep
+;copyright=eezypeazy 2009, all rights reserved. For use in my BVE routes only
+
+[meshbuilder]
+vertex -19,-5,0
+vertex -19,20,0
+vertex 0,20,0
+vertex 0,-5,0
+vertex 0,20,19
+vertex 0,-5,19
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load keep.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.98,0
+coordinates 3,0.98,1
+coordinates 4,0,0
+coordinates 5,0,1
+transparent 0,0,255

@@ -1,0 +1,303 @@
+;author=eezypeazy
+;description=fields r h side, for snapping to left
+;copyright=eezypeazy, all rights reserved, contact eezypeazy@eezypeazy.co.uk. Includes some RouteBuilder bitmaps
+
+
+;lh side
+
+;lane
+[meshbuilder]
+vertex -5,0,-0.1
+vertex -8,0.1,-0.1
+vertex -8,0.1,25.1
+vertex -5,0,25.1
+face 0,1,2,3
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+
+
+;lh grass
+[meshbuilder]
+vertex -2.4,-0.4,-0.1
+vertex -5,0,-0.1
+vertex -5,0,25.1
+vertex -2.4,-0.4,25.1
+face 0,1,2,3
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+
+[meshbuilder]
+vertex -8,0,-0.1
+vertex -8,2.6,-0.1
+vertex -8,2.6,25.1
+vertex -8,0,25.1
+face 0,1,2,3
+
+[texture]
+load ..\textures\hedge.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+transparent 0,0,255
+
+;my forest
+[meshbuilder]
+vertex -10,1,1
+vertex -10,5,1
+vertex -9,5,25
+vertex -9,1,25
+face 0,1,2,3
+color 255,100,123
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -12,1,8
+vertex -12,8,8
+vertex -10,8,25
+vertex -10,1,25
+face 0,1,2,3
+color 0,255,0
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -14,1,-4
+vertex -14,11,-4
+vertex -12,11,25
+vertex -12,1,25
+face 0,1,2,3
+color 255,255,0
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+transparent 0,0,255
+
+;trees
+
+[meshbuilder]
+vertex -5,-0.2,3
+vertex -5,2,3
+vertex -2,2,4
+vertex -2,-0.2,4
+face 0,1,2,3
+color 90,90,90
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[MeshBuilder]
+Vertex -6, 2, 5
+Vertex -6, -0.2, 5
+Vertex -2.5, -0.2, 7
+Vertex -2.5, 2, 7
+Vertex -6, 2, 21
+Vertex -6, -0.2, 21
+Vertex -2.5, -0.2, 21
+Vertex -2.5, 2, 21
+Face 3,2,1,0
+Face 7,6,5,4
+
+[Texture]
+Load ..\plants\eptree1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Coordinates 4,0,0
+Coordinates 5,0,1
+Coordinates 6,1,1
+Coordinates 7,1,0
+Transparent 0, 0, 255
+
+;author=Uwe Post, modified by eezypeazy to reposition the fence -2.5m from track centre
+;description=wood fence
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+;id=154
+
+[MeshBuilder]
+Vertex -2.7, 1, 25
+Vertex -2.7, 1, 0
+Vertex -2.7, -0.3, 0
+Vertex -2.7, -0.3, 25
+Vertex 6.7, 1, 25
+Vertex 6.7, 1, 0
+Vertex 6.7, -0.3, 0
+Vertex 6.7, -0.3, 25
+Face 3,2,1,0
+face 4,5,6,7
+color 133,133,133
+
+[Texture]
+Load ..\fences\woodfence1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 12, 0
+Coordinates 2, 12, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0
+Coordinates 5, 12, 0
+Coordinates 6, 12, 1
+Coordinates 7, 0, 1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -2.36,-0.35,-0.1
+vertex -2.36,-0.25,-0.1
+vertex -2.36,-0.25,25.1
+vertex -2.36,-0.35,25.1
+vertex -2.63,-0.25,-0.1
+vertex -2.63,-0.25,25.1
+face 0,1,2,3
+face 1,4,5,2
+
+[texture]
+load ..\grounds\grass6_cable.bmp
+coordinates 0,0,0.16
+coordinates 1,0,0.82
+coordinates 2,7,0.82
+coordinates 3,7,0.16
+coordinates 4,0,0.2
+coordinates 5,7,0.2
+
+[meshbuilder]
+vertex -2.65,-0.3,12.1
+vertex -2.65,0.5,12.1
+vertex -2.65,0.5,12.8
+vertex -2.65,-0.3,12.8
+vertex -2.65,-0.3,18.3
+vertex -2.65,0.6,18.3
+vertex -2.65,0.6,19
+vertex -2.65,-0.3,19
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\plants\grassh1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;right side
+
+[meshbuilder]
+vertex 5.4,-0.5,-1.1
+vertex 37,4.5,-1.1
+vertex 60,5.1,-1.1
+vertex 60,5.1,25.1
+vertex 37,4.5,25.1
+vertex 5.4,-0.5,25.1
+vertex 14,0.5,-1.1
+vertex 14,0.5,25.1
+
+vertex 5.4,-5,-5
+vertex 14,-5,-5
+vertex 37,-5,-5
+vertex 66,-5,-5
+
+face 5,7,6,0
+face 7,4,1,6
+face 4,3,2,1
+face 8,0,6,9
+face 9,6,1,10
+face 10,1,2,11
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,3,0
+coordinates 4,3,1
+coordinates 5,3,1
+coordinates 6,0,3
+coordinates 7,3,3
+coordinates 8,2,2
+coordinates 9,1,2
+coordinates 10,2,2
+coordinates 11,1,2
+
+[meshbuilder]
+vertex 55,5.1,0
+vertex 55,14,-2
+vertex 55,11,24.1
+vertex 55,5.1,25.1
+face 3,2,1,0
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,5,0
+coordinates 3,5,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 9,-0.1,-0.1
+vertex 9,2,-0.1
+vertex 9.2,2,18
+vertex 9.2,-0.1,18
+vertex 8.7,2,25.1
+vertex 8.7,-0.1,25.1
+face 3,2,1,0
+face 5,4,2,3
+
+[texture]
+load ..\plants\hedge.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1.8,0
+coordinates 3,1.8,1
+coordinates 4,3,0
+coordinates 5,3,1
+transparent 0,0,255

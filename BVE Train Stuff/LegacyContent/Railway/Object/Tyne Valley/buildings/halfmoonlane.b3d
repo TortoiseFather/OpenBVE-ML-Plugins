@@ -1,0 +1,58 @@
+;author=eezypeazy
+;description=building in Half Moon Lane, Gateshead
+;copyright=eezypeazy 2009, all rights reserved
+
+[meshbuilder]
+vertex -33,0,0
+vertex -33,6,0
+vertex 0,6,0
+vertex 0,0,0
+vertex 0,6,4
+vertex 0,0,4
+vertex -15,6,15
+vertex -15,0,15
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+
+[texture]
+load halfmoonlane.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,9,0
+coordinates 3,9,1
+coordinates 4,10,0
+coordinates 5,10,1
+coordinates 6,15,0
+coordinates 7,15,1
+
+[meshbuilder]
+vertex -33,6,0
+vertex -28,9,3
+vertex -5,9,3
+vertex 0,6,0
+vertex 0,6,0
+vertex -5,9,3
+vertex 0,6,4
+vertex 0,6,4
+vertex -5,9,3
+vertex -20,9,14
+vertex -15,6,15
+face 0,1,2,3
+face 4,5,6
+face 7,8,9,10
+color 145,145,145
+
+[texture]
+load ..\textures\rooftiles.bmp
+coordinates 0,0,2
+coordinates 1,0.75,0
+coordinates 2,4.25,0
+coordinates 3,5,2
+coordinates 4,0,2
+coordinates 5,0.5,0
+coordinates 6,1,2
+coordinates 7,0,2
+coordinates 8,0,0
+coordinates 9,1,0
+coordinates 10,1,2

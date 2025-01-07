@@ -1,0 +1,154 @@
+;author=eezypeazy
+;description=haydon bridge left fences, bushes
+;copyright=eezypeazy, all rights reserved
+
+[MeshBuilder]
+cube 0.1,0.75,0.1
+color 177,177,177
+translate -5.8,1.75,0
+
+[meshbuilder]
+cylinder 8,0.1,0.1,0.2
+color 177,177,177
+rotate 1,0,0,90
+translate -5.8,2.5,0
+
+[MeshBuilder]
+cube 0.1,0.75,0.1
+color 177,177,177
+translate -5.8,1.75,2.5
+
+[meshbuilder]
+cylinder 8,0.1,0.1,0.2
+color 177,177,177
+rotate 1,0,0,90
+translate -5.8,2.5,2.5
+
+[MeshBuilder]
+cube 0.1,0.75,0.1
+color 177,177,177
+translate -5.8,1.75,5
+
+[meshbuilder]
+cylinder 8,0.1,0.1,0.2
+color 177,177,177
+rotate 1,0,0,90
+translate -5.8,2.5,5
+
+[MeshBuilder]
+cube 0.1,0.75,0.1
+color 177,177,177
+translate -5.8,1.75,7.5
+
+[meshbuilder]
+cylinder 8,0.1,0.1,0.2
+color 177,177,177
+rotate 1,0,0,90
+translate -5.8,2.5,7.5
+
+[MeshBuilder]
+cube 0.1,0.75,0.1
+color 177,177,177
+translate -5.8,1.75,10
+
+[meshbuilder]
+cylinder 8,0.1,0.1,0.2
+color 177,177,177
+rotate 1,0,0,90
+translate -5.8,2.5,10
+[MeshBuilder]
+cube 0.1,0.75,0.1
+color 177,177,177
+translate -5.8,1.75,12.5
+
+[meshbuilder]
+cylinder 8,0.1,0.1,0.2
+color 177,177,177
+rotate 1,0,0,90
+translate -5.8,2.5,12.5
+
+[MeshBuilder]
+cube 0.1,0.75,0.1
+color 177,177,177
+translate -5.8,1.75,15
+
+[meshbuilder]
+cylinder 8,0.1,0.1,0.2
+color 177,177,177
+rotate 1,0,0,90
+translate -5.8,2.5,15
+
+[MeshBuilder]
+cube 0.1,0.75,0.1
+color 177,177,177
+translate -5.8,1.75,17.5
+
+[meshbuilder]
+cylinder 8,0.1,0.1,0.2
+color 177,177,177
+rotate 1,0,0,90
+translate -5.8,2.5,17.5
+
+[MeshBuilder]
+cube 0.1,0.75,0.1
+color 177,177,177
+translate -5.8,1.75,20
+
+[meshbuilder]
+cylinder 8,0.1,0.1,0.2
+color 177,177,177
+rotate 1,0,0,90
+translate -5.8,2.5,20
+
+[MeshBuilder]
+cube 0.1,0.75,0.1
+color 177,177,177
+translate -5.8,1.75,22.5
+
+[meshbuilder]
+cylinder 8,0.1,0.1,0.2
+color 177,177,177
+rotate 1,0,0,90
+translate -5.8,2.5,22.5
+
+[meshbuilder]
+cylinder 5,0.05,0.05,25
+color 50,150,255
+rotate 1,0,0,90
+translate -5.8,1.95,12.5
+
+[meshbuilder]
+cylinder 5,0.05,0.05,25
+color 50,150,255
+rotate 1,0,0,90
+translate -5.8,2.4,12.5
+
+[meshbuilder]
+cylinder 5,0.05,0.05,25
+color 50,150,255
+rotate 1,0,0,90
+translate -5.8,1.5,12.5
+
+[meshbuilder]
+vertex -6.2,1,0 
+vertex -6.2,3.5,0
+vertex -6,3.5,24
+vertex -6,1,25
+vertex -6.5,1,1
+vertex -6.5,6,1
+vertex -6.3,6,24
+vertex -6.3,1,24
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0.1,0.9
+coordinates 1,0.1,0.1
+coordinates 2,0.9,0.1
+coordinates 3,0.9,0.9
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,3,0
+coordinates 7,3,1
+transparent 0,0,255

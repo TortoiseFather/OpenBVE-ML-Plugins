@@ -1,0 +1,76 @@
+;author=eezypeazy
+;description=bushes trees right
+;copyright=eezypeazy, all rights reserved.
+
+[meshbuilder]
+vertex 7,-0.3,-0.1
+vertex 10,1.4,-0.1
+vertex 10,1.4,12.5
+vertex 7,-0.3,12.5
+vertex 10,1.4,21.2
+vertex 7,-0.3,21.2
+vertex 10,-0.3,-0.1
+face 3,2,1,0
+face 5,4,2,3
+face 0,1,6
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0.5,0.9
+coordinates 1,0.4,0.2
+coordinates 2,0.1,0.2
+coordinates 3,0.1,0.8
+coordinates 4,0.5,0.2
+coordinates 5,0.4,0.8
+coordinates 6,0.6,0.7
+transparent 0,0,255
+
+[meshbuilder]
+vertex 11,1,0
+vertex 11,8,0
+vertex 11,8,24
+vertex 11,1,26
+face 3,2,1,0
+color 155,155,155
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 10,0,-3
+vertex 10,4,-3
+vertex 8,4,22
+vertex 8,0,24
+vertex 7,-0.4,-2.5
+vertex 7,2,-2.5
+vertex 6.8,1.4,-0.2
+vertex 6.8,-0.4,-0.2
+vertex 6.8,1.8,12.5
+vertex 6.8,-0.4,12.5
+vertex 6.8,1.4,21.2
+vertex 6.8,-0.4,21.2
+face 3,2,1,0
+face 7,6,5,4
+face 9,8,6,7
+face 11,10,8,9
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,4,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,0.2,0
+coordinates 7,0.2,1
+coordinates 8,0.8,0
+coordinates 9,0.45,1
+coordinates 10,0.2,0
+coordinates 11,0.2,1
+transparent 0,0,255

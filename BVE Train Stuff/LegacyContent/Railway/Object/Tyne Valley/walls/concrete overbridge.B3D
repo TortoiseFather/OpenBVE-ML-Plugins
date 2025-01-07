@@ -1,0 +1,25 @@
+;author=eezypeazy
+;description=simple concrete overbridge, no piers
+;copyright=eezypeazy 2005, uses RouteBuilder library bitmap, goto routebuilder.bve-routes.com
+
+[MeshBuilder]
+Vertex -25,7.4,0
+Vertex -25,9,0
+Vertex 30,9,0
+Vertex 30,7.4,0
+Face 0,1,2,3
+
+[Texture]
+Load Concrete.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0,0
+Coordinates 2, 5, 0
+Coordinates 3, 5, 1
+
+[meshbuilder]
+vertex -25,7.4,0
+vertex -25,7.4,8
+vertex 30,7.4,8
+vertex 30,7.4,0
+face 3,2,1,0
+color 91,91,91

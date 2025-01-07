@@ -1,0 +1,23 @@
+;description=concrete ground, 55m either side
+;author=eezypeazy
+;copyright=eezypeazy 2009, visit www.eezypeazy.co.uk
+
+[meshbuilder]
+vertex 66,-0.43,-0.2
+vertex 0,-0.43,-0.2
+vertex 0,-0.4,25.1
+vertex 66,-0.4,25.1
+vertex -55,-0.43,-0.2
+vertex -55,-0.4,25.1
+face 0,1,2,3
+face 1,4,5,2
+color 122,122,122
+
+[texture]
+load ..\textures\concrete.bmp
+coordinates 0,0,8
+coordinates 1,0,4
+coordinates 2,4,4
+coordinates 3,4,8
+coordinates 4,0,0
+coordinates 5,4,0

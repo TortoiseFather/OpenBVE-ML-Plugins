@@ -1,0 +1,498 @@
+;author=eezypeazy
+;description=The Sage car park, built negatively
+;copyright=eezypeazy 2009 all rights reserved
+
+
+;car park boundary walls
+
+;north - low relief
+
+[meshbuilder]
+vertex -78,-2.7,-75
+vertex -78,1.2,-75
+vertex -78,1.2,0.3
+vertex -78,-2.7,0.3
+face 0,1,2,3
+
+[texture]
+load ..\walls\stoneviaduct.bmp
+coordinates 0,0,1
+coordinates 1,0,0.02
+coordinates 2,6,0.02
+coordinates 3,6,1
+
+;east
+
+[meshbuilder]
+;vertices 0-13
+vertex -78,-5.2,-76
+vertex -78,-2.7,-75.75
+vertex 3.3,-2.7,-76.35
+vertex 3.3,-5.2,-76.6
+vertex -78,1.2,-75.4
+vertex 3.3,1.19,-76
+vertex -78,1.2,-75.2
+vertex 3.3,1.19,-75.8
+vertex -78,1.2,-75
+vertex 3.3,1.19,-75.6
+vertex -78,-2.7,-74.65
+vertex 3.3,-2.7,-75.25
+vertex -78,-5.2,-74.4
+vertex 3.3,-5.2,-75
+
+;vertices 14-17
+vertex 3.3,-5.2,-75.8
+vertex -78,-5.2,-75.2
+vertex -78,-2.7,-75.2
+vertex 3.3,-2.7,-75.8
+
+;vertices 18-31 are 0 to 13 called a second time
+vertex -78,-5.2,-76
+vertex -78,-2.7,-75.75
+vertex 3.3,-2.7,-76.35
+vertex 3.3,-5.2,-76.6
+vertex -78,1.2,-75.4
+vertex 3.3,1.19,-76
+vertex -78,1.2,-75.2
+vertex 3.3,1.19,-75.8
+vertex -78,1.2,-75
+vertex 3.3,1.19,-75.6
+vertex -78,-2.7,-74.65
+vertex 3.3,-2.7,-75.25
+vertex -78,-5.2,-74.4
+vertex 3.3,-5.2,-75
+
+;face 0,1,2,3
+face 1,4,5,2
+face 4,6,7,5
+face 6,8,9,7
+face 8,10,11,9
+face 10,12,13,11
+
+face 21,20,17,14
+face 20,23,25,17
+face 17,25,27,29
+face 14,17,29,31
+translate 0,0,75.5
+
+[texture]
+load ..\walls\stoneviaduct.bmp
+coordinates 0,0,0.45
+coordinates 1,0,1
+coordinates 2,6,1
+coordinates 3,6,0.41
+coordinates 4,0,0.02
+coordinates 5,6,0.02
+coordinates 6,0,0.01
+coordinates 7,6,0.01
+coordinates 8,0,0.02
+coordinates 9,6,0.02
+coordinates 10,0,1
+coordinates 11,6,1
+coordinates 12,0,0.41
+coordinates 13,6,0.41
+
+coordinates 14,0.8975,0.41
+coordinates 15,
+coordinates 16,
+coordinates 17,0.8975,1
+
+coordinates 18,
+coordinates 19,
+coordinates 20,0.88,1
+coordinates 21,0.87,0.41
+coordinates 22,
+coordinates 23,0.89,0.02
+coordinates 24,
+coordinates 25,0.8975,0.02
+coordinates 26,
+coordinates 27,0.89,0.02
+coordinates 28,
+coordinates 29,0.88,1
+coordinates 30,
+coordinates 31,0.87,0.41
+
+
+;ramp wall low relief
+[meshbuilder]
+vertex -78,-5.2,-86
+vertex -78,0,-86
+vertex -15,-3.47,-86
+vertex -15,-5.2,-86
+face 0,1,2,3
+
+[texture]
+load ..\walls\stoneviaduct.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,4.8,0
+coordinates 3,4.8,0.36
+
+;ramp surface and extra surface
+[meshbuilder]
+vertex 3,-4.95,-111
+vertex -15,-4.95,-111
+vertex -15,-4.95,-76
+vertex 3,-4.95,-76
+vertex -15,-4.95,-86
+vertex -78,-1.2,-86
+vertex -78,-1.2,-76
+vertex -15,-4.95,-76
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load sagecoachparkgrey.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+
+;coach park
+
+[meshbuilder]
+vertex -3,-4.9,-111
+vertex -78,-4.9,-111
+vertex -78,-4.9,-86
+vertex -3,-4.9,-86
+face2 0,1,2,3
+
+[texture]
+load sagecoachpark.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+;coach park street lamps
+
+[meshbuilder]
+cylinder 6,0.1,0.1,4.5
+translate -20,-3,-108.4
+color 177,177,177
+
+[meshbuilder]
+cylinder 6,0.08,0.08,5.5
+translate -20,2,-108.4
+color 188,188,188
+
+[meshbuilder]
+cylinder 4,0.07,0.07,5.4
+rotate 0,1,0,45
+rotate 1,0,0,90
+translate -20,4.65,-108.4
+color 188,188,188
+
+[meshbuilder]
+cylinder 9,0.3,0.5,0.22
+translate -20,4.5,-105.9
+color 123,123,123
+
+[meshbuilder]
+cylinder 9,0.3,0.5,0.22
+translate -20,4.5,-110.9
+color 123,123,123
+
+[meshbuilder]
+cylinder 6,0.1,0.1,4.5
+translate -42,-3,-108.4
+color 177,177,177
+
+[meshbuilder]
+cylinder 6,0.08,0.08,5.5
+translate -42,2,-108.4
+color 188,188,188
+
+[meshbuilder]
+cylinder 4,0.07,0.07,5.4
+rotate 0,1,0,45
+rotate 1,0,0,90
+translate -42,4.65,-108.4
+color 188,188,188
+
+[meshbuilder]
+cylinder 9,0.3,0.5,0.22
+translate -42,4.5,-105.9
+color 123,123,123
+
+[meshbuilder]
+cylinder 9,0.3,0.5,0.22
+translate -42,4.5,-110.9
+color 123,123,123
+
+;west wall
+
+[meshbuilder]
+;vertices 0-13
+vertex -78,-5.2,-76
+vertex -78,-2.7,-75.75
+vertex 1.2,-2.7,-77.1
+vertex 1.2,-5.2,-77.35
+vertex -78,1.2,-75.4
+vertex 1.2,1.19,-76.75
+vertex -78,1.2,-75.2
+vertex 1.2,1.19,-76.55
+vertex -78,1.2,-75
+vertex 1.2,1.19,-76.35
+vertex -78,-2.7,-74.65
+vertex 1.2,-2.7,-76
+vertex -78,-5.2,-74.4
+vertex 1.2,-5.2,-75.75
+
+;vertices 14-17
+vertex 1.2,-5.2,-76.55
+vertex -78,-5.2,-75.2
+vertex -78,-2.7,-75.2
+vertex 1.2,-2.7,-76.55
+
+;vertices 18-31 are 0 to 13 called a second time
+vertex -78,-5.2,-76
+vertex -78,-2.7,-75.75
+vertex 1.2,-2.7,-77.1
+vertex 1.2,-5.2,-77.35
+vertex -78,1.2,-75.4
+vertex 1.2,1.19,-76.75
+vertex -78,1.2,-75.2
+vertex 1.2,1.19,-76.55
+vertex -78,1.2,-75
+vertex 1.2,1.19,-76.35
+vertex -78,-2.7,-74.65
+vertex 1.2,-2.7,-76
+vertex -78,-5.2,-74.4
+vertex 1.2,-5.2,-75.75
+
+face 0,1,2,3
+face 1,4,5,2
+face 4,6,7,5
+face 6,8,9,7
+face 8,10,11,9
+;face 10,12,13,11
+
+face 21,20,17,14
+face 20,23,25,17
+face 17,25,27,29
+face 14,17,29,31
+
+[texture]
+load ..\walls\stoneviaduct.bmp
+coordinates 0,0,0.45
+coordinates 1,0,1
+coordinates 2,6,1
+coordinates 3,6,0.41
+coordinates 4,0,0.02
+coordinates 5,6,0.02
+coordinates 6,0,0.01
+coordinates 7,6,0.01
+coordinates 8,0,0.02
+coordinates 9,6,0.02
+coordinates 10,0,1
+coordinates 11,6,1
+coordinates 12,0,0.41
+coordinates 13,6,0.41
+
+coordinates 14,0.8975,0.41
+coordinates 15,
+coordinates 16,
+coordinates 17,0.8975,1
+
+coordinates 18,
+coordinates 19,
+coordinates 20,0.88,1
+coordinates 21,0.87,0.41
+coordinates 22,
+coordinates 23,0.89,0.02
+coordinates 24,
+coordinates 25,0.8975,0.02
+coordinates 26,
+coordinates 27,0.89,0.02
+coordinates 28,
+coordinates 29,0.88,1
+coordinates 30,
+coordinates 31,0.87,0.41
+
+;car park surface
+[meshbuilder]
+vertex -3,0,-76.3
+vertex -78,0,-75
+vertex -78,0,0
+vertex -3,0,0
+face 0,1,2,3
+
+[texture]
+load sagecarparksurface.bmp
+coordinates 0,0,5
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,5
+
+[meshbuilder]
+vertex 1,-0.5,-76.4
+vertex -3,0,-76.4
+vertex -3,0,0
+vertex 3,-0.5,0
+face 0,1,2,3
+
+[texture]
+load ..\walls\cutting.bmp
+coordinates 0,0,0.44
+coordinates 1,0,0.62
+coordinates 2,4,0.62
+coordinates 3,4,0.44
+
+;car park lamps east
+
+[meshbuilder]
+cylinder 6,0.1,0.1,4.5
+translate -5,2,-0.7
+color 177,177,177
+
+[meshbuilder]
+cylinder 6,0.08,0.08,5.5
+translate -5,7,-0.7
+color 188,188,188
+
+[meshbuilder]
+cylinder 4,0.07,0.07,2.7
+rotate 0,1,0,45
+rotate 1,0,0,90
+translate -5,9.65,-1.9
+color 188,188,188
+
+[meshbuilder]
+cylinder 9,0.3,0.5,0.22
+translate -5,9.5,-3.2
+color 123,123,123
+
+[meshbuilder]
+cylinder 6,0.1,0.1,4.5
+translate -37.5,2,-0.5
+color 177,177,177
+
+[meshbuilder]
+cylinder 6,0.08,0.08,5.5
+translate -37.5,7,-0.5
+color 188,188,188
+
+[meshbuilder]
+cylinder 4,0.07,0.07,2.6
+rotate 0,1,0,45
+rotate 1,0,0,90
+translate -37.5,9.65,-1.7
+color 188,188,188
+
+[meshbuilder]
+cylinder 9,0.3,0.5,0.22
+translate -37.5,9.5,-3
+color 123,123,123
+
+[meshbuilder]
+cylinder 6,0.1,0.1,4.5
+translate -70,2,-0.3
+color 177,177,177
+
+[meshbuilder]
+cylinder 6,0.08,0.08,5.5
+translate -70,7,-0.3
+color 188,188,188
+
+[meshbuilder]
+cylinder 4,0.07,0.07,2.7
+rotate 0,1,0,45
+rotate 1,0,0,90
+translate -70,9.65,-1.5
+color 188,188,188
+
+[meshbuilder]
+cylinder 9,0.3,0.5,0.22
+translate -70,9.5,-2.8
+color 123,123,123
+
+;car park lamps west
+
+[meshbuilder]
+cylinder 6,0.1,0.1,4.5
+translate -5,2,-76
+color 177,177,177
+
+[meshbuilder]
+cylinder 6,0.08,0.08,5.5
+translate -5,7,-76
+color 188,188,188
+
+[meshbuilder]
+cylinder 4,0.07,0.07,2.7
+rotate 0,1,0,45
+rotate 1,0,0,90
+translate -5,9.65,-74.8
+color 188,188,188
+
+[meshbuilder]
+cylinder 9,0.3,0.5,0.22
+translate -5,9.5,-73.5
+color 123,123,123
+
+[meshbuilder]
+cylinder 6,0.1,0.1,4.5
+translate -37.5,2,-75.5
+color 177,177,177
+
+[meshbuilder]
+cylinder 6,0.08,0.08,5.5
+translate -37.5,7,-75.5
+color 188,188,188
+
+[meshbuilder]
+cylinder 4,0.07,0.07,2.7
+rotate 0,1,0,45
+rotate 1,0,0,90
+translate -37.5,9.65,-74.3
+color 188,188,188
+
+[meshbuilder]
+cylinder 9,0.3,0.5,0.22
+translate -37.5,9.5,-73
+color 123,123,123
+
+[meshbuilder]
+cylinder 6,0.1,0.1,4.5
+translate -70,2,-74.7
+color 177,177,177
+
+[meshbuilder]
+cylinder 6,0.08,0.08,5.5
+translate -70,7,-74.7
+color 188,188,188
+
+[meshbuilder]
+cylinder 4,0.07,0.07,2.7
+rotate 0,1,0,45
+rotate 1,0,0,90
+translate -70,9.65,-73.5
+color 188,188,188
+
+[meshbuilder]
+cylinder 9,0.3,0.5,0.22
+translate -70,9.5,-72.2
+color 123,123,123
+
+
+;fence
+
+[meshbuilder]
+vertex -2,-0.2,-76.5
+vertex -2,1.5,-76.5
+vertex -2,1.5,-0.3
+vertex -2,-0.2,-0.3
+face 0,1,2,3
+
+[texture]
+load ..\walls\cutting.bmp
+coordinates 0,0,0.14
+coordinates 1,0,0
+coordinates 2,2.9,0
+coordinates 3,2.9,0.14
+transparent 0,0,255

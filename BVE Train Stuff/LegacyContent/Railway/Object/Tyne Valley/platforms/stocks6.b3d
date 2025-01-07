@@ -1,0 +1,71 @@
+;author=eezypeazy
+;description=stocksfield platform section 6
+;copyright=eezypeazy 2009, all rights reserved
+
+;rh side
+[MeshBuilder]
+Vertex 1.8,-0.2,-0.1
+Vertex 1.8,1.1,-0.1
+Vertex 6,1.1, -0.1
+Vertex 6,1.1,25.1
+Vertex 1.8,1.1,25.1
+Vertex 1.8,-0.2,25.1
+vertex 2.8,1.1,-0.1
+vertex 2.8,1.1,25.1
+face 5,4,1,0
+face 4,7,6,1
+face 7,3,2,6
+
+[Texture]
+Load stocks2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.9
+Coordinates 2, 0, 0.835
+Coordinates 3,2, 0.835
+Coordinates 4,2, 0.9
+Coordinates 5,2, 1
+coordinates 6,0,0.865
+coordinates 7,2,0.865
+
+[meshbuilder]
+vertex 5.9,1.1,25
+vertex 5.9,2.7,25
+vertex 5.9,2.7,0
+vertex 5.9,1.1,0
+face 0,1,2,3
+
+[texture]
+load ..\fences\diagonal.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,10,0
+coordinates 3,10,1
+transparent 0,0,255
+
+; lamp rh side
+[meshbuilder]
+cylinder 6,0.15,0.15,2
+translate 5.6,0.71,0.1
+color 50,150,255
+
+[meshbuilder]
+cylinder 6,0.11,0.11,9
+translate 5.6,5.5,0.1
+color 255,255,177
+
+[meshbuilder]
+vertex 8.8,10,-0.25
+vertex 8.8,9.8,-0.25
+vertex 7.95,10.1,0.45
+vertex 7.95,9.9,0.45
+vertex 8.8,9.8,-0.25
+vertex 8.8,10,-0.25
+vertex 7.95,10.1,-0.25
+vertex 7.95,9.9,0.45
+face 3,2,1,0
+face 7,6,2,3
+face 4,5,6,7
+face 2,6,5,1
+face 4,7,3,0
+color 50,50,50
+translate -3.3,0,0

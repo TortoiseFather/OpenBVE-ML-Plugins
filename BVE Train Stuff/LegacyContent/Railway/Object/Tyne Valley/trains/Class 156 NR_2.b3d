@@ -1,0 +1,480 @@
+;author=eezypeazy
+;description=class 156 DMU Coach 2
+;copyright=eezypeazy, guillyman and Danny Burrows 2009, all rights reserved. You may publish this object in BVE and openBVE routes. Please credit eezypeazy, guillyman and Danny Burrows
+;object modified by Guillyman for compatibility with OpenBVE
+;Roof texture with thanks to Danny Burrows
+
+;________Rear_____________________
+
+[MeshBuilder]
+Vertex 1.26,3.8,-0.9
+Vertex -1.26,3.8,-0.9
+Vertex 1.26,3.52,-0.308
+Vertex -1.26,3.52,-0.308
+Vertex 1.26,0.125,-0.308
+Vertex -1.26,0.125,-0.308
+Face 0,1,3,2
+Face2 2,3,5,4
+
+[Texture]
+Load Class 156 NR Rear.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,0.074
+Coordinates 3,1,0.074
+Coordinates 4,0,1
+Coordinates 5,1,1
+Transparent 0,0,255
+
+;________Corridor Face____________
+
+[MeshBuilder]
+Vertex 0.65,3.48,0
+Vertex -0.48,3.48,0
+Vertex 0.65,0.584,0
+Vertex -0.48,0.584,0
+Face2 0,1,3,2
+
+[Texture]
+Load Class 156 NR Corridor.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Transparent 0,0,255
+
+;________Corridor Sides___________
+
+[MeshBuilder]
+Vertex 0.4,1.07,-0.33
+Vertex 0.4,3.36,-0.33
+Vertex -0.4,3.36,-0.33
+Vertex -0.4,1.07,-0.33
+Vertex 0.4,1.07,0.02
+Vertex 0.4,3.36,0.02
+Vertex -0.4,3.36,0.02
+Vertex -0.4,1.07,0.02
+Face2 0,1,5,4
+Face2 1,2,6,5
+Face2 2,3,7,6
+
+[Texture]
+Load Class 156 NR Corridor Sides.bmp
+Coordinates 0,0,0
+Coordinates 1,0.31,0
+Coordinates 2,0.69,0
+Coordinates 3,1,0
+Coordinates 4,0,1
+Coordinates 5,0.31,1
+Coordinates 6,0.69,1
+Coordinates 7,1,1
+
+;________Coupling Sides___________
+
+[MeshBuilder]
+Vertex 0.18,1.07,-0.33
+Vertex 0.18,1.07,0.1
+Vertex 0.18,0.56,-0.33
+Vertex 0.18,0.56,0.1
+Vertex -0.17,1.07,0.1
+Vertex -0.17,1.07,-0.33
+Vertex -0.17,0.56,0.1
+Vertex -0.17,0.56,-0.33
+Face 0,1,3,2
+Face 4,5,7,6
+
+[Texture]
+Load Class 156 NR Coupling Side.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Coordinates 4,1,0
+Coordinates 5,0,0
+Coordinates 6,1,1
+Coordinates 7,0,1
+Transparent 0,0,255
+
+;________Inside End_______________
+
+[MeshBuilder]
+Vertex -1.26,3.8,-22.1
+Vertex 1.26,3.8,-22.1
+Vertex -1.26,3.52,-22.692
+Vertex 1.26,3.52,-22.692
+Vertex -1.26,0.125,-22.692
+Vertex 1.26,0.125,-22.692
+Face 0,1,3,2
+Face2 2,3,5,4
+
+[Texture]
+Load Class 156 NR InnerEnd.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,0.074
+Coordinates 3,1,0.074
+Coordinates 4,0,1
+Coordinates 5,1,1
+Transparent 0,0,255
+
+;________Inner Corridor Sides_____
+
+[MeshBuilder]
+Vertex -0.4,0.9,-22.67
+Vertex -0.4,3.34,-22.67
+Vertex 0.42,3.34,-22.67
+Vertex 0.42,0.9,-22.67
+Vertex -0.4,0.9,-23.12
+Vertex -0.4,3.34,-23.12
+Vertex 0.42,3.34,-23.12
+Vertex 0.42,0.9,-23.12
+Face 0,1,5,4
+Face 1,2,6,5
+Face 2,3,7,6
+
+[Texture]
+Load Class 156 NR Corridor Sides.bmp
+Coordinates 0,0,0
+Coordinates 1,0.31,0
+Coordinates 2,0.69,0
+Coordinates 3,1,0
+Coordinates 4,0,1
+Coordinates 5,0.31,1
+Coordinates 6,0.69,1
+Coordinates 7,1,1
+
+;________Exhaust Cover____________
+
+[MeshBuilder]
+Vertex -1,3.3,-22.6
+Vertex -1,3.3,-22.87
+Vertex -0.85,3.3,-22.87
+Vertex -1.06,0.86,-22.6
+Vertex -1.06,0.86,-22.87
+Vertex -0.91,0.86,-22.87
+Face 0,1,4,3
+Face 1,2,5,4
+
+[Texture]
+Load Class 156 NR Exhaust.bmp
+Coordinates 0,0,0
+Coordinates 1,0.7,0
+Coordinates 2,1,0
+Coordinates 3,0,1
+Coordinates 4,0.7,1
+Coordinates 5,1,1
+Transparent 0,0,255
+
+;________Exhaust Pipe_____________
+
+[MeshBuilder]
+Cylinder 6,0.07,0.07,0.5
+Color 163,130,111
+Rotate 0,0,1,-30
+Translate -0.8,3.46,-22.8
+
+;________Roof and Sides___________
+
+[MeshBuilder]
+Vertex 1.04,1.02,-0.288
+Vertex 1.165,1.02,-0.93
+Vertex 1.165,1.02,-22.07
+Vertex 1.04,1.02,-22.712
+Vertex 1.24,1.47,-0.288
+Vertex 1.365,1.47,-0.93
+Vertex 1.365,1.47,-22.07
+Vertex 1.24,1.47,-22.712
+Vertex 1.17,3.27,-0.288
+Vertex 1.295,3.27,-0.93
+Vertex 1.295,3.27,-22.07
+Vertex 1.17,3.27,-22.712
+Vertex 0.98,3.52,-0.288
+Vertex 1.068,3.54,-0.93
+Vertex 1.068,3.54,-22.07
+Vertex 0.98,3.52,-22.712
+Vertex 0.25,3.78,-0.83
+Vertex 0.25,3.78,-0.93
+Vertex 0.25,3.78,-22.07
+Vertex 0.25,3.78,-22.17
+Vertex -0.25,3.78,-0.83
+Vertex -0.25,3.78,-0.93
+Vertex -0.25,3.78,-22.07
+Vertex -0.25,3.78,-22.17
+Vertex -0.98,3.52,-0.288
+Vertex -1.068,3.54,-0.93
+Vertex -1.068,3.54,-22.07
+Vertex -0.98,3.52,-22.712
+Vertex -1.17,3.27,-0.288
+Vertex -1.295,3.27,-0.93
+Vertex -1.295,3.27,-22.07
+Vertex -1.17,3.27,-22.712
+Vertex -1.24,1.47,-0.288
+Vertex -1.365,1.47,-0.93
+Vertex -1.365,1.47,-22.07
+Vertex -1.24,1.47,-22.712
+Vertex -1.04,1.02,-0.288
+Vertex -1.165,1.02,-0.93
+Vertex -1.165,1.02,-22.07
+Vertex -1.04,1.02,-22.712
+Face 0,1,5,4
+Face 1,2,6,5
+Face 2,3,7,6
+Face 4,5,9,8
+Face 5,6,10,9
+Face 6,7,11,10
+Face 8,9,13,12
+Face 9,10,14,13
+Face 10,11,15,14
+Face 12,13,17,16
+Face 13,14,18,17
+Face 14,15,19,18
+Face 16,17,21,20
+Face 17,18,22,21
+Face 18,19,23,22
+Face 20,21,25,24
+Face 21,22,26,25
+Face 22,23,27,26
+Face 24,25,29,28
+Face 25,26,30,29
+Face 26,27,31,30
+Face 28,29,33,32
+Face 29,30,34,33
+Face 30,31,35,34
+Face 32,33,37,36
+Face 33,34,38,37
+Face 34,35,39,38
+
+[Texture]
+Load Class 156 NR RoofSides1.bmp
+Coordinates 0,0,0
+Coordinates 1,0.029,0
+Coordinates 2,0.971,0
+Coordinates 3,1,0
+Coordinates 4,0,0.082
+Coordinates 5,0.029,0.082
+Coordinates 6,0.971,0.082
+Coordinates 7,1,0.082
+Coordinates 8,0,0.408
+Coordinates 9,0.029,0.408
+Coordinates 10,0.971,0.408
+Coordinates 11,1,0.408
+Coordinates 12,0,0.453
+Coordinates 13,0.029,0.456
+Coordinates 14,0.971,0.456
+Coordinates 15,1,0.453
+Coordinates 16,0.024,0.49
+Coordinates 17,0.029,0.49
+Coordinates 18,0.971,0.49
+Coordinates 19,0.976,0.49
+Coordinates 20,0.024,0.51
+Coordinates 21,0.029,0.51
+Coordinates 22,0.971,0.51
+Coordinates 23,0.976,0.51
+Coordinates 24,0,0.547
+Coordinates 25,0.029,0.544
+Coordinates 26,0.971,0.544
+Coordinates 27,1,0.547
+Coordinates 28,0,0.592
+Coordinates 29,0.029,0.592
+Coordinates 30,0.971,0.592
+Coordinates 31,1,0.592
+Coordinates 32,0,0.918
+Coordinates 33,0.029,0.918
+Coordinates 34,0.971,0.918
+Coordinates 35,1,0.918
+Coordinates 36,0,1
+Coordinates 37,0.029,1
+Coordinates 38,0.971,1
+Coordinates 39,1,1
+
+;________Floor____________________
+
+[MeshBuilder]
+Vertex 1.06,1.02,-22.712
+Vertex 1.185,1.02,-22.07
+Vertex 1.185,1.02,-0.93
+Vertex 1.06,1.02,-0.288
+Vertex -1.06,1.02,-22.712
+Vertex -1.185,1.02,-22.07
+Vertex -1.185,1.02,-0.93
+Vertex -1.06,1.02,-0.288
+Face 0,1,2,3,7,6,5,4
+Color 55,53,43
+
+;________Plough___________________
+
+[MeshBuilder]
+Vertex 1.1,0.9,-0.205
+Vertex 0.52,0.62,-0.019
+Vertex 0.5,0.44,-0.01
+Vertex -0.5,0.44,-0.01
+Vertex -0.52,0.62,-0.019
+Vertex -1.1,0.9,-0.205
+Vertex 1.1,0.84,-0.4
+Vertex 0.56,0.58,-0.182
+Vertex 0.54,0.4,-0.222
+Vertex 0,0.36,-0.05
+Vertex -0.54,0.4,-0.222
+Vertex -0.56,0.58,-0.182
+Vertex -1.1,0.84,-0.4
+Vertex 1.1,0.54,-0.4
+Vertex 0,0.125,-0.05
+Vertex -1.1,0.54,-0.4
+Vertex 1.1,0.25,-0.05
+Vertex -1.1,0.25,-0.05
+Face2 0,1,7,6
+Face2 1,2,8,7
+Face2 2,9,8
+Face2 3,10,9
+Face2 2,3,9
+Face2 3,4,11,10
+Face2 4,5,12,11
+Face2 6,7,8,13
+Face2 8,9,14
+Face2 13,8,14
+Face2 11,12,15,10
+Face2 9,10,14
+Face2 14,10,15
+Face2 13,14,16
+Face2 14,15,17
+
+[Texture]
+Load Class 156 NR Plough.bmp
+Coordinates 0,0.062,0.172
+Coordinates 1,0.305,0.5
+Coordinates 2,0.309,0.688
+Coordinates 3,0.691,0.688
+Coordinates 4,0.695,0.5
+Coordinates 5,0.938,0.172
+Coordinates 6,0.062,0.25
+Coordinates 7,0.293,0.531
+Coordinates 8,0.297,0.75
+Coordinates 9,0.5,0.75
+Coordinates 10,0.703,0.75
+Coordinates 11,0.707,0.469
+Coordinates 12,0.938,0.25
+Coordinates 13,0.062,0.516
+Coordinates 14,0.5,1
+Coordinates 15,0.938,0.516
+Coordinates 16,0.062,1
+Coordinates 17,0.938,1
+Transparent 0,0,255
+
+;________Side 1 Wheels____________
+
+[MeshBuilder]
+Vertex 0.7175,1.04,-22.712
+Vertex 0.7175,1.04,-0.288
+Vertex 0.7175,0,-22.712
+Vertex 0.7175,0,-0.288
+Face2 0,1,3,2
+
+[Texture]
+Load Class 156 NR Side1Wheels.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Transparent 0,0,255
+
+;________Side 1 Underframe________
+
+[MeshBuilder]
+Vertex 0.96,1.04,-22.712
+Vertex 0.96,1.04,-0.288
+Vertex 0.96,0,-22.712
+Vertex 0.96,0,-0.288
+Face2 0,1,3,2
+
+[Texture]
+Load Class 156 NR Side1Underframe.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Transparent 0,0,255
+
+;________Side 2 Wheels____________
+
+[MeshBuilder]
+Vertex -0.7175,1.04,-0.288
+Vertex -0.7175,1.04,-22.712
+Vertex -0.7175,0,-0.288
+Vertex -0.7175,0,-22.712
+Face2 0,1,3,2
+
+[Texture]
+Load Class 156 NR Side2Wheels.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Transparent 0,0,255
+
+;________Side 2 Underframe________
+
+[MeshBuilder]
+Vertex -0.96,1.04,-0.288
+Vertex -0.96,1.04,-22.712
+Vertex -0.96,0,-0.288
+Vertex -0.96,0,-22.712
+Face2 0,1,3,2
+
+[Texture]
+Load Class 156 NR Side2Underframe.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Transparent 0,0,255
+
+;________Antenna__________________
+
+[MeshBuilder]
+Cube 0.5,0.04,0.263
+Color 110,113,122
+Translate 0,3.76,-1.6
+
+;________Antenna Top______________
+
+[MeshBuilder]
+Cylinder 4,0.29,0.34,0.05
+Color 90,93,102
+Rotate 0,1,0,45
+Translate 0,3.83,-1.6
+
+;________Vent 1___________________
+
+[MeshBuilder]
+Cylinder 4,0.22,0.26,0.06
+Color 90,93,102
+Rotate 0,1,0,45
+Rotate 0,0,1,8
+Translate -0.33,3.77,-2.1
+
+;________Vent 2___________________
+
+[MeshBuilder]
+Cylinder 4,0.22,0.26,0.06
+Color 90,93,102
+Rotate 0,1,0,45
+Rotate 0,0,1,-8
+Translate 0.33,3.77,-2.1
+
+;________Vent 3___________________
+
+[MeshBuilder]
+Cylinder 4,0.22,0.26,0.06
+Color 80,83,92
+Rotate 0,1,0,45
+Rotate 0,0,1,8
+Translate -0.33,3.77,-21.65
+
+;________Vent 3___________________
+
+[MeshBuilder]
+Cylinder 4,0.22,0.26,0.06
+Color 80,83,92
+Rotate 0,1,0,45
+Rotate 0,0,1,-8
+Translate 0.33,3.77,-21.65

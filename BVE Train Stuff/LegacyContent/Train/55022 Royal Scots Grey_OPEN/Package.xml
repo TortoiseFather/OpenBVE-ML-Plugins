@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openBVE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Package>
+    <Name>55 022- Royal Scots Grey</Name>
+    <Author>Martin Corbett</Author>
+    <GUID>5cec5686-a2d1-4f84-a59b-1bd8f12c6a50</GUID>
+    <PackageType>Train</PackageType>
+    <Description>Class 55 Deltic, 55022 hauling 10 Mk2 coaches.\r\n\r\nCab photos, sounds,.cfg files by Martin Corbett &amp; John Lynch.  Ukdt.dll by Simon Gathercole. Please refer to the 'readme file' for further info.</Description>
+    <PackageVersion>1.0</PackageVersion>
+    <MinimumVersion />
+    <MaximumVersion />
+  </Package>
+</openBVE>

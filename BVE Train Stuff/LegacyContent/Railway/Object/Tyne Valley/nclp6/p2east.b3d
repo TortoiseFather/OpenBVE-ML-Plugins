@@ -1,0 +1,272 @@
+;author=eezypeazy
+;description=Newcastle platform 6 east end, a 50m object
+;copyright=eezypeazy, all rights reserved, contact eeazypeazy@blueyonder.co.uk
+
+;platforms left
+[MeshBuilder]
+vertex -5.8,-0.2,-25.1
+vertex -5.8,1.1,-25.1
+vertex -14,1.1,-25.1
+vertex -14,2.4,-25.1
+vertex -14,2.5,-25.1
+vertex -14,2.5,20
+vertex -14,2.4,20
+vertex -14,1.1,20
+vertex -5.8,1.1,20
+vertex -5.8,-0.2,20
+
+vertex -6.8,1.1,-25.1
+vertex -6.8,1.1,20
+
+
+
+
+
+vertex -14,-0.2,25
+vertex -6.8,-0.2,25
+vertex -5.8,-0.2,25
+
+
+
+face 0,1,8,9
+face 1,10,11,8
+face 10,2,7,11
+
+face 9,8,14
+face 8,11,13,14
+face 11,7,12,13
+
+;face 2,3,6,7
+;face 3,4,5,6
+
+[Texture]
+Load ..\platforms\carlisle.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.535
+Coordinates 2, 0, 0.3
+Coordinates 3, 0, 0.03
+Coordinates 4, 0, 0
+Coordinates 5, 8, 0
+Coordinates 6, 8, 0.03
+Coordinates 7, 8, 0.3
+Coordinates 8, 8, 0.535
+Coordinates 9, 8, 1
+coordinates 10,0,0.45
+coordinates 11,8,0.45
+
+coordinates 12,8.5,0.3
+coordinates 13,8.5,0.45
+coordinates 14,8.5,0.535
+
+
+
+
+
+
+
+
+
+;author=eezypeazy
+;description=Newcastle Central Stn eastern canopy platform part 1  wide
+;copyright=eezypeazy, all rights reserved
+
+;pillars
+[meshbuilder]
+cylinder 6,0.15,0.2,5.25
+color 238,238,255
+translate -8,4.35,6.25
+
+[meshbuilder]
+cylinder 6,0.2,0.15,0.25
+color 144,144,144
+translate -8,7.15,6.25
+
+[meshbuilder]
+cylinder 6,0.26,0.26,0.7
+color 0,0,100
+translate -8,1.4,6.25
+
+[meshbuilder]
+cylinder 6,0.22,0.22,0.07
+color 200,0,0
+translate -8,7,6.25
+
+[meshbuilder]
+cylinder 6,0.26,0.26,0.07
+color 200,0,0
+translate -8,7.3,6.25
+
+[meshbuilder]
+cube 0.3,0.04,0.3
+color 238,238,255
+translate -8,7.35,6.25
+
+[meshbuilder]
+cylinder 6,0.15,0.2,5.25
+color 238,238,255
+translate -8,4.35,18.75
+
+[meshbuilder]
+cylinder 6,0.2,0.15,0.25
+color 144,144,144
+translate -8,7.15,18.75
+
+[meshbuilder]
+cylinder 6,0.26,0.26,0.7
+color 0,0,100
+translate -8,1.4,18.75
+
+[meshbuilder]
+cylinder 6,0.22,0.22,0.07
+color 200,0,0
+translate -8,7,18.75
+
+[meshbuilder]
+cylinder 6,0.26,0.26,0.07
+color 200,0,0
+translate -8,7.3,18.75
+
+[meshbuilder]
+cube 0.3,0.04,0.3
+color 238,238,255
+translate -8,7.35,18.75
+
+[meshbuilder]
+cylinder 6,0.15,0.2,5.25
+color 238,238,255
+translate -11.5,4.35,6.25
+
+[meshbuilder]
+cylinder 6,0.2,0.15,0.25
+color 144,144,144
+translate -11.5,7.15,6.25
+
+[meshbuilder]
+cylinder 6,0.26,0.26,0.7
+color 0,0,100
+translate -11.5,1.4,6.25
+
+[meshbuilder]
+cylinder 6,0.22,0.22,0.07
+color 200,0,0
+translate -11.5,7,6.25
+
+[meshbuilder]
+cylinder 6,0.26,0.26,0.07
+color 200,0,0
+translate -11.5,7.3,6.25
+
+[meshbuilder]
+cube 0.3,0.04,0.3
+color 238,238,255
+translate -11.5,7.35,6.25
+
+[meshbuilder]
+cylinder 6,0.15,0.2,5.25
+color 238,238,255
+translate -13.25,4.35,18.75
+
+[meshbuilder]
+cylinder 6,0.2,0.15,0.25
+color 144,144,144
+translate -13.25,7.15,18.75
+
+[meshbuilder]
+cylinder 6,0.26,0.26,0.7
+color 0,0,100
+translate -13.25,1.4,18.75
+
+[meshbuilder]
+cylinder 6,0.22,0.22,0.07
+color 200,0,0
+translate -13.25,7,18.75
+
+[meshbuilder]
+cylinder 6,0.26,0.26,0.07
+color 200,0,0
+translate -13.25,7.3,18.75
+
+[meshbuilder]
+cube 0.3,0.04,0.3
+color 238,238,255
+translate -13.25,7.35,18.75
+
+;roof
+[meshbuilder]
+vertex -6,7.5,-0.3
+vertex -9.5,9,-0.5
+vertex -11,9,25
+vertex -6,7.5,25
+vertex -13,7.5,-0.7
+vertex -16,7.5,25
+face2 0,1,2,3
+face 4,1,2,5
+;color 188,188,255
+
+[texture]
+load corrugated.bmp
+coordinates 0,0,3
+coordinates 1,0,1.5
+coordinates 2,3,1.5
+coordinates 3,3,3
+coordinates 4,0,0
+coordinates 5,3,0
+
+;valance
+[meshbuilder]
+vertex -6,7.1,-0.3
+vertex -6,7.5,-0.3
+vertex -6,7.5,25
+vertex -6,7.1,25
+vertex -13,7.1,-0.7
+vertex -13,7.5,-0.7
+vertex -16,7.5,25
+vertex -16,7.1,25
+vertex -11,9,25
+face 0,1,2,3
+face 4,5,6,7
+face 7,6,2,3
+face 6,8,2
+color 188,188,188
+
+;beams
+[meshbuilder]
+cube 3.75,0.12,0.15
+color 188,188,188
+translate -10,7.5,6.25
+
+[meshbuilder]
+cube 4.5,0.12,0.15
+color 188,188,188
+translate -11,7.5,18.75
+
+[meshbuilder]
+cube 0.12,0.12,12.7
+color 188,188,188
+rotate 0,1,0,-3.5
+translate -10.2,7.5,12
+
+[meshbuilder]
+cube 0.12,0.8,0.12
+color 188,188,188
+rotate 0,1,0,-3.5
+translate -9.85,8.2,6.25
+
+[meshbuilder]
+cube 0.12,0.8,0.12
+color 188,188,188
+rotate 0,1,0,-3.5
+translate -10.19,8.2,12.5
+
+[meshbuilder]
+cube 0.12,0.8,0.12
+color 188,188,188
+rotate 0,1,0,-3.5
+translate -10.6,8.2,18.75
+
+[meshbuilder]
+cube 0.12,0.8,0.12
+color 188,188,188
+rotate 0,1,0,-3.5
+translate -10.95,8.2,24.8
+

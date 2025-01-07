@@ -1,0 +1,2 @@
+https://openbve-project.net/documentation_hugo/en/routes/csv.html#track_objects - object documentation
+https://openbve-project.net/documentation_hugo/en/plugins/iruntime.html - Plugin documentation

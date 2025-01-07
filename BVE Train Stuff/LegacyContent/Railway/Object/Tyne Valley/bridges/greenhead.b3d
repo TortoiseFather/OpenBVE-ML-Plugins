@@ -1,0 +1,340 @@
+;author=eezypeazy
+;description=Stone bridge at Greenhead
+;copyright=eezypeazy, all rights reserved, contact eezypeazy@blueyonder.co.uk
+
+[MeshBuilder]
+Vertex -2, -0.2,0
+Vertex -2, 5.63,0
+Vertex 6, 5.63,0
+Vertex 6, -0.2,0
+vertex 30,0.1,-5
+vertex 30,0,-10
+vertex -30,0.1,-5
+vertex -30,0,-10
+Face 0, 1, 2, 3
+;face 3,2,4,5
+;face 6,7,1,0
+
+[Texture]
+Load stonebr.BMP
+Coordinates 0, 0.32, 1
+Coordinates 1, 0.32, 0.2
+Coordinates 2, 0.63, 0.2
+Coordinates 3, 0.63, 1
+Coordinates 4, 1.27, 1
+Coordinates 5, 1.27, 0
+Coordinates 6, 0.3, 0
+Coordinates 7, 0.3, 1
+Transparent 0, 0, 255
+
+;parapet
+[meshbuilder]
+vertex -3.5,5.63,-1
+vertex -3.5,7,-1
+vertex -3.5,7,2
+vertex -3.5,5.63,2
+vertex 7.5,8,2
+vertex 7.5,5.62,2
+vertex 7.5,8,-19
+vertex 7.5,5.62,-19
+vertex 10,8,-19
+vertex 10,5.62,-19
+vertex 10,7,-25
+vertex 10,4.62,-25
+
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 9,8,10,11
+color 145,145,125
+
+[texture]
+load ..\walls\oldstonewall.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,4,0
+coordinates 5,4,1
+coordinates 6,9,0
+coordinates 7,9,1
+coordinates 8,10,0
+coordinates 9,10,1
+coordinates 10,12,0
+coordinates 11,12,1
+
+;building
+[meshbuilder]
+vertex -11,-0.4,-19
+vertex -11,8,-19
+vertex -7.25,10,-19
+vertex -3.5,8,-19
+vertex -3.5,-0.4,-19
+vertex -3.5,8,-1
+vertex -3.5,-0.4,-1
+vertex -6,-0.4,-25
+vertex -6,4,-25
+vertex -3.5,3,-25
+vertex -3.5,-0.4,-25
+vertex -3.5,3,-19
+face 0,1,3,4
+face 1,2,3
+face 4,3,5,6
+face 7,8,9,10
+face 10,9,11,4
+
+[texture]
+load ..\textures\greystone.bmp
+coordinates 0,0,5
+coordinates 1,0,1
+coordinates 2,1,0
+coordinates 3,2,1
+coordinates 4,2,5
+coordinates 5,5,1
+coordinates 6,5,5
+coordinates 7,5,5
+coordinates 8,5,2
+coordinates 9,4,2.7
+coordinates 10,4,5
+coordinates 11,2,2.7
+
+[meshbuilder]
+vertex -3.5,3,-25
+vertex -6,4,-25
+vertex -6,4,-19
+vertex -3.5,3,-19
+face 0,1,2,3
+
+[texture]
+load ..\textures\rooftilesold.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,2
+
+[meshbuilder]
+vertex -5.2,1.4,-25.05 
+vertex -5.2,3,-25.05
+vertex -4.2,3,-25.05
+vertex -4.2,1.4,-25.05
+face 0,1,2,3
+
+[texture]
+load ..\textures\archedwindow.bmp
+coordinates 0,0,1
+coordinates 1,0,0.4
+coordinates 2,1,0.4
+coordinates 3,1,1
+
+;shruberry, grass
+[meshbuilder]
+vertex 7,2.8,-25
+vertex 7,6.8,-16
+vertex 10,5.7,-25
+vertex 12,3,-25
+face 0,1,2,3
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,0.8,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -2.8,-0.4,-25
+vertex -3.5,-0.4,-25
+vertex -3.5,-0.4,0
+vertex -2.8,-0.4,0
+
+vertex 7.5,-0.4,-25
+vertex 6.8,-0.4,-25
+vertex 6.8,-0.4,0
+vertex 7.5,-0.4,0
+
+face 0,1,2,3
+face 4,5,6,7
+color 155,155,155
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,4,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,4,0
+coordinates 7,4,1
+
+
+;walls, including exit walls
+[meshbuilder]
+vertex -3.5,-0.4,-1
+vertex -3.5,5.63,-1
+vertex -3.5,5.63,0
+vertex -3.5,-0.4,0
+vertex -1.99,5.63,0
+vertex -1.99,-0.4,0
+vertex 5.99,-0.4,0
+vertex 5.99,5.63,0
+vertex 7.5,5.63,0
+vertex 7.5,-0.4,0
+vertex 7.5,5.63,-19
+vertex 7.5,-0.4,-19
+
+vertex 7.5,3,-25
+vertex 7.5,-0.4,-25
+vertex 10,3,-25
+vertex 10,-0.4,-25
+
+vertex -2.8,-0.4,5.9
+vertex -2.8,5.63,5.9
+vertex -2.8,3,10
+vertex -2.8,-0.4,10
+vertex 6.2,-0.4,5.9
+vertex 6.2,5.63,5.9
+vertex 6.2,3,10
+vertex 6.2,-0.4,10
+
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+face 9,8,10,11
+
+face 11,10,12,13
+face 13,12,14,15
+
+face 16,17,18,19
+face 23,22,21,20
+
+color 165,145,105
+
+[texture]
+load ..\textures\greystone.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,2
+coordinates 4,2,0
+coordinates 5,2,2
+
+coordinates 6,0,2
+coordinates 7,0,0
+coordinates 8,1,0
+coordinates 9,1,2
+coordinates 10,4,0
+coordinates 11,4,2
+
+coordinates 12,7,0.9
+coordinates 13,7,2
+coordinates 14,9,0.9
+coordinates 15,9,2
+
+coordinates 16,0,2
+coordinates 17,0,0
+coordinates 18,1.2,0.93
+coordinates 19,1.2,2
+
+coordinates 20,0,2
+coordinates 21,0,0
+coordinates 22,1.2,0.93
+coordinates 23,1.2,2
+
+
+;cutting concrete retainer
+[meshbuilder]
+vertex 10,-0.4,25
+vertex 10,2,25
+vertex 9,6,17
+vertex 9,-0.4,17
+vertex 8,6,10
+vertex 8,-0.4,10
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\textures\concrete.bmp
+coordinates 0,0,2
+coordinates 1,0,1
+coordinates 2,2,0
+coordinates 3,2,2
+coordinates 4,4,0
+coordinates 5,4,2
+
+[meshbuilder]
+vertex 6.2,-0.4,18
+vertex 10,-0.4,18
+vertex 8,-0.4,10
+vertex 6,-0.4,10
+face 0,1,2,3
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+
+
+
+
+
+
+
+
+;inside bridge walls and roof
+[meshbuilder]
+vertex -2,-0.2,0
+vertex -2,4,0
+vertex -2,4,6
+vertex -2,-0.2,6
+vertex 6,-0.2,6
+vertex 6,4,6
+vertex 6,4,0
+vertex 6,-0.2,0
+
+vertex -0.66,4.5,0
+vertex 0.66,4.77,0
+vertex 2,4.82,0
+vertex 3.33,4.77,0
+vertex 4.66,4.5,0
+
+vertex -0.66,4.5,6 
+vertex 0.66,4.77,6
+vertex 2,4.82,6
+vertex 3.33,4.77,6
+vertex 4.66,4.5,6
+face 0,1,2,3
+face 4,5,6,7
+face 8,13,2,1
+face 9,14,13,8
+face 10,15,14,9
+face 11,16,15,10
+face 12,17,16,11
+face 6,5,17,12
+
+[texture]
+load ..\walls\stone.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,2
+coordinates 4,0,2
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,2
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,1,1
+coordinates 11,1,0
+coordinates 12,0,1
+coordinates 13,0,1
+coordinates 14,1,0
+coordinates 15,1,1
+coordinates 16,0,0
+coordinates 17,0,1
+color 50,50,50

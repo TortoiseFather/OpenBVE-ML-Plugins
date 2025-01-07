@@ -1,0 +1,19 @@
+;author=eezypeazy
+;description=simple tree 2 large tree right
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.comeezypeazy, all rights reserved, email eezypeazy@blueyonder.co.uk
+
+[meshbuilder]
+vertex 15,0,-3
+vertex 15,8,-3
+vertex 2.5,8,-1
+vertex 2,-0.5,-1
+face 3,2,1,0
+color 145,145,145
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,1,1
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0.1,0.8
+transparent 0,0,255

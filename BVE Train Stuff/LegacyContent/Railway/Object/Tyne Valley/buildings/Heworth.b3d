@@ -1,0 +1,544 @@
+;author=eezypeazy
+;description=Heworth Station, Tyne and Wear
+;copyright=eezypeazy. For use in my route only; all rights reserved
+
+;lh steps
+
+[Meshbuilder]
+vertex -32.5,8,0
+vertex -32.5,8,-1.5
+vertex -32.5,5.5,-4
+vertex -32.5,5.5,-5.5
+vertex -32.5,2.5,-8
+vertex -32.5,1,-8
+vertex -32.5,4,-5.5
+vertex -32.5,4,-4
+vertex -32.5,6.5,-1.5
+vertex -32.5,6.5,0
+Face 9,8,1,0
+Face 8,7,2,1
+Face 7,6,3,2
+Face 6,5,4,3
+Face 5,4,5,4
+
+[Texture]
+load bluemetalfence.bmp
+coordinates 0,0,0 
+coordinates 1,3,0
+coordinates 2,1,0
+coordinates 3,3,0
+coordinates 4,1,0
+coordinates 5,1,1
+coordinates 6,3,1
+coordinates 7,1,1
+coordinates 8,3,1
+coordinates 9,1,1
+transparent 0,0,255
+
+[Meshbuilder]
+vertex -34,8,0
+vertex -34,8,-1.5
+vertex -34,5.5,-4
+vertex -34,5.5,-5.5
+vertex -34,2.5,-8
+vertex -34,1,-8
+vertex -34,4,-5.5
+vertex -34,4,-4
+vertex -34,6.5,-1.5
+vertex -34,6.5,0
+Face 9,8,1,0
+Face 8,7,2,1
+Face 7,6,3,2
+Face 6,5,4,3
+Face 5,4,5,4
+
+[Texture]
+load bluemetalfence.bmp
+coordinates 0,0,0 
+coordinates 1,3,0
+coordinates 2,1,0
+coordinates 3,3,0
+coordinates 4,1,0
+coordinates 5,1,1
+coordinates 6,3,1
+coordinates 7,1,1
+coordinates 8,3,1
+coordinates 9,1,1
+transparent 0,0,255
+
+;steps undersides
+[Meshbuilder]
+vertex -32.5,6.5,0
+vertex -32.5,6.5,-1.5
+vertex -32.5,4,-4
+vertex -32.5,4,-5.5
+vertex -32.5,1,-8
+vertex -34, 1, -8
+vertex -34, 4, -5.5
+vertex -34, 4, -4 
+vertex -34,6.5,-1.5
+vertex -34,6.5,0
+Face 0,1,8,9
+Face 9,8,1,0
+Face 1,2,7,8
+Face 8,7,2,1
+Face 2,3,6,7
+Face 7,6,3,2
+Face 3,4,5,6
+Face 6,5,4,3
+color 90,90,90
+
+; rh ramp
+[MeshBuilder]
+Vertex -18, 1, -17
+Vertex -18, 3, -38
+Vertex -19.5, 3, -38
+Vertex -19.5, 1, -17
+Face 0, 1, 2, 3
+face 3,2,1,0
+color 90,90,90
+
+[MeshBuilder]
+Vertex -19.5, 1, -17
+Vertex -19.5, 2.5,-17
+Vertex -19.5, 4.5, -38
+Vertex -19.5, 3, -38
+vertex -19.5,4.5,-39.5
+vertex -16.5,4.5,-39.5
+vertex -16.5,3,-39.5
+vertex -19.5,3,-39.5
+Face 0,1,2,3
+face 3,2,4,7
+face 7,4,5,6
+
+[Texture]
+load bluemetalfence.bmp
+coordinates 0,0,1 
+coordinates 1,0,0
+coordinates 2,15,0
+coordinates 3,15,1
+coordinates 4,0,0
+coordinates 5,3,0
+coordinates 6,3,1
+coordinates 7,0,1
+transparent 0,0,255
+
+[MeshBuilder]
+Vertex -18, 1, -17
+Vertex -18, 2.5, -17
+Vertex -18, 4.5,-38
+Vertex -18, 3, -38
+vertex -18,6.5,-8
+vertex -18,8,-8
+Face 0,1,2,3
+face 4,5,2,3
+
+[Texture]
+load bluemetalfence.bmp
+coordinates 0,0,1 
+coordinates 1,0,0
+coordinates 2,15,0
+coordinates 3,15,1
+coordinates 4,0,1
+coordinates 5,0,0
+transparent 0,0,255
+
+
+;lh ramp
+[MeshBuilder]
+Vertex -32.5,3, -38
+Vertex -32.5,1, -17
+Vertex -34, 1,-17
+Vertex -34, 3,-38
+Face 0, 1, 2, 3
+color 90,90,90
+
+[MeshBuilder]
+Vertex -32.5, 1, -17
+Vertex -32.5, 2.5, -17
+Vertex -32.5, 4.5, -38
+Vertex -32.5, 3, -38
+vertex -32.5,3,-39.5
+vertex -35.5,3,-39.5
+vertex -35.5,4.5,-39.5
+vertex -32.5,4.5,-39.5
+Face 3,2,1,0
+face 4,7,2,3
+face 4,5,6,7
+
+[Texture]
+load bluemetalfence.bmp
+coordinates 0,0,1 
+coordinates 1,0,0
+coordinates 2,15,0
+coordinates 3,15,1
+coordinates 4,5,1
+coordinates 5,0,1
+coordinates 6,0,0
+coordinates 7,5,0
+transparent 0,0,255
+
+[MeshBuilder]
+Vertex -34, 1, -17
+Vertex -34, 2.5, -17
+Vertex -34, 4.5, -38
+Vertex -34, 3, -38
+vertex -35.5,3,-39.5
+vertex -35.5,4.5,-39.5
+vertex -35.5,4.5,-38
+vertex -35.5,3,-38
+Face 3,2,1,0
+face 4,5,6,7
+
+[Texture]
+load bluemetalfence.bmp
+coordinates 0,0,1 
+coordinates 1,0,0
+coordinates 2,15,0
+coordinates 3,15,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,3,0
+coordinates 7,3,1
+transparent 0,0,255
+
+;lh walls under ramps and steps
+
+[meshbuilder]
+vertex -32.5,3,-38
+vertex -32.5,1,-17
+vertex -32.5,1,-38
+vertex -32.5,3,-39.5
+vertex -32.5,1,-39.5
+vertex -34,1,-38
+
+vertex -34,3,-38
+vertex -34,6.5,-17
+vertex -34,1,-17
+vertex -34,4,-17
+vertex -34,6.5,-8
+vertex -34,4,-8
+vertex -34,6.5,0
+vertex -34,1,0
+vertex -34,1,-8
+vertex -32.5,1,-8
+vertex -32.5,4,-5.5
+vertex -32.5,4,-4
+vertex -32.5,6.5,-1.5
+vertex -32.5,6.5,0
+vertex -32.5,1,0
+
+vertex -35.5,1,-39.5
+vertex -35.5,3,-39.5
+vertex -35.5,3,-38
+vertex -35.5,6.5,-17
+vertex -34,6.5,-17
+face 0,1,2
+face 0,2,4,3
+face 5,6,7,8
+face 7,10,11,9
+face 10,12,13,14
+face 15,16,20
+face 16,17,20
+face 17,18,20
+face 21,22,3,4
+face 18,19,20
+face 6,23,24,25
+color 155,155,155
+
+;shelter
+
+[meshbuilder]
+vertex -33.9,4,-17
+vertex -33.9,4.3,-17
+vertex -33.9,4.3,-8
+vertex -33.9,4,-8
+face 0,1,2,3
+color 222,222,222
+
+[meshbuilder]
+vertex -35.9,1,-17
+vertex -35.9,4,-17
+vertex -35.9,4,-8
+vertex -35.9,1,-8
+vertex -34,1,-17
+vertex -34,4,-17
+vertex -34,4,-8
+vertex -34,1,-8
+face 0,1,2,3
+face 4,5,1,0
+face 3,2,6,7
+
+[texture]
+load shelterbrick.bmp
+coordinates 0,0,5 
+coordinates 1,0,0
+coordinates 2,5,0
+coordinates 3,5,5
+coordinates 4,5,5
+coordinates 5,0,5
+coordinates 6,2,0
+coordinates 7,2,5
+
+[meshbuilder]
+vertex -34,1,-17
+vertex -36,1,-17
+vertex -36,1,-8
+vertex -34,1,-8
+face 0,1,2,3
+color 155,155,155
+
+[meshbuilder]
+vertex -36,4,-8
+vertex -34.1,4,-8
+vertex -34.1,4,-17
+vertex -36,4,-17
+face 3,2,1,0
+color 33,33,33
+
+;fence atop lh wall
+[meshbuilder]
+vertex -34,3,-38
+vertex -34,4.5,-38
+vertex -34,8,-17
+vertex -34,6.5,-17
+vertex -34,8,-1.5
+vertex -34,6.5,-1.5
+vertex -35.5,3,-38
+vertex -35.5,4.5,-38
+vertex -35.5,8,-17
+vertex -35.5,6.5,-17
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+
+[texture]
+load bluemetalfence.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,22,0
+coordinates 3,22,1
+coordinates 4,15,0
+coordinates 5,15,1
+coordinates 6,0,1
+coordinates 7,0,0
+coordinates 8,22,0
+coordinates 9,22,1
+transparent 0,0,255
+
+;overbridge
+
+[meshbuilder]
+vertex -32.5,5.5,0
+vertex -32.5,8.3,0
+vertex -21.5,8.3,-4
+vertex -21.5,5.5,-4
+vertex -21.5,5.5,-8
+vertex -21.5,8.3,-8
+vertex -18,8.3,-8
+vertex -18,5.5,-8
+vertex -32.5,1,0
+vertex -31.5,5.5,0
+vertex -31.5,1,0
+
+vertex -16.5,5.5,-5 
+vertex -16.5,8.3,-5
+vertex -16.5,8.3,-8
+vertex -16.6,5.5,-8
+vertex -4,8.3,-9
+vertex -4,5.5,-9
+
+face 0,1,2,3
+face 3,2,5,4
+face 4,5,6,7
+face 8,0,9,10
+
+face 11,12,13,14 
+face 11,12,15,16
+
+[texture]
+load brick.bmp
+coordinates 0,0,5
+coordinates 1,0,0
+coordinates 2,5,0
+coordinates 3,5,5
+coordinates 4,2,5
+coordinates 5,2,0
+coordinates 6,5,0
+coordinates 7,5,5
+coordinates 8,5,8
+coordinates 9,0,0
+coordinates 10,0,8
+coordinates 11,0,5
+coordinates 12,0,0
+coordinates 13,5,0
+coordinates 14,5,5
+coordinates 15,5,0
+coordinates 16,5,5
+
+[meshbuilder]
+vertex -31.5,1,0
+vertex -31.5,5.6,0
+vertex -31.5,5.6,9
+vertex -31.5,1,9
+face 0,1,2,3
+
+[texture]
+load brick.bmp
+coordinates 0,0,8 
+coordinates 1,0,0
+coordinates 2,8,0
+coordinates 3,8,8
+
+[meshbuilder]
+vertex -32,5.6,0
+vertex -32,5.6,9
+vertex -10,5.6,1
+vertex -10,5.6,-8
+face 3,2,1,0
+color 33,33,33
+
+
+;rh platform walls
+
+[meshbuilder]
+vertex -21.5,0,20
+vertex -21.5,5.5,20
+vertex -21.5,5.5,-8
+vertex -21.5,1,-8
+vertex -21.2,1,-8
+vertex -21.2,5.5,-8
+face 0,1,2,3
+face 3,2,5,4
+color 155,155,155
+
+[meshbuilder]
+vertex -16.5,1,-7.8
+vertex -16.5,8.5,-7.8
+vertex -16.5,4.5,-39.5
+vertex -16.5,1,-39.5
+vertex -16.2,1,-39.5
+vertex -16.2,4.5,-39.5
+face 0,1,2,3
+face 3,2,5,4
+color 155,155,155
+
+[MeshBuilder]
+Vertex -19.5, 1, -17
+Vertex -19.5, 3, -38
+vertex -19.5,3,-39.5
+vertex -16.5, 3, -39.5
+vertex -16.5,1,-39.5
+vertex -19.5, 1,-39.5
+vertex -19.5,1,-38
+Face 0,1,6
+face 6,1,2,5
+face 5,2,3,4
+color 155,155,155
+
+[meshbuilder]
+vertex -18,5.5,-8
+vertex -18,6.5,-8
+vertex -16.5,6.5,-8
+vertex -16.5,5.5,-8
+vertex -16.5,3,-38
+vertex -18,3,-38
+vertex -18,5.5,-17
+vertex -18,1,-17
+face 0,1,2,3
+face 1,2,4,5
+face 5,4,2,1
+face 6,5,7
+color 144,144,144
+
+;metro platform entrance
+
+[meshbuilder]
+vertex -21.2,4.5,-7.8
+vertex -21.2,5.6,-7.8
+vertex -16.5,5.6,-7.8
+vertex -16.5,4.5,-7.8
+face 0,1,2,3
+color 111,77,77
+
+[meshbuilder]
+vertex -21.2,4.2,-7.8
+vertex -21.2,4.55,-7.8
+vertex -16.5,4.55,-7.8
+vertex -16.5,4.2,-7.8
+vertex -16.51,3.5,-3
+vertex -16.51,3.85,-3
+vertex -16.51,3.85,-7.8
+vertex -16.51,3.5,-7.8
+face 0,1,2,3
+face 4,5,6,7
+color 255,200,0
+
+;metro platform entrance wall
+
+[meshbuilder]
+vertex -16.5,1,-3
+vertex -16.5,5.5,-3
+vertex -16.5,5.5,-8
+vertex -16.5,1,-8
+face 0,1,2,3
+color 255,255,255
+
+;signage
+
+[meshbuilder]
+vertex -32.4,1.4,-39.55
+vertex -32.4,3,-39.55
+vertex -32.4,3,-38
+vertex -32.4,1.4,-38
+vertex -33.8,4.31,-13.25
+vertex -33.8,4.71,-13.25
+vertex -33.8,4.71,-11.75
+vertex -33.8,4.31,-11.75
+vertex -19.6,1.4,-38
+vertex -19.6,3,-38
+vertex -19.6,3,-39.5
+vertex -19.6,1.4,-39.5
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+
+[texture]
+load heworthsigns.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,0.2
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,0.2
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,1,0
+coordinates 11,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -21.52,3,-8.01
+vertex -21.52,3.3,-8.01
+vertex -21.19,3.3,-8.01
+vertex -21.19,3,-8
+vertex -32,3,-0.1
+vertex -32,3.3,-0.1
+vertex -31.6,3.3,-0.1
+vertex -31.6,3,-0.1
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\signs\notcrossing.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255

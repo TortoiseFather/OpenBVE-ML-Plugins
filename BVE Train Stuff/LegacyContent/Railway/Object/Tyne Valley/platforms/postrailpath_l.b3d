@@ -1,0 +1,108 @@
+;author=eezypeazy
+;description=platform fence left platform ends
+;copyright=eezypeazy, all rights reserved.uses an Opensource bitmap
+
+[meshbuilder]
+vertex -6,-0.3,-0.1
+vertex -9,1.4,-0.1
+vertex -9,1.4,12.5
+vertex -6,-0.3,12.5
+vertex -9,1.4,25.1
+vertex -6,-0.3,25.1
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0.5,0.9
+coordinates 1,0.4,0.2
+coordinates 2,0.1,0.2
+coordinates 3,0.1,0.8
+coordinates 4,0.5,0.2
+coordinates 5,0.4,0.8
+transparent 0,0,255
+
+[meshbuilder]
+vertex -9,1,0
+vertex -9,8,0
+vertex -9,8,24
+vertex -9,1,26
+face 0,1,2,3
+color 155,155,155
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -8,0,-3
+vertex -8,4,-3
+vertex -5,4,22
+vertex -5,0,24
+vertex -9,0,-0.2
+vertex -9,1.4,-0.2
+vertex -3.7,1.4,-0.2
+vertex -3.7,0,-0.2
+vertex -3.7,1.4,12.5
+vertex -3.7,0,12.5
+vertex -3.7,1.4,25.1
+vertex -3.7,0,25.1
+face 0,1,2,3
+face 4,5,6,7
+face 7,6,8,9
+face 9,8,10,11
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,4,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,0.2,0
+coordinates 7,0.2,1
+coordinates 8,0.8,0
+coordinates 9,0.45,1
+coordinates 10,0.2,0
+coordinates 11,0.2,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -2.8,-0.4,0
+vertex -3.7,0,0
+vertex -3.7,0,26
+vertex -2.8,-0.4,26
+face 0,1,2,3
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,5,0
+coordinates 3,5,1
+
+
+;author=Uwe Post, modified by eezypeazy to reposition the fence -2.5m from track centre
+;description=wood fence
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+;id=154
+
+[MeshBuilder]
+Vertex -2.5, 1, 25
+Vertex -2.5, 1, 0
+Vertex -2.5, -0.3, 0
+Vertex -2.5, -0.3, 25
+Face2 0,1,2,3
+
+[Texture]
+Load ..\fences\woodfence1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 12, 0
+Coordinates 2, 12, 1
+Coordinates 3, 0, 1
+transparent 0,0,255

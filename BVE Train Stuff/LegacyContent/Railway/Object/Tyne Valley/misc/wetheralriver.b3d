@@ -1,0 +1,73 @@
+;description=a river
+;author=eezypeazy
+;copyright=eezypeazy,all rights reserved, contact eezypeazy@blueyonder.co.uk
+
+
+[meshBuilder]
+vertex -25,-35,-200
+vertex -25,25,-200
+vertex -19,35,0
+vertex -19,-35,0
+vertex 24,-25,0
+vertex 24,43,0
+vertex 25,17,-200
+vertex 22,-25,-200
+face 0,1,2,3
+face 4,5,6,7
+
+[Texture]
+load ..\misc\wetheralriver.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,1,1
+coordinates 5,1,0
+coordinates 6,0,0
+coordinates 7,0,1
+transparent 0,0,255
+
+[MeshBuilder]
+Vertex -19, 20,-15
+Vertex -19, -18,-15
+Vertex -12, -18,-1
+Vertex -12,20,-1
+Vertex -15, 18,-2
+Vertex -15, -18,-2
+Vertex -4, -18,-2
+Vertex -4,18,-2
+
+Vertex 24, 33,-23
+Vertex 24, -18,-20
+Vertex 15, -18,-1
+Vertex 15,24,-1
+Vertex 18, 24,-3
+Vertex 18, -18,-3
+Vertex 7, -18,-3
+Vertex 7,24,-3
+
+Face 3,2,1,0
+face 7,6,5,4
+face 8,9,10,11
+face 12,13,14,15
+color 88,88,88
+
+[Texture]
+Load ..\plants\eptree1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Coordinates 4,0,0
+Coordinates 5,0,1
+Coordinates 6,1,1
+Coordinates 7,1,0
+Coordinates 8,0,0
+Coordinates 9,0,1
+Coordinates 10,1,1
+Coordinates 11,1,0
+Coordinates 12,0,0
+Coordinates 13,0,1
+Coordinates 14,1,1
+Coordinates 15,1,0
+Transparent 0, 0, 255

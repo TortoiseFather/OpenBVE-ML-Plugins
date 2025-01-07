@@ -1,0 +1,85 @@
+;author=eezypeazy
+;description=Blaydon brick shelter
+;copyright=eezypeazy 2009, all rights reserved, for use in my route only, all enquiries to eezypeazy@eezypeazy.co.uk
+
+; l shelter walls
+
+[meshbuilder]
+vertex -7.2,1,14
+vertex -7.2,3.4,14
+vertex -5.2,3.4,14
+vertex -5.2,1,14
+vertex -5.2,3.4,14.15
+vertex -5.2,1,14.15
+vertex -7.2,1,14.15
+vertex -7.2,3.4,14.15
+vertex -7.2,3.4,19.6
+vertex -7.2,1,19.6
+vertex -5.2,3.4,19.6
+vertex -5.2,1,19.6
+vertex -5.2,3.4,19.75
+vertex -5.2,1,19.75
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+face 9,8,10,11
+face 11,10,12,13
+
+[texture]
+load ..\textures\greypaintedbrick.bmp
+coordinates 0,0,2.5
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,2.5
+coordinates 4,0.2,0
+coordinates 5,0.2,2.5
+coordinates 6,0,2.5
+coordinates 7,0,0
+coordinates 8,4,0
+coordinates 9,4,2.5
+coordinates 10,0.2,0
+coordinates 11,0.2,2.5
+coordinates 12,0,0
+coordinates 13,0,0
+
+;bench
+[meshbuilder]
+vertex -6.7,1.7,14.1
+vertex -7.2,1.7,14.1
+vertex -7.2,1.7,19.8
+vertex -6.7,1.7,19.8
+vertex -6.7,1.66,14.1
+vertex -6.7,1.66,19.8
+face 0,1,2,3
+face 4,0,3,5
+color 0,0,235
+
+; l shelter roof
+
+[meshbuilder]
+vertex -7.5,3.4,13.7
+vertex -7.5,3.6,13.7
+vertex -4.9,3.6,13.7
+vertex -4.9,3.4,13.7
+vertex -4.9,3.6,20
+vertex -4.9,3.4,20
+vertex -7.5,3.4,20
+face 0,1,2,3
+face 3,2,4,5
+face 0,3,5,6
+color 145,145,145
+
+;timetable
+[meshbuilder]
+vertex -6.8,2.15,13.8
+vertex -6.8,3.2,13.8
+vertex -5.6,3.2,13.8
+vertex -5.6,2.15,13.8
+face 0,1,2,3
+
+[texture]
+load ..\platforms\ttable1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1

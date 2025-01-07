@@ -1,0 +1,17 @@
+;description=brown ballast
+;author=Uwe Post,modified by eezypeazy
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+
+[MeshBuilder]
+Vertex 0,-0.37,26
+Vertex 22,-0.37,26
+Vertex 22,-0.37,-1
+Vertex 0,-0.37,-1
+Face 0,1,2,3
+
+[Texture]
+Load ..\tracks\schotter1.bmp
+Coordinates 0,0,0
+Coordinates 1,13,0
+Coordinates 2,13,4
+Coordinates 3,0,4

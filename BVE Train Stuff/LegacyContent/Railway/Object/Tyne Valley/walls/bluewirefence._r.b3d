@@ -1,0 +1,18 @@
+;description= a blue wire fence for use at Heworth
+;author=eezypeazy
+;copyright=eezypeazy, all rights reserved
+[Meshbuilder]
+vertex 7,1.1,26
+vertex 7,2.6,26
+vertex 7,2.6,0
+vertex 7,1.1,0
+face 0,1,2,3
+face 3,2,1,0
+
+[texture]
+Load ..\buildings\bluemetalfence.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,16,0
+coordinates 3,16,1
+transparent 0,0,255

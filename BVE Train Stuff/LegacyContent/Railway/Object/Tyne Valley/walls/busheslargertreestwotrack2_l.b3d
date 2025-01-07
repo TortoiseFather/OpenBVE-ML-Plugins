@@ -1,0 +1,215 @@
+;author=eezypeazy
+;description=bushes and fences both sides
+;copyright=eezypeazy, all rights reserved, contact eezypeazy@blueyonder.co.uk
+;uses some RouteBuilder bitmaps
+
+;lh side
+;trees
+
+[meshbuilder]
+vertex -5,-0.5,3
+vertex -5,4,3
+vertex -2,4,4
+vertex -2,-0.5,4
+vertex -5,-0.5,10
+vertex -5,4,10
+vertex -2,4,12
+vertex -2,-0.5,12
+face 0,1,2,3
+face 4,5,6,7
+color 90,90,90
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+
+
+[MeshBuilder]
+Vertex -6,4, 5
+Vertex -6, -0.5, 5
+Vertex -2.5, -0.5, 7
+Vertex -2.5,4, 7
+Face 3,2,1,0
+
+[Texture]
+Load ..\plants\eptree1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 255
+
+
+[MeshBuilder]
+Vertex -6,4, 21
+Vertex -6, -0.5, 21
+Vertex -2.5, -0.5, 21
+Vertex -2.5,4, 21
+Face 3,2,1,0
+
+[Texture]
+Load ..\plants\eptree1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 255
+
+;rh side
+;trees
+
+[meshbuilder]
+vertex 9,-0.5,3
+vertex 9,4,3
+vertex 6,4,4
+vertex 6,-0.5,4
+vertex 9,-0.5,9 
+vertex 9,4,9
+vertex 6,4,10
+vertex 6,-0.5,10
+vertex 8,-0.5,19 
+vertex 8,4,19
+vertex 12,4,20
+vertex 12,-0.5,20
+face 3,2,1,0
+face 7,6,5,4
+face 8,9,10,11
+color 90,90,90
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,1,0
+coordinates 11,1,1
+transparent 0,0,255
+
+[MeshBuilder]
+Vertex 6,4, 6
+Vertex 6, -0.5, 6
+Vertex 12, -0.5, 4
+Vertex 12,4, 4
+Vertex 6,4, 14
+Vertex 6, -0.5, 14
+Vertex 12, -0.5, 12
+Vertex 12,4, 12
+Face 3,2,1,0
+face 7,6,5,4
+
+[Texture]
+Load ..\plants\eptree1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Coordinates 4,0,0
+Coordinates 5,0,1
+Coordinates 6,1,1
+Coordinates 7,1,0
+Transparent 0, 0, 255
+
+
+;author=Uwe Post, modified by eezypeazy to reposition the fence -2.5m from track centre
+;description=wood fence
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+;id=154
+
+[MeshBuilder]
+Vertex -2.7, 1, 25.1
+Vertex -2.7, 1, -0.1
+Vertex -2.7, -0.3, -0.1
+Vertex -2.7, -0.3, 25.1
+Vertex 6.7, 1, 25.1
+Vertex 6.7, 1, -0.1
+Vertex 6.7, -0.3, -0.1
+Vertex 6.7, -0.3, 25.1
+Face 3,2,1,0
+face 4,5,6,7
+color 133,133,133
+
+[Texture]
+Load ..\fences\woodfence1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 12, 0
+Coordinates 2, 12, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0
+Coordinates 5, 12, 0
+Coordinates 6, 12, 1
+Coordinates 7, 0, 1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -2.36,-0.35,-0.1
+vertex -2.36,-0.25,-0.1
+vertex -2.36,-0.25,25.1
+vertex -2.36,-0.35,25.1
+vertex -2.63,-0.25,-0.1
+vertex -2.63,-0.25,25.1
+vertex 6.36,-0.35,25.1
+vertex 6.36,-0.25,25.1
+vertex 6.36,-0.25,-0.1
+vertex 6.36,-0.35,-0.1
+vertex 6.63,-0.25,25.1
+vertex 6.63,-0.25,-0.1
+face 0,1,2,3
+face 1,4,5,2
+face 6,7,8,9
+face 7,10,11,8
+
+[texture]
+load ..\grounds\grass6_cable.bmp
+coordinates 0,0,0.16
+coordinates 1,0,0.82
+coordinates 2,7,0.82
+coordinates 3,7,0.16
+coordinates 4,0,0.2
+coordinates 5,7,0.2
+coordinates 6,0,0.16
+coordinates 7,0,0.82
+coordinates 8,7,0.82
+coordinates 9,7,0.16
+coordinates 10,0,0.2
+coordinates 11,7,0.2
+
+
+
+[meshbuilder]
+vertex -2.65,-0.3,12.2
+vertex -2.65,0.5,12.2
+vertex -2.65,0.5,12.7
+vertex -2.65,-0.3,12.7
+vertex -2.65,-0.3,18.5
+vertex -2.65,0.6,18.5
+vertex -2.65,0.6,19
+vertex -2.65,-0.3,19
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\plants\grassh1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255

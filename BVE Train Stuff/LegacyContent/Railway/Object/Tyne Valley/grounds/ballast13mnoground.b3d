@@ -1,0 +1,17 @@
+;author=eezypeazy
+;description=brown ballast
+;copyright=eezypeazy, all rights reserved. For use in my routes only. Uses RouteBuilder library bitmap.
+
+[meshbuilder]
+vertex 7,-0.3,-0.3
+vertex -5,-0.3,-0.3
+vertex -5,-0.3,25.3
+vertex 7,-0.3,25.3
+face 0,1,2,3
+
+[texture]
+load ..\tracks\schotter1.bmp
+coordinates 0,0,10
+coordinates 1,0,0
+coordinates 2,8,0
+coordinates 3,8,10

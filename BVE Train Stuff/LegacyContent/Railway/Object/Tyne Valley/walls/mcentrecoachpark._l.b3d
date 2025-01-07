@@ -1,0 +1,49 @@
+;author=eezypeazy
+;description=MetroCentre Coach Park
+;copyright=eezypeazy 2009, all rights reserved
+
+;road
+
+[MeshBuilder]
+vertex -4,0.1,0
+vertex -34,0.1,0
+vertex -34,0.1,26
+vertex -4,0.1,26
+face 0,1,2,3
+color 153,153,153
+
+;description=lamp created for Route Builder
+;author=Thomas233
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+
+[Meshbuilder]
+Vertex -34, 0, 23.8
+Vertex -34, 6.3, 23.8
+Vertex -34, 6.3, 19.8
+Vertex -34, 0, 19.8
+Face 0,1,2,3
+face 3,2,1,0
+[Texture]
+Load ..\misc\lampe1.bmp
+Coordinates 0, 0.25, 0.660156
+Coordinates 1, 0.273438, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 0.658203
+Transparent 0, 0, 0
+
+;plants
+
+[meshbuilder]
+vertex -3.8,0,0
+vertex -3.8,1.9,0
+vertex -3.8,1.9,26
+vertex -3.8,0,26
+face 0,1,2,3
+
+[texture]
+load ..\plants\bush1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,18,0
+coordinates 3,18,1
+transparent 0,0,255

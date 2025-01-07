@@ -1,0 +1,59 @@
+;author=eezypeazy
+;description=wooden barrow crossing built negatively
+;copyright=eezypeazy 2007, all rights reserved
+;visit www.eezypeazy.co.uk
+
+[meshbuilder]
+cube 0.65,0.08,1.2
+translate 0,-0.1,-1.2
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,3,0  
+coordinates 7,3,5 
+coordinates 4,0,5 
+
+[meshbuilder]
+cube 1.2,0.08,1.2
+translate 2,-0.1,-1.2
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,5,0  
+coordinates 7,5,5 
+coordinates 4,0,5 
+
+[meshbuilder]
+cube 0.65,0.08,1.2
+translate 4,-0.1,-1.2
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,5,0  
+coordinates 7,5,5 
+coordinates 4,0,5 
+
+[meshbuilder]
+cube 3.6,0.08,1.2
+translate 7.8,-0.1,-1.2
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,3,0  
+coordinates 7,3,5 
+coordinates 4,0,5 
+
+[meshbuilder]
+cube 3.6,0.08,1.2
+translate -3.8,-0.1,-1.2
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,5,0  
+coordinates 7,5,5 
+coordinates 4,0,5

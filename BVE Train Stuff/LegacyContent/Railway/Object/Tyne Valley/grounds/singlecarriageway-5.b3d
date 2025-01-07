@@ -1,0 +1,135 @@
+;author=eezypeazy
+;description= single carriageway 5m below
+;copyright=eezypeazy 2007, all rights reserved. For use in my BVE routes only
+;visit www.eezypeazy.co.uk
+
+;verges and cutting bank
+[meshbuilder]
+vertex -6,-5.14,-1
+vertex -14.7,-4.9,-1
+vertex -14.7,-4.9,26
+vertex -6,-5.14,26
+vertex -1,-5.14,-1
+vertex -3,-5.14,-1
+vertex -3,-5.14,26
+vertex -1,-5.14,26
+vertex 10.7,-4.9,-1
+vertex 2,-5.14,-1
+vertex 2,-5.14,26
+vertex 10.7,-4.9,25
+vertex -18,0.-1
+vertex -18,0,26
+face 0,1,2,3
+;face 4,5,6,7
+face 8,9,10,11
+;face 1,12,13,2
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,3
+coordinates 1,0,2
+coordinates 2,5,2
+coordinates 3,5,3
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,5,0
+coordinates 7,5,1
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,5,0
+coordinates 11,5,1
+coordinates 12,0,0
+coordinates 13,5,0
+
+;road
+
+[meshbuilder]
+vertex -11,-5.14,-1
+vertex -11,-5.14,26
+vertex -3,-5.14,26
+vertex -3,-5.14,-1
+face 0,1,2,3
+color 44,44,44
+translate 5,0,0
+;road markings
+
+[meshbuilder]
+vertex -6.95,-5.12,1
+vertex -7.05,-5.12,1
+vertex -7.05,-5.12,2
+vertex -6.95,-5.12,2
+face 0,1,2,3
+color 200,200,200
+translate 5,0,0
+
+[meshbuilder]
+vertex -6.95,-5.12,1
+vertex -7.05,-5.12,1
+vertex -7.05,-5.12,2
+vertex -6.95,-5.12,2
+face 0,1,2,3
+color 200,200,200
+translate 5,0,3
+
+[meshbuilder]
+vertex -6.95,-5.12,1
+vertex -7.05,-5.12,1
+vertex -7.05,-5.12,2
+vertex -6.95,-5.12,2
+face 0,1,2,3
+color 200,200,200
+translate 5,0,6
+
+[meshbuilder]
+vertex -6.95,-5.12,1
+vertex -7.05,-5.12,1
+vertex -7.05,-5.12,2
+vertex -6.95,-5.12,2
+face 0,1,2,3
+color 200,200,200
+translate 5,0,9
+
+[meshbuilder]
+vertex -6.95,-5.12,1
+vertex -7.05,-5.12,1
+vertex -7.05,-5.12,2
+vertex -6.95,-5.12,2
+face 0,1,2,3
+color 200,200,200
+translate 5,0,12
+
+[meshbuilder]
+vertex -6.95,-5.12,1
+vertex -7.05,-5.12,1
+vertex -7.05,-5.12,2
+vertex -6.95,-5.12,2
+face 0,1,2,3
+color 200,200,200
+translate 5,0,15
+
+[meshbuilder]
+vertex -6.95,-5.12,1
+vertex -7.05,-5.12,1
+vertex -7.05,-5.12,2
+vertex -6.95,-5.12,2
+face 0,1,2,3
+color 200,200,200
+translate 5,0,18
+
+[meshbuilder]
+vertex -6.95,-5.12,1
+vertex -7.05,-5.12,1
+vertex -7.05,-5.12,2
+vertex -6.95,-5.12,2
+face 0,1,2,3
+color 200,200,200
+translate 5,0,21
+
+[meshbuilder]
+vertex -6.95,-5.12,1
+vertex -7.05,-5.12,1
+vertex -7.05,-5.12,2
+vertex -6.95,-5.12,2
+face 0,1,2,3
+color 200,200,200
+translate 5,0,24

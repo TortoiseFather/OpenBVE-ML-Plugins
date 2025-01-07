@@ -1,0 +1,223 @@
+;author=eezypeazy
+;description=wooden crossing
+;copyright=eezypeazy 2009, all rights reserved
+;built symettrically at 12.5m
+
+;wooden bits
+[meshbuilder]
+cube 0.65,0.08,1.5
+translate 0,-0.1,12.5
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,3,0  
+coordinates 7,3,5 
+coordinates 4,0,5 
+
+[meshbuilder]
+cube 1.2,0.08,1.5
+translate 2,-0.1,12.5
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,5,0  
+coordinates 7,5,5 
+coordinates 4,0,5 
+
+[meshbuilder]
+cube 0.65,0.08,1.5
+translate 4,-0.1,12.5
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,3,0  
+coordinates 7,3,5 
+coordinates 4,0,5 
+
+[meshbuilder]
+cube 0.6,0.08,1.5
+translate 5.4,-0.1,12.5
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,3,0  
+coordinates 7,3,5 
+coordinates 4,0,5 
+
+[meshbuilder]
+cube 0.6,0.08,1.5
+translate -1.4,-0.1,12.5
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,3,0  
+coordinates 7,3,5 
+coordinates 4,0,5
+
+;gates
+[meshbuilder]
+vertex -2.4,0,-1
+vertex -2.4,2,-1
+vertex -2.4,2,1
+vertex -2.4,0,1
+vertex 6.4,0,-1
+vertex 6.4,2,-1
+vertex 6.4,2,1
+vertex 6.4,0,1
+face2 0,1,2,3
+face2 7,6,5,4
+
+[texture]
+load woodengate.bmp
+coordinates 0,0.3,1
+coordinates 1,0.3,0
+coordinates 2,0.7,0
+coordinates 3,0.7,1
+coordinates 4,0.3,1
+coordinates 5,0.3,0
+coordinates 6,0.7,0
+coordinates 7,0.7,1
+transparent 0,0,255
+translate 0,0,12.5
+
+;posts
+[meshbuilder]
+cube 0.2,1,0.2
+translate -2.2,1,11.5
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,1,0  
+coordinates 7,1,5 
+coordinates 4,0,5
+
+[meshbuilder]
+cube 0.2,1,0.2
+translate -2.2,1,13.5
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,1,0  
+coordinates 7,1,5 
+coordinates 4,0,5
+
+[meshbuilder]
+cube 0.2,1,0.2
+translate 6.2,1,11.5
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,1,0  
+coordinates 7,1,5 
+coordinates 4,0,5
+
+[meshbuilder]
+cube 0.2,1,0.2
+translate 6.2,1,13.5
+
+[texture]
+load ..\textures\woodforcrossing.bmp
+coordinates 0,0,0 
+coordinates 3,1,0  
+coordinates 7,1,5 
+coordinates 4,0,5
+
+;fences
+[meshbuilder]
+vertex -2.6,-0.3,0
+vertex -2.6,1.7,0
+vertex -2.4,1.7,11.5
+vertex -2.4,-0.3,11.5
+
+vertex -2.5,-0.3,13.5
+vertex -2.5,1.7,13.5
+vertex -2.5,1.7,25
+vertex -2.5,-0.3,25
+
+vertex 6.5,-0.3,0
+vertex 6.5,1.7,0
+vertex 6.4,1.7,11.5
+vertex 6.4,-0.3,11.5
+
+vertex 6.5,-0.3,13.5
+vertex 6.5,1.7,13.5
+vertex 6.5,1.7,25.1
+vertex 6.5,-0.3,25.1
+
+face 0,1,2,3
+face 4,5,6,7
+
+face2 8,9,10,11
+face2 12,13,14,15
+
+[texture]
+load ..\textures\hedge.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,3,0
+coordinates 7,3,1
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,3,0
+coordinates 11,3,1
+coordinates 12,0,1
+coordinates 13,0,0
+coordinates 14,3,0
+coordinates 15,3,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -2.1,-0.2,0
+vertex -2.1,-0.2,25.1
+vertex -2.1,-0.05,0
+vertex -2.43,-0.05,0
+vertex -2.43,-0.05,25.1
+vertex -2.1,-0.05,25.1
+face 0,2,4,1
+face 2,3,4,5
+
+[texture]
+load ..\textures\hedge.bmp
+coordinates 0,0,1
+coordinates 1,4.6,1
+coordinates 2,0,1
+coordinates 3,0,0
+coordinates 4,4.6,0
+coordinates 5,4.6,1
+transparent 0,0,255
+
+;grounds
+[meshbuilder]
+vertex -1.9,0,11
+vertex -4.4,-0.2,11
+vertex -4.4,-0.2,14
+vertex -1.9,0,14
+vertex 5.9,0,11
+vertex 8.4,-0.2,11
+vertex 8.4,-0.2,14
+vertex 5.9,0,14
+face 0,1,2,3
+face 7,6,5,4
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,9,0
+coordinates 3,9,2
+coordinates 4,0,2
+coordinates 5,0,0
+coordinates 6,9,0
+coordinates 7,9,2

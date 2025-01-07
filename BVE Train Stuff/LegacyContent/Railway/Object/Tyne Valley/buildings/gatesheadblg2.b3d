@@ -1,0 +1,55 @@
+;author=eezypeazy
+;description=A building in Gateshead, Tyne and Wear
+;copyright=eezypeazy. For use only in my route. All right reserved
+
+
+[meshbuilder]
+vertex 0,-5,0
+vertex 0,7,0
+vertex 0,7,-51
+vertex 0,-5,-51
+vertex 0.5,7,-51
+vertex 0.5,-5,-51
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ghdbldg2new.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+coordinates 4,2.99,0
+coordinates 5,2.99,1
+
+[meshbuilder]
+vertex 0.01,-5,-50.9
+vertex 0.01,7,-50.9
+vertex 8,7,-50.9
+vertex 8,-5,-50.9
+vertex 4,9,-50.9
+face 0,1,2,3
+face 1,4,2
+
+[texture]
+load redbrick.bmp
+coordinates 0,0,8.75
+coordinates 1,0,1.25
+coordinates 2,4,1.25
+coordinates 3,4,8.75
+coordinates 4,2,0
+color 235,211,211
+
+[meshbuilder]
+vertex 0,6.8,0 
+vertex 4,9,0
+vertex 4,9,-50.9
+vertex 0,6.9,-50.9
+face 0,1,2,3
+
+[texture]
+load ..\textures\rooftiles.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,12,0
+coordinates 3,12,2

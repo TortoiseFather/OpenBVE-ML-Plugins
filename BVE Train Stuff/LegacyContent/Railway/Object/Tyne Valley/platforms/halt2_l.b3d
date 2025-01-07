@@ -1,0 +1,66 @@
+;author=eezypeazy
+;description=haltwhistle platform run left
+;copyright=eezypeazy, all rights reserved
+
+[MeshBuilder]
+vertex -1.8,-0.2,-0.2
+vertex -1.8,1.1,-0.2
+vertex -5.8,1.1,-0.2
+vertex -5.8,2.4,-0.2
+vertex -6,2.5,-0.2
+vertex -6,2.5,25
+vertex -5.8,2.4,25
+vertex -5.8,1.1,25
+vertex -1.8,1.1,25
+vertex -1.8,-0.2,25
+
+vertex -2.8,1.1,-0.2
+vertex -2.8,1.1,25
+
+face 0,1,8,9
+face 1,10,11,8
+face 10,2,7,11
+;face 2,3,6,7
+;face 3,4,5,6
+
+[Texture]
+Load corbridgen.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.55
+Coordinates 2, 0, 0.28
+Coordinates 3, 0, 0.03
+Coordinates 4, 0, 0
+Coordinates 5, 4, 0
+Coordinates 6, 4, 0.03
+Coordinates 7, 4, 0.28
+Coordinates 8, 4, 0.55
+Coordinates 9, 4, 1
+coordinates 10,0,0.45
+coordinates 11,4,0.45
+
+; lamp 2 lh side
+[meshbuilder]
+cylinder 8,0.15,0.15,2
+translate -5.5,1.5,12.5
+color 188,11,11
+
+[meshbuilder]
+cylinder 8,0.11,0.11,9
+translate -5.5,5.5,12.5
+color 255,255,111
+
+[meshbuilder]
+vertex -5.45,9.8,12.7
+vertex -5.45,10,12.7
+vertex -4.6,10.1,12.7
+vertex -4.6,9.9,12.7
+vertex -5.45,9.8,12
+vertex -5.45,10,12
+vertex -4.6,10.1,12
+vertex -4.6,9.9,12
+face 0,1,2,3
+face 3,2,6,7
+face 7,6,5,4
+face 1,5,6,2
+face 0,3,7,4
+color 50,50,50

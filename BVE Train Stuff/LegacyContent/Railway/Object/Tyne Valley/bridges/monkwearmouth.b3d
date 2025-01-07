@@ -1,0 +1,2060 @@
+;author=eezypeazy
+;description=monkwearmouth bridge 
+;copyright=eezypeazy, all rights reserved
+
+[meshbuilder]
+cube 0.5,0.5,62.5
+color 123,123,123
+translate -2.8,0,-62.5
+
+[meshbuilder]
+cube 0.5,2.5,0.5
+color 123,123,123
+translate -2.9,2.5,-10.5
+
+[meshbuilder]
+vertex -2.8,0.5,-18
+vertex -2.8,6,-18
+vertex -2.8,5.3,-11
+vertex -2.8,0.55,-11
+face 0,1,2,3
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 6.3,0.5,-18
+vertex 6.3,6,-18
+vertex 6.3,5.3,-11
+vertex 6.3,0.55,-11
+face 3,2,1,0
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.5,4,0.5
+color 123,123,123
+translate -2.9,4,-18.5
+
+[meshbuilder]
+vertex -2.8,0.5,-26
+vertex -2.8,9,-26
+vertex -2.8,8.2,-19
+vertex -2.8,0.55,-19
+face 0,1,2,3
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 6.3,0.5,-26
+vertex 6.3,9,-26
+vertex 6.3,8.2,-19
+vertex 6.3,0.55,-19
+face 3,2,1,0
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.5,5.5,0.5
+color 123,123,123
+translate -2.9,5.5,-26.5
+
+[meshbuilder]
+vertex -2.8,0.5,-34
+vertex -2.8,11.2,-34
+vertex -2.8,11,-27
+vertex -2.8,0.55,-27
+face 0,1,2,3
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 6.3,0.5,-34
+vertex 6.3,11.2,-34
+vertex 6.3,11,-27
+vertex 6.3,0.55,-27
+face 3,2,1,0
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+
+[meshbuilder]
+cube 0.5,6.5,0.5
+color 123,123,123
+translate -2.9,6.5,-34.5
+
+[meshbuilder]
+vertex -2.8,0.5,-42
+vertex -2.8,12.6,-42
+vertex -2.8,12.4,-35
+vertex -2.8,0.55,-35
+face 0,1,2,3
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 6.3,0.5,-42
+vertex 6.3,12.6,-42
+vertex 6.3,12.4,-35
+vertex 6.3,0.55,-35
+face 3,2,1,0
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.5,7,0.5
+color 123,123,123
+translate -2.9,6.8,-42.5
+
+[meshbuilder]
+vertex -2.8,0.5,-50
+vertex -2.8,13.8,-50
+vertex -2.8,13.6,-43
+vertex -2.8,0.55,-43
+face 0,1,2,3
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 6.3,0.5,-50
+vertex 6.3,13.8,-50
+vertex 6.3,13.6,-43
+vertex 6.3,0.55,-43
+face 3,2,1,0
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.5,7.7,0.5
+color 123,123,123
+translate -2.9,7.75,-50.5
+
+[meshbuilder]
+vertex -2.8,0.5,-58
+vertex -2.8,14.7,-58
+vertex -2.8,14.5,-51
+vertex -2.8,0.55,-51
+face 0,1,2,3
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 6.3,0.5,-58
+vertex 6.3,14.7,-58
+vertex 6.3,14.5,-51
+vertex 6.3,0.55,-51
+face 3,2,1,0
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+cube 0.5,8,0.5
+color 123,123,123
+translate -2.9,8,-58.5
+
+[meshbuilder]
+vertex -2.8,0.5,-66
+vertex -2.8,15,-66
+vertex -2.8,15,-59
+vertex -2.8,0.55,-59
+face 0,1,2,3
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 6.3,0.5,-66
+vertex 6.3,15,-66
+vertex 6.3,15,-59
+vertex 6.3,0.55,-59
+face 3,2,1,0
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+
+[meshbuilder]
+cube 0.5,2.5,0.5
+color 123,123,123
+translate -2.9,2.5,-114.5
+
+
+[meshbuilder]
+cube 0.5,4,0.5
+color 123,123,123
+translate -2.9,4,-106.5
+
+[meshbuilder]
+cube 0.5,5.5,0.5
+color 123,123,123
+translate -2.9,5.5,-98.5
+
+[meshbuilder]
+cube 0.5,6.5,0.5
+color 123,123,123
+translate -2.9,6.5,-90.5
+
+[meshbuilder]
+cube 0.5,7,0.5
+color 123,123,123
+translate -2.9,6.8,-82.5
+
+[meshbuilder]
+cube 0.5,7.7,0.5
+color 123,123,123
+translate -2.9,7.75,-74.5
+
+[meshbuilder]
+cube 0.5,8,0.5
+color 123,123,123
+translate -2.9,8,-66.5
+
+[meshbuilder]
+vertex -2.8,0.5,-74
+vertex -2.8,14.5,-74
+vertex -2.8,14.7,-67
+vertex -2.8,0.55,-67
+face 0,1,2,3
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 6.3,0.5,-74
+vertex 6.3,14.5,-74
+vertex 6.3,14.7,-67
+vertex 6.3,0.55,-67
+face 3,2,1,0
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+
+[meshbuilder]
+vertex -2.8,0.5,-82
+vertex -2.8,13.6,-82
+vertex -2.8,13.8,-75
+vertex -2.8,0.55,-75
+face 0,1,2,3
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 6.3,0.5,-82
+vertex 6.3,13.6,-82
+vertex 6.3,13.8,-75
+vertex 6.3,0.55,-75
+face 3,2,1,0
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -2.8,0.5,-90
+vertex -2.8,12.4,-90
+vertex -2.8,12.6,-83
+vertex -2.8,0.55,-83
+face 0,1,2,3
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -2.8,0.5,-98
+vertex -2.8,11,-98
+vertex -2.8,11.2,-91
+vertex -2.8,0.55,-91
+face 0,1,2,3
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -2.8,0.5,-106
+vertex -2.8,8.2,-106
+vertex -2.8,9,-99
+vertex -2.8,0.55,-99
+face 0,1,2,3
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -2.8,0.5,-114
+vertex -2.8,5.3,-114
+vertex -2.8,6,-107
+vertex -2.8,0.55,-107
+face 0,1,2,3
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+
+
+
+
+
+
+
+
+
+
+
+[meshbuilder]
+vertex 6.3,0.5,-90
+vertex 6.3,12.4,-90
+vertex 6.3,12.6,-83
+vertex 6.3,0.55,-83
+face 3,2,1,0
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 6.3,0.5,-98
+vertex 6.3,11,-98
+vertex 6.3,11.2,-91
+vertex 6.3,0.55,-91
+face 3,2,1,0
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 6.3,0.5,-106
+vertex 6.3,8.2,-106
+vertex 6.3,9,-99
+vertex 6.3,0.55,-99
+face 3,2,1,0
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 6.3,0.5,-114
+vertex 6.3,5.3,-114
+vertex 6.3,6,-107
+vertex 6.3,0.55,-107
+face 3,2,1,0
+color 123,123,123
+
+[texture]
+load ..\textures\bridgecircle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+
+
+
+
+
+
+
+
+
+
+
+
+[meshbuilder]
+cube 0.6,0.6,6
+color 123,123,123
+rotate 1,0,0,26
+translate -3,2.45,-5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,19
+translate -3,6.5,-14.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,18
+translate -3,9.25,-22.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,14
+translate -3,11.6,-30.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,8
+translate -3,13.15,-38.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,8
+translate -3,14.3,-46.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,5
+translate -3,15.2,-54.5
+
+[meshbuilder]
+cube 0.6,0.6,2.3
+color 123,123,123
+rotate 1,0,0,2
+translate -3,15.6,-60.5
+
+[meshbuilder]
+cube 0.6,0.6,6
+color 123,123,123
+rotate 1,0,0,-26
+translate -3,2.45,-120
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,-19
+translate -3,6.5,-110.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,-18
+translate -3,9.25,-102.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,-14
+translate -3,11.6,-94.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,-8
+translate -3,13.15,-86.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,-8
+translate -3,14.3,-78.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,-5
+translate -3,15.2,-70.5
+
+[meshbuilder]
+cube 0.6,0.6,2.3
+color 123,123,123
+rotate 1,0,0,-2
+translate -3,15.6,-64.5
+
+
+
+
+
+
+
+[meshbuilder]
+cube 0.5,0.5,62.5
+color 123,123,123
+translate 6.3,0,-62.5
+
+[meshbuilder]
+cube 0.5,2.5,0.5
+color 123,123,123
+translate 6.4,2.5,-10.5
+
+[meshbuilder]
+cube 0.5,4,0.5
+color 123,123,123
+translate 6.4,4,-18.5
+
+[meshbuilder]
+cube 0.5,5.5,0.5
+color 123,123,123
+translate 6.4,5.5,-26.5
+
+[meshbuilder]
+cube 0.5,6.5,0.5
+color 123,123,123
+translate 6.4,6.5,-34.5
+
+[meshbuilder]
+cube 0.5,7,0.5
+color 123,123,123
+translate 6.4,6.8,-42.5
+
+[meshbuilder]
+cube 0.5,7.7,0.5
+color 123,123,123
+translate 6.4,7.75,-50.5
+
+[meshbuilder]
+cube 0.5,8,0.5
+color 123,123,123
+translate 6.4,8,-58.5
+
+[meshbuilder]
+cube 0.5,2.5,0.5
+color 123,123,123
+translate 6.4,2.5,-114.5
+
+[meshbuilder]
+cube 0.5,4,0.5
+color 123,123,123
+translate 6.4,4,-106.5
+
+[meshbuilder]
+cube 0.5,5.5,0.5
+color 123,123,123
+translate 6.4,5.5,-98.5
+
+[meshbuilder]
+cube 0.5,6.5,0.5
+color 123,123,123
+translate 6.4,6.5,-90.5
+
+[meshbuilder]
+cube 0.5,7,0.5
+color 123,123,123
+translate 6.4,6.8,-82.5
+
+[meshbuilder]
+cube 0.5,7.7,0.5
+color 123,123,123
+translate 6.4,7.75,-74.5
+
+[meshbuilder]
+cube 0.5,8,0.5
+color 123,123,123
+translate 6.4,8,-66.5
+
+[meshbuilder]
+cube 0.6,0.6,6
+color 123,123,123
+rotate 1,0,0,26
+translate 6.5,2.45,-5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,19
+translate 6.5,6.5,-14.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,18
+translate 6.5,9.25,-22.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,14
+translate 6.5,11.6,-30.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,8
+translate 6.5,13.15,-38.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,8
+translate 6.5,14.3,-46.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,5
+translate 6.5,15.2,-54.5
+
+[meshbuilder]
+cube 0.6,0.6,2.3
+color 123,123,123
+rotate 1,0,0,2
+translate 6.5,15.6,-60.5
+
+[meshbuilder]
+cube 0.6,0.6,6
+color 123,123,123
+rotate 1,0,0,-26
+translate 6.5,2.45,-120
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,-19
+translate 6.5,6.5,-110.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,-18
+translate 6.5,9.25,-102.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,-14
+translate 6.5,11.6,-94.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,-8
+translate 6.5,13.15,-86.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,-8
+translate 6.5,14.3,-78.5
+
+[meshbuilder]
+cube 0.6,0.6,4.6
+color 123,123,123
+rotate 1,0,0,-5
+translate 6.5,15.2,-70.5
+
+[meshbuilder]
+cube 0.6,0.6,2.3
+color 123,123,123
+rotate 1,0,0,-2
+translate 6.5,15.6,-64.5
+
+
+
+
+
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,11,-26.5
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,10,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -2.4,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -2.4,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -1.31,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -1.31,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -0.28,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -0.28,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 0.75,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 0.75,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 1.78,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 1.78,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 2.81,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 2.81,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 3.84,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 3.84,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 4.87,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 4.87,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 5.9,10.5,-26.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 5.9,10.5,-26.5
+
+
+
+
+
+
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,13,-34.5
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,12,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -2.4,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -2.4,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -1.31,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -1.31,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -0.28,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -0.28,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 0.75,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 0.75,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 1.78,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 1.78,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 2.81,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 2.81,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 3.84,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 3.84,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 4.87,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 4.87,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 5.9,12.5,-34.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 5.9,12.5,-34.5
+
+
+
+
+
+
+
+
+
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,14.2,-42.5
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,13.2,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -2.4,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -2.4,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -1.31,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -1.31,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -0.28,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -0.28,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 0.75,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 0.75,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 1.78,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 1.78,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 2.81,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 2.81,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 3.84,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 3.84,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 4.87,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 4.87,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 5.9,13.7,-42.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 5.9,13.7,-42.5
+
+
+
+
+
+
+
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,15.3,-50.5
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,14.3,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -2.4,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -2.4,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -1.31,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -1.31,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -0.28,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -0.28,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 0.75,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 0.75,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 1.78,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 1.78,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 2.81,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 2.81,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 3.84,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 3.84,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 4.87,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 4.87,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 5.9,14.8,-50.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 5.9,14.8,-50.5
+
+
+
+
+
+
+
+
+
+
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,16,-58.5
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,15,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -2.4,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -2.4,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -1.31,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -1.31,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -0.28,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -0.28,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 0.75,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 0.75,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 1.78,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 1.78,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 2.81,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 2.81,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 3.84,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 3.84,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 4.87,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 4.87,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 5.9,15.5,-58.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 5.9,15.5,-58.5
+
+
+
+
+
+
+
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,16,-66.5
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,15,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -2.4,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -2.4,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -1.31,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -1.31,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -0.28,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -0.28,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 0.75,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 0.75,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 1.78,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 1.78,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 2.81,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 2.81,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 3.84,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 3.84,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 4.87,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 4.87,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 5.9,15.5,-66.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 5.9,15.5,-66.5
+
+
+
+
+
+
+
+
+
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,15.3,-74.5
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,14.3,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -2.4,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -2.4,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -1.31,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -1.31,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -0.28,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -0.28,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 0.75,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 0.75,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 1.78,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 1.78,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 2.81,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 2.81,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 3.84,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 3.84,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 4.87,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 4.87,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 5.9,14.8,-74.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 5.9,14.8,-74.5
+
+
+
+
+
+
+
+
+
+
+
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,14.2,-82.5
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,13.2,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -2.4,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -2.4,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -1.31,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -1.31,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -0.28,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -0.28,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 0.75,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 0.75,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 1.78,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 1.78,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 2.81,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 2.81,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 3.84,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 3.84,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 4.87,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 4.87,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 5.9,13.7,-82.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 5.9,13.7,-82.5
+
+
+
+
+
+
+
+
+
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,13,-90.5
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,12,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -2.4,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -2.4,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -1.31,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -1.31,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -0.28,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -0.28,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 0.75,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 0.75,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 1.78,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 1.78,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 2.81,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 2.81,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 3.84,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 3.84,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 4.87,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 4.87,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 5.9,12.5,-90.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 5.9,12.5,-90.5
+
+
+
+
+
+
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,11,-98.5
+
+[meshbuilder]
+cube 4.2,0.1,0.1
+color 123,123,123
+translate 1.8,10,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -2.4,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -2.4,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -1.31,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -1.31,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate -0.28,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate -0.28,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 0.75,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 0.75,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 1.78,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 1.78,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 2.81,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 2.81,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 3.84,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 3.84,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 4.87,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 4.87,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,45
+translate 5.9,10.5,-98.5
+
+[meshbuilder]
+cube 0.8,0.03,0.03
+color 123,123,123
+rotate 0,0,1,-45
+translate 5.9,10.5,-98.5
+
+
+
+
+
+
+

@@ -1,0 +1,219 @@
+;author=eezypeazy
+;description=semaphore red signal
+;copyright=eezypeazy 2009, all rights reserved
+;includes semaphore bitmaps provided by Derek Kaye, who retains copyright in them.
+
+[meshbuilder]
+cylinder 6,0.07,0.11,6
+color 200,200,200
+translate -2,2.9,0.11
+
+[meshbuilder]
+vertex -3.04,5.6,0
+vertex -3.04,6.3,0
+vertex -1.84,6.3,0
+vertex -1.84,5.6,0
+face 0,1,2,3
+
+[texture]
+load sem_red.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -3.04,5.6,0
+vertex -3.04,6.3,0
+vertex -1.84,6.3,0
+vertex -1.84,5.6,0
+face 3,2,1,0
+
+[texture]
+load sem_red_reverse.bmp
+coordinates 0,1,1
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+transparent 0,0,255
+
+[meshbuilder]
+cylinder 6,0.03,0.03,6
+rotate 1,0,0,-15
+translate -2.2,2.9,0.95
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,6
+rotate 1,0,0,-15
+translate -1.8,2.9,0.95
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,5.7,0.195
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,5.5,0.255
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,5.3,0.31
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,5.1,0.36
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,4.9,0.41
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,4.7,0.465
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,4.5,0.52
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,4.3,0.57
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,4.1,0.625
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,3.9,0.68
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,3.7,0.735
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,3.5,0.785
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,3.3,0.84
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,3.1,0.895
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,2.9,0.95
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,2.7,1.005
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,2.5,1.055
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,2.3,1.115
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,2.1,1.16
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,1.9,1.22
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,1.7,1.27
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,1.5,1.32
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,1.3,1.37
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,1.1,1.43
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,0.9,1.49
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,0.7,1.54
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,0.5,1.59
+color 111,111,111
+
+[meshbuilder]
+cylinder 6,0.03,0.03,0.4
+rotate 0,0,1,90
+translate -2,0.3,1.645
+color 111,111,111

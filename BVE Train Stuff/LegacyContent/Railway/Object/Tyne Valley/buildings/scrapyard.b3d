@@ -1,0 +1,61 @@
+;author=eezypeazy
+;description=a typical scrapyard
+;copyright=OpenSource
+
+
+[meshbuilder]
+vertex 0,0,0
+vertex 0,0,25
+vertex 0,3,25
+vertex 3,5,25
+vertex 3,5,3
+vertex 0,3,0
+face 5,0,1,2,3,4
+
+[texture]
+load scrapyard.bmp
+coordinates 0,3,1
+coordinates 1,0,1
+coordinates 2,0,0.6
+coordinates 3,0,0
+coordinates 4,3,0
+coordinates 5,3,0.6
+transparent 0,0,255
+
+[meshbuilder]
+vertex 0,0,0
+vertex 25,0,0
+vertex 25,3,0
+vertex 25,5,3
+vertex 3,5,3
+vertex 0,3,0
+face 5,4,3,2,1,0
+
+[texture]
+load scrapyard.bmp
+coordinates 0,3,1
+coordinates 1,0,1
+coordinates 2,0,0.6
+coordinates 3,0,0
+coordinates 4,3,0
+coordinates 5,3,0.6
+transparent 0,0,255
+
+[meshbuilder]
+vertex 0,0,25
+vertex 0,3,25
+vertex 0,5,22
+vertex 25,5,22
+vertex 25,3,25
+vertex 25,0,25
+face 4,3,2,1,0,5
+
+[texture]
+load scrapyard.bmp
+coordinates 0,3,1
+coordinates 1,3,0.6
+coordinates 2,3,0
+coordinates 3,0,0
+coordinates 4,0,0.6
+coordinates 5,0,1
+transparent 0,0,255

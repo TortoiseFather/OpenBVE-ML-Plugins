@@ -1,0 +1,297 @@
+;author=eezypeazy
+;description=westboat underbridge
+;copyright=eezypeazy, all rights reserved, for use in my route only, all enquiries to eezypeazy@blueyonder.co.uk
+
+;author=Uwe Post- Modded by Chris Lees
+;description=steel bridge
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+
+[MeshBuilder]
+Vertex 6.6, -0.3, 0
+Vertex 6.6, -0.3, 25
+Vertex 6.6, 1.5, 25
+Vertex 6.6, 1.5, 0
+Face 0,1,2,3
+
+[Texture]
+Load ..\walls\bridge_steel3.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+transparent 0,64,63
+
+[MeshBuilder]
+Vertex 6.5, -0.3, 0
+Vertex 6.5, -0.3, 25
+Vertex 6.5, 1.5, 25
+Vertex 6.5, 1.5, 0
+Face 0,1,2,3
+
+[Texture]
+Load ..\walls\bridge_steel3.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+transparent 0,64,63
+
+[MeshBuilder]
+Vertex 6.5, -0.3, -1
+Vertex 6.5, -0.3, 26
+Vertex 4, -0.3, 26
+Vertex 4, -0.3, -1
+Face 3,2,1,0
+
+[Texture]
+Load ..\walls\grey_steel.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 10, 1
+Coordinates 2, 10, 0
+Coordinates 3, 0, 0
+
+
+;author=Uwe Post & Chris Lees
+;description=Grey steel bridge
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+
+[MeshBuilder]
+Vertex -2.6, -0.3, 0
+Vertex -2.6, -0.3, 25
+Vertex -2.6, 1.5, 25
+Vertex -2.6, 1.5, 0
+Face 3,2,1,0
+
+[Texture]
+Load ..\walls\bridge_steel3.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+transparent 0,64,63
+
+[MeshBuilder]
+Vertex -2.5, -0.3, 0
+Vertex -2.5, -0.3, 25
+Vertex -2.5, 1.5, 25
+Vertex -2.5, 1.5, 0
+Face 3,2,1,0
+
+[Texture]
+Load ..\walls\bridge_steel3.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+transparent 0,64,63
+
+[MeshBuilder]
+Vertex -2.5, -0.3, -1
+Vertex -2.5, -0.3, 26
+Vertex 0, -0.3, 26
+Vertex 0, -0.3, -1
+Face 0,1,2,3
+
+[Texture]
+Load ..\walls\grey_steel.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 10, 1
+Coordinates 2, 10, 0
+Coordinates 3, 0, 0
+
+;author=Uwe Post, modified by eezypeazy
+;description=cable troughs
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+;id=154
+
+
+[meshbuilder]
+vertex -2.1,-0.15,-0.1
+vertex -2.1,-0.15,25.1
+vertex -2.1,-0.05,-0.1
+vertex -2.43,-0.05,-0.1
+vertex -2.43,-0.05,25.1
+vertex -2.1,-0.05,25.1
+vertex 6.1,-0.15,-0.1
+vertex 6.1,-0.15,25.1
+vertex 6.1,-0.05,-0.1
+vertex 6.43,-0.05,-0.1
+vertex 6.43,-0.05,25.1
+vertex 6.1,-0.05,25.1
+face 0,2,4,1
+face 2,3,4,5
+face 7,10,8,6
+face 11,10,9,8
+
+[texture]
+load ..\grounds\grass6_cable.bmp
+coordinates 0,0,1
+coordinates 1,7,1
+coordinates 2,0,1
+coordinates 3,0,0
+coordinates 4,7,0
+coordinates 5,7,1
+coordinates 6,0,1
+coordinates 7,7,1
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,7,0
+coordinates 11,7,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -2.4,-0.3,12.2
+vertex -2.4,0.5,12.2
+vertex -2.4,0.5,12.7
+vertex -2.4,-0.3,12.7
+vertex -2.4,-0.3,18.5
+vertex -2.4,0.6,18.5
+vertex -2.4,0.6,19
+vertex -2.4,-0.3,19
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\plants\grassh1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+
+;lane wall and trees
+[meshbuilder]
+vertex -10,-5,7.3
+vertex -10,-5,25.3
+vertex -7,-5,25.3
+vertex -7,-5,7.3
+vertex -7,-5,7.3
+vertex -7,-5,14
+vertex 16,-5,14
+vertex 17,-5,7.3
+face 0,1,2,3
+face 4,5,6,7
+color 111,101,99
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,25
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,25
+coordinates 4,0,2
+coordinates 5,0,0
+coordinates 6,12,0
+coordinates 7,12,2
+
+[meshbuilder]
+vertex 5,-5,-125
+vertex 5,0,-125
+vertex 100,-5,-125
+vertex 100,-10,-125
+vertex -55,-5,-125
+vertex -55,2,-125
+vertex -2.35,-0.25,-125
+vertex -2,-5,-125
+face 0,1,2,3
+face 4,5,6,7
+color 123,99,77
+
+[meshbuilder]
+vertex 6.3,-5.2,14.3
+vertex 6.3,-0.2,25.3
+vertex 33,-2,25.3
+vertex 33,-5,14.3
+vertex -2.3,-0.2,14.3
+vertex -2.3,-0.2,25.3
+vertex -7,-5,25.3
+vertex -7,-5,14.3
+vertex 6.3,-0.2,-125
+vertex 6.3,-0.2,7
+vertex 10,-5,7
+vertex 100,-5,-125
+face 0,1,2,3
+face 7,6,5,4
+face 8,9,10,11
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,12
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,12
+coordinates 4,0,12
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,12
+coordinates 8,0,12
+coordinates 9,0,0
+coordinates 10,1,0
+coordinates 11,1,12
+
+[meshbuilder]
+vertex -10,-5.2,25.3
+vertex -10,-2.5,25.3
+vertex -10,-2.5,7
+vertex -10,-5.2,7
+vertex 10,-5.2,7.3
+vertex 10,-3,7.3
+vertex 100,-3,-125
+vertex 100,-5.2,-125
+vertex -5,-2.5,7
+vertex -5,-5.2,7
+vertex 11,-5,17
+vertex 11,6,17
+vertex 100,4,-125
+vertex 100,-5,-125
+face 3,2,1,0
+face 4,5,6,7
+face 3,2,8,9
+face 10,11,12,13
+color 199,199,199
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,0.7
+coordinates 1,0,0
+coordinates 2,0.9,0
+coordinates 3,0.9,0.7
+coordinates 4,0.1,0.7
+coordinates 5,0.1,0
+coordinates 6,0.6,0
+coordinates 7,0.6,0.7
+coordinates 8,0.3,0
+coordinates 9,0.3,0.7
+coordinates 10,0,1
+coordinates 11,0,0
+coordinates 12,35,0
+coordinates 13,35,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -10,-6,7
+vertex -55,2,-0.3
+vertex -55,2,25.3
+vertex -6,-5.5,25.3
+vertex -6,0,-125
+vertex -55,2,-125
+vertex -2.3,-0.3,-125
+vertex -2.3,-0.3,7
+face 0,1,2,3
+face 4,5,1,0
+face 6,4,0,7
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,4,2
+coordinates 1,4,1
+coordinates 2,5,1
+coordinates 3,5,2
+coordinates 4,0,2
+coordinates 5,0,1
+coordinates 6,2,1
+coordinates 7,2,2

@@ -1,0 +1,472 @@
+;author=eezypeazy
+;description= Bardon Mill platform pt 2 run with shelter
+;copyright=eezypeazy 2009, all rights reserved
+
+;shelter
+[meshbuilder]
+vertex 9.8,3.3,9.5
+vertex 10,3.7,9.5
+vertex 10.2,4,9.5
+vertex 10.2,4.2,9.5
+vertex 10.8,4.25,9.5
+vertex 11.1,4.2,9.5
+vertex 11.4,4,9.5
+vertex 11.6,3.7,9.5
+vertex 11.8,3.3,9.5
+vertex 9.8,3.3,15.5
+vertex 10,3.7,15.5
+vertex 10.2,4,15.5
+vertex 10.5,4.2,15.5
+vertex 10.8,4.25,15.5
+vertex 11.1,4.2,15.5
+vertex 11.4,4,15.5
+vertex 11.6,3.7,15.5
+vertex 11.8,3.3,15.5
+face2 0,1,10,9
+face2 1,2,11,10
+face2 2,3,12,11
+face2 3,4,13,12
+face2 4,5,14,13
+face2 5,6,15,14
+face2 6,7,16,15
+face2 7,8,17,16
+face 0,1,2,3,4,5,6,7,8
+face 9,10,11,12,13,14,15,16,17
+color 0,0,0,111
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 9.8,2.2,9.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 9.8,2.2,10.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 9.8,2.2,11.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 9.8,2.2,12.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 9.8,2.2,13.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 9.8,2.2,14.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 9.8,2.2,15.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 10.8,2.2,9.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 10.8,2.2,15.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 11.8,2.2,9.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 11.8,2.2,10.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 11.8,2.2,11.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 11.8,2.2,12.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 11.8,2.2,13.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 11.8,2.2,14.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1.1,0.025
+translate 11.8,2.2,15.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,3,0.025
+rotate 1,0,0,90
+translate 11.8,3.3,12.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,3,0.025
+rotate 1,0,0,90
+translate 9.8,3.3,12.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,2,0.025
+rotate 1,0,0,90
+translate 9.8,1.3,12.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,3,0.025
+rotate 1,0,0,90
+translate 11.8,1.3,12.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1,0.025
+rotate 0,0,1,90
+translate 10.8,1.3,9.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1,0.025
+rotate 0,0,1,90
+translate 10.8,3.3,9.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1,0.025
+rotate 0,0,1,90
+translate 10.8,1.3,15.5
+color 175,0,0
+
+[meshbuilder]
+cube 0.025,1,0.025
+rotate 0,0,1,90
+translate 10.8,3.3,15.5
+color 175,0,0
+
+[meshbuilder]
+vertex 11.8,1.3,9.5
+vertex 11.8,3.3,9.5
+vertex 11.8,3.3,15.5
+vertex 11.8,1.3,15.5
+vertex 9.8,3.3,9.5
+vertex 9.8,1.3,9.5
+vertex 9.8,1.3,15.5
+vertex 9.8,3.3,15.5
+vertex 9.8,1.3,10.5
+vertex 9.8,3.3,10.5
+vertex 9.8,3.3,14.5
+vertex 9.8,1.3,14.5
+face 3,2,1,0
+face 5,4,1,0
+face 6,7,2,3
+face 11,10,9,8
+color 0,0,0,55
+
+
+;rh side
+[meshbuilder]
+vertex 6,1.1,25.1
+vertex 9.8,1.1,25.1
+vertex 9.8,1.1,-0.1
+vertex 6,1.1,-0.1
+vertex 9.8,1.1,15.5
+vertex 11.8,1.1,15.5
+vertex 11.8,1.1,9.5
+vertex 9.8,1.1,9.5
+vertex 11.8,0,9.5
+vertex 9.8,0,9.5
+face 0,1,2,3
+face 4,5,6,7
+face 7,6,8,9
+;color 100,100,130
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,7,0
+coordinates 3,7,2
+
+[meshbuilder]
+vertex 5.8,0.9,25.2
+vertex 5.8,1.1,25.2
+vertex 5.8,1.1,-0.2
+vertex 5.8,0.9,-0.2
+vertex 6,1.1,25.1
+vertex 6,1.1,-0.2
+face 0,1,2,3
+face 1,4,5,2
+color 222,222,222
+
+;pillars
+[meshbuilder]
+vertex 6.3,-0.2,25
+vertex 6.3,1,25
+vertex 6.3,1,24.7
+vertex 6.3,-0.2,24.7
+vertex 6.6,1,24.7
+vertex 6.6,-0.2,24.7
+vertex 6.3,-0.2,22.3
+vertex 6.3,1,22.3
+vertex 6.3,1,22
+vertex 6.3,-0.2,22
+vertex 6.6,1,22
+vertex 6.6,-0.2,22
+vertex 6.3,-0.2,19.3
+vertex 6.3,1,19.3
+vertex 6.3,1,19
+vertex 6.3,-0.2,19
+vertex 6.6,1,19
+vertex 6.6,-0.2,19
+vertex 6.3,-0.2,16.7
+vertex 6.3,1,16.7
+vertex 6.3,1,16.4
+vertex 6.3,-0.2,16.4
+vertex 6.6,1,16.4
+vertex 6.6,-0.2,16.4
+vertex 6.3,-0.2,13.9
+vertex 6.3,1,13.9
+vertex 6.3,1,13.6
+vertex 6.3,-0.2,13.6
+vertex 6.6,1,13.6
+vertex 6.6,-0.2,13.6
+vertex 6.3,-0.2,11.1
+vertex 6.3,1,11.1
+vertex 6.3,1,10.8
+vertex 6.3,-0.2,10.8
+vertex 6.6,1,10.8
+vertex 6.6,-0.2,10.8
+vertex 6.3,-0.2,8.3
+vertex 6.3,1,8.3
+vertex 6.3,1,8
+vertex 6.3,-0.2,8
+vertex 6.6,1,8
+vertex 6.6,-0.2,8
+vertex 6.3,-0.2,5.6
+vertex 6.3,1,5.6
+vertex 6.3,1,5.3
+vertex 6.3,-0.2,5.3
+vertex 6.6,1,5.3
+vertex 6.6,-0.2,5.3
+vertex 6.3,-0.2,2.8
+vertex 6.3,1,2.8
+vertex 6.3,1,2.5
+vertex 6.3,-0.2,2.5
+vertex 6.6,1,2.5
+vertex 6.6,-0.2,2.5
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+face 9,8,10,11
+face 12,13,14,15
+face 15,14,16,17
+face 18,19,20,21
+face 21,20,22,23
+face 24,25,26,27
+face 27,26,28,29
+face 30,31,32,33
+face 33,32,34,35
+face 36,37,38,39
+face 39,38,40,41
+face 42,43,44,45
+face 45,44,46,47
+face 48,49,50,51
+face 51,50,52,53
+color 156,136,136
+
+[MeshBuilder]
+vertex 6,-0.2,25.2
+vertex 10,-0.2,25.2
+vertex 10,-0.2,-0.2
+vertex 6,-0.2,-0.2
+face 0,1,2,3
+color 150,150,150
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,7,0
+coordinates 3,7,2
+
+
+;rh platform fence
+
+[meshbuilder]
+vertex 9.8,2.55,9.45
+vertex 9.8,2.7,9.45
+vertex 9.8,2.7,-0.2
+vertex 9.8,2.55,-0.2
+vertex 9.8,2.12,9.45
+vertex 9.8,2.27,9.45
+vertex 9.8,2.27,-0.2
+vertex 9.8,2.12,-0.2
+vertex 9.8,1.69,9.45
+vertex 9.8,1.84,9.45
+vertex 9.8,1.84,-0.2
+vertex 9.8,1.69,-0.2
+vertex 9.8,1.26,9.45
+vertex 9.8,1.41,9.45
+vertex 9.8,1.41,-0.2
+vertex 9.8,1.26,-0.2
+vertex 9.8,2.55,25.2
+vertex 9.8,2.7,25.2
+vertex 9.8,2.7,15.55
+vertex 9.8,2.55,15.55
+vertex 9.8,2.12,25.2
+vertex 9.8,2.27,25.2
+vertex 9.8,2.27,15.55
+vertex 9.8,2.12,15.55
+vertex 9.8,1.69,25.2
+vertex 9.8,1.84,25.2
+vertex 9.8,1.84,15.55
+vertex 9.8,1.69,15.55
+vertex 9.8,1.26,25.2
+vertex 9.8,1.41,25.2
+vertex 9.8,1.41,15.55
+vertex 9.8,1.26,15.55
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+face 12,13,14,15
+face 16,17,18,19
+face 20,21,22,23
+face 24,25,26,27
+face 28,29,30,31
+color 78,45,37
+
+[meshbuilder]
+vertex 9.8,1,25
+vertex 9.8,2.7,25
+vertex 9.8,2.7,24.85
+vertex 9.8,1,24.85
+vertex 9.95,2.7,24.85
+vertex 9.95,1,24.85
+vertex 9.8,1,22.7
+vertex 9.8,2.7,22.7
+vertex 9.8,2.7,22.55
+vertex 9.8,1,22.55
+vertex 9.95,2.7,22.55
+vertex 9.95,1,22.55
+vertex 9.8,1,20.45
+vertex 9.8,2.7,20.45
+vertex 9.8,2.7,20.3
+vertex 9.8,1,20.3
+vertex 9.95,2.7,20.3
+vertex 9.95,1,20.3
+vertex 9.8,1,18.15
+vertex 9.8,2.7,18.15
+vertex 9.8,2.7,18
+vertex 9.8,1,18
+vertex 9.95,2.7,18
+vertex 9.95,1,18
+vertex 9.8,1,15.75
+vertex 9.8,2.7,15.75
+vertex 9.8,2.7,15.6
+vertex 9.8,1,15.6
+vertex 9.95,2.7,15.6
+vertex 9.95,1,15.6
+vertex 9.8,1,9.4
+vertex 9.8,2.7,9.4
+vertex 9.8,2.7,9.25
+vertex 9.8,1,9.25
+vertex 9.95,2.7,9.25
+vertex 9.95,1,9.25
+vertex 9.8,1,6.7
+vertex 9.8,2.7,6.7
+vertex 9.8,2.7,6.55
+vertex 9.8,1,6.55
+vertex 9.95,2.7,6.55
+vertex 9.95,1,6.55
+vertex 9.8,1,4.07
+vertex 9.8,2.7,4.07
+vertex 9.8,2.7,3.92
+vertex 9.8,1,3.92
+vertex 9.95,2.7,3.92
+vertex 9.95,1,3.92
+vertex 9.8,1,2.07
+vertex 9.8,2.7,2.07
+vertex 9.8,2.7,1.92
+vertex 9.8,1,1.92
+vertex 9.95,2.7,1.92
+vertex 9.95,1,1.92
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+face 9,8,10,11
+face 12,13,14,15
+face 15,14,16,17
+face 18,19,20,21
+face 21,20,22,23
+face 24,25,26,27
+face 27,26,28,29
+face 30,31,32,33
+face 33,32,34,35
+face 36,37,38,39
+face 39,38,40,41
+face 42,43,44,45
+face 45,44,46,47
+face 48,49,50,51
+face 51,50,52,53
+color 78,45,37
+
+;bushes
+[meshbuilder]
+vertex 10,1,25
+vertex 10,3.2,26
+vertex 12.5,4,12.5
+vertex 12.5,1,12.5
+vertex 10.3,3.2,0
+vertex 10.3,0,-1
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3.5,0
+coordinates 3,3.5,1
+coordinates 4,7,0
+coordinates 5,7,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 10.3,1,25
+vertex 10.3,7,26
+vertex 12.5,9,12.5
+vertex 12.5,1,12.5
+vertex 11.2,7,-2
+vertex 11.2,0,-3
+face 0,1,2,3
+face 3,2,4,5
+color 255,255,0
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,2.5,0
+coordinates 3,2.5,1
+coordinates 4,5,0
+coordinates 5,5,1
+transparent 0,0,255

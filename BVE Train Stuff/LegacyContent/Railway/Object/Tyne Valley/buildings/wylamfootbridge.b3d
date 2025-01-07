@@ -1,0 +1,507 @@
+;author=eezypeazy
+;description=Wylam station footbridge
+;copyright=eezypeazy, all rights reserved.
+
+;bridge face
+
+[Meshbuilder]
+vertex -4.6,0,3
+vertex -4.6,6,3
+vertex 6.7,6,3
+vertex 6.7,0,3
+face 0,1,2,3
+
+[Texture]
+load wylamfootbridge.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+;bridge far face
+
+[Meshbuilder]
+vertex -4.6,0,4.3
+vertex -4.6,6,4.3
+vertex 6.7,6,4.3
+vertex 6.7,0,4.3
+face 0,1,2,3
+
+[Texture]
+load wylamfootbridgefar.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+;lh steps
+;fences
+[meshbuilder]
+vertex -5.4,0,0 
+vertex -5.4,1,0
+vertex -5.4,2.5,1.1
+vertex -5.4,2.5,1.9
+vertex -5.4,4.5,3
+vertex -5.4,4.5,4.3
+vertex -4,4.5,4.3
+vertex -4,3.5,4.3
+vertex -5.4,3.5,4.3
+vertex -5.4,3.5,3
+vertex -5.4, 1.5,1.9
+vertex -5.4,1.5,1.1
+vertex -4,0,0 
+vertex -4,1,0
+vertex -4,2.5,1.1
+vertex -4,2.5,1.9
+vertex -4,4.5,3
+vertex -4,3.5,3
+vertex -4,1.5,1.9
+vertex -4,1.5,1.1
+face 0,1,2,11
+face 11,2,3,10
+face 10,3,4,9
+face 9,4,5,8
+face 8,5,6,7
+face 12,13,14,19
+face 19,14,15,18
+face 18,15,16,17
+
+[texture]
+load redmetalfence.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,0,0
+coordinates 4,3,0
+coordinates 5,0,0
+coordinates 6,3,0
+coordinates 7,3,1
+coordinates 8,0,1
+coordinates 9,3,1
+coordinates 10,0,1
+coordinates 11,4,1
+coordinates 12,0,1
+coordinates 13,0,0
+coordinates 14,4,0
+coordinates 15,0,0
+coordinates 16,3,0
+coordinates 17,3,1
+coordinates 18,0,1
+coordinates 19,4,1
+coordinates 8,0,1
+transparent 0,0,255
+
+;lh step undersides
+
+[meshbuilder]
+vertex -4,0,0
+vertex -5.4,0,0
+vertex -5.4,1.5,1.1
+vertex -5.4,1.5,1.9
+vertex -5.4,3.5,3
+vertex -5.4,3.5,4.3
+vertex -4,3.5,4.3
+vertex -0.36,4.9,4.3
+vertex 4.72,4.9,4.3
+vertex 6,3.5,4.3
+vertex 6,3.5,3
+vertex 4.72,4.9,3
+vertex -0.36,4.9,3
+vertex -4,3.5,3
+vertex -4,1.5,1.9
+vertex -4,1.5,1.1
+face 0,1,2,15
+face 15,2,3,14
+face 14,3,4,13
+face 6,5,4,13
+face 12,7,6,13
+face 11,8,7,12
+face 10,9,8,11
+color 111,111,111
+
+;lh steps brick bases
+[meshbuilder]
+vertex -4,0,0
+vertex -4,1.5,1.1
+vertex -4,0,1.1
+vertex -5.4,0,2.9
+vertex -5.4,1.1,2.9
+vertex -3.8,1.1,2.9
+vertex -3.8,0,2.9
+vertex -3.8,1.1,4.4
+vertex -3.8,0,4.4
+vertex -4,1.5,1.9
+vertex -4,0,1.9
+face 0,1,2
+face 3,4,5,6
+face 6,5,7,8
+face 2,1,9,10
+
+[texture]
+load Redbrick.bmp
+coordinates 0,0,1.5
+coordinates 1,1.5,0
+coordinates 2,1.5,1.5
+coordinates 3,0,1
+coordinates 4,0,0
+coordinates 5,1,0
+coordinates 6,1,1
+coordinates 7,2,0
+coordinates 8,2,1
+coordinates 9,0,0
+coordinates 10,0,1.5
+
+[meshbuilder]
+vertex -5.4,1.1,2.9
+vertex -5.4,1.1,4.4
+vertex -3.8,1.1,4.4
+vertex -3.8,1.1,2.9
+face 0,1,2,3
+color 111,111,111
+
+;remaining 2 legs
+[meshbuilder]
+cube 0.04,1.5,0.04
+translate -5.2,2,3
+color 119,0,0
+
+[meshbuilder]
+cube 0.04,1.5,0.04
+translate -5.2,2,4.3
+color 119,0,0
+
+;steps right
+
+;fences
+[meshbuilder]
+vertex 7.4,0,3 
+vertex 7.4,1,3
+vertex 7.4,1,3
+vertex 7.4,2.5,1.9
+vertex 7.4,4.5,3
+vertex 7.4,4.5,4.3
+vertex 6,4.5,4.3
+vertex 6,3.5,4.3
+vertex 7.4,3.5,4.3
+vertex 7.4,3.5,3
+vertex 7.4,1.5,1.9
+vertex 7.4,1.5,3
+
+vertex 8.8,1.5,0.3 
+vertex 8.8,2.5,0.3
+vertex 6,2.5,0.3
+vertex 6,2.5,1.9
+vertex 6,4.5,3
+vertex 6,3.5,3
+vertex 6,1.5,1.9
+vertex 6,1.5,0.3
+
+vertex 8.8,1.5,1.9
+vertex 8.8,2.5,1.9
+vertex 8.8,1,3
+vertex 8.8,0,3
+
+face 0,1,3,10
+face 9,4,3,10
+face 8,5,4,9
+face 7,6,5,8
+face 19,14,13,12
+face 18,15,14,19
+face 17,16,15,18
+
+face 23,22,21,20
+face 20,21,13,12
+
+[texture]
+load redmetalfence.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,5,0
+coordinates 4,3,0
+coordinates 5,0,0
+coordinates 6,3,0
+coordinates 7,3,1
+coordinates 8,0,1
+coordinates 9,3,1
+coordinates 10,5,1
+coordinates 11,4,1
+coordinates 12,0,1
+coordinates 13,0,0
+coordinates 14,4,0
+coordinates 15,0,0
+coordinates 16,3,0
+coordinates 17,3,1
+coordinates 18,0,1
+coordinates 19,4,1
+coordinates 20,3,1
+coordinates 21,3,0
+coordinates 22,0,0
+coordinates 23,0,1
+transparent 0,0,255
+
+;rh step undersides
+
+[meshbuilder]
+vertex 7.4,1.5,1.9
+vertex 7.4,3.5,3
+vertex 7.4,3.5,4.3
+vertex 6,3.5,4.3
+vertex 6,3.5,3
+vertex 6,1.5,1.9
+vertex 6,1.5,0.3
+vertex 8.8,1.5,0.3
+vertex 8.8,1.5,1.9
+face 5,4,1,0
+face 4,3,2,1
+face 6,5,8,7
+
+color 111,111,111
+
+;rh steps brick bases
+[meshbuilder]
+vertex 6,0,1.9
+vertex 6,1.5,1.9
+vertex 6,1.5,0.3
+vertex 6,0,0.3
+vertex 8.8,1.5,0.3
+vertex 8.8,0,0.3
+
+vertex 5.9,0,4.4
+vertex 5.9,1.1,4.4
+vertex 5.9,1.1,2.9
+vertex 5.9,0,2.9
+vertex 7.5,1.1,2.9
+vertex 7.5,0,2.9
+face 0,1,2,3
+face 3,2,4,5
+face 6,7,8,9
+face 9,8,10,11
+
+[texture]
+load Redbrick.bmp
+coordinates 0,0,1.5
+coordinates 1,0,0
+coordinates 2,1.5,0
+coordinates 3,1.5,1.5
+coordinates 4,1,0
+coordinates 5,1,1.5
+
+coordinates 6,0,1
+coordinates 7,0,0
+coordinates 8,1.5,0
+coordinates 9,1.5,1
+coordinates 10,1,0
+coordinates 11,1,1
+
+[meshbuilder]
+vertex 5.9,1.1,2.9
+vertex 5.9,1.1,4.4
+vertex 7.5,1.1,4.4
+vertex 7.5,1.1,2.9
+face 0,1,2,3
+color 111,111,111
+
+;remaining 2 legs
+[meshbuilder]
+cube 0.04,1.5,0.04
+translate 7.3,2,3
+color 119,0,0
+
+[meshbuilder]
+cube 0.04,1.5,0.04
+translate 7.3,2,4.3
+color 119,0,0
+
+;rh grounds
+[meshbuilder]
+vertex 6,0,-4.3
+vertex 6,0,6.5
+vertex 9,0.1,6.5
+vertex 9,0.1,-4.3
+vertex 18,0.1,6.5
+vertex 18,0.1,-4.3
+face 0,1,2,3
+face 2,4,5,3
+color 99,99,99
+
+[meshbuilder]
+vertex 6,0.03,-4.4
+vertex 6,0.03,-4.2
+vertex 9,0.11,-4.2
+vertex 9,0.11,-4.4
+vertex 18,0.11,-4.2
+vertex 18,0.11,-4.4
+vertex 18,0.03,-4.4
+vertex 9,0.03,-4.4
+
+face 0,1,2,3
+face 3,2,4,5
+face 0,3,7
+face 7,3,5,6
+color 166,166,166
+
+;bollards
+
+[meshbuilder]
+cylinder 7,0.1,0.15,1
+color 133,133,133
+translate 8.3,0.7,-3
+
+[meshbuilder]
+cylinder 7,0.1,0.15,1
+color 133,133,133
+translate 9.3,0.7,-3
+
+[meshbuilder]
+cylinder 7,0.1,0.15,1
+color 133,133,133
+translate 10.3,0.7,-3
+
+[meshbuilder]
+cylinder 7,0.1,0.15,1
+color 133,133,133
+translate 11.3,0.7,-3
+
+[meshbuilder]
+cylinder 7,0.1,0.15,1
+color 133,133,133
+translate 12.3,0.7,-3
+
+[meshbuilder]
+cylinder 7,0.1,0.15,1
+color 133,133,133
+translate 13.3,0.7,-3
+
+;portacabin
+
+[meshbuilder]
+vertex -4.8, 0, 5.9
+vertex -4.8,3.4,5.9
+vertex -2.2,3.3,5.9
+vertex -2.2,0,5.9
+vertex -2.2,3.3,12.9
+vertex -2.2,0,12.9
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load portacabin.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.4,0
+coordinates 3,0.4,1
+coordinates 4,1,0
+coordinates 5,1,1
+transparent 0,0,255
+
+;grounds left
+
+[meshbuilder]
+vertex -5.5,0.1,1
+vertex -5.5,1.8,1
+vertex -5.5,1.8,25.1
+vertex -5.5,0.1,25.1
+face 0,1,2,3
+
+[texture]
+load ..\fences\woodfenceBrown1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,12,0
+coordinates 3,12,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -9.5,0,-2.7
+vertex -9.5,1.8,-2.7
+vertex -9.5,1.8,1
+vertex -9.5,0,1
+vertex -18,1.8,25
+vertex -18,0,25
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\fences\woodfenceBrown1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,1
+coordinates 4,12,0
+coordinates 5,12,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -9.5,0.05,-3.3
+vertex -9.5,0.05,1
+vertex -18,0.05,25.1
+vertex -5.5,0.05,25.1
+vertex -5.5,0.05,-3.3
+face 0,1,3,4
+face 1,2,3
+color 66,66,66
+
+[meshbuilder]
+vertex -15,0,-3.3
+vertex -15,1.6,-3.3
+vertex -9.5,1.6,-3
+vertex -9.5,0,-3
+vertex -9.5,1.5,-2.7
+vertex -9.5,0,-2.7
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\walls\stone.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,1
+coordinates 4,0.3,0
+coordinates 5,0.3,1
+
+;author=eezypeazy
+;description=A station sign using BR logo provided by Joshim
+;copyright=you may freely modify to make your own station signs
+
+[MeshBuilder]
+Vertex 8.5,4,0.7
+Vertex 8.5,5,0.7
+Vertex 8.5,5,-0.1
+Vertex 8.5,4,-0.1
+Face 0, 1, 2, 3
+
+[Texture]
+Load ..\signs\brlogo.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Vertex 8.5,3.6,0.7
+Vertex 8.5,4,0.7
+Vertex 8.5,4,-0.1
+Vertex 8.5,3.6,-0.1
+Face 0, 1, 2, 3
+
+[texture]
+load ..\walls\wylamsign.BMP
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+
+[MeshBuilder]      
+cube 0.2,0.8,0.5
+color 252,252,252
+translate 8.72,4.3,0.3
+
+[meshbuilder]
+cylinder 6,0.11,0.11,4.4
+color 155,155,155
+translate 8.72,2.2,0.3

@@ -1,0 +1,38 @@
+;author=eezypeazy
+;description=PSR 55 mph
+;copyright=OpenSource, you may freely modify and use in BVE routes, but please credit eezypeazy@blueyonder.co.uk
+
+[MeshBuilder]
+Vertex -2,0.9,0
+Vertex -2,1.5,0
+Vertex -1.4,1.5,0
+Vertex -1.4,0.9,0
+Face 0, 1, 2, 3
+
+[Texture]
+Load 55mph.BMP
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Vertex -2,0.9,0
+Vertex -2,1.5,0
+Vertex -1.4,1.5,0
+Vertex -1.4,0.9,0
+Face 3,2,1,0
+
+[Texture]
+Load roundsignback.BMP
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0, 0, 0
+
+[meshbuilder]
+cylinder 6,0.04,0.04,1.2
+translate -1.7,0.6,0.06
+color 111,111,111

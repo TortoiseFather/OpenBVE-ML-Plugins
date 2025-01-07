@@ -1,0 +1,74 @@
+;author=eezypeazy
+;description=George Stephenson's birthplace
+;copyright=OpenSource
+
+
+[meshbuilder]
+vertex 2.7,6.9,0
+vertex 2.7,6,0
+vertex 0.16,3.5,0
+vertex 0.16,0,0
+vertex 0.16,0,11
+vertex 0.16,3.5,11
+vertex 2.7,6,11
+vertex 2.7,6.9,11
+face 1,2,5,6
+face 2,3,4,5
+face 0,1,6,7
+
+[texture]
+load birthplacefront.bmp
+coordinates 0,1,0
+coordinates 1,1,0.2
+coordinates 2,1,0.45
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0.45
+coordinates 6,0,0.2
+coordinates 7,0,0
+transparent 0,0,255
+
+[meshbuilder]
+vertex 0,0,1.349
+vertex 0,6.9,1.349
+vertex 7,6.9,1.349
+vertex 7,0,1.349
+face 0,1,2,3
+
+[texture]
+load birthplaceside.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 0,0,11
+vertex 0,6.9,11
+vertex 7,6.9,11
+vertex 7,0,11
+face 3,2,1,0
+
+[texture]
+load birthplaceside.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 0,0,10.7
+vertex 0,6.9,10.7
+vertex 7,6.9,10.7
+vertex 7,0,10.7
+face 0,1,2,3
+
+[texture]
+load birthplaceside.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255

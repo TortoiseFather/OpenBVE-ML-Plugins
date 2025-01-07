@@ -1,0 +1,1527 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Plugin UKSPt.dll Release 20.05</title>
+</head>
+<body>
+<span style="font-family: arial;"><span style="font-weight: bold;"></span></span>
+<h1>UKSPt.dll.20.05 - release notes</h1>
+<br>
+<table style="width: 30%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td><big>by</big></td>
+      <td><big>Simon Gathercole</big></td>
+    </tr>
+    <tr>
+      <td><big>issued</big></td>
+      <td><big>20/05/05</big></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h2><a class="mozTocH2" name="mozTocId435467"></a>Contents<br>
+</h2>
+<ol>
+  <li><a href="#mozTocId435467">Contents </a></li>
+  <li><a href="#mozTocId951686">Summary</a></li>
+  <li><a href="#mozTocId367852">Starting states</a></li>
+  <li><a href="#mozTocId555517">Configuration</a></li>
+  <li><a href="#mozTocId115740">Master Switch</a></li>
+  <li><a href="#mozTocId385743">AWS/TPWS</a></li>
+  <li><a href="#mozTocId336317">Vigilance</a></li>
+  <li><a href="#mozTocId591787">Interlocks</a></li>
+  <li><a href="#mozTocId365574">Engine</a></li>
+  <li><a href="#mozTocId994830">Guard </a></li>
+  <li><a href="#mozTocId856738">Door Release
+Indicators </a></li>
+  <li><a href="#mozTocId348027">Rain and Windscreen
+Wipers </a></li>
+  <li><a href="#mozTocId675446">Head and Tail Lights </a></li>
+  <li><a href="#mozTocId881330">Horn Lever Animation </a></li>
+</ol>
+<br>
+<h2><a class="mozTocH2" name="mozTocId951686"></a>Summary</h2>
+UKSpt.dll is an ats plugin for BVE4 designed to represent a variety of
+modern UK diesel multiple units and specifically the BR 'Sprinter'
+series, classes 150 to 158.<br>
+<br>
+The plugin has been completely redesigned since the last release
+(UKMUt.18.01) and includes many new features, which are summarised
+below and described in detail in the rest of this document:<br>
+<ul>
+  <li>the ability to specify simulation starting state in the <span
+ style="font-weight: bold;">route </span>file</li>
+  <li>configuration of certain features via a configuration file<br>
+  </li>
+  <li>simulated 4-position reverser, incorporating Master switch</li>
+  <li>DRA is ON in all starting states as required by the Rulebook
+during crew changes<br>
+  </li>
+  <li>revisions to operation of AWS/TPWS to follow the prototype more
+closely<br>
+  </li>
+  <li>safety systems (AWS/TPWS and the Vigilance Device)&nbsp; may be
+fully isolated</li>
+  <li>the type of vigilance device fitted may be specified in the
+configuration file<br>
+  </li>
+  <li>several new and revised interlocks have been included<br>
+  </li>
+  <li>an engine feature with realistic startup and shutdown sequences
+and prototypical interlocks </li>
+  <li>door release indicators show the correct side on suitably
+equipped routes<br>
+  </li>
+  <li>a guard gives correct the draw forward/set back buzzer signals on
+suitably equipped routes</li>
+  <li>windscreen wiper and rain simulation</li>
+  <li>separately controlled head and tail lights with proving lights</li>
+  <li>extensive animation of secondary controls</li>
+</ul>
+<h2><a class="mozTocH2" name="mozTocId367852"></a>Starting states</h2>
+Two starting states are available:<br>
+<ul>
+  <li><span style="font-weight: bold;">OFF</span></li>
+  <ul>
+    <li>Master switch off</li>
+    <li>Instrument lights off</li>
+    <li>Head and tail lights off</li>
+    <li>Engine stopped</li>
+    <li>Drivers Reminder Appliance automatically switches ON when the
+Master switch is turned on<br>
+    </li>
+  </ul>
+  <li style="font-weight: bold;">NEUTRAL</li>
+  <ul>
+    <li>Master switch on, reverser in neutral</li>
+    <li>Instrument lights on</li>
+    <li>Headlights on (daytime configuration), tail lights off</li>
+    <li>Engine idling <br>
+    </li>
+    <li>Drivers Reminder Appliance ON<br>
+    </li>
+  </ul>
+</ul>
+<br>
+The desired starting state is selected in the <span
+ style="font-weight: bold;">route file</span>, where<br>
+<ul>
+  <li><span style="font-family: arial;"></span><big><code>Route.change 0</code></big>&nbsp;&nbsp;
+selects OFF and</li>
+  <li><big><code>Route.change 1</code></big>&nbsp;&nbsp; selects NEUTRAL</li>
+</ul>
+If the driver uses the BVE <span style="font-style: italic;">restart </span>or&nbsp;
+<span style="font-style: italic;">jump to</span> features, the
+following starting states are automatically selected:<br>
+<ul>
+  <li>on <span style="font-style: italic; font-weight: bold;">restart </span>or<span
+ style="font-weight: bold;"> </span><span
+ style="font-style: italic; font-weight: bold;">jump to</span><span
+ style="font-weight: bold;"> the originating station</span>, the
+starting state specified in the route file is selected</li>
+  <li>on <span style="font-style: italic; font-weight: bold;">jump to</span>
+any other station, the train is restarted in NEUTRAL</li>
+</ul>
+<h4>Note for drivers on using <span style="font-style: italic;">jump to</span></h4>
+Following a <span style="font-style: italic;">jump to</span>, the
+driver should ensure that the controls are resynchronised with the
+plugin by<br>
+<ol>
+  <li>returning the reverser to NEUTRAL</li>
+  <li>returning the power handle to OFF</li>
+  <li>applying full service brakes</li>
+</ol>
+<h4>Note on Beacons</h4>
+During a jumpto operation, BVE sends all the beacons passed by the
+train to the plugin, which can result in unexpected behaviour -
+particularly if the jump is backwards to an earlier station!&nbsp; To
+avoid this, the plugin currently ignores all beacons received
+immediately following a start/restart.<br>
+<br>
+In the current version this imposes the following limitations:<br>
+<ul>
+  <li>Door release indicators will not be correctly set on starting
+(they can be adjusted manually);</li>
+  <li>Rain beacons must be placed after the initial .stop statement -
+it is not possible for the route to commence with rain falling.</li>
+</ul>
+It may be possible to remove these limitations by more sophisticated
+processing of beacons and this will be considered for future releases.<br>
+<h2><a class="mozTocH2" name="mozTocId555517"></a>Configuration</h2>
+The configuration file is named <span style="font-weight: bold;">UKSpt.cfg</span>
+and resides in the same folder as the plugin.<br>
+<br>
+All configuration statements have the form:<br>
+<br>
+<div style="margin-left: 40px;"><code>classId.attributeId=value or <br>
+classId.attributeId=value1,value2,value3,...<br>
+</code></div>
+where<br>
+<table style="width: 75%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: bottom;">
+      <div style="margin-left: 40px;"><code>classId </code></div>
+      </td>
+      <td style="vertical-align: top;">identifies the
+feature, e.g. "wiper" for rain and windscreen wiper</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: bottom;">
+      <div style="margin-left: 40px;"><code>attributeId </code></div>
+      </td>
+      <td style="vertical-align: top;">identifies a configurable
+attribute, e.g.
+"holdPosition" for the wiper parking position<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+Note that the configuration statements must be entered exactly as shown
+above, without
+any whitespace.&nbsp; Details of configuration for individual features
+are given in the sections below.<br>
+<h2><a class="mozTocH2" name="mozTocId115740"></a>Master Switch</h2>
+<div style="margin-left: 40px;">
+<h4>Panel variables</h4>
+<table style="width: 75%; text-align: center;" border="1"
+ cellpadding="2" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats0</td>
+      <td style="vertical-align: top; text-align: left;">= 1 when
+Master switch is OFF<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">ats1<br>
+      </td>
+      <td style="vertical-align: top; text-align: left;">= 1 when
+Master switch is ON<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</div>
+When the starting state is OFF, the master switch must be turned on
+before the train can be driven - this is done by moving the reverser
+from 'neutral' to forward and returning it to neutral (this is as close
+as BVE allows to a four position reverser/master switch).&nbsp; The
+following should then occur:<br>
+<ul>
+  <li>Instrument lights come on</li>
+  <li>DRA comes on<br>
+  </li>
+  <li>AWS test sequence begins</li>
+  <li>Engine startup is enabled<br>
+  </li>
+</ul>
+Instrument illumination is faked using masks to represent the
+unilluminated instruments, controlled as [Pilotlamps] from ats0.<br>
+<h2><a class="mozTocH2" name="mozTocId385743"></a>AWS/TPWS</h2>
+<div style="margin-left: 40px;">
+<h4>Panel variables</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats6</td>
+      <td style="vertical-align: top; text-align: left;">= 1 when AWS
+display is Black<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats7<br>
+      </td>
+      <td style="vertical-align: top;">= 1 when AWS display is Sunflower<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats8<br>
+      </td>
+      <td style="vertical-align: top;">= 1 when AWS reset button is
+pressed<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats9<br>
+      </td>
+      <td style="vertical-align: top;">= 1 when TPWS Brake Demand lamp
+is on<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats10<br>
+      </td>
+      <td style="vertical-align: top;">= 1 when TPWS Isolation lamp is
+on<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats11<br>
+      </td>
+      <td style="vertical-align: top; text-align: left;">= 1 when TPWS
+TSS override lamp is on<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Sound variables</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats0</td>
+      <td style="vertical-align: top; text-align: left;">AWS bell<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats1<br>
+      </td>
+      <td style="vertical-align: top;">AWS startup test bell (reduced
+sounding time)<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats2<br>
+      </td>
+      <td style="vertical-align: top;">AWS horn </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Keys</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats key A1<br>
+      </td>
+      <td style="vertical-align: top; text-align: left;">[Insert]<br>
+      </td>
+      <td style="vertical-align: top;">AWS reset<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats key C1<br>
+      </td>
+      <td style="vertical-align: top;">[Page Up]<br>
+      </td>
+      <td style="vertical-align: top;">TPWS TSS override<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats key C2<br>
+      </td>
+      <td style="vertical-align: top;">[Page Down]<br>
+      </td>
+      <td style="vertical-align: top;">AWS, TPWS, vigilance isolate<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h4>New Features for TPWS fitted trains:<br>
+</h4>
+<div style="margin-left: 40px;">
+<h4>Self Test</h4>
+A more detailed representation of the AWS/TPWS self test is
+included.&nbsp; It is&nbsp;
+initiated by turning the Master switch on and proceeds as follows:<br>
+<ol>
+  <li>AWS display turns from black to sunflower and back to black</li>
+  <li>The TPWS lamps are illuminated</li>
+  <li>The brakes are applied</li>
+  <li>The AWS horn sounds</li>
+  <li>Pressing the AWS reset button cancels the AWS horn, sounds the
+AWS bell briefly, turns off the TPWS lamps and allows the brakes to be
+released.</li>
+</ol>
+Note: the reduced AWS bell sound at the end of the test is deliberate,
+suggested by prototype notes.<br>
+<h4>AWS Brake Demand</h4>
+<ul>
+  <li>If the AWS horn is not acknowledged within 2-3 seconds</li>
+  <ul>
+    <li>the brakes are applied;</li>
+    <li>the TPWS brake demand lamp flashes;</li>
+  </ul>
+</ul>
+<ul>
+  <li>On acknowledgement by pressing <span style="font-weight: bold;">and
+releasing</span> the AWS reset button:</li>
+  <ul>
+    <li>the TPWS brake demand lamp becomes steady</li>
+    <li>the AWS sunflower is displayed</li>
+    <li>the AWS horn stops sounding</li>
+  </ul>
+</ul>
+<ul>
+  <li>The brake demand is maintained for the same period as a TPWS
+brake demand - approximately 1 minute - after which:</li>
+  <ul>
+    <li>the brakes are released</li>
+    <li>the TPWS brake demand lamp goes out<br>
+    </li>
+  </ul>
+</ul>
+(Thanks to Paul Cooper for information on this feature.)<br>
+<br>
+<h4>Safety System Isolation</h4>
+Pressing [Page Down] fully isolates the
+safety system (AWS/TPWS and VIGILANCE device) and illuminates the TPWS
+isolation lamp.&nbsp; This feature is not completely prototypical but
+is
+provided as a route development/learning aid.<br>
+<br>
+</div>
+<h2><a class="mozTocH2" name="mozTocId336317"></a>Vigilance</h2>
+<div style="margin-left: 40px;">
+<h4>Configurable features (classId =<code><b> "<big>vigilance</big>"</b></code>)</h4>
+<table style="text-align: left; width: 713px; height: 30px;" border="1"
+ cellpadding="2" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">type<br>
+      </td>
+      <td style="vertical-align: top;">0, 1, 2 (default 2)<br>
+      </td>
+      <td style="vertical-align: top;">as below<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+The type of vigilance device fittted to the train is configurable using
+the <code><big>type</big> </code>attribute, with values:<br>
+<br>
+<table style="text-align: left; width: 710px; height: 99px;" border="0"
+ cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">0<br>
+      </td>
+      <td style="vertical-align: top;">no vigilance device<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">1<br>
+      </td>
+      <td style="vertical-align: top;">standard vigilance device with
+60 second cycle time<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">2 (default)<br>
+      </td>
+      <td style="vertical-align: top;">Sprinter-type vigilance device
+with cycle time reduced to 45 seconds in notches 6 and 7<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</div>
+<h2><a class="mozTocH2" name="mozTocId591787"></a>Interlocks</h2>
+<h4>New Features:<br>
+</h4>
+<div style="margin-left: 40px;">
+<h4>Reverser Interlocks</h4>
+Brakes are now held <span style="font-weight: bold;">on</span> <br>
+<ul>
+  <li>when the reverser is OFF</li>
+  <li>if the reverser is moved to NEUTRAL while the train is in motion.<br>
+  </li>
+</ul>
+<h4>Door Interlocks<br>
+</h4>
+Brakes are held <span style="font-weight: bold;">on</span> when the
+doors are released,&nbsp; <span style="font-weight: bold;">unless </span>the
+reverser is in NEUTRAL.<br>
+<br>
+<h4>BVE Interlocks<br>
+</h4>
+The following non-prototypical&nbsp; interlocks have been added to
+conform with the&nbsp; behaviour of BVE:<br>
+<ul>
+  <li>power is held off whenever the brakes are applied</li>
+  <li>power is held off&nbsp; whenever the reverser is in NEUTRAL</li>
+</ul>
+</div>
+<h2><a class="mozTocH2" name="mozTocId365574"></a>Engine</h2>
+<div style="margin-left: 40px;">
+<h4>Panel variables</h4>
+<table style="text-align: left; width: 75%;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats3</td>
+      <td style="vertical-align: top; text-align: left;" colspan="3">=
+1 when the engine is running<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;" rowspan="4">ats4</td>
+      <td style="vertical-align: top;" colspan="3">engine start
+pushbutton with integral indicator lamp (display using [DigitalNumber])</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">starter
+inactive<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">starter
+active<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: right;">button
+unpressed<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">0<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">2<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: right;">button pressed</td>
+      <td style="vertical-align: top; text-align: center;">1<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">3<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;" rowspan="4">ats5<br>
+      </td>
+      <td style="vertical-align: top;" colspan="3">engine stop
+pushbutton with integral indicator lamp (display using [DigitalNumber])</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;" rowspan="1"><br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">engine
+stopped<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">engine
+running<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: right;">button
+unpressed<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">0<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">2<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: right;">button pressed<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">1<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">3<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Sound variables</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr align="center">
+      <td colspan="2" rowspan="1" style="vertical-align: top;">Engine
+start sounds<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats7<br>
+      </td>
+      <td style="vertical-align: top;">starter motor switching on<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats8<br>
+      </td>
+      <td style="vertical-align: top;">starter motor loop<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats9<br>
+      </td>
+      <td style="vertical-align: top;">starter motor running down<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats10</td>
+      <td style="vertical-align: top; text-align: left;">engine start<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats11<br>
+      </td>
+      <td style="vertical-align: top;">engine stall on start<br>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" rowspan="1"
+ style="height: 5%; vertical-align: top;"><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats12<br>
+      </td>
+      <td style="vertical-align: top;">engine idle<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats13<br>
+      </td>
+      <td style="vertical-align: top;">engine revving up<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats14<br>
+      </td>
+      <td style="vertical-align: top;">engine revving down<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats15<br>
+      </td>
+      <td style="vertical-align: top;">engine stopping<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Keys</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats key D<br>
+      </td>
+      <td style="vertical-align: top; text-align: left;">[2]<br>
+      </td>
+      <td style="vertical-align: top;">Start engine<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats key E</td>
+      <td style="vertical-align: top;">[3]<br>
+      </td>
+      <td style="vertical-align: top;">Stop engine<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Configurable features (classId =<code><b> "<big>engine</big>"</b></code>)</h4>
+<h5>General</h5>
+<table style="text-align: left; width: 713px; height: 57px;" border="1"
+ cellpadding="2" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">starterType<br>
+      </td>
+      <td style="vertical-align: top;">0, 1 (default 0)<br>
+      </td>
+      <td style="vertical-align: top;">0=simple start model; 1=complex
+start model<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">runDownDelay<br>
+      </td>
+      <td style="vertical-align: top;">&gt;0 (default 4000)<br>
+      </td>
+      <td style="vertical-align: top;">length in ms of the revving down
+sound (ats14)<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h5><span style="font-weight: bold;"></span>Simple start model</h5>
+<table style="text-align: left; width: 715px; height: 30px;" border="1"
+ cellpadding="2" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">startDelay<br>
+      </td>
+      <td style="vertical-align: top; text-align: left;">&gt;0 (default
+4000)<br>
+      </td>
+      <td style="vertical-align: top;">length in ms of the engine start
+sound (ats10) </td>
+    </tr>
+  </tbody>
+</table>
+<h5>Complex start model</h5>
+<table style="text-align: left; width: 715px; height: 80px;" border="1"
+ cellpadding="2" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">startDelay</td>
+      <td style="vertical-align: top;">&gt;0 (default
+4000)</td>
+      <td style="vertical-align: top;">length in ms of the engine start
+sound (ats10)</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">motorStartDelay<br>
+      </td>
+      <td style="vertical-align: top;">&gt;0 (default 250)<br>
+      </td>
+      <td style="vertical-align: top;">length in ms of motor switch on
+sound (ats7)<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">stallDelay<br>
+      </td>
+      <td style="vertical-align: top;">&gt;0 (default 1000)<br>
+      </td>
+      <td style="vertical-align: top;">length in ms of engine stall
+sound (ats11)<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">fireProbability<br>
+      </td>
+      <td style="vertical-align: top; text-align: left;">0-1000 <br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">simulation
+features - see below<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">stallProbability<br>
+      </td>
+      <td style="vertical-align: top;">0-1000<br>
+      </td>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">minFireProbability<br>
+      </td>
+      <td style="vertical-align: top;">0-1000 (default 10)<br>
+      </td>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">maxStallProbability<br>
+      </td>
+      <td style="vertical-align: top;">0-1000 (default 400)<br>
+      </td>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h4>New Features:<br>
+</h4>
+<div style="margin-left: 40px;">
+<h4>Interlocks</h4>
+<ul>
+  <li>Before starting the engine:</li>
+  <ul>
+    <li>the Master Switch must be ON</li>
+    <li>the train must be <span style="font-weight: bold;">stationary</span><br>
+    </li>
+    <li>the
+reverser must be in NEUTRAL</li>
+    <li>the power handle must be OFF</li>
+  </ul>
+</ul>
+<ul>
+  <li>Power cannot be applied if the engine is not running!<br>
+  </li>
+</ul>
+<h4>Starting <br>
+</h4>
+Two models of engine starting are available:<br>
+<h4 style="margin-left: 40px;">Simple start model</h4>
+<div style="margin-left: 40px;">A single sound file is required,
+covering the entire startup
+procedure.&nbsp; It must be aliased to <big><code>ats10</code></big>
+in <big><code>sound.cfg</code></big>.&nbsp; <br>
+<br>
+On pressing the engine start button:<br>
+</div>
+<ul style="margin-left: 40px;">
+  <li>the engine start (<big><code>ats10</code></big>) sound is played
+once;</li>
+  <li>the engine start button is illuminated;</li>
+  <li>after <big><code>startDelay</code> </big>milliseconds:</li>
+  <ul>
+    <li>the engine idle loop is played;<br>
+    </li>
+    <li>illumination of the start button ceases;<br>
+    </li>
+    <li>the power interlock is released.</li>
+  </ul>
+</ul>
+<h4 style="margin-left: 40px;">Complex start model</h4>
+<div style="margin-left: 40px;">Five sound files are required, as
+listed above.&nbsp; To start the
+engine, the start button must be pressed <span
+ style="font-style: italic; font-weight: bold;">and held</span> until
+the engine fires
+after a random number of BVE frames.&nbsp; To add even more excitement,
+the engine randomly stalls after firing.&nbsp; The ease of starting and
+likelihood of stalling can both be configured.<br>
+<br>
+On pressing the starting button:<br>
+<br>
+If interlocks <span style="font-weight: bold;">prevent </span>starting
+(see above):<br>
+</div>
+<ul style="margin-left: 40px;">
+  <li>the engine start button is animated, but does not illuminate;</li>
+  <li>the engine does not start.</li>
+</ul>
+<div style="margin-left: 40px;">If starting is <span
+ style="font-weight: bold;">allowed</span>:<br>
+</div>
+<ul style="margin-left: 40px;">
+  <li>the starter motor switching on sound (<big><code>ats7</code></big>)
+is played once;</li>
+  <li>the engine start button is illuminated;</li>
+  <li>after <big><code>motorStartDelay</code></big> milliseconds:</li>
+  <ul>
+    <li>the starter motor loop (<big><code>ats8</code></big>) is played;<br>
+    </li>
+    <li>the <span style="font-weight: bold;">engine start loop</span>
+begins.</li>
+  </ul>
+</ul>
+<div style="margin-left: 40px;">During the <span
+ style="font-weight: bold;">engine start loop</span><br>
+</div>
+<ul style="margin-left: 40px;">
+&lt;&gt;the probability of the engine firing in any one BVE frame is as
+configured by the attribute&nbsp; <big><code>fireProbability </code></big>(a
+value between 0 and 1000) <li>if the start button is released
+during this period<br>
+  </li>
+  <ul>
+    <li>the starter motor loop ends</li>
+    <li>illumination of the start button ceases<br>
+    </li>
+    <li>the starter motor running down sound (<big><code>ats9</code></big>)
+is played</li>
+    <li>the engine returns to the <span style="font-weight: bold;">stopped
+      </span>state.</li>
+  </ul>
+</ul>
+<div style="margin-left: 40px;">On engine firing:<br>
+</div>
+<ul style="margin-left: 40px;">
+  <li>the probability of the engine stalling is as configured by the
+attribute <big><code>stallProbability</code></big> <big><code> </code></big>(a
+value between 0 and 1000);</li>
+</ul>
+<ul style="margin-left: 40px;">
+  <li>if the engine stalls:</li>
+  <ul>
+    <li>the engine stalled sound (<big><code>ats11</code></big>) is
+played once;</li>
+    <li>after stallDelay milliseconds:</li>
+    <ul>
+      <li>illumination of the start button ceases</li>
+      <li>the engine returns to the <span style="font-weight: bold;">stopped
+        </span>state.</li>
+    </ul>
+  </ul>
+</ul>
+<ul style="margin-left: 40px;">
+  <ul>
+    <li>Note that the start button <span style="font-weight: bold;">must
+be released</span> before another starting attempt can be made.</li>
+  </ul>
+</ul>
+<ul style="margin-left: 40px;">
+  <li>if the engine does not stall</li>
+  <ul>
+    <li>the engine start (<big><code>ats10</code></big>) sound is
+played once</li>
+    <li>after <big><code>startDelay</code> </big>milliseconds:</li>
+    <ul>
+      <li>the engine idle loop is played<br>
+      </li>
+      <li>illumination of the start button ceases </li>
+      <li>the power interlock is released</li>
+    </ul>
+  </ul>
+</ul>
+<h4 style="margin-left: 40px;">Randomising Start Performance<br>
+</h4>
+<div style="margin-left: 40px;">With the complex start model,
+performance can be further randomised by
+specifying:<br>
+<br>
+</div>
+<table
+ style="text-align: left; width: 285px; height: 60px; margin-left: 40px;"
+ border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><big><code>fireProbability</code></big></td>
+      <td style="vertical-align: top;">= 0<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><big><code>stallProbability</code></big></td>
+      <td style="vertical-align: top;">= 1000<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div style="margin-left: 40px;"><br>
+In this case random values are assigned as follows:<br>
+<br>
+</div>
+<table
+ style="text-align: left; width: 574px; height: 66px; margin-left: 40px;"
+ border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><big><code>fireProbability</code></big></td>
+      <td style="vertical-align: top;">a value between <big><code>minFireProbability</code></big>
+and 1000<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><big><code>stallProbability</code></big></td>
+      <td style="vertical-align: top;">a value between 0 and <big><code>maxStallProbability</code></big><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Revving up/down sounds</h4>
+These sounds are played whenever the power handle is moved away from/to
+the OFF position.&nbsp; In addition, the revving down sound is
+correctly played if the power is tripped by an interlock.<br>
+<h4 style="margin-left: 40px;">Notes</h4>
+<ol style="margin-left: 40px;">
+  <li>There is a slight but noticeable delay on shutting off power
+before the revving down sound is played, due to the way BVE handles
+plugin sound variables.&nbsp;&nbsp; If this is unacceptable, increase
+the power down delay in the <big><code>train.dat</code></big> file.<br>
+  </li>
+  <li>Because it is not possible with BVE 4.1 to fade plugin sounds
+out, stopping the idle loop when the power handle is opened produces an
+unrealistic sudden change in the engine sound. To avoid this, the idle
+loop is played continuously, regardless of power setting.</li>
+</ol>
+<h4>Engine shutdown</h4>
+On pressing the engine shutdown button: <br>
+<ul>
+  <li>the engine stopping sound (<big><code>ats15</code></big>) is
+played once</li>
+  <li>the power interlock is reapplied</li>
+</ul>
+<span style="font-weight: bold;">Note</span> that there are <span
+ style="font-weight: bold;">no interlocks</span> preventing the engine
+stop button being active while the train is in motion.<br>
+<br>
+</div>
+<h2><a class="mozTocH2" name="mozTocId994830"></a>Guard<br>
+</h2>
+<div style="margin-left: 40px;">
+<h4>Sound variables</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats5</td>
+      <td style="vertical-align: top; text-align: left;">Draw forward
+signal<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats6<br>
+      </td>
+      <td style="vertical-align: top;">Set back signal <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Beacons</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">23</td>
+      <td style="vertical-align: top; text-align: left;">Door release
+side<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">24<br>
+      </td>
+      <td style="vertical-align: top;">Station limits<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h4>New Features:<br>
+</h4>
+<div style="margin-left: 40px;">In a suitably beaconed route, the
+Guard will play the correct buzzer signal if the train stops outside
+the permitted zone at a station.&nbsp; The route must be equipped as
+follows:<br>
+<ul>
+  <li><big style="font-weight: bold;"><code>.beacon 23;0;0;s</code></big>&nbsp;
+must precede the station with <span style="font-weight: bold;">s</span>
+not equal to 0.&nbsp; If <span style="font-weight: bold;">s</span> is
+0, the Guard
+will ignore the following station limits beacons - this enables
+non-stopping routes to be created with minimal recoding.</li>
+</ul>
+<ul>
+  <li><big><code style="font-weight: bold;">.beacon 24;0;0;ddduuoo</code></big>
+defines the start of station limits, with:</li>
+  <ul>
+    <li><span style="font-weight: bold;">ddd </span>= distance from
+this beacon to the <code><span style="font-weight: bold;">.stop</span></code>
+statement in metres<br>
+    </li>
+    <li><span style="font-weight: bold;">uu </span>= permitted
+underrun in metres, as in the <code><span style="font-weight: bold;">.stop</span></code>
+statement (<span style="font-weight: bold;">must </span>be two digits
+- pad left with 0 if less than 10m)</li>
+    <li><span style="font-weight: bold;">oo </span>= permitted overrun
+in metres, as in the <code><span style="font-weight: bold;">.stop</span></code>
+statement (<span style="font-weight: bold;">must </span>be two digits
+- pad left with 0 if less than 10m)</li>
+  </ul>
+</ul>
+<ul>
+  <li><big><code style="font-weight: bold;">.beacon 24;0;0;0</code></big>
+defines the end of station limits</li>
+  <ul>
+    <li>if this beacon is omitted, station limits end if the overrun
+exceeds <span style="font-weight: bold;">500m</span><br>
+    </li>
+  </ul>
+</ul>
+The Guard will <span style="font-weight: bold;">not</span> play a
+buzzer signal if the train stops <span style="font-weight: bold;">outside</span>
+station limits, so that signal stops will not be affected.<br>
+<br>
+</div>
+<h2><a class="mozTocH2" name="mozTocId856738"></a>Door Release
+Indicators<br>
+</h2>
+<div style="margin-left: 40px;">
+<h4>Panel variables</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats14</td>
+      <td style="vertical-align: top; text-align: left;">= 1 when the
+doors are closed<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats15<br>
+      </td>
+      <td style="vertical-align: top;">= 1 when the left hand doors are
+released<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats16<br>
+      </td>
+      <td style="vertical-align: top;">= 1 when the right hand doors
+are
+released </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Keys</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats key J<br>
+      </td>
+      <td style="vertical-align: top; text-align: left;">[8]<br>
+      </td>
+      <td style="vertical-align: top;">release doors (left)<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats key K<br>
+      </td>
+      <td style="vertical-align: top;">[9]<br>
+      </td>
+      <td style="vertical-align: top;">close doors<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats key L<br>
+      </td>
+      <td style="vertical-align: top; text-align: left;">[0]<br>
+      </td>
+      <td style="vertical-align: top;">release doors (right)</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</div>
+<h4>New Features:<br>
+</h4>
+<div style="margin-left: 40px;">This is a stub which controls door
+interlocks and allows for more detailed models of specific door types
+in future. It is, however, able to drive door release
+indicators on routes correctly equipped with .beacon 23.&nbsp; The keys
+allow the correct indication to be selected manually on startup or
+after a restart.<br>
+<br>
+</div>
+<h2><a class="mozTocH2" name="mozTocId348027"></a>Rain and Windscreen
+Wipers<br>
+</h2>
+<div style="margin-left: 40px;">
+<h4>Panel variables</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats198</td>
+      <td style="vertical-align: top; text-align: left;">wiper switch
+position, =0 (OFF), 1, 2... up to the number of wiper settings <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats199<br>
+      </td>
+      <td style="vertical-align: top;">wiper position<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats200-255<br>
+      </td>
+      <td style="vertical-align: top;">raindrop animation = 1 when
+raindrop is visible<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Sound variables</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats16</td>
+      <td style="vertical-align: top; text-align: left;">switch sound<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats17<br>
+      </td>
+      <td style="vertical-align: top;">single sweep of wipers on wet
+windscreen<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats18<br>
+      </td>
+      <td style="vertical-align: top;">single sweep of wipers on dry
+windscreen </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats19-23<br>
+      </td>
+      <td style="vertical-align: top;">raindrop sounds<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Keys</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats key B1<br>
+      </td>
+      <td style="vertical-align: top; text-align: left;">[Home]<br>
+      </td>
+      <td style="vertical-align: top;">wiper on/speed up<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats key B2<br>
+      </td>
+      <td style="vertical-align: top;">[End]<br>
+      </td>
+      <td style="vertical-align: top;">wiper off/speed down<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Configurable features (classId =<code><b> "<big>wiper</big>"</b></code>)</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">holdPosition<br>
+      </td>
+      <td style="vertical-align: top; text-align: left;">0 or 100
+(values &gt;0 are treated as 100; default 0) <br>
+      </td>
+      <td style="vertical-align: top;">parking position of wiper<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">sweepTimes<br>
+      </td>
+      <td style="vertical-align: top;">time1,time2..., values
+&gt;0&nbsp;
+(default single value of 1000)<br>
+      </td>
+      <td style="vertical-align: top;">time in ms for a single sweep of
+the wiper<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">holdTimes<br>
+      </td>
+      <td style="vertical-align: top;">time1,time2..., values &gt;250
+(default
+single value of 250)<br>
+      </td>
+      <td style="vertical-align: top;">corresponding hold times in ms<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">nDrops<br>
+      </td>
+      <td style="vertical-align: top;">0-50 (default 50)<br>
+      </td>
+      <td style="vertical-align: top;">number of raindrops to use<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">nDropSounds<br>
+      </td>
+      <td style="vertical-align: top;">0-5 (default 5)<br>
+      </td>
+      <td style="vertical-align: top;">number of drop sounds to use<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">vFactor<br>
+      </td>
+      <td style="vertical-align: top; text-align: center;">Rain
+simulation features - see below<br>
+      </td>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">lockout<br>
+      </td>
+      <td style="vertical-align: top;"><br>
+      </td>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">wipeFactor<br>
+      </td>
+      <td style="vertical-align: top;"><br>
+      </td>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">dryLimit<br>
+      </td>
+      <td style="vertical-align: top;"><br>
+      </td>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h4>Beacons</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">21</td>
+      <td style="vertical-align: top; text-align: left;">optional data
+from 0-100 gives rain intensity<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<br>
+<h4>Features:<br>
+</h4>
+Modelling of rain and windscreen wipers is based on code designed and
+written by O.Saarekas and is used with permission.&nbsp; However, a
+number of enhancements and new features have been added:<br>
+<div style="margin-left: 40px;">
+<h4>Wiper speeds and hold times</h4>
+Wiper speed is configurable up to a maximum of <span
+ style="font-weight: bold;">four</span> settings, plus OFF.&nbsp;
+Speeds are entered in the configuration file under the attribute <big><code>sweepTimes
+</code></big>as a list of values, each representing the time in
+milliseconds for a single sweep of the wiper across the screen. The
+default is a single setting with a sweep time of 1000ms.<br>
+<br>
+For each speed, a hold time is configurable using the attribute <big><code>holdTimes</code></big>
+to create intermittent wiper modes.&nbsp; Note that even in continuous
+modes, the minimum hold time is 250ms (see <span
+ style="font-weight: bold;">Wiper Animation</span> below).&nbsp; If
+more hold times are entered than sweep times, superfluous hold times
+are ignored; if there are fewer hold times than sweep times, the
+default hold time of 250ms is used.<br>
+<h4>Wiper Animation</h4>
+For better visual effect a minimum pause of 250ms at each end of the
+wiper's sweep has been introduced: this ensures that the wiper appears
+to reach the end of its travel on every sweep.&nbsp; Previously, the
+wiper could sometimes reverse direction within a BVE frame and appear
+to miss out the end of its sweep.<br>
+<h4>Wiper Sounds</h4>
+Two wiper sounds are supported, one representing the wiper on a wet
+windscreen, the other the scrape of a wiper on a dry windscreen.&nbsp;
+Changeover is controlled by rain simulation variables (see below).<br>
+<h4>Raindrops</h4>
+From 0 to 50 (the default) raindrops can be configured using the
+attribute <big><code>nDrops</code></big>: the same drop placement
+algorithm is used as in OS_ATS_1.3.<br>
+<br>
+Up to <span style="font-weight: bold;">five</span> (the default) drop
+sound channels can be configured using the attribute <big><code>nDropSounds</code></big>-
+they can be aliased to the same or different sound files in the <big><code>sound.cfg</code></big>
+file.&nbsp; It is <span style="font-weight: bold;">strongly recommended</span>
+that the full five channels be
+used, otherwise sound may not play correctly at higher rain intensities.<br>
+<h3>New Rain Simulation Features</h3>
+A number of the variables used in simulating rain are configurable in
+this release, to allow us to find the most effective values for
+them.&nbsp; It is likely that they will be fixed in future releases.<br>
+<h4>Speed Dependence</h4>
+Rain intensity<span style="font-style: italic; font-weight: bold;"> i</span>
+now increases with speed as:<br>
+<br>
+<div style="margin-left: 40px;"><span style="font-family: arial;">i = i</span><sub
+ style="font-family: arial;">0</sub><span style="font-family: arial;">
+&times; (1 + vFactor </span><span style="font-family: arial;">&times; </span><span
+ style="font-family: arial;">speed)</span><br>
+</div>
+<br>
+where <big><code>vFactor</code></big> is a configurable
+attribute&nbsp; The default value is 0.05<br>
+<h4>Raindrop 'lockout'<br>
+</h4>
+At high rain intensities, the rain algorithm could reuse a raindrop
+almost immediately after it had been removed by the wiper, with two
+undesirable results:<br>
+<ol>
+  <li>It looked as though the wiper had missed the drop;</li>
+  <li>The difference in effectiveness between different wiper speeds
+did not show up well.<br>
+  </li>
+</ol>
+To avoid this phenomenon, drops are now locked out of use for a
+configurable time after being wiped.&nbsp; The time can be entered in
+milliseconds under the attribute <big><code>lockout </code></big>(default
+value 1000).<br>
+<h4>Wiper Sounds</h4>
+To decide which wiper sound to use, the 'wetness' of the windscreen is
+modelled, increasing by 1.0 for each drop that falls and being reduced
+for every sweep of the wiper as<br>
+<br>
+<div style="margin-left: 40px; font-family: arial;">wetness<sub>n+1</sub>
+= wetness<sub>n</sub> &times; 1/wipeFactor<br>
+</div>
+<br>
+where <big><code>wipeFactor</code></big> is a configurable attribute
+(default value 2.5).<br>
+<br>
+The value of wetness at which the sound changes from 'wet' to 'dry' is
+configurable using the attribute <big><code>dryLimit </code></big>(default
+value 2.0).<br>
+<br>
+The intention is that at low rates of rain, the driver will be forced
+to switch between wiper modes in order to avoid annoying wiper-scrape,
+introducing an extra level of distraction into the simulation :-)<br>
+<br>
+To help with configuring this feature, an Excel spreadsheet Rain.xls is
+supplied.&nbsp; Given a starting value of wetness and the number of
+drops falling on each sweep of the wipers (a measure of rain intensity
+and approximately 1 at an intensity of&nbsp; 5), this calculates and
+displays on a graph:<br>
+<ul>
+  <li>How the wetness varies for each sweep of the wipers</li>
+  <li>The minimum value it will eventually reach (the <span
+ style="font-style: italic;">asymptote</span>)</li>
+</ul>
+It can also show the value of <big><code>dryLimit</code></big><span
+ style="font-style: italic;">
+</span>for easy comparison.<br>
+<br>
+</div>
+<h2><a class="mozTocH2" name="mozTocId675446"></a>Head and Tail Lights<br>
+</h2>
+<div style="margin-left: 40px;">
+<h4>Panel variables <br>
+</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats20</td>
+      <td style="vertical-align: top; text-align: left;">Headlights [ =
+0 (off), 1 (day), 2 (marker only), 3 (night) ]<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats21<br>
+      </td>
+      <td style="vertical-align: top;">Taillights [ = 1 when on]<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Sound variables</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats24</td>
+      <td style="vertical-align: top; text-align: left;">Generic panel
+switch sound<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Keys</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats key F<br>
+      </td>
+      <td style="vertical-align: top; text-align: left;">[4]<br>
+      </td>
+      <td style="vertical-align: top;">Toggle taillights<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats key G<br>
+      </td>
+      <td style="vertical-align: top;">[5]<br>
+      </td>
+      <td style="vertical-align: top;">Cycle headlights (works as a
+rotary switch)<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</div>
+<h4>Starting states for the Head and Tail lights:<br>
+</h4>
+<div style="margin-left: 40px;">
+<h4>Starting state OFF<br>
+</h4>
+<ul>
+  <li>Headlights OFF</li>
+  <li>Tail lights OFF<br>
+  </li>
+</ul>
+<h4>Starting State NEUTRAL<br>
+</h4>
+<ul>
+  <li>Headlights ON (DAY)</li>
+  <li>Tail lights OFF<br>
+  </li>
+</ul>
+<br>
+</div>
+<h2><a class="mozTocH2" name="mozTocId881330"></a>Horn Lever Animation<br>
+</h2>
+<div style="margin-left: 40px;">
+<h4>Panel variables</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">ats24</td>
+      <td style="vertical-align: top; text-align: left;">= 0 (forward),
+1 (off, centred), 2 (back)<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Configurable features (classId =<code><b> "<big>horn</big>"</b></code>)</h4>
+<table style="width: 75%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">tForward<br>
+      </td>
+      <td style="vertical-align: top; text-align: left;">(default 1500)<br>
+      </td>
+      <td style="vertical-align: top;">time lever remains forward
+before automatically recentering<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">tBack<br>
+      </td>
+      <td style="vertical-align: top;">(default 1500)<br>
+      </td>
+      <td style="vertical-align: top;">time lever remains back before
+automatically recentering </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h4>Features:</h4>
+<div style="margin-left: 40px;">The horn lever moves when either of the
+BVE horn keys is pressed and returns to its off position automatically
+after a time which can be separately configured to suit the horn sounds
+used with the train.<br>
+</div>
+<br>
+<hr style="width: 100%; height: 2px;">
+<div style="text-align: right;"><br>
+</div>
+<div style="text-align: left;"><big>This document &copy; Simon
+Gathercole 2005</big><br>
+<big>Date of issue 20/05/05</big><br>
+</div>
+<br>
+<br>
+</body>
+</html>

@@ -1,0 +1,28 @@
+;description=forest floor
+;author=Uwe Post
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+;rebuilt by eezypeazy in 2009 to produce a simpler file
+
+[meshbuilder]
+vertex -99,-5,-9
+vertex -99,-0.51,-1
+vertex 99,-0.51,-1
+vertex 99,-5,-9
+vertex -99,-0.52,26
+vertex 99,-0.52,26
+vertex -99,-5,34
+vertex 99,-5,34
+face 0,1,2,3
+face 1,4,5,2
+face 4,6,7,5
+
+[texture]
+Load forestfloor1.bmp
+Coordinates 0, 0, 4
+Coordinates 1, 0, 3
+Coordinates 2, 4, 3
+Coordinates 3, 4, 4
+coordinates 4,0,1
+coordinates 5,4,1
+coordinates 6,0,0
+coordinates 7,4,0

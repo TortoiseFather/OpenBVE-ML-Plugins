@@ -1,0 +1,271 @@
+;author=eezypeazy
+;description=Wylam station
+;copyright=eezypeazy 2009, all rights reserved.
+
+;main face
+
+[Meshbuilder]
+vertex 0.2,0,8
+vertex 0.2,8.7,8
+vertex 0.2,9.1,0
+vertex 0.2,0,0
+face 0,1,2,3
+
+[Texture]
+load wylamfront.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+;side
+
+[Meshbuilder]
+vertex 0,0,0
+vertex 0,9.4,0
+vertex 9,9.4,0
+vertex 9,0,0
+vertex 0,0,8
+vertex 0,9.4,8
+vertex 9,9.4,8
+vertex 9,0,8
+face 0,1,2,3
+face 4,5,6,7
+
+[Texture]
+load wylamstnside.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+
+;roof
+[meshbuilder]
+vertex 0.2,4.7,8 
+vertex 3,6.4,8
+vertex 3,6.4,0
+vertex 0.2,4.7,0
+face 0,1,2,3
+
+[Texture]
+load brandlingroof.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,2
+
+[meshbuilder]
+vertex 0.2,4.7,2.6
+vertex 0.2,6.4,3.7
+vertex 3,6.4,3.7
+face 0,1,2
+
+[Texture]
+load brandlingroof.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,2,0
+
+[meshbuilder]
+vertex 0.18,4.8,2.75
+vertex 0.18,4.8,2.6
+vertex 0.2,4.7,2.45
+vertex 2.9,6.4,3.7
+vertex 2.9,6.4,3.7
+vertex 2.9,6.4,3.6
+face 1,0,4,5
+color 111,111,222
+
+;shelter front
+[meshbuilder]
+vertex 0.2,0.5,22
+vertex 0.2,6.2,22
+vertex 0.2,6.2,7.9
+vertex 0.2,0.5,7.9
+face 0,1,2,3
+
+[texture]
+load wylamp2front.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 2,0.6,21.4
+vertex 2,3,21.4
+vertex 2,3,11.4
+vertex 2,0.6,11.4
+face 0,1,2,3
+
+[texture]
+load wylamp2frontin.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 0.19,0.5,25
+vertex 0.19,3.1,25
+vertex 0.19,3.1,21.4
+vertex 0.19,0.5,21.4
+vertex 2.2,3.1,21.4
+vertex 2.2,0.5,21.4
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\walls\stone.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,2
+coordinates 4,0,0
+coordinates 5,0,2
+
+[meshbuilder]
+vertex 0.2,3,21.5
+vertex 2.3,3,21.5
+vertex 2.3,3,11
+vertex 0.2,3,11
+face 3,2,1,0
+color 123,123,123
+
+;shelter roof
+[meshbuilder]
+vertex 0.2,3,22
+vertex 3.2,5.3,18
+vertex 3.2,5.3,12
+vertex 0.2,3,8
+vertex 6,3,8
+face 0,1,2,3
+face 3,2,4
+
+[Texture]
+load brandlingroof.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,2
+coordinates 4,2,2
+
+
+; pillars
+[meshbuilder]
+cylinder 8,0.15,0.15,0.5
+translate 0.2,0.71,21.3
+color 50,150,255
+
+[meshbuilder]
+cylinder 8,0.11,0.11,3
+translate 0.2,1.2,21.3
+color 255,255,177
+
+[meshbuilder]
+cylinder 8,0.15,0.15,0.5
+translate 0.2,0.71,16
+color 50,150,255
+
+[meshbuilder]
+cylinder 8,0.11,0.11,3
+translate 0.2,1.2,16
+color 255,255,177
+
+;platform
+[meshbuilder]
+vertex -1.8,-0.4,25.1
+vertex -1.8,0.4,25.1
+vertex -1.8,0.4,8
+vertex -1.8,-0.4,8
+vertex -1.8,-0.4,0
+face 0,1,2,3 
+face 3,2,4
+
+[texture]
+load Redbrick.bmp
+coordinates 0,0,0.8
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,4,0.8
+coordinates 4,0,0.8
+
+[meshbuilder]
+vertex -2,0.4,25.1
+vertex -2,0.6,25.1
+vertex -2,0.6,8
+vertex -2,0.4,8
+vertex -2,-0.2,0
+vertex -1.7,0.6,25.1
+vertex -1.7,0.6,8
+vertex -1.7,-0.2,0
+vertex -2,-0.4,0
+face 0,1,2,3 
+face 3,2,4,8
+face 1,5,6,2
+face 2,6,7,4
+color 200,200,200
+
+[meshbuilder]
+vertex -1.71,0.6,25.1
+vertex 3,0.6,25.1
+vertex 3,0.6,8
+vertex -1.71,0.6,8
+vertex 3,-0.2,0
+vertex -1.71,-0.2,0
+face 0,1,2,3
+face 3,2,4,5
+color 90,90,90
+
+;entrance fence
+
+;black metal fence
+[meshbuilder]
+cylinder 5,0.03,0.03,9
+rotate 1,0,0,90
+translate -1.7,0.8,1.5
+color 55,55,55
+
+[meshbuilder]
+cylinder 5,0.03,0.03,9
+rotate 1,0,0,90
+translate -1.7,0.44,1.5
+color 55,55,55
+
+[meshbuilder]
+cube 0.035,0.5,0.035
+color 55,55,55
+translate -1.7,0.4,-1.5
+
+[meshbuilder]
+cube 0.035,0.5,0.035
+color 55,55,55
+translate -1.7,0.4,0
+
+[meshbuilder]
+cube 0.035,0.5,0.035
+color 55,55,55
+translate -1.7,0.4,1.5
+
+[meshbuilder]
+cube 0.035,0.5,0.035
+color 55,55,55
+translate -1.7,0.4,3
+
+[meshbuilder]
+cube 0.035,0.5,0.035
+color 55,55,55
+translate -1.7,0.4,4.5
+
+[meshbuilder]
+cube 0.035,0.5,0.035
+color 55,55,55
+translate -1.7,0.4,6

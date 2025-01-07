@@ -1,0 +1,27 @@
+;author=eezypeazy
+;description=Lamppost left for MetroCentre
+;copyright=eezypeazy 2008, all rights reserved
+;www.eezypeazy.co.uk
+
+[meshbuilder]
+
+cylinder 6,0.1,0.1,4.5
+translate -6,3.35,0
+color 177,177,177
+
+[meshbuilder]
+cylinder 6,0.08,0.08,5.5
+translate -6,8.35,0
+color 188,188,188
+
+[meshbuilder]
+cylinder 4,0.07,0.07,2.7
+rotate 0,1,0,45
+rotate 0,0,1,90
+translate -4.65,11,0
+color 188,188,188
+
+[meshbuilder]
+cylinder 9,0.3,0.5,0.22
+translate -3.4,10.85,0
+color 123,123,123

@@ -1,0 +1,371 @@
+;author=eezypeazy
+;description=Prudhoe station footbridge
+;copyright=eezypeazy 2009, all rights reserved.
+
+;bridge face
+
+[Meshbuilder]
+vertex -4.6,0,3
+vertex -4.6,6,3
+vertex 8.7,6,3
+vertex 8.7,0,3
+face 0,1,2,3
+
+[Texture]
+load wylamfootbridge.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+;bridge far face
+
+[Meshbuilder]
+vertex -4.6,0,4.3
+vertex -4.6,6,4.3
+vertex 8.7,6,4.3
+vertex 8.7,0,4.3
+face 0,1,2,3
+
+[Texture]
+load wylamfootbridgefar.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+;lh steps
+;fences
+[meshbuilder]
+vertex -5.4,0,0 
+vertex -5.4,1,0
+vertex -5.4,4.5,3
+vertex -5.4,4.5,4.3
+vertex -5.4,2,7.3
+vertex -5.4,1,7.3
+vertex -5.4,3.5,4.3
+vertex -5.4,3.5,3
+
+vertex -4,0,0 
+vertex -4,1,0
+vertex -4,4.5,3
+vertex -4,4.5,4.3
+vertex -4,2,7.3
+vertex -4,1,7.3
+vertex -4,3.5,4.3
+vertex -4,3.5,3
+
+face 0,1,2,7
+face 7,2,3,6
+face 6,3,4,5
+
+face 8,9,10,15
+face 14,11,12,13
+
+[texture]
+load redmetalfence.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,4,0
+coordinates 4,0,0
+coordinates 5,0,1
+coordinates 6,4,1
+coordinates 7,3,1
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,3,0
+coordinates 11,4,0
+coordinates 12,0,0
+coordinates 13,0,1
+coordinates 14,4,1
+coordinates 15,3,1
+transparent 0,0,255
+
+;lh step undersides
+
+[meshbuilder]
+vertex -4,0,0
+vertex -5.4,0,0
+vertex -5.4,3.5,3
+vertex -5.4,3.5,4.3
+vertex -4,3.5,4.3
+vertex -0.5,5,4.3
+vertex 4.6,4.9,4.3
+vertex 8,3.5,4.3
+vertex 8,3.5,3
+vertex 4.6,4.9,3
+vertex -0.5,5,3
+vertex -4,3.5,3
+vertex -5.4,1,7.3
+vertex -4,1,7.3
+face 0,1,2,11
+face 4,3,2,11
+face 4,11,10,5
+face 5,10,9,6
+face 6,9,8,7
+face 3,4,13,12
+
+color 111,111,111
+
+;remaining 2 legs
+[meshbuilder]
+cube 0.04,1.5,0.04
+translate -5.2,2,3
+color 119,0,0
+
+[meshbuilder]
+cube 0.04,1.5,0.04
+translate -5.2,2,4.3
+color 119,0,0
+
+
+;steps right
+
+;fences
+[meshbuilder]
+vertex 7.4,0,0 
+vertex 7.4,1,0
+vertex 7.4,4.5,3
+vertex 7.4,4.5,4.3
+vertex 7.4,2,7.3
+vertex 7.4,1,7.3
+vertex 7.4,3.5,4.3
+vertex 7.4,3.5,3
+
+vertex 6,0,0 
+vertex 6,1,0
+vertex 6,4.5,3
+vertex 6,4.5,4.3
+vertex 6,2,7.3
+vertex 6,1,7.3
+vertex 6,3.5,4.3
+vertex 6,3.5,3
+face2 7,2,1,0
+face2 6,3,2,7
+face2 5,4,3,6
+face 15,10,9,8
+face 13,12,11,14
+translate 2,0,0
+
+[texture]
+load redmetalfence.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,0,0
+coordinates 4,3,0
+coordinates 5,3,1
+coordinates 6,0,1
+coordinates 7,3,1
+
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,3,0
+coordinates 11,0,0
+coordinates 12,3,0
+coordinates 13,3,1
+coordinates 14,0,1
+coordinates 15,3,1
+transparent 0,0,255
+
+;rh step undersides
+
+[meshbuilder]
+vertex 6,0,0
+vertex 6,3.5,3
+vertex 7.4,3.5,3
+vertex 7.4,0,0
+vertex 6,3.5,4.3
+vertex 7.4,3.5,4.3
+vertex 6,1,7.3
+vertex 7.4,1,7.3
+face 0,1,2,3
+face 1,2,5,4
+face 6,4,5,7
+color 111,111,111
+translate 2,0,0
+
+;remaining 2 legs
+[meshbuilder]
+cube 0.04,1.5,0.04
+translate 9.3,2,3
+color 119,0,0
+
+[meshbuilder]
+cube 0.04,1.5,0.04
+translate 9.3,2,4.3
+color 119,0,0
+
+;rh grounds
+[meshbuilder]
+vertex 6,-0.2,-4.3
+vertex 6,-0.2,6.5
+vertex 9,-0.2,6.5
+vertex 9,-0.2,-4.3
+vertex 18,-0.2,6.5
+vertex 18,-0.2,-4.3
+face 0,1,2,3
+face 2,4,5,3
+color 99,99,99
+
+[meshbuilder]
+vertex 6,0.03,-4.4
+vertex 6,0.03,-4.2
+vertex 9,0.11,-4.2
+vertex 9,0.11,-4.4
+vertex 18,0.11,-4.2
+vertex 18,0.11,-4.4
+vertex 18,0.03,-4.4
+vertex 9,0.03,-4.4
+
+;rh fences and walls
+
+[meshbuilder]
+vertex 6.2,1.1,5.5
+vertex 6.2,2.6,5.5
+vertex 6.2,1.3,-2
+vertex 6.2,-0.2,-2
+vertex -2.7,1.1,5.5
+vertex -2.7,2.6,5.5
+vertex -2.7,1.3,-2
+vertex -2.7,-0.2,-2
+face 0,1,2,3
+face 7,6,5,4
+
+[texture]
+load ..\fences\diagonal.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,3,0
+coordinates 7,3,1
+transparent 0,0,255
+
+;black metal fence
+[meshbuilder]
+cylinder 5,0.03,0.03,16
+rotate 1,0,0,90
+translate 9.5,2.2,12.25
+color 55,55,55
+
+[meshbuilder]
+cylinder 5,0.03,0.03,16
+rotate 1,0,0,90
+translate 9.5,2.5,12.25
+color 55,55,55
+
+[meshbuilder]
+cube 0.035,0.28,0.035
+color 55,55,55
+translate 9.5,2.265,4.25
+
+[meshbuilder]
+cube 0.035,0.28,0.035
+color 55,55,55
+translate 9.5,2.265,5.5
+
+[meshbuilder]
+cube 0.035,0.28,0.035
+color 55,55,55
+translate 9.5,2.265,6.75
+
+[meshbuilder]
+cube 0.035,0.28,0.035
+color 55,55,55
+translate 9.5,2.265,8
+
+[meshbuilder]
+cube 0.035,0.28,0.035
+color 55,55,55
+translate 9.5,2.265,9.25
+
+[meshbuilder]
+cube 0.035,0.28,0.035
+color 55,55,55
+translate 9.5,2.265,10.5
+
+[meshbuilder]
+cube 0.035,0.28,0.035
+color 55,55,55
+translate 9.5,2.265,11.75
+
+[meshbuilder]
+cube 0.035,0.28,0.035
+color 55,55,55
+translate 9.5,2.265,13
+
+[meshbuilder]
+cube 0.035,0.28,0.035
+color 55,55,55
+translate 9.5,2.265,14.25
+
+[meshbuilder]
+cube 0.035,0.28,0.035
+color 55,55,55
+translate 9.5,2.265,15.5
+
+[meshbuilder]
+cube 0.035,0.28,0.035
+color 55,55,55
+translate 9.5,2.265,16.75
+
+[meshbuilder]
+cube 0.035,0.28,0.035
+color 55,55,55
+translate 9.5,2.265,18
+
+[meshbuilder]
+cube 0.035,0.28,0.035
+color 55,55,55
+translate 9.5,2.265,19.25
+
+[meshbuilder]
+cube 0.035,0.28,0.035
+color 55,55,55
+translate 9.5,2.265,20.25
+
+[meshbuilder]
+vertex 9.5,-0.4,20.3
+vertex 9.5,2,20.3
+vertex 9.5,2,-2
+vertex 9.5,-0.4,-2
+vertex 18,2,-2
+vertex 18,-0.4,-2
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\walls\oldstonewall.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,8,0
+coordinates 3,8,1
+coordinates 4,11,0
+coordinates 5,11,1
+
+[meshbuilder]
+vertex -7,1,23.1
+vertex -7,3.4,23.1
+vertex -7,3.4,5.5
+vertex -7,1,5.5
+vertex -7,2.4,-2
+vertex -7,0,-2
+face 3,2,1,0
+face 5,4,2,3
+translate 1.3,0,0
+
+[texture]
+load ..\fences\diagonal.bmp
+coordinates 0,11,1
+coordinates 1,11,0
+coordinates 2,3.3,0
+coordinates 3,3.3,1
+coordinates 4,0,0
+coordinates 5,0,1
+transparent 0,0,255

@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Work\\BVE Train Stuff\\OpenBVE-ML-Plugins-main\\InputTracker\\InputTracker\\InputTracker.csproj": {}
+  },
+  "projects": {
+    "D:\\Work\\BVE Train Stuff\\OpenBVE-ML-Plugins-main\\InputTracker\\InputTracker\\InputTracker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Work\\BVE Train Stuff\\OpenBVE-ML-Plugins-main\\InputTracker\\InputTracker\\InputTracker.csproj",
+        "projectName": "InputTracker",
+        "projectPath": "D:\\Work\\BVE Train Stuff\\OpenBVE-ML-Plugins-main\\InputTracker\\InputTracker\\InputTracker.csproj",
+        "packagesPath": "C:\\Users\\jh3556\\.nuget\\packages\\",
+        "outputPath": "D:\\Work\\BVE Train Stuff\\OpenBVE-ML-Plugins-main\\InputTracker\\InputTracker\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jh3556\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net4.6.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net4.6.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net4.6.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

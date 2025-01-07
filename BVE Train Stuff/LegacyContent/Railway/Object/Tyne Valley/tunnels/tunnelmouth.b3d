@@ -1,0 +1,73 @@
+;author=eezypeazy
+;description=Bensham tunnel entrance
+;copyright=eezypeazy 2009, all rights reserved, contact eezypeazy@eezypeazy.co.uk
+
+[MeshBuilder]
+Vertex -8.8,-0.4,0
+Vertex -8.8, 7,0
+Vertex 13, 7,0
+Vertex 13,-0.4,0
+vertex 15,-0.4,-1
+vertex 15,-0.4,-2
+vertex -10,0,-1
+vertex -10,0,-1
+Face 0, 1, 2, 3
+face 3,2,4,5
+face 6,7,1,0
+
+[Texture]
+Load ..\bridges\stonebr.BMP
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 0.97, 0
+Coordinates 3, 0.97, 1
+Coordinates 4, 1.27, 1
+Coordinates 5, 1.27, 0
+Coordinates 6, 0.3, 0
+Coordinates 7, 0.3, 1
+Transparent 0, 0, 255
+
+;trees
+
+[meshbuilder]
+vertex -4,5,1 
+vertex -4,10,1
+vertex 14,9,1
+vertex 14,5,1
+vertex -11,-5,-1 
+vertex -11,9,-1
+vertex -2,9,-0.3
+vertex 0,-1,-0.3
+vertex 10,0,-0.3 
+vertex 10,8.5,-0.3
+vertex 18,8.5,-1
+vertex 20,0,-1
+vertex 5.5,-5,-0.4
+vertex 5.5,3,-0.4
+vertex 16,3,-3
+vertex 16,-5,-3
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+face 12,13,14,15
+color 123,123,123
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,0.9
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,1,0
+coordinates 11,1,1
+coordinates 12,0,1
+coordinates 13,0,0
+coordinates 14,1,0
+coordinates 15,1,1
+transparent 0,0,255

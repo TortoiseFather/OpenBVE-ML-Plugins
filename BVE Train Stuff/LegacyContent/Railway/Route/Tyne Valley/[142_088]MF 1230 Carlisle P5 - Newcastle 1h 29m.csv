@@ -1,0 +1,10289 @@
+;Tyne Valley v2 by eezypeazy
+;copyright 2009 all rights reserved
+;visit www.eezypeazy.co.uk
+
+with Route
+
+.Comment 1230 Carlisle to Newcastle $chr(012)calling at:$chr(012)$chr(012)Wetheral$chr(012)Brampton$chr(012)Haltwhistle$chr(012)Bardon Mill$chr(012)Haydon Bridge$chr(012)Hexham$chr(012)Prudhoe$chr(012)MetroCentre and$chr(012)Newcastle$chr(046)$chr(012)$chr(012)Operated by Northern Rail$chr(046)$chr(012)$chr(012)$chr(012)Released as part of Tyne Valley v2 for BVE Trainsim version 4 and openBVE$chr(046)$chr(012)$chr(012)Copyright eezypeazy 2009$chr(046) All rights reserved$chr(046)$chr(012)$chr(012)visit www$chr(046)eezypeazy$chr(046)co$chr(046)uk$chr(046)$chr(012)$chr(012)Originally made with help from Route Builder1.4.2 (2005-06-05) - visit http://routebuilder.bve-routes.com$chr(13)$chr(10)Cleaned with RBCleaner
+
+.Change 0
+.Gauge 1435
+.Signal(2) 96
+.Signal (3) 96
+
+.ambientlight 243;243;232
+
+.DeveloperId 0
+
+with Train
+;.Folder Cl156
+.Folder cl142_088
+;.Folder cl142
+;.Folder 37901 Loaded Steel Carriers
+;.Folder BR_Class47_PR
+
+.Run(0) 2
+.Run(1) 2
+.Run(2) 2
+.Run(3) 2
+.Run(4) 0
+.Run(5) 0
+.Run(6) 0
+.Run(7) 0
+.Run(8) 0
+.Run(9) 0
+.Run(10) 3
+.Run(11) 0
+.Run(12) 0
+.Run(13) 0
+.Run(14) 3
+.Run(15) 3
+.Run(16) 2
+.Run(17) 2
+.Run(18) 2
+.Run(19) 2
+.Run(20) 2
+.Run(21) 3
+.Run(22) 3
+.Run(23) 3
+.Run(44) 7
+
+.Timetable(0).Day.Load ..\..\Railway\Object\Tyne Valley\timetables\MF_1230_Carlisle.bmp
+
+with Structure
+.rail(0) Tyne Valley\tracks\brown_overhead.b3d
+.rail(1) Tyne Valley\tracks\brown500_overhead.b3d
+.rail(2) Tyne Valley\tracks\brown-150_overhead.b3d
+.rail(3) Tyne Valley\tracks\track0.b3d
+.rail(4) Tyne Valley\tracks\brown.b3d
+.rail(5) Tyne Valley\tracks\brown-1000.b3d
+.rail(6) Tyne Valley\tracks\brown-500.b3d
+.rail(7) Tyne Valley\tracks\brown-300.b3d
+.rail(8) Tyne Valley\tracks\brown-150.b3d
+.rail(9) Tyne Valley\tracks\brown150.b3d
+.rail(10) Tyne Valley\tracks\dark.b3d
+.rail(11) Tyne Valley\tracks\brown1000.b3d
+.rail(12) Tyne Valley\tracks\brown500.b3d
+.rail(13) Tyne Valley\tracks\brown300.b3d
+.rail(14) Tyne Valley\tracks\dark_1000.b3d
+.rail(15) Tyne Valley\tracks\dark_500.b3d
+.rail(16) Tyne Valley\tracks\brown-500_overhead.b3d
+.rail(17) Tyne Valley\tracks\brown-1000_overhead.b3d
+.rail(18) Tyne Valley\tracks\brown-300_overhead.b3d
+.rail(19) Tyne Valley\tracks\brown1000_overhead.b3d
+.rail(20) Tyne Valley\tracks\brown300_overhead.b3d
+.rail(21) Tyne Valley\tracks\dark_-500_overhead.B3D
+.rail(22) Tyne Valley\tracks\dark-300_overhead.B3D
+.rail(23) Tyne Valley\tracks\dark_overhead.b3d
+.rail(24) Tyne Valley\tracks\brownrusty.b3d
+.rail(25) Tyne Valley\tracks\brown230_overhead.b3d
+.rail(26) Tyne Valley\tracks\brown-200.b3d
+.rail(27) Tyne Valley\tracks\brown-200_xtd.b3d
+
+.rail(31) Tyne Valley\tracks\brown-1400.b3d
+.rail(32) Tyne Valley\tracks\brown1400.b3d
+.rail(33) Tyne Valley\tracks\brown-700.b3d
+.rail(34) Tyne Valley\tracks\brown700.b3d
+.rail(35) Tyne Valley\tracks\brown-1400_overhead.b3d
+.rail(36) Tyne Valley\tracks\brown2800.b3d
+.rail(37) Tyne Valley\tracks\brown1400_overhead.b3d
+.rail(38) Tyne Valley\tracks\brown-800_overhead.b3d
+.rail(39) Tyne Valley\tracks\brown200.b3d
+.rail(40) Tyne Valley\tracks\brown_overhead_xtd.b3d
+.rail(41) Tyne Valley\tracks\brown200_overhead.b3d
+.rail(42) Tyne Valley\tracks\brown200_overhead_xtd.b3d
+.rail(43) Tyne Valley\tracks\brown150_overhead.b3d
+.rail(44) Tyne Valley\tracks\brown.b3d; with passing train sound
+
+.rail(50) Tyne Valley\tracks\brown300_overhead_xtd.b3d
+
+.rail(61) Tyne Valley\tracks\brownballast.b3d
+
+.rail(101) Tyne Valley\bridges\blaydonviaduct.b3d
+
+.ground(0) Tyne Valley\grounds\empty.b3d
+.ground(1) Tyne Valley\grounds\ballast19mnoground.b3d
+.ground(2) Tyne Valley\grounds\cutting5left.b3d
+.ground(3) Tyne Valley\grounds\cutting5.b3d
+.ground(4) Tyne Valley\grounds\cutting6.b3d
+.ground(5) Tyne Valley\grounds\cutting6ends.b3d
+.ground(6) Tyne Valley\grounds\ballast19m.b3d
+.ground(7) Tyne Valley\grounds\groundforembankments.b3d
+.ground(8) Tyne Valley\grounds\houseslowleftfieldsright.b3d
+.ground(9) Tyne Valley\grounds\cutting3.b3d
+.ground(10) Tyne Valley\grounds\cutting1.b3d
+.ground(11) Tyne Valley\grounds\forestfloor1.b3d
+.ground(12) Tyne Valley\grounds\grassfields.b3d
+.ground(13) Tyne Valley\grounds\cuttingtreestwotrack.b3d
+.ground(14) Tyne Valley\grounds\cutting2.b3d
+.ground(15) Tyne Valley\grounds\cutting2ends.b3d
+.ground(16) Tyne Valley\grounds\grassfields2.b3d
+.ground(17) Tyne Valley\grounds\cutting4.b3d
+.ground(18) Tyne Valley\grounds\cutting3ends.b3d
+.ground(19) Tyne Valley\grounds\groundleftforembankment_l.b3d
+.ground(20) Tyne Valley\grounds\groundforembankmenttoLC_l.b3d
+.ground(21) Tyne Valley\grounds\fieldsr_l.b3d
+.ground(22) Tyne Valley\grounds\tracktreeesleftfieldsr_l.b3d
+.ground(23) Tyne Valley\grounds\cuttingtreestwotrack2.b3d
+.ground(24) Tyne Valley\grounds\cuttinglargetreesrightfieldsleft_l.b3d
+.ground(25) Tyne Valley\grounds\cuttinglargetreestreestwotrack2.b3d
+.ground(26) Tyne Valley\grounds\feildslhillr.b3d
+.ground(27) Tyne Valley\grounds\groundforembankmentstocutting.b3d
+.ground(28) Tyne Valley\grounds\brownballast.b3d
+.ground(29) Tyne Valley\grounds\riverrighthill.b3d
+.ground(30) Tyne Valley\grounds\cuttingtreesleftriverright_l.b3d
+.ground(31) Tyne Valley\grounds\fieldsleftriverrighthill.b3d
+.ground(32) Tyne Valley\grounds\cuttingtreesleftfieldsr_l.b3d
+.ground(33) Tyne Valley\grounds\cuttingrockleft.b3d
+.ground(34) Tyne Valley\grounds\cuttingrockleftriverright.b3d
+.ground(35) Tyne Valley\grounds\riverbelow75m.b3d
+.ground(36) Tyne Valley\grounds\shrubscycle2track.b3d
+.ground(37) Tyne Valley\grounds\water1_low5.b3d
+.ground(38) Tyne Valley\grounds\riverfield.b3d
+.ground(39) Tyne Valley\grounds\grassfieldsleft.b3d
+.ground(40) Tyne Valley\grounds\A695.b3d
+.ground(41) Tyne Valley\grounds\rivertyne.b3d
+.ground(42) Tyne Valley\grounds\rtynewylamwall.b3d
+.ground(43) Tyne Valley\grounds\golfcoursestart.b3d
+.ground(44) Tyne Valley\grounds\golfcours.b3d
+.ground(45) Tyne Valley\grounds\grass3_low5.b3d
+.ground(145) Tyne Valley\grounds\grass3_low5_right.b3d
+
+.ground(46) Tyne Valley\grounds\grass2.b3d
+
+.ground(48) Tyne Valley\grounds\grass3.b3d
+.ground(49) Tyne Valley\grounds\grass1.b3d
+
+.ground(51) Tyne Valley\grounds\black.b3d
+.ground(52) Tyne Valley\grounds\water1_low25.b3d
+.ground(53) Tyne Valley\grounds\cuttingtrees_l.b3d
+.ground(54) Tyne Valley\grounds\houseslow.b3d
+.ground(55) Tyne Valley\grounds\cuttingstartstrees_l.b3d
+.ground(56) Tyne Valley\grounds\housesrear.b3d
+.ground(57) Tyne Valley\grounds\shrubscycle3track.b3d
+.ground(58) Tyne Valley\grounds\cuttingtreestwotrackhousesleft.b3d
+.ground(59) Tyne Valley\grounds\cuttingtreestwotrackstationhousesleft.b3d
+.ground(60) Tyne Valley\grounds\rtynenowylamwall.b3d
+.ground(61) Tyne Valley\grounds\stocksfieldyard.b3d
+.ground(62) Tyne Valley\grounds\prudhoeyard.b3d
+.ground(63) Tyne Valley\grounds\concrete_55.b3d
+.ground(64) Tyne Valley\grounds\cobbles_left.b3d
+
+.crackL(1) Tyne Valley\grounds\crack1_L.b3d
+.crackR(1) Tyne Valley\grounds\crack1_R.b3d
+
+.wallL(0) Tyne Valley\walls\bushestrees_l.b3d
+.wallR(0) Tyne Valley\walls\bushestrees_r.b3d
+.wallL(1) Tyne Valley\walls\forest4_l.b3d
+.wallL(2) Tyne Valley\walls\Spital_l.b3d
+.wallL(3) Tyne Valley\walls\embankment_r.b3d
+.wallL(4) Tyne Valley\walls\bricktunnel_l.x
+.wallL(5) Tyne Valley\walls\bushestreeswall_l.b3d
+.WallL(6) Tyne Valley\grounds\cutting6.b3d
+
+.wallR(8) Tyne Valley\walls\woodfence1_r.b3d
+.wallL(9) Tyne Valley\walls\bushestrees3_l.b3d
+.WallL(10) Tyne Valley\grounds\cutting1.b3d
+.WallR(11) Tyne Valley\walls\hedgeclose_r.b3d
+.wallL(12) Tyne Valley\grounds\cutting3_l.b3d ;cutting left only
+.wallR(12) Tyne Valley\grounds\cutting3_r.b3d ;cutting right only
+.wallL(13) Tyne Valley\grounds\cutting3.b3d ;cutting both sides
+.wallL(14) Tyne Valley\grounds\cutting2.b3d
+.wallL(15) Tyne Valley\grounds\cutting3.b3d
+.wallL(16) Tyne Valley\grounds\cutting4.b3d
+.wallL(17) Tyne Valley\grounds\cuttingtreestwotrack.b3d
+.wallL(18) Tyne Valley\walls\busheslargertreestwotrack2_l.b3d ;both sides
+
+.wallL(21) Tyne Valley\bridges\ouseburn_l.x
+.wallR(21) Tyne Valley\bridges\ouseburn_r.x
+.wallL(22) Tyne Valley\grounds\tracktreeesleftfieldsr_l.b3d
+
+.wallL(24) Tyne Valley\walls\wirenet_Wall1_l.b3d
+.wallR(24) Tyne Valley\walls\wirenet_Wall1_r.b3d
+
+.wallR(28) Tyne Valley\walls\wall_brick1_high_r.B3D
+
+.wallL(31) Tyne Valley\walls\wall_concrete_high_l.b3d
+
+.wallL(34) Tyne Valley\plants\mytrees1l.b3d
+.wallR(34) Tyne Valley\plants\mytrees1r.b3d
+
+.wallR(41) Tyne Valley\walls\blaydonwall_r.b3d
+
+.wallR(47) Tyne Valley\walls\oldstonewallbushes_r.b3d ;wall with bushes
+.wallR(50) Tyne Valley\walls\oldstonewall_r.b3d ;wall with wire fence above
+
+.wallL(64) Tyne Valley\walls\fencebush4away_l.b3d
+
+.wallR(101) Tyne Valley\walls\brickviaductrailwayst_r.b3d
+
+.wallL(114) Tyne Valley\walls\deepforest1_l.b3d
+
+.wallR(136) Tyne Valley\walls\woodfence1Tom_r.b3d
+.wallL(136) Tyne Valley\walls\woodfence1Tom_l.b3d
+
+.WallR(153) Tyne Valley\walls\fieldsr_l.b3d
+.wallL(153) Tyne Valley\walls\grassfields_l.b3d
+
+.WallL(164) Tyne Valley\walls\oldstonewall_l.b3d
+.wallR(164) Tyne Valley\walls\oldstonewall_r.b3d
+
+.wallR(174) Tyne Valley\walls\stonewall_highfelling_r.B3D
+
+.wallL(230) Tyne Valley\walls\westboat1_l.b3d
+
+.wallL(234) Tyne Valley\walls\bushestreestwotrack2_l.b3d
+
+.dikeL(99) Tyne Valley\walls\dike_grass3_high_7_l.b3d
+.dikeR(99) Tyne Valley\walls\dike_grass3_high_7_r.b3d
+
+.dikeR(139) Tyne Valley\walls\forest1_r.b3d
+.dikeL(139) Tyne Valley\walls\forest1_l.b3d
+
+.dikeR(235) Tyne Valley\walls\thinforest1hill_r.b3d
+
+.dikeL(249) Tyne Valley\walls\thinforest1_l.b3d
+.dikeR(249) Tyne Valley\walls\thinforest1_r.b3d
+
+.dikeL(0) Tyne Valley\walls\bushestreesA69_r.b3d
+
+.dikeL(1) Tyne Valley\walls\embankment_l.b3d
+.dikeR(1) Tyne Valley\walls\embankment_r.b3d
+
+.dikeL(2) Tyne Valley\walls\embankment_grass_l.b3d
+.dikeR(2) Tyne Valley\walls\embankment_grass_r.b3d
+
+;the following dikes have been numbered to use the random function
+
+.dikeL(11) Tyne Valley\walls\embankment_grass_l.b3d
+.dikeL(12) Tyne Valley\walls\embankment_grassbushes_l.b3d
+
+.dikeL(26) Tyne Valley\grounds\feildslhillr.b3d
+
+.Pole(0;0) Tyne Valley\poles\pole_DB_concrete1.x
+
+;new MetroCentre objects
+
+.rail(201) Tyne Valley\grounds\road.b3d ;single carriageway with kerbs and yellow lines
+
+.freeobj(2258) Tyne Valley\misc\mclamppost.b3d
+
+.freeobj(2359) Tyne Valley\bridges\metrocentrebusbridge.b3d
+
+.freeobj(1201) Tyne Valley\platforms\metrocentre1_l.b3d
+.freeobj(1202) Tyne Valley\platforms\metrocentre2_l.b3d
+.freeobj(1203) Tyne Valley\platforms\metrocentre3_l.b3d
+
+.freeobj(1211) Tyne Valley\platforms\metrocentre1_r.b3d
+.freeobj(1212) Tyne Valley\platforms\metrocentre2_r.b3d
+.freeobj(1213) Tyne Valley\platforms\metrocentre3_r.b3d
+
+.freeobj(7041) Tyne Valley\buildings\MCbusstation.b3d
+
+
+;buses numbered for randomisation
+.freeobj(485) Tyne Valley\buses\Arriva Optare.csv
+.freeobj(486) Tyne Valley\buses\Arriva Volvo B6.csv
+.freeobj(487) Tyne Valley\buses\Go North East Volvo.csv
+.freeobj(488) Tyne Valley\buses\Bova Futura.csv
+.freeobj(489) Tyne Valley\buses\Nat Express.csv
+.freeobj(490) Tyne Valley\buses\Northumbria  DAF SB220.b3d
+
+.freeobj(701) Tyne Valley\buses\South Shields Atlantean.csv
+
+.freeobj(841) Tyne Valley\platforms\metrocentrenameboard.b3d
+
+
+
+.freeobj(0) Tyne Valley\signs\My Stop Sign.b3d
+
+.freeobj(2) Tyne Valley\misc\spanwires.b3d
+.freeobj(3) Tyne Valley\tracks\brown_overhead.b3d
+.freeobj(4) Tyne Valley\platforms\carlisle2.b3d
+
+.freeobj(2004) Tyne Valley\platforms\carlisle2_straight.b3d
+.freeobj(2012) Tyne Valley\platforms\carlisle3_straight.b3d
+
+.freeobj(5) Tyne Valley\signals\signal_dummy1.b3d
+.freeobj(6) Tyne Valley\signals\signal_dummy2.b3d
+.freeobj(7) Tyne Valley\signals\signal_dummy3.b3d
+
+.freeobj(2007) Tyne Valley\signals\signal_dummyred3aspect2featherleft.x
+.freeobj(2008) Tyne Valley\signals\signal_dummyred3aspectfeatherl.x
+
+
+.freeobj(8) Tyne Valley\tracks\brown150_overhead.b3d
+.freeobj(9) Tyne Valley\tracks\brown300_overhead.b3d
+.freeobj(10) Tyne Valley\tracks\brown500_overhead.b3d
+.freeobj(11) Tyne Valley\walls\finishedstone_r.b3d
+.freeobj(12) Tyne Valley\platforms\carlisle3.b3d
+.freeobj(13) Tyne Valley\tracks\brown-150_overhead.b3d
+.freeobj(14) Tyne Valley\signs\donotcross.b3d
+.freeobj(15) Tyne Valley\tracks\switch_brown_overheadLR.b3d
+.freeobj(16) Tyne Valley\tracks\switch_brown_overheadRL.b3d
+.freeobj(17) Tyne Valley\platforms\carlisle4a.b3d
+.freeobj(18) Tyne Valley\buildings\factory3.b3d
+.freeobj(19) Tyne Valley\walls\bushestrees2_l.b3d
+
+.freeobj(2020) Tyne Valley\walls\bridge_steel3_r_xtd.b3d
+.freeobj(20) Tyne Valley\walls\bridge_steel3_r.b3d
+.freeobj(21) Tyne Valley\walls\bridge_steel3_l.b3d
+.freeobj(22) Tyne Valley\misc\spanwirepole_l.b3d
+.freeobj(23) Tyne Valley\trains\573.b3d
+.freeobj(24) Tyne Valley\walls\wirenet_Wall1_r.b3d
+.freeobj(25) Tyne Valley\walls\hedge_r.b3d
+.freeobj(26) Tyne Valley\walls\embankment2low_l.b3d
+.freeobj(27) Tyne Valley\poles\pole_EP6span2.b3d
+.freeobj(28) Tyne Valley\buildings\factoryl1.b3d
+.freeobj(29) Tyne Valley\buildings\carlisleoldbox.b3d
+.freeobj(30) Tyne Valley\tracks\switch_brownLR.b3d
+
+.freeobj(1030) Tyne Valley\tracks\switch_brownLR_OOU.b3d ;lh track OOU
+.freeobj(1031) Tyne Valley\tracks\switch_brownLR_all_OOU.b3d ;all OOU
+
+.freeobj(1032) Tyne Valley\tracks\crossing.b3d
+
+.freeobj(2031) Tyne Valley\tracks\doubleslip.b3d
+.freeobj(2032) Tyne Valley\tracks\doubleslipright.b3d
+
+.freeobj(31) Tyne Valley\tracks\overheadLL.b3d
+.freeobj(32) Tyne Valley\walls\wirenet_Wall1_l.b3d
+.freeobj(33) Tyne Valley\poles\pole_DB_concrete1.x
+
+.freeobj(9123) Tyne Valley\poles\overhead.x
+
+.freeobj(34) Tyne Valley\tracks\crossing2.b3d
+
+.freeobj(35) Tyne Valley\poles\pole_EP3span2.b3d
+.freeobj(36) Tyne Valley\walls\carlislerampwall_l.b3d
+
+.freeobj(38) Tyne Valley\plants\bigtreeep2.b3d
+.freeobj(39) Tyne Valley\walls\carlislerampwall.b3d
+.freeobj(40) Tyne Valley\walls\hedgeclose_r.b3d
+.freeobj(41) Tyne Valley\tracks\brown-1000_overhead.b3d
+.freeobj(42) Tyne Valley\walls\bushestreeswall_l.b3d
+.freeobj(43) Tyne Valley\tracks\brown-500_overhead.b3d
+.freeobj(44) Tyne Valley\tracks\brown-300_overhead.b3d
+.freeobj(45) Tyne Valley\tracks\brown-150.b3d
+.freeobj(46) Tyne Valley\tracks\brown.b3d
+.freeobj(47) Tyne Valley\walls\oldstonewallbushes_r.b3d
+.freeobj(48) Tyne Valley\bridges\stonebridge4span.b3d
+.freeobj(49) Tyne Valley\grounds\cutting5left.b3d
+.freeobj(50) Tyne Valley\walls\oldstonewall_r.b3d
+.freeobj(51) Tyne Valley\misc\Rail Buffers.b3d
+.freeobj(52) Tyne Valley\signals\signal_post.x
+.freeobj(53) Tyne Valley\signals\gantryhanger1.b3d
+.freeobj(9053) Tyne Valley\signals\offhanger1.b3d
+.freeobj(54) Tyne Valley\signals\4spansignalgantry.b3d
+
+.freeobj(55) Tyne Valley\signals\signal_post2.x
+
+.freeobj(56) Tyne Valley\grounds\ballast19mnoground.b3d
+.freeobj(57) Tyne Valley\tracks\switch_brownLL.b3d
+.freeobj(58) Tyne Valley\plants\bigtreeep2r.b3d
+.freeobj(59) Tyne Valley\bridges\stonebridge.b3d
+.freeobj(60) Tyne Valley\grounds\cutting6.b3d
+.freeobj(61) Tyne Valley\tracks\brownrusty.b3d
+.freeobj(62) Tyne Valley\tracks\switch_brownRL.b3d
+.freeobj(9062) Tyne Valley\tracks\switch_brownRL_OOU.b3d
+.freeobj(9063) Tyne Valley\tracks\switch_brownRL_all_OOU.b3d
+.freeobj(63) Tyne Valley\grounds\cutting6right.b3d
+.freeobj(64) Tyne Valley\walls\fencebush4away_l.b3d
+.freeobj(65) Tyne Valley\walls\bushestrees_r.b3d
+.freeobj(66) Tyne Valley\walls\embankment_l.b3d
+.freeobj(67) Tyne Valley\walls\embankment_r.b3d
+.freeobj(68) Tyne Valley\bridges\carlislebridgegreystone.b3d
+.freeobj(69) Tyne Valley\walls\concrete overbridge.B3D
+.freeobj(70) Tyne Valley\tracks\brown-1000.b3d
+.freeobj(71) Tyne Valley\walls\embankment_grass_l.b3d
+.freeobj(72) Tyne Valley\walls\embankmen_grasst_r.b3d
+.freeobj(73) Tyne Valley\tracks\dark.b3d
+.freeobj(74) Tyne Valley\bridges\M6.b3d
+.freeobj(75) Tyne Valley\plants\bigtreeesclose.b3d
+.freeobj(76) Tyne Valley\trains\Class 156 NR_1.b3d
+.freeobj(77) Tyne Valley\trains\Class 156 NR_2.b3d
+.freeobj(78) Tyne Valley\tracks\brown1000.b3d
+.freeobj(79) Tyne Valley\tracks\brown500.b3d
+.freeobj(80) Tyne Valley\buildings\woodencrossing.b3d
+.freeobj(81) Tyne Valley\grounds\treescutting4starts.b3d
+.freeobj(82) Tyne Valley\tracks\brown300.b3d
+.freeobj(83) Tyne Valley\tracksigns\40mphtemp.b3d
+.freeobj(84) Tyne Valley\platforms\wetheral1.b3d
+.freeobj(85) Tyne Valley\tracks\brown-500.b3d
+.freeobj(86) Tyne Valley\platforms\wetheral2oou.b3d
+.freeobj(87) Tyne Valley\platforms\OOUfence.b3d
+.freeobj(88) Tyne Valley\platforms\wetheral2.b3d
+.freeobj(89) Tyne Valley\platforms\wetheral3.b3d
+.freeobj(90) Tyne Valley\buildings\wetheral1.b3d
+.freeobj(91) Tyne Valley\platforms\wetheral4.b3d
+.freeobj(92) Tyne Valley\platforms\wetheral5.b3d
+.freeobj(93) Tyne Valley\platforms\hexhamfootbr.b3d
+.freeobj(94) Tyne Valley\walls\stoneviaduct._l.b3d
+.freeobj(95) Tyne Valley\misc\wetheralriver.b3d
+.freeobj(96) Tyne Valley\grounds\wetheralbank.b3d
+.freeobj(97) Tyne Valley\tracksigns\50mphtemp.b3d
+.freeobj(98) Tyne Valley\grounds\corby1.b3d
+.freeobj(99) Tyne Valley\buildings\detachedhouse.csv
+.freeobj(100) Tyne Valley\grounds\corby2.b3d
+.freeobj(101) Tyne Valley\walls\Level Crossing_l.b3d
+.freeobj(102) Tyne Valley\walls\bushestrees_l.b3d
+.freeobj(103) Tyne Valley\signals\semaphorered.b3d
+.freeobj(104) Tyne Valley\plants\deepforest1.b3d
+.freeobj(105) Tyne Valley\walls\simplestoneviaduct._l.b3d
+.freeobj(106) Tyne Valley\tracksigns\whistle.b3d
+.freeobj(107) Tyne Valley\plants\bushesforwoodcrossingembankment.b3d
+.freeobj(108) Tyne Valley\bridges\stoneunderbridgesmall.b3d
+.freeobj(109) Tyne Valley\walls\HBCrossing_l.b3d
+.freeobj(110) Tyne Valley\walls\lcbushes.b3d
+.freeobj(111) Tyne Valley\tracksigns\60mphtemp.b3d
+.freeobj(112) Tyne Valley\tracks\brown-300.b3d
+.freeobj(113) Tyne Valley\tracksigns\55mphtemp.b3d
+.freeobj(114) Tyne Valley\walls\deepforest1_l.b3d
+.freeobj(115) Tyne Valley\buildings\bramptonfell.b3d
+.freeobj(116) Tyne Valley\grounds\grassfields.b3d
+.freeobj(117) Tyne Valley\platforms\halt1_l.b3d
+.freeobj(118) Tyne Valley\platforms\Country1_r.b3d
+.freeobj(119) Tyne Valley\platforms\halt2_l.b3d
+.freeobj(120) Tyne Valley\platforms\halt2_r.b3d
+.freeobj(121) Tyne Valley\fences\darkdiagonalbushes trees_l.b3d
+.freeobj(122) Tyne Valley\fences\Diagonalbushesr.b3d
+.freeobj(123) Tyne Valley\buildings\brampton.b3d
+.freeobj(124) Tyne Valley\platforms\bramptonshelter_r.b3d
+.freeobj(125) Tyne Valley\platforms\Country3_r.b3d
+.freeobj(126) Tyne Valley\platforms\Country3_l.b3d
+.freeobj(127) Tyne Valley\platforms\NERFootbridgered.b3d
+.freeobj(128) Tyne Valley\fences\bramptonyard.b3d
+.freeobj(129) Tyne Valley\fences\bramptonyard2.b3d
+.freeobj(130) Tyne Valley\walls\cutting3_r.b3d
+.freeobj(131) Tyne Valley\bridges\bridgebrickparapet.b3d
+.freeobj(132) Tyne Valley\walls\cutting3ends_r.b3d
+.freeobj(133) Tyne Valley\buildings\signalboxright.b3d
+.freeobj(134) Tyne Valley\buildings\miltonwhitehouse.b3d
+.freeobj(135) Tyne Valley\buildings\naworth.b3d
+.freeobj(136) Tyne Valley\walls\woodfence1Tom_r.b3d
+.freeobj(137) Tyne Valley\walls\forest1_r.b3d
+.freeobj(138) Tyne Valley\walls\woodfence1Tom_l.b3d
+.freeobj(139) Tyne Valley\walls\forest1_l.b3d
+.freeobj(140) Tyne Valley\bridges\stonebridgeconcreteparapet.b3d
+.freeobj(141) Tyne Valley\buildings\lowrowbox.b3d
+.freeobj(142) Tyne Valley\walls\road_l.b3d
+.freeobj(143) Tyne Valley\buildings\lowrowhouse.b3d
+.freeobj(144) Tyne Valley\walls\roadleaves_l.b3d
+.freeobj(145) Tyne Valley\signals\lowrowgantry.b3d
+.freeobj(146) Tyne Valley\walls\lanehead_l.b3d
+.freeobj(147) Tyne Valley\plants\treearrayleft_l.b3d
+.freeobj(148) Tyne Valley\walls\busheslargertreestwotrack2_l.b3d
+.freeobj(149) Tyne Valley\walls\lcpicket.b3d
+.freeobj(150) Tyne Valley\walls\denton_l.b3d
+.freeobj(151) Tyne Valley\grounds\cuttingtrees_r.b3d
+.freeobj(152) Tyne Valley\grounds\groundforembankmenttoLCbothsides_l.b3d
+.freeobj(153) Tyne Valley\walls\fieldsr_l.b3d
+.freeobj(154) Tyne Valley\walls\grassfields_l.b3d
+.freeobj(155) Tyne Valley\walls\gilsland.b3d
+.freeobj(156) Tyne Valley\bridges\stonebridgeembankment.b3d
+.freeobj(157) Tyne Valley\walls\fourstones_l.b3d
+.freeobj(158) Tyne Valley\grounds\fieldsr_l.b3d
+.freeobj(159) Tyne Valley\tracks\brown150.b3d
+.freeobj(9159) Tyne Valley\tracks\brown150_OOU.b3d
+.freeobj(160) Tyne Valley\buildings\greenhead3.b3d
+.freeobj(161) Tyne Valley\buildings\greenhead2.b3d
+.freeobj(162) Tyne Valley\bridges\greenhead.b3d
+.freeobj(163) Tyne Valley\walls\greenheadcuttingstarts.b3d
+.freeobj(164) Tyne Valley\walls\oldstonewall_l.b3d
+.freeobj(165) Tyne Valley\walls\bushestreesA69_r.b3d
+.freeobj(166) Tyne Valley\walls\westlodge_r.b3d
+.freeobj(167) Tyne Valley\bridges\metalbridgegreystone.b3d
+.freeobj(168) Tyne Valley\walls\retainingwallstonegrey_l.b3d
+.freeobj(169) Tyne Valley\platforms\halt1_r.b3d
+
+.freeobj(171) Tyne Valley\buildings\haltshelter2.b3d
+.freeobj(172) Tyne Valley\platforms\halt3_r.b3d
+.freeobj(173) Tyne Valley\buildings\haltshelter.b3d
+.freeobj(174) Tyne Valley\buildings\haltbox.b3d
+.freeobj(175) Tyne Valley\platforms\halt2_fence_l.b3d
+.freeobj(176) Tyne Valley\platforms\halt3_l.b3d
+.freeobj(177) Tyne Valley\platforms\halt2_oou_l.b3d
+.freeobj(178) Tyne Valley\bridges\AVculvert.b3d
+.freeobj(179) Tyne Valley\bridges\AVculvertunderside.b3d
+.freeobj(180) Tyne Valley\tracksigns\30mphPSRahead.b3d
+.freeobj(181) Tyne Valley\buildings\longfactory.b3d
+.freeobj(182) Tyne Valley\grounds\riverrighthill.b3d
+.freeobj(183) Tyne Valley\walls\treeshillroad_l.b3d
+.freeobj(184) Tyne Valley\roads\roadabove1.b3d
+.freeobj(185) Tyne Valley\walls\treesrockfaceroad_l.b3d
+.freeobj(186) Tyne Valley\walls\bricktunnel_l.x
+.freeobj(187) Tyne Valley\tunnels\tunnelmouth.b3d
+.freeobj(188) Tyne Valley\tracksigns\30mphtemp.b3d
+.freeobj(189) Tyne Valley\walls\cuttingtrees_l.b3d
+.freeobj(190) Tyne Valley\tracksigns\65mphtemp.b3d
+.freeobj(191) Tyne Valley\plants\bigtreeep1.b3d
+.freeobj(192) Tyne Valley\grounds\groundleftforembankment_l.b3d
+.freeobj(193) Tyne Valley\walls\riverright_l.b3d
+.freeobj(194) Tyne Valley\walls\bushestreesforsbox_r.b3d
+.freeobj(195) Tyne Valley\platforms\bardonmill1_r.b3d
+.freeobj(196) Tyne Valley\platforms\diagonalfencetreesplatstart_l.b3d
+.freeobj(197) Tyne Valley\buildings\BMillhouse.b3d
+.freeobj(198) Tyne Valley\platforms\bardonmill2_r.b3d
+.freeobj(199) Tyne Valley\platforms\diagonalfencetrees_l.b3d
+.freeobj(200) Tyne Valley\platforms\wirefencerun_l.b3d
+.freeobj(201) Tyne Valley\platforms\bardonmill2shelter_r.b3d
+.freeobj(202) Tyne Valley\platforms\BardonMillshelterleft.b3d
+.freeobj(203) Tyne Valley\platforms\bardonmill3_r.b3d
+.freeobj(204) Tyne Valley\platforms\wirefenceend_l.b3d
+.freeobj(205) Tyne Valley\platforms\postrailpath_l.b3d
+.freeobj(206) Tyne Valley\signals\bardonmillgantry.b3d
+.freeobj(207) Tyne Valley\grounds\cuttinglargetreestreestwotrack2.b3d
+.freeobj(208) Tyne Valley\signals\bardonmillgantry2.b3d
+.freeobj(209) Tyne Valley\walls\simpleriverbridge_l.b3d
+.freeobj(210) Tyne Valley\grounds\styneviaductbelow.b3d
+.freeobj(211) Tyne Valley\grounds\groundforembankments.b3d
+.freeobj(212) Tyne Valley\grounds\riverbelow75m.b3d
+.freeobj(213) Tyne Valley\grounds\cuttingtreesleftriverright_l.b3d
+.freeobj(214) Tyne Valley\grounds\shrubscycle2track.b3d
+.freeobj(215) Tyne Valley\walls\LCHBridge_l.b3d
+.freeobj(216) Tyne Valley\platforms\hbridge1_r.b3d
+.freeobj(217) Tyne Valley\platforms\fenceleft.b3d
+.freeobj(218) Tyne Valley\buildings\myshelter.b3d
+.freeobj(219) Tyne Valley\buildings\HBHouse.b3d
+.freeobj(220) Tyne Valley\platforms\HBshelterleft.b3d
+.freeobj(221) Tyne Valley\walls\roadfence_l.b3d
+.freeobj(222) Tyne Valley\walls\roadendsfence_l.b3d
+.freeobj(223) Tyne Valley\walls\forest4_l.b3d
+.freeobj(224) Tyne Valley\tracksigns\45mphtemp.b3d
+.freeobj(225) Tyne Valley\grounds\grassfields2.b3d
+.freeobj(226) Tyne Valley\bridges\2trackbridgesteel.b3d
+.freeobj(227) Tyne Valley\walls\bridge_steel2_l.b3d
+.freeobj(228) Tyne Valley\walls\bridge_steel2_r.b3d
+.freeobj(229) Tyne Valley\bridges\westboatbr.b3d
+.freeobj(230) Tyne Valley\walls\westboat1_l.b3d
+.freeobj(231) Tyne Valley\walls\westboat2_l.b3d
+
+.freeobj(233) Tyne Valley\walls\bushestreestwotrack2lanewallr_l.b3d
+.freeobj(234) Tyne Valley\walls\bushestreestwotrack2_l.b3d
+.freeobj(235) Tyne Valley\bridges\hexhambridge.b3d
+.freeobj(236) Tyne Valley\platforms\Hexham1.b3d
+.freeobj(237) Tyne Valley\misc\zafira.b3d
+.freeobj(238) Tyne Valley\platforms\Hexham3.b3d
+.freeobj(239) Tyne Valley\platforms\Hexham2.b3d
+.freeobj(240) Tyne Valley\platforms\Hexham4.b3d
+.freeobj(241) Tyne Valley\signals\semaphoregreen.b3d
+.freeobj(242) Tyne Valley\platforms\hexgoodsbay.b3d
+.freeobj(243) Tyne Valley\tracksigns\25mph.b3d
+.freeobj(244) Tyne Valley\trains\Class66.CSV
+.freeobj(245) Tyne Valley\trains\coalhopper.x
+.freeobj(246) Tyne Valley\buildings\factory2.b3d
+.freeobj(247) Tyne Valley\walls\Hexhambox.b3d
+.freeobj(248) Tyne Valley\plants\bush1.b3d
+.freeobj(249) Tyne Valley\walls\thinforest1_l.b3d
+.freeobj(250) Tyne Valley\walls\thinforest1_r.b3d
+.freeobj(251) Tyne Valley\buildings\Stephenson.b3d
+.freeobj(252) Tyne Valley\bridges\culvertfences.b3d
+.freeobj(253) Tyne Valley\walls\lcwalls.b3d
+.freeobj(254) Tyne Valley\platforms\corb1.b3d
+.freeobj(255) Tyne Valley\grounds\feildslhillr.b3d
+.freeobj(256) Tyne Valley\platforms\corb2.b3d
+.freeobj(257) Tyne Valley\misc\profcouple.b3d
+.freeobj(258) Tyne Valley\buildings\mparkoffice.b3d
+.freeobj(259) Tyne Valley\platforms\corb3.b3d
+.freeobj(260) Tyne Valley\platforms\corb4.b3d
+.freeobj(261) Tyne Valley\walls\forest2_r.b3d
+.freeobj(262) Tyne Valley\buildings\stoneterrace.b3d
+.freeobj(263) Tyne Valley\bridges\brickedtunnelmouth.b3d
+.freeobj(264) Tyne Valley\grounds\grassfieldsleft.b3d
+.freeobj(265) Tyne Valley\platforms\rmill1.b3d
+.freeobj(266) Tyne Valley\platforms\rmill2.b3d
+.freeobj(267) Tyne Valley\platforms\rmill3.b3d
+.freeobj(268) Tyne Valley\buildings\rmillhouse.b3d
+.freeobj(269) Tyne Valley\bridges\ROADBR2SPAN90.B3D
+.freeobj(270) Tyne Valley\tracksigns\20mphTSRahead.b3d
+.freeobj(1270) Tyne Valley\tracksigns\20 TSR.b3d
+.freeobj(2270) Tyne Valley\tracksigns\TSR ends.b3d
+
+.freeobj(271) Tyne Valley\walls\thinforest1hill_r.b3d
+.freeobj(272) Tyne Valley\tracksigns\20mphtemp.b3d
+.freeobj(273) Tyne Valley\grounds\cutting2start.b3d
+.freeobj(274) Tyne Valley\walls\stonewall_highfelling_r.B3D
+.freeobj(275) Tyne Valley\fences\woodengate.b3d
+
+.freeobj(276) Tyne Valley\platforms\stocks2.b3d
+.freeobj(277) Tyne Valley\platforms\stocks1.b3d
+.freeobj(278) Tyne Valley\platforms\stocks3.b3d
+.freeobj(279) Tyne Valley\platforms\stocks4.b3d
+
+.freeobj(1275) Tyne Valley\platforms\stocks5.b3d
+.freeobj(1276) Tyne Valley\platforms\stocks6.b3d
+.freeobj(2276) Tyne Valley\platforms\stocks6a.b3d
+.freeobj(1278) Tyne Valley\platforms\stocks8.b3d
+
+.freeobj(280) Tyne Valley\buildings\stocksbldg.b3d
+.freeobj(281) Tyne Valley\buildings\Prudhoebox.b3d
+.freeobj(282) Tyne Valley\platforms\platform5UpL.b3d
+.freeobj(283) Tyne Valley\platforms\platform5UpCL.b3d
+.freeobj(284) Tyne Valley\buildings\Prudhoehouse.b3d
+.freeobj(285) Tyne Valley\buildings\prudhoefootbridge.b3d
+.freeobj(286) Tyne Valley\platforms\platform5UpR.b3d
+.freeobj(287) Tyne Valley\platforms\platform5UpCR.b3d
+.freeobj(288) Tyne Valley\platforms\platform5L.b3d
+.freeobj(289) Tyne Valley\platforms\platform5CL.b3d
+.freeobj(290) Tyne Valley\buildings\Prudhoeshelter.b3d
+.freeobj(291) Tyne Valley\platforms\platform5R.b3d
+.freeobj(292) Tyne Valley\platforms\platform5CR.b3d
+.freeobj(293) Tyne Valley\fences\darkdiagonal.b3d
+.freeobj(1293) Tyne Valley\fences\darkdiagonal_platform ends.b3d
+.freeobj(1294) Tyne Valley\fences\darkdiagonal_platform starts.b3d
+.freeobj(294) Tyne Valley\walls\bluewirefence.b3d
+.freeobj(295) Tyne Valley\platforms\platform5DownL.b3d
+.freeobj(296) Tyne Valley\platforms\platform5DownCL.b3d
+.freeobj(297) Tyne Valley\signals\prudhoegantry.b3d
+.freeobj(298) Tyne Valley\buildings\factory1.b3d
+.freeobj(299) Tyne Valley\walls\dike_grass3_high_7_l.b3d
+.freeobj(300) Tyne Valley\walls\dike_grass3_high_7_r.b3d
+
+.freeobj(302) Tyne Valley\walls\forest4_r.b3d
+
+.freeobj(305) Tyne Valley\bridges\metalbridge.b3d
+
+.freeobj(307) Tyne Valley\misc\wylamlamp_l.b3d
+
+.freeobj(309) Tyne Valley\walls\wylambox._l.b3d
+.freeobj(310) Tyne Valley\walls\wylamboxstncutting.b3d
+.freeobj(311) Tyne Valley\buildings\wylamfootbridge.b3d
+.freeobj(312) Tyne Valley\buildings\wylamstation.b3d
+.freeobj(313) Tyne Valley\buildings\wylamcarpark.b3d
+.freeobj(314) Tyne Valley\buildings\wylamplat2.b3d
+
+.freeobj(316) Tyne Valley\buildings\wylamplat2end.b3d
+.freeobj(317) Tyne Valley\grounds\forestfloor1.b3d
+.freeobj(318) Tyne Valley\grounds\golfcours.b3d
+.freeobj(319) Tyne Valley\walls\stonewall_high_r.b3d
+
+.freeobj(321) Tyne Valley\walls\wall_brick1_away_r.b3d
+.freeobj(322) Tyne Valley\plants\Tree1.b3d
+.freeobj(323) Tyne Valley\plants\Tree2.b3d
+.freeobj(324) Tyne Valley\buildings\blaydonfootbridge.b3d
+.freeobj(3242) Tyne Valley\buildings\blaydonshelter.b3d
+.freeobj(3243) Tyne Valley\buildings\blaydonshelterright.b3d
+.freeobj(325) Tyne Valley\misc\jillandjulia.b3d
+.freeobj(326) Tyne Valley\fences\darkdiagonalshort.b3d
+.freeobj(327) Tyne Valley\misc\people1.b3d
+.freeobj(328) Tyne Valley\platforms\platform5DownR.b3d
+.freeobj(329) Tyne Valley\platforms\platform5DownCR.b3d
+
+.freeobj(331) Tyne Valley\walls\stonewall_high_l.B3D
+
+.freeobj(333) Tyne Valley\buildings\scrapyard.b3d
+.freeobj(334) Tyne Valley\buildings\blaydonbox.b3d
+.freeobj(335) Tyne Valley\roads\road2.b3d
+.freeobj(336) Tyne Valley\bridges\roadbr4span.b3d
+
+.freeobj(337) Tyne Valley\plants\eptree1.b3d
+
+.freeobj(340) Tyne Valley\buildings\netruckdepot.b3d
+.freeobj(341) Tyne Valley\walls\woodfence1_r.b3d
+
+.freeobj(344) Tyne Valley\buildings\HolidayInnExpress.b3d
+.freeobj(2344) Tyne Valley\buildings\travelodge.b3d
+.freeobj(345) Tyne Valley\bridges\derwent.b3d
+.freeobj(346) Tyne Valley\tracksigns\45mph.b3d
+
+.freeobj(348) Tyne Valley\walls\mcentrecoachpark._l.b3d
+.freeobj(349) Tyne Valley\buildings\carpark.b3d
+.freeobj(350) Tyne Valley\buildings\MetroLand.b3d
+.freeobj(351) Tyne Valley\walls\wall_brick1_high_r.B3D
+.freeobj(352) Tyne Valley\signs\timetable.csv
+.freeobj(353) Tyne Valley\buildings\MCFootbridge.b3d
+
+.freeobj(354) Tyne Valley\grounds\singlecarriageway-5.b3d
+.freeobj(9456) Tyne Valley\grounds\dualcarriagewayv2-5.b3d
+
+.freeobj(356) Tyne Valley\plants\multibush1.b3d
+
+.freeobj(362) Tyne Valley\walls\bridge_steel1_l.b3d
+.freeobj(363) Tyne Valley\walls\bridge_steel1_r.b3d
+.freeobj(364) Tyne Valley\plants\trees1.b3d
+
+.freeobj(370) Tyne Valley\bridges\sloping footbridge.b3d
+.freeobj(371) Tyne Valley\buildings\dunstonshelter.b3d
+
+.freeobj(373) Tyne Valley\buildings\detachedhouse.b3d
+.freeobj(374) Tyne Valley\walls\bridge_concrete1_fence_l.b3d
+.freeobj(375) Tyne Valley\walls\bridge_concrete1_fence_r.b3d
+
+.freeobj(381) Tyne Valley\tracksigns\40mph.b3d
+.freeobj(382) Tyne Valley\buildings\newburyhouses.csv
+.freeobj(383) Tyne Valley\walls\tunnel_wall_l.b3d
+.freeobj(384) Tyne Valley\walls\tunnel_wall_r.b3d
+.freeobj(385) Tyne Valley\tracks\dark_1000.b3d
+.freeobj(386) Tyne Valley\tracks\dark_500.b3d
+.freeobj(387) Tyne Valley\walls\wall_brick1_high_l.b3d
+.freeobj(388) Tyne Valley\walls\wall_brick1_low_l.b3d
+.freeobj(389) Tyne Valley\poles\pole_DB3.x
+.freeobj(390) Tyne Valley\tracks\brown1000_overhead.b3d
+.freeobj(391) Tyne Valley\poles\pole_DB1.b3d
+.freeobj(392) Tyne Valley\walls\wall_brick1_low_r.b3d
+.freeobj(393) Tyne Valley\signals\gantrybar.b3d
+
+.freeobj(396) Tyne Valley\signals\KEBgantry.x
+.freeobj(397) Tyne Valley\buildings\riverside1.b3d
+.freeobj(1397) Tyne Valley\buildings\riverside2.b3d
+
+.freeobj(398) Tyne Valley\tracks\NCLELEFT.B3D
+.freeobj(399) Tyne Valley\fences\woodfenceWhite1.b3d
+.freeobj(400) Tyne Valley\walls\bridge_steel3forthst_r.b3d
+.freeobj(401) Tyne Valley\walls\brickviaductrailwayst_r.b3d
+.freeobj(402) Tyne Valley\nclp6\west canopystarts.b3d
+.freeobj(403) Tyne Valley\buildings\newcastlewatertower.b3d
+
+.freeobj(404) Tyne Valley\nclp6\west canopy1.b3d
+.freeobj(405) Tyne Valley\nclp6\p6starts.b3d
+.freeobj(406) Tyne Valley\nclp6\p6part2.b3d
+.freeobj(407) Tyne Valley\nclp6\p6centre.b3d
+.freeobj(408) Tyne Valley\nclp6\p6bridge.b3d
+.freeobj(409) Tyne Valley\nclp6\p6passage.b3d
+.freeobj(410) Tyne Valley\nclp6\p6ends.b3d
+.freeobj(411) Tyne Valley\nclp6\p6east1.b3d
+
+.freeobj(414) Tyne Valley\tracks\switch_brown_overheadLL.b3d
+.freeobj(415) Tyne Valley\tracks\switch_brown_overheadRR.b3d
+
+.freeobj(418) Tyne Valley\tracksigns\65mph.b3d
+.freeobj(419) Tyne Valley\tracks\switch_brownRR.b3d
+.freeobj(420) Tyne Valley\platforms\metrorh2islandnoshelter.b3d
+.freeobj(421) Tyne Valley\platforms\metrorh2islandend.b3d
+.freeobj(422) Tyne Valley\platforms\fallingrampredfence.b3d
+.freeobj(423) Tyne Valley\buildings\Hochhaus_mod3.b3d
+.freeobj(424) Tyne Valley\platforms\metrorh2islandstart.b3d
+.freeobj(425) Tyne Valley\platforms\metrorh2island.b3d
+.freeobj(426) Tyne Valley\bridges\ROADBRfelling.B3D
+.freeobj(427) Tyne Valley\buildings\Brandling.b3d
+.freeobj(428) Tyne Valley\walls\bluewirefence._r.b3d
+.freeobj(429) Tyne Valley\walls\wall_concrete_high_r.b3d
+.freeobj(430) Tyne Valley\buildings\Heworth.b3d
+.freeobj(431) Tyne Valley\walls\wall_concrete_high_l.b3d
+.freeobj(432) Tyne Valley\walls\wall_concrete_high_away_r.b3d
+.freeobj(433) Tyne Valley\grounds\cuttingtrees_l.b3d
+.freeobj(434) Tyne Valley\plants\mytrees1r.b3d
+.freeobj(11434) Tyne Valley\plants\mytrees1l.b3d
+.freeobj(435) Tyne Valley\grounds\cuttingstartstrees_l.b3d
+.freeobj(436) Tyne Valley\grounds\cuttingintermediatetrees_l.b3d
+.freeobj(437) Tyne Valley\grounds\A1bridge1.b3d
+.freeobj(438) Tyne Valley\grounds\A1bridge2.b3d
+.freeobj(439) Tyne Valley\bridges\underbridgeconcrete.b3d
+.freeobj(440) Tyne Valley\platforms\metrolh2start.b3d
+.freeobj(441) Tyne Valley\platforms\metrorh2start.b3d
+.freeobj(442) Tyne Valley\buildings\felgatelifts.b3d
+.freeobj(443) Tyne Valley\platforms\metrolh2.b3d
+.freeobj(444) Tyne Valley\platforms\metrorh2.b3d
+.freeobj(445) Tyne Valley\platforms\metrolh2end.b3d
+.freeobj(446) Tyne Valley\platforms\metrorh2end.b3d
+.freeobj(447) Tyne Valley\walls\metrofences.b3d
+.freeobj(448) Tyne Valley\walls\woodfence2Tom_l.b3d
+.freeobj(449) Tyne Valley\bridges\greenfootbridge.b3d
+.freeobj(450) Tyne Valley\buildings\portacabinright.b3d
+.freeobj(451) Tyne Valley\grounds\ballast19m.b3d
+.freeobj(452) Tyne Valley\poles\pole_EP3span.b3d
+
+.freeobj(455) Tyne Valley\buildings\portacabinleft.b3d
+.freeobj(456) Tyne Valley\walls\metrowalls.b3d
+.freeobj(457) Tyne Valley\platforms\metrolh2nocanopy.b3d
+.freeobj(458) Tyne Valley\platforms\metrorh2nocanopy.b3d
+.freeobj(459) Tyne Valley\buildings\seaburnlifts.b3d
+.freeobj(460) Tyne Valley\bridges\metalbridgegreen.b3d
+.freeobj(461) Tyne Valley\platforms\mw1.b3d
+.freeobj(462) Tyne Valley\platforms\mw2.b3d
+.freeobj(463) Tyne Valley\platforms\mw3.b3d
+.freeobj(464) Tyne Valley\platforms\mw4.b3d
+.freeobj(465) Tyne Valley\platforms\mw5.b3d
+.freeobj(466) Tyne Valley\platforms\metrolstpeters.b3d
+.freeobj(467) Tyne Valley\walls\metrofencesstpetersend.b3d
+.freeobj(468) Tyne Valley\bridges\stoneunderbridge.b3d
+.freeobj(469) Tyne Valley\trains\Class 156 Yorks_1.b3d
+.freeobj(470) Tyne Valley\trains\Class 156 Yorks_2.b3d
+.freeobj(471) Tyne Valley\bridges\monkwearmouth.b3d
+.freeobj(472) Tyne Valley\bridges\sunderlandportal.b3d
+.freeobj(473) Tyne Valley\tracks\dark_-500_overhead.B3D
+.freeobj(474) Tyne Valley\tracks\dark-300_overhead.B3D
+.freeobj(475) Tyne Valley\tracks\dark_overhead.b3d
+.freeobj(476) Tyne Valley\tracks\switch_dark_overheadRL.b3d
+.freeobj(477) Tyne Valley\tracks\switch_dark_overheadLR.b3d
+.freeobj(478) Tyne Valley\tracks\dark_150_overhead.B3D
+.freeobj(479) Tyne Valley\tracks\dark_-150_overhead.B3D
+.freeobj(480) Tyne Valley\walls\sunderland_tunnel_wall_l.b3d
+.freeobj(481) Tyne Valley\platforms\sunderlandbldgs1.b3d
+.freeobj(482) Tyne Valley\tracksigns\20mph.b3d
+
+.freeobj(501) brsigs\awsmagnet_1.x,
+.freeobj(502) Brsigs\aws_tsr_2.x
+.freeobj(521) BrSema4Sigs\posts\tub\post_21.x
+
+.freeobj(601) Tyne Valley\walls\blaydonburn_l.b3d
+.freeobj(602) Tyne Valley\tracks\brown-1400.b3d
+.freeobj(603) Tyne Valley\tracks\brown1400.b3d
+.freeobj(604) Tyne Valley\tracks\brown-700.b3d
+.freeobj(605) Tyne Valley\tracks\brown700.b3d
+.freeobj(606) Tyne Valley\nclp6\p5starts.b3d
+.freeobj(607) Tyne Valley\tracks\brown5m.b3d
+
+.freeobj(1608) Tyne Valley\nclp6\PlatformR_300R_RU_0.csv
+.freeobj(1609) Tyne Valley\nclp6\PlatformL_300R_RU_0.csv
+.freeobj(1610) Tyne Valley\nclp6\PlatformR_300R_0.csv
+.freeobj(1611) Tyne Valley\nclp6\PlatformL_300R_0.csv
+.freeobj(1612) Tyne Valley\nclp6\PlatformR_1400R_0.csv
+.freeobj(1613) Tyne Valley\nclp6\PlatformL_1400R_0.csv
+.freeobj(1614) Tyne Valley\nclp6\PlatformR_Str_0.csv
+.freeobj(1615) Tyne Valley\nclp6\PlatformL_Str_0.csv
+.freeobj(1616) Tyne Valley\nclp6\PlatformR_Str_RD_0.csv
+.freeobj(1617) Tyne Valley\nclp6\PlatformL_Str_RD_0.csv
+
+
+.freeobj(608) Tyne Valley\nclp6\p2east.b3d
+.freeobj(609) Tyne Valley\tracksigns\40mphPSRahead.b3d
+.freeobj(610) Tyne Valley\tracksigns\30mph.b3d
+.freeobj(611) Tyne Valley\nclp6\farwall.B3D
+.freeobj(612) Tyne Valley\bridges\tynebridge.b3d
+.freeobj(613) Tyne Valley\buildings\keep.b3d
+.freeobj(614) Tyne Valley\buildings\postoffice.b3d
+.freeobj(615) Tyne Valley\grounds\ballast13mnoground.b3d
+.freeobj(616) Tyne Valley\buildings\calecrosshouse.b3d
+.freeobj(617) Tyne Valley\buildings\gatesheadblg1.b3d
+.freeobj(618) Tyne Valley\buildings\gatesheadblg2.b3d
+
+.freeobj(619) Tyne Valley\tracks\5mpatchbrown.B3D
+.freeobj(1619) Tyne Valley\tracks\1mpatchbrown.b3d
+
+.freeobj(620) Tyne Valley\buildings\blackgate.b3d
+.freeobj(621) Tyne Valley\buildings\milburnhouse.b3d
+.freeobj(622) Tyne Valley\buildings\classicoffice.b3d
+.freeobj(623) Tyne Valley\buildings\terracedshops1.b3d
+.freeobj(624) Tyne Valley\buildings\sage.b3d
+
+.freeobj(625) Tyne Valley\tracksigns\15mph.b3d
+.freeobj(655) Tyne Valley\tracksigns\55mph.b3d
+.freeobj(660) Tyne Valley\tracksigns\60mph.b3d
+.freeobj(670) Tyne Valley\tracksigns\70mph.b3d
+
+.freeobj(715) Tyne Valley\buildings\lifecentre.b3d
+.freeobj(718) Tyne Valley\buildings\buildingrear.b3d
+.freeobj(725) Tyne Valley\buildings\manorsoffices.b3d
+
+.freeobj(772) Tyne Valley\buildings\factory5.b3d
+
+;signs
+.freeobj(802) Tyne Valley\signs\donotcross.x
+.freeobj(849) Tyne Valley\signs\platform2.b3d
+.freeobj(850) Tyne Valley\signs\platform1.b3d
+.freeobj(851) Tyne Valley\signs\Prudhoe_0_ShFr.csv
+.freeobj(852) Tyne Valley\signs\Wylam_0_ShFr.csv
+.freeobj(853) Tyne Valley\signs\Blaydon_0_ShFr.csv
+.freeobj(854) Tyne Valley\signs\wylamlarge.b3d
+
+;misc
+.freeobj(900) Tyne Valley\grounds\road_basic.b3d
+.freeobj(901) Tyne Valley\grounds\roadpavements-5.b3d
+.freeobj(902) Tyne Valley\grounds\grass3.b3d
+.freeobj(903) Tyne Valley\buildings\footcrossinggates.b3d
+.freeobj(904) Tyne Valley\walls\newhedge_l.b3d
+.freeobj(905) Tyne Valley\fences\black metal fence.b3d
+.freeobj(906) Tyne Valley\misc\arrivalamppost.b3d
+
+.freeobj(911) Tyne Valley\buildings\factory_l_6.b3d
+.freeobj(912) Tyne Valley\buildings\hyltonrear.b3d
+.freeobj(913) Tyne Valley\buildings\ghdfactory.b3d
+.freeobj(914) Tyne Valley\buildings\apartmentstone.b3d
+.freeobj(915) Tyne Valley\buildings\highlevelrdbldg.b3d
+.freeobj(916) Tyne Valley\buildings\2storeyflatroofshop.b3d
+.freeobj(917) Tyne Valley\buildings\halfmoonlane.b3d
+
+.freeobj(921) Tyne Valley\walls\blaydonwall_l.b3d
+.freeobj(922) Tyne Valley\walls\blaydonwallspecial_l.b3d
+
+.freeobj(924) Tyne Valley\buildings\corbyterrace.b3d
+.freeobj(925) Tyne Valley\buildings\blaydondepot.b3d
+
+.freeobj(930) Tyne Valley\tracks\switch_brownLR_300.b3d
+.freeobj(931) Tyne Valley\tracks\switch_brownLR_-300.b3d
+
+.freeobj(941) Tyne Valley\walls\bushestrees3_l.b3d
+.freeobj(942) Tyne Valley\walls\bushestrees_for_wooden_crossing.b3d
+
+.freeobj(951) Tyne valley\bridges\blaydonviaductbridge.b3d
+.freeobj(952) Tyne valley\bridges\bridgepillar.b3d
+.freeobj(953) Tyne Valley\bridges\newroadviaduct.b3d
+.freeobj(954) Tyne Valley\bridges\newroadviaductwalls.b3d
+.freeobj(955) Tyne Valley\bridges\askewroad.b3d
+
+.freeobj(959) Tyne Valley\trains\142.b3d
+.freeobj(960) Tyne Valley\trains\142_2.b3d
+.freeobj(961) Tyne Valley\misc\cyclistF.b3d
+.freeobj(962) Tyne Valley\misc\cyclistM.b3d
+
+.freeobj(971) Tyne valley\buildings\factoryblock.b3d
+.freeobj(972) Tyne valley\buildings\stmarys_spire.b3d
+.freeobj(973) Tyne valley\buildings\belsayhall.b3d
+.freeobj(974) Tyne valley\buildings\wearmouthbridge.b3d
+
+.freeobj(1352) Tyne Valley\walls\stoneviaduct_2track_underbridge.b3d
+.freeobj(1353) Tyne Valley\walls\stoneviaduct_4track_underbridge.b3d
+.freeobj(1354) Tyne Valley\walls\stoneviaductnohandrail_l.b3d
+.freeobj(1355) Tyne Valley\walls\stoneviaductnohandrail_xtd_l.b3d
+.freeobj(1356) Tyne Valley\walls\stoneviaductnohandrail_short_l.b3d
+.freeobj(1357) Tyne Valley\walls\stoneviaductnohandrail_shorter_l.b3d
+
+.freeobj(9113) Tyne Valley\signals\theatreboxfive.x
+
+;vehicles
+.freeobj(1483) Tyne Valley\lorries\Eddie Stobart Scania Tractor.csv
+.freeobj(1484) Tyne Valley\lorries\Eddie Stobart Scania Trailer.csv
+.freeobj(1485) Tyne Valley\lorries\Eddie Stobart Parked Trailer.csv
+.freeobj(1486) Tyne Valley\lorries\NR Transit.csv
+
+;vehicles indexed for randomising
+.freeobj(1601) Tyne Valley\lorries\Arriva Volvo B6.csv
+.freeobj(1602) Tyne Valley\lorries\Bova Futura.csv
+.freeobj(1603) Tyne Valley\lorries\Nat Express.csv
+
+.freeobj(9315) Tyne Valley\fences\woodpanelleft.x
+
+;bridges
+.freeobj(9441) Tyne Valley\bridges\dunstonbridge.x
+.freeobj(9353) Tyne Valley\walls\concretebridgehandrail25m_l.b3d
+
+;25m underbridge abutments
+.freeobj(9471) Tyne Valley\bridges\25mbridgeundersidered.b3d
+.freeobj(9472) Tyne Valley\bridges\25mbridgeundersidegrey.b3d
+.freeobj(9474) Tyne Valley\bridges\25mbridgeundersideconcrete.b3d
+
+
+;6m wide standard country platforms 2009 rebuild
+.freeobj(11231) Tyne Valley\platforms\Country1_l.x
+.freeobj(11232) Tyne Valley\platforms\Country2_l.x
+.freeobj(11233) Tyne Valley\platforms\Country3_l.x
+
+.freeobj(11236) Tyne Valley\platforms\Country2OOU_l.x
+.freeobj(11237) Tyne Valley\platforms\Country3OOU_l.x
+
+.freeobj(11241) Tyne Valley\platforms\Country1_r.x
+.freeobj(11242) Tyne Valley\platforms\Country2_r.x
+.freeobj(11243) Tyne Valley\platforms\Country3_r.x
+
+.freeobj(11246) Tyne Valley\platforms\Country2OOU_r.x
+.freeobj(11247) Tyne Valley\platforms\Country3OOU_r.x
+
+.freeobj(11251) Tyne Valley\platforms\blaydon1_l.x
+.freeobj(11252) Tyne Valley\platforms\blaydon2_l.x
+.freeobj(11256) Tyne Valley\platforms\blaydon2OOU_l.x
+.freeobj(11257) Tyne Valley\platforms\blaydon3OOU_l.x
+
+.freeobj(11261) Tyne Valley\platforms\blaydon1_r.x
+.freeobj(11262) Tyne Valley\platforms\blaydon2_r.x
+.freeobj(11266) Tyne Valley\platforms\blaydon2OOU_r.x
+.freeobj(11267) Tyne Valley\platforms\blaydon3OOU_r.x
+
+
+;signal post numbers
+.freeobj(11001) Tyne Valley\signals\signal_post_T.x
+.freeobj(11002) Tyne Valley\signals\signal_post_M.x
+.freeobj(11003) Tyne Valley\signals\signal_post_A.x
+.freeobj(11004) Tyne Valley\signals\signal_post_TW.x
+.freeobj(11005) Tyne Valley\signals\signal_post_suffix_R.x
+.freeobj(11006) Tyne Valley\signals\signal_post_suffix_BR.x
+.freeobj(11011) Tyne Valley\signals\postnumber1_1.x
+.freeobj(11012) Tyne Valley\signals\postnumber1_2.x
+.freeobj(11015) Tyne Valley\signals\postnumber1_5.x
+.freeobj(11016) Tyne Valley\signals\postnumber1_6.x
+.freeobj(11020) Tyne Valley\signals\postnumber2_0.x
+.freeobj(11021) Tyne Valley\signals\postnumber2_1.x
+.freeobj(11022) Tyne Valley\signals\postnumber2_2.x
+.freeobj(11023) Tyne Valley\signals\postnumber2_3.x
+.freeobj(11024) Tyne Valley\signals\postnumber2_4.x
+.freeobj(11025) Tyne Valley\signals\postnumber2_5.x
+.freeobj(11026) Tyne Valley\signals\postnumber2_6.x
+.freeobj(11027) Tyne Valley\signals\postnumber2_7.x
+.freeobj(11028) Tyne Valley\signals\postnumber2_8.x
+.freeobj(11030) Tyne Valley\signals\postnumber3_0.x
+.freeobj(11031) Tyne Valley\signals\postnumber3_1.x
+.freeobj(11032) Tyne Valley\signals\postnumber3_2.x
+.freeobj(11033) Tyne Valley\signals\postnumber3_3.x
+.freeobj(11034) Tyne Valley\signals\postnumber3_4.x
+.freeobj(11035) Tyne Valley\signals\postnumber3_5.x
+.freeobj(11036) Tyne Valley\signals\postnumber3_6.x
+.freeobj(11037) Tyne Valley\signals\postnumber3_7.x
+.freeobj(11038) Tyne Valley\signals\postnumber3_8.x
+.freeobj(11039) Tyne Valley\signals\postnumber3_9.x
+
+
+Signal(1).Load brsigs\signal2g; brsigs\glow2g
+Signal(2).Load brsigs\signal2y; brsigs\glow2y
+Signal(3).Load brsigs\signal3; brsigs\glow3
+Signal(4).Load brsigs\signal4yg; brsigs\glow4yg
+Signal(5).Load brsigs\repeat; brsigs\glowrepeat
+Signal(6).Load brsigs\signal3featherl; brsigs\glow3featherl
+Signal(7).Load brsigs\signal3featherr; brsigs\glow3featherr
+Signal(8).Load brsigs\signal4ygfeatherl; brsigs\glow4ygfeatherl
+Signal(9).Load brsigs\signal4ygfeatherr; brsigs\glow4ygfeatherr
+Signal(10).Load brsigs\signal2callon; brsigs\glow2g
+Signal(11).Load brsigs\signal3callon; brsigs\glow3
+Signal(12).Load brsigs\signal4callon; brsigs\glow4yg
+Signal(13).Load brsigs\signal2gy; brsigs\glow2gy
+
+Signal(20).Load BrSema4Sigs\stop_arm_d; BrSema4Sigs\glownull,    ;; use the appropriate glow
+Signal(21).Load BrSema4Sigs\dist_arm_d; BrSema4Sigs\glownull,    ;;  (see above)
+Signal(22).Load BrSema4Sigs\mini_arm_d; BrSema4Sigs\glownull,
+
+Signal(31).Load Tyne Valley\signals\off;
+
+Signal(65).Load Tyne Valley\signals\theatreboxfive; Tyne Valley\signals\glow4yg
+
+Signal(52).Load Tyne Valley\signals\signal52featherr; Tyne Valley\signals\glow3
+
+.Beacon(0) \brsigs\aws_null_0.x
+.Beacon(1) brsigs\awsmagnet_1.x
+.Beacon(2) Brsigs\aws_tsr_2.x
+
+with Texture
+texture.background(0) Tyne Valley\backgrounds\epsky3.BMP
+texture.background(1) Tyne Valley\backgrounds\epsky4.BMP
+
+with Track
+
+0
+.back 0
+.adhesion 255
+.curve 0;0, .railtype 0;0
+.railstart 8;-4;0;0
+.freeobj 0;2004;-4
+.freeobj 0;2
+.freeobj 0;8;24.3309;;-1.95
+.freeobj 0;9;12.3544;;-0.7469
+.freeobj 0;8;20.3291;;-1.92
+.freeobj 0;8;16.3157;;-1.8651
+
+.limit 35
+.sta Carlisle Platform 5;12.2910;12.3000;1;1;1;;;20;27;
+.ground 0
+
+15,.Stop 0;1;1
+
+25
+.pitch 0
+.curve 500;32, .railtype 0;1, .railtype 8;1
+.freeobj 0;3;19.4888;;0.2612
+.freeobj 0;3;23.4668;;0.3356
+.freeobj 0;3;12.0402;;-0.3836
+.freeobj 0;3;15.5093;;0.1902
+.freeobj 0;4;-4
+.freeobj 0;2
+
+43
+.SigF 31;1;3.6;3.3
+.freeobj 0;9053;3.6;-3.6
+
+50
+.freeobj 0;10;19.5956;0;1.5788
+.freeobj 0;10;15.582;0;1.5906
+.freeobj 0;9;11.8519;0;0.9785
+.freeobj 0;10;23.6088;0;1.5665
+.freeobj 0;4;-4
+.freeobj 0;2
+.freeobj 0;9123, .freeobj 8;9123
+
+75
+.freeobj 0;10;16.2757;;-0.7839
+.freeobj 0;10;12.2728;;-0.738
+.freeobj 0;10;24.2934;;-0.8991
+.freeobj 0;10;20.2849;;-0.843
+.freeobj 0;4;-4
+.freeobj 0;2
+.freeobj 0;9123;;;180, .freeobj 8;9123;;;180
+
+100
+.curve 0;0, .railtype 0;0, .railtype 8;0
+.freeobj 0;3;34;;-9.2069
+.freeobj 0;3;24
+.freeobj 0;3;20
+.freeobj 0;3;12
+.freeobj 0;11;44;;-18.6629
+.freeobj 0;3;44;;-18.6629
+.freeobj 0;2
+.freeobj 0;3;16
+.freeobj 0;2004;-4
+.freeobj 0;9123, .freeobj 8;9123
+
+125
+.freeobj 0;13;24;;-4.5886
+.freeobj 0;13;20;;-4.5886
+.freeobj 0;13;16;;-4.5886
+.freeobj 0;11;36;;-13.8865
+.freeobj 0;8;36;;-13.8865
+.freeobj 0;3;30;;-9.2069
+.freeobj 0;2
+.freeobj 0;3;12
+.freeobj 0;2012;-4
+.freeobj 0;9123;;;180, .freeobj 8;9123;;;180
+
+150
+.ground 1
+.freeobj 0;53;2.5;-1,
+.freeobj 0;53;-6.5;-1,
+.freeobj 0;54;1.8;-2;0,
+.SigF 3;1;2.5;6.5, .Section 0; 2; 4,
+.freeobj 0;5;-6.5;6.5,
+.freeobj 0;3;26;0;-9.2069
+.freeobj 0;17;-4
+.freeobj 0;3;30;0;-9.2069
+.freeobj 0;3;-12
+.freeobj 0;19;-12
+.freeobj 0;11;30;0;-9.2069
+.freeobj 0;18;30
+.freeobj 0;2, .freeobj 0;2;13
+.freeobj 0;3;18;0;-9.2069
+.freeobj 0;15;22;0;-9.2069
+.freeobj 0;9123, .freeobj 8;9123
+
+165
+.freeobj 0;14;6
+
+170
+.freeobj 0;14;-8
+
+175
+.freeobj 0;3;26;;-9.2069
+.freeobj 0;3;22;;-9.2069
+.freeobj 0;20;26;;-9.2069
+.freeobj 0;22;-12
+.freeobj 0;21;-12
+.freeobj 0;3;-12
+.freeobj 0;2, .freeobj 0;2;12
+.freeobj 0;8;10;;-4.5886
+.freeobj 0;3;18;;-9.2069
+.freeobj 0;16;10;;170.7931
+.freeobj 0;9123;;;180, .freeobj 0;9123;-12;;180, .freeobj 8;9123;;;180, .freeobj 0;9123;10;;180, .freeobj 0;9123;14;;180, .freeobj 0;9123;16;;180, .freeobj 0;9123;18;;180, .freeobj 0;9123;22;;180, .freeobj 0;9123;26;;180,
+
+186
+.freeobj 0;23;8.8608;0;-3
+
+200
+.railstart 10;14.3;0;0;-9.2069
+.railstart 12;18.3;0;0;-9.2069
+.railstart 11;22.3;0;0;-9.2069
+.freeobj 0;22;-12
+.freeobj 0;24;22;;-9.2069
+.freeobj 0;26;-12
+.freeobj 0;3;-12
+.freeobj 0;25;22;;-9.2069
+.freeobj 0;15;10;;170.7931
+.freeobj 0;2;-0.4
+.freeobj 0;9123, .freeobj 0;9123;-12, .freeobj 0;9123, .freeobj 0;9123;8, .freeobj 0;9123;10, .freeobj 10;9123, .freeobj 11;9123, .freeobj 12;9123
+
+225
+.curve -157;-96, .railtype 0;2, .railtype 8;3
+.rail 10;10.2, .rail 12;14.2, .rail 11;18.2
+.freeobj 0;3;6;;-4.5886
+.freeobj 0;24;18;;-4.588
+.freeobj 0;18;18
+.freeobj 0;22;-12
+.freeobj 0;26;-12;;5
+.freeobj 0;3;-12;;4.5886
+.freeobj 8;414
+.freeobj 0;16;6;;175.3549
+.freeobj 0;2;2.3;0;-1
+.freeobj 0;9123;;;180, .freeobj 0;9123;-12;;180, .freeobj 0;9123;6;;180, .freeobj 8;9123;;;180, .freeobj 10;9123;;;180, .freeobj 11;9123;;;180, .freeobj 12;9123;;;180
+
+226
+.freeobj 10;619;0;-0.01;180
+.freeobj 12;619;0;-0.01;180
+.freeobj 11;619;0;-0.01;180
+
+250
+.curve 0;0, .railtype 0;3
+.ground 0
+.railstart 7;4;0;0
+.rail 8;-2, .rail 10;8, .rail 12;12, .rail 11;16
+.freeobj 0;3;-4
+.freeobj 0;24;16
+.freeobj 0;26;-10;;8
+.freeobj 0;22;-10
+.freeobj 0;25;16
+.freeobj 0;3;-10;0;9.2069
+.rail 15;0;0;3
+.freeobj 0;2;3.627
+.freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-10, .freeobj 7;9123, .freeobj 8;9123, .freeobj 10;9123, .freeobj 11;9123, .freeobj 12;9123
+
+251
+.freeobj 7;619;;-0.01;180
+.freeobj 10;619;;-0.01;180
+.freeobj 12;619;;-0.01;180
+.freeobj 11;619;;-0.01;180
+
+275
+.railend 8;0
+.freeobj 0;482;-0.2;-0.6
+.freeobj 0;24;16
+.freeobj 0;26;-6;;5
+.rail 2;0;0;3
+.freeobj 0;22;-8.3
+.freeobj 0;16;;;180
+.railend 15;4
+.freeobj 0;16
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-6;;180, .freeobj 7;9123;;;180, .freeobj 10;9123;;;180, .freeobj 11;9123;;;180, .freeobj 12;9123;;;180
+
+300
+.railstart 9;-4;0;0
+.railtype 0;0, .railtype 7;3
+.railend 2;4
+.freeobj 0;28;-4;-2
+.freeobj 0;25;16
+.freeobj 0;29;16
+.freeobj 0;27;16
+.freeobj 9;27;;;180
+.freeobj 0;24;16
+.freeobj 9;26
+.freeobj 9;16;;;180
+.freeobj 0;9123, .freeobj 7;9123, .freeobj 9;9123, .freeobj 10;9123, .freeobj 11;9123, .freeobj 12;9123
+
+325
+.railend 10
+.freeobj 9;26
+.freeobj 0;25;16
+.freeobj 0;24;16
+.freeobj 9;27;;;180
+.freeobj 0;27;16
+.freeobj 0;16;4;;180
+.freeobj 0;15;8
+.freeobj 0;15;4
+.freeobj 0;9123;;;180, .freeobj 7;9123;;;180, .freeobj 7;9123;4;;180, .freeobj 9;9123;;;180, .freeobj 11;9123;;;180, .freeobj 12;9123;;;180
+
+350
+.railtype 0;3
+.rail 3;0;0;3
+.freeobj 7;34
+.freeobj 9;28;;-2
+.freeobj 9;27;;;180
+.freeobj 9;26
+.freeobj 0;24;16
+.freeobj 0;25;16
+.freeobj 0;27;16
+.freeobj 0;16;8
+.freeobj 0;9123, .freeobj 0;9123;2, .freeobj 7;9123, .freeobj 7;9123;2, .freeobj 7;9123;4, .freeobj 9;9123, .freeobj 11;9123, .freeobj 12;9123
+
+375
+.railend 3;4
+.rail 4;0;0;3
+.railtype 12;3
+.freeobj 0;16;4
+.freeobj 0;24;16
+.freeobj 0;25;16
+.freeobj 9;26
+.freeobj 9;27;;;180
+.freeobj 0;27;16
+.freeobj 0;3;8
+.freeobj 0;15;;;180
+.freeobj 0;9123;;;180, .freeobj 0;9123;2;;180, .freeobj 7;9123;;;180, .freeobj 7;9123;4;;180, .freeobj 9;9123;;;180, .freeobj 11;9123;;;180, .freeobj 12;9123;;;180
+
+400
+.railend 4;4
+.rail 5;0;0;3
+.freeobj 0;28;-4;-2
+.freeobj 0;16;12
+.freeobj 9;27;;;180
+.freeobj 9;26
+.freeobj 0;3;4
+.freeobj 0;25;16
+.freeobj 0;24;16
+.freeobj 0;27;16
+.freeobj 0;16;12;;180
+.freeobj 0;15;;;180
+.freeobj 0;31
+.freeobj 0;30
+.freeobj 0;9123, .freeobj 0;9123;6, .freeobj 7;9123, .freeobj 7;9123;2, .freeobj 7;9123;4, .freeobj 9;9123, .freeobj 11;9123, .freeobj 12;9123
+
+425
+.railtype 12;0
+.railend 11
+.railtype 0;4
+.railend 9
+.railtype 7;0
+.railstart 2;8;0;0
+.railstart 4;16;0;3
+.railend 5;4
+.freeobj 0;26;-3.8372
+.freeobj 0;16;8;;180
+
+
+428.7068698,.freeobj 0;25;16.6192
+438.3186244,.freeobj 0;28;-1.4998;-2;-1
+
+450
+.railstart 1;-4;0;0
+.pole 1;0;1;50
+.rail 7;4.1;0.4
+.rail 2;8.1;0.4
+.rail 12;12.1;0.4
+.rail 4;16.1;0;0
+
+.freeobj 7;35;;;180
+.freeobj 4;35;;0.4
+.freeobj 0;36;4;;0.7496
+.freeobj 0;36;20;;0.7549
+.freeobj 0;15;-4;0;180
+
+.freeobj 0;16;16.1;;180.25
+
+.freeobj 0;32;16;;180
+.freeobj 1;26
+
+.freeobj 7;9123;;;180, .freeobj 2;9123;;;180, .freeobj 12;9123;;;180, .freeobj 4;9123;;;180
+
+456.1966558,.freeobj 0;25;17.0655
+468.1257377,.freeobj 0;28;-0.0745;-2;-1
+
+475
+.rail 7;4.5;1.1
+.rail 2;8.5;1.1
+.rail 12;12.5;1.1
+.rail 4;16.5;1.1
+.freeobj 0;36;20.346;1.2;0.7549
+.freeobj 0;36;4.3533;1.2;0.7496
+.freeobj 1;26
+
+484.5068977,.freeobj 0;25;17.2464
+
+500
+.rail 7;4.9;2.1
+.rail 2;8.9;2.1
+.rail 12;12.9;2.1
+.rail 4;16.9;2.1
+.freeobj 0;36;4.6976;2.4;0.7496
+.freeobj 0;36;20.6927;2.4;0.7549
+.freeobj 4;35
+.freeobj 7;35;;;180
+.freeobj 1;26
+.freeobj 7;9123, .freeobj 2;9123, .freeobj 12;9123, .freeobj 4;9123
+
+500.4263588,.freeobj 0;28;0.1599;-2;-1
+504.2508247,.freeobj 0;38;3.5986;4;90
+
+525
+.rail 7;5.4;3.4
+.rail 2;9.4;3.4
+.rail 12;13.4;3.4
+.rail 4;17.4;3.4
+.freeobj 0;36;21.0395;3.6;0.7549
+.freeobj 0;36;5.0419;3.6;0.7496
+.freeobj 1;26
+
+526.7883446,.freeobj 0;38;3.7223;4;90
+549.3425344,.freeobj 0;39;-0.2716
+
+550
+.wall 0;1;11
+.railend 7;6;4.8
+.railend 2;10;4.8
+.railend 12;14;4.8
+.railend 4;18;4.8
+.pole 1;0;1;25
+.freeobj 1;42
+.curve -1000;-11
+.railtype 0;5, .railtype 1;17
+
+575
+.pitch -5.75
+.wall 1;-1;5
+.freeobj 0;52;2.4;-0.5;180
+
+650
+.curve -500;-46
+.railtype 0;6, .railtype 1;16
+
+725
+.curve -300;-46
+.freeobj 0;40
+.railtype 0;7, .railtype 1;18
+
+775
+.pitch -8.34
+
+975
+.freeobj 0;52;2.4;-0.5;180
+
+1000
+.wallend 0
+.curve -500;-46
+.railtype 0;6, .railtype 1;16
+.railstart 7;5.04;0;4
+.railstart 8;9.04;0;4
+.wall 8;1;47
+
+1015,.Brightness 255
+1020,.Brightness 99
+
+1025
+.Brightness 255
+.wallend 1
+.rail 7;4, .rail 8;8
+.freeobj 0;49;-4
+.freeobj 0;48;-4
+.curve -1000;-11
+.railtype 0;5, .railtype 1;17
+.wall 8;1;50
+
+1030
+.Beacon 44000;1;1;0,
+.freeobj 0;501;4.1
+
+1047.588661,.freeobj 0;18;8.225;0;20
+
+1050
+.freeobj 0;49;-4
+.railtype 0;4, .railtype 1;0
+.curve 0;0
+
+1071,.freeobj 0;51;-4
+1072.788661,.freeobj 0;18;7.625
+
+1075
+.railtype 1;61
+.railtype 7;8
+.freeobj 0;49;-4
+.railstart 9;4;-0.1;61
+.wall 8;1;47
+
+1076
+.freeobj 0;5;2;7.7;-4.5886
+.freeobj 0;53;2;0;-4.5886
+.freeobj 0;54;4;-1;0
+.SigF 3;1;-2;7.7, .Section 0;2;4
+.freeobj 0;53;-2
+
+1100
+.pitch 0
+.rail 7;2;0;3
+.poleend 1
+.freeobj 0;47;8;0;-4.5886
+.freeobj 0;45;8;0;-4.5886
+.freeobj 0;49;-4
+.rail 6;0;0;3    ;id=0
+.ground 0
+.railtype 0;3
+.railend 8, .wallend 8
+
+1125
+.freeobj 0;46;6;0;-4.5886
+.freeobj 0;49;-4;0;5
+.rail 7;0
+.freeobj 0;46;14;0;-4.5886
+.freeobj 0;47;6;0;-4.5886
+.freeobj 0;57;0;0;4.59
+.freeobj 0;30;0;0;184.56
+.railend 6;4
+.curve -157;-96
+
+1150
+.rail 1;-2;-0.1
+.freeobj 0;47;12;0;-4.5886
+.freeobj 0;46;12;0;-4.5886
+.freeobj 0;49;-2;0;5
+.curve 157;96
+.railend 7;4
+.railtype 0;9
+.rail 9;7
+
+1175
+.railend 1
+.limit 82
+.freeobj 0;46;4
+.freeobj 0;46;10;0;-9.2069
+.freeobj 0;47;10;0;-9.2069
+.railtype 0;4
+.curve 0;0
+.freeobj 0;30;4;0;180.0268
+.ground 2
+.railend 9
+
+1185,.freeobj 0;272;4.4;0;180
+
+1200
+.ground 3
+.freeobj 0;58;5
+
+1210
+.freeobj 0;97;-0.6
+
+1222,.Brightness 255
+
+1225
+.railstart 1;4;0;4
+.Brightness 111
+.freeobj 0;59
+.freeobj 1;30;;;180
+.ground 0
+
+1226,.freeobj 0;60
+1227,.Brightness 255
+
+1250
+.pitch 2.45
+.freeobj 1;52;2.1;-0.5;180
+.wall 0;-1;6
+
+1275
+.pitch 4.91
+.Beacon 44000;1;1;0
+
+1300
+.pitch 7.36
+
+1365,.freeobj 0;501;4
+
+1450
+.pitch 4.91
+.SigF 3; 1;-2.25;4.5;0, .Section 0;2;4,
+.freeobj 0;52;-2.25;-0.5
+
+1475
+.pitch 2.45
+.freeobj 0;97;4.3;0;180
+
+1500
+.pitch 0
+.railtype 1;3
+.freeobj 1;30
+.railstart 7;-4;0;24
+.wallend 0
+.ground 5
+
+1525
+.railtype 1;4
+.wall 0;-1;64
+.freeobj 0;63
+.rail 8;0;0;3    ;id=0
+.ground 0
+.railtype 0;3
+
+1550
+.freeobj 0;63;0;0;5
+.railtype 1;3
+.freeobj 1;62
+.rail 9;0;0;3    ;id=0
+.ground 6
+.freeobj 0;30;0;0;180
+.railend 8;4
+.freeobj 0;62
+
+1575
+.railend 9;4
+.freeobj 0;46;6;0;9.2069
+.ground 0
+.railtype 0;4
+.freeobj 1;1032
+
+1576.044286,.freeobj 0;63;2.3814;0;9
+
+1600
+.railtype 1;4
+.freeobj 1;46;2;0;9.25
+.freeobj 0;46;10.05;0;9.3
+.railtype 0;3
+.freeobj 0;1030
+.rail 10;0;0;3    ;id=0
+.railstart 3;9;-0.1;61
+
+1600.472856,.freeobj 0;63;6.3814;0;9
+1624.329999,.freeobj 0;63;10.2386;0;9
+
+1625
+.railtype 0;4, .railtype 7;3
+.limit 100
+.freeobj 0;46;10.1;0;9.2069
+.freeobj 0;46;14.1;0;9.2069
+.railend 10;4
+
+1648.329999,.freeobj 0;63;14.2386;0;9
+
+1650
+.railend 3
+.railstart 2;0;0;3
+.wall 2;1;0
+.railtype 7;24
+.freeobj 0;111;-0.3
+.freeobj 0;46;14.15;0;9.2069
+.freeobj 0;46;18.15;0;9.2069
+.ground 0
+.freeobj 0;1031;-4;0;180
+
+1672.472855,.freeobj 0;63;18.2386;0;9
+
+1675
+.pitch 1.6
+.freeobj 0;46;18.2;0;9.2069
+.freeobj 0;46;22.2;0;9.2069
+
+1694.966665,.freeobj 0;63;22.47
+
+1700
+.pitch 3.3
+.freeobj 0;52;6.3;-0.5;180
+.freeobj 0;46;26.25;0;9.2069
+.freeobj 0;46;22.25;0;9.2069
+
+1717.299998,.freeobj 0;63;22.47
+
+1725
+.freeobj 0;46;26;0;9.2069
+
+1740.299998,.freeobj 0;63;22.47
+
+2321,.freeobj 7;51
+
+2325
+.railend 7
+
+2340,.Brightness 255
+2347,.Brightness 111
+
+2350
+.railend 2, .wallend 2
+.wallend 0
+.dike 0;-1;1, .dike 1;1;1
+.freeobj 0;68
+.ground 7
+
+2355,.Brightness 255
+2361,.Brightness 255
+2367,.Brightness 111
+2372,.Brightness 255
+
+2375
+.freeobj 0;69
+.ground 8
+
+2400
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+
+2600,.Beacon 44000;1;1;0
+
+2625
+.dike 0;-1;2, .dike 1;1;2
+.ground 7
+
+2650
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+2800
+.SigF 1; 1;-2.4;4.24;0, .Section 0;4,
+.freeobj 0;52;-2.4;-0.5;0
+
+2875
+.pitch 5.24
+
+3000
+.freeobj 0;501;4
+
+3350
+.back 1
+.Brightness 255
+
+3360,.Brightness 111
+
+3375
+.dikeend 0, .dikeend 1
+.freeobj 0;74
+.ground 0
+.freeobj 0;1483;-12;8;90
+.freeobj 0;1484;-12;8;90
+
+3380,.Brightness 111
+3395,.Brightness 255
+
+3400
+.wall 0;-1;13
+.freeobj 0;75
+
+3425
+.freeobj 0;75
+
+3475,.freeobj 0;52;6.3;-0.5;180
+
+3675
+.freeobj 0;501;4
+
+3750
+.curve 1400;11, .railtype 0;32, .railtype 1;32
+
+3800
+.curve 1000;22, .railtype 0;11, .railtype 1;11
+
+4025
+.curve 1400;11, .railtype 0;32, .railtype 1;32
+
+4075
+.wallend 0
+.dike 0;-1;2, .dike 1;1;2
+.railstart 2;0;0;3, .wall 2;-1;13
+.curve 0;0, .railtype 0;4, .railtype 1;4
+
+4100
+.ground 7
+.rail 2;0;-2.5
+
+4125
+.rail 2;0;-5
+
+4150
+.rail 2;0;-7.5
+
+4175
+.dikeend 0, .dikeend 1
+.railend 2;0;-10, .wallend 2
+.freeobj 0;21
+.freeobj 1;20
+
+4200
+.dike 0;-1;2, .dike 1;1;2
+
+4600
+.pitch 7.75
+
+5100
+.railstart 2;0;-5;3, .wall 2;-1;10
+
+5125
+.rail 2;0;-1.6
+
+5150
+.rail 2;0;-3.3
+
+5175
+.dikeend 0, .dikeend 1
+.railend 2;0;0
+.ground 10
+
+5200
+.freeobj 0;106;-0.5
+
+5375
+.ground 0
+.railstart 2;0;0;3
+.dike 0;-1;2, .dike 1;1;2
+.freeobj 0;903
+
+5400
+.rail 2;0;-1.6
+
+5425
+.rail 2;0;-3.3
+
+5450
+.railend 2;0;-9, .wallend 2
+.ground 7
+
+5550
+.freeobj 1;106;0.5;-0.5;180
+
+5625
+.Beacon 44000;1;1;0
+
+5800
+.SigF 13; 1;-2.5;4.25;0, .Section 2;2;4
+.freeobj 0;52;-2.5;-0.5
+
+5875
+.freeobj 0;52;6.3;-0.5;180
+
+5950
+.pitch 2
+.curve 1400;11, .railtype 0;32, .railtype 1;32
+
+5975
+.dikeend 0
+.freeobj 0;81
+.ground 10
+
+6000
+.railtype 0;11, .railtype 1;11
+.curve 1000;21
+
+6025
+.freeobj 0;501;4
+
+6050
+.railtype 0;34, .railtype 1;34
+.curve 700;44
+
+6125
+.railtype 0;11, .railtype 1;11
+.curve 1000;21
+
+6175
+.curve 1400;11, .railtype 0;32, .railtype 1;32
+
+6225
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+6350
+.pitch 0
+
+6525
+.Beacon 44000;1;1;0,
+
+6690,.freeobj 0;83;-0.7
+
+6700
+.freeobj 0;111;4.5;0;180
+.SigF 3; 1;-2.5;4.5;0, .Section 0;2;4,
+.freeobj 0;52;-2.5;-0.5;0
+
+6705,.brightness 255
+
+6710
+.freeobj 0;59
+.brightness 123
+
+6712,.brightness 255
+
+6725
+.freeobj 0;56
+.limit 65
+.railtype 0;33 , .railtype 1;33
+.curve -700;-13
+
+6750
+.ground 0
+.curve -500;-13
+.railtype 0;6, .railtype 1;6
+.sta Wetheral;12.3630;12.3700;1;-1;0;;;25;37;
+.freeobj 0;84
+
+6775
+.freeobj 0;86
+
+6800
+.freeobj 0;87
+.freeobj 0;86
+
+6825
+.freeobj 0;88
+
+6850
+.freeobj 0;88
+
+6875
+.freeobj 0;89
+
+6887,.freeobj 0;90;-0.5
+
+6900
+.freeobj 0;91
+
+6914
+.freeobj 0;93
+.freeobj 0;0
+.Stop 0;39;3
+
+6925
+.freeobj 0;92
+
+6950
+.freeobj 0;94
+
+6975
+.freeobj 0;94
+.curve 0;0
+.railtype 0;4 , .railtype 1;4
+
+7000
+.freeobj 0;94
+
+7025
+.freeobj 0;94
+
+7050
+.freeobj 0;94
+
+7075
+.freeobj 0;94
+
+7100
+.freeobj 0;94
+
+7125
+.freeobj 0;94
+
+7150
+.freeobj 0;97;-0.4
+.freeobj 0;96
+.freeobj 0;83;4;0;-180
+.limit 80
+.freeobj 0;95
+
+7175
+.freeobj 0;99;18;0;-270
+.freeobj 0;98
+.curve -500;-13
+.railtype 0;6, .railtype 1;6
+
+7200
+.freeobj 0;99;18;0;-270
+.freeobj 0;98
+
+7225
+.freeobj 0;99;18;0;-270
+.freeobj 0;98
+
+7250
+.pitch 3.51
+.freeobj 0;99;18;0;-270
+.freeobj 0;98
+
+7275
+.freeobj 0;99;18;0;-270
+.freeobj 0;98
+
+7300
+.freeobj 0;99;18;0;-270
+.freeobj 0;98
+
+7325
+.freeobj 0;99;18;0;-270
+.freeobj 0;98
+
+7350
+.freeobj 0;100
+
+7375
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.ground 11
+
+7388.466669,.freeobj 0;65;31.7717;0;-91
+7392.044985,.freeobj 0;102;-27.9944;0;89
+7393.5,.freeobj 0;101
+
+7400
+.railtype 1;3
+.pitch 0
+.freeobj 0;102
+.freeobj 0;65
+.freeobj 1;30
+.limit 105
+.ground 0
+
+7425
+.accuracy 4
+.rail 2;0;0;3 ;id=0
+.railtype 1;4
+.freeobj 0;102
+.freeobj 0;65
+.limit 80
+.railtype 0;3
+
+7450
+.accuracy 2
+.railend 2;4
+.railtype 0;4,
+.freeobj 0;105
+
+.freeobj 0;30;0;0;180
+.freeobj 1;103;0;0;180
+.freeobj 0;104;25.5472;-10;0
+
+7460.47692,.freeobj 0;104;-18.7004;-10
+7474.198787,.freeobj 0;104;25.3632;-10
+
+7475
+.freeobj 0;105
+
+7484.720349,.freeobj 0;104;-18.8845;-10
+
+7500
+.freeobj 0;105
+
+7500.447336,.freeobj 0;104;25.4801;-10
+7509.80383,.freeobj 0;104;-19.4965;-10
+7524.457694,.freeobj 0;104;-19.2915;-10
+7524.58776,.freeobj 0;104;25.6131;-10
+
+7525
+.freeobj 0;105
+
+7549.121149,.freeobj 0;104;-19.6896;-10;0
+7549.671239,.freeobj 0;104;25.001;-10;0
+
+7550
+.freeobj 0;105
+
+7575
+.curve 1400;6
+.railtype 0;32 , .railtype 1;32
+.pitch 3.51
+.dike 0;-1;1, .dike 1;1;1
+.ground 7
+
+7600
+.pitch 5.46
+
+7625
+.pitch 7.403
+.curve 1000;12
+.railtype 0;11 , .railtype 1;11
+
+7650
+.pitch 9.35
+.SigF 20;1;-2.6;6.5, .Section 0; 4,
+.freeobj 0;521;-2.6
+
+7700
+.freeobj 0;106;-0.3
+
+7725
+.curve 700;22
+.railtype 0;34, .railtype 1;34
+
+7950
+.curve 1000;12
+.railtype 0;11, .railtype 1;11
+
+7990,.freeobj 0;97;3.9671;0;-180
+
+8000
+.curve 1400;6
+.railtype 0;32 , .railtype 1;32
+.freeobj 0;107
+.freeobj 0;103;3.9671;0;-180
+.freeobj 0;80
+
+8125
+.dikeend 0, .dikeend 1
+.ground 12
+
+8150
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.freeobj 0;106;4.5;0;180
+
+8250
+.dike 0;-1;1, .dike 1;1;1
+
+8275
+.wall 0;-1;3
+.ground 7
+
+8525
+.wallend 0, .dikeend 0, .dikeend 1
+.ground 12
+
+8690
+.freeobj 0;111;-1.2;-0.3
+.announce ..\object\Tyne Valley\sounds\xing.wav
+
+8700
+.limit 105
+.ground 0
+
+8718
+.freeobj 0;109
+.freeobj 0;110
+
+8720
+.freeobj 0;65;0.2
+.freeobj 0;102;-0.2
+
+8725
+.curve -1400;-11, .railtype 0;31, .railtype 1;31
+.wall 0;0;0
+
+8800
+.freeobj 0;52;6.3;-0.5;180
+
+8825
+.curve -1000;-22, .railtype 0;5, .railtype 1;5
+
+8925
+.wallend 0
+.dike 0;-1;1, .dike 1;1;1
+.ground 7
+
+8975
+.freeobj 0;501;4
+
+9000
+.curve -700;-46, .railtype 0;33, .railtype 1;33
+
+9100
+.curve -1000;-22
+.railtype 0;5, .railtype 1;5
+
+9175
+.curve -1000;-22
+.railtype 0;5, .railtype 1;5
+
+9200
+.dikeend 0, .dikeend 1
+.curve -1400;-11
+.railtype 0;31, .railtype 1;31
+.ground 12
+
+9325
+.curve 0;0, .railtype 0;4, .railtype 1;4
+
+9450
+.railstart 2;0;-5;3, .wall 2;-1;17
+
+9475
+.rail 2;0;-2.5
+
+9500
+.ground 13
+.railend 2;0;0, .wallend 2
+
+9715,.Brightness 255
+9720,.Brightness 111
+9724,.freeobj 0;59
+
+9725
+.Brightness 255
+.ground 0
+.wall 0;-1;14
+
+10000
+.wallend 0
+.ground 15
+
+10025
+.ground 12
+
+10475
+.curve -1400;-11
+.railtype 0;31, .railtype 1;31
+
+10525
+.railtype 0;5, .railtype 1;5
+.curve -1000;-22
+
+10900
+.dike 0;-1;1, .dike 1;1;1
+
+10925
+.freeobj 0;108
+.ground 7
+
+11125
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+
+11175
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+.freeobj 0;108
+
+11400
+.freeobj 0;113;-0.6
+.limit 90
+
+11468.41148,.freeobj 0;104;-20.763;-11;-1
+
+11500
+.curve 1425;11, .railtype 0;32, .railtype 1;32
+.dikeend 0, .dikeend 1
+.ground 16
+
+11575
+.curve 1375;15
+
+11700
+.curve 1000;22, .railtype 0;11, .railtype 1;11
+
+11775,.announce ..\object\Tyne Valley\sounds\xing.wav
+
+11800,.ground 0
+
+11818
+.freeobj 0;110
+.freeobj 0;109;-0.1;0;-0.3
+
+11825
+.freeobj 0;81
+.ground 0
+.wall 0;-1;15
+
+11850
+.curve 700;25, .railtype 0;34, .railtype 1;34
+
+12450
+.railtype 0;11, .railtype 1;11
+.curve 1400;12
+
+12500
+.curve 0;0
+.railtype 0;44, .railtype 1;4
+
+12525
+.freeobj 1;76
+
+12548
+.freeobj 1;77
+
+12550
+.railtype 0;4
+
+12675
+.railtype 0;31, .railtype 1;31
+.curve -1400;12
+
+12700
+.railtype 0;33, .railtype 1;33
+.curve -700;22
+
+12900
+.railtype 0;31, .railtype 1;31
+.curve -1400;-8
+
+12915,.Brightness 255
+12920,.Brightness 123
+12924,.freeobj 0;59
+
+12925
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+.wall 0;-1;16
+
+12926,.Brightness 255
+13840,.freeobj 0;97;-0.4
+13840,.Brightness 255
+13845,.Brightness 123
+
+13850
+.wall 0;-1;13
+.Brightness 255
+.freeobj 0;59
+.limit 85
+.freeobj 0;97;4.5;0;180
+
+13875
+.railtype 0;33, .railtype 1;33
+.curve -700;-13
+
+13900
+.pitch 7.39
+
+13925
+.pitch 5.39
+
+13950
+.pitch 3.39
+
+14125
+.wallend 0
+.ground 18
+
+14150
+.pitch 5.85
+.freeobj 0;105
+.freeobj 0;114
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.ground 0
+
+14175
+.freeobj 0;114
+.freeobj 0;105
+
+14200
+.freeobj 0;114
+.freeobj 0;105
+
+14225
+.freeobj 0;114
+.freeobj 0;105
+
+14250
+.curve -700;-13
+.railtype 0;33, .railtype 1;33
+.freeobj 0;81
+.wall 0;-1;15
+
+14700
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+14950
+.pitch 1.664
+
+14965,.Brightness 255
+14970,.Brightness 123
+
+14975
+.Brightness 255
+.freeobj 0;59
+
+15275
+.Beacon 44000;1;1;0
+
+15375
+.wallend 0
+.ground 18
+
+15400
+.dike 0;-1;1, .dike 1;1;1
+.ground 0
+.wall 0;-1;114
+
+15450
+.SigF 21;1;-2.3;6.5;0
+.freeobj 0;521;-2.3
+
+15475
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+15525
+.curve 1000;22
+.railtype 0;11, .railtype 1;11
+
+15575
+.curve 700;21
+.railtype 0;34, .railtype 1;34
+
+15775
+.curve 1000;22
+.railtype 0;11, .railtype 1;11
+
+15825
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+15850
+.ground 7
+
+15875
+.curve 0;0
+.wallend 0
+.railtype 0;4, .railtype 1;4
+
+16375
+.railtype 1;3
+.freeobj 1;30
+.SigF 20;1;-2.3;6.5, .section 0;4, .freeobj 0;521;-2.3
+
+16400
+.railtype 0;3, .railtype 1;4
+.railstart 2;2;0;3 ;point sound trigger
+.dikeend 0, .dikeend 1
+.freeobj 0;116
+
+16425
+.railtype 0;4
+.railend 2;0
+.freeobj 0;115
+.freeobj 0;30;;;180
+.ground 0
+
+16450
+.pitch 3.7
+.wall 0;-1;15
+
+16455,.freeobj 0;81
+
+16475
+.pitch 5.77
+
+16500
+.pitch 7.82
+
+16600,.freeobj 0;52;6.3;-0.5;180
+
+16750,.freeobj 1;501
+16765,.Brightness 255
+16772,.Brightness 123
+
+16775,.freeobj 0;59
+16776,.Brightness 255
+
+16800
+.curve 1400;22, .railtype 0;32, .railtype 1;32
+
+16825
+.curve 1000;27, .railtype 0;11, .railtype 1;11
+
+16850
+.curve 700;37, .railtype 0;34, .railtype 1;34
+
+16875
+.curve 500;47, .railtype 0;12, .railtype 1;12
+
+16975
+.curve 700;37, .railtype 0;34, .railtype 1;34
+
+17000
+.curve 1000;27, .railtype 0;11, .railtype 1;11
+
+17025
+.curve 1400;22, .railtype 0;32, .railtype 1;32
+
+17050
+.curve 0;0, .railtype 0;4, .railtype 1;4
+
+17100
+.wall 0;0;0
+.ground 18
+
+17125
+.ground 0
+
+17525
+.Beacon 44000;1;1;0
+
+17550
+.sta Brampton;12.4630;12.4700;1;-1;0;;;25;40;
+.wallend 0
+.freeobj 0;118
+.freeobj 0;65;2
+.freeobj 0;117
+.freeobj 0;322;-5.9;-3;-90
+
+17575
+.freeobj 0;121
+.freeobj 0;122
+.freeobj 0;120
+.freeobj 0;119
+
+17600
+.freeobj 0;122
+.freeobj 0;121
+.freeobj 0;120
+.freeobj 0;119
+
+17625
+.freeobj 0;121
+.freeobj 0;124
+.freeobj 0;119
+.freeobj 0;120
+
+17631,.freeobj 0;123
+
+17650
+.freeobj 0;119
+.freeobj 0;121
+.freeobj 0;122
+.freeobj 0;120
+
+17665
+.Stop 0;65;16
+.freeobj 0;0;-1.7
+
+17675
+.freeobj 0;121
+.freeobj 0;127
+.freeobj 0;122
+.freeobj 0;126
+.freeobj 0;125
+
+17700
+.freeobj 0;128
+.wall 0;1;0
+
+17725
+.freeobj 0;129
+.SigF 21;1;-2.3;6.5, .freeobj 0;521;-2.3
+
+17750
+.wall 0;0;0
+.curve -500;-34
+.railtype 0;6, .railtype 1;6
+
+17850
+.wall 0;-1;13
+.freeobj 0;52;6.3;-0.5;180
+.freeobj 0;81
+
+18000,.freeobj 1;501
+
+18050,.Brightness 255
+18070,.Brightness 123
+
+18075
+.wallend 0
+.wall 1;1;12, .dike 0;-1;1
+.freeobj 0;131
+.ground 19
+
+18080,.Brightness 255
+
+18100
+.curve -700;-22
+.railtype 0;33, .railtype 1;33
+
+18125
+.curve 700;21
+.railtype 0;34, .railtype 1;34
+
+18425
+.curve 500;32
+.railtype 0;12, .railtype 1;12
+
+18475
+.SigF 20; 1;-2.4;4.7;0, .Section 0;4, .freeobj 0;521;-2.5;-1.7
+.curve 700;21
+.railtype 0;34, .railtype 1;34
+
+18500
+.wallend 1, .dikeend 0
+.freeobj 0;132
+.ground 20
+
+18525
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+.ground 11
+
+18525,.freeobj 0;133
+18545,.freeobj 0;101
+
+18550
+.freeobj 0;134
+.ground 21
+.freeobj 0;341;4.5
+
+18575
+.ground 0
+.wall 0;-1;22
+
+18650
+.freeobj 0;52;6.3;-0.5;180
+
+18725
+.curve -1400;13, .railtype 0;31, .railtype 1;31
+
+18800
+.freeobj 1;501
+
+18850
+.railtype 0;33, .railtype 1;33
+.curve -700;23
+
+19125
+.curve -1400;13, .railtype 0;31, .railtype 1;31
+
+19250
+.wall 0;-1;13
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+.freeobj 0;81
+
+19275
+.pitch 1.29
+
+19600
+.pitch -0.631
+
+19875
+.wallend 0
+.ground 18
+
+19900
+.announce ..\object\Tyne Valley\sounds\xing.wav
+.ground 11
+
+19919
+.freeobj 0;109
+.freeobj 0;110
+
+19922
+.freeobj 0;58;7
+.freeobj 1;137;0;-0.01
+
+19925
+.ground 0
+.wall 1;1;136
+.dike 1;1;139
+.freeobj 1;137
+.freeobj 0;135
+
+19950
+.wall 0;-1;136
+.dike 0;-1;139
+.curve 1400;11, .railtype 0;32, .railtype 1;32
+
+19975
+.curve 1000;32, .railtype 0;11, .railtype 1;11
+
+20000
+.curve 700;21, .railtype 0;34, .railtype 1;34
+
+20025
+.curve 500;32, .railtype 0;12, .railtype 1;12
+
+20050
+.freeobj 0;52;6.3;-0.5;180
+
+20150
+.curve 700;21, .railtype 0;34, .railtype 1;34
+
+20200
+.freeobj 1;501
+
+20250
+.pitch 0.95
+
+20325
+.wallend 1
+.ground 23
+.curve 1400;11,.railtype 0;32, .railtype 1;32
+
+20350
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+20375
+.dikeend 0, .dikeend 1
+
+20390, .Brightness 255
+20395, .Brightness 123
+
+20400
+.freeobj 0;140
+.wallend 0
+
+20405, .Brightness 255
+
+20525
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+.ground 24
+
+20550
+.pitch -1.63
+.railtype 0;33, .railtype 1;33
+.curve -700;-22
+
+20675,.curve -500;-34
+.railtype 0;6, .railtype 1;6
+
+20700,
+.railtype 0;33, .railtype 1;33
+.curve -700;-22
+
+20750
+.pitch 1.17
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+
+20775
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+21100
+.pitch 0
+
+21400
+.freeobj 0;38
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+.ground 25
+
+21425
+.Beacon 44000;1;1;0,
+.freeobj 0;106;-0.4;-0.3
+.railtype 0;34, .railtype 1;34
+.curve 700;21
+
+21450
+.railtype 0;12, .railtype 1;12
+.curve 500;43
+
+21525
+.pitch -0.35
+
+21550
+.railtype 0;34, .railtype 1;34
+.curve 700;21
+
+21575
+.freeobj 0;38
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+.ground 26
+
+21600
+.freeobj 0;80
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+21625
+.SigF 21;1;-2.3;6.5;0, .freeobj 0;521;-2.3
+
+21650
+.freeobj 0;97;4;;180
+
+21750
+.freeobj 1;106;;;180
+
+22175
+.curve -1400;-11, .railtype 0;31, .railtype 1;31
+
+22200
+.curve -1000;21, .railtype 0;5, .railtype 1;5
+
+22225
+.limit 100
+
+22250
+.freeobj 0;111;-1
+.railtype 0;33, .railtype 1;33
+.curve -700;21
+
+22275
+.curve -1000;21, .railtype 0;5, .railtype 1;5
+
+22325
+.curve -1400;-11, .railtype 0;31, .railtype 1;31
+
+22350
+.pitch 0.9141
+.curve 0;0, .railtype 0;4, .railtype 1;4
+
+22400
+.SigF 20;1;-2.3;6.5, .section 0;4,
+.freeobj 0;521;-2.3
+
+22425
+.freeobj 0;141
+.ground 0
+
+22450
+.freeobj 0;143
+.freeobj 0;142
+
+22475
+.railtype 1;3
+.wall 0;1;0
+.freeobj 0;30;4
+.freeobj 0;142
+
+22500
+.freeobj 0;142
+.railtype 0;3, .railtype 1;4
+;point sound trigger
+.railstart 15;2;0;3
+
+22525
+.accuracy 4
+.freeobj 0;142
+.freeobj 0;30;;;180
+.railtype 0;4
+.railend 15;0
+
+22550
+.accuracy 2
+.freeobj 0;142
+
+22575
+.freeobj 0;144
+
+22600
+.wall 0;0;0
+.freeobj 0;145;5;;180
+
+22625
+.curve -1400;-11
+.railtype 0;31, .railtype 1;31
+
+22650
+.SigF 20;1;-2.4;6.5, .section 0;4, .freeobj 0;521;-2.4
+
+22950
+.pitch -1.59
+
+23200
+.wallend 0
+.dike 0;-1;2, .dike 1;1;2
+.ground 7
+.curve 0;0, .railtype 0;4, .railtype 1;4
+
+23350
+.pitch 1
+
+23575
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+.dikeend 0, .dikeend 1
+.ground 23
+
+23625
+.railtype 0;34, .railtype 1;34
+.curve 700;21
+
+23700,
+.SigF 20;1;-2.4;6.5, .section 0;4, .freeobj 0;521;-2.4
+
+23725
+.pitch -0.313
+.railtype 0;32, .railtype 1;34
+.curve 1400;11
+
+23775
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+.ground 0
+
+23800
+.freeobj 0;111;4.3;-0.2;180
+.freeobj 0;146
+.ground 24
+
+23825
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+
+23850
+.railtype 0;34, .railtype 1;34
+.curve 700;21
+
+24050
+.pitch 0
+
+24100
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+
+24150
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+24450
+.pitch -0.75
+
+24575
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+
+24625
+.railtype 0;33, .railtype 1;33
+.curve -700;-22
+
+24675
+.pitch 0.62
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+
+24775
+.railtype 0;33, .railtype 1;33
+.curve -700;-22
+
+24925
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+
+25000
+.freeobj 0;97;-0.7
+.limit 85
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+
+25100
+.Beacon 44000;1;1;0,
+.railtype 0;34, .railtype 1;34
+.curve 700;21
+
+25175
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+
+25225
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+25250
+.SigF 21;1;-2.4;6.5, .freeobj 0;521;-2.4
+
+25275
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+
+25325
+.pitch -0.94
+.railtype 0;34, .railtype 1;34
+.curve 700;21
+
+25350
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+
+25425
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+25475
+.railtype 0;5, .railtype 1;5
+.curve -1000;-15
+
+25550
+.railtype 0;33, .railtype 1;33
+.curve -700;-22
+
+25625
+.railtype 0;5, .railtype 1;5
+.curve -1000;-15
+
+25700
+.railtype 0;33, .railtype 1;33
+.curve -700;-22
+
+25725
+.pitch 1.565
+.railtype 0;5, .railtype 1;5
+.curve -1000;-15
+
+25750
+.freeobj 0;81
+.freeobj 0;147
+.ground 0
+.wall 0;-1;13
+
+25775
+.railtype 0;33, .railtype 1;33
+.curve -700;-22
+
+25825
+.railtype 0;5, .railtype 1;5
+.curve -1000;-15
+
+25875
+.pitch -1.3643
+.railtype 0;11, .railtype 1;11
+.curve 1000;21
+
+26150
+.wallend 0
+.ground 18
+
+26175
+.announce ..\object\Tyne Valley\sounds\xing.wav
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+.ground 11
+
+26200
+.freeobj 0;109
+.freeobj 0;149
+.wall 0;-1;18
+
+26225
+.pitch 0.583431
+
+26450
+.wallend 0
+.SigF 20;1;-2.4;6.5;0, .section 0;4, .freeobj 0;521;-2.4
+.ground 0
+
+26466,.freeobj 1;151;0.01
+
+26475
+.freeobj 1;151
+.freeobj 0;150
+
+26500
+.freeobj 1;103;;;180
+.ground 25
+
+26550
+.pitch -0.43
+
+26875
+.dike 0;-1;2, .dike 1;1;2
+.ground 7
+
+27050
+.pitch 0
+
+27300
+.freeobj 0;152
+
+27325
+.dikeend 0, .dikeend 1
+.announce ..\object\Tyne Valley\sounds\xing.wav
+.ground 0
+
+27350
+.dike 0;-1;2, .dike 1;1;2
+.limit 100
+.freeobj 0;109
+.freeobj 0;110
+.ground 7
+
+27375
+.freeobj 0;111;-0.9;-0.2;0
+.freeobj 1;103;;;180
+
+27800
+.freeobj 1;97;0.3;;180
+
+27875
+.wall 0;0;153
+.dikeend 0, .dikeend 1
+.freeobj 0;106
+.ground 0
+
+27975
+.pitch -1.212
+
+28025
+.freeobj 0;903
+
+28050
+.ground 24
+
+28175
+.pitch 0
+
+28225
+.ground 0
+.curve -1400;-11, .railtype 0;31, .railtype 1;31
+.freeobj 1;106;0.5;-0.5;180
+
+28325
+.curve -700;44, .railtype 0;33, .railtype 1;33
+
+28375
+.wallend 0
+.dike 0;-1;2, .dike 1;1;2
+.ground 7
+.curve -1400;-11
+.railtype 0;31, .railtype 1;31
+
+28400
+.curve 0;0, .railtype 0;4, .railtype 1;4
+
+28650
+.freeobj 0;97;4.2;-0.3;180
+
+28675
+.dikeend 0, .dikeend 1, .ground 0
+
+28700
+.freeobj 0;155
+
+28725
+.freeobj 0;108;0.2
+.freeobj 0;157
+.freeobj 0;156
+.ground 7
+
+28750
+.pitch 1.01
+.dike 0;-1;2, .dike 1;1;2
+.freeobj 0;157
+.freeobj 0;158
+
+28775
+.freeobj 0;157
+.freeobj 0;158
+.ground 7
+
+28800
+.freeobj 0;157
+.freeobj 0;158
+
+29050
+.railstart 2;0;-10;3, .wall 2;-1;13
+
+29075
+.rail 2;0;-8
+
+29100
+.rail 2;0;-6
+
+29125
+.rail 2;0;-4
+
+29150
+.ground 27
+.rail 2;0;-2
+
+29175
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+.railend 2;0;0, .wallend 2
+.dikeend 0, .dikeend 1
+.ground 9
+
+29275
+.pitch -1.3
+.railtype 0;34, .railtype 1;34
+.curve 700;21
+
+29425
+.pitch -2.53
+
+29450
+.pitch -3.76
+
+29475
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+
+29575
+.curve 0;0, .railtype 0;4, .railtype 1;4
+
+29600
+.railtype 0;34, .railtype 1;34
+.curve 700;21
+
+29625
+.ground 0
+.railstart 2;0;0;3, .wall 2;-1;13
+.wall 0;0;153
+
+29650
+.railtype 0;34, .railtype 1;34
+.curve 700;21
+.rail 2;0;-2
+
+29675
+.rail 2;0;-4
+
+29700
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+.rail 2;0;-6
+
+29725
+.rail 2;0;-8
+
+29750
+.railend 2;0;-10, .wallend 2
+
+29775
+.freeobj 0;106;-1;-0.4;0
+
+30000
+.freeobj 0;80
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+30200
+.freeobj 0;106;4;0;180
+
+30450
+.wallend 0
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+.ground 24
+
+30500
+.pitch -3.922
+.railtype 0;34, .railtype 1;34
+.curve 700;21
+
+30575
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+
+30625
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+30725
+.freeobj 0;106;-1;-0.4;0
+
+30925
+.ground 11
+.announce ..\object\Tyne Valley\sounds\xing.wav
+
+30949
+.freeobj 0;149
+.freeobj 0;109
+
+30950,.ground 24
+
+31050
+.freeobj 0;106;4.3;-0.3;180
+
+31150
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+
+31175
+.pitch -5.03
+
+31225
+.pitch -6.135
+.railtype 0;34, .railtype 1;34
+.curve 700;21
+
+31325
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+
+31400
+.wall 0;0;0
+.ground 0
+
+31425
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+31650
+.wall 0;1;0
+
+31725
+.pitch -4.93
+
+31750
+.pitch -3.72
+
+31775
+.wallend 0
+
+31800,.freeobj 0;160
+
+31825
+.freeobj 0;161
+.Brightness 255
+
+31850
+.Brightness 175
+
+31871,.Brightness 88
+
+31875
+.freeobj 0;102;-0.2;0
+.freeobj 0;162
+
+31882,.Brightness 255
+
+31900
+.limit 89
+.freeobj 0;113;-0.7;-0.3;-5
+.freeobj 0;111;4.4;0;180
+.freeobj 0;102;-0.1
+.freeobj 0;163
+
+31925
+.wall 0;0;0
+.freeobj 0;164
+
+31950,.freeobj 0;164
+
+31975,.freeobj 0;164
+
+32000,.freeobj 0;164
+
+32025
+.curve -1400;-11
+.railtype 0;31, .railtype 1;31
+
+32050
+.curve -700;-34
+.railtype 0;33, .railtype 1;33
+
+32425
+.curve -1400;-11
+.railtype 0;31, .railtype 1;31
+
+32450
+.pitch -3.22
+.wallend 0
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.wall 0;-1;0
+.dike 0;-1;0
+
+32485
+.freeobj 0;1483;15;-0.5;0, .freeobj 0;1484;15;-0.5;0
+
+32500
+.limit 110
+.freeobj 0;190;-0.7;-0.2;-3
+.freeobj 0;113;4.2;-0.2;180
+
+32600
+.freeobj 0;160$RND(2;3);15;-0.5;0
+
+33925
+.freeobj 0;106;-0.4
+
+34100
+.freeobj 0;80
+.wallend 0
+.freeobj 0;166
+
+34125, .wall 0;-1;0
+
+34150
+.curve -1400;-11, .railtype 0;31, .railtype 1;31
+
+34275
+.curve -700;-22, .railtype 0;33, .railtype 1;33
+.freeobj 1;106;;;180
+
+34300
+.curve -1400;-11, .railtype 0;31, .railtype 1;31
+
+34375
+.curve -700;-22, .railtype 0;33, .railtype 1;33
+
+34400
+.freeobj 0;165
+.curve -1400;-11, .railtype 0;31, .railtype 1;31
+.freeobj 0;160$RND(1;3);15;-0.5;0
+
+34450
+.curve -700;-22, .railtype 0;33, .railtype 1;33
+
+34475
+.curve -1400;-11, .railtype 0;31, .railtype 1;31
+
+34500
+.curve -700;-22,.railtype 0;33, .railtype 1;33
+
+34550
+.curve -1400;-11, .railtype 0;31, .railtype 1;31
+.freeobj 0;160$RND(2;3);15;-0.5;0
+
+34575
+.curve -700;-22
+34575,.railtype 0;33, .railtype 1;33
+
+34600
+.curve -1400;-11, .railtype 0;31, .railtype 1;31
+
+34700
+.curve 0;0, .railtype 0;4, .railtype 1;4
+.freeobj 0;160$RND(2;3);12;-0.5;180
+
+34725
+.curve -1400;-11, .railtype 0;31, .railtype 1;31
+
+35100
+.curve 0;0, .railtype 0;4, .railtype 1;4
+.pitch -2
+
+35125
+.pitch -1
+
+35175
+.pitch 0
+
+35275
+.freeobj 0;1483;12;-0.5;180, .freeobj 0;1484;12;-0.5;180
+.Beacon 44000;1;1;0
+
+35300,.freeobj 0;108
+
+35325
+.freeobj 0;160$RND(2;3);15;-0.5;0
+
+35450
+.SigF 13; 1;-2.5;4.25;0, .section 2;2;4
+.freeobj 0;55;-2.5;-0.5
+
+35550
+.pitch -1.1
+
+35600
+.pitch -2.36
+
+35750
+.ground 23
+.dikeend 0, .wallend 0
+
+35775
+.freeobj 0;52;6.3;-0.5;180
+
+36075
+.pitch -3.82
+
+36190, .Brightness 255
+36197, .Brightness 111
+
+36200
+.freeobj 0;59
+.ground 25
+
+36202, .Brightness 255
+
+36400
+.Beacon 44000;1;1;0
+
+36675
+.SigF 3; 1;-2.5;4.5, .Section 0;2;4
+.freeobj 0;52;-2.5;-0.5
+.ground 23
+
+36700
+.railtype 1;3
+.freeobj 1;30
+
+36725
+.accuracy 4
+.railtype 0;3, .railtype 1;4
+.railstart 2;2;0;3 ;points sound and siding
+
+36740, .Brightness 255
+36748, .Brightness 111
+
+36750
+.ground 6
+.rail 2;0
+.freeobj 0;30
+.freeobj 0;167;0;-1.5
+.freeobj 0;30;;;180
+.freeobj 2;168
+
+36751
+.freeobj 0;65;;;0.1
+
+36753
+.Brightness 255
+
+36775
+.accuracy 2
+.rail 2;-2;0;4
+.railtype 0;4
+.freeobj 0;65
+.freeobj 2;168
+
+36800
+.rail 2;-6
+.freeobj 0;65
+.freeobj 2;168
+
+36825
+.rail 2;-10
+.freeobj 0;65
+.freeobj 2;168
+
+36850
+.rail 2;-14
+.freeobj 0;169;4
+.freeobj 0;169
+.freeobj 0;65;8
+.freeobj 0;190;4;;180
+.freeobj 2;168
+
+36873
+.freeobj 0;52;7.3;1;180
+
+36874
+.freeobj 2;51
+
+36875
+.freeobj 2;168
+.railend 2;-18
+.freeobj 0;65;8
+.freeobj 0;120;4
+.freeobj 0;120
+
+36900
+.freeobj 0;65;8
+.freeobj 0;168;-36.4886;-0.5
+.freeobj 0;120;4
+.ground 0
+.freeobj 0;120
+
+36925
+.freeobj 0;65;8
+.freeobj 0;168;-53.5362;-1
+.freeobj 0;120;4
+.freeobj 0;171;4;0;-180
+.freeobj 0;172
+
+36950
+.ground 28
+.sta Haltwhistle;13.0015;13.0100;1;-1;0;;;30;50;
+.freeobj 0;173
+.freeobj 0;65;5
+.freeobj 0;117
+.freeobj 0;168;-53.7369;-1;-0.5744
+
+36955,.freeobj 0;174
+
+36963.5,.freeobj 0;65;0.1
+
+36975
+.wall 0;1;0
+.freeobj 0;175
+.ground 0
+.freeobj 0;119
+
+37000
+.freeobj 0;119
+.freeobj 0;175
+
+37015
+.freeobj 0;0;-1.4
+.Stop 0;15;10
+
+37025
+.freeobj 0;177
+.freeobj 0;176
+
+37050
+.freeobj 0;102
+.ground 19
+
+37075
+.dike 0;-1;1
+
+37350
+.dikeend 0
+.wallend 0
+.freeobj 0;179;;-0.3
+.freeobj 0;178
+
+37374
+.freeobj 0;323;-7;-9;-22
+
+37375
+.dike 0;-1;1
+.wall 0;1;0
+
+37425
+.Beacon 44001;1;1;0
+
+37500
+.freeobj 0;180;-0.7;-0.3
+
+37775
+.freeobj 0;52;6.3;-0.5;180
+
+37850
+.wallend 0
+
+37900
+.Beacon 44000;1;1;0
+
+37950
+.freeobj 0;181
+
+38050
+.SigF 3; 1;-2.8;4.4;0, .Section 0;2;4,
+.freeobj 0;52;-2.8;-0.6
+
+38075
+.curve 1400;11, .railtype 0;32, .railtype 1;32
+.freeobj 0;182
+
+38100,.ground 29
+
+38150
+.curve 0;0, .railtype 0;4, .railtype 1;4
+
+38400
+.freeobj 0;183
+
+.freeobj 0;184;-1;;-0.7
+
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+38425
+.freeobj 0;183
+
+38450
+.freeobj 0;183
+.railtype 0;34, .railtype 1;34
+.curve 700;21
+
+38475
+.freeobj 0;183
+
+38500
+.pitch -3.0121
+.freeobj 0;183
+
+38525
+.freeobj 0;183
+.curve 700;11
+.railtype 0;34, .railtype 1;34
+
+38550
+.freeobj 0;183
+
+38575
+.freeobj 0;183
+
+38600
+.freeobj 0;185
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+38625
+.curve 0;0, .railtype 0;4, .railtype 1;4
+.freeobj 0;185
+
+38650,.freeobj 0;185
+38675,.freeobj 0;185
+38700,.freeobj 0;185
+38725,.freeobj 0;185
+38750,.freeobj 0;185
+38775,.freeobj 0;185
+38800,.freeobj 0;185
+38825,.freeobj 0;185
+38850,.freeobj 0;185
+38875,.freeobj 0;185
+38900,.freeobj 0;185
+
+38925,
+.freeobj 0;52;6.3;-0.5;180
+.freeobj 0;185
+
+38950,
+.freeobj 0;188;-1;-0.2;0
+.freeobj 0;113;4.4;-0.2;180
+.freeobj 0;185
+
+38965,.Brightness 255
+38970,.Brightness 77
+
+38975
+.dikeend 0, .dikeend 1
+.freeobj 0;185
+.freeobj 0;187
+.freeobj 0;186
+.limit 50
+.back 0
+
+39000
+.freeobj 0;185
+.freeobj 0;186
+
+39025
+.freeobj 0;185
+.freeobj 0;186
+
+39050
+.freeobj 0;185
+.wall 0;-1;4
+
+39075
+.freeobj 0;185
+
+39100,.freeobj 0;185
+
+39125,.freeobj 0;185
+
+39166,.Brightness 77
+39173,.Brightness 255
+
+39175
+.wall 0;-1;13
+
+39325
+.pitch -4.26
+.Beacon 44000;1;1;0
+
+39350
+.wall 0;-1;12
+.railtype 1;3
+.freeobj 0;188;4.3;-0.2;180
+.freeobj 0;190;-0.8
+.freeobj 1;62
+.limit 105
+.ground 28
+.railstart 4;1;-0.01;3, .wall 4;1;0
+
+39375
+.railstart 2;6;0;7
+.railtype 1;4
+.rail 4;4
+
+39400
+.rail 2;8.1;0;5
+.rail 4;8
+
+39425
+.rail 2;9;0;4
+.rail 4;12
+.freeobj 1;52;2.5;0;180
+.freeobj 2;52;2.5;0;180
+
+39450
+.rail 4;15
+.railtype 2;31
+.SigF 3; 1;-2.6;4.4;0, .Section 0;2;4,
+.freeobj 0;52;-2.6;-0.5;0
+
+39475
+.freeobj 0;70;3.9999;0;0.0013
+.freeobj 0;106;-0.4
+.curve -1400;-11
+.railtype 0;31, .railtype 1;31
+
+39500
+.freeobj 0;70;3.9991;0;0.0017
+
+39525
+.curve -1000;22
+.railtype 0;5, .railtype 1;5
+.railtype 2;5
+
+39700
+.curve -700;-22
+.railtype 0;33, .railtype 1;33
+
+39750
+.curve -1000;22
+.railtype 0;5, .railtype 1;5
+.railtype 2;3, .freeobj 2;62;0;0;-4.55
+
+39775
+.rail 2;11;0;7
+.railstart 3;9;0;5
+
+39800
+.rail 2;14;0;6
+
+39824
+.freeobj 3;51
+
+39825
+.railend 3
+.wall 0;-1;153
+.railstart 7;0;0;3, .wall 7;-1;12
+.rail 2;15;0;31
+
+39850
+.rail 7;0;-3
+
+39875
+.rail 7;0;-6
+.curve -1400;-11
+.railtype 0;31, .railtype 1;31
+
+39900
+.railend 7;0;-10, .wallend 7
+.freeobj 0;80
+.railtype 2;8
+
+39925
+.rail 2;13;0;4
+
+39950
+.rail 2;9.5;0;13
+
+39975
+.rail 2;8;0;5
+.curve -1000;22
+.railtype 0;5, .railtype 1;5
+
+40075
+.rail 4;12
+.curve -1400;15, .railtype 0;31, .railtype 1;31; .railtype 2;31
+
+40100
+.freeobj 0;106;4.5;0;180
+.curve 0;0, .railtype 0;4
+.railtype 1;4, .railtype 2;4
+
+40125
+.rail 4;10
+.freeobj 2;6;2.2;4.9
+.freeobj 2;52;2.4
+
+40150
+.rail 4;6
+.railtype 2;8
+
+40175
+.rail 4;3
+.railtype 1;3
+.railend 2;6
+.freeobj 0;154
+
+40200
+.rail 4;2
+.freeobj 1;30
+.freeobj 1;30;0;0;180
+
+40225
+.railend 4;1, .wallend 4
+.railtype 1;4
+.railstart 15;2;0;3 ;points sound trigger
+.freeobj 0;154
+.dike 0;-1;1
+.wall 0;1;0
+.railtype 0;3
+
+40250
+.railend 15;0
+.freeobj 0;30;;;180
+.railtype 0;4
+.freeobj 0;52;6;-0.4;180
+.ground 19
+
+40425
+.freeobj 0;179;0;-0.3
+.freeobj 0;178
+.dikeend 0
+
+40449
+.freeobj 0;323;-7;-9;-22
+
+40450
+.dike 0;-1;1
+.freeobj 0;66
+
+40500
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+40700
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+40725
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+40875
+.wallend 0
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+.ground 30
+
+40900
+.dikeend 0
+
+40975,.ground 31
+
+41000
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+41100
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+41125
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+41250
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+41275
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+.ground 30
+
+41300
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+41375
+.wall 0;1;0
+.freeobj 0;189
+.ground 0
+.curve -1400;-11
+.railtype 0;31 , .railtype 1;31
+
+41400
+.freeobj 0;189
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+41425
+.pitch -2.882
+.curve -1400;-11, .railtype 0;31 , .railtype 1;31
+.freeobj 0;189
+
+41450
+.curve 0;0, .railtype 0;4, .railtype 1;4
+.freeobj 0;189
+
+41475,.freeobj 0;189
+
+41500
+.freeobj 0;189
+.curve -1400;-11
+.railtype 0;31 , .railtype 1;31
+
+41525
+.freeobj 0;189
+.curve -700;-22
+.railtype 0;33, .railtype 1;33
+
+41550,.freeobj 0;189
+
+41575
+.freeobj 0;189
+.curve -1400;-11
+.railtype 0;31 , .railtype 1;31
+
+41600,.freeobj 0;189
+41625,.freeobj 0;189
+
+41650
+.freeobj 0;179
+.freeobj 0;178
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+41675
+.freeobj 0;189
+.curve -700;-22
+.railtype 0;33, .railtype 1;33
+
+41700,.freeobj 0;189
+41725,.freeobj 0;189
+
+41750
+.curve -1400;-11
+.railtype 0;31 , .railtype 1;31
+.freeobj 0;189
+
+41775,.freeobj 0;189
+
+41800
+.freeobj 0;189
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+41825
+.wallend 0
+.freeobj 0;178
+.freeobj 0;179
+.ground 19
+
+41850,.ground 32
+
+42025
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+42050
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+42125,.freeobj 0;178
+42125,.freeobj 0;179
+42125,.ground 19
+
+42150
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+.ground 32
+
+42175
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+42400
+.freeobj 0;179
+.freeobj 0;178
+.ground 19
+
+42425,.ground 32
+
+42450
+.curve -1400;-11
+.railtype 0;31 , .railtype 1;31
+
+42500
+.Beacon 44000;1;1;0,
+
+42575
+.curve -700;-22
+.railtype 0;33, .railtype 1;33
+
+42600
+.curve -1400;-11
+.railtype 0;31 , .railtype 1;31
+
+42650
+.SigF 1; 1;-2.45;4.45;0, .Section 0;4,
+.freeobj 0;52;-2.4;-0.3
+
+42700
+.curve -700;-22
+.railtype 0;33, .railtype 1;33
+
+42725
+.curve -1400;-11
+.railtype 0;31 , .railtype 1;31
+
+42825
+.freeobj 0;52;6.3;-0.5;180
+.freeobj 0;106;-0.5
+.ground 23
+
+42850
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+42975
+.freeobj 1;501
+
+43075
+.freeobj 0;80
+.ground 19
+.dike 0;-1;1, .wall 0;1;153
+
+43150
+.Beacon 44000;1;1;0
+
+43250
+.SigF 1; 1;-2.6;4.25;0, .Section 0;4,
+.freeobj 0;52;-2.6;-0.5;0
+
+43275
+.dikeend 0
+.freeobj 0;191
+.ground 33
+
+43500
+.limit 96
+.freeobj 0;111;-0.7;-0.2
+
+43550
+.wallend 0
+.freeobj 0;178
+.ground 31
+
+43575,.ground 30
+
+43775
+.pitch -3.72
+
+43875
+.railtype 0;32, .railtype 1;32
+.curve 1400;16
+.ground 34
+
+43925
+.wall 0;1;0
+
+43950
+.railtype 0;34, .railtype 1;34
+.curve 700;26
+
+44300
+.wall 0;0;0
+.freeobj 0;193
+.ground 0
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+
+44325,.freeobj 0;193
+44350,.freeobj 0;193
+
+44450
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+44475
+.wallend 0
+.SigF 20;1;-2.4;6.5, .section 0;4, .freeobj 0;521;-2.4
+.freeobj 0;102
+.freeobj 0;194
+
+44500
+.railtype 1;3
+.wall 0;0;0
+.freeobj 0;133
+.freeobj 1;1030
+
+44525
+.railtype 0;3, .railtype 1;4
+.rail 2;2;0;3
+
+44550
+.railtype 0;4, .railend 2;0
+.freeobj 0;1030;;;180
+
+44670,.freeobj 0;106;-0.38;0;-20
+
+44682,.freeobj 0;197
+
+44700
+.sta Bardon Mill;13.0830;13.0900;1;-1;0;;;20;55;
+.wallend 0
+
+44702
+.freeobj 0;195
+.freeobj 0;117
+.freeobj 0;196
+
+44725
+.freeobj 0;119
+.freeobj 0;199
+.freeobj 0;200
+.freeobj 0;198
+
+44750
+.freeobj 0;201
+.freeobj 0;119
+.freeobj 0;202
+
+44775
+.freeobj 0;198
+.freeobj 0;200
+.freeobj 0;119
+
+44790
+.freeobj 0;0;-1.7
+.Stop 0;40;30
+
+44800
+.freeobj 0;126
+.freeobj 0;204
+.freeobj 0;203
+
+44825
+.freeobj 0;65
+.freeobj 0;205
+
+44850
+.freeobj 0;65
+.freeobj 0;205
+
+44875
+.freeobj 0;65
+.freeobj 0;205
+
+44900
+.wall 0;0;0
+
+44925
+.limit 106
+.freeobj 0;190;4.4;0;180
+.freeobj 0;206;-0.3
+.SigF 20;1;-0.3;7, .section 0;4
+
+44950
+.wallend 0
+.freeobj 0;80
+.ground 11
+
+44961,.freeobj 0;207
+
+44965,.freeobj 0;190;-0.2
+
+44967,.freeobj 0;208;-2
+
+44975,.ground 25
+
+45100
+.pitch -2.09
+
+45721,.freeobj 0;52;6;-0.2;180
+
+45725,.freeobj 0;111;4;;180
+
+45575,.ground 31
+
+45900,.freeobj 0;501;4
+
+45975
+.freeobj 0;209
+.ground 0
+
+46000
+.pitch -1
+.freeobj 0;209
+
+46025,.freeobj 0;209
+46050,.freeobj 0;209
+46075,.freeobj 0;209
+46100,.freeobj 0;209
+46125,.freeobj 0;209
+46150,.freeobj 0;209
+
+46175
+.dike 0;-1;1, .dike 1;1;1
+.freeobj 0;210
+.ground 7
+
+46255,.freeobj 0;211
+
+46375,.freeobj 0;65;0;-2
+
+46400,.freeobj 0;65;0;-1.4
+
+46425,.freeobj 0;65;0;-0.7
+
+46450
+.dikeend 0, .dikeend 1
+.freeobj 0;211
+.freeobj 0;156
+.freeobj 0;108
+
+46475
+.freeobj 0;65
+.railstart 2;0;0;3, .wall 2;-1;153
+
+46500
+.wall 0;1;0
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+
+46550
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+46950
+.ground 0
+.railend 2, .wallend 2
+.wallend 0
+.freeobj 0;209
+
+46975,.freeobj 0;209
+
+47000
+.pitch -2.29
+.wall 0;1;0
+.freeobj 0;212
+.railstart 2;0;0;3, .wall 2;-1;153
+.freeobj 1;58;4;0;12, .freeobj 1;58;11;-1.4;22, .freeobj 1;58;18;-1.4;25
+
+47025
+.pitch -3.58
+
+47050
+.pitch -4.87
+
+47075
+.pitch -6.135
+
+47125
+.curve 1400;15
+.railtype 0;32, .railtype 1;32
+
+47175
+.wallend 0
+.railend 2, .wallend 2
+.ground 23
+
+47200
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+47400
+.pitch -4.902 
+
+47440,.brightness 255
+47448,.brightness 111
+
+47450
+.freeobj 0;59
+
+47453,.brightness 255
+47725,.ground 16
+
+48050
+.freeobj 0;209
+.ground 0
+
+48075,.freeobj 0;209
+
+48100
+.dike 0;-1;1, .dike 1;1;1
+.freeobj 0;212
+.ground 7
+
+48525
+.dikeend 0, .dikeend 1
+.freeobj 0;209
+.ground 35
+
+48550,.ground 32
+
+48575
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+
+48675
+.railtype 0;33, .railtype 1;33
+.curve -700;-22
+
+48800
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+
+48975
+.pitch -3.774
+
+49000
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+49025
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+
+49225
+.beacon 44000;1;1;0,
+.freeobj 0;106;-0.3;-0.2;0
+
+49300
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+49325
+.ground 0
+.freeobj 0;80
+.freeobj 0;213
+
+49350
+.ground 30
+
+49400
+.curve 700;21
+.railtype 0;34, .railtype 1;34
+.SigF 13;1;-2.32;4.45, .section 2;2;4
+.freeobj 0;52;-2.3;-0.3
+
+49425
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+
+49500
+.railtype 0;34, .railtype 1;34
+.curve 700;21
+.freeobj 0;106;5;-0.2;180
+
+49525
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+
+49550
+.railtype 0;34, .railtype 1;34
+.curve 700;21
+
+49600
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+
+49650
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+49700
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+
+49750
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+49775
+.railtype 0;32, .railtype 1;32
+.curve 1400;11
+
+49825
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+50074,.freeobj 0;191;35
+
+50075
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+.wall 0;-1;12
+.railstart 2;1;-5;3, .wall 2;1;12
+;.ground 9
+.ground 0
+
+50100
+.railtype 0;33, .railtype 1;33
+.curve -700;-22
+.rail 2;2;-3.75
+
+50125
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+.rail 2;3;-2.5
+
+50150
+.railtype 0;33, .railtype 1;33
+.curve -700;-22
+.rail 2;4;-1.25
+
+50175
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+.railend 2;4;0, .wallend 2, .wallend 0
+.ground 9
+
+50200
+.railtype 0;33, .railtype 1;33
+.curve -700;-22
+
+50225
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+
+50250
+.railtype 0;33, .railtype 1;33
+.curve -700;-22
+
+50262.81899,.freeobj 0;69;1.2501;0;-35
+
+50300
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+
+50325
+.railtype 0;33, .railtype 1;33
+.curve -700;-22
+
+50425
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+
+50450
+.railtype 0;33, .railtype 1;33
+.curve -700;-22
+
+50475
+.ground 23
+.railtype 0;31, .railtype 1;31
+.curve -1400;-11
+
+50500
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+50550,.freeobj 0;103;4;0;-180
+
+50700,.ground 36
+
+50725,.freeobj 0;99;20;0;-270
+50750,.freeobj 0;99;20;0;-270
+50775,.freeobj 0;99;20;0;-270
+50800,.freeobj 0;99;20;0;-270
+50825,.freeobj 0;99;20;0;-270
+50850,.freeobj 0;99;20;0;-270
+50875,.freeobj 0;99;20;0;-270
+50900,.freeobj 0;99;20;0;-270
+50925,.freeobj 0;99;20;0;-270
+50950,.freeobj 0;99;20;0;-270
+
+50975,.freeobj 0;99;20;0;-270
+
+51005
+.freeobj 0;99;20;0;-270
+.SigF 20;1;-2.4;6.5;0, .section 0;4, .freeobj 0;521;-2.4
+
+51025
+.railtype 1;3
+.freeobj 0;30;4
+.freeobj 0;99;20;0;-270
+
+51050
+.railtype 1;4
+.rail 3;0;0;3    ;id=0
+.freeobj 0;99;20;;-270
+.freeobj 0;214
+.ground 0
+.railtype 0;3
+
+51075
+.railend 3;4
+.freeobj 0;30;;;180
+.railtype 0;4,
+
+51097.5,.freeobj 0;103;4;0;-180
+
+51100
+.sta Haydon Bridge;13.1330;13.1400;1;-1;0;;;25;60;
+.freeobj 0;216
+.freeobj 0;217
+.freeobj 0;215
+.freeobj 0;117
+
+51117
+.freeobj 0;218;2.5;;-180
+
+51125
+.freeobj 0;219
+.freeobj 0;217
+.freeobj 0;120
+.freeobj 0;119
+
+51150
+.freeobj 0;122
+.freeobj 0;220
+.freeobj 0;120
+.freeobj 0;119
+
+51175
+.pitch -2.28
+.freeobj 0;122
+.freeobj 0;217
+.freeobj 0;120
+.freeobj 0;119
+
+51200
+.freeobj 0;120
+.freeobj 0;119
+.freeobj 0;122
+.freeobj 0;217
+
+51215
+.freeobj 0;0;-1
+.Stop 0;65;30
+
+51225
+.freeobj 0;122
+.freeobj 0;217
+.freeobj 0;172
+.freeobj 0;126
+
+51250
+.ground 29
+.railtype 1;3
+.freeobj 0;221
+.freeobj 1;62
+
+51275
+.railtype 1;4
+.railstart 3;6;0;8
+.freeobj 0;221
+
+51300
+.curve 1000;22
+.railtype 0;11, .railtype 1;11
+.rail 3;8;0;11
+.freeobj 0;221
+.freeobj 1;103;;;180
+
+51325
+.curve 720;44
+.railtype 0;34, .railtype 1;34, .railtype 3;34
+.freeobj 0;221
+
+51350
+.curve 1000;22
+.railtype 0;11, .railtype 1;11, .railtype 3;11
+.freeobj 0;221
+
+51375
+.curve 0;0
+.railtype 0;4, .railtype 1;4, .railtype 3;4
+.freeobj 0;221
+
+51400,.freeobj 0;221
+
+51425,.freeobj 0;221
+
+51450
+.freeobj 0;221
+
+51471, .freeobj 0;51;7.9
+
+51475
+.freeobj 0;221
+.railend 3
+
+51500,.freeobj 0;221
+51525,.freeobj 0;221
+51550,.freeobj 0;221
+51575,.freeobj 0;221
+51600,.freeobj 0;221
+51625,.freeobj 0;221
+51650,.freeobj 0;221
+51675,.freeobj 0;221
+51700,.freeobj 0;221
+51725,.freeobj 0;221
+
+51750
+.freeobj 0;221
+.SigF 20;1;-3;6.5, .section 0;4, .freeobj 0;521;-3
+
+51775
+.freeobj 0;222
+
+51800
+.ground 23
+.railtype 0;44
+
+51825
+.freeobj 1;76
+
+51848
+.freeobj 1;77
+
+51850
+.railtype 0;4
+
+52600
+.railtype 0;33, .railtype 1;33
+.curve -700;22
+.ground 12
+
+52650
+.freeobj 1;52;2.5;-0.4;180
+
+52775
+.railtype 0;31, .railtype 1;33
+.curve -1400;11
+
+52800
+.railtype 0;33, .railtype 1;33
+.curve -700;22
+
+52850
+.railtype 0;31, .railtype 1;33
+.curve -1400;-1
+.freeobj 1;501
+
+52875
+.railtype 0;33, .railtype 1;33
+.curve -700;22
+
+52900
+.railtype 0;31, .railtype 1;33
+.curve -1400;1
+
+52925
+.railtype 0;33, .railtype 1;33
+.curve -700;22
+
+53050
+.railtype 0;31, .railtype 1;33
+.curve -1400;1
+
+53075
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+53100
+.railtype 0;31, .railtype 1;33
+.curve -1400;-1
+
+53125
+.ground 29
+.freeobj 0;223
+.freeobj 0;434;-5;;-90, .freeobj 0;434;-25;;-90
+
+53150
+.wall 0;-1;1
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+53875
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+53925
+.curve 700;21
+.railtype 0;34, .railtype 1;34
+
+53950
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+54025
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+54075
+.curve 700;21, .railtype 0;34, .railtype 1;34
+
+54125
+.curve 1400;11, .railtype 0;32, .railtype 1;32
+
+54150
+.curve 700;21, .railtype 0;34, .railtype 1;34
+
+54175
+.curve 1400;11, .railtype 0;32, .railtype 1;32
+
+54200
+.curve 0;0, .railtype 0;4, .railtype 1;4
+
+54275
+.curve -1400;-11, .railtype 0;31, .railtype 1;31
+
+54300
+.curve -700;-34, .railtype 0;33, .railtype 1;33
+
+54400
+.curve -1400;-11, .railtype 0;31, .railtype 1;31
+
+54425
+.curve -700;-34, .railtype 0;33, .railtype 1;33
+
+54450,
+.curve -1400;-11
+.railtype 0;31, .railtype 1;31
+
+54475
+.curve 0;0, .railtype 0;4, .railtype 1;4
+
+54600
+.pitch -3.843
+
+54650
+.pitch -5.41
+
+54800
+.pitch -3.12
+
+54900
+.curve -700;-34
+.railtype 0;33, .railtype 1;33
+
+54900
+.curve -1400;-11
+.railtype 0;31, .railtype 1;31
+
+54975
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+55000
+.curve 700;21
+.railtype 0;34, .railtype 1;34
+
+55325
+.curve 500;43
+.railtype 0;12, .railtype 1;12
+
+55350
+.railtype 0;34, .railtype 1;34
+.curve 700;21
+.ground 31
+.wallend 0
+
+55450
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+55475
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+56400
+.freeobj 0;106;-0.4
+
+56575
+.freeobj 0;80
+
+56750
+.freeobj 1;106;;;180
+
+56975
+.curve 700;21, .railtype 0;34, .railtype 1;34
+.freeobj 0;157
+.ground 29
+
+57000
+.freeobj 0;157
+.curve 500;43, .railtype 0;12, .railtype 1;12
+
+57025,.freeobj 0;157
+57050,.freeobj 0;157
+57075,.freeobj 0;157
+57100,.freeobj 0;157
+57125,.freeobj 0;157
+57150,.freeobj 0;157
+57175,.freeobj 0;157
+57200,.freeobj 0;157
+
+57250
+.curve 700;21
+.railtype 0;34, .railtype 1;34
+.ground 12
+
+57275
+.railtype 0;4, .railtype 1;4
+.curve 0;0
+
+58050
+.pitch 0.76
+.curve 700;21, .railtype 0;34, .railtype 1;34
+.ground 16
+
+58075
+.curve 500;43
+.railtype 0;12, .railtype 1;12
+
+58175
+.freeobj 0;106;-0.4
+
+58275
+.pitch -1.585
+
+58325
+.curve 700;21
+.railtype 0;34, .railtype 1;34
+
+58350
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.freeobj 0;80
+
+58375
+.curve 700;21
+.railtype 0;34, .railtype 1;34
+
+58375
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+58525
+.freeobj 1;106;;;180
+
+58675
+.limit 96
+.freeobj 0;111;-0.7
+.freeobj 0;190;4.6;0;180
+
+58775,.announce ..\object\Tyne Valley\sounds\xing.wav
+
+58800,.ground 0
+
+58819
+.freeobj 0;101
+.freeobj 0;110
+
+58820
+.freeobj 0;225;0;-0.1;0
+
+58825
+.wall 0;-1;1
+.ground 16
+
+58850
+.curve -1000;22
+.railtype 0;5, .railtype 1;5
+
+59000
+.curve -700;-22
+.railtype 0;33, .railtype 1;33
+
+59450,.freeobj 0;106;-0.3
+
+59600
+.freeobj 0;80;0;0;1
+.ground 0
+.pitch 0
+
+59613
+.freeobj 0;225
+.freeobj 0;223
+
+59625
+.ground 16
+
+59700
+.limit 90
+.freeobj 0;113;-1;-0.2
+.freeobj 0;111;5;-0.2;180
+
+59725
+.curve -1000;22
+.railtype 0;5, .railtype 1;5
+
+59775
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+59900
+.pitch -1.09
+
+59950
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+60000
+.freeobj 0;226
+.ground 0, .wallend 0
+
+60025
+.ground 16, .wall 0;-1;1
+
+60300, .wallend 0
+
+60325
+.ground 37
+.curve 0;0, .railtype 0;4, .railtype 1;4
+.freeobj 0;227
+.freeobj 1;228
+
+60350
+.freeobj 1;228
+.freeobj 0;227
+
+60375
+.freeobj 1;228
+.freeobj 0;227
+
+60400
+.freeobj 1;228
+.freeobj 0;227
+
+60425
+.ground 0
+
+60450
+.pitch -2.39
+
+60475
+.pitch -3.68
+
+60500
+.pitch -4.98
+
+60525,.Beacon 44000;1;1;0,
+
+60544,
+.freeobj 0;190;-0.7;-0.1;0
+.limit 105
+
+60550,.freeobj 0;229
+
+60575
+.wall 0;-1;230
+
+60725
+.SigF 1; 1;-2.73;4.15;0, .Section 0;4
+.freeobj 0;52;-2.7;-0.6
+
+60750
+.freeobj 0;113;4.8;0;180
+
+61000
+.wallend 0
+.freeobj 0;231
+.brightness 255
+
+61007,.brightness 99
+
+61013
+.brightness 255
+
+61025
+.wall 0;-1;2
+
+61050
+.curve -1400;-11
+.railtype 0;31, .railtype 1;31
+
+61675
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+61775
+.freeobj 0;106
+
+61950
+.wallend 0
+.freeobj 0;102;-1;-1
+.freeobj 0;80
+
+61962
+.freeobj 0;233
+
+61975
+.wall 0;-1;0
+.freeobj 0;233
+
+62000
+.pitch -1.95
+.freeobj 0;233
+
+62025,.freeobj 0;233
+62050,.freeobj 0;233
+62075,.freeobj 0;233
+62100,.freeobj 0;233
+
+62125
+.curve 1400;11
+.railtype 0;32 , .railtype 1;32
+.freeobj 0;233
+.freeobj 1;106;;;180
+
+62150,.freeobj 0;233
+62175,.freeobj 0;233
+
+62200
+.freeobj 0;233
+.Beacon 44000;1;1;0,
+
+62225,.freeobj 0;233
+62250,.freeobj 0;233
+
+62275
+.freeobj 0;233
+.curve 700;21
+.railtype 0;34, .railtype 1;34
+
+62300
+.freeobj 0;233
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+62325,.freeobj 0;233
+62350,.freeobj 0;233
+
+62375
+.freeobj 0;65
+.curve 0;0
+.freeobj 0;233
+.railtype 0;4, .railtype 1;4
+
+62400
+.wall 0;0;0
+
+62402
+.SigF 3; 1;-2.52;4.51;0, .Section 0;2;4,
+.freeobj 0;52;-2.5;-0.5
+
+62600
+.freeobj 0;106
+
+62775
+.wallend 0
+.freeobj 0;80
+.freeobj 0;942
+
+62800
+.railstart 2;0;0;3, .wall 2;-1;234
+.freeobj 0;103;4;0;180
+.wall 0;0;0
+
+62950
+.freeobj 1;106;;180
+
+63394,.brightness 255
+
+63400
+.railend 2, .wallend 2
+.pitch 0
+.freeobj 0;235
+.brightness 99
+
+63405,.brightness 255
+
+63450
+.sta Hexham;13.2215;13.2300;1;-1;0;;;35;70;
+.wallend 0
+.freeobj 0;236
+
+63473,.freeobj 0;237;17.5;1;-90
+
+63475
+.freeobj 0;238
+.ground 11
+
+63500,.freeobj 0;239
+63525,.freeobj 0;239
+63550,.freeobj 0;239
+
+63575
+.freeobj 0;240
+
+63590
+.freeobj 0;0
+.Stop 0;90;5
+
+63600
+.freeobj 0;242;12
+.railstart 2;-12;0;4
+.railstart 3;-8;0;4
+.railstart 5;12;0;4
+.freeobj 0;62;4
+.ground 6
+.railtype 1;3
+.freeobj 0;32
+.railstart 14;-30;-5.5;3, .wall 14;-1;31
+
+63602
+.SigF 20;1;-2.4;6.5;0, .section 0;4, .freeobj 0;521;-2.4
+
+63603
+.freeobj 0;103;8.1;-2.8;0
+
+63625
+.pitch -0.9434
+.railtype 1;4
+.freeobj 0;24;12.5;1;0
+.freeobj 0;242;12
+.freeobj 0;45;6;0;4.5886
+.freeobj 0;32
+
+
+63648,.freeobj 0;243;8
+
+63650
+.freeobj 0;24;12.5;1;0
+.railstart 4;8;0;4
+.freeobj 0;242;12
+.freeobj 0;32
+
+63675
+.freeobj 0;24;12
+.freeobj 0;32
+.curve -1000;22
+.railtype 0;5, .railtype 1;5
+.railtype 2;5, .railtype 3;5
+.railtype 4;5, .railtype 5;5
+.railstart 13;-120;0;3, .dike 13;-1;139
+
+
+63700
+.freeobj 0;24;12
+.freeobj 0;32
+.railstart 15;73;0;3, .dike 15;1;139
+.rail 13;-106
+
+63712
+.freeobj 15;104;0;-3
+
+63725
+.freeobj 0;32
+.rail 15;66
+.rail 13;-92
+
+63737
+.freeobj 15;104;3;-3
+
+63750
+.freeobj 0;32
+.rail 15;50
+.railtype 5;8
+.freeobj 0;246;24;0;-15
+.rail 13;-78
+
+63762
+.freeobj 15;104;8;-3
+.freeobj 0;248;-3.3;-3;-80
+.freeobj 0;1486;15;0;123
+
+63775
+.freeobj 0;32
+.railtype 4;3
+.railend 5;10.06
+.rail 15;40
+.railstart 6;21;0;4
+.rail 13;-64
+
+63776
+.freeobj 4;619;0.03;-0.01;180.7, .freeobj 4;619;1.95;-0.01;173.6
+
+63787
+.freeobj 15;104;2;-3
+
+63799
+.freeobj 6;619;0;-0.01
+
+63800
+.railtype 4;31
+.freeobj 0;247;0.4;0
+.freeobj 4;30;0;0;181.4
+.rail 15;20
+.rail 6;17.6
+.railend 14, .wallend 14
+.freeobj 0;32
+.rail 13;-50
+
+63824
+.freeobj 6;619;0;-0.01
+
+63825
+.curve -700;-34
+.railtype 0;33, .railtype 1;33, .railtype 4;33
+.rail 15;12
+.railtype 2;33, .railtype 3;8
+.freeobj 0;32
+.rail 6;14.9
+.rail 13;-43
+
+63850
+.freeobj 0;32
+.railend 3;-10.075
+.railtype 2;3
+.rail 6;13
+.rail 15;11.6
+.rail 13;-36
+
+63875
+
+.freeobj 0;32
+.rail 2;-11.35;0;12
+.freeobj 2;30;0;-0.001;178.975
+.curve -1000;22
+.railtype 0;5, .railtype 1;5, .railtype 4;5
+.rail 6;12;0;8
+.rail 15;11.2
+.rail 13;-29
+
+63900
+.railtype 4;3
+.railend 6;10.05
+.rail 2;-9.5;0;34
+.freeobj 2;103;-1
+.rail 15;10.8
+.rail 13;-22
+
+63901
+.freeobj 0;619;8.01;-0.01;180.8
+.freeobj 0;619;9.91;-0.01;173.5
+
+63925
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.freeobj 0;30;8;0;180.7
+.freeobj 4;30
+.rail 2;-6.1;0;4
+.rail 15;10.4
+.rail 13;-15
+
+63950
+.rail 2;-2.01;0;3
+.railtype 0;3, .railtype 1;3, .railtype 4;4
+.accuracy 4
+.rail 15;10
+
+63975
+.railtype 0;4, .railtype 1;4
+.freeobj 0;62;0;0;180
+.freeobj 1;30;0;0;180
+.rail 2;0
+.accuracy 2
+.ground 11
+.rail 15;9.6
+.rail 13;-8
+
+64000
+.railtype 1;3
+.freeobj 1;30
+.rail 15;9.2
+.railend 13;-0.5, .dikeend 13
+.dike 0;-1;139
+
+64025
+.railtype 0;3, .railtype 1;4
+.accuracy 4
+.rail 15;8.8
+
+64050
+.railtype 0;4
+.freeobj 0;30;;;180
+.accuracy 2
+.rail 15;8.4
+
+64075
+.railend 2;2
+.rail 15;8
+
+64146
+.freeobj 4;51
+
+64150
+.railend 4
+.dike 0;0;139
+
+64175
+.railend 15;6, .dikeend 15
+
+64275
+.curve -1400;11
+.railtype 0;31, .railtype 1;31
+
+64348
+.freeobj 0;190;-0.5
+
+64350
+.SigF 20;1;-2.4;6.5;0, .section 0;4, .freeobj 0;521;-2.4
+.freeobj 1;52;2.3;-0.5;180
+
+64375
+.wall 0;-1;136
+
+64400
+.wall 1;1;136
+.ground 38
+.dikeend 0
+.freeobj 0;248;-4.9;-3
+.freeobj 0;248;-9;-3;-15
+.freeobj 0;248;-13.3;-2;-15
+
+64750
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+65025
+.freeobj 0;106;0.2
+
+65150
+.freeobj 1;52;2.3;-0.5;180
+
+65175
+.wallend 0, .wallend 1
+.freeobj 0;80
+.ground 26
+
+65200
+.wall 0;-1;136, .wall 1;1;136
+
+65207.13989,.freeobj 0;251;-12.9629;-2;-191
+
+65225
+.pitch 1.1026
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+65275
+.curve 1000;18
+.railtype 0;11, .railtype 1;11
+
+65325
+.pitch 0
+.freeobj 1;501
+
+65675
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+65775
+.ground 12
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+66075
+.pitch -2.48
+
+66125
+.wallend 0, .wallend 1
+.freeobj 0;252
+
+66150
+.wall 0;-1;136, .wall 1;1;136
+
+66225
+.Beacon 44000;1;1;0
+
+66400
+.SigF 13;1;-2.02;4.27, .freeobj 0;55;-2;-0.5
+
+66450
+.wallend 0, .wallend 1
+.ground 11
+.announce ..\object\Tyne Valley\sounds\xing.wav
+
+66475
+.ground 0
+.freeobj 0;253
+.freeobj 0;109
+.dike 0;-1;26
+.wall 0;-1;136, .wall 1;1;136
+
+66742
+.freeobj 0;434;-5;0;-90
+.freeobj 0;434;-25;0;-90
+.freeobj 0;434;-45;0;-90
+.freeobj 0;434;-65;0;-90
+.freeobj 0;434;-85;0;-90
+.freeobj 0;434;-105;0;-90
+.freeobj 1;434;30;0;-90
+
+66745
+.brightness 255
+
+66750
+.freeobj 0;59
+.brightness 122
+
+66752,.brightness 255
+
+66800
+.freeobj 1;52;2.1;-0.5;180
+
+67200
+.wallend 0, .wallend 1
+.freeobj 0;254
+.dikeend 0
+
+67225
+.freeobj 0;256
+
+67250
+.freeobj 0;256
+.ground 11
+
+67267.27409,.freeobj 0;258;13.7913;0;90
+67270,.freeobj 0;257;-4;1.1;45
+
+67275
+.freeobj 0;218;1.5
+.freeobj 0;259
+.ground 29
+;.sta Corbridge;08.1030;08.1100;1;-1;0;;;20;74;
+
+67283
+.freeobj 0;218;2.3;0;-180
+.brightness 255
+
+67288,.brightness 99
+
+67290
+;.Stop 0;40;24
+.freeobj 0;0
+
+67292,.brightness 255
+
+67300
+.freeobj 0;260
+.freeobj 1;261
+.wall 0;-1;136, .wall 1;1;136, .dike 1;1;139
+.ground 39
+
+67301
+.freeobj 0;262;-60
+.freeobj 0;262;-85
+.freeobj 0;262;-110
+.freeobj 0;262;-135
+.freeobj 0;262;-160
+
+67311
+.freeobj 0;434;-15;2;-90
+
+67475
+.pitch 0
+
+67674
+.freeobj 1;248;6;-2;12
+.freeobj 1;248;10;-1;12
+.freeobj 1;248;14;0;12
+
+67675
+.dikeend 1
+.ground 38
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+
+67725
+.curve 1000
+.railtype 0;11, .railtype 1;11
+
+67750
+.curve 700;21
+.railtype 0;34, .railtype 1;34
+
+67775
+.pitch 0.95
+
+67875
+.Beacon 44000;1;1;0
+
+68025
+.ground 12
+
+68042,.freeobj 0;263;-18;0;-20
+
+68050
+.SigF 1;1;-2.02;4.27;0, .Section 0;4
+.freeobj 0;52;-2.02;-0.5;0
+.ground 10
+
+68100
+.pitch -0.96
+
+68125
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+68175
+.curve 0;0;
+.railtype 0;4, .railtype 1;4
+
+68200
+.freeobj 1;52;2.3;-0.5;180
+
+68225
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+68325
+.freeobj 0;106
+
+68375
+.freeobj 1;501
+
+68475
+.ground 12
+
+68500
+.wallend 0, .wallend 1
+.freeobj 0;80
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+68525
+.wall 0;-1;136, .wall 1;1;136,
+.freeobj 0;104;18.7;-0.5;-285
+
+68675
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+.freeobj 1;106;;;180
+
+68975
+.pitch -0.3234
+
+69150
+.ground 38
+.curve 0;0;
+.railtype 0;4, .railtype 1;4
+
+69325
+.curve -1400;11
+.railtype 0;31, .railtype 1;31
+
+69550
+.dike 1;-1;249
+.ground 0
+
+69575
+.freeobj 0;264;4;0;-180
+
+69600
+.curve 0;0;
+.railtype 0;4, .railtype 1;4
+.freeobj 0;264;4;0;-180
+
+69625
+.freeobj 0;264;4;0;-180
+
+69650
+.freeobj 0;264;4;0;-180
+
+69675
+.freeobj 0;249;0;-3;0
+.freeobj 0;264;4;0;-180
+
+69700
+.freeobj 0;264;4;0;-180
+
+69725
+.freeobj 0;264;4;0;-180
+
+69750
+.freeobj 0;264;4;0;-180
+
+69775
+.freeobj 0;264;4;0;-180
+
+69800
+.freeobj 0;264;4;0;-180
+
+69825
+.freeobj 0;264;4;0;-180
+
+69850
+.freeobj 0;264;4;0;-180
+
+69875
+.freeobj 0;264;4;0;-180
+
+69900
+.freeobj 0;264;4;0;-180
+.Beacon 44000;1;1;0
+
+69925
+.freeobj 0;264;4;0;-180
+
+69949,.freeobj 0;264;3.6;-0.1;-180
+
+69950
+;.sta Riding Mill;08.1530;08.1600;1;-1;0;;;20;75;
+.wallend 0, .wallend 1
+.pitch 0.897
+
+69951,.freeobj 0;265
+
+69976,.freeobj 0;266
+
+70001,.freeobj 0;266
+70023.89768,.freeobj 0;218;1.2937;0;-2
+
+70025
+.freeobj 0;268;-3.5
+
+70039.52371,.freeobj 0;218;2.5811;0;-180
+
+70040
+.freeobj 0;0
+;.Stop 0;10;5
+
+70050
+.freeobj 0;138
+.freeobj 0;250;3.53;-2;0.2199
+.freeobj 0;136;3.53;0;0.2199
+
+70051,.freeobj 0;267;4;0;-180
+
+70075
+.freeobj 0;136;3.6319;0;0.3044
+.freeobj 0;250;3.6319;-2;0.3044
+.ground 10
+
+70076
+.SigF 13;1;-2.2;3.27
+.freeobj 0;55;-2.2;-1.5
+
+70100
+.dikeend 1
+.freeobj 0;136;3.7812;0;0.116
+.freeobj 0;250;3.7812;-2;0.116
+.curve -1400;-11
+.railtype 0;31, .railtype 1;31
+
+70125
+.railtype 0;33, .railtype 1;33
+.curve -700;-22
+
+70170,.brightness 255
+
+70174,.brightness 111
+
+70175.22157,.freeobj 0;59;-0.2435;0;-1
+
+70177,.brightness 255
+
+70225
+.curve -1400;-11
+.railtype 0;31, .railtype 1;31
+
+70275
+.freeobj 1;501
+
+70300
+.railtype 0;33, .railtype 1;33
+.curve -700;-22
+
+70425,.Beacon 44001;1;1;0,
+
+70525,.freeobj 0;270;-1
+
+70549,.brightness 255
+
+70550
+.freeobj 0;138;-2;0;4.5
+.freeobj 1;136;2;0;-4.5
+.freeobj 0;269;3.1
+.curve -1400;-11
+.railtype 0;31, .railtype 1;31
+.ground 12
+
+70555,.brightness 99
+
+70560,.brightness 255
+
+70575
+.wall 0;-1;136, .wall 1;1;136
+
+70600
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+70625
+.pitch -0.53
+
+71050
+.freeobj 1;52;2.1;-0.5;180
+
+71075
+.Beacon 44000;1;1;0
+
+71250
+.SigF 1;1;-2.02;4.27, .Section 0;4
+.freeobj 0;52;-2.02;-0.5
+
+71300
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+71325
+.curve 1000;21
+.railtype 0;11, .railtype 1;11
+
+71425
+.pitch 0.5123
+.curve 700;32
+.railtype 0;34, .railtype 1;34
+
+71520
+.freeobj 1;434;4;0;95
+.freeobj 1;434;29;2;95
+
+71522
+.freeobj 1;434;4;4;95
+.freeobj 1;434;29;8;95
+
+71524
+.freeobj 1;434;29;12;95
+
+71525
+.wallend 0
+.dike 1;1;235
+.ground 40
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+71550
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+71675
+.freeobj 0;190;4.6;0;180
+
+71700
+.freeobj 0;1270;-0.7
+.limit 32
+
+71725
+.freeobj 1;52;2.1;-0.5;180
+
+71750
+.pitch 0
+
+71955,.freeobj 0;322;-6;-2;-33
+
+72000
+.freeobj 0;322;-6;-2;-33
+.freeobj 0;2270;-0.7
+.limit 105
+
+72025
+.pitch -2.81
+
+72035,.freeobj 0;322;-6;-2;-33
+
+72070,.freeobj 0;322;-6;-2;-33
+
+72100
+.freeobj 0;322;-6;-2;-33
+
+72125
+.freeobj 0;322;-6;-2;-33
+
+72145
+.freeobj 0;224;-0.8
+.freeobj 0;322;-6;-2;-44
+
+72150
+.railtype 0;44
+.dikeend 1, .wallend 1
+.freeobj 0;226
+.limit 73
+
+72170,.freeobj 0;322;-6;-2;-44
+
+72175
+.freeobj 0;273
+.freeobj 0;250;4
+.freeobj 0;249
+.freeobj 1;959
+
+72190
+.freeobj 1;960
+
+72200
+.railtype 0;31, .railtype 1;31
+.curve -1400;-5
+.limit 72
+.ground 14
+
+72225
+.railtype 0;33, .railtype 1;33
+.curve -700;-16
+
+72520,.brightness 255
+
+72523,.brightness 99
+
+72525
+.ground 0
+.limit 105
+.freeobj 0;59;-0.3343
+.brightness 255
+.wall 0;-1;13
+
+72572
+.freeobj 0;190;-2;0;-23
+
+72575
+.railtype 0;31, .railtype 1;31
+.curve -1400;-5
+.freeobj 1;97;0.5;0;180
+
+72600
+.ground 61
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.wall 0;-1;12
+.brightness 255
+.freeobj 0;269;3.1
+.railstart 2;4;-1;3, .wall 2;1;174
+
+72607,.brightness 88
+
+72616,.brightness 255
+
+72625
+.rail 2;7
+
+72626
+.freeobj 2;274;0.01
+
+72650
+.rail 2;15
+.railstart 3;15.5;-0.4;3
+
+72652
+.freeobj 2;274;0.01
+
+72667
+.freeobj 3;275;9.1;0;-77
+
+72675
+.rail 2;23
+.wall 3;1;24
+
+72677
+.freeobj 2;274;0.01
+
+72687
+.freeobj 3;1486;5;;180
+
+72700
+.rail 2;28;-2.3
+.rail 3;11.25
+
+72702
+.freeobj 2;274;0.01
+
+72725
+.rail 2;32;-3.6
+.freeobj 1;1275
+.rail 3;7.5
+
+72727
+.freeobj 2;274;0.01
+
+72750
+.wallend 0
+.freeobj 0;276
+.curve -1400;5
+.railtype 0;31, .railtype 1;31
+.rail 2;36;-5
+.freeobj 1;1276
+.railend 3, .wallend 3
+
+72752
+.freeobj 2;274;0.01
+
+72775
+.freeobj 0;277
+;.sta Stocksfield;08.1930;08.2000;1;-1;0;;;20;200;
+.freeobj 1;2276
+
+72800
+.railend 2, .wallend 2
+.freeobj 0;277
+.freeobj 1;1276
+.freeobj 0;262;55;0;90
+
+72815
+.freeobj 0;486;41;-0.4;180
+
+72825
+.freeobj 0;278
+.freeobj 1;1278
+
+72850
+.ground 21
+.wall 1;1;136
+.freeobj 0;279
+.freeobj 1;280;11;0;-195
+.freeobj 0;262;47;-0.4;90
+
+72855
+;.Stop 0;53;12
+
+72875
+.ground 12
+.wall 0;-1;136
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.freeobj 1;434;29;-1.8;-90
+
+72885
+.freeobj 1;434;29;-1;-90
+
+72925
+.ground 39
+.freeobj 0;902
+.freeobj 0;99;28;0;90
+.freeobj 1;434;1;-6.5
+
+72950
+.freeobj 0;902
+.freeobj 0;373;28;0;-90
+.freeobj 1;434;1;-6.5
+
+72975
+.freeobj 0;902
+.freeobj 0;99;28;0;90
+.freeobj 1;434;1;-6.5
+
+73000
+.freeobj 0;902
+.freeobj 0;373;28;0;-90
+.freeobj 1;434;1;-6.5
+
+73025
+.freeobj 0;902
+.freeobj 0;99;28;0;90
+.freeobj 1;434;1;-6.5
+
+73050
+.ground 12
+
+73973
+.freeobj 0;248;-3.3;-3;-75
+
+73975
+.freeobj 1;250
+.ground 41
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+74000
+.freeobj 1;250
+
+74025
+.freeobj 1;250
+.curve 1000;10
+.railtype 0;11, .railtype 1;11
+
+74050
+.freeobj 1;250
+
+74075
+.freeobj 1;250
+
+74100
+.freeobj 1;250
+
+74125
+.ground 12
+
+74150
+.curve 700;22
+.railtype 0;34, .railtype 1;34
+
+74175
+.Beacon 44000;1;1;0
+
+74300
+.curve 1000;10
+.railtype 0;11, .railtype 1;11
+
+74350
+.SigF 3; 1;-2.02;4.51;0, .Section 0;2;4
+.freeobj 0;52;-2.02;-0.5;0
+
+74375
+.freeobj 0;106;0.15
+
+74450
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+74500
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+74512
+.freeobj 0;251;-11;0.7;-180
+
+74550
+.wallend 0, .wallend 1
+.pitch 0
+.freeobj 0;80
+.ground 11
+
+74560
+.freeobj 1;434;27;-1;-90
+
+74565
+.freeobj 1;434;47;0;-90
+
+74575
+.wall 0;-1;136, .wall 1;1;136
+.freeobj 1;250
+.freeobj 0;249;0;-4.444
+
+74600
+.pitch -1.91
+.wallend 0
+.freeobj 0;250;4
+.railtype 0;31, .railtype 1;31
+.curve -1400;-5
+.ground 42
+
+74625
+.freeobj 1;250
+
+74650
+.freeobj 1;250
+
+74675
+.freeobj 1;250
+
+74700
+.freeobj 1;250
+
+74725
+.freeobj 1;250
+
+74750
+.freeobj 1;250
+
+74775
+.freeobj 1;250
+
+74800
+.freeobj 1;250
+
+74825
+.freeobj 1;250
+
+74850
+.freeobj 1;250
+
+74875
+.freeobj 1;250
+
+74900
+.freeobj 1;250
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+74925
+.SigF 20;1;-2.4;6.5, .freeobj 0;521;-2.4
+.freeobj 1;250
+
+74950
+.freeobj 1;250
+
+74975
+.freeobj 1;250
+.curve -1400;-5
+.railtype 0;31, .railtype 1;31
+
+75000
+.freeobj 1;250
+
+75025
+.freeobj 1;250
+
+75050
+.freeobj 1;250
+
+75075
+.freeobj 1;250
+
+75100
+.freeobj 1;250
+
+75125
+.freeobj 1;250
+.freeobj 0;106;0;0;-15
+.railstart 2;-7;-3.5;3, .wall 2;1;34
+
+75150
+.freeobj 1;250
+.rail 2;-8;-3
+
+75175
+.freeobj 1;250
+
+75200
+.freeobj 1;250
+
+75225
+.freeobj 1;250
+.rail 2;-9;-2.7
+
+75250
+.freeobj 1;250
+.rail 2;-10;-2.4
+
+75275
+.freeobj 1;250
+.rail 2;-11;-2
+.freeobj 0;102;-4;-2
+
+75300
+.ground 0
+.wallend 1
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.freeobj 1;250
+.freeobj 0;903
+.rail 2;-14
+.freeobj 0;102;-4;-2
+
+75320
+.freeobj 0;103;4;0;180
+
+75325
+.wall 0;-1;0, .wall 1;1;136
+.freeobj 1;250
+.rail 2;-18
+.freeobj 0;102;-4;-2
+
+75350
+.freeobj 1;250
+.rail 2;-24
+
+75375
+.freeobj 1;250
+.rail 2;-30
+
+75400
+.freeobj 1;250
+.rail 2;-36
+
+75425
+.rail 2;-42
+.SigF 20;1;-2.4;6.5, .freeobj 0;521;-2.4
+.freeobj 1;250
+
+75450
+.freeobj 1;250
+.rail 2;-48
+.freeobj 1;106;0;0;180
+
+75475
+.rail 2;-54
+.freeobj 1;250
+
+75500
+.railstart 3;-1;0;3, .wall 3;-1;0
+.railstart 4;-0.3;0;3, .wall 4;-1;164
+.wall 0;-1;24
+.rail 2;-60
+.ground 62
+.freeobj 0;298;16.9;-0.4
+
+75525
+.rail 2;-66
+.rail 3;-6.3
+.rail 4;-5.3
+
+75538
+.freeobj 1;434;26.2;-5;-80
+
+75550
+.rail 2;-72
+.rail 3;-12
+.rail 4;-11
+
+75570
+.freeobj 0;246;0.8;-0.5
+
+75575
+.rail 2;-78
+.rail 3;-17
+.rail 4;-16
+
+75595
+.freeobj 0;237;-5;-0.3;-95
+
+75599
+.freeobj 0;281;-1.4
+
+75600
+.wallend 0, .wallend 1
+.railend 2;-84, .wallend 2
+.railend 3, .wallend 3
+.railend 4, .wallend 4
+.freeobj 0;246;0.8;-0.5
+
+75624,.freeobj 0;284;-5.2
+
+75625
+.sta Prudhoe;13.3420;13.3500;1;-1;0;;;40;77;
+.freeobj 0;101
+.ground 0
+.freeobj 0;11231, .freeobj 0;11241
+.freeobj 0;904;-3.3
+
+75627,.freeobj 0;285
+
+75633
+.freeobj 1;103;1.4;0;-180
+
+75636
+.freeobj 0;906;0.5
+.freeobj 0;851;0.5;0.3
+.freeobj 1;906;-0.8;0;180
+.freeobj 1;851;-0.8;0.3;180
+
+75650
+.freeobj 0;290;-0.2
+.freeobj 0;434;-4;-3;180
+.freeobj 0;352;2.7;0;-180
+.ground 11
+.freeobj 0;11232, .freeobj 0;11242
+.freeobj 1;164;8.8;0.6
+.freeobj 0;905;0.3
+
+75655
+.freeobj 1;164;5.2;0.4;180
+
+75660
+.freeobj 0;904;-3.301;0.09
+.freeobj 1;485;12;0.3;180
+
+75664
+.freeobj 0;906;0.5
+.freeobj 0;851;0.5;0.3
+.freeobj 1;906;-0.8;0;180
+.freeobj 1;851;-0.8;0.3;180
+
+75675
+.freeobj 0;293;1.3
+.freeobj 0;218;2.13;0;-180
+.freeobj 0;11232, .freeobj 0;11242
+.freeobj 0;904;-3.3;0.1
+.freeobj 1;164;8.8;0.6
+.freeobj 1;1601;12;0.3;180
+.freeobj 0;905;0.3
+
+75685
+.Stop 0;9;32
+.freeobj 0;0;-1.5
+
+75695
+.freeobj 0;906;0.5
+.freeobj 0;851;0.5;0.3
+.freeobj 1;906;-0.8;0;180
+.freeobj 1;851;-0.8;0.3;180
+
+75700
+.freeobj 0;1293;1.3
+.freeobj 0;11233, .freeobj 0;11243
+.freeobj 0;904;-3.3;0.1
+.freeobj 1;164;8.8;0.6
+.freeobj 1;164;8.81
+.freeobj 0;905;0.3
+.railstart 9;-5;-1;3, .wall 9;-1;34
+.railstart 10;9;-6.3;3, .wall 10;1;34
+
+75709
+.freeobj 0;725;50;5;90
+
+75715
+.freeobj 0;725;28;5;-180
+
+75725
+.railstart 3;-4;0;3, .railstart 4;8;0;3
+.wall 3;-1;136, .wall 4;1;136
+.SigF 20;1;-2;7.7
+.freeobj 0;297;-3.6
+
+75750
+.pitch 0.601
+.railtype 1;3
+.freeobj 0;1030
+.rail 6;0;0;3    ;id=0
+.freeobj 1;9062
+.railtype 0;3
+
+75767
+.freeobj 0;298;46.5;0;-90
+
+75775
+.railtype 0;4
+.freeobj 1;1030
+.railend 6;4
+.freeobj 0;9159;-2;0;-4.55
+
+75800
+.railtype 0;3
+.rail 7;0;0;3    ;id=0
+.freeobj 0;9159;8;;184.5886
+.railtype 3;24, .railtype 4;24
+.railtype 1;4
+
+75825
+.railtype 0;4
+.railend 7;4
+.freeobj 0;1030;;;180
+
+75850
+.freeobj 0;246;5
+
+75867
+.freeobj 0;298;46.5;0;-90
+
+75941
+.freeobj 0;298;21.751;0;-270
+
+75967
+.freeobj 0;298;46.5;0;-90
+
+76050
+.freeobj 0;246;5
+
+76075
+.ground 11
+.SigF 20;1;-2;6.5;0, .section 0;4, .freeobj 0;521;-2
+.freeobj 0;103;4;;180
+.rail 9;-6;0
+
+76100
+.ground 0
+.dike 3;-1;99
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+.rail 9;-7;1
+
+76117
+.freeobj 0;298;21.751;0;-270
+
+76150
+.freeobj 0;246;5
+.curve 956;2
+.railtype 0;11, .railtype 1;11
+
+76271
+.freeobj 3;51
+.freeobj 4;51
+
+76275
+.railtype 3;61, .railtype 4;61
+
+76300
+.pitch -0.85
+.rail 3;-3.5;-0.01, .rail 4;7.5;-0.1
+.rail 9;-5;0, .rail 10;8.5
+
+76325
+.rail 3;-3, .rail 4;7, .rail 10;8
+.Beacon 44001;1;1;0
+
+76350
+.rail 3;-2.5;-0.02, .rail 4;6.5, .rail 10;7.5
+
+76375
+.rail 3;-2;-0.03, .rail 4;6
+.rail 9;-4, .rail 10;7
+
+76400
+.rail 3;-1.3, .rail 4;5.3, .rail 10;6.3
+
+76425
+.rail 3;-0.7, .rail 4;4.7, .rail 10;5.7
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+
+76450
+.rail 3;-0.1;-0.03;3, .wallend 3
+.railend 4;4.1, .wallend 4
+.rail 9;-1
+.wall 0;-1;136, .wall 1;1;136
+
+76475
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+76500
+.freeobj 0;609;-0.5;0;-15
+
+76600
+.rail 10;5.4;-5.5
+
+77075
+.freeobj 0;52;6.3;-0.5;180
+.rail 10;5.4;-5
+
+77125
+.rail 10;5.4;-4.5
+
+77150
+.rail 10;5.6;-4
+
+77175
+.ground 11
+.rail 10;5.5;-3.5
+;.wallend 0, ;.wallend 1
+.railend 3, .dikeend 3
+.railstart 2;0;-5;3, .wall 2;-1;12
+
+77200
+.rail 10;5.4;-3
+
+77225
+.rail 10;5.4;-2.5
+.curve 1450;11
+.railtype 0;32, .railtype 1;32
+
+.limit 66
+.freeobj 0;83;-0.7
+.rail 2;0;-4.5
+
+77250
+.rail 10;5.4;-2
+
+.rail 2;0;-4
+
+77275
+.rail 10;5.4;-1.5
+
+.rail 2;0;-3.5
+
+77300
+.rail 10;5.4;-1
+
+.rail 2;0;-3
+
+77325
+.rail 10;5.4;-0.5
+
+.rail 2;0;-2.5
+
+77350
+.pitch 1
+.rail 10;5.4;0
+.rail 2;0;-2
+
+77375
+.rail 2;0;-1.5
+
+77400
+.wallend 0
+.railend 9, .wallend 9
+.rail 2;0;-1
+
+77425
+.rail 2;0;-0.5
+
+77445
+.brightness 255
+
+;Hagg Bank
+77450
+.wallend 1
+.freeobj 0;460;0;-1
+.brightness 111
+.freeobj 0;262;-62;6, .freeobj 0;262;-37;6
+.railend 10;5.3;0, .wallend 10
+.railend 2;0;0, .wallend 2
+
+.dike 1;1;235
+.railstart 3;3.1;-6.5;3, .wall 3;1;174
+.wall 0;-1;34
+
+77453
+.brightness 255
+
+77475
+.rail 3;3
+
+77525
+.pitch 2.653
+.Beacon 44000;1;1;0
+
+77575
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.wallend 0
+.ground 42
+
+77650
+.pitch 0
+.curve -1400;11
+.railtype 0;31, .railtype 1;31
+
+77675
+.curve -700
+.railtype 0;33, .railtype 1;33
+
+77700
+.curve -332;32
+.railtype 0;7, .railtype 1;7
+.SigF 3;1;-2.2;4.51, .Section 0;2;4
+.freeobj 0;52;-2.2;-0.5
+
+77800
+.pitch -2.52
+
+77850
+.curve -700
+.railtype 0;33, .railtype 1;33
+
+77875
+.curve -1400;11
+.railtype 0;31, .railtype 1;31
+
+77900
+.curve 0;0;
+.railtype 0;4, .railtype 1;4
+
+77950
+.curve 1000;11
+.railtype 0;11, .railtype 1;11
+
+77975
+.curve 490;17
+.railtype 0;12, .railtype 1;12
+
+78050
+.freeobj 0;11434;-2.3;-5
+.curve 1000;11
+.railtype 0;11, .railtype 1;11
+
+78075
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.Beacon 44000;1;1;0
+.freeobj 0;11434;-2.3;-5
+
+78100
+.freeobj 0;11434;-2.3;-5
+
+78125
+.freeobj 0;11434;-2.3;-4.8
+
+78150
+.ground 11
+.limit 105
+.freeobj 0;190;-0.6
+.freeobj 0;11231
+.freeobj 0;1294;1
+.freeobj 0;904;-3.5
+.freeobj 0;11434;-4;-2
+
+78175
+.freeobj 0;11232
+.freeobj 0;293;1
+.freeobj 0;904;-3.5
+.freeobj 0;11434;-4;-2
+
+78176
+.freeobj 0;906;1
+.freeobj 0;852;1;0.4
+
+78179
+.freeobj 0;854
+
+78200
+.railtype 0;4
+.ground 0
+.freeobj 0;11232
+.freeobj 0;293;1
+.freeobj 0;904;-3.5
+.freeobj 0;11434;-4;-2
+.rail 3;3;-6.33
+
+78217
+.freeobj 0;906;1
+.freeobj 0;852;1;0.4
+
+78225
+.freeobj 0;11232
+.freeobj 0;293;1
+.freeobj 0;904;-3.5
+.freeobj 0;11434;-4;-2
+.rail 3;2.9;-6.17
+
+78249,.freeobj 0;323;10.3;-0.5;2
+
+78250
+.dikeend 1, .railend 3;2.8;-6, .wallend 3
+.freeobj 0;11233
+.freeobj 0;1293;-0.6
+.freeobj 0;904;-5.1
+.freeobj 0;11434;-6;-2
+.freeobj 0;218
+;.sta Wylam;08.2730;08.2800;1;-1;0;;;30;217;
+
+78265
+;.Stop 0;61;7
+.freeobj 0;906;1.2
+.freeobj 0;852;1.2;0.4
+.freeobj 0;850;1.2;0.4
+
+78269
+.SigF 3; 1;-2.5;4.8;0, .Section 0;2;4
+.freeobj 0;52;-2.5;-0.2
+
+78275
+.freeobj 0;309
+.freeobj 0;310;0.2
+.freeobj 0;352;0;0.3
+
+78278
+.freeobj 0;248;-8;-2;-85
+
+78299
+.freeobj 1;906;0;-0.5;180
+
+78300
+.freeobj 0;101
+.freeobj 0;311
+.freeobj 0;11434;-7;0;-20
+.freeobj 1;434;16;1;-9
+.ground 11
+
+78307,.freeobj 0;312;7.65
+
+78314
+.freeobj 1;52;2.3;-0.2;180
+
+78325
+.freeobj 0;313
+.freeobj 0;250;4;-2
+.freeobj 0;6;6.3;5;180
+.freeobj 1;906;-2.5;0;180
+.freeobj 1;852;-2.5;0;180
+.freeobj 1;849;-2.5;0;180
+
+78332
+.freeobj 0;314;7.65
+.freeobj 0;905;-1.4;-1
+.freeobj 1;164;7.1;-0.4
+
+78350
+.freeobj 0;164;-2.8
+.freeobj 0;11434;-4
+.freeobj 0;250;4;-0.5
+.wall 0;-1;136
+
+78355
+.freeobj 0;11434;-5;0;-90
+
+78357
+.freeobj 0;314;7.65
+.freeobj 0;905;-1.4;-1
+.freeobj 1;164;7.1;-0.4
+
+78363
+.freeobj 1;906;-2.5;0;180
+.freeobj 1;852;-2.5;0;180
+
+78374
+.freeobj 0;248;-4.6;-4.4
+
+78375
+.ground 41
+.freeobj 0;250;4;-0.5
+
+78382
+.freeobj 0;316;7.65
+.freeobj 0;905;-1.4;-1
+.freeobj 1;164;7.1;-0.4
+
+78400
+.dike 1;1;235
+.freeobj 0;274;4.0407;-7;-2.5
+
+78403
+.freeobj 1;906;-2.5;0;180
+.freeobj 1;852;-2.5;0;180
+
+78425
+.freeobj 0;274;2.9;-7
+
+78450
+.freeobj 0;274;2.9;-7
+
+78475
+.freeobj 0;274;2.9;-7
+.freeobj 1;501
+
+78500
+.freeobj 0;274;2.9;-7
+
+78525
+.freeobj 0;274;2.9;-7
+
+78550
+.freeobj 0;274;2.9;-7
+
+78575
+.freeobj 0;274;2.9;-7
+
+78600
+.freeobj 0;274;2.9;-7
+
+78625
+.freeobj 0;274;2.9;-7
+
+78650
+.freeobj 0;274;2.9;-7
+
+78675
+.freeobj 0;274;2.9;-7
+
+78700
+.freeobj 0;274;2.9;-7
+
+78725
+.pitch 0
+.freeobj 0;274;2.9;-7
+
+78750
+.freeobj 0;274;2.9;-7
+
+78775
+.freeobj 0;274;2.9;-7
+
+78800
+.freeobj 0;274;2.9;-7
+
+78825
+.freeobj 0;274;2.9;-7
+
+78850
+.freeobj 0;274;2.9;-7
+
+78875
+.freeobj 0;274;2.9;-7
+
+78900
+.freeobj 0;274;2.9;-7
+
+78925
+.freeobj 0;274;2.9;-7
+.ground 43
+
+78950
+.freeobj 0;274;2.9;-7
+.ground 44
+
+78975
+.freeobj 0;274;2.9;-7
+
+79000
+.freeobj 0;274;2.9;-7
+
+79025
+.freeobj 0;274;2.9;-7
+
+79050
+.freeobj 0;274;2.9;-7
+
+79075
+.freeobj 0;274;2.9;-7
+
+79100
+.freeobj 0;274;2.9;-7
+
+79125
+.freeobj 0;274;2.9;-7
+
+79150
+.freeobj 0;274;2.9;-7
+
+79175
+.freeobj 0;274;2.9;-7
+
+79200
+.freeobj 0;274;2.9;-7
+
+79225
+.pitch -0.8643
+.freeobj 0;274;2.9;-7
+
+79250
+.wall 1;1;136
+.freeobj 1;52;2.03;-0.2;180
+
+79275
+.freeobj 0;106
+
+79425
+.freeobj 0;318
+.freeobj 0;317
+.ground 0
+
+79450
+.announce ..\object\Tyne Valley\sounds\xing.wav
+.wallend 0, .wallend 1
+.dikeend 1
+.freeobj 1;501
+.ground 11
+
+79475
+.wall 0;-1;136, .wall 1;1;136
+.dike 1;1;235
+.freeobj 0;109
+.freeobj 0;110
+.ground 44
+
+79525
+.curve 1400;20
+.railtype 0;32, .railtype 1;32
+
+79550
+.wallend 1
+.freeobj 0;274;2.9;-7
+
+79575
+.freeobj 0;274;2.9;-7
+.freeobj 0;106;4.1;0;-180
+
+79525
+.freeobj 0;274;2.9;-7
+
+79550
+.freeobj 0;274;2.9;-7
+
+79575
+.freeobj 0;274;2.9;-7
+
+79600
+.curve 1000;30
+.railtype 0;11, .railtype 1;11
+.freeobj 0;274;2.9;-7
+
+79625
+.freeobj 0;274;2.9;-7
+.curve 700;40
+.railtype 0;34, .railtype 1;34
+
+79650
+.curve 568;50
+.railtype 0;12, .railtype 1;12
+.freeobj 0;274;2.9;-7
+
+79675
+.freeobj 0;274;2.9;-7
+.curve 700;40
+.railtype 0;34, .railtype 1;34
+
+79700
+.freeobj 0;274;2.9;-7
+.curve 1000;30
+.railtype 0;11, .railtype 1;11
+
+79725
+.freeobj 0;274;2.9;-7
+.limit 105
+
+79750
+.freeobj 0;274;2.9;-7
+.curve 1400;20
+.railtype 0;32, .railtype 1;32
+
+79775
+.curve 0;0
+.railtype 0;44, .railtype 1;4
+.freeobj 0;274;2.9;-7
+
+79800
+.freeobj 0;274;2.9;-7
+.freeobj 1;76
+
+79823
+.freeobj 1;77
+
+79825
+.railtype 0;4
+.freeobj 0;274;2.9;-7
+
+79850
+.freeobj 0;274;2.9;-7
+
+79875
+.freeobj 0;274;2.9;-7
+
+79900
+.freeobj 0;274;2.9;-7
+
+79925
+.freeobj 0;274;2.9;-7
+
+79950
+.freeobj 0;274;2.9;-7
+
+79975
+.freeobj 0;274;2.9;-7
+
+80000
+.freeobj 0;274;2.9;-7
+
+80025
+.freeobj 0;274;2.9;-7
+
+80050
+.freeobj 0;274;2.9;-7
+
+80075
+.freeobj 0;274;2.9;-7
+
+80100
+.freeobj 0;274;2.9;-7
+
+80125
+.freeobj 0;274;2.9;-7
+
+80150
+.freeobj 0;274;2.9;-7
+
+80175
+.freeobj 0;274;2.9;-7
+
+80200
+.freeobj 0;274;2.9;-7
+
+80225
+.freeobj 0;274;2.9;-7
+
+80250
+.freeobj 0;274;2.9;-7
+
+80275
+.freeobj 0;274;2.9;-7
+
+80300
+.freeobj 0;274;2.9;-7
+
+80325
+.freeobj 0;274;2.9;-7
+
+80350
+.freeobj 0;274;2.9;-7
+
+80375
+.freeobj 0;274;2.9;-7
+
+80400
+.freeobj 0;274;2.9;-7
+
+80425
+.freeobj 0;274;2.9;-7
+
+80450
+.freeobj 0;274;2.9;-7
+
+80475
+.freeobj 0;274;2.9;-7
+
+80500
+.freeobj 0;274;2.9;-7
+
+80525
+.freeobj 0;274;2.9;-7
+.ground 41
+
+80550
+.curve 1400;11
+.railtype 0;32, .railtype 1;32
+.freeobj 0;274;2.9;-7
+
+80575
+.freeobj 0;274;2.9;-7
+
+80600
+.freeobj 0;274;2.9;-7
+
+80625
+.freeobj 0;274;2.9;-7
+
+80650
+.freeobj 0;274;2.9;-7
+.freeobj 0;106
+
+80675
+.freeobj 0;274;2.9;-7
+
+80700
+.freeobj 0;274;2.9;-7
+
+80725
+.freeobj 0;274;2.9;-7
+
+80750
+.freeobj 0;274;2.9;-7
+
+80775
+.freeobj 0;274;2.9;-7
+
+80800
+.freeobj 0;274;2.9;-7
+
+80825
+.ground 45
+.wallend 0, .dikeend 1
+.freeobj 0;80
+
+80850
+.freeobj 0;251;-5.35;-1.7;-180
+.wall 0;-1;136, .wall 1;1;136
+.dike 1;1;235
+.freeobj 0;249;2;-3
+
+80875
+.freeobj 0;249;2;-3
+
+80900
+.freeobj 0;249;2;-3
+.ground 0
+
+80925
+.freeobj 0;106;4.2;0;180
+.freeobj 0;249;2;-3
+
+80950
+.freeobj 0;249;2;-3
+
+80975
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.freeobj 0;249;2;-3
+
+81000
+.freeobj 0;249;2;-3
+
+81025
+.freeobj 0;249;2;-3
+
+81050
+.freeobj 0;249;2;-3
+
+81075
+.freeobj 0;249;2;-3
+
+81100
+.pitch 0.8
+.freeobj 0;249;2;-3
+
+81125
+.freeobj 0;249;2;-3
+
+81150
+.freeobj 0;249;2;-3
+
+81175
+.freeobj 0;249;2;-3
+
+81200
+.freeobj 0;249;2;-3
+
+81225
+.freeobj 0;249;2;-3
+
+81250
+.freeobj 0;249;2;-3
+
+81275
+.freeobj 0;249;2;-3
+
+81300
+.freeobj 0;249;2;-3
+
+81325
+.freeobj 0;249;2;-3
+
+81350
+.freeobj 0;249;2;-3
+
+81375
+.freeobj 0;249;2;-3
+
+
+81400
+.freeobj 0;249;2;-3
+
+81425
+.freeobj 0;249;2;-3
+
+81450
+.freeobj 0;249;2;-3
+.freeobj 0;106
+
+81475
+.freeobj 0;249;2;-3
+.curve 1400;-11
+.railtype 0;32, .railtype 1;32
+
+81500
+.freeobj 0;249;2;-3
+
+81525
+.curve 782;22
+.railtype 0;34, .railtype 1;34
+.freeobj 0;249;2;-3
+
+81550
+.freeobj 0;249;2;-3
+
+81575
+.curve 1400;-11
+.railtype 0;32, .railtype 1;32
+.freeobj 0;249;2;-3
+
+81600
+.freeobj 0;249;2;-3
+
+81625
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.freeobj 0;249;2;-3
+
+81647
+.freeobj 0;904;-28;0;90
+
+81650
+.wallend 0, .wallend 1
+.freeobj 0;80
+.ground 11
+
+81655
+.freeobj 0;904;-28;0;90
+.freeobj 0;19;-28;0;90
+
+81666
+.freeobj 0;19;-28;0;90
+
+81675
+.wall 0;-1;136, .wall 1;1;136
+.freeobj 0;19
+
+81700
+.pitch -1.053
+.freeobj 0;19
+
+81725
+.freeobj 0;19
+
+81750
+.freeobj 0;19
+
+81775
+.freeobj 0;19
+
+81800
+.freeobj 0;19
+
+81825
+.freeobj 0;19
+.Beacon 44000;1;1;0
+
+81850
+.curve 2865;3
+.railtype 0;36, .railtype 1;36
+.freeobj 1;106;0;0;180
+.freeobj 0;19
+
+81875
+.freeobj 0;19
+
+81900
+.freeobj 0;19
+
+81925
+.freeobj 0;19
+
+81950
+.freeobj 0;19
+
+81975
+.freeobj 0;19
+
+82000
+.freeobj 0;19
+.SigF 3;1;-2.02;4.51;0, .Section 0;2;4
+.freeobj 0;52;-2.02;-0.5
+
+82025
+.freeobj 0;19
+
+82050
+.freeobj 0;19
+
+82075
+.freeobj 0;19
+
+82100
+.freeobj 0;19
+
+82125
+.freeobj 0;19
+
+82150
+.dikeend 1
+.freeobj 1;904;0.6;-0.6;179
+.freeobj 0;19
+.railstart 3;15;-0.4;201
+.railstart 4;68;0;3, .dike 4;1;235
+
+82175
+.freeobj 0;19
+.freeobj 1;904;0.6;-0.6;179
+
+82200
+.freeobj 0;19
+.freeobj 1;904;0.6;-0.6;179
+
+82216
+.freeobj 0;971;31;0;90, .freeobj 0;971;56;0;90
+
+82225
+.freeobj 0;19
+.freeobj 1;904;0.6;-0.6;179
+
+82250
+.freeobj 0;941
+.freeobj 1;904;0.6;-0.6;179
+
+82275
+.freeobj 0;941
+.freeobj 1;904;0.6;-0.6;179
+
+82285
+.freeobj 0;971;44;0;90
+
+82300
+.freeobj 0;941
+.freeobj 1;904;0.6;-0.6;179
+.freeobj 0;971;62;0;-90
+
+82318
+.freeobj 0;246;24;-0.4
+
+82325
+.freeobj 0;941
+.freeobj 1;904;0.6;-0.6;179
+
+82350
+.freeobj 0;941
+.freeobj 1;904;0.6;-0.6;179
+
+82375
+.freeobj 0;941
+.freeobj 1;904;0.6;-0.6;179
+
+82383
+.freeobj 0;971;57;0;-90
+
+82400
+.freeobj 0;941
+.freeobj 1;904;0.6;-0.6;179
+.rail 4;64.25
+.freeobj 0;971;32;0;180
+
+82403
+.freeobj 0;246;-4;-0.2;170
+
+82425
+.freeobj 0;941
+.freeobj 1;904;0.6;-0.6;179
+.rail 4;60.5
+.freeobj 0;246;29;-0.4;-90
+
+82450
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.freeobj 0;941
+.freeobj 1;904;0.6;-0.6;180
+.rail 4;56.75
+.freeobj 0;971;-23;-0.2;170
+
+82455
+.freeobj 0;971;27;-0.05;90
+
+82475
+.freeobj 0;941
+.freeobj 1;904;0.6;-0.6;180
+.rail 4;53
+.freeobj 0;971;-28;-0.2;7
+.freeobj 0;971;-43;-0.2;7
+.freeobj 0;971;-60;-0.2;170
+.freeobj 0;971;-83;-0.2;170
+.freeobj 0;971;-98;-0.2;170
+.freeobj 0;971;-121;-0.2;170
+
+82498
+.freeobj 0;322;30;-1, .freeobj 0;323;37;-2, .freeobj 0;337;44
+
+82500
+.freeobj 0;941
+.freeobj 1;904;0.6;-0.6;180
+.rail 4;49.25
+.freeobj 0;971;-25;-0.2;7
+
+82510
+.freeobj 3;1483;2, .freeobj 3;1484;2
+
+82525
+.freeobj 0;941
+.freeobj 1;904;0.6;-0.6;180
+.rail 4;45.5
+.freeobj 0;971;-22;-0.2;7
+.freeobj 0;971;37;0;180
+
+82550
+.freeobj 0;941
+.freeobj 1;904;0.6;-0.6;180
+.railend 3;15;-0.8
+.rail 4;41.75
+.freeobj 0;971;21
+.freeobj 0;971;-19;-0.2;7
+
+82575
+.freeobj 0;941
+.freeobj 1;904;0.6;-0.6;180
+.rail 4;38
+.freeobj 0;971;21
+
+82600
+.announce ..\object\Tyne Valley\sounds\xing.wav
+.wallend 0, .wallend 1
+.freeobj 1;904;0.6;-0.6;180
+.railend 4;35, .dikeend 4
+
+82622
+.freeobj 0;11434;-30;0;90, .freeobj 0;11434;-50;0;90
+
+
+82625
+.freeobj 0;109
+.freeobj 0;149
+.wall 0;-1;0, .wall 1;1;136
+
+82626
+.freeobj 1;271;0.1
+
+82650
+.dike 1;1;235
+
+82775
+.wallend 1, .dikeend 1
+.curve -1400;5
+.railtype 0;31, .railtype 1;31
+.railstart 2;13;-2.1;3, .wall 2;1;174
+.freeobj 1;106;0;0;180
+
+82825
+.curve -1000;12
+.railtype 0;5, .railtype 1;5
+.limit 90
+.freeobj 0;113;-0.7
+.freeobj 1;190;0.4;0;180
+.rail 2;12;-2.4, .freeobj 2;924;16;6;90
+
+82850
+.curve -806;18
+.railtype 0;33, .railtype 1;33
+.rail 2;11;-2.7, .freeobj 2;924;16;6;90
+
+82862
+.Beacon 44000;1;1;0
+
+82875
+.pitch 2.17
+.curve -1400;5
+.railtype 0;31, .railtype 1;31
+.rail 2;10;-3, .freeobj 2;924;16;6;90
+
+82900
+.rail 2;9;-3.3
+.freeobj 2;322;16;5;75
+
+82912
+.freeobj 2;337;16;9;75
+
+82925
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.rail 2;8;-3.6
+.freeobj 2;323;16;5;75
+
+82937
+.freeobj 2;337;16;9;75
+
+82950
+.rail 2;7;-3.9
+.freeobj 0;322;23;1;75
+
+82962
+.freeobj 0;323;23;1;75
+
+82975
+.curve 1400;5
+.railtype 0;32, .railtype 1;32
+.rail 2;6;-4.2
+.freeobj 0;337;23;4;75
+
+82987
+.freeobj 0;323;23;1;75
+
+83000
+.rail 2;5;-4.35
+.freeobj 0;337;23;4;75
+
+83012
+.freeobj 0;323;23;1;75
+
+83025
+.curve 754;18
+.railtype 0;34, .railtype 1;34
+.rail 2;4.4;-4.5
+.freeobj 0;337;23;4;75
+
+83037
+.SigF 3; 1;-2.25;4.51;0, .Section 0;2;4
+.freeobj 0;52;-2.25;-0.5
+.freeobj 0;322;23;1;75
+
+83050
+.rail 2;4;-4.8
+
+83075
+.rail 2;3.1;-5
+.freeobj 2;323;16;5;75
+
+83087
+.freeobj 2;322;16;6;75
+
+83100
+.curve 1400;5
+.railtype 0;32, .railtype 1;32
+.wallend 1, .dikeend 1
+
+83112
+.freeobj 2;337;16;6;75
+
+83125
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+
+83150
+.curve -1400;5
+.railtype 0;31, .railtype 1;31
+.pitch -1.43
+.rail 2;5;-4.7
+.freeobj 2;262;18;6;90
+
+83162
+.freeobj 2;323;17;5;75
+
+83175
+.curve -1225;9
+.rail 2;9;-4.3
+.freeobj 2;322;14;5;75
+.railstart 3;0;0;3, .wall 3;1;0
+
+83187
+.freeobj 2;323;11;6;70
+
+83200
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.railend 2;13;-3.8, .wallend 2
+.ground 0
+
+83225
+.curve -1400;5
+.railtype 0;31, .railtype 1;31
+.wallend 0
+.ground 42
+
+83250
+.curve -802;18
+.railtype 0;33, .railtype 1;33
+
+83275
+.pitch -1.04
+
+83300
+.curve -1400;5
+.railtype 0;31, .railtype 1;31
+
+83325
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.pitch -0.52
+
+83350
+
+83375
+.curve -1400;5
+.railtype 0;31, .railtype 1;31
+.pitch -0.26
+
+83400
+.curve -826;18
+.railtype 0;33, .railtype 1;33
+
+83425
+.pitch 0
+
+83450
+.curve -1400;5
+.railtype 0;31, .railtype 1;31
+
+83475
+.curve -603;18
+.railtype 0;33, .railtype 1;33
+
+83500
+.curve -1400;5
+.railtype 0;31, .railtype 1;31
+.ground 11
+.freeobj 0;601
+.railend 3, .wallend 3
+
+
+83515
+.freeobj 1;274;26;-4;-75
+
+83524
+.freeobj 1;434;3;-3;105
+
+83525
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.wall 0;-1;0
+.railstart 2;3;-4;3, .wall 2;1;174
+
+83625
+.pitch -3.333
+
+83700
+.freeobj 0;190;-0.7
+.freeobj 1;113;0.2;0;180
+.limit 105
+
+83725
+.rail 2;4
+.freeobj 1;52;2.5;-0.5;180
+
+83750
+.rail 2;5.35
+
+83757
+.Beacon 44000;1;1;0
+
+83775
+.wallend 0, .railend 2;7.7, .wallend 2
+;.sta Blaydon;08.3330;08.3400;1;-1;0;;;30;200;
+.freeobj 0;11251;0.3
+.freeobj 0;11261;-0.3
+.freeobj 0;921
+.freeobj 1;248;6.6;-2.5;85
+.freeobj 0;248;-7;-2.7;-85
+
+83779
+.freeobj 0;323;12;-2;-99
+
+83780
+.freeobj 1;248;6.6;-2.5;85
+.freeobj 0;248;-7;-2.7;-85
+
+83783
+.freeobj 0;326;-10;0;90
+.freeobj 1;326;2;0;90
+
+83789
+.freeobj 0;906;1
+.freeobj 1;906;-1;0;180
+.freeobj 0;853;1;0.3
+.freeobj 1;853;-1;0.3;180
+.freeobj 0;323;12;-2;-99
+
+83800
+.freeobj 0;11252;0.3
+.freeobj 0;11262;-0.3
+.freeobj 0;921
+
+83801
+.freeobj 0;323;12;-2;-99
+
+83806
+.freeobj 0;906;1
+.freeobj 1;906;-1;0;180
+.freeobj 0;853;1;0.3
+.freeobj 1;853;-1;0.3;180
+
+83811
+.freeobj 0;324;-2.3
+
+83812
+.freeobj 0;323;12;-2;-99
+
+83815
+.freeobj 0;906;1
+.freeobj 1;906;-1;0;180
+.freeobj 0;853;1;0.3
+.freeobj 1;853;-1;0.3;180
+
+83825
+.freeobj 0;11252;0.3
+.freeobj 0;11262;-0.3
+.freeobj 0;922
+.freeobj 0;3242
+.freeobj 1;3243
+.freeobj 0;325;-4;1.1;-55
+.freeobj 1;352;-0.4;0.3;180
+
+83835
+.freeobj 0;323;12;-2;-99
+.freeobj 0;327;-4;0.1;-179
+
+83837
+.freeobj 0;248;-9;0;-55
+
+83846
+.freeobj 0;906;1
+.freeobj 1;906;-1;0;180
+.freeobj 0;853;1;0.3
+.freeobj 1;853;-1;0.3;180
+.freeobj 0;323;12;-2;-99
+.freeobj 0;248;-9;1;-65
+
+83850
+.freeobj 0;11252;0.3
+.freeobj 0;11262;-0.3
+.freeobj 0;921
+.railstart 2;10;0;3, .wall 2;1;41
+;.Stop 0;23;25
+
+83854
+.freeobj 0;248;-9;0;-65
+
+83864
+.freeobj 0;906;1
+.freeobj 1;906;-1;0;180
+.freeobj 0;853;1;0.3
+.freeobj 1;853;-1;0.3;180
+.freeobj 0;248;-9;-1;-65
+
+83874
+.freeobj 0;802;-3.5;-0.5, .freeobj 1;802;3.5;-0.5
+.freeobj 0;248;-9;1;-65
+
+83875
+.freeobj 0;11256;0.3
+.freeobj 0;11266;-0.3
+.freeobj 0;921
+.freeobj 0;248;-9;0;-65
+.freeobj 0;326;-10;0;90
+.freeobj 1;326;2;0;90
+.rail 2;8.1
+
+83883
+.freeobj 0;248;-9;1;-65
+
+83893
+.freeobj 0;906;1
+.freeobj 1;906;-1;0;180
+.freeobj 0;248;-9;0;-65
+
+83900
+.freeobj 0;11257;0.3
+.freeobj 0;11267;-0.3
+.freeobj 0;921
+.freeobj 0;248;-9;0;-65
+.rail 2;6.3
+
+83914
+.freeobj 0;906;1
+.freeobj 1;906;-2.7;0;180
+.freeobj 1;501
+
+83919
+.freeobj 1;248;3.2;-2.5;85
+.freeobj 0;248;-7;-2.7;-85
+
+83923
+.freeobj 1;248;2.8;-2.5;85
+.freeobj 0;248;-7;-2.7;-85
+
+83925
+.curve -1445;7, .railtype 0;31, .railtype 1;31
+.railend 2;4.4, .wallend 2
+.railstart 3;3.8;-5;3, .wall 3;1;174
+.railstart 4;-4.7;0;3, .wall 4;-1;136
+.freeobj 4;904;-0.2
+.freeobj 0;11434;-25;0;30
+.railstart 6;17;0;101
+
+83927
+.SigF 3; 1;-2.5;4.51;0, .Section 0;2;4
+.freeobj 0;52;-2.5;-0.5
+
+83947
+.freeobj 0;248;12;-2.5;55
+
+83950
+.curve -1420;17
+.rail 3;11.5
+.rail 4;-3.7
+.freeobj 0;333;-10;0;-90
+.freeobj 4;904;-0.2
+.rail 6;19.2;1.4
+
+83971
+.freeobj 0;248;-5.5;-2.7;-75
+
+83974
+.freeobj 0;248;12;-2.5;62
+
+83975
+.rail 3;9.5
+.rail 4;-3
+.freeobj 0;333;-10;0;-112
+.freeobj 4;904;-0.2
+.freeobj 4;11434;0.3;-1.5;-5
+.freeobj 4;11434;0;0;-20
+.rail 6;22;2.8
+
+83976
+.freeobj 0;455;-12.5;3.3;-12
+
+84000
+.pitch -5
+.curve -1445;7
+.railend 3;7.5, .wallend 3
+.rail 4;-2.7
+.railstart 5;8.5;0;3, .wall 5;1;136
+.freeobj 0;333;-19.5;0;-112
+.freeobj 4;904;-0.2
+.freeobj 4;11434;0;-0.5;-9
+.rail 6;25;4.2
+.railstart 7;17;-0.2;201
+
+84025
+.curve 0;0, .railtype 0;4, .railtype 1;4
+.freeobj 0;334;0;0;-3
+.rail 4;-2.6
+.rail 5;7
+.rail 6;28;5.4
+.freeobj 4;102
+.rail 7;16.25
+
+84026
+.freeobj 0;323;-9;-3;-45
+.freeobj 7;4$rnd(85;90);-1.9;0;-180
+
+84050
+.rail 4;-1.8
+.rail 5;5.5
+.rail 6;27;6.3
+.freeobj 4;102
+.rail 7;15.5
+
+84056
+.freeobj 1;248;3.3;-4;77
+.freeobj 7;4$rnd(85;90);-1.9;0;-180
+
+84075
+.railend 4;-1.4, .wallend 4
+.railend 5;4, .wallend 5
+.railend 6;21;7, .wallend 6
+.rail 7;14.75
+
+84081
+.freeobj 0;434;-0.8;-3.7;-172
+.freeobj 1;904;0;-0.3;177
+.freeobj 7;4$rnd(85;90);-1.9;0;-180
+
+84087
+.freeobj 1;237;3.3;0;-264
+
+84093
+.freeobj 0;4$rnd(85;90);-4.2;0;-90
+
+84099
+.freeobj 0;248;-8;-2
+
+;Blaydon LC
+84100
+.freeobj 0;9062
+.rail 8;0;0;3    ;sound trigger
+.freeobj 0;101
+.railtype 0;3
+.wall 0;-1;136
+.railend 7;14;-0.6
+.railstart 2;4;0;3, .wall 2;1;136
+.railstart 9;-28;-0.2;201, .freeobj 9;11434;-3;-3
+.freeobj 0;249;4.7;-0.7
+.railstart 10;0;-1;3, .wall 10;-1;9
+
+84101
+.freeobj 0;952;13.5
+.freeobj 0;952;20
+
+84117
+.freeobj 1;952;5
+.freeobj 1;952;10
+.freeobj 2;11434;28;0;111
+
+84125
+.railtype 0;4 , .railtype 1;3
+.railend 8;4
+.rail 2;6
+.rail 9;-15, .freeobj 9;11434;-3;-3
+.brightness 255
+
+84128
+.freeobj 1;952;6
+.freeobj 2;11434;20;0;111
+
+84148
+.freeobj 0;952;-4
+.brightness 155
+
+84150
+.railtype 1;4
+.freeobj 1;9062;0;0;180
+.rail 2;8;0;24
+.freeobj 2;11434;12;0;111
+.rail 9;-10, .freeobj 9;11434;-3;-3
+
+84154
+.freeobj 2;51;0;0;180
+
+84160
+.freeobj 0;952;-4
+.freeobj 2;11434;4;0;111
+.brightness 255
+
+84162
+.freeobj 9;4$rnd(85;90);1.7;0;-3
+
+84175
+.railtype 1;3
+.freeobj 1;9062
+.wallend 2
+.freeobj 2;333;4;-0.4
+.freeobj 9;11434;-3;-3
+.freeobj 0;951,  ;Blaydon overbridge
+
+84200
+.railtype 1;4
+.railtype 2;3
+.pitch 1.1682
+.freeobj 0;249;4.7;-0.7
+.freeobj 2;333;4;-0.4
+.rail 9;-15, .freeobj 9;11434;-3;-3
+
+84225
+.freeobj 2;9063;0;0;180
+.railtype 2;24
+.freeobj 2;333;4;-0.4
+.rail 9;-23, .freeobj 9;11434;-3;-3
+.freeobj 0;249;4.7
+
+84250
+.rail 9;-31, .freeobj 9;11434;-3;-3
+.freeobj 2;333;4;-0.4
+.freeobj 0;323;-20;-2
+.rail 10;0;-0.9
+
+84275
+.freeobj 2;333;4;-0.4
+.rail 9;-39, .freeobj 9;11434;-3;-3
+.rail 10;0;-0.7
+
+84300
+.freeobj 2;333;4;-0.4
+.railend 9;-47
+.rail 10;0;-0.5
+
+84325
+.Beacon 44001;1;1;0
+.freeobj 2;333;4;-0.4
+.rail 10;0;-0.3
+
+84350
+.railtype 2;3
+.freeobj 2;1031
+.freeobj 2;333;4;-0.4
+.rail 10;0;-0.2
+
+84375
+.railtype 1;3
+.railtype 2;24
+.freeobj 2;333;4;-0.4
+.rail 10;0;-0.1
+
+84400
+.railtype 1;4
+.freeobj 1;1030;0;0;180
+.freeobj 1;501
+.freeobj 2;333;4;-0.4
+.rail 10;0;0
+;.railend 10, ;.wallend 10
+
+84425
+.freeobj 2;333;4;-0.4
+
+84446
+.freeobj 0;1485;-15;0;-80
+
+84450
+.freeobj 0;609;-0.2
+.freeobj 2;333;4;-0.4
+
+84455
+.freeobj 0;1485;-15.5;0;-80
+
+84464
+.freeobj 0;1485;-16;0;-80
+
+84475
+.freeobj 2;333;4;-0.4
+
+84497
+.freeobj 2;51
+
+84500
+.railtype 2;3, .wall 2;1;136
+.freeobj 0;250;4
+
+84525
+.freeobj 0;250;3.9;-0.1
+.rail 2;6
+
+84550
+.freeobj 0;250;3.8;-0.2
+.wall 1;1;136
+.freeobj 0;925;-40;0;-7, ;Blaydon depot
+.railend 2;4, .wallend 2
+
+84575
+.freeobj 0;250;3.7;-0.3
+.Beacon 44000;1;1;0
+
+84577
+.freeobj 0;1483;-31;0;-40, .freeobj 0;1484;-31;0;-85
+
+84600
+.freeobj 0;250;3.6;-0.4
+.wallend 10
+
+84625
+.freeobj 0;250;3.5;-0.5
+.freeobj 0;340;-37.9579;0;-270, ;north east truck depot
+.wall 10;-1;9
+
+;A1
+84650
+.freeobj 0;953;0;0;-8
+.freeobj 0;250;3.4;-0.6
+.freeobj 0;249;0;-4
+.brightness 255
+
+84652
+.freeobj 0;952;-4.5
+
+84654
+.freeobj 1;952;4.5
+
+84659
+.freeobj 0;952;-4.5
+.brightness 111
+
+84661
+.freeobj 1;952;4.5
+
+84666
+.freeobj 0;952;-4.5
+
+84668
+.freeobj 1;952;4.5
+
+84671
+.freeobj 0;952;-4.5
+.brightness 255
+
+84675
+.freeobj 1;952;4.5
+.freeobj 0;250;3.3;-0.7
+
+
+84700
+.freeobj 0;250;3.5;-0.8
+
+
+84725
+.freeobj 0;250;3.2;-0.9
+.freeobj 0;249;2
+.SigF 3; 1;-2.02;4.51;0, .Section 0;2;4
+.freeobj 0;52;-2.02;-0.5
+
+84750
+.freeobj 0;250;3.1;-1
+
+84775
+.freeobj 0;250;3;-1
+
+84800
+.freeobj 0;250;3;-1
+
+84825
+.freeobj 0;250;3;-1
+
+84850
+.freeobj 0;250;3;-1
+
+84875
+.freeobj 0;250;3;-1
+.freeobj 0;925;-40
+
+84900
+.freeobj 0;250;3;-1
+
+84925
+.freeobj 0;250;3;-1
+
+84950
+.freeobj 0;250;3;-1
+
+84975
+.freeobj 0;250;3;-1
+
+85000
+.freeobj 0;250;3;-1
+
+85025
+.freeobj 0;925;-27;0;43
+.freeobj 0;250;3;-1
+.freeobj 1;941;;;180
+.brightness 255
+
+85050
+.freeobj 0;250;3;-1
+.freeobj 1;941;;;180
+
+85066
+.brightness 255
+.freeobj 0;106
+
+85075
+.freeobj 0;250;3;-1
+.freeobj 1;941;;;180
+.freeobj 0;953;;;-36
+
+85077
+.freeobj 0;952;-4.5
+
+85084
+.freeobj 1;952;4.5
+.freeobj 0;952;-4.5
+.brightness 111
+
+85091
+.freeobj 1;952;4.5
+.freeobj 0;952;-4.5
+
+85098
+.freeobj 1;952;4.5
+.freeobj 0;952;-4.5
+.freeobj 0;434;-20;0;-126
+
+85100
+.freeobj 1;941;;;180
+.brightness 255
+
+85105
+.freeobj 1;952;4.5
+.freeobj 0;434;-6;0;-126
+
+85125
+.ground 63
+.freeobj 0;249;2;-0.2
+.freeobj 1;941;;;180
+
+85150
+.freeobj 1;941;;;180
+
+85175
+.freeobj 0;249;2;-0.2
+.freeobj 1;941;;;180
+
+85200
+.wallend 0, .wallend 1
+.freeobj 0;80
+.freeobj 0;2344;38;;90
+.wallend 10
+.freeobj 0;249;2;-0.2
+.freeobj 1;941;;;180
+
+85205
+.freeobj 0;961;-4.5;;-180
+
+85208
+.freeobj 0;941;;-0.01
+
+85225
+.wall 0;-1;136
+.wall 10;-1;9
+.railstart 2;3.1;-6;3, .wall 2;1;174
+
+85233
+.freeobj 1;941;;;180
+
+85250
+.freeobj 1;434;59
+
+85275
+.freeobj 1;434;59
+.freeobj 1;323;4;-4;80
+
+85287
+.freeobj 1;322;4;-2;80
+
+85300
+.freeobj 0;249;2;-0.2
+.freeobj 1;434;59
+.freeobj 1;323;4;-4;80
+
+85325
+.freeobj 0;344;25;0;63
+.freeobj 1;106;;;165
+
+85348
+.freeobj 1;52;2.1;-0.2;180
+
+85350
+.wallend 0
+.railend 2, .wallend 2
+.railend 10, .wallend 10
+.freeobj 0;345
+.ground 37
+
+85375
+.freeobj 0;345
+.freeobj 0;953;82;-2;77
+
+85400
+.freeobj 0;345
+
+85425
+.pitch -2.69542
+.freeobj 1;434;69;-1;-90
+.ground 48
+.wall 0;-1;136, .wall 1;1;136
+.freeobj 0;434;-4;-5;-90
+.freeobj 0;434;-29;-5;-90
+.freeobj 0;434;-54;-5;-90
+
+85430
+.freeobj 0;381;-0.3
+.limit 65
+.freeobj 1;434;27;-2;-90
+.freeobj 1;434;50;-2;-90
+
+85448
+.freeobj 1;248;6;-1;22
+
+85450
+.freeobj 0;258;-16;-0.02;-33
+
+85453
+.freeobj 0;248;-2.7;-3;-90
+
+85458
+.freeobj 1;248;6;-1;22
+.freeobj 0;248;-2.7;-3;-90
+
+85463
+.freeobj 0;248;-2.7;-3;-90
+
+85468
+.freeobj 1;248;6;-1;22
+.freeobj 0;248;-2.7;-3;-90
+
+85473
+.freeobj 0;258;-26;0;-33
+.freeobj 0;248;-2.7;-3;-90
+
+85478
+.freeobj 1;248;6;-1;22
+
+85488
+.freeobj 1;248;6;-1;22
+
+85496
+.freeobj 0;258;-36;0;-33
+
+85498
+.freeobj 1;248;6;-1;22
+
+85500
+.curve 1400;15
+.railtype 0;32, .railtype 1;32
+.freeobj 0;248;-5;-3;-32
+
+85508
+.freeobj 1;248;6;-1;22
+.freeobj 0;248;-5;-2;-32
+
+85519
+.freeobj 0;258;-46;0;-33
+.freeobj 0;248;-5;-2;-32
+
+85542
+.freeobj 0;258;-56;0;-33
+.freeobj 0;248;-5;-2;-32
+
+85544
+.freeobj 1;322;9;-0.5;22
+
+85550
+.curve 700;10
+.railtype 0;34, .railtype 1;34
+.freeobj 1;501
+.freeobj 0;248;-5;-2;-32
+
+85558
+.freeobj 1;322;9;-0.5;22
+.freeobj 0;248;-5;-2;-32
+
+85572
+.freeobj 1;322;9;-0.5;22
+.freeobj 0;248;-5;-2;-32
+
+85575
+.curve 500;15
+.railtype 0;12, .railtype 1;12
+
+85586
+.freeobj 1;322;9;-0.5;22
+.freeobj 0;248;-5;-2;-32
+
+85600
+.pitch 1.56
+.curve 326;32
+.railtype 0;13, .railtype 1;3
+.freeobj 1;931;0;-0.01;-2.43
+.freeobj 0;725;-64;1;-9
+.freeobj 1;322;9;-0.5;22
+.freeobj 0;248;-5;-2;-32
+
+85625
+.railtype 1;13
+.railtype 0;3
+.railstart 15;2;0;3 ;point sound trigger
+.freeobj 1;248;9;-1;22
+.freeobj 0;248;-5;-2;-32
+
+85632
+.freeobj 1;323;9;-0.5;22
+
+85638
+.freeobj 1;322;9;-0.5;22
+.freeobj 0;248;-5;-2;-32
+
+85644
+.freeobj 1;337;9;-0.5;22
+
+85650
+.railtype 0;13
+.railend 15;0
+.freeobj 0;930;;;177.98
+.freeobj 0;725;-34;1;-22
+.freeobj 0;725;-58;1;75
+.freeobj 1;323;9;-0.5;22
+.freeobj 0;248;-5;-2;-32
+
+85657
+.freeobj 1;322;9;-0.5;22
+
+85663
+.freeobj 1;337;9;-0.5;22
+.freeobj 0;248;-5;-2;-32
+
+85669
+.freeobj 1;323;9;-0.5;22
+
+85675
+.freeobj 1;322;9;-0.5;22
+.freeobj 0;248;-5;-2;-32
+
+85695
+.brightness 255
+.freeobj 0;248;-5;-2;-32
+
+85700
+.Beacon 44000;1;1;0
+.freeobj 0;953, .freeobj 0;954
+.brightness 123
+.freeobj 0;725;-49;1;-29
+
+85710
+.brightness 255
+
+85725
+.curve 700;10
+.railtype 0;34, .railtype 1;34
+.freeobj 0;348
+.wall 0;-1;18, .wallend 1
+
+85750
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.freeobj 0;348
+
+85775
+.freeobj 0;348
+
+85800
+.freeobj 0;348
+
+85825
+.freeobj 0;348
+.SigF 3; 1;-2.02;4.51, .Section 0;2;4
+.freeobj 0;52;-2.02;-0.5
+
+85850
+.freeobj 0;348
+
+85875
+.freeobj 0;348
+
+85900
+.freeobj 0;348
+
+85921,.freeobj 0;349;78.987;0;2
+
+85925
+.freeobj 0;348
+
+85944
+.freeobj 0;350;57.0976;0;-354
+
+85950
+.freeobj 0;348
+.curve -1400;10
+.railtype 0;31, .railtype 1;31
+.railstart 2;60;0;3, .wall 2;1;28
+
+85975
+.freeobj 0;348
+.curve -700;18, .railtype 0;33, .railtype 1;33
+
+86000
+.rail 2;65
+.freeobj 0;348
+.freeobj 1;501
+.curve -500;26, .railtype 0;6, .railtype 1;6
+
+86025
+.freeobj 0;348
+
+86050
+.rail 2;70
+.freeobj 0;348
+
+86075
+.freeobj 0;348
+.curve -700;18, .railtype 0;33, .railtype 1;33
+
+86100
+.curve -1400;10
+.railtype 0;31, .railtype 1;31
+.railstart 3;40;0;201
+.railstart 5;3.7;0;3, .wall 5;1;8
+.freeobj 0;348
+.wallend 0
+.railstart 4;-0.1;-0.01;3, .wall 4;-1;136
+.freeobj 4;19
+
+86125
+.rail 3;36
+.rail 5;10
+.ground 48
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.rail 4;-0.5
+.freeobj 4;19
+
+86143
+.freeobj 0;802;-5.5;-1;180, .freeobj 1;802;5.5;-1;180
+
+86150
+.rail 3;32
+.rail 4;-5, .freeobj 4;19
+.rail 5;12
+.freeobj 0;1201
+.freeobj 1;1211
+.railend 2, .wallend 2
+.sta MetroCentre;13.4600;13.4700;1;-1;0;;;30;70;
+
+86157
+.freeobj 0;841
+.freeobj 1;841;;;180
+.freeobj 0;2258
+.freeobj 1;2258;;;180
+
+86167
+.freeobj 0;2258
+.freeobj 1;2258;;;180
+
+86175
+.rail 4;-9, .freeobj 4;19
+.freeobj 3;4$RND(86;90);2
+.freeobj 0;1202
+.freeobj 1;1212
+.freeobj 0;327;-2.4;0.2
+.railend 4, .wallend 4
+
+86187
+.freeobj 0;2258
+.freeobj 1;2258;;;180
+
+86198
+.freeobj 0;2258
+.freeobj 1;2258;;;180
+
+86200
+.rail 3;35
+.freeobj 3;4$RND(86;90);-2;0;175
+.freeobj 0;1202
+.freeobj 1;1212
+.Stop 0;10;42
+
+86209
+.freeobj 0;2258
+.freeobj 1;2258;;;180
+
+86220
+.freeobj 0;2258
+.freeobj 1;2258;;;180
+
+86225
+.rail 3;38
+.freeobj 3;4$RND(86;90);2
+.freeobj 0;1203
+.freeobj 1;1213
+
+86231
+.freeobj 0;353
+.freeobj 0;2258
+.freeobj 1;2258;;;180
+
+86236
+.freeobj 0;841
+.freeobj 1;841;;;180
+
+86242
+.freeobj 0;2258
+.freeobj 1;2258;;;180
+
+86250
+.rail 3;40
+.freeobj 3;4$RND(86;90);-2;0;180
+.freeobj 0;7041
+.freeobj 0;138;-5.025;;9.2069
+.freeobj 0;802;-5.5;-1, .freeobj 1;802;5.5;-1
+
+86252
+.freeobj 1;346;1.5;;180
+
+86275
+.rail 3;43
+.freeobj 0;138;-1;;2.3
+.freeobj 3;4$RND(86;90);2
+
+86300
+.rail 3;47
+
+.freeobj 3;4$RND(86;90);-2;0;180
+.freeobj 0;138
+
+86314
+.brightness 255
+
+86315
+.freeobj 0;2359
+
+86317
+.freeobj 0;48$RND(6;8);5;7.2;90
+.freeobj 0;48$RND(6;8);22;7.2;90
+.freeobj 0;48$RND(6;8);-18;7.2;90
+
+86320
+.brightness 99
+
+86325
+.railend 5, .wallend 5
+.brightness 255
+.freeobj 0;138
+.ground 11
+.rail 3;54
+.freeobj 3;4$RND(86;90);2
+.freeobj 0;249;0;-4;0
+.freeobj 0;250;4
+
+86350
+.railend 3;68
+.ground 45
+.dike 0;-1;1, .dike 1;1;1
+.freeobj 0;249;;-4.7
+.freeobj 0;250;4;-4.7
+
+86375
+.freeobj 0;249;;-4.7
+.freeobj 0;250;4;-4.7
+
+86400
+.ground 45
+.freeobj 0;249;;-4.7
+.freeobj 0;250;4;-4.7
+
+86425
+.freeobj 1;52;2.4;-0.38;180
+.Beacon 44000;1;1;0
+
+86477.38098,.freeobj 0;298;43.7665;-5;-89
+
+86500
+.freeobj 0;21
+.freeobj 0;20;4;;0.2112
+.freeobj 0;9472
+.ground 0
+.curve 500;19
+.dikeend 0, .dikeend 1
+.railtype 0;12, .railtype 1;12
+
+86510
+.freeobj 0;354;-29;;90, .freeobj 0;354;-54;;90
+.freeobj 0;354;8;;90, .freeobj 0;354;33;;90
+
+86525
+.freeobj 0;249;;-4.7
+.freeobj 1;9472;;;177
+.ground 45
+.dike 0;-1;1, .dike 1;1;1
+
+86530.36775,.freeobj 0;298;46.6691;-5;-93
+
+86550
+.freeobj 0;249;;-4.7
+
+86575
+.freeobj 0;249;;-4.7
+.SigF 3;1;-2.5;4.5, .Section 0;2;4
+.freeobj 0;52;-2.5;-0.5
+.freeobj 0;11001;-2.5, .freeobj 0;11012;-2.5, .freeobj 0;11025;-2.5, .freeobj 0;11038;-2.5
+
+86600
+.freeobj 0;249;;-4.7
+.freeobj 1;501
+
+86625
+.freeobj 0;249;;-4.7
+
+86650
+.freeobj 0;249;;-4.7
+.freeobj 1;725;55;-3.8;90
+
+86675
+.freeobj 0;249;;-4.7
+.freeobj 1;725;48;-3.8;90
+
+86700
+.freeobj 0;249;;-4.7
+.freeobj 1;725;48;-3.8;90
+
+86725
+.freeobj 0;249;;-4.7
+.freeobj 1;725;40;-3.8;90
+
+86750
+.freeobj 0;249;;-4.7
+
+86775
+.freeobj 0;249;;-4.7
+
+86800
+.ground 0
+.dikeend 0, .dikeend 1
+.freeobj 0;9353;-0.15
+.freeobj 0;9472
+
+86810
+.freeobj 0;354;-29;;90, .freeobj 0;354;-54;;90
+.freeobj 0;354;8;;90, .freeobj 0;354;33;;90
+
+86825
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.dike 0;-1;1, .dike 1;1;1
+.freeobj 0;9353;4;;178.5
+.freeobj 1;9472;;;178.5
+.freeobj 0;772;34.5;-5;90, .freeobj 0;772;54;-5;90
+
+86835
+.freeobj 0;298;-20.3;-5;-90
+
+86850
+.pitch 6.25
+.railstart 2;0;-11.1;3, .wall 2;-1;13
+
+86875
+.freeobj 0;364;-25;-7, .freeobj 0;64;-45;-7
+.curve -700;15
+.railtype 0;33, .railtype 1;33
+
+86900
+.rail 2;0;-8
+
+86925
+.rail 2;0;-6
+
+86950
+.rail 2;0;-4
+
+86975
+.rail 2;0;-2
+
+87000
+.rail 2;0;-1
+
+87025
+.railend 2;0;0, .wallend 2
+.dikeend 0, .dikeend 1
+.wall 0;-1;13
+
+87138
+.freeobj 0;364;37;;-343
+
+87150
+.Beacon 44000;1;1;0
+
+87225
+.brightness 255
+
+87235
+.brightness 111
+
+87246
+.freeobj 0;336;9;-0.3;-41
+.brightness 255
+
+87275
+.pitch 0
+.freeobj 0;52;6.3;-0.5;180
+
+87300
+.pitch -6.67
+.SigF 3; 1;-2.5;4.5, .Section 0;2;4,
+.freeobj 0;52;-2.5;-0.5
+.freeobj 0;11001;-2.5, .freeobj 0;11012;-2.5, .freeobj 0;11025;-2.5, .freeobj 0;11036;-2.5
+
+87450
+.freeobj 1;501
+
+87500
+.wall 0;-1;12, .wall 1;1;12
+.rail 1;4.25;;4
+
+87525
+.rail 1;4.75;;4
+.railstart 15;4.2;-0.1;61
+
+87550
+.rail 1;6;;5
+
+87575
+.pitch 0
+.rail 1;8;;11;61
+
+87590
+.brightness 255
+
+87594
+.freeobj 0;9441;0.1;0.05;-1
+.brightness 99
+
+87596
+.freeobj 0;48$rnd(6;7);-9;6;90, .freeobj 0;48$rnd(6;7);9;6;90
+
+87600
+.pitch 6.25
+.wall 0;-1;9, .wall 1;1;11
+.brightness 255
+.freeobj 0;282;10.237;0;4.2156
+.freeobj 0;283;10.237;0;4.2156
+.freeobj 0;287
+.freeobj 0;286
+.rail 1;10;0;5
+
+87625
+.freeobj 0;71
+.freeobj 0;288;12.16;;0.3226
+.freeobj 0;341;12.16;;0.3226
+.freeobj 0;289;12.16;;0.3226
+.curve 0;0
+.freeobj 0;292
+.freeobj 0;291
+.railtype 0;4,
+.rail 1;12;0;5
+.railend 15
+.freeobj 0;9315;-3;1
+
+87626
+.freeobj 0;370;8.258;;-89
+
+87650
+.freeobj 0;71
+.freeobj 0;288;12.3021;;0.0327
+.freeobj 0;289;12.3021;;0.0327
+.freeobj 0;292
+.freeobj 0;291
+.freeobj 0;9315;-3;1
+
+87675
+.freeobj 0;71
+.freeobj 0;288;12.3171;;0.0327
+.freeobj 0;289;12.3171;;0.0327
+.freeobj 0;292
+.freeobj 0;291
+.freeobj 0;9315;-3;1
+
+87676.11381,.freeobj 0;262;-52.3414;;-77
+87680.89529,.freeobj 0;371;4.8019;0;1
+87698.8488,.freeobj 0;262;-47.6619;;-77
+
+87700
+.freeobj 0;292
+.freeobj 0;289;12.3492;;1.095
+.freeobj 0;288;12.3492;;1.095
+.freeobj 0;291
+.freeobj 0;9315;-3;1
+;.sta Dunston;08.4230;08.4300;1;-1;0;;;20;219;
+
+87715
+.freeobj 0;0;10
+;.Stop 0;40;15
+
+87722.02899,.freeobj 0;262;-42.2798;0;-76
+87724.10192,.freeobj 0;14;6.1755;0;5
+
+87725
+.freeobj 0;296;12.5507;;-9.4367
+.freeobj 0;295;12.5507;;-9.4367
+.freeobj 0;329
+.curve 1400;10
+.railtype 0;32
+.freeobj 0;328
+.rail 1;12;0;4
+.freeobj 0;9315;-3;1;-0.51
+
+87744.30327,.freeobj 0;248;5.6766;-2;-111
+87746.20111,.freeobj 0;262;-36.4679;0;-75
+
+87750
+.ground 48
+.rail 1; 9;;4
+.freeobj 0;9315;-3;1;-1.02
+
+87753,.freeobj 0;373;30;-0.1;-98
+
+87775
+.rail 1;7;0;4
+.Beacon 44000;1;1;0,
+.freeobj 0;373;30;-0.1;-98
+
+87794,.freeobj 0;373;30;-0.1;-98
+
+87800
+.rail 1;6;;4
+
+87814,.freeobj 0;373;30;-0.1;-98
+
+87825
+.rail 1;5;;34
+
+87833,.freeobj 0;373;30;-0.1;-98
+
+87850
+.rail 1;4.3;;32
+
+87853,.freeobj 0;373;30;-0.1;-98
+87872,.freeobj 0;373;30;-0.1;-98
+
+87875
+.rail 1;4;;32
+
+87888,.freeobj 0;373;30;-0.1;-98
+
+87900
+.rail 1;4.1;;32
+
+87905,.freeobj 0;373;30;-0.1;-98
+
+87925
+.freeobj 0;373;30;-0.1;-98
+.rail 1;4;;32
+
+87948,.freeobj 0;373;30;-0.1;-98
+
+87950
+.pitch 2.2
+.SigF 52;1;-3.2;4.3, .Section 0;2;4
+.freeobj 0;52;-3.2;-0.6
+.freeobj 0;11001;-3.2, .freeobj 0;11012;-3.2, .freeobj 0;11025;-3.2, .freeobj 0;11034;-3.2
+
+87969,.freeobj 0;373;30;-0.1;-98
+
+87975
+.pitch -1.84
+.freeobj 0;243;-0.6
+.freeobj 0;381;4.3;-0.2;180
+
+88000
+.limit 42
+
+88012,.freeobj 0;373;30;-0.1;-98
+
+88025
+.curve 0;0
+.railstart 13;0;0;3, ;point sound trigger
+.freeobj 0;62
+.railtype 0;3, .railtype 1;4
+
+88034,.freeobj 0;373;30;-0.1;-98
+
+88050
+.ground 0
+.freeobj 0;249;0;-4;0
+.railtype 0;4, .railtype 1;3
+.railend 13;4
+
+88075
+.wallend 0, .wallend 1
+.railtype 0;4, .railtype 1;4
+.freeobj 0;9353
+.freeobj 0;9474
+.freeobj 1;62;;;180
+
+88085
+.freeobj 0;9456;-29;;90, .freeobj 0;9456;8;;90
+
+88100
+.dike 0;-1;$rnd(11;12)
+.ground 45
+.freeobj 1;9353;;;180
+.freeobj 1;9474;;;180
+.freeobj 1;62
+.railtype 1;3
+.railstart 2;4;0;3, .wall 2;1;11
+.freeobj 1;725;40;-4;90
+
+88125
+.pitch 4.61
+.curve -700;20
+.railtype 0;33, .railtype 1;33
+.rail 2;6;0;7
+
+88150
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.rail 2;8.9;-0.2;4
+
+88175
+.rail 2;11.45;-0.6;33
+.wall 1;1;11
+
+88200
+.rail 2;13;-1.2;4
+
+88225
+.rail 2;13.3;-1.6;13
+
+88250
+.rail 2;14.6;-2
+.freeobj 2;52;2.4;-0.5;180
+
+88275
+.rail 2;18.1;-2.4
+
+88300
+.railend 2;23.5;-2.8, .wallend 2
+.curve -700;-20
+.railtype 0;33, .railtype 1;33
+.freeobj 0;250;3;-3
+
+88325
+.curve -300;-55
+.railtype 0;7, .railtype 1;7
+.freeobj 1;52;2.5;-0.5;180
+
+88350
+.freeobj 0;250;4;-3;-0.034
+
+88375
+.pitch 10.87
+.freeobj 0;250;4;-3;-0.034
+
+88400
+.freeobj 0;250;4;-3;-0.034
+
+88425
+.freeobj 0;250;4;-3;-0.034
+
+88450
+.freeobj 0;250;4;-3;-0.034
+
+88475
+.freeobj 0;250;4;-3;-0.034
+
+88500
+.freeobj 0;250;4;-3;-0.034
+.Beacon 44000;1;1;0
+
+88525
+.freeobj 0;250;4;-3;-0.034
+
+88550
+.freeobj 0;250;4;-3;-0.05
+
+88575
+.freeobj 0;250;4;-3;-0.05
+
+88600
+.freeobj 0;250;4;-3;-0.1
+
+88625
+.freeobj 0;250;4;-3;-0.1
+
+88650
+.curve -700;-20
+.railtype 0;33, .railtype 1;33
+
+88675
+.freeobj 0;250;4;-3;0.0033
+.curve 0;0
+.railtype 0;4, .railtype 1;4
+.limit 65
+.SigF 4; 1;-2.4;4.75;0, .Section 0;2;3;4,
+.freeobj 0;52;-2.4;-0.5;0
+.freeobj 1;52;2.5;-0.5;180
+.freeobj 0;11001;-2.4, .freeobj 0;11012;-2.4, .freeobj 0;11025;-2.4, .freeobj 0;11032;-2.4
+
+88695
+.freeobj 0;381;-0.9;-0.2
+.freeobj 0;381;4.6;-0.2;180
+
+88700
+.freeobj 0;434;-10;-5;-90
+
+88712
+.freeobj 0;373;-25;-4.8;90
+
+88725
+.freeobj 0;373;-25;-4.8;90
+
+88737
+.freeobj 0;373;-25;-4.8;90
+
+88750
+.freeobj 0;373;-25;-4.8;90
+
+88775
+.freeobj 0;373;-25;-4.8;90
+
+88800
+.dikeend 0, .wallend 1
+.freeobj 0;20;4
+.freeobj 0;21
+.freeobj 0;9471
+.ground 0
+
+88803
+.freeobj 0;901;-29;;90, .freeobj 0;901;-54;;90
+.freeobj 0;901;33;;90
+
+88817
+.freeobj 0;382;-5;-5;-90
+.freeobj 0;382;32.0497;-5;-90
+
+88825
+.freeobj 0;250;4;-5
+.freeobj 1;9471;;;180
+.dike 0;-1;$rnd(11;12), .dike 1;1;1
+.ground 45
+.curve -1000;22
+.railtype 0;5, .railtype 1;5
+
+88831,.freeobj 0;373;-35;-4.8;-90
+88838,.freeobj 0;373;-17;-4.8
+88838,.freeobj 0;373;-28;-4.8
+
+88850
+.freeobj 0;250;4;-5
+.freeobj 0;373;-25;-4.8;90
+
+88869
+.freeobj 0;373;-24;-4.8;90
+
+88875
+.pitch 7.58
+
+88882
+.freeobj 0;373;-24;-4.8;90
+.freeobj 0;250;4;-5
+
+88896
+.freeobj 0;373;-24;-4.8;90
+
+88900
+.ground 0
+.dikeend 0, .dikeend 1
+.freeobj 0;20;4
+.freeobj 0;21
+.freeobj 0;9471
+
+88903
+.freeobj 0;901;-29;;90, .freeobj 0;901;-54;;90, .freeobj 0;901;33;;90, .freeobj 0;901;8;;90
+
+88925
+.dike 0;-1;$rnd(11;12), .dike 1;1;1
+.freeobj 0;302;4;-5
+.freeobj 0;302;-30;-5
+.railstart 2;0;-11;3, .wall 2;-1;13
+.freeobj 1;9471;;;180
+.freeobj 0;298;49;-4.8;-90
+
+88950
+.freeobj 0;302;4;-5
+.freeobj 0;302;-30;-5
+.rail 2;0;-8
+
+88975
+.rail 2;0;-4
+.freeobj 0;302;4;-5
+.freeobj 0;302;-30;-5
+
+88998
+.brightness 255
+
+89000
+.freeobj 0;187
+.railend 2, .wallend 2
+.railtype 0;10 , .railtype 1;10
+.wall 0;-1;4
+.curve 0;0
+
+89005
+.brightness 88
+
+89025
+.dikeend 0, .dikeend 1
+
+89350
+.Beacon 44000;1;1;0
+
+89385,.brightness 88
+
+89396,.brightness 255
+
+89400
+.pitch 15.63
+.wallend 0
+.freeobj 0;351;3.9;-0.3
+.freeobj 0;387;0.1;-0.4
+.curve 300;33
+.railtype 0;13 , .railtype 1;13
+
+89425
+.freeobj 0;351;3.9;-0.3
+.freeobj 0;387;0.1;-0.4
+
+89450
+.freeobj 0;351;3.9;-0.3
+.freeobj 0;387;0.1;-0.4
+
+89475
+.freeobj 0;351;3.9;-0.3
+.freeobj 0;387;0.1;-0.4
+
+89500
+.freeobj 0;351;3.9;-0.3
+.freeobj 0;387;0.1;-0.4
+.railtype 0;4 , .railtype 1;4
+.curve 0;0
+
+89525
+.pitch 11.24
+.freeobj 0;321;1
+.freeobj 0;16;-4
+.freeobj 0;388;-8
+.freeobj 0;3;-8
+.ground 11
+.SigF 3; 1;-2.4;4.5;0, .Section 0;2;4,
+.freeobj 0;52;-2.4;-0.5;0
+.freeobj 0;11001;-2.4, .freeobj 0;11012;-2.4, .freeobj 0;11023;-2.4, .freeobj 0;11035;-2.4
+
+89530
+.freeobj 0;610;;-0.5
+.limit 50
+
+89550
+.railstart 2;-8;0;0
+.railstart 3;-4;0;0
+.freeobj 0;321;1
+.freeobj 0;388;-8
+.freeobj 0;389;4
+.freeobj 0;389;-8;;180
+.railtype 0;3,
+.rail 14;0;0;3
+.freeobj 0;9123;-2;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180
+
+89575
+.freeobj 0;31;0;0;189.2
+.rail 15;0;0;3
+.freeobj 0;388;-8
+.freeobj 0;321;1
+.freeobj 0;62;;;180
+.railend 14;4
+.freeobj 0;16
+.freeobj 0;389;4
+.freeobj 0;389;-8;0;180
+.freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+
+89600
+.freeobj 0;389;4
+.freeobj 0;389;-8;;180
+.freeobj 0;321;1
+.freeobj 0;388;-8
+.railend 15;4
+.railtype 0;0, .railtype 1;3
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 0;9123;2;;180
+
+89625
+.railtype 1;0
+.freeobj 0;321;1;;4.55
+.freeobj 0;388;-8
+.freeobj 0;16;4
+.freeobj 0;389;4
+.freeobj 0;389;-8;;180
+.freeobj 0;16;4;;180
+.ground 0
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+
+89650
+.freeobj 0;388;-8
+.freeobj 0;389;-8;;180
+.freeobj 0;389;6
+.freeobj 0;13;6;;4.5886
+.freeobj 0;321;3.5;;4
+.ground 11
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 0;9123;4;;180, .freeobj 0;9123;6;;180
+
+89675
+.pitch 8
+.freeobj 0;388;-7.9949;;0.021
+.freeobj 0;389;8.1101
+.freeobj 0;389;-7.9949;;180
+.freeobj 0;390;8.06;;6
+.freeobj 0;321;5.3;;7
+.curve -300;-10
+.railtype 0;18, .railtype 1;18, .railtype 2;18, .railtype 3;18
+.freeobj 0;9123;8, .freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+
+89699
+.freeobj 0;390;10.54;;7.5
+.freeobj 0;321;8;;7.5
+
+89700
+.pitch 6
+.freeobj 0;33;11.5652;;9.7786
+.freeobj 0;388;-7.9853;;0.021
+.freeobj 0;389;4
+.freeobj 0;389;-8;;180
+.freeobj 0;40;4;-1
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 0;9123;4;;180
+
+89722
+.freeobj 0;390;15.6;;13.8
+.freeobj 0;321;13;;13.8
+
+89725
+.pitch 4
+.freeobj 0;33;16.1851;;15.7284
+.freeobj 0;388;-7.9756;;0.021
+.freeobj 0;389;4
+.freeobj 0;389;-8;;180
+.freeobj 0;40;4;-1
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+
+89744
+.freeobj 0;390;23.1;;20
+.freeobj 0;321;20.5;;20
+
+89750
+.pitch 2
+.freeobj 0;388;-8.0001;;-0.0336
+.freeobj 0;389;-8.0001;;179.9664
+.freeobj 0;33;24.7876;;9.3679
+.freeobj 0;389;4;;-0.0004
+.freeobj 0;40;4;-1
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 0;9123;4;;180
+
+89765
+.freeobj 0;390;33.1;;26
+.freeobj 0;33;33.1;;26
+.freeobj 0;321;30.5;;26
+
+89775
+.pitch 0
+.freeobj 0;388;-8.0154;;0.0433
+.freeobj 0;389;-8.0154;;180.0433
+.freeobj 0;389;3.9994;;-0.0034
+.freeobj 0;40;4;-1
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+
+89784
+.freeobj 0;390;45.1;;32
+.freeobj 0;33;45.1;;32
+.freeobj 0;321;42.3;;32
+
+89800
+.freeobj 0;388;-7.994;0;-0.0134
+.freeobj 0;389;-7.994;0;179.9866
+.freeobj 0;389;4
+.freeobj 0;40;4;-1
+.freeobj 0;33;58.32;;38.3
+.freeobj 0;390;58.32;;38.3
+.freeobj 0;321;55;;38
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 0;9123;4;;180
+
+89819
+.freeobj 0;390;73.3;;40
+.freeobj 0;33;73.3;;40
+.freeobj 0;321;70;;40
+
+89825
+.freeobj 0;389;-8.0219;;180.0448
+.freeobj 0;388;-8.0219;;0.0448
+.freeobj 0;389;3.9798;;0.026
+.freeobj 0;40;4;-2
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+
+89850
+.freeobj 0;388;-7.9995;;0.0382
+.freeobj 0;389;3.9996;;-0.0356
+.freeobj 0;389;-7.9995;0;180.0382
+.freeobj 0;40;4;-2
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 0;9123;4;;180
+
+89875
+.freeobj 0;388;-7.9965;;0.0063
+.freeobj 0;389;-7.9965;;180.0063
+.freeobj 0;389;4;0;-0.0044
+.freeobj 0;40;4;-2
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+
+89900
+.freeobj 0;389;-7.9964;;180.0079
+.freeobj 0;388;-7.9964;;0.0079
+.freeobj 0;389;4
+.freeobj 0;40;4;-2
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 0;9123;4;;180
+
+89925
+.freeobj 0;389;-8.0031;;180.0225
+.freeobj 0;388;-8.0031;;0.0225
+.freeobj 0;389;3.9832;;0.0376
+.freeobj 0;40;4;-2
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+
+89950
+.freeobj 0;388;-7.9933;;-0.0845
+.freeobj 0;389;-7.9933;;179.9155
+.freeobj 0;389;3.9764;;-0.7671
+.freeobj 0;40;4;-2
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 0;9123;4;;180
+
+89975
+.freeobj 0;388;-8.0184;;-0.2273
+.freeobj 0;389;3.6613;;0.3051
+.freeobj 0;389;-8.0184;;179.7727
+.freeobj 0;40;4;-2
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+
+90000
+.freeobj 0;389;-8.1414;;180.7722
+.freeobj 0;388;-8.1414;;0.7722
+.freeobj 0;389;3.826;;0.4327
+.freeobj 0;40;4;-2
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 0;9123;4;;180
+
+90025
+.freeobj 0;388;-7.8121;;-0.6112
+.freeobj 0;389;-7.8121;;179.3888
+.freeobj 0;389;4;;-0.0003
+.freeobj 0;40;4;-2
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+
+90050
+.freeobj 0;389;-8.0793;;180
+.freeobj 0;388;-8.0793;;0.1766
+.freeobj 0;389;3.9935
+.freeobj 0;40;4;-2
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 0;9123;4;;180
+
+90075
+.freeobj 0;388;-8.0206;;0.1278
+.freeobj 0;389;4
+.freeobj 0;389;-8;;180
+.freeobj 0;40;4;-2
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+
+90100
+.freeobj 0;388;-7.9866;;-0.0954
+.freeobj 0;389;7.9778
+.freeobj 0;389;-7.9866;;180
+.freeobj 0;40;4;-2
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 0;9123;4;;180
+
+90125
+.freeobj 0;388;-8.0294;;0.0841
+.freeobj 0;3;11;;-11.5
+.freeobj 0;392;11;;-11.5
+.freeobj 0;389;7.0737
+.freeobj 0;389;-8.0294;;180
+.ground 48
+.Beacon 44000;1;1;0,
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+
+90135
+.freeobj 1;959;0.2
+
+90150
+.ground 52
+.freeobj 0;388;-8
+.freeobj 0;392;5.95;;-4.46
+.freeobj 0;389;5.95
+.freeobj 0;9;5.95;-0.01;-4.46
+.freeobj 0;389;-8;;180
+.freeobj 1;960;0;0;3.3
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 0;9123;4;;180, .freeobj 0;9123;6;;180
+
+90175
+.curve 0;0
+.railtype 0;0 , .railtype 1;0, .railtype 2;0, .railtype 3;0
+.wall 2;-1;21, .wall 1;1;21
+.freeobj 0;389;4, .freeobj 0;389;-8;;180
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+
+90200
+.freeobj 0;389;4, .freeobj 0;389;-8;;180
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 0;9123;4;;180
+
+90250
+.freeobj 0;389;-8;;180, .freeobj 0;389;4
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+
+90275
+.freeobj 0;9113;2.5;6, .freeobj 0;9113;-9.5;6, .freeobj 0;9113;-5.5;6
+.freeobj 0;393;4, .freeobj 0;393;-8, .freeobj 0;393;-4
+.SigF 65; 1;-1.5;6, .Section 0;2;3;4
+
+.freeobj 0;11001;-1.5;5.65, .freeobj 0;11024;-1.6;5.65, .freeobj 0;11028;-1.5;5.65, .freeobj 0;11035;-1.5;5.65
+.freeobj 0;11001;-5.5;5.65, .freeobj 0;11024;-5.6;5.65, .freeobj 0;11028;-5.5;5.65, .freeobj 0;11033;-5.5;5.65
+.freeobj 0;11001;-9.5;5.65, .freeobj 0;11024;-9.6;5.65, .freeobj 0;11028;-9.5;5.65, .freeobj 0;11031;-9.5;5.65
+.freeobj 0;11001;2.5;5.65, .freeobj 0;11024;2.4;5.65, .freeobj 0;11028;2.5;5.65, .freeobj 0;11037;2.5;5.65
+
+.freeobj 0;396
+.freeobj 0;53;-1.5, .freeobj 0;53;-5.5, .freeobj 0;53;-9.5, .freeobj 0;53;2.5
+
+90300
+.railtype 1;3
+.freeobj 0;15;4
+.freeobj 0;389;4, .freeobj 0;389;-8;;180
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 0;9123;4;;180
+
+90325
+.railtype 0;3, .railtype 1;0
+.railstart 15;2;0;3; points sound trigger
+
+90350
+.freeobj 0;389;-8;0;180
+.railtype 0;0
+.rail 15;0
+.freeobj 0;15;0;0;180
+.freeobj 0;389;4
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+
+90375
+.railtype 0;3
+.rail 12;0;0;3    ;id=0
+.freeobj 0;15
+.freeobj 0;3;-4;0;180
+.freeobj 0;389;-8;0;180
+.freeobj 0;389;4
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 0;9123;4;;180
+
+90400
+.railtype 0;0
+.railend 3
+.railend 12
+.railend 15;-2, ;end of point sound trigger
+
+90425
+.freeobj 0;15;-4
+.freeobj 0;15;-4;0;180
+.freeobj 0;389;-8;0;180
+.freeobj 0;389;4;0;360
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+
+90448
+.freeobj 0;397;-87
+.freeobj 0;397;-162
+.freeobj 0;397;83
+.freeobj 0;397;8
+
+.freeobj 0;619;-8;-0.01
+.freeobj 0;619;-5.72;-0.01;-7.4
+
+90450
+.wallend 1, .wallend 2, .freeobj 0;1354;9
+.ground 45
+.freeobj 0;1354;-8
+.railend 2
+.railstart 3;-4
+
+90454,.freeobj 0;382;9.2072;-3;8
+
+90475
+.curve 200;29
+.freeobj 0;1355;-8;0;-4.55, .freeobj 0;1354;9
+.freeobj 0;389;-8;0;180
+.freeobj 0;389;4
+.railtype 0;41, .railtype 1;41, .railtype 3;41
+.freeobj 0;15;-8;0;176.45
+.freeobj 0;415;-8;0;-4.55
+.freeobj 0;9123;4;;180, .freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180
+
+90498
+.freeobj 0;619;-9.85;-0.01;-3
+
+90500
+.freeobj 0;482;4;-1
+.freeobj 0;482;-4.8;-1
+.freeobj 0;389;-10;0;180
+.freeobj 0;389;4
+.freeobj 0;482;-0.3;-1
+.freeobj 0;1355;-10;;-7, .freeobj 0;1354;9
+
+.railstart 2;-8;0;42
+.freeobj 0;8;-10.1;;-4.3
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8
+.freeobj 0;9123;-10.1
+.limit 33
+.crack 2;1;1
+
+90501
+.freeobj 0;1354;-28;;213
+.freeobj 2;619;-0.07;-0.01;176.5
+
+90505
+.freeobj 0;1354;-29.08;;22
+.freeobj 0;3;-29.65;;23
+.freeobj 0;3;-28.3;-0.01;27.5
+
+90523
+.freeobj 0;1354;-18;;205
+
+90524
+.freeobj 0;619;-11.99;-0.01;2.47
+
+90525
+.railstart 5;-12;0;42
+.freeobj 0;389;-16.4;0;180
+.freeobj 0;389;4
+.freeobj 0;9123;4;;180, .freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 5;9123;;;180
+.freeobj 0;1354;9
+.crack 2;1;1
+
+90526
+.freeobj 0;13;-17;-0.01;16.25
+
+90527
+.freeobj 0;3;-20;;13.92
+
+90529
+.freeobj 0;1354;-20;;14.7
+
+90548
+.freeobj 5;619;1.5;-0.02;13.25
+.freeobj 5;619;-2.83;-0.02;14
+
+90549
+.freeobj 5;619;-0.075;-0.01;4
+
+90550
+.freeobj 0;389;4
+.freeobj 0;389;-15;0;180
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8, .freeobj 5;9123, .freeobj 5;9123;-2
+.freeobj 5;44;-2;-0.01;4.55
+.freeobj 2;43;-1.8;-0.01;4.1
+.freeobj 0;1354;9
+.freeobj 0;349;-20;-4.7;-85.45
+.crack 2;1;1
+
+90552
+.freeobj 0;1354;-14;;4.55
+
+90573
+.freeobj 5;619;-0.125;-0.01;3.45
+
+90575
+.ground 0
+.freeobj 0;389;4
+.freeobj 0;389;-12;0;180
+.freeobj 0;9123;4;;180, .freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-8;;180, .freeobj 5;9123;;;180
+.railtype 5;50
+.freeobj 5;21
+.freeobj 0;400;4;-0.2;-1
+
+90600
+.freeobj 0;389;-12;0;180
+.freeobj 0;389;4
+.freeobj 0;9123;4, .freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 0;9123;-8, .freeobj 5;9123
+.railtype 2;1
+.railstart 6;-12.35;-0;18
+.freeobj 6;1355
+.rail 5;-12.4;0;40
+.railstart 10;4;-0.2;61, .wall 10;1;101
+.crack 0;10;1, .crack 0;5;1
+
+90603
+.freeobj 0;382;48;-5;-95
+
+90623
+.freeobj 6;619;0.05;-0.01;-0.8
+.freeobj 2;619;-0.035;-0.01;1
+
+90625
+.railend 1
+.railend 2;-8.8
+.railstart 4;-8.8;0;40
+.railtype 3;3
+.freeobj 0;15;-4
+.freeobj 0;389;-18;0;180
+.freeobj 0;389;4
+.freeobj 0;9123;4;;180, .freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 4;9123;;;180, .freeobj 5;9123;;;180, .freeobj 6;9123;;;180
+.curve 0;0
+.railtype 0;3 , .railtype 3;3,
+.freeobj 0;8;4;0;5
+.rail 9;0;0;3    ;id=0
+.freeobj 0;16
+.rail 5;-15.4;0;19
+.rail 6;-18;0;42
+.freeobj 6;1355
+.rail 10;10.6;-0.1
+.freeobj 10;56;-13
+.crack 3;5;1
+
+90648
+.freeobj 5;619;-0.01;-0.01;1
+.freeobj 6;619;-0.1;-0.02;2.8
+
+90650
+.railstart 2;-6.005;0;42
+.rail 5;-19.5
+.rail 6;-23.5;0;40
+.railstart 7;-23.35;0;18
+.freeobj 7;1355;-0.1
+.curve 300;29
+.rail 3;-4;0;0;20
+.rail 4;-10.5
+.freeobj 0;390;1.9975;0;7.475
+.railend 9;4
+.rail 10;17.6;0
+.freeobj 10;56;-13
+.railtype 0;20, .railtype 2;20, .railtype 3;20
+.freeobj 0;389;-24;0;180
+.freeobj 0;389;6
+.freeobj 0;9123, .freeobj 0;9123;2, .freeobj 0;9123;6.18, .freeobj 2;9123, .freeobj 3;9123, .freeobj 4;9123, .freeobj 5;9123, .freeobj 6;9123, .freeobj 7;9123
+.freeobj 0;3;6.18;0;7.1
+.crack 3;4;1, .crack 4;5;1
+
+.freeobj 0;715;-50;-4;10
+
+90673
+.freeobj 7;1355;-0.2
+.freeobj 5;619;-0.015;-0.01;0.8
+.freeobj 6;619;-0.007;-0.01;1.1
+
+90675
+.freeobj 7;619;-0.005;-0.01;178.9
+.rail 2;-9.6;0;50
+.rail 4;-13.25;0;50
+.rail 6;-29;0;42
+.rail 5;-24;0;42
+.rail 7;-34;0;42
+.railstart 8;-34;0;0
+.rail 10;23.8
+.freeobj 10;56;-13
+.freeobj 0;8;5.24;0;9
+.freeobj 0;8;9.215;0;9
+.freeobj 0;389;9
+.freeobj 0;389;-35;0;180
+.freeobj 0;389;-18;0;180
+
+.freeobj 0;9123;;;180, .freeobj 0;9123;5.24;;180, .freeobj 0;9123;9.125;;180, .freeobj 2;9123;;;180, .freeobj 3;9123;;;180, .freeobj 4;9123;;;180, .freeobj 5;9123;;;180, .freeobj 6;9123;;;180, .freeobj 7;9123;;;180
+
+.freeobj 0;611;-53.5;0;-8
+.crack 0;4;1, .crack 4;5;1, .crack 6;8;1
+
+90700
+.rail 2;-13;0;50
+.rail 4;-17;0;50
+.rail 6;-34.6
+.rail 5;-29
+.rail 7;-47
+.rail 8;-43
+.rail 10;29
+.freeobj 10;56;-13
+.freeobj 0;33;12.7
+.freeobj 0;33;9;0;182
+.freeobj 0;390;9.1;0;8.9
+.freeobj 0;390;13;0;9
+.freeobj 0;611;-58;0;-8
+.freeobj 0;56
+.crack 4;5;1, .crack 6;8;1
+
+.freeobj 5;619;0;-0.01;173
+.freeobj 6;619;0;-0.01;170
+.freeobj 7;619;0;-0.01;170
+.freeobj 8;619;0;-0.01;174
+
+.freeobj 0;389;-0.3
+.freeobj 0;389;-17;0;180
+.freeobj 5;389
+
+.freeobj 0;9123, .freeobj 3;9123, .freeobj 2;9123, .freeobj 4;9123, .freeobj 5;9123, .freeobj 6;9123, .freeobj 7;9123, .freeobj 8;9123
+
+90703
+.freeobj 4;55;-2.8;-0.5;180
+.freeobj 5;55;2.8;-0.5;180
+.freeobj 6;55;-2.8;-0.5;180
+.freeobj 7;55;-2.8;-0.5;180
+.freeobj 8;55;2.8;-0.5;180
+
+90725
+.rail 2;-15, .rail 4;-19
+.rail 5;-31, .rail 6;-35
+.rail 7;-54
+.rail 8;-50
+.rail 10;33
+.freeobj 10;56;-13
+.freeobj 0;390;12.92;0;6.05
+.freeobj 0;390;16.78;0;7
+.freeobj 0;389
+
+.freeobj 0;9123;;;180, .freeobj 3;9123;;;180, .freeobj 2;9123;;;180, .freeobj 4;9123;;;180
+
+.freeobj 0;33;16.6
+.freeobj 0;33;13;0;180
+.freeobj 0;402
+.freeobj 0;611;-62;0;-6
+.freeobj 0;56;1
+
+.freeobj 3;55;-2.8;-0.5;180
+.freeobj 4;55;6.3;-0.5;180
+
+90750
+.railend 2, .railend 4, .railend 5, .railend 6, .railend 7, .railend 8
+.rail 10;35
+.freeobj 10;56;-13
+.freeobj 0;390;15.47;0;2.2
+.freeobj 0;390;19.7;0;3
+.freeobj 0;404
+.freeobj 0;1608, .freeobj 0;1609;15
+.freeobj 0;611;-64;0;-5
+
+90775
+.rail 10;37
+.freeobj 10;56;-13
+.freeobj 0;403;28
+.freeobj 0;10;16.445;0;-0.05
+.freeobj 0;10;21;0;2
+.freeobj 0;3;-15.6392;0;-1.361
+.freeobj 0;405
+.freeobj 0;611;-66;0;-5
+.freeobj 0;1610, .freeobj 0;1611;15
+.freeobj 0;972;-182;0;-15
+
+90800
+.railstart 1;16.42;0;32, .railstart 6;21.85;0;32
+.freeobj 0;389;23
+.railtype 0;32, .railtype 3;32
+.curve 1400;5
+.ground 0
+.freeobj 0;406
+.freeobj 10;56;-13
+.freeobj 0;1612, .freeobj 0;1613;15
+
+90825
+.freeobj 0;389;22
+.freeobj 0;407
+.freeobj 10;56;-13
+.freeobj 0;1612, .freeobj 0;1613;15
+
+90850
+.freeobj 0;389;22
+.freeobj 0;407
+.freeobj 10;56;-13
+.freeobj 0;1612, .freeobj 0;1613;15
+
+90875
+.curve 0;0
+.railtype 0;0, .railtype 1;0, .railtype 3;0, .railtype 6;0
+.freeobj 0;407
+.freeobj 10;56;-13
+.freeobj 0;1614, .freeobj 0;1615;15
+
+90900
+.freeobj 0;389;22
+.freeobj 0;407
+.rail 10;35.55
+.freeobj 10;56;-13
+.freeobj 0;1614, .freeobj 0;1615;15
+
+90925
+.freeobj 0;389;22
+.freeobj 0;407
+.rail 10;33.66
+.freeobj 10;56;-13
+.freeobj 0;1614, .freeobj 0;1615;15
+
+90950
+.freeobj 0;408
+.rail 10;32
+.freeobj 10;56;-13
+.freeobj 0;1614, .freeobj 0;1615;15
+
+90975
+.sta Newcastle;13.5900;t;1;1;1;;;20;1;
+.freeobj 0;409
+.rail 10;30.33
+.freeobj 10;56;-13
+.freeobj 0;1614, .freeobj 0;1615;15
+
+90990,.Stop 0;25;5
+
+91000
+.freeobj 0;389;22
+.SigF 4; 1;-2;4.75;0, .Section 0;2;3;4,
+.freeobj 0;52;-2;-0.5
+.freeobj 0;407
+.rail 10;28.66
+.freeobj 10;56;-13
+.freeobj 0;1614, .freeobj 0;1615;15
+
+91025
+.freeobj 0;407
+.rail 10;27
+.freeobj 0;1614, .freeobj 0;1615;15
+
+91050
+.freeobj 0;389;22
+.freeobj 0;407
+.rail 10;25.33;-0.06
+.freeobj 0;1614, .freeobj 0;1615;15
+
+91075
+.freeobj 0;407
+.rail 10;23.66
+.freeobj 0;1614, .freeobj 0;1615;15
+
+91100
+.freeobj 0;389;22
+.freeobj 0;407
+
+.railend 6
+.rail 10;21.8;0;0
+
+.freeobj 0;1614, .freeobj 0;1615;15
+
+91125
+.freeobj 0;410
+.rail 10;20.33
+.freeobj 0;1614, .freeobj 0;1615;15;0;-0.9
+
+91150
+.freeobj 0;389;31.3419;0;-5.1439
+.freeobj 0;608;-14
+.rail 10;18
+.freeobj 0;1614, .freeobj 0;1615;14.63;-0.01;-6
+.railend 1
+
+91175
+.rail 10;14
+.freeobj 0;389;29.0075;0;-2.0965
+.freeobj 0;411
+.freeobj 0;608;-12.1
+.freeobj 0;56;0;-0.1
+.freeobj 0;1616, .freeobj 0;1617;12;0;-6
+
+91200
+.railend 3
+.freeobj 0;3;-16
+.rail 10;10
+.freeobj 0;389;-20.5;;180
+.freeobj 0;389;10
+.freeobj 0;3;-12
+.freeobj 0;15;-4
+.freeobj 0;608;-12.1
+.freeobj 0;56;0;-0.1
+.freeobj 0;482;-0.2;-1
+.ground 45
+.freeobj 0;718;-31.7;-3;4.55
+.freeobj 0;9123, .freeobj 0;9123;-4, .freeobj 10;9123, .freeobj 0;9123;-16, .freeobj 0;9123;-12
+
+91222
+.freeobj 0;619;6.45;0;-8
+
+91225
+.freeobj 0;3;-12;0;4.5886
+.rail 10;6
+.freeobj 0;389;-23.9;0;180
+.freeobj 0;389;6
+.freeobj 0;3;-16;0;4.5886
+.railtype 0;2
+.curve -157;-43
+.freeobj 0;3;-5.95;0;-4.5886
+.freeobj 0;3;-4;0;4.5886
+.freeobj 0;608;-12;0;5
+.freeobj 0;56;-2;-0.1;-5
+.freeobj 0;718;-30;-3;9
+.freeobj 0;9123;;;180, .freeobj 0;9123;-4;;180, .freeobj 0;9123;-6;;180, .freeobj 10;9123;;;180, .freeobj 0;9123;-16;;180, .freeobj 0;9123;-12;;180
+
+91227
+.freeobj 0;614;24;2;90
+
+91247
+.freeobj 0;619;-10.25;0;4.5
+.freeobj 0;619;-7.7;0;-4.5
+
+91250
+.rail 10;4;0;41
+.freeobj 0;3;-20.4;0;13.8865
+.freeobj 0;3;-14;0;4.5886
+.freeobj 0;389;4
+.freeobj 0;389;-20;0;180
+.railtype 0;3
+.curve 157;43
+.rail 4;0;0;3    ;id=0
+.freeobj 0;56;-5;-0.1;-5
+.freeobj 0;1355;-20.2;0;14
+.freeobj 0;718;-26;-3;9
+.freeobj 0;9123, .freeobj 0;9123;-2, .freeobj 10;9123, .freeobj 0;9123;-14, .freeobj 0;9123;-10, .freeobj 0;9123;-8
+
+91272
+.freeobj 0;623;-27;0;4.55
+.freeobj 0;619;-12.25;-0.01;4.5
+.freeobj 0;619;-14.95;0;13.5
+
+91275
+.railtype 10;3
+.freeobj 10;414
+.freeobj 0;382;19.1243;-3;358
+.freeobj 0;2031;-12
+.freeobj 0;1355;-13.8;0;4
+.freeobj 0;3;-8
+.freeobj 0;389;4
+.freeobj 0;389;-14;;180
+.freeobj 0;414;0;0;180
+.freeobj 0;15;-8;0;180.0268
+.curve 0;0
+.railtype 0;0
+.freeobj 0;56;-2;-0.1;-5
+.freeobj 0;9123;;;180, .freeobj 0;9123;-8;;180, .freeobj 10;9123;;;180, .freeobj 0;9123;-12;;180, .freeobj 0;9123;-14;;180
+
+91295
+.freeobj 0;623;-26.7
+
+91300
+.freeobj 0;2031;-8
+.freeobj 0;3;-12
+.freeobj 0;1354;-12
+.freeobj 0;389;4
+.freeobj 0;389;-12;;180
+.railtype 10;0
+.railtype 0;3
+.rail 5;0;0;3    ;id=0
+.freeobj 0;56;-3;-0.1
+.freeobj 0;9123, .freeobj 0;9123;2, .freeobj 0;9123;-8, .freeobj 10;9123, .freeobj 0;9123;-10, .freeobj 0;9123;-12
+
+91320
+.freeobj 0;623;-26.7
+
+91325
+.freeobj 0;21;-12
+.wallend 10
+.freeobj 10;20
+.freeobj 0;3;-12
+.railtype 0;0
+.freeobj 0;3;-8
+.freeobj 0;3;-6;-0.01;9.04
+.freeobj 0;389;4
+.freeobj 0;389;-12;;180
+.freeobj 0;15;;;180
+.railend 5;4
+.freeobj 0;615
+.freeobj 0;9123;;;180, .freeobj 0;9123;-8;;180, .freeobj 10;9123;;;180, .freeobj 0;9123;-12;;180, .freeobj 0;9123;-6;;180
+
+91347
+.freeobj 0;619;-2.5;-0.02;9
+.freeobj 0;619;-8;-0.01
+.freeobj 0;619;-12;-0.01
+
+91350
+.railend 10
+.freeobj 0;382;33;-2.6;270
+.freeobj 0;382;58;-2.6;270
+.freeobj 0;3;-12.05;0;-4.2
+.freeobj 0;3;-8;0;-4.2
+.freeobj 0;2032;0;0;-4.55
+.freeobj 0;389;4
+.freeobj 0;389;-12;;180
+.curve 157;43
+.rail 6;0;0;3
+.railtype 0;3 ,
+.railstart 1;4;0;43
+.freeobj 1;1355;5
+.freeobj 0;1354;-12;0;-4.5
+.freeobj 0;615;-10;-0.1
+.freeobj 0;622;-26.7
+.freeobj 0;9123, .freeobj 0;9123;-8, .freeobj 1;9123, .freeobj 0;9123;-12, .freeobj 0;9123;-2
+
+91372
+.freeobj 0;619;-9.615;-0.01;-4.2
+.freeobj 0;619;-13.68;-0.01;-4
+
+.freeobj 0;622;-26.7;;-4
+
+91375
+.limit 33, 
+.freeobj 0;13;-2.03;0;-18
+.freeobj 0;13;-10;0;-18
+.freeobj 0;13;-14.15;0;-17.7
+.freeobj 0;1355;-14.15;0;-18
+.freeobj 1;1354;5
+.freeobj 0;389;-14;0;180
+.freeobj 0;389;4
+.curve 230;0
+.railend 6;4
+.railtype 0;25, .railtype 1;25
+.freeobj 0;615;-9;-0.1;-22
+.freeobj 0;615;-9;-0.15;-202
+.freeobj 0;9123;;;180, .freeobj 0;9123;-10.2;;180, .freeobj 1;9123;;;180, .freeobj 0;9123;-14.2;;180, .freeobj 0;9123;-2.2;;180
+
+91386
+.freeobj 0;482;-0.6;-0.3, .freeobj 1;482;3.5;-0.3;15
+
+91388
+.freeobj 0;1356
+
+91389
+.freeobj 0;1354;-0.4;0;-21
+
+91398
+.freeobj 0;615;-18;-0.1;-22
+
+91399
+.freeobj 0;3;-9.85;0;-22.45
+.freeobj 0;3;-17.83;0;-22
+.freeobj 0;3;-21.83;0;-22
+.freeobj 0;21;-22;0;-22
+
+91400
+.pitch 1.12
+.freeobj 0;1354
+.freeobj 1;1354;5
+.freeobj 0;33;4
+.freeobj 0;33;;;180
+.freeobj 0;33;-10.8;0;155
+.freeobj 0;33;-19.2;0;-25
+.freeobj 0;33;-23.4;0;155
+.Beacon 44000;1;1;0,
+.freeobj 0;501;4
+
+91409
+.freeobj 0;20;-15.5;0;-29
+
+91413
+.freeobj 0;901;-20;0.2;35
+
+91419
+.freeobj 0;615;-31;-0.1;-29
+
+91420
+.freeobj 0;41;-21.75;0;-29.2
+.freeobj 0;41;-29.9;0;-29
+.freeobj 0;41;-34.1;0;-29
+.freeobj 0;33;-21.75;0;-29.2
+.freeobj 0;33;-29.9;0;-29.2
+.freeobj 0;33;-34.1;0;-209.2
+
+.freeobj 0;619;-29.9;0;-208
+.freeobj 0;619;-34.1;0;-208
+
+.freeobj 0;1354;-34.4;0;-29
+
+91423
+.freeobj 0;620;-54;-4.95;-35
+
+91425
+.freeobj 0;1354
+.freeobj 1;1354;5
+.freeobj 0;33;4
+.freeobj 0;33;0;0;180
+.ground 64
+
+91429
+.freeobj 0;1355;-22.5;0;-36
+
+91434
+.freeobj 0;901;-5.9;0.2;29
+
+91436
+.freeobj 0;701;-14;-4.8;208
+
+91438
+.freeobj 0;41;-35.55;0;-36.88
+.freeobj 0;41;-44.2;0;-37
+.freeobj 0;41;-48.7;0;-37
+.freeobj 0;33;-35.55;0;-36.8
+.freeobj 0;33;-44.2;0;-37
+.freeobj 0;33;-48.7;0;-217
+
+.freeobj 0;619;-44.2;0;-216
+.freeobj 0;619;-48.7;0;-216
+
+.freeobj 0;1355;-49;0;-37
+.freeobj 0;615;-46;-0.1;-33
+
+91445
+.freeobj 0;613;-15;0;-5
+
+91449
+.freeobj 0;1354;-37;0;-37
+
+91450
+.pitch 2.24
+.freeobj 0;1354
+.freeobj 1;1354;5
+.freeobj 0;33;4
+.freeobj 0;33;0;0;180
+.freeobj 0;621;-106;0;35
+
+91453
+.freeobj 0;41;-51.63;0;-45
+.freeobj 0;41;-61.2;0;-45
+.freeobj 0;41;-66.18;0;-45
+.freeobj 0;33;-51.63;0;-45
+.freeobj 0;33;-61.2;0;-45
+.freeobj 0;33;-66.18;0;-225
+
+.freeobj 0;619;-51.63;0;-223.8
+.freeobj 0;619;-61.2;0;-224
+.freeobj 0;619;-66.18;0;-224
+
+.freeobj 0;1355;-66.6;0;-45
+
+.freeobj 0;615;-60;-0.1;-45
+
+91464
+.freeobj 0;1355;-54.6;0;-45.3
+
+91472
+.freeobj 0;41;-70.66;0;-46.5
+.freeobj 0;41;-80.23;0;-46.5
+.freeobj 0;41;-85.2;0;-46.5
+.freeobj 0;33;-70.66;0;-46.5
+.freeobj 0;33;-80.23;0;-46.5
+.freeobj 0;33;-85.2;0;-226.5
+
+.freeobj 0;619;-70.66;-0.01;-225.5
+.freeobj 0;619;-80.23;-0.01;-225.5
+.freeobj 0;619;-85.2;-0.01;-225.5
+
+.freeobj 0;1355;-85.6;0;-46.5
+.freeobj 0;615;-87.3;-0.1;-46
+
+91474
+.freeobj 0;1354;-64.6;-0.01;-46.6
+
+91475
+.freeobj 0;1354
+.freeobj 1;1354;5
+.freeobj 0;33;4
+.freeobj 0;33;0;0;180
+
+91478
+.freeobj 0;41;-98.7;0;-54
+.freeobj 0;41;-104.4;0;-54
+.freeobj 0;33;-98.7;0;-54
+.freeobj 0;33;-104.4;0;-234
+
+91479
+.freeobj 0;41;-89.12;0;-54
+.freeobj 0;33;-89.12;0;-54
+.freeobj 0;1354;-80;0;-54
+.freeobj 0;1355;-106.2;0;-54
+;.freeobj 0;615;-113;-0.1;-50
+
+91492
+.freeobj 0;41;-117.95;0;-55.5
+.freeobj 0;41;-123.65;0;-55.5
+.freeobj 0;33;-117.95;0;-55.5
+.freeobj 0;33;-123.65;0;-235.5
+
+91493
+.freeobj 0;41;-108.35;0;-55.5
+.freeobj 0;33;-108.35;0;-55.5
+.freeobj 0;1354;-99.2;0;-54.9
+.freeobj 0;1355;-125.5;0;-56
+;.freeobj 0;615;-99;-0.1;-50
+
+91499
+.freeobj 0;41;-116.95;0;-56
+.freeobj 0;41;-128;0;-56.2
+.freeobj 0;41;-133.7;0;-56.2
+.freeobj 0;33;-116.95;0;-56
+.freeobj 0;33;-128;0;-56
+.freeobj 0;33;-113.7;0;-236.2
+.freeobj 0;1354;-107.6;0;-56
+
+91500
+.pitch 3.37
+.freeobj 0;1354
+.freeobj 1;1354;5
+.freeobj 0;33;4
+.freeobj 0;33;0;0;180
+.freeobj 0;616;-160;0;-62
+
+91505
+.freeobj 0;1355;-152.3;0;117
+
+91514
+.freeobj 0;904;-30;-5;90
+.freeobj 0;904;-55;-5;90
+
+91515
+.freeobj 0;1355;-178;0;111
+.freeobj 0;11434;-30;-7;90
+.freeobj 0;11434;-55;-7;90
+
+91520
+.freeobj 0;11434;-33;-4;90
+.freeobj 0;11434;-60;-4;90
+
+91525
+.ground 145
+.freeobj 0;1354
+.freeobj 1;1354;5
+.freeobj 0;33;4
+.freeobj 0;33;;;180
+.freeobj 0;973;-70;-5;20
+.freeobj 0;11434;-55;-7;90
+
+91550
+.curve 0;0
+.railtype 0;0, .railtype 1;0
+.freeobj 0;1354
+.freeobj 1;1354;5
+.freeobj 0;33;4
+.freeobj 0;33;;;180
+.SigF 52; 1;-2;4.3, .Section 0;2;4,
+.freeobj 0;52;-2;-0.6
+.freeobj 0;52;6;-0.6
+.freeobj 1;2007;1.8;4.65
+
+91575
+.ground 52
+.freeobj 0;33;4
+.freeobj 0;33;0;0;180
+.freeobj 0;374
+.freeobj 1;375
+.rail 7;0;0;3    ;id=0
+.freeobj 0;62
+.railtype 0;3
+.freeobj 0;31;0;0;9.15
+.freeobj 0;434;6;-7;90
+
+;Tyne Valley guard beacons
+
+;Wetheral
+6725,.beacon 23;0;0;1
+6750,.beacon 24;0;0;1643903
+
+;Brampton
+17525,.beacon 23;0;0;1
+17550,.beacon 24;0;0;1156516
+
+;Haltwhistle
+36925,.beacon 23;0;0;1
+36950,.beacon 24;0;0;0651510
+
+;Bardon Mill
+44675,.beacon 23;0;0;1
+44700,.beacon 24;0;0;0904030
+
+;Haydon Bridge
+51075,.beacon 23;0;0;1
+51100,.beacon 24;0;0;1156530
+
+;Hexham
+63425,.beacon 23;0;0;1
+63450,.beacon 24;0;0;1409005
+
+;Corbridge
+67175,.beacon 23;0;0;1
+67200,.beacon 24;0;0;0904024
+
+;Riding Mill
+69925,.beacon 23;0;0;1
+69950,.beacon 24;0;0;0904005
+
+;Stocksfield
+72725,.beacon 23;0;0;1
+72750,.beacon 24;0;0;1055312
+
+;Prudhoe
+75600,.beacon 23;0;0;1
+75625,.beacon 24;0;0;0600932
+
+;Wylam
+78125,.beacon 23;0;0;1
+78150,.beacon 24;0;0;1156107
+
+;Blaydon
+83750,.beacon 23;0;0;1
+83775,.beacon 24;0;0;0752325
+
+;MetroCentre
+86125,.beacon 23;0;0;1
+86150,.beacon 24;0;0;0501042
+
+;Dunston
+87600,.beacon 23;0;0;1
+87625,.beacon 24;0;0;0904015
+
+;Newcastle p5
+91200,.beacon 23;0;0;1
+91225,.beacon 24;0;0;2352505

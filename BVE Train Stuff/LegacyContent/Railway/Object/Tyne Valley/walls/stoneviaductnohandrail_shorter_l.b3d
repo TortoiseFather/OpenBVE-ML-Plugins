@@ -1,0 +1,98 @@
+;author=eezypeazy
+;description=stone viaduct no handrail 12.5m length
+;copyright=eezypeazy 2009, all rights reserved  www.eezypeazy.co.uk
+
+[meshbuilder]
+vertex -3.4,-5.2,3.3
+vertex -3.2,-2.7,3.3
+vertex -3.2,-2.7,-0.1
+vertex -3.4,-5.2,-0.1
+vertex -2.8,1.2,3.3
+vertex -2.8,1.2,-0.1
+vertex -2.6,1.2,3.3
+vertex -2.6,1.2,-0.1
+vertex -2.4,1.2,3.3
+vertex -2.4,1.2,-0.1
+vertex -2,-2.7,3.3
+vertex -2,-2.7,-0.1
+vertex -1.8,-5.2,3.3
+vertex -1.8,-5.2,-0.1
+
+;vertices 14-22
+vertex -3.4,-5.2,-0.1
+vertex -3.2,-2.7,-0.1
+vertex -2.6,-2.7,-0.1
+vertex -2.6,-5.2,-0.1
+vertex -2.8,1.2,-0.1
+vertex -2.6,1.2,-0.1
+vertex -2.4,1.2,-0.1
+vertex -2,-2.7,-0.1
+vertex -1.8,-5.2,-0.1
+
+;vertices 23-31
+vertex -3.4,-5.2,3.3
+vertex -3.2,-2.7,3.3
+vertex -2.6,-2.7,3.3
+vertex -2.6,-5.2,3.3
+vertex -2.8,1.2,3.3
+vertex -2.6,1.2,3.3
+vertex -2.4,1.2,3.3
+vertex -2,-2.7,3.3
+vertex -1.8,-5.2,3.3
+
+face 0,1,2,3
+face 1,4,5,2
+face 4,6,7,5
+face 6,8,9,7
+face 8,10,11,9
+face 10,12,13,11
+
+
+face 14,15,16,17
+face 15,18,19,16
+face 17,16,21,22
+face 16,19,20,21
+
+face 26,25,24,23
+face 25,28,27,24
+face 31,30,25,26
+face 30,29,28,25
+
+
+[texture]
+load stoneviaduct.bmp
+coordinates 0,0.02,0.41
+coordinates 1,0.02,1
+coordinates 2,1,1
+coordinates 3,1,0.42
+coordinates 4,0,0.02
+coordinates 5,1,0.02
+coordinates 6,0,0.01
+coordinates 7,1,0.01
+coordinates 8,0,0.02
+coordinates 9,1,0.02
+coordinates 10,0,1
+coordinates 11,1,1
+coordinates 12,0,0.41
+coordinates 13,1,0.41
+
+coordinates 14,0.9,0.41
+coordinates 15,0.89,1
+coordinates 16,1,1
+coordinates 17,1,0.41
+coordinates 18,0.9,0.02
+coordinates 19,1,0.02
+coordinates 20,0.9,0.02
+coordinates 21,0.89,1
+coordinates 22,0.9,0.41
+
+coordinates 23,0.9,0.41
+coordinates 24,0.89,1
+coordinates 25,1,1
+coordinates 26,1,0.41
+coordinates 27,0.9,0.02
+coordinates 28,1,0.02
+coordinates 29,0.9,0.02
+coordinates 30,0.89,1
+coordinates 31,0.9,0.41
+

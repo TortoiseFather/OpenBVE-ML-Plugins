@@ -1,0 +1,66 @@
+;author=EezyPeazy
+;description=MetroLand, MetroCentre, Tyne and Wear
+;copyright=no copyright, you may freely use, but not for profit
+
+;front
+[MeshBuilder]
+Vertex 0,0,0,
+Vertex 0,13,0,
+Vertex 26,13,0,
+Vertex 26,0,0,
+Face 0,1,2,3
+
+[Texture]
+Load metroland4panel.bmp
+coordinates 0,8,0
+coordinates 1,0,0
+coordinates 2,0,24
+coordinates 3,8,24
+
+
+;logo front
+[MeshBuilder]
+Vertex 6,5,-0.1,
+Vertex 6,12,-0.1,
+Vertex 19,12,-0.1,
+Vertex 19,5,-0.1,
+Face 0,1,2,3
+
+[Texture]
+Load metrolandlogo.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+;logo side
+[MeshBuilder]
+Vertex -0.1,7,1,
+Vertex -0.1,12,1,
+Vertex -0.1,12,12,
+Vertex -0.1,7,12,
+Face 3,2,1,0
+
+[Texture]
+Load metrolandlogo.bmp
+coordinates 0,1,1
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+transparent 0,0,255
+
+;side
+[MeshBuilder]
+Vertex 0,0,0,
+Vertex 0,13,0,
+Vertex 0,13,13,
+Vertex 0,0,13,
+Face 3,2,1,0
+
+[Texture]
+Load metroland4panel.bmp
+coordinates 0,8,0
+coordinates 1,0,0
+coordinates 2,0,12
+coordinates 3,8,12

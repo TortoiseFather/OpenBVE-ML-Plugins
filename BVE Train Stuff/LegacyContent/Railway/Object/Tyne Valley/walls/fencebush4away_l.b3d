@@ -1,0 +1,91 @@
+;author=eezypeazy
+;description=wide cutting with a stone wall to7m e of stocksfield with building rears above
+;copyright=eezypeazy 2005, all rights reserved, contact eezypeazy@aol.com.
+
+[meshbuilder]
+vertex -7.9,1.5,-0.2
+vertex -7.9,3.7,-0.2
+vertex -7.9,3.7,25.1
+vertex -7.9,1.5,25.1
+face 0,1,2,3
+color 125,125,205
+
+[texture]
+load ..\fences\woodfencewhite1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,12,0
+coordinates 3,12,1
+transparent 0,0,255
+
+[MeshBuilder]
+Vertex -2.7,-0.5,-0.2
+vertex -2.7,-0.5,-0.2
+vertex -2.7,-0.5,-0.2
+Vertex -8,-0.5,-0.4
+Vertex -9,-0.5,-0.4
+vertex -9,-0.5,-0.4
+Vertex -9,-0.5,25.5
+vertex -9,-0.5,25.5
+vertex -8,-0.5,25.5
+vertex -2.7,-0.5,25.5
+vertex -2.7,1.2,25.5
+vertex -2.7,1.2,25.5
+
+Face 0,1,10,11
+face 1,2,9,10
+face 2,3,8,9
+
+
+
+[Texture]
+Load ..\grounds\cutting.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.72
+Coordinates 2, 0, 0.6
+Coordinates 3, 0, 0.25
+Coordinates 4, 0, 0.12
+Coordinates 5, 0, 0
+Coordinates 6, 1, 0
+Coordinates 7, 1, 0.12
+Coordinates 8, 1, 0.25
+Coordinates 9, 1, 0.6
+Coordinates 10,1, 0.72
+Coordinates 11,1, 1
+transparent 0,0,255
+
+[meshbuilder]
+Vertex 13.4,5,-0.2
+vertex 13.4,9,-0.2
+Vertex 13.4,7.5,25.2
+vertex 13.4,5,25.2
+Vertex -9,1,-0.2
+vertex -9,3,-0.2
+Vertex -9,3,25.2
+vertex -9,1,25.2
+
+Vertex -8.5,-1,-1
+vertex -8.5,2,-1
+Vertex -8.5,2,26
+vertex -8.5,-1,26
+
+;face 3,2,1,0
+face 4,5,6,7
+face 8,9,10,11
+color 220,220,220
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,0.8,0
+coordinates 7,0.7,0.8
+coordinates 8,0.1,1
+coordinates 9,0.1,0
+coordinates 10,0.8,0
+coordinates 11,0.7,0.8
+transparent 0,0,255

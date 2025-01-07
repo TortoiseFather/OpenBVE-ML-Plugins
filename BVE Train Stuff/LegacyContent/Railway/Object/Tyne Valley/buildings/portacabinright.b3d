@@ -1,0 +1,25 @@
+;author=eezypeazy
+;description=Portacabin right hand side
+;copyright=eezypeazy, all rights reserved.For use only in my routes.
+
+;portacabin
+
+[meshbuilder]
+vertex 10, 0, 0
+vertex 10,3.4,0
+vertex 7,3.3,0
+vertex 7,0,0
+vertex 7,3.3,7
+vertex 7,0,7
+face 3,2,1,0
+face 5,4,2,3
+
+[texture]
+load portacabin.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.4,0
+coordinates 3,0.4,1
+coordinates 4,1,0
+coordinates 5,1,1
+transparent 0,0,255

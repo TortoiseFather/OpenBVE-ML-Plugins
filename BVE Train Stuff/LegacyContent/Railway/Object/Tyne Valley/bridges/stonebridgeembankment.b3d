@@ -1,0 +1,170 @@
+;author=eezypeazy
+;description=culvert underside originally for Aln Valley
+;copyright=eezypeazy, all rights reserved
+
+[meshbuilder]
+vertex -10,-5,18.7
+vertex -10,-5,19
+vertex -2.4,0.3,15
+vertex -2.4,0.3,14.7
+vertex -10,-5.1,18.7
+vertex -2.4,-5.1,15
+vertex -10,-5,6.2
+vertex -10,-5,6.5
+vertex -2.4,0.2,10.3
+vertex -2.4,0.2,10
+
+vertex 14,-5,18.7
+vertex 14,-5,19
+vertex 6.4,0.3,15
+vertex 6.4,0.3,14.7
+vertex 14,-5.1,18.7
+vertex 6.4,-5.1,15
+vertex 14,-5,6.2
+vertex 14,-5,6.5
+vertex 6.4,0.3,10.3
+vertex 6.4,0.3,10
+
+face 0,1,2,3
+face 4,0,3,5
+face 6,7,8,9
+
+face 13,12,11,10
+face 15,13,10,14
+face 19,18,17,16
+
+color 88,50,33
+
+
+
+
+[meshbuilder]
+vertex -2.6,-0.2,-0.2
+vertex -10,-4.9,-0.2
+vertex -10,-4.9,6.2
+vertex -2.6,0,10
+vertex -2.6,-0.2,15
+vertex -10,-5,19
+vertex -10,-4.9,25.1
+vertex -2.6,-0.2,25.1
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+
+[meshbuilder]
+vertex 6.6,0,15
+vertex 14,-5,19
+vertex 14,-4.9,25.1
+vertex 6.6,-0.2,25.1
+face 3,2,1,0
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+
+[meshbuilder]
+vertex 6.6,-0.2,-0.2
+vertex 14,-4.9,-0.2
+vertex 14,-4.9,6.2
+vertex 6.6,0,10
+face 3,2,1,0
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+
+
+[meshbuilder]
+vertex -10,-5,-0.2
+vertex -10,-3.6,-0.2
+vertex -10,-3.6,6.2
+vertex -10,-5,6.2
+vertex -10,-5,19
+vertex -10,-3.6,19
+vertex -10,-3.6,25.2
+vertex -10,-5,25.2
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\fences\woodfencebrown1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+
+[meshbuilder]
+Vertex -9.5,-5,3.5
+Vertex -9.5,-2,3.5
+Vertex -8.5,-2,8.5
+Vertex -8.5,-5,8.5
+Face 0,1,2,3
+
+[texture]
+load ..\plants\eptree1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,2,0
+Coordinates 3,2,1
+Transparent 0,0,255
+
+[meshbuilder]
+vertex 10,0,-3
+vertex 10,4,-3
+vertex 8,4,22
+vertex 8,0,24
+vertex 7,-0.4,-2.5
+vertex 7,2,-2.5
+vertex 6.8,1.4,-0.2
+vertex 6.8,-0.4,-0.2
+vertex 6.8,1.8,10.6
+vertex 6.8,-0.4,10.6
+vertex 6.8,1.4,25.1
+vertex 6.8,-0.4,25.1
+vertex 6.8,1.8,14.4
+vertex 6.8,-0.4,14.4
+;face 3,2,1,0
+face 7,6,5,4
+face 9,8,6,7
+face 11,10,12,13
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,4,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,0.2,0
+coordinates 7,0.2,1
+coordinates 8,1,0
+coordinates 9,0.6,1
+coordinates 10,0.2,0
+coordinates 11,0.2,1
+coordinates 12,1,0
+coordinates 13,0.6,1
+transparent 0,0,255

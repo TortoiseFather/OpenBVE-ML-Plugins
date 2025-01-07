@@ -1,0 +1,23 @@
+;author=eezypeazy
+;description=MetroCentre platform left
+;copyright=eezypeazy 2008, all rights reserved
+;www.eezypeazy.co.uk
+
+[meshbuilder]
+vertex -1.8,-0.2,25
+vertex -1.8,1.1,25
+vertex -1.8,1.1,-0.1
+vertex -1.8,-0.2,-0.1
+vertex -5.8,1.1,25
+vertex -5.8,1.1,-0.1
+face 3,2,1,0
+face 2,5,4,1
+
+[texture]
+load metrocentre.bmp
+coordinates 0,0,1
+coordinates 1,0,0.22
+coordinates 2,5,0.22
+coordinates 3,5,1
+coordinates 4,0,0
+coordinates 5,5,0

@@ -1,0 +1,27 @@
+;author=eezypeazy
+;description=run in board
+;copyright=eezypeazy 2009, all rights reserved
+
+[meshbuilder]
+vertex -5.8,3.35,0
+vertex -5.8,4,0
+vertex -5.8,4,4
+vertex -5.8,3.35,4
+face 0,1,2,3
+
+[texture]
+load wylamlarge.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+[meshbuilder]
+cube 0.05,1.5,0.05
+color 50,150,255
+translate -5.8,2.5,-0.025
+
+[meshbuilder]
+cube 0.05,1.5,0.05
+color 50,150,255
+translate -5.8,2.5,4.025

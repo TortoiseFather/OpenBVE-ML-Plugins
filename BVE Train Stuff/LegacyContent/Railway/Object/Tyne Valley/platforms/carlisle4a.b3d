@@ -1,0 +1,138 @@
+;author=eezypeazy
+;description=carlisle platform end
+;copyright=eezypeazy 2008, all rights reserved
+
+
+[MeshBuilder]
+vertex -1.8,-0.2,-0.2
+vertex -1.8,1.1,-0.2
+vertex -5.8,1.1,-0.2
+vertex -5.8,2.4,-0.2
+vertex -6,2.5,-0.2
+vertex -6,2.5,25.2
+
+vertex -5.8,2.4,17.5
+vertex -5.8,1.1,17.5
+vertex -1.8,1.1,17.5
+vertex -1.8,-0.2,17.5
+
+vertex -2.8,1.1,-0.2
+vertex -2.8,1.1,17.5
+
+vertex -5.8,2.4,25.2
+vertex -5.8,-0.2,25.2
+vertex -1.8,-0.2,25.2
+vertex -1.8,-0.2,25.2
+
+vertex -2.8,1.1,25.2
+
+
+
+face 0,1,8,9
+face 1,10,11,8
+face 10,2,7,11
+;face 2,3,6,7
+;face 3,4,5,6
+
+face 9,8,14,15
+face 8,7,13,14
+
+[Texture]
+Load carlisle.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.535
+Coordinates 2, 0, 0.3
+Coordinates 3, 0, 0.03
+Coordinates 4, 0, 0
+Coordinates 5, 2.8, 0
+Coordinates 6, 2.8, 0.03
+Coordinates 7, 2.8, 0.3
+Coordinates 8, 2.8, 0.535
+Coordinates 9, 2.8, 1
+coordinates 10,0,0.45
+coordinates 11,2.8,0.45
+
+
+Coordinates 12, 4, 0.3
+Coordinates 13, 4, 0.3
+Coordinates 14, 4, 0.535
+coordinates 15,0,1
+
+coordinates 16,4,0.45
+
+;rh side
+[MeshBuilder]
+Vertex 9.8,1.1,-0.2
+Vertex 5.8,1.1,-0.2
+Vertex 5.8,-0.2,-0.2
+vertex 9.8,1.1,16.5
+vertex 5.8,-0.2,17.2
+vertex 5.8,1.1,17.2
+vertex 6.8,1.1,-0.2
+vertex 6.8,1.1,17.2
+
+vertex 13.8,1.1,10
+vertex 13.8,1.1,-6
+
+vertex 13.8,-0.2,14
+vertex 13.8,-0.2,-6
+
+vertex 5.8,-0.2,24.7
+vertex 6.8,-0.2,24.7
+vertex 9.8,-0.2,16.5
+vertex 13.8,-0.2,-6
+
+
+face 7,3,0,6
+face 5,7,6,1
+face 4,5,1,2
+face 3,8,9,0
+
+face 11,9,8,10
+
+face 12,5,4
+face 12,13,7,5
+face 13,14,3,7
+face 14,15,9,3
+face 10,9,15
+
+[Texture]
+Load carlisle.bmp
+Coordinates 0, 4, 0.3
+Coordinates 1, 4, 0.535
+Coordinates 2, 4, 1
+Coordinates 3,1, 0.3
+Coordinates 4,1, 1
+Coordinates 5,1, 0.535
+coordinates 6,4,0.45
+coordinates 7,1,0.45
+coordinates 8,0,0.535
+coordinates 9,4,0.535
+coordinates 10,0,1
+coordinates 11,4,1
+
+coordinates 12,0,0.535
+coordinates 13,0,0.45
+coordinates 14,0,0.3
+coordinates 15,0,0.535
+
+
+[meshbuilder]
+vertex -5.8,1.1,-0.2
+vertex -5.8,2.5,-0.2
+vertex -5.8,2.5,17.5
+vertex -5.8,1.1,17.5
+vertex -5.8,1.4,25
+vertex -5.8,-0.2,25
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\fences\diagonal.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,8.4,0
+coordinates 3,8.4,1
+coordinates 4,12,0
+coordinates 5,12,1
+transparent 0,0,255

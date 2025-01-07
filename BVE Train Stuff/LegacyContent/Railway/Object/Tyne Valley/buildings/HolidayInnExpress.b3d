@@ -1,0 +1,123 @@
+;author=EezyPeazy
+;description=A simplified Express By Holiday Inn based on my photographs of Derwenthaugh, Tyne and Wear. 2009 rebuild.
+;copyright=OpenSource
+
+;front face
+[MeshBuilder]
+Vertex 0,0,0.02
+Vertex 0,11,0.02
+Vertex 50,11,0.02
+Vertex 50,0,0.02
+Face 0,1,2,3
+
+[Texture]
+Load HIExpFace1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+;main roof
+[MeshBuilder]
+Vertex 3.5,8,0.1
+Vertex 3.5,11.5,5.5
+Vertex 46.5,11.5,5.5
+Vertex 46.5,8,0.1
+Face 0,1,2,3
+
+[Texture]
+Load ..\textures\rooftiles.bmp
+Coordinates 0,0,3
+Coordinates 1,0,0
+Coordinates 2,16,0
+Coordinates 3,16,3
+
+;roof triangle ends
+[meshbuilder]
+vertex 1.6,10,3.1
+vertex 1.6, 11.5, 5.5
+vertex 1.6, 10, 7.9
+face 2,1,0
+color 70,70,200
+
+[meshbuilder]
+vertex 46.5,10,3.1
+vertex 46.5, 11.5, 5.5
+vertex 46.5, 10, 7.9
+face 0,1,2
+color 70,70,200
+
+;roof cross bits
+
+[meshbuilder]
+vertex 43.4,8,10.5
+vertex 46.5,10.4,10.5
+vertex 46.5,10.4,0.05
+vertex 43.4,8,0.05
+vertex 49.6,8.3,10.5
+vertex 49.6,8.3,0.05
+face 0,1,2,3
+face 1,4,5,2
+
+[texture]
+Load ..\textures\rooftiles.bmp
+Coordinates 0,0,4
+Coordinates 1,0,2
+Coordinates 2,3,2
+Coordinates 3,3,4
+coordinates 4,0,0
+coordinates 5,3,0
+
+[meshbuilder]
+vertex 43.4,8,10.5
+vertex 46.5,10.4,10.5
+vertex 46.5,10.4,0.05
+vertex 43.4,8,0.05
+vertex 49.6,8.3,10.5
+vertex 49.6,8.3,0.05
+face 0,1,2,3
+face 1,4,5,2
+translate -43,-0.1,0
+
+[texture]
+Load ..\textures\rooftiles.bmp
+Coordinates 0,0,4
+Coordinates 1,0,2
+Coordinates 2,3,2
+Coordinates 3,3,4
+coordinates 4,0,0
+coordinates 5,3,0
+
+
+;r side
+[MeshBuilder]
+Vertex 49.7,0,0
+Vertex 49.7,11.4,0
+Vertex 49.7,11.4,11
+Vertex 49.7,0,11
+Face 0,1,2,3
+
+[Texture]
+Load HIExpSide.bmp
+Coordinates 0,0.03,1
+Coordinates 1,0.03,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+; l side
+[MeshBuilder]
+Vertex 0.2,0,-0.5
+Vertex 0.2,11,-0.5
+Vertex 0.2,11,11,
+Vertex 0.2,0,11,
+Face 3,2,1,0
+
+[Texture]
+Load HIExpSide.bmp
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 0,0,255

@@ -1,0 +1,65 @@
+;(c) Shane Roberts 2004 www.midland-bve.co.uk
+;Derby to Stoke on Trent route object
+;This object may be reused without permission from the author as long
+;credit is give in your routes readme
+
+
+
+CreateMeshBuilder,
+AddVertex,-16, 7, -3,
+AddVertex,-7, 7, -3,
+AddVertex,-7, 4.9,  -6,
+AddVertex,-16, 4.9,  -6,
+AddVertex,-7, -0.3,  -6,
+AddVertex,-16, -0.3,  -6,
+
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+
+GenerateNormals,
+
+LoadTexture,house.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 0.27,
+SetTextureCoordinates,3, 0, 0.27,
+SetTextureCoordinates,4, 1, 1,
+SetTextureCoordinates,5, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-7, 7, -3,
+AddVertex,-7, 7, -3,
+AddVertex,-7, 4.9, -0,
+AddVertex,-7, 4.9, -6,
+AddVertex,-7, -0.3, -0,
+AddVertex,-7, -0.3, -6,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+GenerateNormals,
+
+LoadTexture,scroptonhousebrick.bmp,
+SetTextureCoordinates,0, 2, 0,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 4, 2,
+SetTextureCoordinates,3, 0, 2,
+SetTextureCoordinates,4, 4, 6,
+SetTextureCoordinates,5, 0, 6,
+
+CreateMeshBuilder,
+AddVertex,-16, 7, -3,
+AddVertex,-16, 7, -3,
+AddVertex,-16, 4.9, -0,
+AddVertex,-16, 4.9, -6,
+AddVertex,-16, -0.3, -0,
+AddVertex,-16, -0.3, -6,
+AddFace,3,2,1,0,
+AddFace,5,4,2,3,
+GenerateNormals,
+
+LoadTexture,scroptonhousebrick.bmp,
+SetTextureCoordinates,0, 2, 0,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 4, 2,
+SetTextureCoordinates,3, 0, 2,
+SetTextureCoordinates,4, 4, 6,
+SetTextureCoordinates,5, 0, 6,

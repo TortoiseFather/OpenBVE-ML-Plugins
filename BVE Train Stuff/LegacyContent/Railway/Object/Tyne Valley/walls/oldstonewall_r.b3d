@@ -1,0 +1,171 @@
+;author=eezypeazy
+;description=old stone wall right, double faced, fence above
+;copyright=eezypeazy, all rights reserved.
+
+
+[meshbuilder]
+vertex 2.6,-0.5,-0.1
+vertex 2.6,1.2,-0.1
+vertex 2.6,1.2,25.1
+vertex 2.6,-0.5,25.1
+vertex 2.7,1.4,-0.1
+vertex 2.7,1.4,25.1
+vertex 2.95,1.5,-0.1
+vertex 2.95,1.5,25.1
+vertex 3.3,-0.5,-0.1
+vertex 3.3,1.2,-0.1
+vertex 3.2,1.4,-0.1
+face 3,2,1,0
+face 2,5,4,1
+face 5,7,6,4
+face 0,1,9,8
+face 1,4,10,9
+face 4,6,10
+
+[texture]
+load ..\walls\oldstonewall.bmp
+coordinates 0,0.05,1
+coordinates 1,0.05,0.15
+coordinates 2,4.05,0.15
+coordinates 3,4.05,1
+coordinates 4,0.05,0.05
+coordinates 5,4.05,0.05
+coordinates 6,0.05,0
+coordinates 7,4.05,0
+coordinates 8,0,1
+coordinates 9,0,0.15
+coordinates 10,0,0.05
+
+[meshbuilder]
+vertex 3.3,-0.5,-0.1
+vertex 3.3,1.2,-0.1
+vertex 3.3,1.2,25.1
+vertex 3.3,-0.5,25.1
+vertex 3.2,1.4,-0.1
+vertex 3.2,1.4,25.1
+vertex 2.95,1.5,-0.1
+vertex 2.95,1.5,25.1
+face 0,1,2,3
+face 1,4,5,2
+face 4,6,7,5
+
+[texture]
+load ..\walls\oldstonewall.bmp
+coordinates 0,0.05,1
+coordinates 1,0.05,0.15
+coordinates 2,4.05,0.15
+coordinates 3,4.05,1
+coordinates 4,0.05,0.05
+coordinates 5,4.05,0.05
+coordinates 6,0.05,0
+coordinates 7,4.05,0
+
+;fence
+
+;author=Lemontea(original),smace(modifier)
+;description=25 meter cylinder supporting wire net(as wall)
+;copyright=Open Source
+
+
+[MESHBUILDER]
+vertex 3.3,1,-0.1
+Vertex 3.3,3.5,-0.1
+Vertex 3.3,3.5,25.1
+Vertex 3.3,1,25.1
+Face 3,2,1,0
+
+[TEXTURE]
+Load wirenet2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,10,0
+Coordinates 3,10,1
+Transparent 255,255,255
+
+[MESHBUILDER]
+vertex 3.25,3.5,-.1
+Vertex 3.25,3.6,-.1
+Vertex 3.25,3.6,25.1
+Vertex 3.25,3.5,25.1
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 3.25,1,0
+Vertex 3.25,3.5,0
+Vertex 3.25,3.5,0.1
+Vertex 3.25,1,0.1
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 3.25,1,2.4
+Vertex 3.25,3.5,2.4
+Vertex 3.25,3.5,2.5
+Vertex 3.25,1,2.5
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 3.25,1,4.9
+Vertex 3.25,3.5,4.9
+Vertex 3.25,3.5,5
+Vertex 3.25,1,5
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 3.25,1,7.4
+Vertex 3.25,3.5,7.4
+Vertex 3.25,3.5,7.5
+Vertex 3.25,1,7.5
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 3.25,1,9.9
+Vertex 3.25,3.5,9.9
+Vertex 3.25,3.5,10
+Vertex 3.25,1,10
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 3.25,1,12.4
+Vertex 3.25,3.5,12.4
+Vertex 3.25,3.5,12.5
+Vertex 3.25,1,12.5
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 3.25,1,14.9
+Vertex 3.25,3.5,14.9
+Vertex 3.25,3.5,15
+Vertex 3.25,1,15
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 3.25,1,17.4
+Vertex 3.25,3.5,17.4
+Vertex 3.25,3.5,17.5
+Vertex 3.25,1,17.5
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 3.25,1,19.9
+Vertex 3.25,3.5,19.9
+Vertex 3.25,3.5,20
+Vertex 3.25,1,20
+Face 3,2,1,0
+color 125,125,125
+
+[MESHBUILDER]
+vertex 3.25,1,22.4
+Vertex 3.25,3.5,22.4
+Vertex 3.25,3.5,22.5
+Vertex 3.25,1,22.5
+Face 3,2,1,0
+color 125,125,125

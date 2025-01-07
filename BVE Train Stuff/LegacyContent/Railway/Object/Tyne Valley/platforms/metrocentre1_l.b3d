@@ -1,0 +1,52 @@
+;author=eezypeazy
+;description=MetroCentre platform left
+;copyright=eezypeazy 2008, all rights reserved
+;www.eezypeazy.co.uk
+
+[meshbuilder]
+vertex -1.8,-0.2,25
+vertex -1.8,1.1,25
+vertex -1.8,1.1,1
+vertex -1.8,-0.2,1
+vertex -1.8,-0.2,-7
+vertex -1.8,-0.2,-7
+vertex -5.8,1.1,25
+vertex -5.8,1.1,1
+vertex -5.8,-0.2,-7
+
+face 3,2,1,0
+face 5,4,2,3
+face 2,7,6,1
+face 4,8,7,2
+
+[texture]
+load metrocentre.bmp
+coordinates 0,0,1
+coordinates 1,0,0.22
+coordinates 2,5,0.22
+coordinates 3,5,1
+coordinates 4,6.4,0.22
+coordinates 5,6.4,0.22
+coordinates 6,0,0
+coordinates 7,5,0
+coordinates 8,6.4,0
+
+[meshbuilder]
+vertex -5.75,-0.2,-7
+vertex -5.75,1.6,-7
+vertex -5.75,2.9,1
+vertex -5.75,1.1,1
+vertex -5.75,2.9,15
+vertex -5.75,1.1,15
+face 0,1,2,3
+face 3,2,4,5
+
+[texture]
+load ..\fences\diagonal.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,4,1
+coordinates 4,11,0
+coordinates 5,11,1
+transparent 0,0,255

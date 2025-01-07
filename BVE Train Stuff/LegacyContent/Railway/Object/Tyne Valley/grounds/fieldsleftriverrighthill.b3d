@@ -1,0 +1,307 @@
+;author=eezypeazy
+;description=River Tyne right  hand side, fields
+;copyright=eezypeazy, all rights reserved
+;includes some RouteBuilder library bitmaps
+
+
+[meshbuilder]
+vertex 12,-1.5,-1
+vertex 12,-1.5,26
+vertex 55,-1.5,27
+vertex 55,-1.5,-2
+face 0,1,2,3
+
+[texture]
+load ..\textures\riverwater.bmp
+coordinates 0,2,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,2,0
+
+[meshbuilder]
+vertex 55,-1.5,25.1
+vertex 56,0.1,25.1
+vertex 56,0.1,-1.1
+vertex 55,-1.5,-0.1
+face 0,1,2,3
+color 255,211,211
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+[meshbuilder]
+vertex 55,-1,25.1
+vertex 55,5,25.1
+vertex 57,5,0
+vertex 57,0,0
+face 0,1,2,3
+color 255,255,0
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 56,0.1,-2
+vertex 99,4.5,-6
+vertex 133,15.1,-6
+vertex 133,15.1,31
+vertex 99,4.5,31
+vertex 56,0.1,28
+vertex 66,0.5,-2
+vertex 66,0.5,28
+vertex 6,-0.3,25.1
+vertex 11,-0.3,25.1
+vertex 11,-0.3,-0.2
+vertex 6,-0.3,-0.2
+face 5,7,6,0
+face 7,4,1,6
+face 4,3,2,1
+face 8,9,10,11
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,3,0
+coordinates 4,3,1
+coordinates 5,3,1
+coordinates 6,0,3
+coordinates 7,3,3
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,3,0
+coordinates 11,3,1
+
+[meshbuilder]
+vertex 130,12.1,-1.1
+vertex 130,24,-1.1
+vertex 122,21,25.1
+vertex 122,12.1,25.1
+face 3,2,1,0
+
+[texture]
+load ..\plants\trees2.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 10,-0.1,-0.1
+vertex 10,1.5,-0.1
+vertex 10.2,1.5,18
+vertex 10.2,-0.1,18
+vertex 9.7,1.5,25.1
+vertex 9.7,-0.1,25.1
+face 3,2,1,0
+face 5,4,2,3
+
+[texture]
+load ..\plants\hedge.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1.8,0
+coordinates 3,1.8,1
+coordinates 4,3,0
+coordinates 5,3,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -6.2,-2,0 
+vertex -6.2,0,0
+vertex -6,0,24
+vertex -6,-2,25
+vertex -6.3,-2,-1
+vertex -6.3,3,-1
+vertex -5.4,3,0.5
+vertex -5.4,-2,0.5
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0.1,0.9
+coordinates 1,0.1,0.1
+coordinates 2,0.9,0.1
+coordinates 3,0.9,0.9
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+
+
+;author=eezypeazy
+;description=west boat 1
+;copyright=eezypeazy, all rights reserved, contact eezypeazy@blueyonder.co.uk
+;uses some RouteBuilder bitmaps
+
+;lh side
+;bushes
+
+[meshbuilder]
+vertex -5,-2.2,3
+vertex -5,0.6,3
+vertex -2,0.6,4
+vertex -2,-2.2,4
+vertex -5,-2.2,10
+vertex -5,1.6,10
+vertex -2,1.6,12
+vertex -2,-2.2,12
+;face 0,1,2,3
+face 4,5,6,7
+color 90,90,90
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+
+
+[MeshBuilder]
+Vertex -5,0.6, 5
+Vertex -5, -2.2, 5
+Vertex -2.5, -2.2, 7
+Vertex -2.5,0.6, 7
+Face 3,2,1,0
+
+[Texture]
+Load ..\plants\eptree1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 255
+
+
+[MeshBuilder]
+Vertex -5, 0.6, 21
+Vertex -5, -2.2, 21
+Vertex -2.5, -2.2, 21
+Vertex -2.5,0.6, 21
+Face 3,2,1,0
+
+[Texture]
+Load ..\plants\eptree1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 255
+
+
+
+;author=Uwe Post, modified by eezypeazy
+;description=cable troughs
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+;id=154
+
+
+[meshbuilder]
+vertex -2.36,-0.35,-0.1
+vertex -2.36,-0.25,-0.1
+vertex -2.36,-0.25,25.1
+vertex -2.36,-0.35,25.1
+vertex -2.63,-0.25,-0.1
+vertex -2.63,-0.25,25.1
+
+vertex 6.36,-0.35,-0.1
+vertex 6.36,-0.25,-0.1
+vertex 6.36,-0.25,25.1
+vertex 6.36,-0.35,25.1
+vertex 6.63,-0.25,-0.1
+vertex 6.63,-0.25,25.1
+face 0,1,2,3
+face 1,4,5,2
+;face 9,8,7,6
+;face 8,11,10,7
+
+[texture]
+load ..\grounds\grass6_cable.bmp
+coordinates 0,0,0.16
+coordinates 1,0,0.82
+coordinates 2,7,0.82
+coordinates 3,7,0.16
+coordinates 4,0,0.2
+coordinates 5,7,0.2
+coordinates 6,0,0.16
+coordinates 7,0,0.82
+coordinates 8,7,0.82
+coordinates 9,7,0.16
+coordinates 10,0,0.2
+coordinates 11,7,0.2
+
+[meshbuilder]
+vertex -2.65,-0.3,12.1
+vertex -2.65,0.5,12.1
+vertex -2.65,0.5,12.8
+vertex -2.65,-0.3,12.8
+vertex -2.65,-0.3,18.3
+vertex -2.65,0.6,18.3
+vertex -2.65,0.6,19
+vertex -2.65,-0.3,19
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\plants\grassh1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -13,-2,25.3
+vertex -13,1,25.3
+vertex -13,1,-0.3
+vertex -13,-2,-0.3
+face 3,2,1,0
+color 199,199,199
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,0.7
+coordinates 1,0,0
+coordinates 2,0.9,0
+coordinates 3,0.9,0.7
+transparent 0,0,255
+
+[meshbuilder]
+vertex -7,-2,-0.5
+vertex -55,6,-1.2
+vertex -55,6,26.2
+vertex -7,-2,25.5
+vertex -75,-2,-2
+face 0,1,2,3
+face 4,1,0
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,1,4
+coordinates 1,1,0
+coordinates 2,3,0
+coordinates 3,3,4
+coordinates 4,0,1

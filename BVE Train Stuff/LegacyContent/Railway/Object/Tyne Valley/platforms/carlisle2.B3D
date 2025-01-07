@@ -1,0 +1,820 @@
+;Converted from CSV by BVE FILE CONVERTER
+
+;Converted from B3D by BVE FILE CONVERTER
+ 
+;author=eezypeazy
+;description=carlisle platform run
+;copyright=eezypeazy 2008, all rights reserved
+
+;platform roof
+[MeshBuilder]
+Cube  0.06,1.3,0.06
+Color  0,66,0
+Translate  -5.5,2.3,2.5
+
+[MeshBuilder]
+Cube  0.06,1.3,0.06
+Color  0,66,0
+Translate  -5.5,2.3,7.5
+
+[MeshBuilder]
+Cube  0.06,1.3,0.06
+Color  0,66,0
+Translate  -5.5,2.3,12.5
+
+[MeshBuilder]
+Cube  0.06,1.3,0.06
+Color  0,66,0
+Translate  -5.5,2.3,17.5
+
+[MeshBuilder]
+Cube  0.06,1.3,0.06
+Color  0,66,0
+Translate  -5.5,2.3,22.5
+
+[MeshBuilder]
+Cube  1.3,0.06,0.06
+Color  0,66,0
+Translate  -3.38,4.62,2.5
+Rotate  0,0,1,12
+
+[MeshBuilder]
+Cube  1.3,0.06,0.06
+Color  0,66,0
+Translate  -3.38,4.62,7.5
+Rotate  0,0,1,12
+
+[MeshBuilder]
+Cube  1.3,0.06,0.06
+Color  0,66,0
+Translate  -3.38,4.62,12.5
+Rotate  0,0,1,12
+
+[MeshBuilder]
+Cube  1.3,0.06,0.06
+Color  0,66,0
+Translate  -3.38,4.62,17.5
+Rotate  0,0,1,12
+
+[MeshBuilder]
+Cube  1.3,0.06,0.06
+Color  0,66,0
+Translate  -3.38,4.62,22.5
+Rotate  0,0,1,12
+
+[MeshBuilder]
+Cube  0.04,0.04,12.7
+Color  204,255,204
+Translate  -3.2,4.15,12.7
+
+[MeshBuilder]
+Cube  0.04,0.04,12.7
+Color  204,255,204
+Translate  -5,3.77,12.7
+
+[MeshBuilder]
+Cube  0.02,0.02,12.7
+Color  200,200,200
+Translate  -2.78,4.25,12.7
+
+[MeshBuilder]
+Vertex  -5.6,3.78,-0.2
+Vertex  -2.8,4.25,-0.2
+Vertex  -2.8,4.25,25.2
+Vertex  -5.6,3.78,25.2
+Face  0,1,2,3
+Color  177,177,250,155
+
+
+
+
+
+[MeshBuilder]
+Cube  0.04,0.04,12.7
+Color  204,255,204
+Translate  11.9,4.15,12.7
+
+[MeshBuilder]
+Cube  0.04,0.04,12.7
+Color  204,255,204
+Translate  10.05,3.77,12.7
+
+
+[MeshBuilder]
+Cube  0.04,0.04,12.7
+Color  204,255,204
+Translate  7.7,4.15,12.7
+
+[MeshBuilder]
+Cube  0.04,0.04,12.7
+Color  204,255,204
+Translate  9.55,3.77,12.7
+
+[MeshBuilder]
+Cube  0.02,0.02,12.7
+Color  200,200,200
+Translate  7,4.33,12.7
+
+[MeshBuilder]
+Cube  0.02,0.02,12.7
+Color  200,200,250
+Translate  12.8,4.35,12.7
+
+[MeshBuilder]
+Vertex  9.8,3.78,-0.2
+Vertex  12.8,4.37,-0.2
+Vertex  12.8,4.37,25.2
+Vertex  9.8,3.78,25.2
+Face  0,1,2,3
+Color  177,177,250,155
+
+[MeshBuilder]
+Vertex  9.8,3.78,-0.2
+Vertex  7,4.33,-0.2
+Vertex  7,4.33,25.2
+Vertex  9.8,3.78,25.2
+Face  3,2,1,0
+Color  177,177,250,155
+
+
+[MeshBuilder]
+Cube  0.06,1.3,0.06
+Color  0,66,0
+Translate  9.8,2.3,2.5
+
+[MeshBuilder]
+Cube  0.06,1.3,0.06
+Color  0,66,0
+Translate  9.8,2.3,7.5
+
+[MeshBuilder]
+Cube  0.06,1.3,0.06
+Color  0,66,0
+Translate  9.8,2.3,12.5
+
+[MeshBuilder]
+Cube  0.06,1.3,0.06
+Color  0,66,0
+Translate  9.8,2.3,17.5
+
+[MeshBuilder]
+Cube  0.06,1.3,0.06
+Color  0,66,0
+Translate  9.8,2.3,22.5
+
+
+
+
+[MeshBuilder]
+Cube  1.3,0.06,0.06
+Color  0,66,0
+Translate  11.65,1.5,2.5
+Rotate  0,0,1,12
+
+[MeshBuilder]
+Cube  1.3,0.06,0.06
+Color  0,66,0
+Translate  11.65,1.5,7.5
+Rotate  0,0,1,12
+
+[MeshBuilder]
+Cube  1.3,0.06,0.06
+Color  0,66,0
+Translate  11.65,1.5,12.5
+Rotate  0,0,1,12
+
+[MeshBuilder]
+Cube  1.3,0.06,0.06
+Color  0,66,0
+Translate  11.65,1.5,17.5
+Rotate  0,0,1,12
+
+[MeshBuilder]
+Cube  1.3,0.06,0.06
+Color  0,66,0
+Translate  11.65,1.5,22.5
+Rotate  0,0,1,12
+
+
+
+[MeshBuilder]
+Cube  1.3,0.06,0.06
+Color  0,66,0
+Translate  7.56,5.58,2.5
+Rotate  0,0,1,-12
+
+[MeshBuilder]
+Cube  1.3,0.06,0.06
+Color  0,66,0
+Translate  7.56,5.58,7.5
+Rotate  0,0,1,-12
+
+[MeshBuilder]
+Cube  1.3,0.06,0.06
+Color  0,66,0
+Translate  7.56,5.58,12.5
+Rotate  0,0,1,-12
+
+[MeshBuilder]
+Cube  1.3,0.06,0.06
+Color  0,66,0
+Translate  7.56,5.58,17.5
+Rotate  0,0,1,-12
+
+[MeshBuilder]
+Cube  1.3,0.06,0.06
+Color  0,66,0
+Translate  7.56,5.58,22.5
+Rotate  0,0,1,-12
+
+
+
+
+
+
+
+[MeshBuilder]
+Vertex  9.8,3.7,1
+Vertex  7,4.3,1
+Vertex  7,4.3,1.1
+Vertex  9.8,3.7,1.1
+Vertex  12.8,4.37,1
+Vertex  12.8,4.37,1.1
+Face  3,2,1,0
+Face  4,5,3,0
+Color  99,99,99
+
+[MeshBuilder]
+Vertex  9.8,3.7,1
+Vertex  7,4.3,1
+Vertex  7,4.3,1.1
+Vertex  9.8,3.7,1.1
+Vertex  12.8,4.37,1
+Vertex  12.8,4.37,1.1
+Face  3,2,1,0
+Face  4,5,3,0
+Color  99,99,99
+Translate  0,0,2
+
+[MeshBuilder]
+Vertex  9.8,3.7,1
+Vertex  7,4.3,1
+Vertex  7,4.3,1.1
+Vertex  9.8,3.7,1.1
+Vertex  12.8,4.37,1
+Vertex  12.8,4.37,1.1
+Face  3,2,1,0
+Face  4,5,3,0
+Color  99,99,99
+Translate  0,0,4
+
+[MeshBuilder]
+Vertex  9.8,3.7,1
+Vertex  7,4.3,1
+Vertex  7,4.3,1.1
+Vertex  9.8,3.7,1.1
+Vertex  12.8,4.37,1
+Vertex  12.8,4.37,1.1
+Face  3,2,1,0
+Face  4,5,3,0
+Color  99,99,99
+Translate  0,0,6
+
+[MeshBuilder]
+Vertex  9.8,3.7,1
+Vertex  7,4.3,1
+Vertex  7,4.3,1.1
+Vertex  9.8,3.7,1.1
+Vertex  12.8,4.37,1
+Vertex  12.8,4.37,1.1
+Face  3,2,1,0
+Face  4,5,3,0
+Color  99,99,99
+Translate  0,0,8
+
+[MeshBuilder]
+Vertex  9.8,3.7,1
+Vertex  7,4.3,1
+Vertex  7,4.3,1.1
+Vertex  9.8,3.7,1.1
+Vertex  12.8,4.37,1
+Vertex  12.8,4.37,1.1
+Face  3,2,1,0
+Face  4,5,3,0
+Color  99,99,99
+Translate  0,0,10
+
+[MeshBuilder]
+Vertex  9.8,3.7,1
+Vertex  7,4.3,1
+Vertex  7,4.3,1.1
+Vertex  9.8,3.7,1.1
+Vertex  12.8,4.37,1
+Vertex  12.8,4.37,1.1
+Face  3,2,1,0
+Face  4,5,3,0
+Color  99,99,99
+Translate  0,0,12
+
+[MeshBuilder]
+Vertex  9.8,3.7,1
+Vertex  7,4.3,1
+Vertex  7,4.3,1.1
+Vertex  9.8,3.7,1.1
+Vertex  12.8,4.37,1
+Vertex  12.8,4.37,1.1
+Face  3,2,1,0
+Face  4,5,3,0
+Color  99,99,99
+Translate  0,0,14
+
+[MeshBuilder]
+Vertex  9.8,3.7,1
+Vertex  7,4.3,1
+Vertex  7,4.3,1.1
+Vertex  9.8,3.7,1.1
+Vertex  12.8,4.37,1
+Vertex  12.8,4.37,1.1
+Face  3,2,1,0
+Face  4,5,3,0
+Color  99,99,99
+Translate  0,0,14
+
+[MeshBuilder]
+Vertex  9.8,3.7,1
+Vertex  7,4.3,1
+Vertex  7,4.3,1.1
+Vertex  9.8,3.7,1.1
+Vertex  12.8,4.37,1
+Vertex  12.8,4.37,1.1
+Face  3,2,1,0
+Face  4,5,3,0
+Color  99,99,99
+Translate  0,0,16
+
+[MeshBuilder]
+Vertex  9.8,3.7,1
+Vertex  7,4.3,1
+Vertex  7,4.3,1.1
+Vertex  9.8,3.7,1.1
+Vertex  12.8,4.37,1
+Vertex  12.8,4.37,1.1
+Face  3,2,1,0
+Face  4,5,3,0
+Color  99,99,99
+Translate  0,0,18
+
+[MeshBuilder]
+Vertex  9.8,3.7,1
+Vertex  7,4.3,1
+Vertex  7,4.3,1.1
+Vertex  9.8,3.7,1.1
+Vertex  12.8,4.37,1
+Vertex  12.8,4.37,1.1
+Face  3,2,1,0
+Face  4,5,3,0
+Color  99,99,99
+Translate  0,0,20
+
+[MeshBuilder]
+Vertex  9.8,3.7,1
+Vertex  7,4.3,1
+Vertex  7,4.3,1.1
+Vertex  9.8,3.7,1.1
+Vertex  12.8,4.37,1
+Vertex  12.8,4.37,1.1
+Face  3,2,1,0
+Face  4,5,3,0
+Color  99,99,99
+Translate  0,0,22
+
+[MeshBuilder]
+Vertex  9.8,3.7,1
+Vertex  7,4.3,1
+Vertex  7,4.3,1.1
+Vertex  9.8,3.7,1.1
+Vertex  12.8,4.37,1
+Vertex  12.8,4.37,1.1
+Face  3,2,1,0
+Face  4,5,3,0
+Color  99,99,99
+Translate  0,0,23.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[MeshBuilder]
+Vertex  -5.6,3.7,1
+Vertex  -2.8,4.2,1
+Vertex  -2.8,4.2,1.1
+Vertex  -5.6,3.7,1.1
+Face  0,1,2,3
+Color  99,99,99
+
+[MeshBuilder]
+Vertex  -5.6,3.7,1
+Vertex  -2.8,4.2,1
+Vertex  -2.8,4.2,1.1
+Vertex  -5.6,3.7,1.1
+Face  0,1,2,3
+Color  99,99,99
+Translate  0,0,2
+
+[MeshBuilder]
+Vertex  -5.6,3.7,1
+Vertex  -2.8,4.2,1
+Vertex  -2.8,4.2,1.1
+Vertex  -5.6,3.7,1.1
+Face  0,1,2,3
+Color  99,99,99
+Translate  0,0,4
+
+[MeshBuilder]
+Vertex  -5.6,3.7,1
+Vertex  -2.8,4.2,1
+Vertex  -2.8,4.2,1.1
+Vertex  -5.6,3.7,1.1
+Face  0,1,2,3
+Color  99,99,99
+Translate  0,0,6
+
+[MeshBuilder]
+Vertex  -5.6,3.7,1
+Vertex  -2.8,4.2,1
+Vertex  -2.8,4.2,1.1
+Vertex  -5.6,3.7,1.1
+Face  0,1,2,3
+Color  99,99,99
+Translate  0,0,8
+
+[MeshBuilder]
+Vertex  -5.6,3.7,1
+Vertex  -2.8,4.2,1
+Vertex  -2.8,4.2,1.1
+Vertex  -5.6,3.7,1.1
+Face  0,1,2,3
+Color  99,99,99
+Translate  0,0,10
+[MeshBuilder]
+Vertex  -5.6,3.7,1
+Vertex  -2.8,4.2,1
+Vertex  -2.8,4.2,1.1
+Vertex  -5.6,3.7,1.1
+Face  0,1,2,3
+Color  99,99,99
+Translate  0,0,12
+
+[MeshBuilder]
+Vertex  -5.6,3.7,1
+Vertex  -2.8,4.2,1
+Vertex  -2.8,4.2,1.1
+Vertex  -5.6,3.7,1.1
+Face  0,1,2,3
+Color  99,99,99
+Translate  0,0,14
+
+[MeshBuilder]
+Vertex  -5.6,3.7,1
+Vertex  -2.8,4.2,1
+Vertex  -2.8,4.2,1.1
+Vertex  -5.6,3.7,1.1
+Face  0,1,2,3
+Color  99,99,99
+Translate  0,0,16
+
+[MeshBuilder]
+Vertex  -5.6,3.7,1
+Vertex  -2.8,4.2,1
+Vertex  -2.8,4.2,1.1
+Vertex  -5.6,3.7,1.1
+Face  0,1,2,3
+Color  99,99,99
+Translate  0,0,18
+
+[MeshBuilder]
+Vertex  -5.6,3.7,1
+Vertex  -2.8,4.2,1
+Vertex  -2.8,4.2,1.1
+Vertex  -5.6,3.7,1.1
+Face  0,1,2,3
+Color  99,99,99
+Translate  0,0,20
+
+[MeshBuilder]
+Vertex  -5.6,3.7,1
+Vertex  -2.8,4.2,1
+Vertex  -2.8,4.2,1.1
+Vertex  -5.6,3.7,1.1
+Face  0,1,2,3
+Color  99,99,99
+Translate  0,0,22
+
+[MeshBuilder]
+Vertex  -5.6,3.7,1
+Vertex  -2.8,4.2,1
+Vertex  -2.8,4.2,1.1
+Vertex  -5.6,3.7,1.1
+Face  0,1,2,3
+Color  99,99,99
+Translate  0,0,23.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[MeshBuilder]
+Vertex  -5.7,1.1,-0.4
+Vertex  -5.7,7,-0.4
+Vertex  -5.7,7,25.4
+Vertex  -5.7,1.1,25.4
+Face  0,1,2,3
+
+
+[Texture]
+Load  ..\textures\carlislewall1.bmp
+Coordinates  0,0,1
+Coordinates  1,0,0
+Coordinates  2,3,0
+Coordinates  3,3,1
+
+[MeshBuilder]
+Vertex  -1.8,-0.2,-0.2
+Vertex  -1.8,1.1,-0.2
+Vertex  -5.8,1.1,-0.2
+Vertex  -5.8,2.4,-0.2
+Vertex  -6,2.5,-0.2
+Vertex  -6,2.5,25.2
+Vertex  -5.8,2.4,25.2
+Vertex  -5.8,1.1,25.2
+Vertex  -1.8,1.1,25.2
+Vertex  -1.8,-0.2,25.2
+
+Vertex  -2.8,1.1,-0.2
+Vertex  -2.8,1.1,25.2
+
+Face  0,1,8,9
+Face  1,10,11,8
+Face  10,2,7,11
+;face 2,3,6,7
+;face 3,4,5,6
+
+
+[Texture]
+Load  carlisle.bmp
+Coordinates  0, 0, 1
+Coordinates  1, 0, 0.535
+Coordinates  2, 0, 0.3
+Coordinates  3, 0, 0.03
+Coordinates  4, 0, 0
+Coordinates  5, 4, 0
+Coordinates  6, 4, 0.03
+Coordinates  7, 4, 0.3
+Coordinates  8, 4, 0.535
+Coordinates  9, 4, 1
+Coordinates  10,0,0.45
+Coordinates  11,4,0.45
+
+;rh side
+[MeshBuilder]
+Vertex  5.800, 1.100, 0, 	
+Vertex  5.800, -0.200, 0, 	
+Vertex  5.744, 1.100, 2.5, 	
+Vertex  5.744, -0.200, 2.5, 	
+Vertex  5.700, 1.100, 5, 	
+Vertex  5.700, -0.200, 5, 	
+Vertex  5.669, 1.100, 7.5, 	
+Vertex  5.669, -0.200, 7.5, 	
+Vertex  5.651, 1.100, 10, 	
+Vertex  5.651, -0.200, 10, 	
+Vertex  5.645, 1.100, 12.5, 	
+Vertex  5.645, -0.200, 12.5, 	
+Vertex  5.651, 1.100, 15, 	
+Vertex  5.651, -0.200, 15, 	
+Vertex  5.670, 1.100, 17.5, 	
+Vertex  5.670, -0.200, 17.5, 	
+Vertex  5.702, 1.100, 20, 	
+Vertex  5.702, -0.200, 20, 	
+Vertex  5.746, 1.100, 22.5, 	
+Vertex  5.746, -0.200, 22.5, 	
+Vertex  5.800, 1.100, 25, 	
+Vertex  5.800, -0.200, 25
+
+
+;vertices 22-32
+Vertex  9.800, 1.100, 0, 	
+Vertex  9.744, 1.100, 2.5, 	
+Vertex  9.700, 1.100, 5, 	
+Vertex  9.669, 1.100, 7.5, 	
+Vertex  9.651, 1.100, 10, 	
+Vertex  9.645, 1.100, 12.5, 	
+Vertex  9.651, 1.100, 15, 	
+Vertex  9.670, 1.100, 17.5, 	
+Vertex  9.702, 1.100, 20, 	
+Vertex  9.746, 1.100, 22.5, 	
+Vertex  9.800, 1.100, 25
+
+;vertices 33 - 43
+Vertex  13.800, 1.100, 0, 	
+Vertex  13.744, 1.100, 2.5, 	
+Vertex  13.700, 1.100, 5, 	
+Vertex  13.669, 1.100, 7.5, 	
+Vertex  13.651, 1.100, 10, 	
+Vertex  13.645, 1.100, 12.5, 	
+Vertex  13.651, 1.100, 15, 	
+Vertex  13.670, 1.100, 17.5, 	
+Vertex  13.702, 1.100, 20, 	
+Vertex  13.746, 1.100, 22.5, 	
+Vertex  13.800, 1.100, 25, 
+
+;vertices 44 - 54
+Vertex  13.800, -0.2, 0, 	
+Vertex  13.744, -0.2, 2.5, 	
+Vertex  13.700, -0.2, 5, 	
+Vertex  13.669, -0.2, 7.5, 	
+Vertex  13.651, -0.2, 10, 	
+Vertex  13.645, -0.2, 12.5, 	
+Vertex  13.651, -0.2, 15, 	
+Vertex  13.670, -0.2, 17.5, 	
+Vertex  13.702, -0.2, 20, 	
+Vertex  13.746, -0.2, 22.5, 	
+Vertex  13.800, -0.2, 25,
+
+;vertices 55 - 65
+Vertex  6.800, 1.100, 0, 		
+Vertex  6.744, 1.100, 2.5, 	
+Vertex  6.700, 1.100, 5, 	
+Vertex  6.669, 1.100, 7.5, 	
+Vertex  6.651, 1.100, 10, 	
+Vertex  6.645, 1.100, 12.5, 	
+Vertex  6.651, 1.100, 15, 	
+Vertex  6.670, 1.100, 17.5, 	
+Vertex  6.702, 1.100, 20, 	
+Vertex  6.746, 1.100, 22.5, 	
+Vertex  6.800, 1.100, 25, 	
+						
+Face  2, 0, 1, 3
+Face  4, 2, 3, 5
+Face  6, 4, 5, 7
+Face  8, 6, 7, 9
+Face  10, 8, 9, 11
+Face  12, 10, 11, 13
+Face  14, 12, 13, 15
+Face  16, 14, 15, 17
+Face  18, 16, 17, 19
+Face  20, 18, 19, 21
+
+;extra faces
+
+Face  2,56,55,0
+Face  4,57,56,2
+Face  6,58,57,4
+Face  8,59,58,6
+Face  10,60,59,8
+Face  12,61,60,10
+Face  14,62,61,12
+Face  16,63,62,14
+Face  18,64,63,16
+Face  20,65,64,18
+
+
+
+Face  56,23,22,55
+Face  57,24,23,56
+Face  58,25,24,57
+Face  59,26,25,58
+Face  60,27,26,59
+Face  61,28,27,60
+Face  62,29,28,61
+Face  63,30,29,62
+Face  64,31,30,63
+Face  65,32,31,64
+
+Face  33,22,23,34
+Face  34,23,24,35
+Face  35,24,25,36
+Face  36,25,26,37
+Face  37,26,27,38
+Face  38,27,28,39
+Face  39,28,29,40
+Face  40,29,30,41
+Face  41,30,31,42
+Face  42,31,32,43
+
+Face  44,33,34,45
+Face  45,34,35,46
+Face  46,35,36,47
+Face  47,36,37,48
+Face  48,37,38,49
+Face  49,38,39,50
+Face  50,39,40,51
+Face  51,40,41,52
+Face  52,41,42,53
+Face  53,42,43,54
+
+
+[Texture]
+Load  carlisle.bmp, 					
+Coordinates  0, 4, 0.535, 	
+Coordinates  1, 4, 1, 	
+Coordinates  2, 3.6, 0.535, 	
+Coordinates  3, 3.6, 1, 	
+Coordinates  4, 3.2, 0.535, 	
+Coordinates  5, 3.2, 1, 	
+Coordinates  6, 2.8, 0.535, 	
+Coordinates  7, 2.8, 1, 	
+Coordinates  8, 2.4, 0.535, 	
+Coordinates  9, 2.4, 1, 	
+Coordinates  10, 2, 0.535, 	
+Coordinates  11, 2, 1, 	
+Coordinates  12, 1.6, 0.535, 	
+Coordinates  13, 1.6, 1, 	
+Coordinates  14, 1.2, 0.535
+Coordinates  15, 1.2, 1, 	
+Coordinates  16, 0.8, 0.535
+Coordinates  17, 0.8, 1
+Coordinates  18, 0.4, 0.535
+Coordinates  19, 0.4, 1, 	
+Coordinates  20, 0, 0.535,		
+Coordinates  21, 0, 1
+Coordinates  22,4,0.3
+Coordinates  23,3.6,0.3
+Coordinates  24,3.2,0.3
+Coordinates  25,2.8,0.3
+Coordinates  26,2.4,0.3
+Coordinates  27,2,0.3
+Coordinates  28,1.6,0.3
+Coordinates  29,1.2,0.3
+Coordinates  30,0.8,0.3
+Coordinates  31,0.4,0.3
+Coordinates  32,0,0.3
+Coordinates  33,4,0.535
+Coordinates  34,3.6,0.535
+Coordinates  35,3.2,0.535
+Coordinates  36,2.8,0.535
+Coordinates  37,2.4,0.535
+Coordinates  38,2,0.535
+Coordinates  39,1.6,0.535
+Coordinates  40,1.2,0.535
+Coordinates  41,0.8,0.535
+Coordinates  42,0.4,0.535
+Coordinates  43,0,0.535
+Coordinates  44,4,1
+Coordinates  45,3.6,1
+Coordinates  46,3.2,1
+Coordinates  47,2.8,1
+Coordinates  48,2.4,1
+Coordinates  49,2,1
+Coordinates  50,1.6,1
+Coordinates  51,1.2,1
+Coordinates  52,0.8,1
+Coordinates  53,0.4,1
+Coordinates  54,0,1
+Coordinates  55,4,0.45
+Coordinates  56,3.6,0.45
+Coordinates  57,3.2,0.45
+Coordinates  58,2.8,0.45
+Coordinates  59,2.4,0.45
+Coordinates  60,2,0.45
+Coordinates  61,1.6,0.45
+Coordinates  62,1.2,0.45
+Coordinates  63,0.8,0.45
+Coordinates  64,0.4,0.45
+Coordinates  65,0,0.45

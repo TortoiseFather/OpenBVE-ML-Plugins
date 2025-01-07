@@ -1,0 +1,84 @@
+;author=eezypeazy
+;description=left hand ground works with embankment left
+;copyright=eezypeazy 2005, all rights reserved, contact eezypeazy@aol.com.
+
+
+[meshbuilder]
+vertex -4,-6.5,-0.2
+vertex -33,1,-0.2
+vertex -33,1,25.2
+vertex -4,-6.5,25.2
+vertex 8,-6.5,-0.2
+vertex 45,1,-0.2
+vertex 45,1,25.2
+vertex 8,-6.5,25.2
+vertex -44,-5,-5
+vertex 55,-5,-5
+face 0,1,2,3
+face 7,6,5,4
+face 8,1,0
+face 4,5,9
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,4
+coordinates 1,0,1
+coordinates 2,3,0
+coordinates 3,3,3
+coordinates 4,0,4
+coordinates 5,0,0
+coordinates 6,3,0
+coordinates 7,3,3
+coordinates 8,1,1
+coordinates 9,3,4
+
+[meshbuilder]
+Vertex -31,1,0
+Vertex -31,5,0
+Vertex -30,4,24
+Vertex -30,1,26
+Face 0,1,2,3
+
+[texture]
+load ..\plants\eptree1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,3,0
+Coordinates 3,3,1
+Transparent 0,0,255
+
+[meshbuilder]
+Vertex -30,0,3.5
+Vertex -30,3,3.5
+Vertex -27,3,18.5
+Vertex -27,0,18.5
+Face 0,1,2,3
+
+[texture]
+load ..\plants\eptree1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,3,0
+Coordinates 3,3,1
+Transparent 0,0,255
+
+[meshbuilder]
+vertex 45,0,25.2
+vertex 45,5,25.2
+vertex 45,8,12.5
+vertex 45,0,12.5
+vertex 45,5,-0.2
+vertex 45,0,-0.2
+face 0,1,2,3
+face 3,2,4,5
+color 177,177,177
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.9,0
+coordinates 3,0.6,1
+coordinates 4,0,0
+coordinates 5,0,1
+transparent 0,0,255

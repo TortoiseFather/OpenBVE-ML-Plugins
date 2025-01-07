@@ -1,0 +1,119 @@
+;author=eezypeazy
+;description=Newcastle's water tower built negatively
+;copyright=eezypeazy 2009, all rights reserved.
+
+[meshbuilder]
+vertex 0,-0.4,0
+vertex 0,9.5,0
+vertex 0,9.5,-21
+vertex 0,-0.4,-21
+vertex 7.5,9.5,-21
+vertex 7.5,-0.4,-21
+vertex 7.5,9.5,0
+vertex 7.5,-0.4,0
+
+vertex 0,9.5,-21
+vertex 0,6.7,-21
+vertex 7.5,9.5,-21
+vertex 7.5,6.7,-21
+face 0,1,2,3
+face 5,4,6,7
+face 9,8,10,11
+
+[texture]
+load oldwatertower.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,0
+coordinates 5,0,1
+coordinates 6,1,0
+coordinates 7,1,1
+coordinates 8,0.53,0
+coordinates 9,0.53,0.28
+coordinates 10,0.95,0
+coordinates 11,0.95,0.28
+
+[meshbuilder]
+vertex 0,-0.4,-21
+vertex 0,6.7,-21
+vertex 2.5,6.7,-21
+vertex 2.5,-0.4,-21
+vertex 2.5,6.7,-21.8
+vertex 2.5,-0.4,-21.8
+vertex 5,6.7,-21.8
+vertex 5,-0.4,-21.8
+vertex 5,6.7,-21
+vertex 5,-0.4,-21
+vertex 7.5,6.7,-21
+vertex 7.5,-0.4,-21
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 9,8,10,11
+
+[texture]
+load oldwatertowerstone.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,1.5,0
+coordinates 5,1.5,1
+coordinates 6,2.5,0
+coordinates 7,2.5,1
+coordinates 8,3,0
+coordinates 9,3,1
+coordinates 10,4,0
+coordinates 11,4,1
+
+[meshbuilder]
+vertex 2.7,6.6,-21
+vertex 2.7,11,-21
+vertex 2.7,11,-21.6
+vertex 2.7,6.6,-21.6
+vertex 4.8,11,-21.6
+vertex 4.8,6.6,-21.6
+vertex 4.8,11,-21
+vertex 4.8,6.6,-21
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+
+[texture]
+load oldwatertowerstone.bmp
+coordinates 0,0,0.62
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,0.62
+coordinates 4,1.5,0
+coordinates 5,1.5,0.62
+coordinates 6,2.5,0
+coordinates 7,2.5,0.62
+
+[meshbuilder]
+vertex 2.7,6.6,-21
+vertex 2.7,11,-21
+vertex 2.7,11,-21.6
+vertex 2.7,6.6,-21.6
+vertex 4.8,11,-21.6
+vertex 4.8,6.6,-21.6
+vertex 4.8,11,-21
+vertex 4.8,6.6,-21
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+translate 0,0,21.6
+
+[texture]
+load oldwatertowerstone.bmp
+coordinates 0,0,0.62
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,0.62
+coordinates 4,1.5,0
+coordinates 5,1.5,0.62
+coordinates 6,2.5,0
+coordinates 7,2.5,0.62

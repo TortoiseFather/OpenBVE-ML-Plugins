@@ -1,0 +1,26 @@
+EE class 55 Napier Deltic Loco D9000 Royal Scots Grey
+=====================================================
+
+Preserved at the East Lancashire Railway. 
+Consist 10 mk 2 coaches.
+
+Specifications
+==============
+
+Builder: English Electric at Vulcan Foundry 
+Build date: 1961–1962  
+Bogie type: Co-Co 
+Wheel diameter: 3 ft 9 in (1.143 m) 
+Wheelbase: 58 ft 6 in (17.83 m) 
+Length: 69 ft 6 in (21.18 m) 
+Width: 8 ft 9½ in (2.68 m) 
+Height: 12 ft 10 in (3.91 m) 
+Weight:  101 t 
+Fuel capacity: 900 gal
+Engine: Napier Deltic D18-25 x2 
+Top speed: 100 mph 
+Power output: 3300hp (1,650 bhp (1,230 kW) × 2)
+Tractive effort Maximum: 50,000 lbf 
+Continuous: 30,500 lbf (136 kN)@ 32.5 mph 
+Train brakes: Dual (Air & Vacuum) 
+

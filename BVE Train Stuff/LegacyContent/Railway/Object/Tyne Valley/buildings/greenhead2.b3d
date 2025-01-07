@@ -1,0 +1,356 @@
+;author=eezypeazy
+;description=Greenhead buildings part 2
+;copyright=eezypeazy, all rights reserved, contact eezypeazy@blueyonder.co.uk
+
+;building
+[meshbuilder]
+vertex -6,-0.4,7
+vertex -6,4,7
+vertex -6,4,25
+vertex -6,-0.4,25
+face 0,1,2,3
+
+[texture]
+load ..\textures\greystone.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,4,2
+
+[meshbuilder]
+vertex -6,4,7
+vertex -9,5.8,7
+vertex -9,5.8,25
+vertex -6,4,25
+face 0,1,2,3
+
+[texture]
+load ..\textures\rooftilesold.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,4,2
+
+[meshbuilder]
+vertex -12,-0.4,7
+vertex -12,4,7
+vertex -9,5.8,7
+vertex -6,4,7
+vertex -6,-0.4,7
+face 0,1,3,4
+face 1,2,3
+color 0,205,188
+
+[texture]
+load ..\textures\woodlaptile.bmp
+coordinates 0,0,36
+coordinates 1,0,12
+coordinates 2,2,0
+coordinates 3,4,12
+coordinates 4,4,36
+
+;shruberry, grass
+[meshbuilder]
+vertex -6.5,-0.4,3
+vertex -8.5,4.5,3
+vertex -4.5,4.5,5
+vertex -6,-0.4,5
+face 0,1,2,3
+color 255,111,111
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,0.8,1
+transparent 0,0,255
+
+
+[meshbuilder]
+vertex -5.4,-0.4,5
+vertex -5.5,1.3,5
+vertex -4.3,1.3,7
+vertex -4,-0.4,7
+vertex -4,-0.4,0
+vertex -4,1.3,0
+vertex -2.3,1.3,2
+vertex -2,-0.4,2
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,0.8,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,0.8,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -2.8,-0.4,0
+vertex -6,-0.4,0
+vertex -6,-0.4,25
+vertex -2.8,-0.4,25
+
+vertex 10,1,25
+vertex 6.8,-0.4,25
+vertex 6.8,-0.4,0
+vertex 10,1,0
+
+face 0,1,2,3
+face 7,6,5,4
+color 155,155,155
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,4,0
+coordinates 7,4,1
+
+[meshbuilder]
+vertex -6,-0.4,0
+vertex -6,1.4,0
+vertex -6,1.4,7
+vertex -6,-0.4,7
+face 0,1,2,3
+color 255,255,255
+
+[texture]
+load ..\fences\whitepicket.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,7,0
+coordinates 3,7,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -6,-0.4,0
+vertex -17,-0.4,0
+vertex -17,-0.4,18
+vertex -6,-0.4,18
+face 0,1,2,3
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,3,0
+coordinates 3,3,2
+
+
+
+
+
+;brick wall
+[meshbuilder]
+vertex 9.7,1,25
+vertex 9.7,6.975,25
+vertex 9.7,6.975,18
+vertex 9.7,1,18
+face 0,1,2,3
+
+[texture]
+load ..\buildings\HBbrick.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,4,0
+coordinates 3,4,2
+
+;author=eezypeazy
+;description=4 house terrace
+;copyright=eezypeazy, all rights reserved
+
+[meshbuilder]
+vertex 9.7,0,0
+vertex 9.7,7,0
+vertex 18.3,7,0
+vertex 18.3,0,0
+vertex 14,10,0
+face 0,1,4,2,3
+color 222,222,222
+
+[meshbuilder]
+vertex 9.7,1,18
+vertex 9.7,7,18
+vertex 9.7,1,9
+vertex 9.7,7,9
+vertex 9.7,7,0
+vertex 9.7,1,0
+face 0,1,3,2
+face 2,3,4,5
+
+[texture]
+load ..\buildings\hbhouse.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,1
+coordinates 3,1,0
+coordinates 4,0,0
+coordinates 5,0,1
+
+[meshbuilder]
+vertex 9.7,6.9,9
+vertex 14,10,9
+vertex 14,10,4.5
+vertex 9.5,6.9,4.5
+vertex 14,10,0
+vertex 9.6,6.9,0
+
+vertex 9.6,6.9,18
+vertex 14,10,18
+vertex 14,10,13.5
+vertex 9.7,6.9,13.5
+vertex 14,10,9
+vertex 9.7,6.9,9
+
+face 0,1,2,3
+face 3,2,4,5
+
+face 6,7,8,9
+face 9,8,10,11
+
+[texture]
+load ..\buildings\halthouseroof.bmp
+coordinates 0,0.9,1
+coordinates 1,0.9,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 4,0.9,0
+coordinates 5,0.9,1
+coordinates 6,0.9,1
+coordinates 7,0.9,0
+coordinates 8,0,0
+coordinates 9,0,1
+coordinates 10,0.9,0
+coordinates 11,0.9,1
+
+;chimneys
+[meshbuilder]
+vertex  13.3,9.3,0.4
+vertex 13.3,10.8,0.4
+vertex 13.3,10.8,-0.1
+vertex 13.3, 9.3,-0.1
+vertex 14.7,10.8,-0.1
+vertex 14.7,9.3,-0.1
+face 0,1,2,3
+face 3,2,4,5
+color 188,188,188
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.2,0
+coordinates 3,0.2,1
+coordinates 4,1,0
+coordinates 5,1,1
+
+[meshbuilder]
+cylinder 6,0.12,0.12,0.9
+translate 13.5,11,0.1
+color 177,177,10
+
+[meshbuilder]
+cylinder 6,0.12,0.12,0.9
+translate 13.85,11,0.1
+color 177,177,10
+
+[meshbuilder]
+cylinder 6,0.12,0.12,0.9
+translate 14.15,11,0.1
+color 177,177,10
+
+[meshbuilder]
+cylinder 6,0.12,0.12,0.9
+translate 14.5,11,0.1
+color 177,177,10
+
+[meshbuilder]
+vertex  13.3,9.3,9.1
+vertex 13.3,10.8,9.1
+vertex 13.3,10.8,8.6
+vertex 13.3, 9.3,8.6
+vertex 14.7,10.8,8.6
+vertex 14.7,9.3,8.6
+face 0,1,2,3
+face 3,2,4,5
+color 188,188,188
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.2,0
+coordinates 3,0.2,1
+coordinates 4,1,0
+coordinates 5,1,1
+
+[meshbuilder]
+cylinder 6,0.12,0.12,0.9
+translate 13.5,11,8.9
+color 177,177,10
+
+[meshbuilder]
+cylinder 6,0.12,0.12,0.9
+translate 13.85,11,8.9
+color 177,177,10
+
+[meshbuilder]
+cylinder 6,0.12,0.12,0.9
+translate 14.15,11,8.9
+color 177,177,10
+
+[meshbuilder]
+cylinder 6,0.12,0.12,0.9
+translate 14.5,11,8.9
+color 177,177,10
+
+[meshbuilder]
+vertex  13.3,9.3,18.1
+vertex 13.3,10.8,18.1
+vertex 13.3,10.8,17.6
+vertex 13.3, 9.3,17.6
+vertex 14.7,10.8,17.6
+vertex 14.7,9.3,17.6
+face 0,1,2,3
+face 3,2,4,5
+color 188,188,188
+
+[texture]
+load ..\textures\redbrick.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.2,0
+coordinates 3,0.2,1
+coordinates 4,1,0
+coordinates 5,1,1
+
+[meshbuilder]
+cylinder 6,0.12,0.12,0.9
+translate 13.5,11,17.9
+color 177,177,10
+
+[meshbuilder]
+cylinder 6,0.12,0.12,0.9
+translate 13.85,11,17.9
+color 177,177,10
+
+[meshbuilder]
+cylinder 6,0.12,0.12,0.9
+translate 14.15,11,17.9
+color 177,177,10
+
+[meshbuilder]
+cylinder 6,0.12,0.12,0.9
+translate 14.5,11,17.9
+color 177,177,10

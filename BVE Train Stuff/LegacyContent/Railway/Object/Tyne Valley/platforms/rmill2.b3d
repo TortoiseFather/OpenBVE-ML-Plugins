@@ -1,0 +1,168 @@
+;author=eezypeazy
+;description=riding mill platform
+;copyright=eezypeazy, all rights reserved
+;lh side
+[MeshBuilder]
+Vertex -1.9,-0.2,-0.2
+Vertex -1.9,0.8,-0.2
+Vertex -1.8,0.8,-0.2
+Vertex -1.8,1,-0.2
+vertex -1.8,1,25.2
+vertex -1.8,0.8,25.2
+vertex -1.9,0.8,25.2
+vertex -1.9,-0.2,25.2
+face 0,1,6,7
+face 1,2,5,6
+face 2,3,4,5
+
+[Texture]
+Load ..\walls\stone.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.55
+Coordinates 2, 0, 0.3
+Coordinates 3, 0, 0
+Coordinates 4, 4, 0
+Coordinates 5, 4, 0.3
+Coordinates 6, 4, 0.55
+coordinates 7,4,1
+
+[meshbuilder]
+cube 0.1,0.05,12.8
+color 222,222,222
+translate -1.8,1.05,12.5
+
+[meshbuilder]
+vertex -2.2,1.1,-0.2
+vertex -2.4,1.1,-0.2
+vertex -2.4,1.1,25.2
+vertex -2.2,1.1,25.2
+face 0,1,2,3
+color 240,150,100
+
+[meshbuilder]
+vertex -1.9,1.1,-0.2
+vertex -2.2,1.1,-0.2
+vertex -2.2,1.1,25.2
+vertex -1.9,1.1,25.2
+face 0,1,2,3
+color 155,155,155
+
+[meshbuilder]
+vertex -2.4,1.1,-0.2
+vertex -4,1.1,-0.2
+vertex -4,1.1,25.2
+vertex -2.4,1.1,25.2
+face 0,1,2,3
+color 88,88,88
+
+[meshbuilder]
+vertex -4,1.1,-0.2
+vertex -4,2.3,-0.2
+vertex -4,2.3,25.2
+vertex -4,1.1,25.2
+face 0,1,2,3
+
+[texture]
+load ..\buildings\bluemetalfence.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,25,0
+coordinates 3,25,1
+transparent 0,0,255
+
+;rh side
+
+[MeshBuilder]
+Vertex 5.9,-0.2,-0.2
+Vertex 5.9,0.8,-0.2
+Vertex 5.8,0.8,-0.2
+Vertex 5.8,1,-0.2
+vertex 5.8,1,25.2
+vertex 5.8,0.8,25.2
+vertex 5.9,0.8,25.2
+vertex 5.9,-0.2,25.2
+face 7,6,1,0
+face 6,5,2,1
+face 5,4,3,2
+
+[Texture]
+Load ..\walls\stone.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.55
+Coordinates 2, 0, 0.3
+Coordinates 3, 0, 0
+Coordinates 4, 4, 0
+Coordinates 5, 4, 0.3
+Coordinates 6, 4, 0.55
+coordinates 7,4,1
+
+[meshbuilder]
+cube 0.1,0.05,12.8
+color 222,222,222
+translate 5.8,1.05,12.5
+
+[meshbuilder]
+vertex 6.3,1.1,-0.2
+vertex 6.5,1.1,-0.2
+vertex 6.5,1.1,25.2
+vertex 6.3,1.1,25.2
+face 3,2,1,0
+color 240,150,100
+
+[meshbuilder]
+vertex 5.9,1.1,-0.2
+vertex 6.3,1.1,-0.2
+vertex 6.3,1.1,25.2
+vertex 5.9,1.1,25.2
+face 3,2,1,0
+color 155,155,155
+
+[meshbuilder]
+vertex 6.5,1.1,-0.2
+vertex 8.1,1.1,-0.2
+vertex 8.1,1.1,25.2
+vertex 6.5,1.1,25.2
+face 3,2,1,0
+color 88,88,88
+
+[meshbuilder]
+vertex 8.1,1.1,-0.2
+vertex 8.1,2.3,-0.2
+vertex 8.1,2.3,25.2
+vertex 8.1,1.1,25.2
+face 3,2,1,0
+
+[texture]
+load ..\buildings\bluemetalfence.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,25,0
+coordinates 3,25,1
+transparent 0,0,255
+
+; lamp rh side
+[meshbuilder]
+cylinder 8,0.15,0.15,2
+translate 7.9,0.71,0.1
+color 50,150,255
+
+[meshbuilder]
+cylinder 8,0.11,0.11,9
+translate 7.9,5.5,0.1
+color 255,255,177
+
+[meshbuilder]
+vertex 7.7,10,-0.25
+vertex 7.7,9.8,-0.25
+vertex 6.85,10.1,0.45
+vertex 6.85,9.9,0.45
+vertex 7.7,9.8,-0.25
+vertex 7.7,10,-0.25
+vertex 6.85,10.1,-0.25
+vertex 6.85,9.9,0.45
+face 3,2,1,0
+face 7,6,2,3
+face 4,5,6,7
+face 2,6,5,1
+face 4,7,3,0
+color 50,50,50

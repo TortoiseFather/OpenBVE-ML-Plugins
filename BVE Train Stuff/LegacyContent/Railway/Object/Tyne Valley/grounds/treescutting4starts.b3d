@@ -1,0 +1,81 @@
+;author=eezypeazy
+;description=trees to hide the start of a cutting, built 0 to -6.5 in y
+;copyright=eezypeazy 2005, all rights reserved, contact eezypeazy@blueyonder.co.uk
+
+
+[meshbuilder]
+vertex -19,0,-6
+vertex -16,7,-6
+vertex -4,6,-6
+vertex -4,0,-6
+vertex 18,-0.5,-3
+vertex 16,7,-3
+vertex 6,6,-1
+vertex 5.5,-0.5,-1
+face 0,1,2,3
+face 7,6,5,4
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,1,1
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 4,1,1
+coordinates 5,1,0
+coordinates 6,0,0
+coordinates 7,0,1
+transparent 0,0,255
+
+
+[meshbuilder]
+vertex -16,0,-3
+vertex -12,7,-3
+vertex -3,6,-1
+vertex -1,-0.4,-1
+
+vertex 30,0,-6
+vertex 23,7,-6
+vertex 8,6,-6
+vertex 7,-0.4,-6
+
+vertex 42,0,-4
+vertex 35,9,-4
+vertex 18,9,-4
+vertex 17,-0.4,-4
+
+face 0,1,2,3
+face 7,6,5,4
+face 11,10,9,8
+color 123,123,123
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,1,1
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 4,1,1
+coordinates 5,1,0
+coordinates 6,0,0
+coordinates 7,0,1
+coordinates 8,0.9,1
+coordinates 9,0.9,0
+coordinates 10,0,0
+coordinates 11,0,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -7,-0.5,-6.5
+vertex -7,-0.5,1
+vertex 14,-0.5,1
+vertex 14,-0.5,-6.5
+face 0,1,2,3
+color 155,155,155
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,3
+coordinates 1,0,0
+coordinates 2,6,0
+coordinates 3,6,3

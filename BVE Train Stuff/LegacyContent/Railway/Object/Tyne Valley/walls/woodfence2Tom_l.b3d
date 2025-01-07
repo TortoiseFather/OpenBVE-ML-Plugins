@@ -1,0 +1,44 @@
+;author=Uwe Post, modified by eezypeazy to position the fence -1.8m from track centre and add grass
+;description=wood fence
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+;id=154
+
+[MeshBuilder]
+Vertex -1.8, 1, 25
+Vertex -1.8, 1, 0
+Vertex -1.8, -0.3, 0
+Vertex -1.8, -0.3, 25
+Face2 0,1,2,3
+
+[Texture]
+Load ..\fences\woodfence1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 12, 0
+Coordinates 2, 12, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -1.9,-0.3,12.2
+vertex -1.9,0.3,12.2
+vertex -1.7,0.3,12.7
+vertex -1.7,-0.3,12.7
+vertex -2,-0.3,18.5
+vertex -2,0.5,18.5
+vertex -1.7,0.5,19
+vertex -1.7,-0.3,19
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\plants\grassh1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255
+

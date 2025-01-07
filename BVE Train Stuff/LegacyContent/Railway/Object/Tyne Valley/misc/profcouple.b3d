@@ -1,0 +1,18 @@
+;author=eezypeazy
+;description=professional couple
+;copyright=eezypeazy, all rights reserved
+
+[meshbuilder]
+vertex -1,0,0
+vertex -1,2,0
+vertex 0.5,2,1.5
+vertex 0.5,0,1.5
+face 0,1,2,3
+
+[texture]
+load profcouple.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255

@@ -1,0 +1,207 @@
+;author=eezypeazy
+;description=haydon bridge platform shelter left fences, bushes
+;copyright=eezypeazy, all rights reserved
+
+;building
+[meshbuilder]
+vertex -9,1,3
+vertex -9,3.6,3
+vertex -5.6,3.6,3
+vertex -5.6,1,3
+vertex -5.6,3.6,3.3
+vertex -5.6,1,3.3
+vertex -9,3.6,12
+vertex -9,1,12
+vertex -5.6,3.6,12
+vertex -5.6,1,12
+vertex -5.6,3.6,12.3
+vertex -5.6,1,12.3
+face 0,1,2,3
+face 3,2,4,5
+face 0,1,6,7
+face 7,6,8,9
+face 9,8,10,11
+
+[texture]
+load ..\walls\stone.bmp
+coordinates 0,0,2
+coordinates 1,0,0
+coordinates 2,1.8,0
+coordinates 3,1.8,2
+coordinates 4,2,0
+coordinates 5,2,2
+coordinates 6,8,0
+coordinates 7,8,2
+coordinates 8,9.8,0
+coordinates 9,9.8,2
+coordinates 10,2,0
+coordinates 11,2,2
+
+;canopy
+[meshbuilder]
+vertex -9,3.4,2.9 
+vertex -5,5,2.9
+vertex -5,3.4,2.9
+vertex -5,5,12.3
+vertex -5,3.4,12.3
+vertex -9,3.7,2.9
+face 0,5,1,2
+face 2,1,3,4
+
+[texture]
+load ..\platforms\HBcanopy.bmp
+coordinates 0,0,1
+coordinates 1,4,0
+coordinates 2,4,1
+coordinates 3,16,0
+coordinates 4,16,1
+coordinates 5,0,0
+transparent 0,0,255
+
+[meshbuilder]
+vertex -9,3.6,2.9
+vertex -5,5,2.9
+vertex -5,5,12.3
+vertex -9,3.6,12.3
+vertex -5,3.6,12.3
+face 0,1,2,3
+face 3,2,4
+color 88,88,88
+
+;pillars
+[meshbuilder]
+cylinder 8,0.09,0.09,1
+color 50,150,255
+translate -5.9,1.4,6
+
+[meshbuilder]
+cylinder 8,0.07,0.08,2.05
+color 255,255,177
+translate -5.9,2.5,6
+
+[meshbuilder]
+cylinder 8,0.09,0.09,1
+color 50,150,255
+translate -5.9,1.4,9
+
+[meshbuilder]
+cylinder 8,0.07,0.08,2.05
+color 255,255,177
+translate -5.9,2.5,9
+
+;ground
+[meshbuilder]
+vertex -5.7,1.1,3
+vertex -9,1.1,3
+vertex -9,1.1,12
+vertex -5.7,1.1,13
+face 0,1,2,3
+color 66,66,66
+
+[MeshBuilder]
+cube 0.1,0.75,0.1
+color 177,177,177
+translate -5.8,1.75,0
+
+[meshbuilder]
+cylinder 8,0.1,0.1,0.2
+color 177,177,177
+rotate 1,0,0,90
+translate -5.8,2.5,0
+
+[MeshBuilder]
+cube 0.1,0.75,0.1
+color 177,177,177
+translate -5.8,1.75,12.5
+
+[meshbuilder]
+cylinder 8,0.1,0.1,0.2
+color 177,177,177
+rotate 1,0,0,90
+translate -5.8,2.5,12.5
+
+[MeshBuilder]
+cube 0.1,0.75,0.1
+color 177,177,177
+translate -5.8,1.75,15
+
+[meshbuilder]
+cylinder 8,0.1,0.1,0.2
+color 177,177,177
+rotate 1,0,0,90
+translate -5.8,2.5,15
+
+[MeshBuilder]
+cube 0.1,0.75,0.1
+color 177,177,177
+translate -5.8,1.75,17.5
+
+[meshbuilder]
+cylinder 8,0.1,0.1,0.2
+color 177,177,177
+rotate 1,0,0,90
+translate -5.8,2.5,17.5
+
+[MeshBuilder]
+cube 0.1,0.75,0.1
+color 177,177,177
+translate -5.8,1.75,20
+
+[meshbuilder]
+cylinder 8,0.1,0.1,0.2
+color 177,177,177
+rotate 1,0,0,90
+translate -5.8,2.5,20
+
+[MeshBuilder]
+cube 0.1,0.75,0.1
+color 177,177,177
+translate -5.8,1.75,22.5
+
+[meshbuilder]
+cylinder 8,0.1,0.1,0.2
+color 177,177,177
+rotate 1,0,0,90
+translate -5.8,2.5,22.5
+
+[meshbuilder]
+cylinder 5,0.05,0.05,12
+color 50,150,255
+rotate 1,0,0,90
+translate -5.8,1.95,18.5
+
+[meshbuilder]
+cylinder 5,0.05,0.05,12
+color 50,150,255
+rotate 1,0,0,90
+translate -5.8,2.4,18.5
+
+[meshbuilder]
+cylinder 5,0.05,0.05,12
+color 50,150,255
+rotate 1,0,0,90
+translate -5.8,1.5,18.5
+
+[meshbuilder]
+vertex -6.2,1,13
+vertex -6.2,3.5,13
+vertex -6,3.5,24
+vertex -6,1,25
+vertex -6.5,1,13
+vertex -6.5,6,13
+vertex -6.3,6,24
+vertex -6.3,1,24
+face 0,1,2,3
+face 4,5,6,7
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0.1,0.9
+coordinates 1,0.1,0.1
+coordinates 2,0.9,0.1
+coordinates 3,0.9,0.9
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,1,1
+transparent 0,0,255

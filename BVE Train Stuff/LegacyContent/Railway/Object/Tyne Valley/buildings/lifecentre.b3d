@@ -1,0 +1,63 @@
+;author=eezypeazy
+;description=Centre For Life
+;copyright=eezypeazy, all rights reserved. For use in my BVE routes only
+;www.eezypeazy.co.uk
+
+[meshbuilder]
+vertex -14,0,-25
+vertex -14,12,-25
+vertex -11.7,12,-20
+vertex -11.7,0,-20
+vertex -9.6,12,-15
+vertex -9.6,0,-15
+vertex -7.7,12,-10
+vertex -7.7,0,-10
+vertex -6,12,-5
+vertex -6,0,-5
+vertex -4.5,12,0
+vertex -4.5,0,0
+vertex -3.2,12,5
+vertex -3.2,0,5
+vertex -2.1,12,10
+vertex -2.1,0,10
+vertex -1.2,12,15
+vertex -1.2,0,15
+vertex -0.5,12,20
+vertex -0.5,0,20
+vertex 0,12,25
+vertex 0,0,25
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 9,8,10,11
+face 11,10,12,13
+face 13,12,14,15
+face 15,14,16,17
+face 17,16,18,19
+face 19,18,20,21
+
+[texture]
+load lifecorrugated.bmp
+coordinates 0,0,12
+coordinates 1,0,0
+coordinates 2,5,0
+coordinates 3,5,12
+coordinates 4,10,0
+coordinates 5,10,12
+coordinates 6,15,0
+coordinates 7,15,12
+coordinates 8,20,0
+coordinates 9,20,12
+coordinates 10,25,0
+coordinates 11,25,12
+coordinates 12,30,0
+coordinates 13,30,12
+coordinates 14,35,0
+coordinates 15,35,12
+coordinates 16,40,0
+coordinates 17,40,12
+coordinates 18,45,0
+coordinates 19,45,12
+coordinates 20,50,0
+coordinates 21,50,12

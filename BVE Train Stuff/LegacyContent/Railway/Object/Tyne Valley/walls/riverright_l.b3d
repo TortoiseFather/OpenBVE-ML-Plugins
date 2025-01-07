@@ -1,0 +1,118 @@
+;author=eezypeazy
+;description=River Tyne right  hand side, fields
+;copyright=eezypeazy, all rights reserved, contact eezypeazy@blueyonder.co.uk
+;includes some RouteBuilder library bitmaps
+
+
+[meshbuilder]
+vertex 12,-1.5,-1
+vertex 12,-1.5,26
+vertex 55,-1.5,27
+vertex 55,-1.5,-2
+face 0,1,2,3
+
+[texture]
+load ..\textures\riverwater.bmp
+coordinates 0,2,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,2,0
+
+[meshbuilder]
+vertex 55,-1.5,25.1
+vertex 56,0.1,25.1
+vertex 56,0.1,-1.1
+vertex 55,-1.5,-0.1
+face 0,1,2,3
+color 255,211,211
+
+[texture]
+load ..\textures\dirttrack.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+[meshbuilder]
+vertex 55,-1,25.1
+vertex 55,5,25.1
+vertex 57,5,0
+vertex 57,0,0
+face 0,1,2,3
+color 255,255,0
+
+[texture]
+load ..\plants\eptree1.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 56,0.1,-2
+vertex 99,4.5,-6
+vertex 133,15.1,-6
+vertex 133,15.1,31
+vertex 99,4.5,31
+vertex 56,0.1,28
+vertex 66,0.5,-2
+vertex 66,0.5,28
+vertex 6,-0.3,28
+vertex 11,-0.3,28
+vertex 11,-0.3,-2
+vertex 6,-0.3,-2
+face 5,7,6,0
+face 7,4,1,6
+face 4,3,2,1
+face 8,9,10,11
+
+[texture]
+load ..\textures\grass.bmp
+coordinates 0,0,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,3,0
+coordinates 4,3,1
+coordinates 5,3,1
+coordinates 6,0,3
+coordinates 7,3,3
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,3,0
+coordinates 11,3,1
+
+[meshbuilder]
+vertex 130,12.1,-1.1
+vertex 130,24,-1.1
+vertex 122,21,25.1
+vertex 122,12.1,25.1
+face 3,2,1,0
+
+[texture]
+load ..\plants\trees2.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex 10,-0.1,-0.1
+vertex 10,1.5,-0.1
+vertex 10.2,1.5,18
+vertex 10.2,-0.1,18
+vertex 9.7,1.5,25.1
+vertex 9.7,-0.1,25.1
+face 3,2,1,0
+face 5,4,2,3
+
+[texture]
+load ..\plants\hedge.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1.8,0
+coordinates 3,1.8,1
+coordinates 4,3,0
+coordinates 5,3,1
+transparent 0,0,255

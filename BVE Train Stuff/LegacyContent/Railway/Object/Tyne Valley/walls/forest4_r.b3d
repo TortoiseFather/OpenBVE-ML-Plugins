@@ -1,0 +1,118 @@
+;description=forest wall
+;author=Uwe Post
+;copyright=the BVE RouteBuilder team 2002,part of RB Base library,goto routebuilder.bve-routes.com
+;modified by eezypeazy to reduce tree height and remove redundant faces
+
+; forest left
+
+[MeshBuilder]
+Vertex 8,16,0
+Vertex 8,-0.3,0
+Vertex 17,-0.3,0
+Vertex 17,16,0
+Face2 3,2,1,0
+
+[Texture]
+Load ..\plants\tree2.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 16,15,4
+Vertex 16,-0.3,4
+Vertex 8,-0.3,4
+Vertex 8,15,4
+Face2 0,1,2,3
+
+[Texture]
+;Load ..\plants\tree1.bmp
+Load ..\plants\largetree.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+;Transparent 0, 0, 255
+transparent 0,0,0
+
+[MeshBuilder]
+Vertex 9,14,17
+Vertex 9,-0.3,17
+Vertex 13,-0.3,17
+Vertex 13,14,17
+Face2 0,1,2,3
+
+[Texture]
+;Load ..\plants\tree1.bmp
+Load ..\plants\largetree.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+;Transparent 0, 0, 255
+transparent 0,0,0
+
+[MeshBuilder]
+Vertex 10,15,10
+Vertex 10,-0.3,10
+Vertex 23,-0.3,10
+Vertex 23,15,10
+Face2 3,2,1,0
+
+[Texture]
+;Load ..\plants\tree1.bmp
+Load ..\plants\largetree.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+;Transparent 0, 0, 255
+transparent 0,0,0
+
+[MeshBuilder]
+Vertex 8,14,14
+Vertex 8,-0.3,14
+Vertex 22,-0.3,14
+Vertex 22,14,14
+Face 3,2,1,0
+
+[Texture]
+;Load ..\plants\tree1.bmp
+Load ..\plants\largetree.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+;Transparent 0, 0, 255
+transparent 0,0,0
+
+[MeshBuilder]
+Vertex 15,6,21
+Vertex 15,-0.3,21
+Vertex 11,-0.3,21
+Vertex 11,6,21
+Face2 0,1,2,3
+
+[Texture]
+Load ..\plants\bush1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 120,-0.3,-2
+Vertex 120,-0.3,26
+Vertex 2.5,-0.5,26
+Vertex 2.5,-0.5,-2
+Face2 3,2,1,0
+
+[Texture]
+Load ..\grounds\forestfloor1.bmp
+Coordinates 0,4,0
+Coordinates 1,4,1
+Coordinates 2,0,1
+Coordinates 3,0,0
