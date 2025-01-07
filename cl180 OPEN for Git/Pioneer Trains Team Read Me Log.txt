@@ -1,0 +1,128 @@
+Class 180 Grand Central livery
+
+
+
+
+      _                              _             _                                                                              
+       (_)                            | |           (_)                                                                             
+  _ __  _  ___  _ __   ___  ___ _ __  | |_ _ __ __ _ _ _ __  ___                                                                    
+ | '_ \| |/ _ \| '_ \ / _ \/ _ \ '__| | __| '__/ _` | | '_ \/ __|                                                                   
+ | |_) | | (_) | | | |  __/  __/ |    | |_| | | (_| | | | | \__ \                                                                   
+ | .__/|_|\___/|_| |_|\___|\___|_|     \__|_|  \__,_|_|_| |_|___/                                                                   
+ | |                                                                                                                                
+ |_|_   ___  __  ___                                                                                                                
+ |__ \ / _ \/_ |/ _ \                                                                                                               
+    ) | | | || | (_) |                                                                                                              
+   / /| | | || |\__, |                                                                                                              
+  / /_| |_| || |  / / _ _          __        __                                                                                     
+ |____|\___/ |_| /_/ (_) |        / /        \ \                                                                                    
+   ___ _ __ ___  __| |_| |_ ___  | |    ___   | |                                                                                   
+  / __| '__/ _ \/ _` | | __/ __| | |   / __|  | |                                                                                   
+ | (__| | |  __/ (_| | | |_\__ \ | |  | (__   | |                                                                                   
+  \___|_|  \___|\__,_|_|\__|___/ | |   \___|  | |                       _             _                                        _    
+                                  \_\     (_)/_/                       | |           (_)                                      | |   
+ __      ____      ____      __      _ __  _  ___  _ __   ___  ___ _ __| |_ _ __ __ _ _ _ __  ___         ___ ___        _   _| | __
+ \ \ /\ / /\ \ /\ / /\ \ /\ / /     | '_ \| |/ _ \| '_ \ / _ \/ _ \ '__| __| '__/ _` | | '_ \/ __|       / __/ _ \      | | | | |/ /
+  \ V  V /  \ V  V /  \ V  V /   _  | |_) | | (_) | | | |  __/  __/ |  | |_| | | (_| | | | | \__ \   _  | (_| (_) |  _  | |_| |   < 
+   \_/\_/    \_/\_/    \_/\_/   (_) | .__/|_|\___/|_| |_|\___|\___|_|   \__|_|  \__,_|_|_| |_|___/  (_)  \___\___/  (_)  \__,_|_|\_\
+                                    | |                                                                                             
+
+---------------------------------------------------------
+Grand central class 180 - OpenBVE
+---------------------------------------------------------
+
+
+Cab can be obtained from >>BVE4TRAINS<< WITHOUT THIS CAB, THIS EXTERIOR WILL NOT WORK CORRECTLY. 
+
+ 
+
+
+
+EXTERIOR BY PIONEERTRAINZ TEAM, EX BVE4TRAINZ.
+
+THIRD PARTY DEVELOPERS CAN NOT EDIT,RE DISTRIBUTE OR EDIT THIS TRAIN FOR 
+PUBLIC OR PRIVATE DOWNLOADS, BUT CAN MODIFY FOR PERSONAL USE.
+
+
+- MICK v
+- ADAM HARRISON
+- NEIL
+- ALAN WHEELER 
+- BVEWW MEMBERS
+- BVE4TRAINZ
+
+
+in Loving memory of Alan wheeler, guillyman, or any other name you may have known him by, Alan has 
+contributed a vast amount of his time to this game, and has helped me along the years 
+be able to make various trains and objects.he was never a fan of having his name credited. but
+ because of his love of all things BVE over the years, i couldnt not release this today without a mention of him.
+
+Take care up there mate! im sure you're sipping away a tomato and tabasco drink.
+
+
+
+
+THIS TRAIN HAS PARTS FROM OTHER AUTHORS OBJECTS TO CONTRIBUTE TO THE FINAL RESULT.
+ WITH THANKS. USED WITH THE ASSUMPTION THAT ALL "README'S" ARE OPENSOURCE AND 
+FREE TO MODIFY AND USE WITH CREDITS GIVEN AND HEADERS INTACT. 
+
+
+
+ANTHONY BOWDEN - OF RAILSIMROUTES.NET - SEATING AND NUMEROUS OTHER FACTORS , WITH THANKS. 
+BSI rear coupling for Open Bve. - CREDITS AS 2011 ARE OPENSOURCE. WITH THANKS TO STEVE THOMAS AT BVE4TRAINS
+
+
+IF ANY NAMES ARE MISSED THIS IS NOT A MALICIOUS INTENT, TO MAKE US AWARE OF ANY MISSED
+ NAME PLEASE CONTACT US VIA OUR FEEDBACK FORM AT WWW.PIONEERTRAINS.CO.UK AND ANY ERRORS WILL BE FIXED.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Team would like to express our thanks to the various members of the OpenBVE and BVE5 community and forums for their 
+support and help over the 12 months it has taken for the class 180 train to be designed, this was originally an idea by a 
+developers (now ex) girlfriend because we had tickets given from Grand Central, and from that the team met in twickenham
+ for our first meeting to dicuss our approach to the way we would design the 180 over the upcoming months.
+
+from our first meeting in december 2011, all three of us have  gone out of our way to acheive not just the standards 
+we set ourselves, but also the standards of any other train currently out for OpenBVE, we have had run ins with the
+ police on platforms (bloody terrorists ruin our enjoyment of getting textures) and also going to Grand Central them 
+sleves to discuss how the Class 180 would both look and run, over the 12 month we have been developing we have met over
+ 10 times and each time talked about the various ways to get over the many walls we hit in getting to where we are today.
+
+One member of the team had stopped after a while due to yet again the malitous rumours and lies spread between the
+ community, because yet again people like to jump on various band wagons instead of finding out the truth, but as
+ a team we have worked on all three strenghts to acheive this, the class 180. which is by far the most advanced mesh
+ on any hand coded train in the openBVE content.
+
+
+
+
+
+
+Ben Leahy
+Adam Harrison
+Alan wheeler (AKA Bender utility)
+
+
+
+
+

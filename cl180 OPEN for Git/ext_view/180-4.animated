@@ -1,0 +1,301 @@
+
+[object]
+states = 180F1.b3d
+
+[INCLUDE]
+interior\180-1-seats.animated
+Position=+0,+0,+0
+
+[INCLUDE]
+interior\Class 180_1.b3d
+Position=+0,+0,+0
+
+;coupler and coach ends
+
+
+[INCLUDE]
+COUPLER\gangwayends.csv
+Position=+0,+0,+0
+
+[INCLUDE]
+v1.csv
+Position=+0,+0,+0
+
+[INCLUDE]
+COUPLER\buffers.csv
+Position=+0,+0,+0
+
+[INCLUDE]
+LNS\L1.csv
+Position=+0,+0,+0
+
+
+;destination
+
+[INCLUDE]
+DEST\1.csv
+Position=+0,+0,+0
+
+
+;lights
+[INCLUDE]
+FLB2.b3d
+Position=+0,+0,+0
+
+[INCLUDE]
+lights-2.CSV
+Position=+0,+0,+0
+
+
+;back
+[object]
+Position = 0,0, 0.47
+states = door 1-2.b3d
+TranslateXFunction = min[leftDoors,0.1]
+TranslateZFunction = leftdoors[1]
+RefreshRate = 0.01
+
+
+[object]
+Position = 0,0, -2.265
+states = door 2.b3d
+
+
+;back
+[object]
+Position = 0,0, 0.47
+states = door 3-2.b3d
+TranslateXFunction = -min[rightDoors,0.1]
+TranslateZFunction = rightdoors[1]
+RefreshRate = 0.01
+
+
+[object]
+Position = 0,0, -2.22
+states = door 4.b3d
+
+
+
+;******************************
+
+
+
+
+;coupler
+
+[Object]
+States = couplerfront\frontcoupler.b3d
+TranslateZFunction = if[pluginstate[21], -1.04, if[pluginstate[21], -1.04, 0]]
+
+;case
+
+
+
+[Object]
+
+States = cover.b3d
+TranslateZFunction = if[pluginstate[21], 0.06, if[pluginstate[21], 0.06, 0]]
+
+
+
+;******************************
+
+
+
+
+
+;bogie one
+
+
+[object]
+states = bogiefrnt1.csv
+Position = -0, -0.18, 8
+[object]
+Position = -0.72, 0.42, 9.22
+states = bogieleft.csv
+RotateXFunction = value + delta * speedometer / 0.625
+
+[object]
+Position = 0.72, 0.42, 9.22
+states = bogieright.csv
+RotateXFunction = value + delta * speedometer / 0.625
+
+[object]
+Position = 0.72, 0.42, 6.95
+states = bogieright.csv
+RotateXFunction = value + delta * speedometer / 0.625
+
+[object]
+Position = -0.72, 0.42, 6.95
+states = bogieleft.csv
+RotateXFunction = value + delta * speedometer / 0.625
+
+
+
+[object]
+Position = 0,0,8
+states = CYL1.b3d
+
+[object]
+Position = 0,0,8
+states = CYL2.b3d
+
+[object]
+Position = 0,0,8
+states = CYL3.b3d
+
+[object]
+Position = 0,0,8
+states = CYL4.b3d
+
+
+
+
+
+
+
+
+
+
+;bogie two
+
+
+[object]
+states = bogiefrnt1.csv
+Position = -0, -0.18, -8
+[object]
+Position = -0.72, 0.42, -9.12
+states = bogieleft.csv
+RotateXFunction = value + delta * speedometer / 0.625
+
+[object]
+Position = 0.72, 0.42, -9.12
+states = bogieright.csv
+RotateXFunction = value + delta * speedometer / 0.625
+
+[object]
+Position = 0.72, 0.42, -6.82
+states = bogieright.csv
+RotateXFunction = value + delta * speedometer / 0.625
+
+[object]
+Position = -0.72, 0.42, -6.82
+states = bogieleft.csv
+RotateXFunction = value + delta * speedometer / 0.625
+
+
+
+[object]
+Position = 0,0,-8
+states = CYL1.b3d
+
+[object]
+Position = 0,0,-8
+states = CYL2.b3d
+
+[object]
+Position = 0,0,-8
+states = CYL3.b3d
+
+[object]
+Position = 0,0,-8
+states = CYL4.b3d
+
+
+
+
+
+
+;steps
+
+[object]
+Position = 0,0,7.7
+states = step.b3d
+
+
+[object]
+Position = 0,0,-9.5
+states = step.b3d
+
+
+
+[object]
+Position = 2.55,0,7.7
+states = step.b3d
+
+
+[object]
+Position = 2.55,0,-9.5
+states = step.b3d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;COVERS FOR WHEELS
+
+
+[object]
+Position =-0.24,0.18, -7.9
+states = COVER.CSV
+
+
+[object]
+Position =-0.24,0.10, 7.99
+states = COVER.CSV
+
+
+
+[object]
+Position =0.24,0.18, -7.9
+states = COVER2.CSV
+
+
+[object]
+Position =0.24,0.10, 7.99
+states = COVER2.CSV
+
+
+
+
+
+
+
+
+[Object]
+Position = 0, 0, 0
+States = interior\Class 180_1-lights2.b3d,interior\Class 180_1-lights.b3d,interior\Class 180_1-lights.b3d,interior\Class 180_1-lights.b3d
+statefunction = pluginstate[20]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -14,3 +14,5 @@ Unfortunately I cannot share .train files or railway signal packages.
 This project is unofficial and not endorsed by Christopher Lees. If this goes against the OpenBVE policy let me know and I'll take this down. I just found developing for InterfaceQuickReference a pain as I was unable to find documentation.
 
 The 'documentation can be found within /examples folder' doesn't work, my copy of BVE did not come with an examples folder.
+
+cl180 OPEN by Stephen Thomas (http://www.bve4trains.com/ www.pioneertrains.co.uk) reuploaded due to both domains being offline, if requested I will remove all references to the train. 

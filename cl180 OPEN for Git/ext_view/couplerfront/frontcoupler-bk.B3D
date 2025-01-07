@@ -1,0 +1,677 @@
+;***************************
+
+;BSI rear coupling for Open Bve.
+
+;Config and textures by Steve Thomas.
+
+;From photo's by Steve Thomas.
+
+;Steve Thomas Sept 2011. 
+
+;***************************
+
+
+
+;*******************************
+
+;re-configured and textured by Ben Leahy 
+
+;January 2012 (c)
+
+;*******************************
+
+
+
+;rear front coupling
+
+[MeshBuilder]
+Vertex 0.22,0.65,20.05
+Vertex 0.22,1.12,20.05
+Vertex -0.22,1.12,20.05
+Vertex -0.22,0.65,20.05
+Face2 3,2,1,0
+
+[Texture]
+Load coupling_front.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+;front top
+
+[MeshBuilder]
+Vertex 0.22,1.016,20.05
+Vertex 0.22,1.12,20.05
+Vertex -0.22,1.12,20.05
+Vertex -0.22,1.016,20.05
+Face2 3,2,1,0
+
+[Texture]
+Load top_front.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 0.22,1.016,20.02
+Vertex 0.22,1.12,20.02
+Vertex -0.22,1.12,20.02
+Vertex -0.22,1.016,20.02
+Face2 3,2,1,0
+
+[Texture]
+Load top_front.png,
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -0.22,1.016,20.02
+Vertex -0.22,1.12,20.02
+Vertex -0.22,1.12,20.05
+Vertex -0.22,1.016,20.05
+Face2 3,2,1,0
+
+[Texture]
+Load front_top_side.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder]
+Vertex 0.22,1.016,20.02
+Vertex 0.22,1.12,20.02
+Vertex 0.22,1.12,20.05
+Vertex 0.22,1.016,20.05
+Face2 0,1,2,3
+
+[Texture]
+Load front_top_side.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder]
+Vertex -0.22,1.12,20.02
+Vertex 0.22,1.12,20.02
+Vertex 0.22,1.12,20.05
+Vertex -0.22,1.12,20.05
+Face2 3,2,1,0
+
+[Texture]
+Load front_top.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder]
+Vertex -0.22,1.016,20.02
+Vertex 0.22,1.016,20.02
+Vertex 0.22,1.016,20.05
+Vertex -0.22,1.016,20.05
+Face2 3,2,1,0
+color 15,15,15
+
+;foot tread
+
+[MeshBuilder]
+Vertex -0.167,1.121,19.93
+Vertex 0.167,1.121,19.93
+Vertex 0.22,1.121,20.04
+Vertex -0.22,1.121,20.04
+Face2 0,1,2,3
+
+[Texture]
+Load foot_tread_top.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -0.167,1.103,19.93
+Vertex -0.167,1.121,19.93
+Vertex -0.22,1.121,20.04
+Vertex -0.22,1.103,20.04
+Face2 3,2,1,0
+
+[Texture]
+Load foot_tread_side.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 0.167,1.103,19.93
+Vertex 0.167,1.121,19.93
+Vertex 0.22,1.121,20.04
+Vertex 0.22,1.103,20.04
+Face2 3,2,1,0
+
+[Texture]
+Load foot_tread_side.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+
+
+;2
+
+[MeshBuilder] 
+Vertex -0.17,0.905,19.95
+Vertex -0.17,1.04,19.95
+Vertex -0.068,1.045,19.8
+Vertex -0.068,0.91,19.8
+Face2 0,1,2,3
+
+[Texture]
+Load bar_left_pipe.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder] 
+Vertex 0.17,0.905,19.95
+Vertex 0.17,1.04,19.95
+Vertex 0.068,1.045,19.8
+Vertex 0.068,0.91,19.8
+Face2 3,2,1,0
+
+[Texture]
+Load bar.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder] 
+Vertex -0.17,1.04,19.95
+Vertex 0.17,1.04,19.95
+Vertex 0.068,1.045,19.8
+Vertex -0.068,1.045,19.8
+Face2 3,2,1,0
+
+[Texture]
+Load bar.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder] 
+Vertex -0.17,0.905,19.95
+Vertex 0.17,0.905,19.95
+Vertex 0.068,0.91,19.8
+Vertex -0.068,0.91,19.8
+Face2 3,2,1,0
+
+[Texture]
+Load bar.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;3
+
+[MeshBuilder] 
+Vertex -0.068,0.895,19.5
+Vertex -0.068,1.045,19.5
+Vertex -0.068,1.045,19.8
+Vertex -0.068,0.91,19.8
+Face2 3,2,1,0
+
+[Texture]
+Load bar.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder] 
+Vertex 0.068,0.895,19.5
+Vertex 0.068,1.045,19.5
+Vertex 0.068,1.045,19.8
+Vertex 0.068,0.91,19.8
+Face2 3,2,1,0
+
+[Texture]
+Load bar.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder] 
+Vertex -0.068,1.045,19.5
+Vertex 0.068,1.045,19.5
+Vertex 0.068,1.045,19.8
+Vertex -0.068,1.045,19.8
+Face2 0,1,2,3
+
+[Texture]
+Load bar_top_hole.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder] 
+Vertex -0.068,0.895,19.5
+Vertex 0.068,0.895,19.5
+Vertex 0.068,0.91,19.8
+Vertex -0.068,0.91,19.8
+Face2 0,1,2,3
+
+[Texture]
+Load bar.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;recess in front
+
+[MeshBuilder] 
+Vertex 0,0.915,20
+Vertex 0,1.016,20
+Vertex 0,1.016,20.05
+Vertex 0,0.915,20.05
+Face2 3,2,1,0
+
+[Texture]
+Load bar.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder] 
+Vertex -0.17,0.915,20
+Vertex 0,0.915,20
+Vertex 0,0.915,20.05
+Vertex -0.17,0.915,20.05
+Face2 0,1,2,3
+Color 8,6,9
+
+[MeshBuilder] 
+Vertex -0.17,1.04,20
+Vertex 0,1.04,20
+Vertex 0,0.915,20
+Vertex -0.17,0.915,20
+Face2 3,2,1,0
+Color 8,6,9
+
+;small box above front bar
+
+[MeshBuilder] 
+Vertex -0.068,1.121,19.925
+Vertex -0.068,1.04,19.925
+Vertex -0.068,1.04,20.05
+Vertex -0.068,1.121,20.05
+Face2 0,1,2,3
+
+[Texture]
+Load bar_plain.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder] 
+Vertex 0.068,1.121,19.925
+Vertex 0.068,1.04,19.925
+Vertex 0.068,1.04,20.05
+Vertex 0.068,1.121,20.05
+Face2 0,1,2,3
+
+[Texture]
+Load bar_plain.png,
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder] 
+Vertex 0.068,1.121,19.925
+Vertex 0.068,1.04,19.925
+Vertex -0.068,1.04,19.93
+Vertex -0.068,1.121,19.93
+Face2 0,1,2,3
+
+[Texture]
+Load bar_plain.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder] 
+Vertex 0.068,1.121,19.925
+Vertex -0.068,1.121,19.925
+Vertex -0.068,1.121,19.93
+Vertex 0.068,1.121,19.93
+Face2 0,1,2,3
+
+[Texture]
+Load bar_plain.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;box on RH side
+
+
+
+;Centre pipework
+
+[MeshBuilder] 
+Vertex 0,1.032,19.925
+Vertex 0,1.11,19.925
+Vertex 0,1.11,19.75
+Vertex 0,1.032,19.75
+Face2 3,2,1,0
+
+[Texture]
+Load top_pipe.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+[MeshBuilder] 
+Vertex 0,0.43,19.79
+Vertex 0,0.91,19.79
+Vertex 0,0.91,19.5
+Vertex 0,0.43,19.5
+Face2 0,1,2,3
+
+[Texture]
+Load bottom_pipe.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+;left pipework
+
+[MeshBuilder] 
+Vertex -0.0681,0.45,19.946
+Vertex -0.0681,1.025,19.946
+Vertex -0.0681,1.025,19.5
+Vertex -0.0681,0.45,19.5
+Face2 3,2,1,0
+
+[Texture]
+Load left_pipe.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+;control pipework
+
+[MeshBuilder] 
+Vertex -0.19,0.45,19.812
+Vertex -0.19,0.89,19.812
+Vertex -0.19,0.89,19.5
+Vertex -0.19,0.45,19.5
+Face2 0,1,2,3
+
+[Texture]
+Load control_pipe.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+[MeshBuilder] 
+Vertex 0.19,0.45,19.812
+Vertex 0.19,0.89,19.812
+Vertex 0.19,0.89,19.5
+Vertex 0.19,0.45,19.5
+Face2 0,1,2,3
+
+[Texture]
+Load control_pipe.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+;lower parts
+
+[MeshBuilder] 
+Vertex -0.22,0.615,19.75
+Vertex -0.22,0.927,19.75
+Vertex -0.22,0.927,20.09
+Vertex -0.22,0.615,20.09
+Face2 3,2,1,0
+
+[Texture]
+Load lower_side_L.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+[MeshBuilder] 
+Vertex -0.219,0.615,19.92
+Vertex -0.219,0.927,19.92
+Vertex -0.219,0.927,20.09
+Vertex -0.219,0.615,20.09
+Face2 0,1,2,3
+
+[Texture]
+Load lower_side_infill.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+[MeshBuilder] 
+Vertex 0.22,0.615,19.75
+Vertex 0.22,0.927,19.75
+Vertex 0.22,0.927,20.09
+Vertex 0.22,0.615,20.09
+Face2 3,2,1,0
+
+[Texture]
+Load lower_side_R.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+[MeshBuilder] 
+Vertex 0.219,0.615,19.92
+Vertex 0.219,0.927,19.92
+Vertex 0.219,0.927,20.09
+Vertex 0.219,0.615,20.09
+Face2 3,2,1,0
+
+[Texture]
+Load lower_side_infill.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+[MeshBuilder] 
+Vertex -0.22,0.858,19.812
+Vertex 0.22,0.858,19.812
+Vertex 0.22,0.858,20.05
+Vertex -0.22,0.858,20.05
+Face2 0,1,2,3
+
+[Texture]
+Load bar_plain.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder] 
+Vertex -0.22,0.629,19.812
+Vertex 0.22,0.629,19.812
+Vertex 0.22,0.858,19.812
+Vertex -0.22,0.858,19.812
+Face2 0,1,2,3
+Color 8,6,9
+
+[MeshBuilder] 
+Vertex -0.22,0.629,19.825
+Vertex 0.22,0.629,19.825
+Vertex 0.22,0.65,19.825
+Vertex -0.22,0.65,19.825
+Face2 0,1,2,3
+Color 8,6,9
+
+[MeshBuilder] 
+Vertex -0.22,0.9,19.83
+Vertex 0.22,0.9,19.83
+Vertex 0.22,0.858,19.83
+Vertex -0.22,0.858,19.83
+Face2 3,2,1,0
+Color 8,6,9
+
+[MeshBuilder] 
+Vertex -0.22,0.915,20.027
+Vertex 0.22,0.915,20.027
+Vertex 0.22,0.915,20.05
+Vertex -0.22,0.915,20.05
+Face2 0,1,2,3
+
+[Texture]
+Load centre_top.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+;right lever
+
+[MeshBuilder]
+Vertex 0.221,0.918,19.7
+Vertex 0.221,1.018,19.7
+Vertex 0.221,1.018,20.15
+Vertex 0.221,0.918,20.15
+Face2 0,1,2,3
+
+[Texture]
+Load right_lever.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+
+;control front
+
+[MeshBuilder]
+Vertex 0.219,0.74675,20.078
+Vertex 0.219,0.79,20.05
+Vertex -0.221,0.79,20.05
+Vertex -0.221,0.74675,20.078
+Face2 0,1,2,3
+
+[Texture]
+Load 1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder]
+Vertex 0.219,0.7035,20.085
+Vertex 0.219,0.74675,20.078
+Vertex -0.221,0.74675,20.078
+Vertex -0.221,0.7035,20.085
+Face2 0,1,2,3
+
+[Texture]
+Load 2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder]
+Vertex 0.219,0.66025,20.079
+Vertex 0.219,0.7035,20.085
+Vertex -0.221,0.7035,20.085
+Vertex -0.221,0.66025,20.079
+Face2 0,1,2,3
+
+[Texture]
+Load 3.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder]
+Vertex 0.219,0.617,20.032
+Vertex 0.219,0.66025,20.079
+Vertex -0.221,0.66025,20.079
+Vertex -0.221,0.617,20.032
+Face2 0,1,2,3
+
+[Texture]
+Load 4.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+
+;front replacement
+
+
+[MeshBuilder]
+Vertex -0.219,   1.02,   20.065
+Vertex 0.219,    1.02,   20.065
+Vertex 0.221,    0.8,   20.065
+Vertex -0.221,   0.8,   20.065
+Face2 0,1,2,3
+
+[Texture]
+Load front.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+
+
+TranslateAll 0,-0.10,-08.7
+
+
+

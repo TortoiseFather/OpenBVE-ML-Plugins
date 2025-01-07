@@ -1,0 +1,69 @@
+
+
+
+
+
+
+;big
+CreateMeshBuilder,
+AddVertex,-1, 0.2, 11,
+AddVertex,-3, 0.2, 15,
+AddVertex, 3, 0.2, 15,
+AddVertex, 1, 0.2, 11,
+AddFace2,3,2,1,0
+
+LoadTexture, headlampred.png
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0, 0, 0,
+SetEmissiveColor,155,155,155,
+SetBlendMode,Additive,1,
+
+translate,-1.8,0,0
+
+
+;small
+CreateMeshBuilder,
+AddVertex,-1, 0.2, 11,
+AddVertex,-3, 0.2, 15,
+AddVertex, 3, 0.2, 15,
+AddVertex, 1, 0.2, 11,
+AddFace2,3,2,1,0
+
+
+LoadTexture, headlampred.png
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0, 0, 0,
+SetEmissiveColor,155,155,155,
+SetBlendMode,Additive,1,
+
+translate,0.5,0,0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

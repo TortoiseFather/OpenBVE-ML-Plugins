@@ -1,0 +1,41 @@
+CreateMeshBuilder
+Addvertex, -0.65,   3.59,  0
+Addvertex, -0.95,  3.52,  0
+
+Addvertex, -0.95,  3.4,  0
+Addvertex, -0.65,   3.4,  0
+
+Addvertex, -0.65,  3.2,  0
+Addvertex, -0.95,   3.2,  0
+
+
+Addface2, 0,1,2,3
+
+Addface2, 2,3,4,5
+
+
+
+LoadTexture,t.png
+
+settexturecoordinates,0,0,0
+settexturecoordinates,1,1,0
+
+settexturecoordinates,2,1,0.5
+settexturecoordinates,3,0,0.5
+
+settexturecoordinates,4,0,1
+settexturecoordinates,5,1,1
+
+
+setEmissiveColor,190,190,190
+
+translate, 0,0.062,0.02
+
+
+
+
+
+
+
+
+
