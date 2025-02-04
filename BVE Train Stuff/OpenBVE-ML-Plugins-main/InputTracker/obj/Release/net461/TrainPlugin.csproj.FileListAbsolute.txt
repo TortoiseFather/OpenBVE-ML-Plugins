@@ -1,0 +1,12 @@
+X:\OpenBVE-ML-Plugins\BVE Train Stuff\OpenBVE-ML-Plugins-main\InputTracker\InputTracker\obj\Release\net461\TrainPlugin.csproj.AssemblyReference.cache
+X:\OpenBVE-ML-Plugins\BVE Train Stuff\OpenBVE-ML-Plugins-main\InputTracker\InputTracker\obj\Release\net461\TrainPlugin.GeneratedMSBuildEditorConfig.editorconfig
+X:\OpenBVE-ML-Plugins\BVE Train Stuff\OpenBVE-ML-Plugins-main\InputTracker\InputTracker\obj\Release\net461\TrainPlugin.AssemblyInfoInputs.cache
+X:\OpenBVE-ML-Plugins\BVE Train Stuff\OpenBVE-ML-Plugins-main\InputTracker\InputTracker\obj\Release\net461\TrainPlugin.AssemblyInfo.cs
+X:\OpenBVE-ML-Plugins\BVE Train Stuff\OpenBVE-ML-Plugins-main\InputTracker\InputTracker\obj\Release\net461\TrainPlugin.csproj.CoreCompileInputs.cache
+X:\OpenBVE-ML-Plugins\BVE Train Stuff\OpenBVE-ML-Plugins-main\InputTracker\InputTracker\obj\Release\net461\TrainPlugin.sourcelink.json
+X:\OpenBVE-ML-Plugins\BVE Train Stuff\OpenBVE-ML-Plugins-main\InputTracker\obj\Release\net461\TrainPlugin.csproj.AssemblyReference.cache
+X:\OpenBVE-ML-Plugins\BVE Train Stuff\OpenBVE-ML-Plugins-main\InputTracker\obj\Release\net461\TrainPlugin.GeneratedMSBuildEditorConfig.editorconfig
+X:\OpenBVE-ML-Plugins\BVE Train Stuff\OpenBVE-ML-Plugins-main\InputTracker\obj\Release\net461\TrainPlugin.AssemblyInfoInputs.cache
+X:\OpenBVE-ML-Plugins\BVE Train Stuff\OpenBVE-ML-Plugins-main\InputTracker\obj\Release\net461\TrainPlugin.AssemblyInfo.cs
+X:\OpenBVE-ML-Plugins\BVE Train Stuff\OpenBVE-ML-Plugins-main\InputTracker\obj\Release\net461\TrainPlugin.csproj.CoreCompileInputs.cache
+X:\OpenBVE-ML-Plugins\BVE Train Stuff\OpenBVE-ML-Plugins-main\InputTracker\obj\Release\net461\TrainPlugin.sourcelink.json

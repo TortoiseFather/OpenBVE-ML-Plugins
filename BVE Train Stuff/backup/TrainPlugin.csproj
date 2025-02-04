@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <RootNamespace>OpenBVETrainPlugin2</RootNamespace>
+    <AssemblyName>OpenBVETrainPlugin2</AssemblyName>
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.IO" />
+    <Reference Include="System.Net.Sockets" />
+    <Reference Include="System.Text" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>packages/Newtonsoft.Json.13.0.3/lib/net45/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenBveApi">
+      <HintPath>OpenBveApi.dll</HintPath>
+    </Reference>
+    <Reference Include="TrainManager">
+      <HintPath>TrainManager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+</Project>
