@@ -1,0 +1,8 @@
+E:\OpenBVE-ScoreAdder\bin_debug\Sound.Flac.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\Sound.Flac.dll
+E:\OpenBVE-ScoreAdder\bin_debug\Sound.Flac.pdb
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.Flac\obj\x86\Debug\Sound.Flac.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.Flac\obj\x86\Debug\Sound.Flac.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.Flac\obj\x86\Debug\Sound.Flac.csproj.Up2Date
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.Flac\obj\x86\Debug\Sound.Flac.dll
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.Flac\obj\x86\Debug\Sound.Flac.pdb

@@ -1,0 +1,8 @@
+E:\OpenBVE-ScoreAdder\bin_debug\Object.Wavefront.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\Object.Wavefront.dll
+E:\OpenBVE-ScoreAdder\bin_debug\Object.Wavefront.pdb
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.Wavefront\obj\Debug\Object.Wavefront.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.Wavefront\obj\Debug\Object.Wavefront.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.Wavefront\obj\Debug\Object.W.E40D0828.Up2Date
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.Wavefront\obj\Debug\Object.Wavefront.dll
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.Wavefront\obj\Debug\Object.Wavefront.pdb

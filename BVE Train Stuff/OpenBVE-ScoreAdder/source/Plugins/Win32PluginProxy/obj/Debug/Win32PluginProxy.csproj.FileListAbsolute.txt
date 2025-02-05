@@ -1,0 +1,8 @@
+E:\OpenBVE-ScoreAdder\bin_debug\Win32PluginProxy.exe.config
+E:\OpenBVE-ScoreAdder\bin_debug\Win32PluginProxy.exe
+E:\OpenBVE-ScoreAdder\bin_debug\Win32PluginProxy.pdb
+E:\OpenBVE-ScoreAdder\source\Plugins\Win32PluginProxy\obj\Debug\Win32PluginProxy.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Win32PluginProxy\obj\Debug\Win32PluginProxy.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Win32PluginProxy\obj\Debug\Win32Plu.5C47474B.Up2Date
+E:\OpenBVE-ScoreAdder\source\Plugins\Win32PluginProxy\obj\Debug\Win32PluginProxy.exe
+E:\OpenBVE-ScoreAdder\source\Plugins\Win32PluginProxy\obj\Debug\Win32PluginProxy.pdb

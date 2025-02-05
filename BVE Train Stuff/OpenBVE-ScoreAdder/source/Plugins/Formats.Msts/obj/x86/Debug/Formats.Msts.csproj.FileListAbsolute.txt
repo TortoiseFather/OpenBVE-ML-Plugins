@@ -1,0 +1,8 @@
+E:\OpenBVE-ScoreAdder\bin_debug\Data\Formats\Formats.Msts.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\Data\Formats\Formats.Msts.dll
+E:\OpenBVE-ScoreAdder\bin_debug\Data\Formats\Formats.Msts.pdb
+E:\OpenBVE-ScoreAdder\source\Plugins\Formats.Msts\obj\x86\Debug\Formats.Msts.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Formats.Msts\obj\x86\Debug\Formats.Msts.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Formats.Msts\obj\x86\Debug\Formats..5D26B656.Up2Date
+E:\OpenBVE-ScoreAdder\source\Plugins\Formats.Msts\obj\x86\Debug\Formats.Msts.dll
+E:\OpenBVE-ScoreAdder\source\Plugins\Formats.Msts\obj\x86\Debug\Formats.Msts.pdb

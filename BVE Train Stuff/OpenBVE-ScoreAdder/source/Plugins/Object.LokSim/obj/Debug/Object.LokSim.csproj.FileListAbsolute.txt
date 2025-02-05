@@ -1,0 +1,8 @@
+E:\OpenBVE-ScoreAdder\bin_debug\Object.LokSim.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\Object.LokSim.dll
+E:\OpenBVE-ScoreAdder\bin_debug\Object.LokSim.pdb
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.LokSim\obj\Debug\Object.LokSim.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.LokSim\obj\Debug\Object.LokSim.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.LokSim\obj\Debug\Object.L.75D5940A.Up2Date
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.LokSim\obj\Debug\Object.LokSim.dll
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.LokSim\obj\Debug\Object.LokSim.pdb

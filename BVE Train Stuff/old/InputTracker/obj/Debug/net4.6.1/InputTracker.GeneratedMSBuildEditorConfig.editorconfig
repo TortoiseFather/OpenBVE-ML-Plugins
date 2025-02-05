@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = InputTracker
+build_property.ProjectDir = X:\OpenBVE-ML-Plugins\BVE Train Stuff\OpenBVE-ML-Plugins-main\InputTracker\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

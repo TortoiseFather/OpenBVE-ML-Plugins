@@ -1,0 +1,11 @@
+E:\OpenBVE-ScoreAdder\bin_debug\OpenTK.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\SanYingInput.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\SanYingInput.dll
+E:\OpenBVE-ScoreAdder\bin_debug\SanYingInput.pdb
+E:\OpenBVE-ScoreAdder\source\InputDevicePlugins\SanYingInput\obj\Debug\SanYingInput.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\InputDevicePlugins\SanYingInput\obj\Debug\SanYingInput.ConfigForm.resources
+E:\OpenBVE-ScoreAdder\source\InputDevicePlugins\SanYingInput\obj\Debug\SanYingInput.csproj.GenerateResource.cache
+E:\OpenBVE-ScoreAdder\source\InputDevicePlugins\SanYingInput\obj\Debug\SanYingInput.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\InputDevicePlugins\SanYingInput\obj\Debug\SanYingI.44C47DEF.Up2Date
+E:\OpenBVE-ScoreAdder\source\InputDevicePlugins\SanYingInput\obj\Debug\SanYingInput.dll
+E:\OpenBVE-ScoreAdder\source\InputDevicePlugins\SanYingInput\obj\Debug\SanYingInput.pdb

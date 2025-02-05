@@ -1,0 +1,126 @@
+[MeshBuilder]
+
+
+
+
+
+Vertex -1.33,3.25,-10
+Vertex -1.33,3.25,-10.65
+
+Vertex -1.33,3.1,-10.65
+Vertex -1.33,3.1,-10
+
+Face2 0,1,2,3
+
+
+
+[Texture]
+
+Load des-back.png
+
+Coordinates   0, 0, 0,
+Coordinates   1, 1, 0,
+Coordinates   2, 1, 1,
+Coordinates   3, 0, 1,
+
+
+
+translate -0.005,-0.1,15.2
+
+
+
+[MeshBuilder]
+
+
+
+
+
+Vertex -1.33,3.25,-10
+Vertex -1.33,3.25,-10.65
+
+Vertex -1.33,3.1,-10.65
+Vertex -1.33,3.1,-10
+
+Face2 0,1,2,3
+
+
+
+[Texture]
+
+Load des-1.png
+
+Coordinates   0, 0, 0,
+Coordinates   1, 1, 0,
+Coordinates   2, 1, 1,
+Coordinates   3, 0, 1,
+
+Transparent 0,0,255
+
+EmissiveColor 190,190,190
+
+translate -0.007,-0.1,15.2
+
+
+[MeshBuilder]
+
+
+
+
+
+Vertex 1.33,3.25,-10.65
+Vertex 1.33,3.25,-10
+
+Vertex 1.33,3.1,-10
+Vertex 1.33,3.1,-10.65
+
+Face2 0,1,2,3
+
+
+
+[Texture]
+
+Load des-back.png
+
+Coordinates   0, 0, 0,
+Coordinates   1, 1, 0,
+Coordinates   2, 1, 1,
+Coordinates   3, 0, 1,
+
+
+
+translate 0.005,-0.1,15.2
+
+
+
+
+[MeshBuilder]
+
+
+
+
+
+Vertex 1.33,3.25,-10.65
+Vertex 1.33,3.25,-10
+
+Vertex 1.33,3.1,-10
+Vertex 1.33,3.1,-10.65
+
+Face2 0,1,2,3
+
+
+
+[Texture]
+
+Load des-1.png
+
+Coordinates   0, 0, 0,
+Coordinates   1, 1, 0,
+Coordinates   2, 1, 1,
+Coordinates   3, 0, 1,
+
+Transparent 0,0,255
+
+EmissiveColor 190,190,190
+
+
+translate 0.007,-0.1,15.2

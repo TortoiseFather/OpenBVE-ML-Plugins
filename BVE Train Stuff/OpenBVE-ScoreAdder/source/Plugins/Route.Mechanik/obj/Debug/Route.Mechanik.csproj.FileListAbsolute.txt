@@ -1,0 +1,9 @@
+E:\OpenBVE-ScoreAdder\bin_debug\OpenTK.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\Route.Mechanik.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\Route.Mechanik.dll
+E:\OpenBVE-ScoreAdder\bin_debug\Route.Mechanik.pdb
+E:\OpenBVE-ScoreAdder\source\Plugins\Route.Mechanik\obj\Debug\Route.Mechanik.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Route.Mechanik\obj\Debug\Route.Mechanik.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Route.Mechanik\obj\Debug\Route.Me.FB5617DA.Up2Date
+E:\OpenBVE-ScoreAdder\source\Plugins\Route.Mechanik\obj\Debug\Route.Mechanik.dll
+E:\OpenBVE-ScoreAdder\source\Plugins\Route.Mechanik\obj\Debug\Route.Mechanik.pdb

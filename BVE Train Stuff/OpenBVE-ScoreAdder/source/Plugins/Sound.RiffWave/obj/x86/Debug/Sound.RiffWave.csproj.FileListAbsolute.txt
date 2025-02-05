@@ -1,0 +1,8 @@
+E:\OpenBVE-ScoreAdder\bin_debug\Sound.RiffWave.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\Sound.RiffWave.dll
+E:\OpenBVE-ScoreAdder\bin_debug\Sound.RiffWave.pdb
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.RiffWave\obj\x86\Debug\Sound.RiffWave.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.RiffWave\obj\x86\Debug\Sound.RiffWave.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.RiffWave\obj\x86\Debug\Sound.Ri.F09E06E3.Up2Date
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.RiffWave\obj\x86\Debug\Sound.RiffWave.dll
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.RiffWave\obj\x86\Debug\Sound.RiffWave.pdb

@@ -1,0 +1,9 @@
+E:\OpenBVE-ScoreAdder\bin_debug\OpenTK.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\LibRender2.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\LibRender2.dll
+E:\OpenBVE-ScoreAdder\bin_debug\LibRender2.pdb
+E:\OpenBVE-ScoreAdder\source\LibRender2\obj\Debug\LibRender2.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\LibRender2\obj\Debug\LibRender2.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\LibRender2\obj\Debug\LibRender2.csproj.Up2Date
+E:\OpenBVE-ScoreAdder\source\LibRender2\obj\Debug\LibRender2.dll
+E:\OpenBVE-ScoreAdder\source\LibRender2\obj\Debug\LibRender2.pdb

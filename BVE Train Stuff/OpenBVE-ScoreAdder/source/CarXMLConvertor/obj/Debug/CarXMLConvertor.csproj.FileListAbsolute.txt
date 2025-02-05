@@ -1,0 +1,11 @@
+E:\OpenBVE-ScoreAdder\bin_debug\CarXmlConvertor.exe.config
+E:\OpenBVE-ScoreAdder\bin_debug\CarXmlConvertor.exe
+E:\OpenBVE-ScoreAdder\bin_debug\CarXmlConvertor.pdb
+E:\OpenBVE-ScoreAdder\source\CarXMLConvertor\obj\Debug\CarXMLConvertor.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\CarXMLConvertor\obj\Debug\CarXmlConvertor.MainForm.resources
+E:\OpenBVE-ScoreAdder\source\CarXMLConvertor\obj\Debug\CarXmlConvertor.Properties.Resources.resources
+E:\OpenBVE-ScoreAdder\source\CarXMLConvertor\obj\Debug\CarXMLConvertor.csproj.GenerateResource.cache
+E:\OpenBVE-ScoreAdder\source\CarXMLConvertor\obj\Debug\CarXMLConvertor.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\CarXMLConvertor\obj\Debug\CarXMLCo.90FFE3D2.Up2Date
+E:\OpenBVE-ScoreAdder\source\CarXMLConvertor\obj\Debug\CarXmlConvertor.exe
+E:\OpenBVE-ScoreAdder\source\CarXMLConvertor\obj\Debug\CarXmlConvertor.pdb

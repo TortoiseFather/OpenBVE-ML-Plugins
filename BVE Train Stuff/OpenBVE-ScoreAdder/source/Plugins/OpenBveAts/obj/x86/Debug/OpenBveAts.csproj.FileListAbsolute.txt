@@ -1,0 +1,8 @@
+E:\OpenBVE-ScoreAdder\bin_debug\OpenBveAts.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\OpenBveAts.dll
+E:\OpenBVE-ScoreAdder\bin_debug\OpenBveAts.pdb
+E:\OpenBVE-ScoreAdder\source\Plugins\OpenBveAts\obj\x86\Debug\OpenBveAts.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\OpenBveAts\obj\x86\Debug\OpenBveAts.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\OpenBveAts\obj\x86\Debug\OpenBveAts.csproj.Up2Date
+E:\OpenBVE-ScoreAdder\source\Plugins\OpenBveAts\obj\x86\Debug\OpenBveAts.dll
+E:\OpenBVE-ScoreAdder\source\Plugins\OpenBveAts\obj\x86\Debug\OpenBveAts.pdb

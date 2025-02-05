@@ -1,0 +1,8 @@
+E:\OpenBVE-ScoreAdder\bin_debug\Object.Animated.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\Object.Animated.dll
+E:\OpenBVE-ScoreAdder\bin_debug\Object.Animated.pdb
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.Animated\obj\Debug\Object.Animated.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.Animated\obj\Debug\Object.Animated.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.Animated\obj\Debug\Object.A.C5E77895.Up2Date
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.Animated\obj\Debug\Object.Animated.dll
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.Animated\obj\Debug\Object.Animated.pdb

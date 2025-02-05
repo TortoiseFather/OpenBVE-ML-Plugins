@@ -1,0 +1,14 @@
+E:\OpenBVE-ScoreAdder\bin_debug\OpenTK.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\RouteViewer.exe.config
+E:\OpenBVE-ScoreAdder\bin_debug\RouteViewer.exe
+E:\OpenBVE-ScoreAdder\bin_debug\RouteViewer.pdb
+E:\OpenBVE-ScoreAdder\source\RouteViewer\obj\Debug\RouteViewer.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\RouteViewer\obj\Debug\RouteViewer.formMessages.resources
+E:\OpenBVE-ScoreAdder\source\RouteViewer\obj\Debug\RouteViewer.formOptions.resources
+E:\OpenBVE-ScoreAdder\source\RouteViewer\obj\Debug\RouteViewer.formRailPaths.resources
+E:\OpenBVE-ScoreAdder\source\RouteViewer\obj\Debug\RouteViewer.Properties.Resources.resources
+E:\OpenBVE-ScoreAdder\source\RouteViewer\obj\Debug\RouteViewer.csproj.GenerateResource.cache
+E:\OpenBVE-ScoreAdder\source\RouteViewer\obj\Debug\RouteViewer.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\RouteViewer\obj\Debug\RouteVie.A0673DBF.Up2Date
+E:\OpenBVE-ScoreAdder\source\RouteViewer\obj\Debug\RouteViewer.exe
+E:\OpenBVE-ScoreAdder\source\RouteViewer\obj\Debug\RouteViewer.pdb

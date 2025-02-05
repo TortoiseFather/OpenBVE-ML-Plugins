@@ -1,12 +1,27 @@
 {
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"type": "dotnet",
-			"task": "build",
-			"group": "build",
-			"problemMatcher": [],
-			"label": "dotnet: build"
-		}
-	]
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build TrainPlugin",
+            "command": "dotnet",
+            "type": "shell",
+            "args": [
+                "build",
+                "InputTracker.csproj",  // Specify the project file
+                "--configuration", "Release",  // Use Release mode
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
 }

@@ -1,0 +1,13 @@
+E:\OpenBVE-ScoreAdder\bin_debug\OpenTK.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\ObjectViewer.exe.config
+E:\OpenBVE-ScoreAdder\bin_debug\ObjectViewer.exe
+E:\OpenBVE-ScoreAdder\bin_debug\ObjectViewer.pdb
+E:\OpenBVE-ScoreAdder\source\ObjectViewer\obj\Debug\ObjectViewer.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\ObjectViewer\obj\Debug\ObjectViewer.formMessages.resources
+E:\OpenBVE-ScoreAdder\source\ObjectViewer\obj\Debug\ObjectViewer.formOptions.resources
+E:\OpenBVE-ScoreAdder\source\ObjectViewer\obj\Debug\ObjectViewer.formTrain.resources
+E:\OpenBVE-ScoreAdder\source\ObjectViewer\obj\Debug\ObjectViewer.csproj.GenerateResource.cache
+E:\OpenBVE-ScoreAdder\source\ObjectViewer\obj\Debug\ObjectViewer.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\ObjectViewer\obj\Debug\ObjectVi.9054B605.Up2Date
+E:\OpenBVE-ScoreAdder\source\ObjectViewer\obj\Debug\ObjectViewer.exe
+E:\OpenBVE-ScoreAdder\source\ObjectViewer\obj\Debug\ObjectViewer.pdb

@@ -1,0 +1,9 @@
+E:\OpenBVE-ScoreAdder\bin_debug\OpenTK.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\Route.Bve5.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\Route.Bve5.dll
+E:\OpenBVE-ScoreAdder\bin_debug\Route.Bve5.pdb
+E:\OpenBVE-ScoreAdder\source\Plugins\Route.Bve5\obj\Debug\Route.Bve5.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Route.Bve5\obj\Debug\Route.Bve5.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Route.Bve5\obj\Debug\Route.Bve5.csproj.Up2Date
+E:\OpenBVE-ScoreAdder\source\Plugins\Route.Bve5\obj\Debug\Route.Bve5.dll
+E:\OpenBVE-ScoreAdder\source\Plugins\Route.Bve5\obj\Debug\Route.Bve5.pdb

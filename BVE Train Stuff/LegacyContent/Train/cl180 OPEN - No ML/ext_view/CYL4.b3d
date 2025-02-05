@@ -1,0 +1,37 @@
+[MeshBuilder]
+cylinder 9,0.05,0.05,0.2
+rotate 0,1,0,90
+rotate 0,1,0,90
+Color 52,52,52 
+Translate 1.06,0.55,-0.01
+
+
+[MeshBuilder]
+cylinder 9,0.035,0.035,0.2
+rotate 0,1,0,90
+rotate 0,1,0,90
+Color 72,72,72 
+Translate 1.06,0.4,-0.01
+
+translateall -0.11,0,-1.19
+
+
+[MeshBuilder]
+cylinder 9,0.05,0.05,0.2
+rotate 0,1,0,90
+rotate 0,1,0,90
+Color 52,52,52 
+Translate 1.06,0.55,-0.01
+translate -0.11,0.05,1.37
+
+[MeshBuilder]
+cylinder 9,0.035,0.035,0.2
+rotate 0,1,0,90
+rotate 0,1,0,90
+Color 72,72,72 
+Translate 1.06,0.4,-0.01
+
+translate -0.11,0.05,1.37
+
+
+translateall -1.9,0,0

@@ -1,0 +1,12 @@
+E:\OpenBVE-ScoreAdder\bin_debug\OpenTK.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\TrainEditor.exe.config
+E:\OpenBVE-ScoreAdder\bin_debug\TrainEditor.exe
+E:\OpenBVE-ScoreAdder\bin_debug\TrainEditor.pdb
+E:\OpenBVE-ScoreAdder\source\TrainEditor\obj\Debug\TrainEditor.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\TrainEditor\obj\Debug\TrainEditor.formEditor.resources
+E:\OpenBVE-ScoreAdder\source\TrainEditor\obj\Debug\TrainEditor.Properties.Resources.resources
+E:\OpenBVE-ScoreAdder\source\TrainEditor\obj\Debug\TrainEditor.csproj.GenerateResource.cache
+E:\OpenBVE-ScoreAdder\source\TrainEditor\obj\Debug\TrainEditor.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\TrainEditor\obj\Debug\TrainEdi.BF0263CB.Up2Date
+E:\OpenBVE-ScoreAdder\source\TrainEditor\obj\Debug\TrainEditor.exe
+E:\OpenBVE-ScoreAdder\source\TrainEditor\obj\Debug\TrainEditor.pdb

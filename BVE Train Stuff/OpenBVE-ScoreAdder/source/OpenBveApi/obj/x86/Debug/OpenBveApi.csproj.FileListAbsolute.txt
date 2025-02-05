@@ -1,0 +1,11 @@
+E:\OpenBVE-ScoreAdder\bin_debug\OpenBveApi.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\OpenBveApi.xml
+E:\OpenBVE-ScoreAdder\bin_debug\OpenBveApi.dll
+E:\OpenBVE-ScoreAdder\bin_debug\OpenBveApi.pdb
+E:\OpenBVE-ScoreAdder\source\OpenBveApi\obj\x86\Debug\OpenBveApi.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\OpenBveApi\obj\x86\Debug\OpenBveApi.Resource.resources
+E:\OpenBVE-ScoreAdder\source\OpenBveApi\obj\x86\Debug\OpenBveApi.csproj.GenerateResource.cache
+E:\OpenBVE-ScoreAdder\source\OpenBveApi\obj\x86\Debug\OpenBveApi.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\OpenBveApi\obj\x86\Debug\OpenBveApi.csproj.Up2Date
+E:\OpenBVE-ScoreAdder\source\OpenBveApi\obj\x86\Debug\OpenBveApi.dll
+E:\OpenBVE-ScoreAdder\source\OpenBveApi\obj\x86\Debug\OpenBveApi.pdb

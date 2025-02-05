@@ -1,0 +1,8 @@
+E:\OpenBVE-ScoreAdder\bin_debug\AssimpParser.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\AssimpParser.dll
+E:\OpenBVE-ScoreAdder\bin_debug\AssimpParser.pdb
+E:\OpenBVE-ScoreAdder\source\AssimpParser\obj\Debug\AssimpParser.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\AssimpParser\obj\Debug\AssimpParser.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\AssimpParser\obj\Debug\AssimpPa.BACB88F0.Up2Date
+E:\OpenBVE-ScoreAdder\source\AssimpParser\obj\Debug\AssimpParser.dll
+E:\OpenBVE-ScoreAdder\source\AssimpParser\obj\Debug\AssimpParser.pdb

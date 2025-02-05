@@ -1,0 +1,416 @@
+CreateMeshBuilder
+Addvertex, -0.65,   3.59,  9.3
+Addvertex, -0.95,  3.52,  9.1
+
+Addvertex, -0.95,  3.4,  9.6
+Addvertex, -0.65,   3.4,  9.9
+
+Addvertex, -0.65,  3.2,  10.3
+Addvertex, -0.95,   3.2,  10.17
+
+
+Addface2, 0,1,2,3
+Addface2, 2,3,4,5
+
+
+
+LoadTexture,t.png
+
+settexturecoordinates,0,0,0
+settexturecoordinates,1,1,0
+
+settexturecoordinates,2,1,0.5
+settexturecoordinates,3,0,0.5
+
+settexturecoordinates,4,0,1
+settexturecoordinates,5,1,1
+
+setEmissiveColor,190,190,190
+
+translate, 0,0.062,0.02
+
+
+
+
+
+
+
+
+
+CreateMeshBuilder
+Addvertex, 0.65,   3.59,  9.3
+Addvertex, 0.95,  3.52,  9.1
+
+Addvertex, 0.95,  3.4,  9.6
+Addvertex, 0.65,   3.4,  9.9
+
+Addvertex, 0.65,  3.2,  10.3
+Addvertex, 0.95,   3.2,  10.17
+
+
+Addface2, 0,1,2,3
+Addface2, 2,3,4,5
+
+
+
+LoadTexture,t.png
+
+settexturecoordinates,0,0,0
+settexturecoordinates,1,1,0
+
+settexturecoordinates,2,1,0.5
+settexturecoordinates,3,0,0.5
+
+settexturecoordinates,4,0,1
+settexturecoordinates,5,1,1
+
+setEmissiveColor,190,190,190
+
+translate, 0,0.062,0.02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;____________Vents____________
+
+
+
+CreateMeshBuilder
+Cylinder, 8,0.16,0.184,0.08
+Setcolor, 024,024,026
+Translate, 0,4.06,-4.2
+translate,-0.55,-0.26,11.2
+rotate, 0,0,1,-19
+
+
+CreateMeshBuilder
+Cylinder, 8,0.12,0.12,0.05
+Setcolor, 30,30,33
+Translate, 0,4,-4.2
+translate,-0.55,-0.26,11.2
+rotate, 0,0,1,-19
+
+;;
+
+
+CreateMeshBuilder
+Cylinder, 8,0.16,0.184,0.08
+Setcolor, 024,024,026
+Translate, 0,4.06,-4.2
+translate,0.55,-0.26,11.2
+rotate, 0,0,1,19
+
+
+CreateMeshBuilder
+Cylinder, 8,0.12,0.12,0.05
+Setcolor, 30,30,33
+Translate, 0,4,-4.2
+translate,0.55,-0.26,11.2
+rotate, 0,0,1,19
+
+
+
+
+
+
+
+
+
+;exhausts
+
+
+CreateMeshBuilder
+Cylinder, 8,0.12,0.12,0.12
+Setcolor, 15,15,15
+Translate, 0,4,-4.2
+translate,0.75,-0.32,-4.8
+rotate, 0,0,1,19
+
+
+
+
+CreateMeshBuilder
+Cylinder, 8,0.12,0.12,0.12
+Setcolor, 15,15,15
+Translate, 0,4,-4.2
+translate,-0.75,-0.32,-4.8
+rotate, 0,0,1,-19
+
+
+
+
+
+
+
+
+
+;roof section behind vents
+
+createmeshbuilder;
+addvertex,-0.6,  3.85  ,0
+addvertex,0.6,   3.85  ,0
+addvertex,0.6,   3.85   ,0.7
+addvertex,-0.6,  3.85 ,0.7
+addface2,0,1,2,3,
+
+
+LoadTexture,t1.png
+settexturecoordinates,0,0,0
+settexturecoordinates,1,1,0
+settexturecoordinates,2,1,1
+settexturecoordinates,3,0,1
+SetDecalTransparentColor,0, 0, 255
+setemissivecolor,150,150,150
+
+translate,0,0,5.7
+
+
+
+
+createmeshbuilder;
+addvertex,-0.6,  3.85  ,0
+addvertex,-0.6,   3.85  ,0.7
+addvertex,-0.6,   3.67   ,0.7
+addvertex,-0.6,  3.67 ,0
+addface2,0,1,2,3,
+
+
+LoadTexture,t1.png
+settexturecoordinates,0,0,0
+settexturecoordinates,1,1,0
+settexturecoordinates,2,1,1
+settexturecoordinates,3,0,1
+SetDecalTransparentColor,0, 0, 255
+setemissivecolor,150,150,150
+
+translate,0,0,5.7
+
+
+
+createmeshbuilder;
+addvertex,0.6,  3.85  ,0
+addvertex,0.6,   3.85  ,0.7
+addvertex,0.6,   3.67   ,0.7
+addvertex,0.6,  3.67 ,0
+addface2,0,1,2,3,
+
+
+LoadTexture,t1.png
+settexturecoordinates,0,0,0
+settexturecoordinates,1,1,0
+settexturecoordinates,2,1,1
+settexturecoordinates,3,0,1
+SetDecalTransparentColor,0, 0, 255
+setemissivecolor,150,150,150
+
+translate,0,0,5.7
+
+
+
+createmeshbuilder;
+addvertex,-0.6,  3.85  ,0.7
+addvertex,0.6,   3.85  ,0.7
+addvertex,0.6,   3.67   ,0.7
+addvertex,-0.6,  3.67 ,0.7
+addface2,0,1,2,3,
+
+
+LoadTexture,t1.png
+settexturecoordinates,0,0,0
+settexturecoordinates,1,1,0
+settexturecoordinates,2,1,1
+settexturecoordinates,3,0,1
+SetDecalTransparentColor,0, 0, 255
+setemissivecolor,150,150,150
+
+translate,0,0,5.7
+
+
+createmeshbuilder;
+addvertex,-0.6,  3.85  ,0
+addvertex,0.6,   3.85  ,0
+addvertex,0.6,   3.67   ,0
+addvertex,-0.6,  3.67 ,0
+addface2,0,1,2,3,
+
+
+LoadTexture,t1.png
+settexturecoordinates,0,0,0
+settexturecoordinates,1,1,0
+settexturecoordinates,2,1,1
+settexturecoordinates,3,0,1
+SetDecalTransparentColor,0, 0, 255
+setemissivecolor,150,150,150
+
+translate,0,0,5.7
+
+
+
+
+
+
+;forward air fin shark
+
+
+
+createmeshbuilder;
+addvertex,0,  4  ,0
+addvertex,0,   4  ,0.2
+addvertex,0,   3.8   ,0.2
+addvertex,0,  3.8 ,0
+addface2,0,1,2,3,
+
+
+LoadTexture,t3.png
+settexturecoordinates,0,0,0
+settexturecoordinates,1,1,0
+settexturecoordinates,2,1,1
+settexturecoordinates,3,0,1
+SetDecalTransparentColor,0, 0, 0
+setemissivecolor,150,150,150
+
+translate,0,0,6.85
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;MIDDLE LIGHT
+
+
+
+
+
+
+
+CreateMeshBuilder
+Addvertex, -0.0,   3.56,  9.45
+Addvertex, -0.15,  3.52,  9.49
+
+Addvertex, -0.15,  3.45,  9.75
+Addvertex, -0.0,   3.45,  9.9
+
+Addvertex, -0.0,  3.22,  10.25
+Addvertex, -0.15,   3.22,  10.16
+
+
+Addface2, 0,1,2,3
+Addface2, 2,3,4,5
+
+
+
+LoadTexture,L1.png
+
+settexturecoordinates,0,0,0
+settexturecoordinates,1,1,0
+
+settexturecoordinates,2,1,0.5
+settexturecoordinates,3,0,0.5
+
+settexturecoordinates,4,0,1
+settexturecoordinates,5,1,1
+
+setEmissiveColor,190,190,190
+
+translate, 0,0.075,0.25
+
+
+
+
+
+CreateMeshBuilder
+Addvertex, 0.0,   3.56,  9.45
+Addvertex, 0.15,  3.52,  9.49
+
+Addvertex, 0.15,  3.45,  9.75
+Addvertex, 0.0,   3.45,  9.9
+
+Addvertex, 0.0,  3.22,  10.25
+Addvertex, 0.15,   3.22,  10.16
+
+
+Addface2, 0,1,2,3
+Addface2, 2,3,4,5
+
+
+
+LoadTexture,L1.png
+
+settexturecoordinates,0,0,0
+settexturecoordinates,1,1,0
+
+settexturecoordinates,2,1,0.5
+settexturecoordinates,3,0,0.5
+
+settexturecoordinates,4,0,1
+settexturecoordinates,5,1,1
+
+setEmissiveColor,190,190,190
+
+translate, 0,0.075,0.25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

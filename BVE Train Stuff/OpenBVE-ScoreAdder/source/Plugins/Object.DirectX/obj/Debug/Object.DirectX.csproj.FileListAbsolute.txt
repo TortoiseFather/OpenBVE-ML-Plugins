@@ -1,0 +1,8 @@
+E:\OpenBVE-ScoreAdder\bin_debug\Object.DirectX.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\Object.DirectX.dll
+E:\OpenBVE-ScoreAdder\bin_debug\Object.DirectX.pdb
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.DirectX\obj\Debug\Object.DirectX.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.DirectX\obj\Debug\Object.DirectX.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.DirectX\obj\Debug\Object.D.3310DA86.Up2Date
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.DirectX\obj\Debug\Object.DirectX.dll
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.DirectX\obj\Debug\Object.DirectX.pdb

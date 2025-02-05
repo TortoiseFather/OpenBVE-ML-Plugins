@@ -1,0 +1,8 @@
+E:\OpenBVE-ScoreAdder\bin_debug\Sound.MP3.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\Sound.MP3.dll
+E:\OpenBVE-ScoreAdder\bin_debug\Sound.MP3.pdb
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.MP3\obj\x86\Debug\Sound.MP3.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.MP3\obj\x86\Debug\Sound.MP3.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.MP3\obj\x86\Debug\Sound.MP3.csproj.Up2Date
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.MP3\obj\x86\Debug\Sound.MP3.dll
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.MP3\obj\x86\Debug\Sound.MP3.pdb

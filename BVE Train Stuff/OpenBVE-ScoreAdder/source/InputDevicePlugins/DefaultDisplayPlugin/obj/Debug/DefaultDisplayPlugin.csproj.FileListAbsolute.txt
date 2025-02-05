@@ -1,0 +1,10 @@
+E:\OpenBVE-ScoreAdder\bin_debug\DefaultDisplayPlugin.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\DefaultDisplayPlugin.dll
+E:\OpenBVE-ScoreAdder\bin_debug\DefaultDisplayPlugin.pdb
+E:\OpenBVE-ScoreAdder\source\InputDevicePlugins\DefaultDisplayPlugin\obj\Debug\DefaultDisplayPlugin.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\InputDevicePlugins\DefaultDisplayPlugin\obj\Debug\DefaultDisplayPlugin.Config.resources
+E:\OpenBVE-ScoreAdder\source\InputDevicePlugins\DefaultDisplayPlugin\obj\Debug\DefaultDisplayPlugin.csproj.GenerateResource.cache
+E:\OpenBVE-ScoreAdder\source\InputDevicePlugins\DefaultDisplayPlugin\obj\Debug\DefaultDisplayPlugin.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\InputDevicePlugins\DefaultDisplayPlugin\obj\Debug\DefaultD.12C3D8AB.Up2Date
+E:\OpenBVE-ScoreAdder\source\InputDevicePlugins\DefaultDisplayPlugin\obj\Debug\DefaultDisplayPlugin.dll
+E:\OpenBVE-ScoreAdder\source\InputDevicePlugins\DefaultDisplayPlugin\obj\Debug\DefaultDisplayPlugin.pdb

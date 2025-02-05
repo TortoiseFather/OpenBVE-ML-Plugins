@@ -1,0 +1,8 @@
+E:\OpenBVE-ScoreAdder\bin_debug\DevTools\LBAHeader.exe.config
+E:\OpenBVE-ScoreAdder\bin_debug\DevTools\LBAHeader.exe
+E:\OpenBVE-ScoreAdder\bin_debug\DevTools\LBAHeader.pdb
+E:\OpenBVE-ScoreAdder\source\DevTools\LBAHeader\obj\Debug\LBAHeader.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\DevTools\LBAHeader\obj\Debug\LBAHeader.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\DevTools\LBAHeader\obj\Debug\LBAHeader.csproj.Up2Date
+E:\OpenBVE-ScoreAdder\source\DevTools\LBAHeader\obj\Debug\LBAHeader.exe
+E:\OpenBVE-ScoreAdder\source\DevTools\LBAHeader\obj\Debug\LBAHeader.pdb

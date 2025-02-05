@@ -1,0 +1,9 @@
+E:\OpenBVE-ScoreAdder\bin_debug\OpenTK.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\TrainManager.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\TrainManager.dll
+E:\OpenBVE-ScoreAdder\bin_debug\TrainManager.pdb
+E:\OpenBVE-ScoreAdder\source\TrainManager\obj\Debug\TrainManager.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\TrainManager\obj\Debug\TrainManager.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\TrainManager\obj\Debug\TrainMan.066916E3.Up2Date
+E:\OpenBVE-ScoreAdder\source\TrainManager\obj\Debug\TrainManager.dll
+E:\OpenBVE-ScoreAdder\source\TrainManager\obj\Debug\TrainManager.pdb

@@ -1,0 +1,8 @@
+E:\OpenBVE-ScoreAdder\bin_debug\Sound.Vorbis.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\Sound.Vorbis.dll
+E:\OpenBVE-ScoreAdder\bin_debug\Sound.Vorbis.pdb
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.Vorbis\obj\Debug\Sound.Vorbis.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.Vorbis\obj\Debug\Sound.Vorbis.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.Vorbis\obj\Debug\Sound.Vo.4CA02DAD.Up2Date
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.Vorbis\obj\Debug\Sound.Vorbis.dll
+E:\OpenBVE-ScoreAdder\source\Plugins\Sound.Vorbis\obj\Debug\Sound.Vorbis.pdb

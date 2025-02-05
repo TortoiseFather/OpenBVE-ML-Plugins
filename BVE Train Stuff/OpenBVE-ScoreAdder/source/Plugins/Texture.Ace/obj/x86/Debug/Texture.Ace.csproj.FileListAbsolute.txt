@@ -1,0 +1,8 @@
+E:\OpenBVE-ScoreAdder\bin_debug\Texture.Ace.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\Texture.Ace.dll
+E:\OpenBVE-ScoreAdder\bin_debug\Texture.Ace.pdb
+E:\OpenBVE-ScoreAdder\source\Plugins\Texture.Ace\obj\x86\Debug\Texture.Ace.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Texture.Ace\obj\x86\Debug\Texture.Ace.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Texture.Ace\obj\x86\Debug\Texture..852CDA8F.Up2Date
+E:\OpenBVE-ScoreAdder\source\Plugins\Texture.Ace\obj\x86\Debug\Texture.Ace.dll
+E:\OpenBVE-ScoreAdder\source\Plugins\Texture.Ace\obj\x86\Debug\Texture.Ace.pdb

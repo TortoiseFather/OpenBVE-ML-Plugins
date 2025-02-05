@@ -1,0 +1,10 @@
+E:\OpenBVE-ScoreAdder\bin_debug\ObjectBender.exe.config
+E:\OpenBVE-ScoreAdder\bin_debug\ObjectBender.exe
+E:\OpenBVE-ScoreAdder\bin_debug\ObjectBender.pdb
+E:\OpenBVE-ScoreAdder\source\ObjectBender\obj\Debug\ObjectBender.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\ObjectBender\obj\Debug\ObjectBender.MainForm.resources
+E:\OpenBVE-ScoreAdder\source\ObjectBender\obj\Debug\ObjectBender.csproj.GenerateResource.cache
+E:\OpenBVE-ScoreAdder\source\ObjectBender\obj\Debug\ObjectBender.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\ObjectBender\obj\Debug\ObjectBe.A7C00A00.Up2Date
+E:\OpenBVE-ScoreAdder\source\ObjectBender\obj\Debug\ObjectBender.exe
+E:\OpenBVE-ScoreAdder\source\ObjectBender\obj\Debug\ObjectBender.pdb

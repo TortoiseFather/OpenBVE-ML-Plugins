@@ -1,0 +1,9 @@
+E:\OpenBVE-ScoreAdder\bin_debug\OpenTK.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\RouteManager2.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\RouteManager2.dll
+E:\OpenBVE-ScoreAdder\bin_debug\RouteManager2.pdb
+E:\OpenBVE-ScoreAdder\source\RouteManager2\obj\Debug\RouteManager2.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\RouteManager2\obj\Debug\RouteManager2.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\RouteManager2\obj\Debug\RouteMan.61F9E621.Up2Date
+E:\OpenBVE-ScoreAdder\source\RouteManager2\obj\Debug\RouteManager2.dll
+E:\OpenBVE-ScoreAdder\source\RouteManager2\obj\Debug\RouteManager2.pdb

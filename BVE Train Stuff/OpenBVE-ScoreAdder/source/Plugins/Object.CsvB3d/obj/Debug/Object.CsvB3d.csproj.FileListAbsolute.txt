@@ -1,0 +1,8 @@
+E:\OpenBVE-ScoreAdder\bin_debug\Object.CsvB3d.dll.config
+E:\OpenBVE-ScoreAdder\bin_debug\Object.CsvB3d.dll
+E:\OpenBVE-ScoreAdder\bin_debug\Object.CsvB3d.pdb
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.CsvB3d\obj\Debug\Object.CsvB3d.csproj.AssemblyReference.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.CsvB3d\obj\Debug\Object.CsvB3d.csproj.CoreCompileInputs.cache
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.CsvB3d\obj\Debug\Object.C.83CB344B.Up2Date
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.CsvB3d\obj\Debug\Object.CsvB3d.dll
+E:\OpenBVE-ScoreAdder\source\Plugins\Object.CsvB3d\obj\Debug\Object.CsvB3d.pdb
