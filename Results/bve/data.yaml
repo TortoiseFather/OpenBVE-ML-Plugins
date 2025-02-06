@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Person', 'Platform', 'Spedometer', 'Station', 'Track']
+
+roboflow:
+  workspace: uni1
+  project: bve
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/uni1/bve/dataset/1

@@ -1,0 +1,24 @@
+train: yolo_dataset/images  # Path to training images
+val: yolo_dataset/images    # Path to validation images
+
+nc: 19  # Number of classes
+names:  # List of class names
+  - road
+  - sidewalk
+  - construction
+  - tram-track
+  - fence
+  - pole
+  - traffic-light
+  - traffic-sign
+  - vegetation
+  - terrain
+  - sky
+  - human
+  - rail-track
+  - car
+  - truck
+  - trackbed
+  - on-rails
+  - rail-raised
+  - rail-embedded
