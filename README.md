@@ -38,9 +38,11 @@ Steps for reproducing OwO code ->
 7. F10 to show stats
 8. F to start engine, Z to increase speed, A to decrease speed
 9. Results are saved to "D:\OpenBVE_Data\OpenBVE_Train_Data\train_data_log.csv"
-10. Run OpenBVE-ML-Plugins\BVE Train Stuff\OwO Code\OwOvsBayes
+10. Open OpenBVE-ML-Plugins\BVE Train Stuff\OwO Code\OwOvsBayes
+11. Replace train_data_log.csv with your own code.
+12. Run OwOvsBayes
 
 Results will vary based upon input/datasize
 
-IF YOU CANNOT GET THE PLUGIN TO WORK:a
-Run OpenBVE-ML-Plugins\BVE Train Stuff\OwO Code\OwOvsBayesTest
+IF YOU CANNOT GET THE PLUGIN TO WORK:
+Run OpenBVE-ML-Plugins\BVE Train Stuff\OwO Code\OwOvsBayes
