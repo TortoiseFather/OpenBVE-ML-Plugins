@@ -46,3 +46,6 @@ Results will vary based upon input/datasize
 
 IF YOU CANNOT GET THE PLUGIN TO WORK:
 Run OpenBVE-ML-Plugins\BVE Train Stuff\OwO Code\OwOvsBayes
+
+IF YOU CANNOT GET THE CODE TO WORK:
+Evidence of it working can be found at OpenBVE-ML-Plugins\BVE Train Stuff\OwO Code\OwOvsBayes\results.png
