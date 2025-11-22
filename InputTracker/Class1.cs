@@ -26,12 +26,10 @@ namespace OpenBVETrainPlugin2
         private TcpClient client;
         private TcpListener listener;
 
-        // Plugin load: setup files and establish a persistent TCP connection.
         public bool Load(LoadProperties properties)
         {
             try
             {
-                // Set up directories and file paths.
                 string documentsFolder = @"E:\OpenBVE_Data";
                 Directory.CreateDirectory(documentsFolder);
                 logFilePath = Path.Combine(documentsFolder, "OpenBVE_Train_Data", "train_data_log.csv");
@@ -65,26 +63,26 @@ namespace OpenBVETrainPlugin2
                     File.WriteAllText(StateFilePath, JsonConvert.SerializeObject(initialState, Formatting.Indented));
                 }
 
-                // Establish a persistent TCP connection.
+
                 listener = new TcpListener(IPAddress.Loopback, 12345);
                 listener.Start();
                 Log("TCP listener started on port 12345, waiting for connection...");
 
-                // Accept the connection (blocking for simplicity).
                 client = listener.AcceptTcpClient();
                 Log("TCP connection established with RL agent.");
 
-                // Start a new thread to listen for incoming actions.
                 Thread actionListenerThread = new Thread(new ThreadStart(ListenForActions));
                 actionListenerThread.IsBackground = true;
                 actionListenerThread.Start();
 
-                // Disable AI support.
+                // Disable AI support. The in-built AI conflicts with my AI
                 properties.AISupport = AISupport.None;
                 return true;
             }
+
             catch (Exception ex)
             {
+                //This will just be somewhere random on your PC, if you don't choose where it is in BVE settings. I do not know a consistent way to find where this is stored.
                 File.AppendAllText("plugin_load_errors.txt", $"Error in Load: {ex.Message}\n{ex.StackTrace}\n");
                 return false;
             }
@@ -100,20 +98,17 @@ namespace OpenBVETrainPlugin2
             catch { }
         }
 
-        // Required method from IRuntime.
         public void Initialize(InitializationModes mode)
         {
             Console.WriteLine($"TrainPlugin initialized in mode: {mode}");
         }
 
-        // Handle score events.
         public void ScoreEvent(int Value, ScoreEventToken TextToken, double Duration)
         {
             currentScore += Value;
             Console.WriteLine($"Score updated: {currentScore}, Event Token: {TextToken}, Duration: {Duration}");
         }
 
-        // The simulation update (tick) method.
         public void Elapse(ElapseData data)
         {
             double speed = data.Vehicle.Speed.KilometersPerHour;
@@ -186,6 +181,7 @@ namespace OpenBVETrainPlugin2
         }
 
         // A simple reward calculation method.
+        // There's a lot of reward hacking here so I'm not too certain how to fix it.
         private double CalculateReward(ElapseData data)
         {
             double baseReward = currentScore / 8000.0;
@@ -295,6 +291,7 @@ namespace OpenBVETrainPlugin2
             try
             {
                 // Split the incoming text by newline to separate multiple JSON objects.
+                // It doesn't work otherwise.
                 string[] jsonMessages = actionJson.Split(new char[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
                 foreach (string msg in jsonMessages)
                 {
@@ -304,7 +301,6 @@ namespace OpenBVETrainPlugin2
                         JObject jObj = JObject.Parse(msg);
                      if (jObj["action"] != null)
                         {
-                            // The token type might be an integer, or something else
                             JToken token = jObj["action"];
                             if (token.Type == JTokenType.Integer)
                          {
@@ -379,7 +375,7 @@ namespace OpenBVETrainPlugin2
                                 if (commandStr.Equals("reset", StringComparison.OrdinalIgnoreCase))
                                 {
                                     Log("Received reset command.");
-                                // Implement reset logic if needed.
+                                    //this doesn't do anythingh yet
                                 }
                             }
                             else
@@ -400,8 +396,6 @@ namespace OpenBVETrainPlugin2
                 Log($"Error processing incoming action: {ex.Message}");
             }
         }
-
-        // Dedicated listener thread for incoming actions.
         private void ListenForActions()
         {
             Log("Listener started!");
